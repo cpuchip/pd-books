@@ -1,0 +1,2 @@
+# Sources are kept exactly as acquired: no line-ending conversion, so SHA256SUMS holds after a checkout.
+books/*/source/** -text

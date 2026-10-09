@@ -1,0 +1,27 @@
+[
+  {
+    "id": "F001",
+    "kind": "found-by-us",
+    "status": "confirmed",
+    "page": "255",
+    "location": "Answers to Exercises III, item (12), third formula: the alternative form",
+    "printed": "\\dfrac{R^2 (a + 2bt)}{R_0}",
+    "corrected": "-\\dfrac{R^2 (a + 2bt)}{R_0}",
+    "class": "content (sign)",
+    "evidence": "Under the book's own relation R = R_0/(1 + at + bt^2), the printed alternative equals +R_0(a + 2bt)/(1 + at + bt^2)^2, the main answer with its sign lost. Numeric check at seeded rational points, 50 digits (claudiverse judge.py, verdict PASS-ALT-ERRATUM on record III.12 part 3); confirmed by hand algebra (abacus).",
+    "found_by": "claudiverse pilot (qwenniverse-fermion); confirmed by abacus",
+    "date": "2026-10-09"
+  },
+  {
+    "id": "C001",
+    "kind": "candidate",
+    "status": "to be checked by the judge at set XII",
+    "location": "Answers to Exercises XII, item (14): the minimum",
+    "printed": "x = 0.694",
+    "corrected": "x = 0.693",
+    "class": "content (last digit)",
+    "evidence": "3^(-1/3) = 0.693361..., 0.693 at the printed digits; the STU-32 core and mpmath agree (tutor's acceptance run). y = 0.7 is right.",
+    "found_by": "tutor (stu32-calc acceptance)",
+    "date": "2026-10-09"
+  }
+]
