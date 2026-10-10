@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
  "generated_from": {
-  "claudiverse_commit": "9791178",
-  "generated_at": "2026-10-10T11:10:12Z"
+  "claudiverse_commit": "4a88328",
+  "generated_at": "2026-10-10T11:13:12Z"
  },
  "node_types": [
   "book",
@@ -6613,7 +6613,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9791178",
+    "commit": "4a88328",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -6652,7 +6652,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9791178",
+    "commit": "4a88328",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -6695,7 +6695,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9791178",
+    "commit": "4a88328",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -6734,7 +6734,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9791178",
+    "commit": "4a88328",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -6772,7 +6772,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9791178",
+    "commit": "4a88328",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -6815,7 +6815,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9791178",
+    "commit": "4a88328",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -6858,7 +6858,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9791178",
+    "commit": "4a88328",
     "verdicts": [
      "FLAG-EXTRACTION"
     ]
@@ -6897,7 +6897,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9791178",
+    "commit": "4a88328",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -6936,7 +6936,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9791178",
+    "commit": "4a88328",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -6974,7 +6974,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9791178",
+    "commit": "4a88328",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7018,7 +7018,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9791178",
+    "commit": "4a88328",
     "verdicts": [
      "FLAG-MISSING"
     ]
@@ -7062,7 +7062,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9791178",
+    "commit": "4a88328",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7101,7 +7101,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9791178",
+    "commit": "4a88328",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7141,7 +7141,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9791178",
+    "commit": "4a88328",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7182,7 +7182,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9791178",
+    "commit": "4a88328",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7226,7 +7226,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9791178",
+    "commit": "4a88328",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7265,7 +7265,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9791178",
+    "commit": "4a88328",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7305,7 +7305,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9791178",
+    "commit": "4a88328",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7348,7 +7348,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9791178",
+    "commit": "4a88328",
     "verdicts": [
      "FLAG-MISSING"
     ]
@@ -7393,7 +7393,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9791178",
+    "commit": "4a88328",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7433,7 +7433,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9791178",
+    "commit": "4a88328",
     "verdicts": [
      "FLAG-MISSING"
     ]
@@ -7478,7 +7478,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9791178",
+    "commit": "4a88328",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7521,7 +7521,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9791178",
+    "commit": "4a88328",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7560,7 +7560,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9791178",
+    "commit": "4a88328",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7599,7 +7599,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9791178",
+    "commit": "4a88328",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7639,7 +7639,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9791178",
+    "commit": "4a88328",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7678,7 +7678,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9791178",
+    "commit": "4a88328",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7717,7 +7717,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9791178",
+    "commit": "4a88328",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7755,7 +7755,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9791178",
+    "commit": "4a88328",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7793,7 +7793,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9791178",
+    "commit": "4a88328",
     "verdicts": [
      "FLAG-MISSING"
     ]
@@ -7840,7 +7840,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "9791178",
+    "commit": "4a88328",
     "verdicts": [
      "PASS"
     ]
@@ -7870,6 +7870,15 @@
      ],
      "calculator_value": "+326E+0",
      "printed_value": "326",
+     "core_pins": {
+      "firmware": "628c96c8634194ec8196315d8aa75f88f04d49e6",
+      "casim": "dbb6d4c6f1014957b14a1711d2369aa70cb63b24",
+      "stu32-tutor": "1fe14f61238f3b829624546f726f74b24a0b7b9a",
+      "intel-dfp-sha256": "85dafd70f0fe2a8da218ade4233fca9d3228b0b04cd6d8527f7499926be01037",
+      "builder": "gcc@sha256:9188ac751ca24431dc43dbd142a223c98ea74f01d2858e84d30ba342a0d67844",
+      "base": "gcr.io/distroless/cc-debian13@sha256:e792ab3d241a468a4fd7519ddbbebe66b49b5f365771716ea688ad40b6c6f1c2"
+     },
+     "records_checker": "stu32-tutor tools/records.py at fa8658e (vendor/records.py, copied unmodified)",
      "checked_by": "stu32-calc ran the keys; mpmath at 50 digits agrees to 1E-30; tutor's records.py accepted them"
     }
    ]
@@ -7898,7 +7907,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9791178",
+    "commit": "4a88328",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7937,7 +7946,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9791178",
+    "commit": "4a88328",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7975,7 +7984,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9791178",
+    "commit": "4a88328",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8014,7 +8023,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9791178",
+    "commit": "4a88328",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8054,7 +8063,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9791178",
+    "commit": "4a88328",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8092,7 +8101,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9791178",
+    "commit": "4a88328",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8130,7 +8139,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9791178",
+    "commit": "4a88328",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8169,7 +8178,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9791178",
+    "commit": "4a88328",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8208,7 +8217,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9791178",
+    "commit": "4a88328",
     "verdicts": [
      "FLAG-MISSING"
     ]
@@ -8250,7 +8259,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9791178",
+    "commit": "4a88328",
     "verdicts": [
      "FLAG-MISSING"
     ]
@@ -8296,7 +8305,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "9791178",
+    "commit": "4a88328",
     "verdicts": [
      "PASS"
     ]
@@ -8339,6 +8348,15 @@
      ],
      "calculator_value": "+9093266739736605791019093292905830E-34",
      "printed_value": "0.91",
+     "core_pins": {
+      "firmware": "628c96c8634194ec8196315d8aa75f88f04d49e6",
+      "casim": "dbb6d4c6f1014957b14a1711d2369aa70cb63b24",
+      "stu32-tutor": "1fe14f61238f3b829624546f726f74b24a0b7b9a",
+      "intel-dfp-sha256": "85dafd70f0fe2a8da218ade4233fca9d3228b0b04cd6d8527f7499926be01037",
+      "builder": "gcc@sha256:9188ac751ca24431dc43dbd142a223c98ea74f01d2858e84d30ba342a0d67844",
+      "base": "gcr.io/distroless/cc-debian13@sha256:e792ab3d241a468a4fd7519ddbbebe66b49b5f365771716ea688ad40b6c6f1c2"
+     },
+     "records_checker": "stu32-tutor tools/records.py at fa8658e (vendor/records.py, copied unmodified)",
      "checked_by": "stu32-calc ran the keys; mpmath at 50 digits agrees to 1E-30; tutor's records.py accepted them"
     }
    ]
@@ -8367,7 +8385,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9791178",
+    "commit": "4a88328",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8406,7 +8424,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9791178",
+    "commit": "4a88328",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8445,7 +8463,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9791178",
+    "commit": "4a88328",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8484,7 +8502,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9791178",
+    "commit": "4a88328",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8522,7 +8540,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9791178",
+    "commit": "4a88328",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8558,7 +8576,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9791178",
+    "commit": "4a88328",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8596,7 +8614,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9791178",
+    "commit": "4a88328",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8635,7 +8653,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9791178",
+    "commit": "4a88328",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8675,7 +8693,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9791178",
+    "commit": "4a88328",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8715,7 +8733,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9791178",
+    "commit": "4a88328",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8753,7 +8771,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9791178",
+    "commit": "4a88328",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8792,7 +8810,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9791178",
+    "commit": "4a88328",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8830,7 +8848,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9791178",
+    "commit": "4a88328",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8868,7 +8886,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9791178",
+    "commit": "4a88328",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8906,7 +8924,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9791178",
+    "commit": "4a88328",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8945,7 +8963,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9791178",
+    "commit": "4a88328",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8984,7 +9002,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9791178",
+    "commit": "4a88328",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -9022,7 +9040,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9791178",
+    "commit": "4a88328",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -9060,7 +9078,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9791178",
+    "commit": "4a88328",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -9098,7 +9116,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9791178",
+    "commit": "4a88328",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
