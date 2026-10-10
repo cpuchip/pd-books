@@ -1,24 +1,40 @@
 # pd-books
 
-Public-domain books we read closely, each kept as acquired with its errata collected beside it.
-Started 2026-10-09 on Michael's word: "With these open-source books, if we find errata ourselves
-lets create a books repo and put the original source and the collected errata!"
+Public-domain math and physics books we read closely, each kept as acquired with the errata we
+collect beside it. The aim is a list of corrections other readers (and Project Gutenberg itself) can
+use, with the evidence for each one attached.
 
     books/<slug>/source/       the files exactly as acquired, with SHA256SUMS
     books/<slug>/book.json     title, author, edition, source file and URL
     books/<slug>/found.json    errata we found ourselves, and candidates, each with its evidence
     books/<slug>/evidence/     what settled an entry (a crop of a scanned page, for one)
-    books/<slug>/errata.yaml   GENERATED: the source's transcriber-marked errata plus found.json
-    tools/make_errata.py       builds errata.yaml from the source (so the list cannot drift)
+    books/<slug>/errata.yaml   generated: the source's transcriber-marked errata plus found.json
+    export/                    the books as data for learn.cpuchip.net (chapters, excerpts,
+                               equations, problems with checked answers, and how the books relate)
+    tools/make_errata.py       builds errata.yaml from the source, so the list cannot drift from it
+    tools/publish_shelf.py     brings the export in and refuses one that fails its checks
 
-Kinds of erratum: `transcriber-marked` (Project Gutenberg's proofreaders marked the original's
-misprint in the source as \DPtypo{printed}{corrected}), `found-by-us` (confirmed, with the
-computation or algebra that shows it), `transcription` (the transcription differs from the printed
-page, settled against a scan named in the entry; the book itself is right), and `candidate`
-(reported, not yet confirmed).
+## Kinds of erratum
 
-The sources are unmodified Project Gutenberg files and carry the Project Gutenberg License and
-trademark text; redistributing them follows that license. The errata files are ours.
+- `transcriber-marked`: Project Gutenberg's proofreaders marked a misprint in the original as
+  `\DPtypo{printed}{corrected}` in the source.
+- `found-by-us`: a misprint we found and confirmed, with the computation or algebra that shows it.
+- `transcription`: the transcription differs from the printed page and the book itself is right,
+  settled against a scan named in the entry.
+- `candidate`: reported, not yet confirmed.
 
-Visibility: private until Michael decides (the books are public domain; the errata are meant to
-be useful to others).
+## How errata are found
+
+The problems in each book are read into records (the problem and the printed answer, quoted exactly
+from the source) by a language-model pipeline, and every answer is then checked by computation: exact
+rational arithmetic and 50-digit sampling at seeded points, with a proof where the degree allows it.
+A record whose answer fails the check is read by a person against the source before anything is
+filed here, and an entry says who found it and how it was confirmed.
+
+## Licence
+
+- The files under `books/*/source/` are unmodified Project Gutenberg files. They carry the Project
+  Gutenberg License and trademark text, and redistributing them follows that license.
+- Everything else that is data (errata, evidence, the export) is dedicated to the public domain under
+  CC0 1.0 (`LICENSE-CC0`), so anyone can fold the corrections into their own copy with no conditions.
+- The tools are under the MIT License (`LICENSE-MIT`).
