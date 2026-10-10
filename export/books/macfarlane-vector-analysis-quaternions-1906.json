@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
  "generated_from": {
-  "claudiverse_commit": "412d176",
-  "generated_at": "2026-10-10T11:01:36Z"
+  "claudiverse_commit": "9791178",
+  "generated_at": "2026-10-10T11:10:12Z"
  },
  "node_types": [
   "book",
@@ -60,7 +60,7 @@
    "source": "Project Gutenberg eBook #13609",
    "url": "https://www.gutenberg.org/ebooks/13609",
    "released": "October 5, 2004",
-   "licence_terms": "This eBook is for the use of anyone anywhere in the United States and most other parts of the world at no cost and with almost no restrictions whatsoever. You may copy it, give it away or re-use it under the terms of the Project Gutenberg License included with this eBook or online at www.gutenberg.org. If you are not located in the United States, you"
+   "licence_terms": "This eBook is for the use of anyone anywhere in the United States and most other parts of the world at no cost and with almost no restrictions whatsoever. You may copy it, give it away or re-use it under the terms of the Project Gutenberg License included with this eBook or online at www.gutenberg.org. If you are not located in the United States, you will have to check the laws of the country where you are located before using this eBook."
   },
   "file": "books/macfarlane-vector-analysis-quaternions-1906.json"
  },
@@ -535,7 +535,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-introduction",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Introduction",
    "latex": "By ``Vector Analysis'' is meant a space analysis in which the vector is the fundamental idea; by ``Quaternions'' is meant a space-analysis in which the quaternion is the fundamental idea.",
    "markdown": "By “Vector Analysis” is meant a space analysis in which the vector is the fundamental idea; by “Quaternions” is meant a space-analysis in which the quaternion is the fundamental idea.",
    "why": "It gives the learner the chapter's two defining statements side by side, showing that vectors and quaternions are two views of one space analysis.",
@@ -555,7 +556,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-introduction",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Introduction",
    "latex": "Every proposition about quantities in space ought to remain true when restricted to a plane; just as propositions about quantities in a plane remain true when restricted to a straight line.",
    "markdown": "Every proposition about quantities in space ought to remain true when restricted to a plane; just as propositions about quantities in a plane remain true when restricted to a straight line.",
    "why": "It states the principle that results should descend from space to plane to line, which tells a learner why the chapter builds up in stages.",
@@ -573,7 +575,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-introduction",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Introduction",
    "latex": "This space analysis is a universal Cartesian analysis, in the same manner as algebra is a universal arithmetic.",
    "markdown": "This space analysis is a universal Cartesian analysis, in the same manner as algebra is a universal arithmetic.",
    "why": "It offers an analogy a learner can hold onto: space analysis stands to Cartesian analysis as algebra stands to arithmetic.",
@@ -593,7 +596,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-introduction",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Introduction",
    "latex": "It also has this advantage that it can express the directed quantity by a linear function of the coordinates, instead of in a roundabout way by means of a quadratic function.",
    "markdown": "It also has this advantage that it can express the directed quantity by a linear function of the coordinates, instead of in a roundabout way by means of a quadratic function.",
    "why": "It explains in one sentence why a linear expression for directed quantities is an advance over the quadratic route of Cartesian analysis.",
@@ -612,7 +616,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-addition-of-coplanar-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Addition of Coplanar Vectors",
    "latex": "By a ``vector'' is meant a quantity which has magnitude and direction.",
    "markdown": "By a “vector” is meant a quantity which has magnitude and direction.",
    "why": "It gives the chapter's defining idea of a vector in one sentence, before any notation or figures.",
@@ -630,7 +635,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-addition-of-coplanar-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Addition of Coplanar Vectors",
    "latex": "Though a vector is represented by a line, its physical dimensions may be different from that of a line.",
    "markdown": "Though a vector is represented by a line, its physical dimensions may be different from that of a line.",
    "why": "It warns learners that a vector drawn as a line can stand for a quantity with more than one dimension, such as a directed area.",
@@ -647,7 +653,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-addition-of-coplanar-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Addition of Coplanar Vectors",
    "latex": "The diagonal $OC$ represents in magnitude and direction and point of application the resultant of $OA$ and $OB$.",
    "markdown": "The diagonal $OC$ represents in magnitude and direction and point of application the resultant of $OA$ and $OB$.",
    "why": "It states the parallelogram rule for adding two forces at a point, which is the basis of the chapter's method.",
@@ -665,7 +672,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-addition-of-coplanar-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Addition of Coplanar Vectors",
    "latex": "The composition of successive vectors partakes more of the nature of multiplication than of addition.",
    "markdown": "The composition of successive vectors partakes more of the nature of multiplication than of addition.",
    "why": "It tells learners that vectors placed end to end do not add in the ordinary way, which is the chapter's key contrast.",
@@ -683,7 +691,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-addition-of-coplanar-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Addition of Coplanar Vectors",
    "latex": "The area between the curve $OPQ$ and the vector $OQ$ depends on the path, and has a physical meaning.",
    "markdown": "The area between the curve $OPQ$ and the vector $OQ$ depends on the path, and has a physical meaning.",
    "why": "It shows why the path taken matters for successive vectors, and that the area it encloses has a physical meaning.",
@@ -700,7 +709,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-addition-of-coplanar-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Addition of Coplanar Vectors",
    "latex": "In the case of a sum of simultaneous vectors applied at a common point, the ordinary rule about the transposition of a term in an equation holds good.",
    "markdown": "In the case of a sum of simultaneous vectors applied at a common point, the ordinary rule about the transposition of a term in an equation holds good.",
    "why": "It tells learners when the ordinary rules of algebra carry over to vectors, and when they do not.",
@@ -717,7 +727,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-addition-of-coplanar-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Addition of Coplanar Vectors",
    "latex": "``Reverse the direction of the component, then compound it with the given resultant to find the required component.''",
    "markdown": "“Reverse the direction of the component, then compound it with the given resultant to find the required component.”",
    "why": "It gives the practical rule for finding a missing component, in words a learner can follow.",
@@ -733,7 +744,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-addition-of-coplanar-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Addition of Coplanar Vectors",
    "latex": "It is a mistake to attempt to found space-analysis upon arbitrary formal laws; the fundamental rules must be made to express universal properties of the thing denoted.",
    "markdown": "It is a mistake to attempt to found space-analysis upon arbitrary formal laws; the fundamental rules must be made to express universal properties of the thing denoted.",
    "why": "It shows the author's view that vector rules should follow the physical meaning of the quantities, not formal convenience.",
@@ -751,7 +763,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-products-of-coplanar-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Products of Coplanar Vectors",
    "latex": "Its geometrical meaning is the product of $A$ and the orthogonal projection of $B$ upon $A$.",
    "markdown": "Its geometrical meaning is the product of $A$ and the orthogonal projection of $B$ upon $A$.",
    "why": "It gives the picture of the scalar product as a length times a projection, which learners can check on a diagram.",
@@ -766,7 +779,7 @@
     "method/scalar-product"
    ],
    "pages": [
-    ""
+    null
    ],
    "chapters": [
     "macfarlane-vector-analysis-quaternions-1906/ch-products-of-coplanar-vectors",
@@ -778,7 +791,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-products-of-coplanar-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Products of Coplanar Vectors",
    "latex": "The geometrical meaning of $\\mathrm{S}AB$ is the product of $A$ and the orthogonal projection of $B$ upon $A$.",
    "markdown": "The geometrical meaning of $\\mathrm{S}AB$ is the product of $A$ and the orthogonal projection of $B$ upon $A$.",
    "why": "It gives the learner the picture behind the scalar product as a length times a projection.",
@@ -794,7 +808,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-products-of-coplanar-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Products of Coplanar Vectors",
    "latex": "By the reciprocal of a vector is meant the vector which combined with the original vector produces the product $+1$.",
    "markdown": "By the reciprocal of a vector is meant the vector which combined with the original vector produces the product $+1$.",
    "why": "It defines the reciprocal of a vector in the form a learner can check by multiplying.",
@@ -810,7 +825,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-products-of-coplanar-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Products of Coplanar Vectors",
    "latex": "A common explanation which is given of $ij = k$ is that $i$ is an operator, $j$ an operand, and $k$ the result. The kind of operator which $i$ is supposed to denote is a quadrant of turning round the axis $i$; it is supposed not to be an axis, but a quadrant of rotation round an axis. This explains the result $ij = k$, but unfortunately it does not explain $ii = +$; for it would give $ii = i$.",
    "markdown": "A common explanation which is given of $ij = k$ is that $i$ is an operator, $j$ an operand, and $k$ the result. The kind of operator which $i$ is supposed to denote is a quadrant of turning round the axis $i$; it is supposed not to be an axis, but a quadrant of rotation round an axis. This explains the result $ij = k$, but unfortunately it does not explain $ii = +$; for it would give $ii = i$.",
    "why": "It shows the historical attempt to explain $ij = k$ and where that explanation fails, which helps learners see why the rule must be stated.",
@@ -827,7 +843,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-products-of-coplanar-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Products of Coplanar Vectors",
    "latex": "the whole kinetic energy is obtained, not by vector, but by simple addition, when the components are rectangular.",
    "markdown": "the whole kinetic energy is obtained, not by vector, but by simple addition, when the components are rectangular.",
    "why": "It shows that energy, a scalar, is found by ordinary addition of component energies, which makes a useful contrast with vector quantities.",
@@ -844,7 +861,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-products-of-coplanar-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Products of Coplanar Vectors",
    "latex": "It follows that $\\mathrm{V}BA = -\\mathrm{V}AB$. It is to be observed that the coordinates of $A$ and $B$ are mere component vectors, whereas $A$ and $B$ themselves are taken in a real order.",
    "markdown": "It follows that $\\mathrm{V}BA = -\\mathrm{V}AB$. It is to be observed that the coordinates of $A$ and $B$ are mere component vectors, whereas $A$ and $B$ themselves are taken in a real order.",
    "why": "It warns learners that the order of the vectors matters for the vector product, even though the components are only added.",
@@ -860,7 +878,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-products-of-coplanar-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Products of Coplanar Vectors",
    "latex": "We assume that their product is obtained by applying the distributive law, but we do not assume that the order of the factors is indifferent.",
    "markdown": "We assume that their product is obtained by applying the distributive law, but we do not assume that the order of the factors is indifferent.",
    "why": "It states the two assumptions behind the product: distributivity holds, but commutativity is not assumed.",
@@ -877,7 +896,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-coaxial-quaternions",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Coaxial Quaternions",
    "latex": "By a ``quaternion'' is meant the operator which changes one vector into another. It is composed of a magnitude and a turning factor.",
    "markdown": "By a “quaternion” is meant the operator which changes one vector into another. It is composed of a magnitude and a turning factor.",
    "why": "Gives the learner the working definition of a quaternion as an operator on vectors before any formula appears.",
@@ -895,7 +915,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-coaxial-quaternions",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Coaxial Quaternions",
    "latex": "Let $A$ and $R$ be two coinitial vectors; the direction normal to the plane may be denoted by $\\beta$. The operator which changes $A$ into $R$ consists of a scalar multiplier and a turning round the axis $\\beta$.",
    "markdown": "Let $A$ and $R$ be two coinitial vectors; the direction normal to the plane may be denoted by $\\beta$. The operator which changes $A$ into $R$ consists of a scalar multiplier and a turning round the axis $\\beta$.",
    "why": "Shows concretely how a quaternion splits into a scalar multiplier and a turning about a fixed axis.",
@@ -913,7 +934,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-coaxial-quaternions",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Coaxial Quaternions",
    "latex": "The resistance is the scalar part of the quaternion, and the inductance is the vector part.",
    "markdown": "The resistance is the scalar part of the quaternion, and the inductance is the vector part.",
    "why": "Links the physical quantities of an alternating circuit to the scalar and vector parts of one quaternion.",
@@ -931,7 +953,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-coaxial-quaternions",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Coaxial Quaternions",
    "latex": "Etymologically ``quaternion'' means defined by four elements; which is true in space; in plane analysis it is defined by two.",
    "markdown": "Etymologically “quaternion” means defined by four elements; which is true in space; in plane analysis it is defined by two.",
    "why": "Explains why the name quaternion fits space but a plane needs only two elements, a useful point for a learner who meets the word first.",
@@ -947,7 +970,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-coaxial-quaternions",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Coaxial Quaternions",
    "latex": "Note that the product is formed by taking the product of the magnitudes, and likewise the product of the turning factors.",
    "markdown": "Note that the product is formed by taking the product of the magnitudes, and likewise the product of the turning factors.",
    "why": "States plainly how two quaternions multiply, magnitudes with magnitudes and turnings with turnings.",
@@ -963,7 +987,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-coaxial-quaternions",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Coaxial Quaternions",
    "latex": "The angles are summed because they are indices of the common base $\\beta$.",
    "markdown": "The angles are summed because they are indices of the common base $\\beta$.",
    "why": "Explains why angles add on multiplication: they act as exponents of one base.",
@@ -980,7 +1005,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-coaxial-quaternions",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Coaxial Quaternions",
    "latex": "This is the fundamental error in the Argand method.",
    "markdown": "This is the fundamental error in the Argand method.",
    "why": "Warns that treating coaxial quaternion products as vector products is a serious conceptual mistake.",
@@ -998,7 +1024,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-addition-of-vectors-in-space",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Addition of Vectors in Space",
    "latex": "A vector in space can be expressed in terms of three independent components, and when these form a rectangular set the directions of resolution are expressed by $i$, $j$, $k$.",
    "markdown": "A vector in space can be expressed in terms of three independent components, and when these form a rectangular set the directions of resolution are expressed by $i$, $j$, $k$.",
    "why": "It states in one sentence why a space vector needs three components and what the i, j, k directions are for.",
@@ -1016,7 +1043,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-addition-of-vectors-in-space",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Addition of Vectors in Space",
    "latex": "In space the symbol $\\rho$ for the direction involves two elements.",
    "markdown": "In space the symbol $\\rho$ for the direction involves two elements.",
    "why": "It tells a learner that direction in space needs two angles, where a plane needs only one.",
@@ -1032,7 +1060,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-addition-of-vectors-in-space",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Addition of Vectors in Space",
    "latex": "The additional angle $\\overline{\\phi/}$ is introduced to specify the plane in which the angle from the initial line lies.",
    "markdown": "The additional angle $\\overline{\\phi/}$ is introduced to specify the plane in which the angle from the initial line lies.",
    "why": "It explains the role of the extra angle phi in fixing the plane before the angle theta is measured.",
@@ -1049,7 +1078,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-addition-of-vectors-in-space",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Addition of Vectors in Space",
    "latex": "When the successive vectors do not lie in one plane, the several elements of the area enclosed will lie in different planes, but these add by vector addition into a resultant directed area.",
    "markdown": "When the successive vectors do not lie in one plane, the several elements of the area enclosed will lie in different planes, but these add by vector addition into a resultant directed area.",
    "why": "It shows that vectors not in one plane still combine by the same addition, giving a resultant that is a directed area.",
@@ -1067,7 +1097,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-product-of-two-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Product of Two Vectors",
    "latex": "The formula $\\text{velocity flux} = \\text{electromotive-force}$ is much handier than any thumb-and-finger rule; for it compares the three directions directly with the right-handed screw.",
    "markdown": "The formula $\\text{velocity flux} = \\text{electromotive-force}$ is much handier than any thumb-and-finger rule; for it compares the three directions directly with the right-handed screw.",
    "why": "It gives learners a single formula that fixes the direction of the induced force, which is easier than a hand rule.",
@@ -1085,7 +1116,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-product-of-two-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Product of Two Vectors",
    "latex": "The square combinations give results which are independent of direction, and consequently are summed by simple addition.",
    "markdown": "The square combinations give results which are independent of direction, and consequently are summed by simple addition.",
    "why": "It explains why the scalar part of a product is a plain sum of component products.",
@@ -1102,7 +1134,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-product-of-two-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Product of Two Vectors",
    "latex": "The vector product as before is denoted by $\\mathrm{V}AB$. It means the product of $A$ and the component of $B$ which is perpendicular to $A$, and is represented by the area of the parallelogram formed by $A$ and $B$.",
    "markdown": "The vector product as before is denoted by $\\mathrm{V}AB$. It means the product of $A$ and the component of $B$ which is perpendicular to $A$, and is represented by the area of the parallelogram formed by $A$ and $B$.",
    "why": "It ties the vector product to the area of the parallelogram the two vectors span.",
@@ -1120,7 +1153,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-product-of-two-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Product of Two Vectors",
    "latex": "The product is positive when the vector and the projection have the same direction, and negative when they have opposite directions.",
    "markdown": "The product is positive when the vector and the projection have the same direction, and negative when they have opposite directions.",
    "why": "It states the sign convention for the scalar product so learners can predict the sign of a result.",
@@ -1136,7 +1170,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-product-of-two-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Product of Two Vectors",
    "latex": "Frequently all that is demanded is, given two of these directions to determine the third.",
    "markdown": "Frequently all that is demanded is, given two of these directions to determine the third.",
    "why": "It shows the practical question the screw rule answers, which motivates the rule before the formula.",
@@ -1153,7 +1188,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-product-of-two-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Product of Two Vectors",
    "latex": "In a sum of vectors, the vectors are necessarily homogeneous, but in a product the vectors may be heterogeneous.",
    "markdown": "In a sum of vectors, the vectors are necessarily homogeneous, but in a product the vectors may be heterogeneous.",
    "why": "It warns learners that a product of vectors may combine different kinds of quantity, unlike a sum.",
@@ -1170,7 +1206,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-product-of-three-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Product of Three Vectors",
    "latex": "The third product $\\mathrm{S}(\\mathrm{V}AB)C$ is represented by the volume of the parallelepiped formed by the vectors $A, B, C$ taken in that order.",
    "markdown": "The third product $\\mathrm{S}(\\mathrm{V}AB)C$ is represented by the volume of the parallelepiped formed by the vectors $A, B, C$ taken in that order.",
    "why": "It gives the geometric meaning of the scalar triple product, which the learner can check against a sketch.",
@@ -1189,7 +1226,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-product-of-three-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Product of Three Vectors",
    "latex": "Hence the volume formed by the three vectors has no direction in space, but it is positive or negative according to the cyclical order of the vectors.",
    "markdown": "Hence the volume formed by the three vectors has no direction in space, but it is positive or negative according to the cyclical order of the vectors.",
    "why": "It warns the learner that the sign of the triple product depends on the order of the vectors, not on a direction.",
@@ -1206,7 +1244,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-product-of-three-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Product of Three Vectors",
    "latex": "It is merely the third vector multiplied by the scalar product of the other two, or weighted by that product as an ordinary algebraic quantity.",
    "markdown": "It is merely the third vector multiplied by the scalar product of the other two, or weighted by that product as an ordinary algebraic quantity.",
    "why": "It explains the first partial product in plain terms, so the learner sees it as a scaled vector.",
@@ -1223,7 +1262,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-product-of-three-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Product of Three Vectors",
    "latex": "Hence any of the three former may be expressed by $\\mathrm{S}ABC$, and any of the three latter by $-\\mathrm{S}ABC$.",
    "markdown": "Hence any of the three former may be expressed by $\\mathrm{S}ABC$, and any of the three latter by $-\\mathrm{S}ABC$.",
    "why": "It shows that the cyclic permutations change the sign, which is a common source of error.",
@@ -1239,7 +1279,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-product-of-three-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Product of Three Vectors",
    "latex": "The principle here proved is of great use in solving equations (see p.~455).",
    "markdown": "The principle here proved is of great use in solving equations (see p. 455).",
    "why": "It tells the learner why the decomposition of the vector product matters beyond this chapter.",
@@ -1256,7 +1297,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-composition-of-quantities",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Composition of Quantities",
    "latex": "The equation states that the mass $m$ at the extremity of the vector $A$ is equivalent to the equal mass at the extremity of $R$, together with the said mass-vector applied at the extremity of $R$.",
    "markdown": "The equation states that the mass $m$ at the extremity of the vector $A$ is equivalent to the equal mass at the extremity of $R$, together with the said mass-vector applied at the extremity of $R$.",
    "why": "It states in one line the physical meaning of moving a mass from one point to another: the same effect plus a mass-vector.",
@@ -1273,7 +1315,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-composition-of-quantities",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Composition of Quantities",
    "latex": "This equation asserts that a force $F$ applied at the extremity of $A$ is equivalent to an equal force applied at the extremity of $R$ together with a couple whose magnitude and direction are given by the vector product of the radius-vector from the extremity of $R$ to the extremity of $A$ and the force.",
    "markdown": "This equation asserts that a force $F$ applied at the extremity of $A$ is equivalent to an equal force applied at the extremity of $R$ together with a couple whose magnitude and direction are given by the vector product of the radius-vector from the extremity of $R$ to the extremity of $A$ and the force.",
    "why": "It gives the rule for moving a force to another point, with the couple it leaves behind, in words a learner can follow before the symbols.",
@@ -1291,7 +1334,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-composition-of-quantities",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Composition of Quantities",
    "latex": "The product $m(A - R)$ is what Clerk Maxwell called a mass-vector, and means the directed moment of $m$ with respect to the extremity of $R$.",
    "markdown": "The product $m(A - R)$ is what Clerk Maxwell called a mass-vector, and means the directed moment of $m$ with respect to the extremity of $R$.",
    "why": "It records the term's origin with Maxwell and explains it as a directed moment, which gives a historical hook for the mass-vector.",
@@ -1308,7 +1352,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-composition-of-quantities",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Composition of Quantities",
    "latex": "The term (2) means the projection of $R$ upon that line.",
    "markdown": "The term (2) means the projection of $R$ upon that line.",
    "why": "It shows how the resultant's component along the central axis is read off as a projection, a step learners often miss.",
@@ -1324,7 +1369,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-composition-of-quantities",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Composition of Quantities",
    "latex": "This is the same straight line as before, only no relation is now imposed on the directions of $\\sum F$ and $\\sum \\mathrm{V}AF$; hence there always is a central axis.",
    "markdown": "This is the same straight line as before, only no relation is now imposed on the directions of $\\sum F$ and $\\sum \\mathrm{V}AF$; hence there always is a central axis.",
    "why": "It explains why a central axis always exists for any system of forces, which is the key claim of the section.",
@@ -1341,7 +1387,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-spherical-trigonometry",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Spherical Trigonometry",
    "latex": "By $i^\\frac{\\pi}{2}j^\\frac{\\pi}{2}$ is meant a quadrant round $i$ followed by a quadrant round $j$; it is equivalent to the quadrant from $j$ to $i$, that is, to $-k^\\frac{\\pi}{2}$.",
    "markdown": "By $i^\\frac{\\pi}{2}j^\\frac{\\pi}{2}$ is meant a quadrant round $i$ followed by a quadrant round $j$; it is equivalent to the quadrant from $j$ to $i$, that is, to $-k^\\frac{\\pi}{2}$.",
    "why": "It shows a learner exactly how the order of two right-angle turns decides the sign of the resulting versor.",
@@ -1359,7 +1406,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-spherical-trigonometry",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Spherical Trigonometry",
    "latex": "This quadrantal version can be decomposed into the three rectangular components $li^\\frac{\\pi}{2}$, $mj^\\frac{\\pi}{2}$, $nk^\\frac{\\pi}{2}$; and these components are not successive versions, but the parts of one version.",
    "markdown": "This quadrantal version can be decomposed into the three rectangular components $li^\\frac{\\pi}{2}$, $mj^\\frac{\\pi}{2}$, $nk^\\frac{\\pi}{2}$; and these components are not successive versions, but the parts of one version.",
    "why": "It explains that a quarter-turn about any axis splits into three coordinate quarter-turns that are parts of one version, not steps taken in turn.",
@@ -1376,7 +1424,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-spherical-trigonometry",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Spherical Trigonometry",
    "latex": "where $A$ denotes the external angle instead of the angle included by the sides.",
    "markdown": "where $A$ denotes the external angle instead of the angle included by the sides.",
    "why": "It warns the reader that the angle in the fundamental theorem here is the external one, so the familiar formula takes a different sign convention.",
@@ -1393,7 +1442,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-spherical-trigonometry",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Spherical Trigonometry",
    "latex": "The second term is the directed sine of the angle; for the square of (2) is equal to 1 minus the square of (1), and its direction is normal to the plane of the product angle.",
    "markdown": "The second term is the directed sine of the angle; for the square of (2) is equal to 1 minus the square of (1), and its direction is normal to the plane of the product angle.",
    "why": "It gives a vivid picture of the directed sine as a vector perpendicular to the plane of the angle, tied to the identity sin squared plus cos squared equals one.",
@@ -1412,7 +1462,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-spherical-trigonometry",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Spherical Trigonometry",
    "latex": "In the present theory of diplanar quaternions we cannot expect to find that the sum of the logarithms of any two proposed factors shall be generally equal to the logarithm of the product;",
    "markdown": "In the present theory of diplanar quaternions we cannot expect to find that the sum of the logarithms of any two proposed factors shall be generally equal to the logarithm of the product;",
    "why": "It records Hamilton's own doubt about logarithms in diplanar quaternions, which the author then resolves for successive versors.",
@@ -1429,7 +1480,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-spherical-trigonometry",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Spherical Trigonometry",
    "latex": "where the coefficients are those of the binomial theorem, the only difference being that $\\cos \\beta\\gamma$ occurs in all the odd terms as a factor.",
    "markdown": "where the coefficients are those of the binomial theorem, the only difference being that $\\cos \\beta\\gamma$ occurs in all the odd terms as a factor.",
    "why": "It shows a learner that the familiar binomial coefficients carry over to spherical expansions with one extra cosine factor on the odd terms.",
@@ -1446,7 +1498,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-composition-of-rotations",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Composition of Rotations",
    "latex": "A version refers to the change of direction of a line, but a rotation refers to a rigid body. The composition of rotations is a different matter from the composition of versions.",
    "markdown": "A version refers to the change of direction of a line, but a rotation refers to a rigid body. The composition of rotations is a different matter from the composition of versions.",
    "why": "It separates a turning line from a turning rigid body before any algebra begins, which prevents a common confusion.",
@@ -1464,7 +1517,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-composition-of-rotations",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Composition of Rotations",
    "latex": "Suppose that a rigid body rotates $\\theta$~radians round the axis $\\beta$ passing through the point $O$, and that $R$ is the radius vector from $O$ to some particle.",
    "markdown": "Suppose that a rigid body rotates $\\theta$ radians round the axis $\\beta$ passing through the point $O$, and that $R$ is the radius vector from $O$ to some particle.",
    "why": "It sets up the physical picture of a finite rotation, with the angle in radians and a fixed axis through a fixed point.",
@@ -1483,7 +1537,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-composition-of-rotations",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Composition of Rotations",
    "latex": "The expression $(\\beta^\\frac{b}{2}\\gamma^\\frac{c}{2})^2$ is not, as might be supposed, identical with $\\beta^b\\gamma^c$. The former reduces to the latter only when $\\beta$ and $\\gamma$ are the same or opposite.",
    "markdown": "The expression $(\\beta^\\frac{b}{2}\\gamma^\\frac{c}{2})^2$ is not, as might be supposed, identical with $\\beta^b\\gamma^c$. The former reduces to the latter only when $\\beta$ and $\\gamma$ are the same or opposite.",
    "why": "It warns the learner that naive halving of each rotation does not give the composed rotation, which is a common mistake.",
@@ -1499,7 +1554,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-composition-of-rotations",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Composition of Rotations",
    "latex": "When $b$ and $c$ are infinitesimals, $\\cos\\beta^b \\times \\gamma^c = 1$, and $\\Sin \\beta^b \\times \\gamma^c = b \\cdot \\beta + c \\cdot \\gamma$, which is the parallelogram rule for the composition of infinitesimal rotations.",
    "markdown": "When $b$ and $c$ are infinitesimals, $\\cos\\beta^b \\times \\gamma^c = 1$, and $\\Sin \\beta^b \\times \\gamma^c = b \\cdot \\beta + c \\cdot \\gamma$, which is the parallelogram rule for the composition of infinitesimal rotations.",
    "why": "It shows how the parallelogram rule for infinitesimal rotations follows from the general composition formula.",
@@ -1518,7 +1574,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-composition-of-rotations",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Composition of Rotations",
    "latex": "It indicates that quaternion multiplication in the most general sense has its physical meaning in the composition of rotations.",
    "markdown": "It indicates that quaternion multiplication in the most general sense has its physical meaning in the composition of rotations.",
    "why": "It gives the historical reason the composition of rotations matters, linking quaternion products to physical turning.",
@@ -1538,7 +1595,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-addition-of-coplanar-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Addition of Coplanar Vectors",
    "latex": "B = b\\beta",
    "name": null,
    "statement": "A vector B is written as its magnitude b times its direction β, which are kept as separate letters.",
@@ -1575,7 +1633,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-addition-of-coplanar-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Addition of Coplanar Vectors",
    "latex": "f^2 = f_1^2 + f_2^2 + 2f_1f_2 \\cos \\theta_2",
    "name": null,
    "statement": "The square of the magnitude of the resultant of two simultaneous components is the sum of their squares plus twice their product times the cosine of the angle between them.",
@@ -1617,7 +1676,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-addition-of-coplanar-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Addition of Coplanar Vectors",
    "latex": "\\tan \\theta =\\frac{f_2\\sin\\theta_2}{f_1 + f_2\\cos\\theta_2}",
    "name": null,
    "statement": "The tangent of the direction angle of the resultant equals the sine of the second component's angle times its magnitude, divided by the first magnitude plus the second's cosine term.",
@@ -1661,7 +1721,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-addition-of-coplanar-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Addition of Coplanar Vectors",
    "latex": "OC = \\sqrt{f_1^2 + f_2^2 + 2f_1f_2\\cos\\theta_2} \\underline{\\left/\\tan^{-1} \\frac{f_2\\sin \\theta_2}{f_1 + f_2\\cos\\theta_2}\\right.}",
    "name": null,
    "statement": "The resultant OC of two simultaneous vectors, written in magnitude and direction form, has magnitude given by the law of cosines and direction given by the arctangent of the ratio above.",
@@ -1705,7 +1766,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-addition-of-coplanar-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Addition of Coplanar Vectors",
    "latex": "OC = 2f_1\\cos\\frac{\\theta_2}{2} \\underline{\\left/\\frac{\\theta_2}{2}\\right.}",
    "name": null,
    "statement": "When two simultaneous components are equal in magnitude, the resultant lies along the bisector of the angle between them and has magnitude twice the projection of either component on that bisector.",
@@ -1743,7 +1805,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-addition-of-coplanar-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Addition of Coplanar Vectors",
    "latex": "f_2\\underline{/\\theta_2} = \\sqrt{f^2 + f_1^2 - 2ff_1\\cos\\theta} \\underline{\\left/\\tan^{-1} \\frac{f\\sin\\theta}{-f_1 + f\\cos\\theta}\\right.}",
    "name": null,
    "statement": "Given a vector and one component, the other component is the vector difference of the given vector and the given component, written in magnitude and direction form.",
@@ -1793,7 +1856,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-addition-of-coplanar-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Addition of Coplanar Vectors",
    "latex": "f_1 + f_2\\cos(\\theta_2 - \\theta_1) = f\\cos(\\theta - \\theta_1)",
    "name": null,
    "statement": "The sum of the first component and the projection of the second component on the direction of the first equals the projection of the resultant on that same direction.",
@@ -1846,7 +1910,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-addition-of-coplanar-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Addition of Coplanar Vectors",
    "latex": "f_1\\cos(\\theta_2 - \\theta_1) + f_2 = f\\cos(\\theta_2 - \\theta)",
    "name": null,
    "statement": "The projection of the first component on the direction of the second, plus the second component, equals the projection of the resultant on the second component's direction.",
@@ -1899,7 +1964,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-addition-of-coplanar-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Addition of Coplanar Vectors",
    "latex": "f_1 = f\\frac{ \\{\\cos(\\theta - \\theta_1) - \\cos(\\theta_2 - \\theta)\\cos(\\theta_2 - \\theta_1)\\} } {1 - \\cos^2(\\theta_2 - \\theta_1)}",
    "name": null,
    "statement": "Solving the two projection equations gives the magnitude of the first component when the resultant and the directions of both components are given.",
@@ -1947,7 +2013,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-addition-of-coplanar-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Addition of Coplanar Vectors",
    "latex": "\\sqrt{\\left( \\sum f\\cos\\theta \\right)^2 + \\left( \\sum f\\sin\\theta \\right )^2} \\cdot \\tan^{-1}\\frac{\\sum f\\sin\\theta}{\\sum f\\cos\\theta}",
    "name": null,
    "statement": "The resultant of any number of simultaneous vectors has magnitude equal to the square root of the sum of squared cosine-sums and sine-sums, and direction equal to the arctangent of the sine-sum over the cosine-sum. Note: the chapter's intermediate line before this result reads \\sum f\\sum\\theta where \\sum f\\sin\\theta is expected; this is recorded as a possible erratum and was not corrected.",
@@ -1981,7 +2048,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-addition-of-coplanar-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Addition of Coplanar Vectors",
    "latex": "A + B = -C",
    "name": null,
    "statement": "For simultaneous vectors with no order of succession, a term may be transposed across an equation by reversing its sign, so that A + B equals minus C when A + B + C is zero.",
@@ -2019,7 +2087,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-products-of-coplanar-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Products of Coplanar Vectors",
    "latex": "A = a_1i + a_2j",
    "name": null,
    "statement": "Any vector confined to the plane is the sum of two rectangular components, taken along the directions i and j.",
@@ -2065,7 +2134,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-products-of-coplanar-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Products of Coplanar Vectors",
    "latex": "AB = (a_1i + a_2j)(b_1i+b_2j) = a_1b_1ii + a_2b_2jj + a_1b_2ij + a_2b_2ji",
    "name": null,
    "statement": "The product of two coplanar vectors, expanded by the distributive law without assuming the factors commute. The book's last term reads a_2b_2ji, which appears to be a typo for a_2b_1ji, since the following reduction requires b_1.",
@@ -2107,7 +2177,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-products-of-coplanar-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Products of Coplanar Vectors",
    "latex": "ij = k",
    "name": null,
    "statement": "The product of two directions at right angles is the direction normal to both, an assumption the book adopts as suggested by ordinary algebra.",
@@ -2144,7 +2215,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-products-of-coplanar-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Products of Coplanar Vectors",
    "latex": "AB = a_1b_1 + a_2b_2 + (a_1b_2 - a_2b_1)k",
    "name": null,
    "statement": "The complete product of two coplanar vectors splits into a scalar partial product, independent of direction, and a vector partial product along the normal k.",
@@ -2200,7 +2272,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-products-of-coplanar-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Products of Coplanar Vectors",
    "latex": "OPQ = a_1 b_2 - \\frac{1}{2} a_2 a_2 - \\frac{1}{2} b_1 b_2 - \\frac{1}{2} (a_1 - b_1)(b_2 - a_2) = \\frac{1}{2}(a_1 b_2 - a_2 b_1)",
    "name": null,
    "statement": "The area of triangle OPQ, formed by the vectors A and B, equals half the magnitude of the vector product. Flag: the middle term of the book's decomposition reads a_2 a_2, which looks like a typo (likely a_2 b_2 or similar); the final expression is what the book uses and is stated as the result.",
@@ -2247,7 +2320,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-products-of-coplanar-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Products of Coplanar Vectors",
    "latex": "\\mathrm{V}BA = -\\mathrm{V}AB",
    "name": null,
    "statement": "The vector product changes sign when the order of the two factors is reversed.",
@@ -2274,7 +2348,7 @@
     "method/vector-product"
    ],
    "pages": [
-    ""
+    null
    ],
    "chapters": [
     "macfarlane-vector-analysis-quaternions-1906/ch-products-of-coplanar-vectors",
@@ -2286,7 +2360,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-products-of-coplanar-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Products of Coplanar Vectors",
    "latex": "\\mathrm{S}BA = \\mathrm{S}AB",
    "name": null,
    "statement": "The scalar product is symmetric: interchanging the two vectors leaves it unchanged, since it is the product of one vector with the projection of the other.",
@@ -2313,7 +2388,7 @@
     "method/scalar-product"
    ],
    "pages": [
-    ""
+    null
    ],
    "chapters": [
     "macfarlane-vector-analysis-quaternions-1906/ch-products-of-coplanar-vectors",
@@ -2325,7 +2400,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-products-of-coplanar-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Products of Coplanar Vectors",
    "latex": "A^2 = a_1^2 + a_2^2 = a^2",
    "name": null,
    "statement": "The square of a vector is its squared magnitude, independent of direction, and so is positive.",
@@ -2366,7 +2442,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-products-of-coplanar-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Products of Coplanar Vectors",
    "latex": "\\mathrm{S}AB = ab \\cos \\alpha\\beta",
    "name": null,
    "statement": "The scalar product equals the product of the magnitudes a and b with the cosine of the angle between the directions alpha and beta.",
@@ -2415,7 +2492,7 @@
     "quantity/magnitude"
    ],
    "pages": [
-    ""
+    null
    ],
    "chapters": [
     "macfarlane-vector-analysis-quaternions-1906/ch-products-of-coplanar-vectors",
@@ -2427,7 +2504,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-products-of-coplanar-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Products of Coplanar Vectors",
    "latex": "\\mathrm{V}AB = ab \\sin \\alpha\\beta \\cdot \\overline{\\alpha\\beta}",
    "name": null,
    "statement": "The vector product has magnitude ab times the sine of the angle between alpha and beta, and points along the direction normal to both, in the sense of the right-handed screw.",
@@ -2468,7 +2546,7 @@
     "quantity/direction"
    ],
    "pages": [
-    ""
+    null
    ],
    "chapters": [
     "macfarlane-vector-analysis-quaternions-1906/ch-products-of-coplanar-vectors",
@@ -2480,7 +2558,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-products-of-coplanar-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Products of Coplanar Vectors",
    "latex": "A^{-1} = \\frac{1}{a}\\alpha = \\frac{a\\alpha}{a^2} = \\frac{a_1i + a_2j}{a_1^2 + a_2^2}",
    "name": null,
    "statement": "The reciprocal of a vector has the same direction and the reciprocal of its magnitude, and its components are the original components divided by the sum of their squares.",
@@ -2526,7 +2605,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-products-of-coplanar-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Products of Coplanar Vectors",
    "latex": "A^{-1}B = \\frac{1}{a^2}AB",
    "name": null,
    "statement": "The product of the reciprocal of A with B is the complete product of A and B divided by the square of A's magnitude.",
@@ -2561,7 +2641,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-products-of-coplanar-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Products of Coplanar Vectors",
    "latex": "\\mathrm{S}A^{-1}B = \\dfrac{b}{a}\\cos \\alpha\\beta",
    "name": null,
    "statement": "The scalar product of the reciprocal of A with B is b/a times the cosine of the angle between A and B.",
@@ -2603,7 +2684,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-products-of-coplanar-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Products of Coplanar Vectors",
    "latex": "\\mathrm{V}A^{-1}B = \\dfrac{b}{a} \\sin \\alpha\\beta \\cdot \\overline{\\alpha\\beta}",
    "name": null,
    "statement": "The vector product of the reciprocal of A with B is b/a times the sine of the angle between A and B, directed along their pole.",
@@ -2651,7 +2733,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-products-of-coplanar-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Products of Coplanar Vectors",
    "latex": "\\mathrm{V}(A + B)C = \\mathrm{V}AC + \\mathrm{V}BC",
    "name": "theorem of moments",
    "statement": "The vector product distributes over a sum: the product of a sum of vectors with C equals the sum of the separate products.",
@@ -2694,7 +2777,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-products-of-coplanar-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Products of Coplanar Vectors",
    "latex": "(a_1b_1 + a_2b_2)(c_1i + c_2j) + (a_1b_2 - a_2b_1)(-c_2i + c_1j)",
    "name": null,
    "statement": "The product of three coplanar vectors (AB)C expands into a scalar-times-C term plus a vector-product term times the complementary vector of C. The book's relation is written over two lines and this is its second line, without the leading equals sign.",
@@ -2732,7 +2816,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-products-of-coplanar-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Products of Coplanar Vectors",
    "latex": "\\mathrm{S}BC \\cdot A + \\mathrm{V}A(\\mathrm{V}BC)",
    "name": null,
    "statement": "The product A(BC) of three coplanar vectors equals the scalar product of B and C times A, plus the vector product of A with the vector product of B and C; the latter depends on the mode of association.",
@@ -2779,7 +2864,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-products-of-coplanar-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Products of Coplanar Vectors",
    "latex": "a^2 + b^2 + 2ab\\cos\\alpha\\beta",
    "name": "law of cosines",
    "statement": "The square of the sum of two non-successive vectors, in magnitudes, is the sum of their squares plus twice the product of magnitudes and the cosine of the angle between them.",
@@ -2819,7 +2905,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-products-of-coplanar-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Products of Coplanar Vectors",
    "latex": "A^2+B^2 + 2\\mathrm{S}AB + 2\\mathrm{V}AB",
    "name": null,
    "statement": "The square of the sum of successive vectors has a scalar part giving the squared third side and a vector part giving twice the vector product.",
@@ -2862,7 +2949,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-products-of-coplanar-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Products of Coplanar Vectors",
    "latex": "A^2 + B^2 + C^2 + 2AB + 2AC + 2BC",
    "name": null,
    "statement": "The square of the sum of three successive vectors, with product terms formed in the order of the vectors in the trinomial.",
@@ -2899,7 +2987,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-products-of-coplanar-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Products of Coplanar Vectors",
    "latex": "a^2 + b^2 + c^2 + 2ab\\cos \\alpha\\beta + 2ac\\cos \\alpha\\gamma + 2bc\\cos\\beta\\gamma",
    "name": null,
    "statement": "The scalar part of the square of a trinomial of coplanar successive vectors: the squared magnitudes plus twice each pairwise product of magnitudes times the cosine of the angle between them.",
@@ -2952,7 +3041,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-products-of-coplanar-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Products of Coplanar Vectors",
    "latex": "\\{ 2ab\\sin\\alpha\\beta + 2ac\\sin\\alpha\\gamma + 2bc\\sin\\beta\\gamma\\} \\cdot \\overline{\\alpha\\beta}",
    "name": null,
    "statement": "The vector part of the square of a trinomial of coplanar successive vectors: twice the sum of the pairwise vector products, along the normal to the plane.",
@@ -3010,7 +3100,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-coaxial-quaternions",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Coaxial Quaternions",
    "latex": "\\beta^\\theta = \\cos\\theta \\cdot \\beta^\\theta + \\sin\\theta \\cdot \\beta^\\frac{\\pi}{2}",
    "name": null,
    "statement": "The turning factor through angle theta is the sum of a turning through theta weighted by cos theta and a quadrantal turning (angle pi/2 about beta) weighted by sin theta.",
@@ -3044,7 +3135,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-coaxial-quaternions",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Coaxial Quaternions",
    "latex": "R = r\\beta^\\theta A",
    "name": null,
    "statement": "The vector R is obtained from the vector A by a scalar multiplier r and a turning through angle theta about the axis beta, which is the quaternion that changes A into R.",
@@ -3093,7 +3185,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-coaxial-quaternions",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Coaxial Quaternions",
    "latex": "A = \\dfrac{1}{r}\\beta^{-\\theta}R",
    "name": null,
    "statement": "Conversely, A is obtained from R by the reciprocal multiplier 1/r and a turning through minus theta about beta.",
@@ -3141,7 +3234,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-coaxial-quaternions",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Coaxial Quaternions",
    "latex": "\\dfrac{1}{A}R = r\\beta^\\theta",
    "name": null,
    "statement": "The quotient of R by A is the quaternion r beta^theta that changes A into R.",
@@ -3183,7 +3277,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-coaxial-quaternions",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Coaxial Quaternions",
    "latex": "r = \\sqrt{p^2 + q^2}",
    "name": null,
    "statement": "The scalar multiplier r is the square root of the sum of the squares of p and q.",
@@ -3219,7 +3314,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-coaxial-quaternions",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Coaxial Quaternions",
    "latex": "\\theta = \\tan^{-1} \\frac{p}{q}",
    "name": null,
    "statement": "The book gives the angle theta as the arctangent of p/q. FLAG: from p = r cos(theta) and q = r sin(theta) the tangent of theta is q/p, so this appears to be a book error (or a typo for q/p); recorded as printed, not corrected.",
@@ -3256,7 +3352,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-coaxial-quaternions",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Coaxial Quaternions",
    "latex": "E = \\left(r + 2\\pi n l \\cdot \\beta^\\frac{\\pi}{2} \\right) I",
    "name": null,
    "statement": "For a sine alternating circuit, the impressed electromotive force equals the current operated on by the quaternion with resistance as scalar part and 2 pi n times self-induction as vector part.",
@@ -3312,7 +3409,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-coaxial-quaternions",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Coaxial Quaternions",
    "latex": "I^{-1} E = r + 2\\pi n l \\cdot \\beta^\\frac{\\pi}{2}",
    "name": null,
    "statement": "The operator that changes the current into the electromotive force is the quaternion with scalar part r (resistance) and vector part 2 pi n l (inductance).",
@@ -3362,7 +3460,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-coaxial-quaternions",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Coaxial Quaternions",
    "latex": "R = \\left(p + q \\cdot \\beta^\\frac{\\pi}{2} \\right) A",
    "name": null,
    "statement": "The vector R is obtained from A by the quaternion with real part p and quadrantal part q.",
@@ -3403,7 +3502,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-coaxial-quaternions",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Coaxial Quaternions",
    "latex": "I = \\left\\{\\frac{r}{r^2+(2\\pi nl)^2} - \\frac{2\\pi nl}{r^2+(2\\pi nl)^2}\\cdot \\beta^\\frac{\\pi}{2}\\right\\}E",
    "name": null,
    "statement": "The current in the circuit is found from the impressed electromotive force by the reciprocal of the impedance quaternion.",
@@ -3452,7 +3552,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-coaxial-quaternions",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Coaxial Quaternions",
    "latex": "\\sum R = \\left\\{\\sum p + \\left(\\sum q\\right) \\cdot \\beta^\\frac{\\pi}{2}\\right\\}A",
    "name": null,
    "statement": "The resultant of several coaxial vectors R_i, each given as a quaternion times A, is the quaternion whose parts are the sums of the parts p_i and q_i, applied to A.",
@@ -3495,7 +3596,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-coaxial-quaternions",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Coaxial Quaternions",
    "latex": "A = \\frac{\\sum p - \\left(\\sum q \\right) \\cdot \\beta^\\frac{\\pi}{2}} {\\left( \\sum p\\ \\right)^2 + \\left( \\sum q \\right)^2}\\sum R",
    "name": null,
    "statement": "Conversely, the common vector A is recovered from the sum of the vectors R by the reciprocal of the summed quaternion.",
@@ -3537,7 +3639,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-coaxial-quaternions",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Coaxial Quaternions",
    "latex": "I_1 = \\frac{r_1 - 2\\pi nl_1 \\cdot \\beta^\\frac{\\pi}{2}}{r_1^2 + (2\\pi n)^2 l_1^2}E",
    "name": null,
    "statement": "For the first of several circuits in parallel, the current is the reciprocal impedance quaternion applied to the common electromotive force E.",
@@ -3587,7 +3690,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-coaxial-quaternions",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Coaxial Quaternions",
    "latex": "E = \\frac{ \\sum\\left(\\frac{r}{r^2 + (2\\pi n)^2 l^2}\\right) + 2\\pi n\\sum\\left(\\frac{l}{r^2 + (2\\pi n)^2 l^2}\\right) \\cdot \\beta^\\frac{\\pi}{2}} {\\left(\\sum\\frac{r}{r^2 + (2\\pi n)^2 l^2}\\right)^2 + (2\\pi n)^2\\left(\\sum\\frac{l}{r^2 + (2\\pi n)^2 l^2}\\right)^2} \\sum I",
    "name": null,
    "statement": "For circuits in parallel, the common electromotive force is the reciprocal of the sum of the individual admittance quaternions, applied to the total current I. Attributed in the book to Lord Rayleigh (Phil. Mag., May 1886).",
@@ -3638,7 +3742,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-coaxial-quaternions",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Coaxial Quaternions",
    "latex": "R' = rr'\\beta^{\\theta+\\theta'}A",
    "name": null,
    "statement": "The product of two successive coaxial quaternions has magnitude equal to the product of the magnitudes and turning angle equal to the sum of the angles.",
@@ -3691,7 +3796,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-addition-of-vectors-in-space",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Addition of Vectors in Space",
    "latex": "R = r\\rho = xi + yj + zk",
    "name": null,
    "statement": "A variable vector R equals its magnitude r times its direction rho, and also equals its rectangular components x, y, z along the unit vectors i, j, k.",
@@ -3760,7 +3866,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-addition-of-vectors-in-space",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Addition of Vectors in Space",
    "latex": "B = b\\beta = b_1i + b_2j + b_3k",
    "name": null,
    "statement": "A constant vector B equals its magnitude b times its direction beta, and also equals its components b_1, b_2, b_3 along i, j, k.",
@@ -3828,7 +3935,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-addition-of-vectors-in-space",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Addition of Vectors in Space",
    "latex": "\\rho = \\frac{xi + yj + zk}{x^2 + y^2 + z^2}",
    "name": null,
    "statement": "The direction rho of a vector with components x, y, z is written as those components divided by the sum of their squares, which is valid because the book takes that sum to be unity.",
@@ -3885,7 +3993,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-addition-of-vectors-in-space",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Addition of Vectors in Space",
    "latex": "R = r \\cos\\theta \\cdot i + r \\sin\\theta \\cos \\phi \\cdot j + r \\sin\\theta \\sin\\phi \\cdot k",
    "name": null,
    "statement": "A vector given by magnitude r and the two angles phi and theta has components r cos theta along i, r sin theta cos phi along j, and r sin theta sin phi along k.",
@@ -3945,7 +4054,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-addition-of-vectors-in-space",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Addition of Vectors in Space",
    "latex": "R = \\sqrt{x^2 + y^2 + z^2}\\ \\overline{\\left.\\tan^{-1}\\frac{z}{y}\\right/}\\!\\!\\!\\! \\underline{\\left/\\tan^{-1}\\frac{\\sqrt{y^2 + z^2}}{x}\\right.}",
    "name": null,
    "statement": "A vector with components x, y, z has magnitude equal to the square root of the sum of their squares, and its two angles are given by inverse tangents of z over y and of the root of y squared plus z squared over x.",
@@ -3988,7 +4098,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-addition-of-vectors-in-space",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Addition of Vectors in Space",
    "latex": "\\sum R = \\left(\\sum x \\right)i + \\left(\\sum y \\right)j + \\left(\\sum z \\right)k",
    "name": null,
    "statement": "The resultant of several vectors is found by summing their x, y and z components separately and combining them along i, j, k.",
@@ -4047,7 +4158,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-addition-of-vectors-in-space",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Addition of Vectors in Space",
    "latex": "r = \\sqrt{\\left(\\sum x \\right)^2 + \\left(\\sum y \\right)^2 + \\left(\\sum z \\right)^2}",
    "name": null,
    "statement": "The magnitude of the resultant is the square root of the sum of the squares of the summed components.",
@@ -4089,7 +4201,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-addition-of-vectors-in-space",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Addition of Vectors in Space",
    "latex": "\\tan\\phi = \\frac{\\sum z}{\\sum y}",
    "name": null,
    "statement": "The tangent of the angle phi of the resultant equals the summed z component divided by the summed y component.",
@@ -4126,7 +4239,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-addition-of-vectors-in-space",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Addition of Vectors in Space",
    "latex": "\\tan\\theta = \\frac{\\sqrt{\\left(\\sum y \\right)^2 + \\left(\\sum z \\right)^2}}{\\sum x}",
    "name": null,
    "statement": "The tangent of the angle theta of the resultant equals the root of the summed y and z components squared, divided by the summed x component.",
@@ -4168,7 +4282,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-product-of-two-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Product of Two Vectors",
    "latex": "ij  &=  k, & jk  &=  i, & ki  &=  j",
    "name": null,
    "statement": "The right-handed cyclic rules for products of the unit vectors in space: i times j is k, j times k is i, and k times i is j, taken as assumed by symmetry of space.",
@@ -4205,7 +4320,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-product-of-two-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Product of Two Vectors",
    "latex": "\\text{velocity flux} = \\text{electromotive-force}",
    "name": "Dynamo rule",
    "statement": "In the dynamo, the velocity of the conductor combined with the magnetic flux with the right-handed screw rule gives the direction of the electromotive force. The chapter states it in words, so no letter symbols are defined.",
@@ -4229,7 +4345,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-product-of-two-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Product of Two Vectors",
    "latex": "\\text{current flux} = \\text{mechanical-force}",
    "name": "Electric motor rule",
    "statement": "In the electric motor, the current in the conductor combined with the magnetic flux gives the direction of the mechanical force on the conductor. The chapter states it in words, so no letter symbols are defined.",
@@ -4252,7 +4369,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-product-of-two-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Product of Two Vectors",
    "latex": "\\text{flux force} = \\text{current}",
    "name": null,
    "statement": "Cyclical permutation of the motor formula gives flux and force producing current, stated in words.",
@@ -4274,7 +4392,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-product-of-two-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Product of Two Vectors",
    "latex": "A &= a_1j + a_2j + a_3k",
    "name": null,
    "statement": "Defines the vector A by its three components along the axes. The chapter prints a_1j for the first term where a_1i is evidently meant; this is a typesetting slip in the source, flagged here and not corrected.",
@@ -4314,7 +4433,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-product-of-two-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Product of Two Vectors",
    "latex": "a_1b_1 + a_2b_2 + a_3b_3 =\\mathrm{S}AB",
    "name": null,
    "statement": "The scalar product of A and B is the sum of the products of their corresponding components; it is independent of direction.",
@@ -4382,7 +4502,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-product-of-two-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Product of Two Vectors",
    "latex": "A^2 = {a_1}^2 + {a_2}^2 + {a_3}^2 = a^2",
    "name": null,
    "statement": "The square of a vector is the sum of the squares of its components, which equals the square of its magnitude a, and is always positive.",
@@ -4429,7 +4550,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-product-of-two-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Product of Two Vectors",
    "latex": "\\mathrm{S}SB = b_ls_l + b_2s_2 + b_3s_3",
    "name": null,
    "statement": "The magnetic flux through an area S is the scalar product of the flux intensity B with the area vector S. Flagged: the chapter prints b_l s_l, presumably b_1 s_1, and the operator as SSB, read here as S applied to S and B.",
@@ -4492,7 +4614,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-product-of-two-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Product of Two Vectors",
    "latex": "(A + B)C = AC + BC",
    "name": "Distributive law",
    "statement": "The vector product distributes over a sum of vectors in the first factor: the product of the sum A+B with C equals AC plus BC.",
@@ -4530,7 +4653,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-product-of-two-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Product of Two Vectors",
    "latex": "(A+B)(C+D) = AC + AD + BC + BD",
    "name": "Distributive law",
    "statement": "The product of two sums of non-successive vectors expands term by term, each sum distributing over the other.",
@@ -4572,7 +4696,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-product-of-two-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Product of Two Vectors",
    "latex": "(A+B)^2 & = A^2 + B^2 + AB + BA",
    "name": null,
    "statement": "The square of a sum of vectors expands to the squares of each vector plus the product of A and B and the product of B and A.",
@@ -4603,7 +4728,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-product-of-two-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Product of Two Vectors",
    "latex": "A^2 + B^2 + 2\\mathrm{S}AB",
    "name": null,
    "statement": "For a sum of vectors, the square equals the sum of the squares of the two vectors plus twice their scalar product.",
@@ -4639,7 +4765,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-product-of-three-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Product of Three Vectors",
    "latex": "\\mathrm{V}(\\mathrm{V}AB)C = -\\mathrm{S}BC \\cdot A + \\mathrm{S}CA \\cdot B",
    "name": null,
    "statement": "The vector product of the vector product of A and B with C equals SCA times B minus SBC times A.",
@@ -4687,7 +4814,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-product-of-three-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Product of Three Vectors",
    "latex": "\\mathrm{V}(ABC) = \\mathrm{S}AB \\cdot C - \\mathrm{S}BC \\cdot A + \\mathrm{S}CA \\cdot B",
    "name": null,
    "statement": "The total vector product of A, B, C is the sum of the first and second partial products, written as scalar products times vectors.",
@@ -4734,7 +4862,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-product-of-three-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Product of Three Vectors",
    "latex": "\\mathrm{V}(\\alpha\\beta\\gamma) &= \\cos \\alpha\\beta \\cdot \\gamma - \\cos \\beta\\gamma \\cdot \\alpha + \\cos \\gamma\\alpha \\cdot \\beta",
    "name": null,
    "statement": "For unit vectors alpha, beta, gamma, the total vector product equals cos(alpha beta) times gamma minus cos(beta gamma) times alpha plus cos(gamma alpha) times beta.",
@@ -4773,7 +4902,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-product-of-three-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Product of Three Vectors",
    "latex": "\\mathrm{V}(\\beta\\gamma\\alpha) &= \\cos \\beta\\gamma \\cdot \\alpha - \\cos \\gamma \\alpha \\cdot \\beta + \\cos \\alpha \\beta \\cdot\\gamma",
    "name": null,
    "statement": "By cyclic permutation of alpha, beta, gamma, the total vector product of beta, gamma, alpha has the analogous form.",
@@ -4811,7 +4941,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-product-of-three-vectors",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Product of Three Vectors",
    "latex": "\\mathrm{V}(\\gamma\\alpha\\beta) &= \\cos \\gamma\\alpha \\cdot \\beta - \\cos \\alpha\\beta \\cdot \\gamma + \\cos \\beta\\gamma \\cdot \\alpha",
    "name": null,
    "statement": "By cyclic permutation again, the total vector product of gamma, alpha, beta has the analogous form.",
@@ -4849,7 +4980,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-composition-of-quantities",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Composition of Quantities",
    "latex": "\\sum m_A = \\sum m_R + \\sum\\Bigl\\{m(A - R)\\Bigr\\}",
    "name": null,
    "statement": "For any number of masses, the total mass at A equals the total mass at R plus the sum of the mass-vectors about R.",
@@ -4885,7 +5017,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-composition-of-quantities",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Composition of Quantities",
    "latex": "R = \\frac{\\sum mA}{\\sum m},\\quad\\text{or}\\quad R \\sum m = \\sum mA",
    "name": null,
    "statement": "The resultant moment of the masses vanishes when R is the point at the weighted mean position of the masses, which is the centre of mass.",
@@ -4922,7 +5055,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-composition-of-quantities",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Composition of Quantities",
    "latex": "x &= \\frac{\\sum (ma)}{\\sum m}",
    "name": null,
    "statement": "The x-coordinate of the centre of mass is the mass-weighted mean of the x-coordinates of the masses.",
@@ -4958,7 +5092,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-composition-of-quantities",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Composition of Quantities",
    "latex": "y  = \\frac{\\sum (mb)}{\\sum m}",
    "name": null,
    "statement": "The y-coordinate of the centre of mass is the mass-weighted mean of the y-coordinates of the masses.",
@@ -4994,7 +5129,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-composition-of-quantities",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Composition of Quantities",
    "latex": "z  = \\frac{\\sum (mc)}{\\sum m}",
    "name": null,
    "statement": "The z-coordinate of the centre of mass is the mass-weighted mean of the z-coordinates of the masses.",
@@ -5030,7 +5166,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-composition-of-quantities",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Composition of Quantities",
    "latex": "A &= a_1j + b_1j+c_1k;",
    "name": null,
    "statement": "The radius-vector A is written in components a, b, c along the coordinate axes.",
@@ -5070,7 +5207,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-composition-of-quantities",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Composition of Quantities",
    "latex": "F_A &= F_R + \\mathrm{V}(A-R)F",
    "name": null,
    "statement": "A force F applied at A is equivalent to an equal force at R together with a couple given by the vector product of the vector from R to A and the force.",
@@ -5113,7 +5251,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-composition-of-quantities",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Composition of Quantities",
    "latex": "\\sum \\left(F_A\\right) &= \\sum \\left(F_R\\right)\n + \\sum \\mathrm{V}\\left(A - R\\right)F",
    "name": null,
    "statement": "For a system of forces at different points, the forces at A equal the forces at R plus the sum of the couples about R.",
@@ -5156,7 +5295,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-composition-of-quantities",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Composition of Quantities",
    "latex": "\\mathrm{V} R \\sum F &= \\sum \\mathrm{V} A F",
    "name": null,
    "statement": "There is no resultant couple when the vector product of R with the resultant force equals the sum of the vector products of each point with its force.",
@@ -5199,7 +5339,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-composition-of-quantities",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Composition of Quantities",
    "latex": "R &= \\frac{1}{\\sum F}\\sum \\left(\\mathrm{V}AF \\right) \\tag{1}",
    "name": null,
    "statement": "The vector term (1) is perpendicular to the resultant force and fixes the line along which R must lie for the resultant couple to vanish.",
@@ -5241,7 +5382,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-composition-of-quantities",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Composition of Quantities",
    "latex": "\\mathrm{V}\\left\\{\\sum \\mathrm{V}AF - \\mathrm{V}R\\sum F\\right\\} \\sum F = 0",
    "name": null,
    "statement": "On the central axis the resultant force and the resultant couple have the same direction.",
@@ -5283,7 +5425,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-spherical-trigonometry",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Spherical Trigonometry",
    "latex": "\\cos a = \\cos b \\cos c + \\sin b \\sin c \\cos A",
    "name": "fundamental theorem of spherical trigonometry",
    "statement": "The cosine of a side of a spherical triangle equals the product of the cosines of the other two sides plus the product of their sines times the cosine of the external angle opposite.",
@@ -5328,7 +5471,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-spherical-trigonometry",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Spherical Trigonometry",
    "latex": "\\beta^\\frac{\\pi}{2}\\gamma^\\frac{\\pi}{2} = -\\cos \\beta\\gamma -\\sin \\beta\\gamma \\cdot \\overline{\\beta\\gamma}^\\frac{\\pi}{2}",
    "name": null,
    "statement": "The product of two quadrantal versors about the axes beta and gamma is a minus cosine of the product angle plus a directed sine term along the axis of the product.",
@@ -5362,7 +5506,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-spherical-trigonometry",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Spherical Trigonometry",
    "latex": "\\beta^b = \\cos b + \\sin b \\cdot \\beta^\\frac{\\pi}{2}",
    "name": null,
    "statement": "A spherical versor of ratio b about axis beta is cosine b plus sine b times the quadrantal versor about beta.",
@@ -5395,7 +5540,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-spherical-trigonometry",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Spherical Trigonometry",
    "latex": "\\gamma^c = \\cos c + \\sin c \\cdot \\gamma^\\frac{\\pi}{2}",
    "name": null,
    "statement": "A spherical versor of ratio c about axis gamma is cosine c plus sine c times the quadrantal versor about gamma.",
@@ -5428,7 +5574,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-spherical-trigonometry",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Spherical Trigonometry",
    "latex": "\\cos\\beta^b\\gamma^c = \\cos b\\cos c - \\sin b\\sin c\\cos \\beta\\gamma",
    "name": null,
    "statement": "The cosine of the product versor beta^b gamma^c equals cos b cos c minus sin b sin c times the cosine of the product angle.",
@@ -5471,7 +5618,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-spherical-trigonometry",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Spherical Trigonometry",
    "latex": "\\cos b = 1 - \\frac{b^2}{2!} + \\frac{b^4}{4!} - \\frac{b^6}{6!} + \\text{ etc.}",
    "name": null,
    "statement": "The cosine of b is expanded as an infinite power series in b.",
@@ -5498,7 +5646,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-spherical-trigonometry",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Spherical Trigonometry",
    "latex": "\\sin b = b - \\frac{b^3}{3!} + \\frac{b^5}{5!} - \\text{ etc.}",
    "name": null,
    "statement": "The sine of b is expanded as an infinite power series in b.",
@@ -5525,7 +5674,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-spherical-trigonometry",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Spherical Trigonometry",
    "latex": "e^{b\\beta^\\frac{\\pi}{2}} e^{c\\gamma^\\frac{\\pi}{2}} = e^{b\\beta^\\frac{\\pi}{2} + c\\gamma^\\frac{\\pi}{2}}",
    "name": null,
    "statement": "The exponential of a successive sum of two quadrantal versor terms is the product of their exponentials, provided the order of the terms is preserved.",
@@ -5567,7 +5717,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-spherical-trigonometry",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Spherical Trigonometry",
    "latex": "\\left\\{ b \\cdot \\beta^\\frac{\\pi}{2} + c \\cdot \\gamma^\\frac{\\pi}{2} \\right\\}^n = b^n \\cdot \\beta^{n^\\frac{\\pi}{2}} + nb^{n-1}c \\cdot \\beta^{(n-1)(\\frac{\\pi}{2})} \\gamma^\\frac{\\pi}{2} + \\frac{n(n-1)}{1 \\cdot 2} b^{n-2} c^2 \\cdot \\beta^{(n-2)(\\frac{\\pi}{2})} \\gamma^\\pi + \\text{etc.}",
    "name": null,
    "statement": "The n-th power of a successive binomial in quadrantal versors expands with binomial coefficients, keeping the order of the terms.",
@@ -5615,7 +5766,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-spherical-trigonometry",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Spherical Trigonometry",
    "latex": "\\sin\\alpha\\beta \\sin\\overline{\\alpha\\beta}\\gamma \\cdot \\overline{\\overline{\\alpha\\beta}\\gamma} = \\cos\\alpha\\gamma \\cdot \\beta - \\cos\\beta\\gamma \\cdot \\alpha",
    "name": null,
    "statement": "A directed-sine product of successive axes equals the difference of two cosine-weighted axes.",
@@ -5652,7 +5804,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-spherical-trigonometry",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Spherical Trigonometry",
    "latex": "-(ll' + mm' + nn') -(mn' - m'n)i^\\frac{\\pi}{2} - (nl' - n'l)j^\\frac{\\pi}{2} -(lm' - l'm)k^\\frac{\\pi}{2}",
    "name": null,
    "statement": "The product of two quadrantal versors about general axes resolves into a scalar part and a quadrantal part along the three coordinate axes.",
@@ -5690,7 +5843,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-spherical-trigonometry",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Spherical Trigonometry",
    "latex": "j^\\frac{\\pi}{2}i^\\frac{\\pi}{2} = k^\\frac{\\pi}{2}",
    "name": null,
    "statement": "The product of the quadrantal versor about j followed by that about i equals the quadrantal versor about k.",
@@ -5717,7 +5871,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-spherical-trigonometry",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Spherical Trigonometry",
    "latex": "i^\\frac{\\pi}{2}i^\\frac{\\pi}{2} = -",
    "name": null,
    "statement": "The square of a quadrantal versor about one of the perpendicular axes is a half-turn, written as minus one.",
@@ -5744,7 +5899,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-spherical-trigonometry",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Spherical Trigonometry",
    "latex": "y^{-c} = \\cos c - \\sin c \\cdot \\gamma^\\frac{\\pi}{2}",
    "name": null,
    "statement": "The reciprocal of the spherical versor gamma^c is cosine c minus sine c times the quadrantal versor about gamma.",
@@ -5777,7 +5933,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-composition-of-rotations",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Composition of Rotations",
    "latex": "\\beta^\\theta R = \\mathrm{S}\\beta R \\cdot \\beta + \\cos \\theta(\\mathrm{V}\\beta R)\\beta + \\sin \\theta \\mathrm{V}\\beta R",
    "name": null,
    "statement": "A line R is turned through angle theta about the axis beta; the result is the scalar part of beta R times beta, plus cos theta times the vector (V beta R) beta, plus sin theta times V beta R.",
@@ -5829,7 +5986,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-composition-of-rotations",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Composition of Rotations",
    "latex": "\\beta^\\theta R = \\cos \\theta R + \\sin \\theta \\mathrm{V}(\\beta R)",
    "name": null,
    "statement": "When the radius vector is perpendicular to the axis, a rotation through theta gives cos theta times R plus sin theta times the vector part of beta R.",
@@ -5875,7 +6033,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-composition-of-rotations",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Composition of Rotations",
    "latex": "\\mathrm{S}\\beta R = lx + my + nz",
    "name": null,
    "statement": "The scalar part of beta R equals the sum of the products of the direction cosines of beta with the coordinates of R.",
@@ -5932,7 +6091,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-composition-of-rotations",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Composition of Rotations",
    "latex": "l^2 + m^2 + n^2 = 1",
    "name": null,
    "statement": "The components of the axis beta are direction cosines, so their squares sum to one.",
@@ -5968,7 +6128,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-composition-of-rotations",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Composition of Rotations",
    "latex": "\\beta^b\\rho = \\beta^\\frac{-b}{2}\\rho^\\frac{\\pi}{2}\\beta^\\frac{b}{2}",
    "name": null,
    "statement": "The versor rotating a line by angle b about beta equals the product of a half-angle versor, a quadrantal versor and the opposite half-angle versor.",
@@ -6006,7 +6167,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-composition-of-rotations",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Composition of Rotations",
    "latex": "e^{-\\frac{1}{2}b\\beta^\\frac{\\pi}{2} + \\frac{1}{2}\\pi\\rho^\\frac{\\pi}{2} + \\frac{1}{2}b\\beta^\\frac{\\pi}{2}}",
    "name": null,
    "statement": "The versor beta^(-b/2) rho^(pi/2) beta^(b/2) is written as an exponential of a trinomial.",
@@ -6050,7 +6212,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-composition-of-rotations",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Composition of Rotations",
    "latex": "\\beta^b \\times \\gamma^c = (\\beta^\\frac{b}{2}\\gamma^\\frac{c}{2})^2",
    "name": null,
    "statement": "The single rotation equivalent to rotation b about beta followed by rotation c about gamma is the square of the product of the two half-angle versors.",
@@ -6092,7 +6255,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-composition-of-rotations",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Composition of Rotations",
    "latex": "\\cos\\frac{b}{2}\\,\\cos\\frac{c}{2}-\\sin\\frac{b}{2}\\,\\sin\\frac{c}{2}",
    "name": null,
    "statement": "The cosine of the product of the two half-angle versors is cos(b/2) cos(c/2) minus sin(b/2) sin(c/2); this quantity is called m.",
@@ -6130,7 +6294,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-composition-of-rotations",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Composition of Rotations",
    "latex": "\\beta^b \\times \\gamma^c = m^2 - n^2 + 2mn \\cdot \\nu",
    "name": null,
    "statement": "The composed rotation has cosine m^2 minus n^2, and its directed sine is 2mn times the unit vector nu.",
@@ -6177,7 +6342,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-composition-of-rotations",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Composition of Rotations",
    "latex": "\\cos\\beta^b \\times \\gamma^c = 1",
    "name": null,
    "statement": "For infinitesimal rotations the cosine of the composed rotation is 1.",
@@ -6211,7 +6377,8 @@
    "chapter": "macfarlane-vector-analysis-quaternions-1906/ch-composition-of-rotations",
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
-   "page": "",
+   "page": null,
+   "location": "Composition of Rotations",
    "latex": "\\Sin \\beta^b \\times \\gamma^c = b \\cdot \\beta + c \\cdot \\gamma",
    "name": null,
    "statement": "For infinitesimal rotations the directed sine of the composed rotation is the sum of the two infinitesimal rotation vectors, which is the parallelogram rule.",
@@ -6430,6 +6597,7 @@
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
    "page": null,
+   "location": "Exercise Probs-1-9, problem 1",
    "problem_latex": "The resultant vector is $123\\underline{/45^\\circ}$,\nand one component is $100\\underline{/0^\\circ}$; find the other\ncomponent.",
    "markdown": "The resultant vector is $123\\underline{/45^\\circ}$, and one component is $100\\underline{/0^\\circ}$; find the other component.",
    "answer_latex": [],
@@ -6445,7 +6613,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "412d176",
+    "commit": "9791178",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -6468,6 +6636,7 @@
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
    "page": null,
+   "location": "Exercise Probs-1-9, problem 2",
    "problem_latex": "The velocity of a body in a given plane is\n$200\\underline{/75^\\circ}$, and one component is\n$100\\underline{/25^\\circ}$; find the other component.",
    "markdown": "The velocity of a body in a given plane is $200\\underline{/75^\\circ}$, and one component is $100\\underline{/25^\\circ}$; find the other component.",
    "answer_latex": [],
@@ -6483,7 +6652,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "412d176",
+    "commit": "9791178",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -6506,6 +6675,7 @@
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
    "page": null,
+   "location": "Exercise Probs-1-9, problem 3",
    "problem_latex": "Three alternating magnetomotive forces are of equal\nvirtual value, but each pair differs in phase by $120^\\circ$; find\nthe resultant.",
    "markdown": "Three alternating magnetomotive forces are of equal virtual value, but each pair differs in phase by $120^\\circ$; find the resultant.",
    "answer_latex": [
@@ -6525,7 +6695,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "412d176",
+    "commit": "9791178",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -6548,6 +6718,7 @@
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
    "page": null,
+   "location": "Exercise Probs-1-9, problem 4",
    "problem_latex": "Find the components of the vector\n$100\\underline{/70^\\circ}$ in the directions $20^\\circ$ and\n$100^\\circ$.",
    "markdown": "Find the components of the vector $100\\underline{/70^\\circ}$ in the directions $20^\\circ$ and $100^\\circ$.",
    "answer_latex": [],
@@ -6563,7 +6734,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "412d176",
+    "commit": "9791178",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -6585,6 +6756,7 @@
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
    "page": null,
+   "location": "Exercise Probs-1-9, problem 5",
    "problem_latex": "Calculate the resultant vector of\n$1\\underline{/10^\\circ}$, $2\\underline{/20^\\circ}$,\n$3\\underline{/30^\\circ}$, $4\\underline{/40^\\circ}$.",
    "markdown": "Calculate the resultant vector of $1\\underline{/10^\\circ}$, $2\\underline{/20^\\circ}$, $3\\underline{/30^\\circ}$, $4\\underline{/40^\\circ}$.",
    "answer_latex": [],
@@ -6600,7 +6772,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "412d176",
+    "commit": "9791178",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -6623,6 +6795,7 @@
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
    "page": null,
+   "location": "Exercise Probs-1-9, problem 6",
    "problem_latex": "Compound the following magnetic fluxes: $h \\sin nt + h\n\\sin (nt - 120^\\circ)\\underline{/120^\\circ} + h \\sin (nt -\n240^\\circ)\\underline{/240^\\circ}$.",
    "markdown": "Compound the following magnetic fluxes: $h \\sin nt + h \\sin (nt - 120^\\circ)\\underline{/120^\\circ} + h \\sin (nt - 240^\\circ)\\underline{/240^\\circ}$.",
    "answer_latex": [
@@ -6642,7 +6815,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "412d176",
+    "commit": "9791178",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -6665,6 +6838,7 @@
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
    "page": null,
+   "location": "Exercise Probs-1-9, problem 7",
    "problem_latex": "Compound two alternating magnetic fluxes at a point $a\n\\cos nt \\underline{/0}$ and $a \\sin nt \\underline{/\\frac{\\pi}{2}}$.",
    "markdown": "Compound two alternating magnetic fluxes at a point $a \\cos nt \\underline{/0}$ and $a \\sin nt \\underline{/\\frac{\\pi}{2}}$.",
    "answer_latex": [
@@ -6684,7 +6858,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "412d176",
+    "commit": "9791178",
     "verdicts": [
      "FLAG-EXTRACTION"
     ]
@@ -6707,6 +6881,7 @@
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
    "page": null,
+   "location": "Exercise Probs-1-9, problem 8",
    "problem_latex": "Find the resultant of two simple alternating\nelectromotive forces $100\\underline{/20^\\circ}$ and\n$50\\underline{/75^\\circ}$.",
    "markdown": "Find the resultant of two simple alternating electromotive forces $100\\underline{/20^\\circ}$ and $50\\underline{/75^\\circ}$.",
    "answer_latex": [],
@@ -6722,7 +6897,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "412d176",
+    "commit": "9791178",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -6745,6 +6920,7 @@
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
    "page": null,
+   "location": "Exercise Probs-1-9, problem 9",
    "problem_latex": "Prove that a uniform circular motion is obtained by\ncompounding two equal simple harmonic motions which have the\nspace-phase of their angular positions equal to the supplement of\nthe time-phase of their motions.",
    "markdown": "Prove that a uniform circular motion is obtained by compounding two equal simple harmonic motions which have the space-phase of their angular positions equal to the supplement of the time-phase of their motions.",
    "answer_latex": [],
@@ -6760,7 +6936,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "412d176",
+    "commit": "9791178",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -6782,6 +6958,7 @@
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
    "page": null,
+   "location": "Exercise Probs-10-18, problem 10",
    "problem_latex": "At a distance of $25$ centimeters\n$\\underline{/20^\\circ}$ there is a force of 1000~dynes\n$\\underline{/80^\\circ}$; find the moment.",
    "markdown": "At a distance of $25$ centimeters $\\underline{/20^\\circ}$ there is a force of 1000 dynes $\\underline{/80^\\circ}$; find the moment.",
    "answer_latex": [],
@@ -6797,7 +6974,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "412d176",
+    "commit": "9791178",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -6821,6 +6998,7 @@
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
    "page": null,
+   "location": "Exercise Probs-10-18, problem 11",
    "problem_latex": "A conductor in an armature has a velocity of\n240~inches per second $\\underline{/300^\\circ}$ and the magnetic flux\nis 50,000~lines per square inch $\\underline{/0^\\circ}$; find the\nvector product.",
    "markdown": "A conductor in an armature has a velocity of 240 inches per second $\\underline{/300^\\circ}$ and the magnetic flux is 50,000 lines per square inch $\\underline{/0^\\circ}$; find the vector product.",
    "answer_latex": [
@@ -6840,7 +7018,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "412d176",
+    "commit": "9791178",
     "verdicts": [
      "FLAG-MISSING"
     ]
@@ -6868,6 +7046,7 @@
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
    "page": null,
+   "location": "Exercise Probs-10-18, problem 12",
    "problem_latex": "Find the sine and cosine of the angle between the\ndirections 0.8141~E.\\ + 0.5807~N., and 0.5060~E.\\ + 0.8625~N.",
    "markdown": "Find the sine and cosine of the angle between the directions 0.8141 E. + 0.5807 N., and 0.5060 E. + 0.8625 N.",
    "answer_latex": [],
@@ -6883,7 +7062,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "412d176",
+    "commit": "9791178",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -6906,6 +7085,7 @@
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
    "page": null,
+   "location": "Exercise Probs-10-18, problem 13",
    "problem_latex": "When a force of 200~pounds $\\underline{/270^\\circ}$ is\ndisplaced by 10~feet $\\underline{/30^\\circ}$, what is the work done\n(scalar product)? What is the meaning of the negative sign in the\nscalar product?",
    "markdown": "When a force of 200 pounds $\\underline{/270^\\circ}$ is displaced by 10 feet $\\underline{/30^\\circ}$, what is the work done (scalar product)? What is the meaning of the negative sign in the scalar product?",
    "answer_latex": [],
@@ -6921,7 +7101,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "412d176",
+    "commit": "9791178",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -6945,6 +7125,7 @@
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
    "page": null,
+   "location": "Exercise Probs-10-18, problem 14",
    "problem_latex": "A mass of $100$ pounds is moving with a velocity of\n30 feet E.\\ per second + 50 feet SE.\\ per second; find its kinetic\nenergy.",
    "markdown": "A mass of $100$ pounds is moving with a velocity of 30 feet E. per second + 50 feet SE. per second; find its kinetic energy.",
    "answer_latex": [],
@@ -6960,7 +7141,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "412d176",
+    "commit": "9791178",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -6985,6 +7166,7 @@
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
    "page": null,
+   "location": "Exercise Probs-10-18, problem 15",
    "problem_latex": "A force of $10$ pounds $\\underline{/45^\\circ}$ is\nacting at the end of $8$ feet $\\underline{/200^\\circ}$; find the\ntorque, or vector product.",
    "markdown": "A force of $10$ pounds $\\underline{/45^\\circ}$ is acting at the end of $8$ feet $\\underline{/200^\\circ}$; find the torque, or vector product.",
    "answer_latex": [],
@@ -7000,7 +7182,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "412d176",
+    "commit": "9791178",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7024,6 +7206,7 @@
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
    "page": null,
+   "location": "Exercise Probs-10-18, problem 16",
    "problem_latex": "The radius of curvature of a curve is\n$2\\underline{/0^\\circ} + 5\\underline{/90^\\circ}$; find the\ncurvature.",
    "markdown": "The radius of curvature of a curve is $2\\underline{/0^\\circ} + 5\\underline{/90^\\circ}$; find the curvature.",
    "answer_latex": [
@@ -7043,7 +7226,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "412d176",
+    "commit": "9791178",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7066,6 +7249,7 @@
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
    "page": null,
+   "location": "Exercise Probs-10-18, problem 17",
    "problem_latex": "Find the fourth proportional to\n$10\\underline{/0^\\circ} + 2\\underline{/90^\\circ}$,\n$8\\underline{/0^\\circ} - 3\\underline{/90^\\circ}$, and\n$6\\underline{/0^\\circ} + 5\\underline{/90^\\circ}$.",
    "markdown": "Find the fourth proportional to $10\\underline{/0^\\circ} + 2\\underline{/90^\\circ}$, $8\\underline{/0^\\circ} - 3\\underline{/90^\\circ}$, and $6\\underline{/0^\\circ} + 5\\underline{/90^\\circ}$.",
    "answer_latex": [],
@@ -7081,7 +7265,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "412d176",
+    "commit": "9791178",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7105,6 +7289,7 @@
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
    "page": null,
+   "location": "Exercise Probs-10-18, problem 18",
    "problem_latex": "Find the area of the polygon whose successive sides\nare $10\\underline{/30^\\circ}$, $9\\underline{/100^\\circ}$,\n$8\\underline{/180^\\circ}$, $7\\underline{/225^\\circ}$.",
    "markdown": "Find the area of the polygon whose successive sides are $10\\underline{/30^\\circ}$, $9\\underline{/100^\\circ}$, $8\\underline{/180^\\circ}$, $7\\underline{/225^\\circ}$.",
    "answer_latex": [],
@@ -7120,7 +7305,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "412d176",
+    "commit": "9791178",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7143,6 +7328,7 @@
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
    "page": null,
+   "location": "Exercise Probs-19-22, problem 19",
    "problem_latex": "The impressed alternating electromotive force is\n$200$ volts, the resistance of the circuit is $10$ ohms, the\nself-induction is $\\frac{1}{100}$ henry, and there are $60$\nalternations per second; required the current.",
    "markdown": "The impressed alternating electromotive force is $200$ volts, the resistance of the circuit is $10$ ohms, the self-induction is $\\frac{1}{100}$ henry, and there are $60$ alternations per second; required the current.",
    "answer_latex": [
@@ -7162,7 +7348,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "412d176",
+    "commit": "9791178",
     "verdicts": [
      "FLAG-MISSING"
     ]
@@ -7191,6 +7377,7 @@
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
    "page": null,
+   "location": "Exercise Probs-19-22, problem 20",
    "problem_latex": "If in the above circuit the current is $10$\namperes, find the impressed voltage.",
    "markdown": "If in the above circuit the current is $10$ amperes, find the impressed voltage.",
    "answer_latex": [],
@@ -7206,7 +7393,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "412d176",
+    "commit": "9791178",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7230,6 +7417,7 @@
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
    "page": null,
+   "location": "Exercise Probs-19-22, problem 21",
    "problem_latex": "If the electromotive force is $110$ volts\n$\\underline{/\\theta}$ and the current is $10$ amperes\n$\\underline{/\\theta - \\frac{1}{4}\\pi}$, find the resistance and the\nself-induction, there being $120$ alternations per second.",
    "markdown": "If the electromotive force is $110$ volts $\\underline{/\\theta}$ and the current is $10$ amperes $\\underline{/\\theta - \\frac{1}{4}\\pi}$, find the resistance and the self-induction, there being $120$ alternations per second.",
    "answer_latex": [],
@@ -7245,7 +7433,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "412d176",
+    "commit": "9791178",
     "verdicts": [
      "FLAG-MISSING"
     ]
@@ -7274,6 +7462,7 @@
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
    "page": null,
+   "location": "Exercise Probs-19-22, problem 22",
    "problem_latex": "A number of coils having resistances $r_1$, $r_2$,\netc., and self-inductions $l_1$, $l_2$, etc., are placed in series;\nfind the impressed electromotive force in terms of the current, and\nreciprocally.",
    "markdown": "A number of coils having resistances $r_1$, $r_2$, etc., and self-inductions $l_1$, $l_2$, etc., are placed in series; find the impressed electromotive force in terms of the current, and reciprocally.",
    "answer_latex": [],
@@ -7289,7 +7478,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "412d176",
+    "commit": "9791178",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7312,6 +7501,7 @@
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
    "page": null,
+   "location": "Exercise Probs-23-27, problem 23",
    "problem_latex": "Express $A = 4i - 5j + 6k$ and $B = 5i + 6j - 7k$ in\nthe form $r\\overline{\\phi/}\\!\\underline{/\\theta}$ \\\\ (Ans.~$8.8\\\n\\overline{130^\\circ/}\\!\\underline{/63^\\circ}$ and $10.5\\\n\\overline{311^\\circ/}\\!\\underline{/61^\\circ .5}$.)",
    "markdown": "Express $A = 4i - 5j + 6k$ and $B = 5i + 6j - 7k$ in the form $r\\overline{\\phi/}\\!\\underline{/\\theta}$ (Ans. $8.8\\ \\overline{130^\\circ/}\\!\\underline{/63^\\circ}$ and $10.5\\ \\overline{311^\\circ/}\\!\\underline{/61^\\circ .5}$.)",
    "answer_latex": [
@@ -7331,7 +7521,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "412d176",
+    "commit": "9791178",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7354,6 +7544,7 @@
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
    "page": null,
+   "location": "Exercise Probs-23-27, problem 24",
    "problem_latex": "Express $C = 123\\\n\\overline{57^\\circ/}\\!\\underline{/142^\\circ}$ and $D = 456\\\n\\overline{65^\\circ/}\\!\\underline{/200^\\circ}$ in the form $xi + yj +\nzk$.",
    "markdown": "Express $C = 123\\ \\overline{57^\\circ/}\\!\\underline{/142^\\circ}$ and $D = 456\\ \\overline{65^\\circ/}\\!\\underline{/200^\\circ}$ in the form $xi + yj + zk$.",
    "answer_latex": [],
@@ -7369,7 +7560,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "412d176",
+    "commit": "9791178",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7392,6 +7583,7 @@
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
    "page": null,
+   "location": "Exercise Probs-23-27, problem 25",
    "problem_latex": "Express $E =\n100\\ \\overline{\\left.\\dfrac{\\pi}{4}\\right/}\\!\\!\\!\n\\underline{\\left/\\dfrac{\\pi}{3}\\right.}$ and $F = 1000\\ \\overline{\\left.\\dfrac{\\pi}{6}\\right/}\\!\\!\\!\\underline{\\left/\n\\dfrac{3\\pi}{4}\\right.}$ in the form $xi + yj + zk$.",
    "markdown": "Express $E = 100\\ \\overline{\\left.\\dfrac{\\pi}{4}\\right/}\\!\\!\\! \\underline{\\left/\\dfrac{\\pi}{3}\\right.}$ and $F = 1000\\ \\overline{\\left.\\dfrac{\\pi}{6}\\right/}\\!\\!\\!\\underline{\\left/ \\dfrac{3\\pi}{4}\\right.}$ in the form $xi + yj + zk$.",
    "answer_latex": [],
@@ -7407,7 +7599,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "412d176",
+    "commit": "9791178",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7431,6 +7623,7 @@
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
    "page": null,
+   "location": "Exercise Probs-23-27, problem 26",
    "problem_latex": "Find the resultant of $10\\ \\overline{20^\\circ /}\\!\n\\underline{/30^\\circ}$, $20\\ \\overline{30^\\circ /}\\!\n\\underline{/40^\\circ}$, and $30\\ \\overline{40^\\circ /}\\!\n\\underline{/50^\\circ}$.",
    "markdown": "Find the resultant of $10\\ \\overline{20^\\circ /}\\! \\underline{/30^\\circ}$, $20\\ \\overline{30^\\circ /}\\! \\underline{/40^\\circ}$, and $30\\ \\overline{40^\\circ /}\\! \\underline{/50^\\circ}$.",
    "answer_latex": [],
@@ -7446,7 +7639,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "412d176",
+    "commit": "9791178",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7469,6 +7662,7 @@
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
    "page": null,
+   "location": "Exercise Probs-23-27, problem 27",
    "problem_latex": "Express in the form $r\\ \\overline{\\phi/}\\!\n\\underline{/\\theta}$ the resultant vector of $1i + 2j - 3k$, $4i -\n5j + 6k$ and $-7i + 8j + 9k$.",
    "markdown": "Express in the form $r\\ \\overline{\\phi/}\\! \\underline{/\\theta}$ the resultant vector of $1i + 2j - 3k$, $4i - 5j + 6k$ and $-7i + 8j + 9k$.",
    "answer_latex": [],
@@ -7484,7 +7678,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "412d176",
+    "commit": "9791178",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7507,6 +7701,7 @@
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
    "page": null,
+   "location": "Exercise Probs-28-37, problem 28",
    "problem_latex": "The relative velocity of a conductor is S.W., and the\nmagnetic flux is N.W.; what is the direction of the electromotive\nforce in the conductor?",
    "markdown": "The relative velocity of a conductor is S.W., and the magnetic flux is N.W.; what is the direction of the electromotive force in the conductor?",
    "answer_latex": [],
@@ -7522,7 +7717,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "412d176",
+    "commit": "9791178",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7544,6 +7739,7 @@
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
    "page": null,
+   "location": "Exercise Probs-28-37, problem 29",
    "problem_latex": "The direction of the current is vertically downward,\nthat of the magnetic flux is West; find the direction of the\nmechanical force on the conductor.",
    "markdown": "The direction of the current is vertically downward, that of the magnetic flux is West; find the direction of the mechanical force on the conductor.",
    "answer_latex": [],
@@ -7559,7 +7755,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "412d176",
+    "commit": "9791178",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7581,6 +7777,7 @@
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
    "page": null,
+   "location": "Exercise Probs-28-37, problem 30",
    "problem_latex": "A body to which a force of $2i + 3j + 4k$~pounds is\napplied moves with a velocity of $5i + 6j + 7k$~feet per second;\nfind the rate at which work is done.",
    "markdown": "A body to which a force of $2i + 3j + 4k$ pounds is applied moves with a velocity of $5i + 6j + 7k$ feet per second; find the rate at which work is done.",
    "answer_latex": [],
@@ -7596,7 +7793,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "412d176",
+    "commit": "9791178",
     "verdicts": [
      "FLAG-MISSING"
     ]
@@ -7623,6 +7820,7 @@
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
    "page": null,
+   "location": "Exercise Probs-28-37, problem 31",
    "problem_latex": "A conductor $8i + 9j + 10k$~inches long is subject to\nan electromotive force of $11 i +12j + 13k$~volts per inch; find the\ndifference of potential at the ends.",
    "markdown": "A conductor $8i + 9j + 10k$ inches long is subject to an electromotive force of $11 i +12j + 13k$ volts per inch; find the difference of potential at the ends.",
    "answer_latex": [
@@ -7642,7 +7840,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "412d176",
+    "commit": "9791178",
     "verdicts": [
      "PASS"
     ]
@@ -7660,7 +7858,21 @@
     "other:vector_dot_product"
    ],
    "expectation": "X#326,5E-1",
-   "keys": []
+   "keys": [
+    {
+     "kind": "keys",
+     "mode": "STU",
+     "entry": "rpn",
+     "steps": [
+      "8 ENTER 11 ×",
+      "9 ENTER 12 × +",
+      "10 ENTER 13 × +"
+     ],
+     "calculator_value": "+326E+0",
+     "printed_value": "326",
+     "checked_by": "stu32-calc ran the keys; mpmath at 50 digits agrees to 1E-30; tutor's records.py accepted them"
+    }
+   ]
   },
   {
    "id": "macfarlane-vector-analysis-quaternions-1906/ex-probs-28-37/32",
@@ -7670,6 +7882,7 @@
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
    "page": null,
+   "location": "Exercise Probs-28-37, problem 32",
    "problem_latex": "Find the rectangular projections of the area of the\nparallelogram defined by the vectors $A = 12i - 23j - 34k$ and $B =\n-45i - 56j + 67k$.",
    "markdown": "Find the rectangular projections of the area of the parallelogram defined by the vectors $A = 12i - 23j - 34k$ and $B = -45i - 56j + 67k$.",
    "answer_latex": [],
@@ -7685,7 +7898,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "412d176",
+    "commit": "9791178",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7708,6 +7921,7 @@
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
    "page": null,
+   "location": "Exercise Probs-28-37, problem 33",
    "problem_latex": "Show that the moment of the velocity of a body with\nrespect to a point is equal to the sum of the moments of its\ncomponent velocities with respect to the same point.",
    "markdown": "Show that the moment of the velocity of a body with respect to a point is equal to the sum of the moments of its component velocities with respect to the same point.",
    "answer_latex": [],
@@ -7723,7 +7937,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "412d176",
+    "commit": "9791178",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7745,6 +7959,7 @@
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
    "page": null,
+   "location": "Exercise Probs-28-37, problem 34",
    "problem_latex": "The arm is $9i + 11j + 13k$~feet, and the force\napplied at either end is $17i + 19j + 23k$~pounds weight; find the\ntorque.",
    "markdown": "The arm is $9i + 11j + 13k$ feet, and the force applied at either end is $17i + 19j + 23k$ pounds weight; find the torque.",
    "answer_latex": [],
@@ -7760,7 +7975,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "412d176",
+    "commit": "9791178",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7783,6 +7998,7 @@
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
    "page": null,
+   "location": "Exercise Probs-28-37, problem 35",
    "problem_latex": "A body of 1000~pounds mass has linear velocities of\n50~feet per second $\\overline{30^\\circ/}\\!\\underline{/45^\\circ}$ and\n60~feet per second $\\overline{60^\\circ/}\\!\\underline{/22^\\circ.5}$;\nfind its kinetic energy.",
    "markdown": "A body of 1000 pounds mass has linear velocities of 50 feet per second $\\overline{30^\\circ/}\\!\\underline{/45^\\circ}$ and 60 feet per second $\\overline{60^\\circ/}\\!\\underline{/22^\\circ.5}$; find its kinetic energy.",
    "answer_latex": [],
@@ -7798,7 +8014,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "412d176",
+    "commit": "9791178",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7822,6 +8038,7 @@
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
    "page": null,
+   "location": "Exercise Probs-28-37, problem 36",
    "problem_latex": "Show that if a system of area-vectors can be\nrepresented by the faces of a polyhedron, their resultant vanishes.",
    "markdown": "Show that if a system of area-vectors can be represented by the faces of a polyhedron, their resultant vanishes.",
    "answer_latex": [],
@@ -7837,7 +8054,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "412d176",
+    "commit": "9791178",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7859,6 +8076,7 @@
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
    "page": null,
+   "location": "Exercise Probs-28-37, problem 37",
    "problem_latex": "Show that work done by the resultant velocity is equal\nto the sum of the works done by its components.",
    "markdown": "Show that work done by the resultant velocity is equal to the sum of the works done by its components.",
    "answer_latex": [],
@@ -7874,7 +8092,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "412d176",
+    "commit": "9791178",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7896,6 +8114,7 @@
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
    "page": null,
+   "location": "Exercise Probs-38-43, problem 38",
    "problem_latex": "Find the second partial product of $9\\,\n\\overline{20^\\circ/}\\!\\underline{/30^\\circ}$, $10\\,\n\\overline{30^\\circ/}\\!\\underline{/40^\\circ}$, $11\\,\n\\overline{45^\\circ/}\\!\\underline{/45^\\circ}$. Also the third partial\nproduct.",
    "markdown": "Find the second partial product of $9\\, \\overline{20^\\circ/}\\!\\underline{/30^\\circ}$, $10\\, \\overline{30^\\circ/}\\!\\underline{/40^\\circ}$, $11\\, \\overline{45^\\circ/}\\!\\underline{/45^\\circ}$. Also the third partial product.",
    "answer_latex": [],
@@ -7911,7 +8130,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "412d176",
+    "commit": "9791178",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7934,6 +8153,7 @@
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
    "page": null,
+   "location": "Exercise Probs-38-43, problem 39",
    "problem_latex": "Find the cosine of the angle between the plane of\n$l_1 i + m_1 j + n_1 k$ and $l_2 i + m_2 j + n_2 k$ and the plane of\n$l_3 i + m_3 j + n_3 k$ and $l_4 i + m_4 j + n_4 k$.",
    "markdown": "Find the cosine of the angle between the plane of $l_1 i + m_1 j + n_1 k$ and $l_2 i + m_2 j + n_2 k$ and the plane of $l_3 i + m_3 j + n_3 k$ and $l_4 i + m_4 j + n_4 k$.",
    "answer_latex": [],
@@ -7949,7 +8169,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "412d176",
+    "commit": "9791178",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7972,6 +8192,7 @@
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
    "page": null,
+   "location": "Exercise Probs-38-43, problem 40",
    "problem_latex": "Find the volume of the parallelepiped determined by\nthe vectors $100i + 50j + 25k$, $50i + 10j + 80k$, and $-75i + 40j -\n80k$.",
    "markdown": "Find the volume of the parallelepiped determined by the vectors $100i + 50j + 25k$, $50i + 10j + 80k$, and $-75i + 40j - 80k$.",
    "answer_latex": [],
@@ -7987,7 +8208,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "412d176",
+    "commit": "9791178",
     "verdicts": [
      "FLAG-MISSING"
     ]
@@ -8013,6 +8234,7 @@
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
    "page": null,
+   "location": "Exercise Probs-38-43, problem 41",
    "problem_latex": "Find the volume of the tetrahedron determined by the\nextremities of the following vectors: $3i - 2j + 1k$, $-4i + 5j -\n7k$, $3i - 7j - 2k$, $8i + 4j - 3k$.",
    "markdown": "Find the volume of the tetrahedron determined by the extremities of the following vectors: $3i - 2j + 1k$, $-4i + 5j - 7k$, $3i - 7j - 2k$, $8i + 4j - 3k$.",
    "answer_latex": [],
@@ -8028,7 +8250,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "412d176",
+    "commit": "9791178",
     "verdicts": [
      "FLAG-MISSING"
     ]
@@ -8054,6 +8276,7 @@
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
    "page": null,
+   "location": "Exercise Probs-38-43, problem 42",
    "problem_latex": "Find the voltage at the terminals of a conductor when\nits velocity is 1500 centimeters per second, the intensity of the\nmagnetic flux is 7000 lines per square centimeter, and the length of\nthe conductor is 20 centimeters, the angle between the first and\nsecond being $30^\\circ$, and that between the plane of the first two\nand the direction of the third $60^\\circ$.",
    "markdown": "Find the voltage at the terminals of a conductor when its velocity is 1500 centimeters per second, the intensity of the magnetic flux is 7000 lines per square centimeter, and the length of the conductor is 20 centimeters, the angle between the first and second being $30^\\circ$, and that between the plane of the first two and the direction of the third $60^\\circ$.",
    "answer_latex": [
@@ -8073,7 +8296,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "412d176",
+    "commit": "9791178",
     "verdicts": [
      "PASS"
     ]
@@ -8092,7 +8315,33 @@
     "core.units"
    ],
    "expectation": "X#0.91,5E-3",
-   "keys": []
+   "keys": [
+    {
+     "kind": "keys",
+     "mode": "STU",
+     "entry": "rpn",
+     "steps": [
+      "7000 ENTER 20 ×",
+      "1500 ×",
+      "1 E 8 ÷",
+      "30 SIN ×",
+      "60 SIN ×"
+     ],
+     "constants": [
+      {
+       "value": "1 E 8 (10^8)",
+       "source": "Not in the problem text. It is the C.G.S.-to-volt factor (1 volt = 10^8 electromagnetic C.G.S. units of e.m.f.), taken from standard units, not read from the book. The SymPy expression uses the same factor, so this is an assumption to verify against the book's units section."
+      },
+      {
+       "value": "1 and 8 (the digits of 10^8)",
+       "source": "Part of the same 10^8 factor above, not in the problem text."
+      }
+     ],
+     "calculator_value": "+9093266739736605791019093292905830E-34",
+     "printed_value": "0.91",
+     "checked_by": "stu32-calc ran the keys; mpmath at 50 digits agrees to 1E-30; tutor's records.py accepted them"
+    }
+   ]
   },
   {
    "id": "macfarlane-vector-analysis-quaternions-1906/ex-probs-38-43/43",
@@ -8102,6 +8351,7 @@
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
    "page": null,
+   "location": "Exercise Probs-38-43, problem 43",
    "problem_latex": "Let $\\alpha = \\overline{20^\\circ/}\\!\n\\underline{/10^\\circ}$, $\\beta = \\overline{30^\\circ/}\\!\n\\underline{/25^\\circ}$, $\\gamma=\\overline{40^\\circ/}\\!\n\\underline{/35^\\circ}$. Find $\\mathrm{V}\\alpha\\beta\\gamma$, and\ndeduce $\\mathrm{V}\\beta\\gamma\\alpha$ and\n$\\mathrm{V}\\gamma\\alpha\\beta$.",
    "markdown": "Let $\\alpha = \\overline{20^\\circ/}\\! \\underline{/10^\\circ}$, $\\beta = \\overline{30^\\circ/}\\! \\underline{/25^\\circ}$, $\\gamma=\\overline{40^\\circ/}\\! \\underline{/35^\\circ}$. Find $\\mathrm{V}\\alpha\\beta\\gamma$, and deduce $\\mathrm{V}\\beta\\gamma\\alpha$ and $\\mathrm{V}\\gamma\\alpha\\beta$.",
    "answer_latex": [],
@@ -8117,7 +8367,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "412d176",
+    "commit": "9791178",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8140,6 +8390,7 @@
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
    "page": null,
+   "location": "Exercise Probs-44-47, problem 44",
    "problem_latex": "Find the moment at $\\overline{90^\\circ/}\\!\n\\underline{/270^\\circ}$ of 10~pounds at 4~feet\n$\\overline{10^\\circ/}\\!\\underline{/20^\\circ}$ and 20~pounds at\n5~feet $\\overline{30^\\circ/}\\!\\underline{/120^\\circ}$.",
    "markdown": "Find the moment at $\\overline{90^\\circ/}\\! \\underline{/270^\\circ}$ of 10 pounds at 4 feet $\\overline{10^\\circ/}\\!\\underline{/20^\\circ}$ and 20 pounds at 5 feet $\\overline{30^\\circ/}\\!\\underline{/120^\\circ}$.",
    "answer_latex": [],
@@ -8155,7 +8406,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "412d176",
+    "commit": "9791178",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8178,6 +8429,7 @@
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
    "page": null,
+   "location": "Exercise Probs-44-47, problem 45",
    "problem_latex": "Find the torque for $4i + 3j + 2k$ pounds weight at\n$2i - 3j + 1k$ feet, and $2i - 1k - 1k$ pounds weight at $-3i + 4j +\n5k$~feet when transferred to $-3i -2j -4k$ feet.",
    "markdown": "Find the torque for $4i + 3j + 2k$ pounds weight at $2i - 3j + 1k$ feet, and $2i - 1k - 1k$ pounds weight at $-3i + 4j + 5k$ feet when transferred to $-3i -2j -4k$ feet.",
    "answer_latex": [],
@@ -8193,7 +8445,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "412d176",
+    "commit": "9791178",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8216,6 +8468,7 @@
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
    "page": null,
+   "location": "Exercise Probs-44-47, problem 46",
    "problem_latex": "Find the central axis in the above case.",
    "markdown": "Find the central axis in the above case.",
    "answer_latex": [],
@@ -8231,7 +8484,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "412d176",
+    "commit": "9791178",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8253,6 +8506,7 @@
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
    "page": null,
+   "location": "Exercise Probs-44-47, problem 47",
    "problem_latex": "Prove that the mass-vector drawn from any origin to a\nmass equal to that of the whole system placed at the center of mass\nof the system is equal to the sum of the mass-vectors drawn from the\nsame origin to all the particles of the system.",
    "markdown": "Prove that the mass-vector drawn from any origin to a mass equal to that of the whole system placed at the center of mass of the system is equal to the sum of the mass-vectors drawn from the same origin to all the particles of the system.",
    "answer_latex": [],
@@ -8268,7 +8522,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "412d176",
+    "commit": "9791178",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8288,6 +8542,7 @@
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
    "page": null,
+   "location": "Exercise Probs-48-53, problem 48",
    "problem_latex": "Find the equivalent of a quadrantal version round\n$\\dfrac{\\sqrt{3}}{2}i + \\dfrac{1}{2\\sqrt{2}}j +\n\\dfrac{1}{2\\sqrt{2}}k$ followed by a quadrantal version round\n$\\dfrac{1}{2}i + \\dfrac{\\sqrt{3}}{4}j + \\dfrac{3}{4}k$.",
    "markdown": "Find the equivalent of a quadrantal version round $\\dfrac{\\sqrt{3}}{2}i + \\dfrac{1}{2\\sqrt{2}}j + \\dfrac{1}{2\\sqrt{2}}k$ followed by a quadrantal version round $\\dfrac{1}{2}i + \\dfrac{\\sqrt{3}}{4}j + \\dfrac{3}{4}k$.",
    "answer_latex": [],
@@ -8303,7 +8558,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "412d176",
+    "commit": "9791178",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8325,6 +8580,7 @@
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
    "page": null,
+   "location": "Exercise Probs-48-53, problem 49",
    "problem_latex": "In the example on p.~459 let $b=25^\\circ$ and $c =\n50^\\circ$; calculate out the cosine and the directed sine of the\nproduct angle.",
    "markdown": "In the example on p. 459 let $b=25^\\circ$ and $c = 50^\\circ$; calculate out the cosine and the directed sine of the product angle.",
    "answer_latex": [],
@@ -8340,7 +8596,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "412d176",
+    "commit": "9791178",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8363,6 +8619,7 @@
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
    "page": null,
+   "location": "Exercise Probs-48-53, problem 50",
    "problem_latex": "In the above example calculate the cosine and the\ndirected sine up to and inclusive of the fourth power of the\nbinomial. \\hfill (Ans.~$\\cos =.9735$.)",
    "markdown": "In the above example calculate the cosine and the directed sine up to and inclusive of the fourth power of the binomial. (Ans. $\\cos =.9735$.)",
    "answer_latex": [],
@@ -8378,7 +8635,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "412d176",
+    "commit": "9791178",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8402,6 +8659,7 @@
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
    "page": null,
+   "location": "Exercise Probs-48-53, problem 51",
    "problem_latex": "Calculate the first four terms of the series when\n$b = \\frac{1}{50}$, $c = \\frac{1}{100}$, $\\beta =\n\\overline{0^\\circ/}\\! \\underline{/0^\\circ}$, $\\gamma =\n\\overline{90^\\circ/}\\! \\underline{/90^\\circ}$.",
    "markdown": "Calculate the first four terms of the series when $b = \\frac{1}{50}$, $c = \\frac{1}{100}$, $\\beta = \\overline{0^\\circ/}\\! \\underline{/0^\\circ}$, $\\gamma = \\overline{90^\\circ/}\\! \\underline{/90^\\circ}$.",
    "answer_latex": [],
@@ -8417,7 +8675,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "412d176",
+    "commit": "9791178",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8441,6 +8699,7 @@
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
    "page": null,
+   "location": "Exercise Probs-48-53, problem 52",
    "problem_latex": "From the fundamental theorem of spherical\ntrigonometry deduce the polar theorem with respect to both the\ncosine and the directed sine.",
    "markdown": "From the fundamental theorem of spherical trigonometry deduce the polar theorem with respect to both the cosine and the directed sine.",
    "answer_latex": [],
@@ -8456,7 +8715,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "412d176",
+    "commit": "9791178",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8478,6 +8737,7 @@
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
    "page": null,
+   "location": "Exercise Probs-48-53, problem 53",
    "problem_latex": "Prove that if $\\alpha^a, \\beta^b, \\gamma^c$ denote\nthe three versors of a spherical triangle, then\n\\begin{equation*}\n\\frac{\\sin\\beta\\gamma}{\\sin a} = \\frac{\\sin\\gamma\\alpha}{\\sin b} =\n  \\frac{\\sin\\alpha\\beta}{\\sin c}.\n\\end{equation*}",
    "markdown": "Prove that if $\\alpha^a, \\beta^b, \\gamma^c$ denote the three versors of a spherical triangle, then equation* a = b = c. equation*",
    "answer_latex": [],
@@ -8493,7 +8753,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "412d176",
+    "commit": "9791178",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8516,6 +8776,7 @@
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
    "page": null,
+   "location": "Exercise Probs-54-62, problem 54",
    "problem_latex": "Let $\\beta = \\overline{30^\\circ/}\\!\n\\underline{/45^\\circ}$, $\\theta = \\frac{\\pi}{3}$, and $R = 2i - 3j +\n4k$; calculate $\\beta^\\theta R$.",
    "markdown": "Let $\\beta = \\overline{30^\\circ/}\\! \\underline{/45^\\circ}$, $\\theta = \\frac{\\pi}{3}$, and $R = 2i - 3j + 4k$; calculate $\\beta^\\theta R$.",
    "answer_latex": [],
@@ -8531,7 +8792,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "412d176",
+    "commit": "9791178",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8553,6 +8814,7 @@
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
    "page": null,
+   "location": "Exercise Probs-54-62, problem 55",
    "problem_latex": "Let $\\beta = \\overline{90^\\circ/}\\!\n\\underline{/90^\\circ}$, $\\theta = \\frac{\\pi}{4}$, $R = -i + 2j -\n3k$; calculate $\\beta^\\theta R$.",
    "markdown": "Let $\\beta = \\overline{90^\\circ/}\\! \\underline{/90^\\circ}$, $\\theta = \\frac{\\pi}{4}$, $R = -i + 2j - 3k$; calculate $\\beta^\\theta R$.",
    "answer_latex": [],
@@ -8568,7 +8830,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "412d176",
+    "commit": "9791178",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8590,6 +8852,7 @@
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
    "page": null,
+   "location": "Exercise Probs-54-62, problem 56",
    "problem_latex": "Prove by multiplying out that $\\beta^\\frac{-b}{2}\n\\rho^\\frac{\\pi}{2} \\beta^\\frac{b}{2} =\n\\{\\beta^b\\rho\\}^\\frac{\\pi}{2}$.",
    "markdown": "Prove by multiplying out that $\\beta^\\frac{-b}{2} \\rho^\\frac{\\pi}{2} \\beta^\\frac{b}{2} = \\{\\beta^b\\rho\\}^\\frac{\\pi}{2}$.",
    "answer_latex": [],
@@ -8605,7 +8868,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "412d176",
+    "commit": "9791178",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8627,6 +8890,7 @@
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
    "page": null,
+   "location": "Exercise Probs-54-62, problem 57",
    "problem_latex": "Prove by means of the exponential theorem that\n$\\gamma^{-c}\\beta^b\\gamma^c$ has an angle $b$, and that its axis is\n$\\gamma^{2c}\\beta$.",
    "markdown": "Prove by means of the exponential theorem that $\\gamma^{-c}\\beta^b\\gamma^c$ has an angle $b$, and that its axis is $\\gamma^{2c}\\beta$.",
    "answer_latex": [],
@@ -8642,7 +8906,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "412d176",
+    "commit": "9791178",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8665,6 +8929,7 @@
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
    "page": null,
+   "location": "Exercise Probs-54-62, problem 58",
    "problem_latex": "Prove that the cosine of\n$(\\beta^\\frac{b}{2}\\gamma^\\frac{c}{2})^2$\ndiffers from the cosine of $\\beta^b\\gamma^c$ by \\\\\n$-(\\sin\\frac{b}{2} \\sin\\frac{c}{2} \\sin\\beta \\gamma)^2$.",
    "markdown": "Prove that the cosine of $(\\beta^\\frac{b}{2}\\gamma^\\frac{c}{2})^2$ differs from the cosine of $\\beta^b\\gamma^c$ by $-(\\sin\\frac{b}{2} \\sin\\frac{c}{2} \\sin\\beta \\gamma)^2$.",
    "answer_latex": [],
@@ -8680,7 +8945,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "412d176",
+    "commit": "9791178",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8703,6 +8968,7 @@
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
    "page": null,
+   "location": "Exercise Probs-54-62, problem 59",
    "problem_latex": "Compare the axes of\n$(\\beta^\\frac{b}{2}\\gamma^\\frac{c}{2})^2$ and $\\beta^b\\gamma^c$.",
    "markdown": "Compare the axes of $(\\beta^\\frac{b}{2}\\gamma^\\frac{c}{2})^2$ and $\\beta^b\\gamma^c$.",
    "answer_latex": [],
@@ -8718,7 +8984,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "412d176",
+    "commit": "9791178",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8740,6 +9006,7 @@
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
    "page": null,
+   "location": "Exercise Probs-54-62, problem 60",
    "problem_latex": "Find the value of $\\beta^b\\times\\gamma^c$ when\n$\\beta = \\overline{0^\\circ/}\\!\\underline{/90^\\circ}$ and\n$\\gamma=\\overline{90^\\circ/}\\!\\underline{/90^\\circ}$.",
    "markdown": "Find the value of $\\beta^b\\times\\gamma^c$ when $\\beta = \\overline{0^\\circ/}\\!\\underline{/90^\\circ}$ and $\\gamma=\\overline{90^\\circ/}\\!\\underline{/90^\\circ}$.",
    "answer_latex": [],
@@ -8755,7 +9022,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "412d176",
+    "commit": "9791178",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8777,6 +9044,7 @@
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
    "page": null,
+   "location": "Exercise Probs-54-62, problem 61",
    "problem_latex": "Find the single rotation equivalent to\n$i^\\frac{\\pi}{2} \\times j^\\frac{\\pi}{2} \\times k^\\frac{\\pi}{2}$.",
    "markdown": "Find the single rotation equivalent to $i^\\frac{\\pi}{2} \\times j^\\frac{\\pi}{2} \\times k^\\frac{\\pi}{2}$.",
    "answer_latex": [],
@@ -8792,7 +9060,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "412d176",
+    "commit": "9791178",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8814,6 +9082,7 @@
    "book": "macfarlane-vector-analysis-quaternions-1906",
    "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
    "page": null,
+   "location": "Exercise Probs-54-62, problem 62",
    "problem_latex": "Prove that successive rotations about radii to two\ncorners of a spherical triangle and through angles double of those\nof the triangle are equivalent to a single rotation about the radius\nto the third corner, and through an angle double of the external\nangle of the triangle.",
    "markdown": "Prove that successive rotations about radii to two corners of a spherical triangle and through angles double of those of the triangle are equivalent to a single rotation about the radius to the third corner, and through an angle double of the external angle of the triangle.",
    "answer_latex": [],
@@ -8829,7 +9098,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "412d176",
+    "commit": "9791178",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8844,5 +9113,14 @@
    "expectation": null,
    "keys": []
   }
- ]
+ ],
+ "errata_statuses": [
+  "transcriber_marked",
+  "candidate",
+  "probable",
+  "confirmed",
+  "dismissed",
+  "note"
+ ],
+ "errata": []
 }

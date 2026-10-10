@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
  "generated_from": {
-  "claudiverse_commit": "412d176",
-  "generated_at": "2026-10-10T11:01:36Z"
+  "claudiverse_commit": "9791178",
+  "generated_at": "2026-10-10T11:10:12Z"
  },
  "node_types": [
   "book",
@@ -61,7 +61,7 @@
     "source": "Project Gutenberg eBook #26839",
     "url": "https://www.gutenberg.org/ebooks/26839",
     "released": "October 8, 2008",
-    "licence_terms": "This eBook is for the use of anyone anywhere in the United States and most other parts of the world at no cost and with almost no restrictions whatsoever. You may copy it, give it away or re-use it under the terms of the Project Gutenberg License included with this eBook or online at www.gutenberg.org. If you are not located in the United States, you"
+    "licence_terms": "This eBook is for the use of anyone anywhere in the United States and most other parts of the world at no cost and with almost no restrictions whatsoever. You may copy it, give it away or re-use it under the terms of the Project Gutenberg License included with this eBook or online at www.gutenberg.org. If you are not located in the United States, you will have to check the laws of the country where you are located before using this eBook."
    },
    "file": "books/ball-mathematical-recreations-1905.json"
   },
@@ -109,7 +109,7 @@
     "source": "Project Gutenberg eBook #39041",
     "url": "https://www.gutenberg.org/ebooks/39041",
     "released": "March 3, 2012",
-    "licence_terms": "This eBook is for the use of anyone anywhere at no cost and with almost no restrictions whatsoever.  You may copy it, give it away or re-use it under the terms of the Project Gutenberg License included with this eBook or online at www.gutenberg.net Title: Elementary Illustrations of the Differential and Integral Calculus Author: Augustus De Morgan Release Date: March 3, 2012 [EBook #39041] Most recently updated: June 11, 2021 Language: English Character set encoding: UTF-8 *** START OF THIS PROJECT GUTENBERG EBOOK DIFFERENTIAL, INTEGRAL CALCULUS *** %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%"
+    "licence_terms": "This eBook is for the use of anyone anywhere at no cost and with almost no restrictions whatsoever.  You may copy it, give it away or re-use it under the terms of the Project Gutenberg License included with this eBook or online at www.gutenberg.net"
    },
    "file": "books/de-morgan-elementary-illustrations-calculus-1899.json"
   },
@@ -141,7 +141,7 @@
     "source": "Project Gutenberg eBook #38769",
     "url": "https://www.gutenberg.org/ebooks/38769",
     "released": "February 5, 2012",
-    "licence_terms": "This eBook is for the use of anyone anywhere in the United States and most other parts of the world at no cost and with almost no restrictions whatsoever. You may copy it, give it away or re-use it under the terms of the Project Gutenberg License included with this eBook or online at www.gutenberg.org. If you are not located in the United States, you"
+    "licence_terms": "This eBook is for the use of anyone anywhere in the United States and most other parts of the world at no cost and with almost no restrictions whatsoever. You may copy it, give it away or re-use it under the terms of the Project Gutenberg License included with this eBook or online at www.gutenberg.org. If you are not located in the United States, you will have to check the laws of the country where you are located before using this eBook."
    },
    "file": "books/hardy-course-of-pure-mathematics-1921.json"
   },
@@ -157,7 +157,7 @@
     "source": "Project Gutenberg eBook #13609",
     "url": "https://www.gutenberg.org/ebooks/13609",
     "released": "October 5, 2004",
-    "licence_terms": "This eBook is for the use of anyone anywhere in the United States and most other parts of the world at no cost and with almost no restrictions whatsoever. You may copy it, give it away or re-use it under the terms of the Project Gutenberg License included with this eBook or online at www.gutenberg.org. If you are not located in the United States, you"
+    "licence_terms": "This eBook is for the use of anyone anywhere in the United States and most other parts of the world at no cost and with almost no restrictions whatsoever. You may copy it, give it away or re-use it under the terms of the Project Gutenberg License included with this eBook or online at www.gutenberg.org. If you are not located in the United States, you will have to check the laws of the country where you are located before using this eBook."
    },
    "file": "books/macfarlane-vector-analysis-quaternions-1906.json"
   },
@@ -173,7 +173,7 @@
     "source": "Project Gutenberg eBook #69914",
     "url": "https://www.gutenberg.org/ebooks/69914",
     "released": "January 31, 2023",
-    "licence_terms": null
+    "licence_terms": "This is the LaTeX source of a Project Gutenberg eBook, online at https://www.gutenberg.org. Please find the license for this eBook at https://www.gutenberg.org/license"
    },
    "file": "books/maxwell-elementary-treatise-electricity-1888.json"
   },
@@ -189,7 +189,7 @@
     "source": "Project Gutenberg eBook #50880",
     "url": "https://www.gutenberg.org/ebooks/50880",
     "released": "January 9, 2016",
-    "licence_terms": "This eBook is for the use of anyone anywhere in the United States and most other parts of the world at no cost and with almost no restrictions whatsoever.  You may copy it, give it away or re-use it under the terms of the Project Gutenberg License included with this eBook or online at www.gutenberg.org.  If you are not located in the United States, you'll have"
+    "licence_terms": "This eBook is for the use of anyone anywhere in the United States and most other parts of the world at no cost and with almost no restrictions whatsoever.  You may copy it, give it away or re-use it under the terms of the Project Gutenberg License included with this eBook or online at www.gutenberg.org.  If you are not located in the United States, you'll have to check the laws of the country where you are located before using this ebook."
    },
    "file": "books/planck-treatise-on-thermodynamics-1903.json"
   },
@@ -222,7 +222,7 @@
     "source": "Project Gutenberg eBook #33283",
     "url": "https://www.gutenberg.org/ebooks/33283",
     "released": "October 9, 2012",
-    "licence_terms": "This eBook is for the use of anyone anywhere in the United States and most other parts of the world at no cost and with almost no restrictions whatsoever. You may copy it, give it away or re-use it under the terms of the Project Gutenberg License included with this eBook or online at www.gutenberg.org. If you are not located in the United States, you"
+    "licence_terms": "This eBook is for the use of anyone anywhere in the United States and most other parts of the world at no cost and with almost no restrictions whatsoever. You may copy it, give it away or re-use it under the terms of the Project Gutenberg License included with this eBook or online at www.gutenberg.org. If you are not located in the United States, you will have to check the laws of the country where you are located before using this eBook."
    },
    "file": "books/thompson-calculus-made-easy-1914.json"
   },
@@ -238,7 +238,7 @@
     "source": "Project Gutenberg eBook #19770",
     "url": "https://www.gutenberg.org/ebooks/19770",
     "released": "August 19, 2020",
-    "licence_terms": "This eBook is for the use of anyone anywhere in the United States and most other parts of the world at no cost and with almost no restrictions whatsoever.  You may copy it, give it away or re-use it under the terms of the Project Gutenberg License included with this eBook or online at www.gutenberg.org.  If you are not located in the United States, you'll"
+    "licence_terms": "This eBook is for the use of anyone anywhere in the United States and most other parts of the world at no cost and with almost no restrictions whatsoever.  You may copy it, give it away or re-use it under the terms of the Project Gutenberg License included with this eBook or online at www.gutenberg.org.  If you are not located in the United States, you'll have to check the laws of the country where you are located before using this ebook."
    },
    "file": "books/todhunter-spherical-trigonometry-1886.json"
   },
@@ -254,7 +254,7 @@
     "source": "Project Gutenberg eBook #36670",
     "url": "https://www.gutenberg.org/ebooks/36670",
     "released": "July 9, 2011",
-    "licence_terms": "This eBook is for the use of anyone anywhere at no cost and with almost no restrictions whatsoever.  You may copy it, give it away or re-use it under the terms of the Project Gutenberg License included with this eBook or online at www.gutenberg.net Title: The First Steps in Algebra Author: G. A. (George Albert) Wentworth Release Date: July 9, 2011 [EBook #36670] Most recently updated: June 11, 2021 Language: English Character set encoding: UTF-8 *** START OF THIS PROJECT GUTENBERG EBOOK THE FIRST STEPS IN ALGEBRA *** %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%"
+    "licence_terms": "This eBook is for the use of anyone anywhere at no cost and with almost no restrictions whatsoever.  You may copy it, give it away or re-use it under the terms of the Project Gutenberg License included with this eBook or online at www.gutenberg.net"
    },
    "file": "books/wentworth-first-steps-in-algebra-1894.json"
   },

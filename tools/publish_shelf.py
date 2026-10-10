@@ -10,7 +10,9 @@ candidates, each with its status and evidence) and refuses to write an export th
   - ids are unique, and every id a file refers to exists (in the book, or in graph.json);
   - every node and link type is one of the enumerated ones;
   - no control characters in any string (a backslash eaten by a shell shows up as one);
-  - no claude.ai session URL anywhere.
+  - no claude.ai session URL anywhere;
+  - every erratum's status is one of ERRATA_STATUSES (listed in each book file), and erratum ids are
+    unique across the export (each is prefixed with its book's id).
 """
 import argparse
 import json
@@ -27,6 +29,30 @@ sys.path.insert(0, str(ROOT / "tools"))
 from make_errata import collect  # noqa: E402
 
 BAD = re.compile(r"[\x00-\x08\x0b\x0c\x0e-\x1f]")
+ERRATA_STATUSES = ["transcriber_marked", "candidate", "probable", "confirmed", "dismissed", "note"]
+
+
+def site_erratum(book, e):
+    """found.json keeps a status sentence; the site gets one of ERRATA_STATUSES, with the sentence moved
+    into evidence, and an id prefixed with the book's id (G001 exists in more than one book)."""
+    prose, kind = (e.get("status") or "").strip(), e.get("kind") or ""
+    low = prose.lower()
+    if kind == "transcriber-marked":
+        status = "transcriber_marked"
+    elif kind == "note" or e["id"].startswith("N"):
+        status = "note"
+    elif low.startswith("confirmed"):
+        status = "confirmed"
+    elif low.startswith("probable"):
+        status = "probable"
+    elif low.startswith("dismissed"):
+        status = "dismissed"
+    else:
+        status = "candidate"
+    out = {**e, "id": f"{book}/{e['id']}", "status": status}
+    if prose and prose.lower() != status.replace("_", " "):
+        out["evidence"] = f"Status: {prose}." + (f" {e['evidence']}" if e.get("evidence") else "")
+    return out
 
 
 def strings(x, path=""):
@@ -71,7 +97,12 @@ def check(export):
     for f, d in docs.items():
         if f.parent.name != "books":
             continue
-        own = [x["id"] for key in ("chapters", "excerpts", "equations", "exercise_sets", "problems") for x in d[key]]
+        for x in d.get("errata", []):
+            if x.get("status") not in ERRATA_STATUSES:
+                errs.append(f"{f.name}: erratum {x.get('id')} has status {x.get('status')!r}")
+            if not str(x.get("id", "")).startswith(d["book"]["id"] + "/"):
+                errs.append(f"{f.name}: erratum id {x.get('id')} is not prefixed with the book id")
+        own = [x["id"] for key in ("chapters", "excerpts", "equations", "exercise_sets", "problems", "errata") for x in d.get(key, [])]
         if len(own) != len(set(own)):
             errs.append(f"{f.name}: duplicate ids")
         refs = [r for c in d["chapters"] for key in ("concepts", "excerpts", "equations", "exercise_sets") for r in c[key]]
@@ -95,10 +126,10 @@ def main():
         for f in sorted((src / "books").glob("*.json")):
             book_dir = ROOT / "books" / f.stem
             d = json.loads(f.read_text(encoding="utf-8"))
-            if (book_dir / "book.json").exists():
-                _, entries, _ = collect(book_dir)
-                d["errata"] = entries
-                f.write_text(json.dumps(d, ensure_ascii=False, indent=1) + "\n", encoding="utf-8", newline="\n")
+            entries = collect(book_dir)[1] if (book_dir / "book.json").exists() else []
+            d["errata_statuses"] = ERRATA_STATUSES
+            d["errata"] = [site_erratum(f.stem, e) for e in entries]  # [] for a book with none
+            f.write_text(json.dumps(d, ensure_ascii=False, indent=1) + "\n", encoding="utf-8", newline="\n")
             print(f"{f.stem}: {len(d['problems'])} problems, {len(d['excerpts'])} excerpts, "
                   f"{len(d['equations'])} equations, {len(d.get('errata', []))} errata")
         errs = check(src)
