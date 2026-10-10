@@ -23,5 +23,29 @@
     "evidence": "3^(-1/3) = 0.693361..., 0.693 at the printed digits; the STU-32 core and mpmath agree (tutor's acceptance run). y = 0.7 is right.",
     "found_by": "tutor (stu32-calc acceptance)",
     "date": "2026-10-09"
+  },
+  {
+    "id": "C002",
+    "kind": "candidate",
+    "status": "found by the pilot's judge; awaiting abacus",
+    "location": "Answers to Exercises VII, item (1)",
+    "printed": "\\dfrac{dw}{dx} = \\dfrac{3x^2 (3 + 3x^3)}{27 (\\frac{1}{2} x^3 + \\frac{1}{4} x^6)^3}",
+    "corrected": "\\dfrac{dw}{dx} = -\\dfrac{3x^2 (3 + 3x^3)}{27 (\\frac{1}{2} x^3 + \\frac{1}{4} x^6)^3}",
+    "class": "content (sign)",
+    "evidence": "w = 1/v^2 with v = 3(u + u^2), u = x^3/2, so dw/dx = -2 v^-3 dv/dx: negative where the printed answer is positive. The judge's values at a seeded point are exactly opposite (-1023.988... against +1023.988...). The extractor flagged it in its notes before the judge ran.",
+    "found_by": "claudiverse pilot (Sonnet 5.5 extractor, judge.py)",
+    "date": "2026-10-09"
+  },
+  {
+    "id": "C003",
+    "kind": "candidate",
+    "status": "found by the pilot's judge; awaiting abacus",
+    "location": "Exercises XII, item (5), and its answer",
+    "printed": "problem: w = p n^v, find dw/dv; answer: n p v^{n-1}",
+    "corrected": "either the answer p n^v log_e n, or the problem w = p v^n",
+    "class": "content (problem and answer do not match)",
+    "evidence": "n p v^(n-1) is the derivative of p v^n, not of p n^v (whose derivative is p n^v ln n). The judge's values disagree at seeded points (3.8659... against 6.9563...). Which of the two lines is misprinted cannot be told from the text alone.",
+    "found_by": "claudiverse pilot (Sonnet 5.5 extractor, judge.py)",
+    "date": "2026-10-09"
   }
 ]
