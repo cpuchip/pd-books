@@ -4,7 +4,7 @@ book: "A First Book in Algebra"
 edition: "Silver, Burdett and Company, 1895 (title page of the transcription); the scan consulted is the 1894 printing"
 source: "13309-t.tex"
 errata:
-  - id: "T001"
+  - id: "G001"
     kind: "transcription"
     status: "confirmed against a scan"
     page: "77"
