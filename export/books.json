@@ -1,0 +1,3341 @@
+{
+ "schema_version": 1,
+ "generated_from": {
+  "claudiverse_commit": "412d176",
+  "generated_at": "2026-10-10T11:01:36Z"
+ },
+ "node_types": [
+  "book",
+  "person",
+  "chapter",
+  "exercise_set",
+  "problem",
+  "problem_form",
+  "problem_shape",
+  "concept",
+  "method",
+  "theorem",
+  "law",
+  "quantity",
+  "unit",
+  "instrument",
+  "experiment",
+  "excerpt",
+  "equation",
+  "capability"
+ ],
+ "edge_types": [
+  "written_by",
+  "part_of",
+  "taught_in",
+  "practices",
+  "quoted_from",
+  "explains",
+  "appears_in",
+  "states",
+  "relates",
+  "instance_of",
+  "needs",
+  "prerequisite_of",
+  "special_case_of",
+  "generalizes",
+  "uses",
+  "inverse_of",
+  "contrasts_with",
+  "measures",
+  "unit_of",
+  "named_after",
+  "discovered_by",
+  "related_to"
+ ],
+ "books": [
+  {
+   "id": "ball-mathematical-recreations-1905",
+   "title": "Mathematical Recreations and Essays",
+   "authors": [
+    "Walter William Rouse Ball"
+   ],
+   "year": 1905,
+   "edition": "Macmillan and Co., 4th ed., 1905",
+   "transcription": {
+    "source": "Project Gutenberg eBook #26839",
+    "url": "https://www.gutenberg.org/ebooks/26839",
+    "released": "October 8, 2008",
+    "licence_terms": "This eBook is for the use of anyone anywhere in the United States and most other parts of the world at no cost and with almost no restrictions whatsoever. You may copy it, give it away or re-use it under the terms of the Project Gutenberg License included with this eBook or online at www.gutenberg.org. If you are not located in the United States, you"
+   },
+   "file": "books/ball-mathematical-recreations-1905.json"
+  },
+  {
+   "id": "blackburn-elements-plane-trigonometry-1863",
+   "title": "Elements of Plane Trigonometry",
+   "authors": [
+    "Hugh Blackburn"
+   ],
+   "year": 1863,
+   "edition": "Macmillan, 1863 (edition to be confirmed from the copy)",
+   "transcription": {
+    "source": "Project Gutenberg eBook #32973",
+    "url": "https://www.gutenberg.org/ebooks/32973",
+    "released": "June 25, 2010",
+    "licence_terms": "This eBook is for the use of anyone anywhere at no cost and with almost no restrictions whatsoever.  You may copy it, give it away or re-use it under the terms of the Project Gutenberg License included with this eBook or online at www.gutenberg.org"
+   },
+   "file": "books/blackburn-elements-plane-trigonometry-1863.json"
+  },
+  {
+   "id": "boyden-first-book-in-algebra-1895",
+   "title": "A First Book in Algebra",
+   "authors": [
+    "Wallace Clarke Boyden"
+   ],
+   "year": 1895,
+   "edition": "Silver, Burdett and Company, 1895",
+   "transcription": {
+    "source": "Project Gutenberg eBook #13309",
+    "url": "https://www.gutenberg.org/ebooks/13309",
+    "released": "August 27, 2004",
+    "licence_terms": "This eBook is for the use of anyone anywhere at no cost and with almost no restrictions whatsoever.  You may copy it, give it away or re-use it under the terms of the Project Gutenberg License included with this eBook or online at www.gutenberg.org"
+   },
+   "file": "books/boyden-first-book-in-algebra-1895.json"
+  },
+  {
+   "id": "de-morgan-elementary-illustrations-calculus-1899",
+   "title": "Elementary Illustrations of the Differential and Integral Calculus",
+   "authors": [
+    "Augustus De Morgan"
+   ],
+   "year": 1899,
+   "edition": "Open Court Publishing Company, Chicago, new ed., 1899",
+   "transcription": {
+    "source": "Project Gutenberg eBook #39041",
+    "url": "https://www.gutenberg.org/ebooks/39041",
+    "released": "March 3, 2012",
+    "licence_terms": "This eBook is for the use of anyone anywhere at no cost and with almost no restrictions whatsoever.  You may copy it, give it away or re-use it under the terms of the Project Gutenberg License included with this eBook or online at www.gutenberg.net Title: Elementary Illustrations of the Differential and Integral Calculus Author: Augustus De Morgan Release Date: March 3, 2012 [EBook #39041] Most recently updated: June 11, 2021 Language: English Character set encoding: UTF-8 *** START OF THIS PROJECT GUTENBERG EBOOK DIFFERENTIAL, INTEGRAL CALCULUS *** %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%"
+   },
+   "file": "books/de-morgan-elementary-illustrations-calculus-1899.json"
+  },
+  {
+   "id": "dickson-theory-of-equations-1922",
+   "title": "First Course in the Theory of Equations",
+   "authors": [
+    "Leonard Eugene Dickson"
+   ],
+   "year": 1922,
+   "edition": "John Wiley & Sons, New York (Chapman & Hall, London), copyright 1922 (edition to be confirmed from the copy)",
+   "transcription": {
+    "source": "Project Gutenberg eBook #29785",
+    "url": "https://www.gutenberg.org/ebooks/29785",
+    "released": "August 25, 2009",
+    "licence_terms": "This eBook is for the use of anyone anywhere at no cost and with almost no restrictions whatsoever.  You may copy it, give it away or re-use it under the terms of the Project Gutenberg License included with this eBook or online at www.gutenberg.org"
+   },
+   "file": "books/dickson-theory-of-equations-1922.json"
+  },
+  {
+   "id": "hardy-course-of-pure-mathematics-1921",
+   "title": "A Course of Pure Mathematics",
+   "authors": [
+    "Godfrey Harold Hardy"
+   ],
+   "year": 1921,
+   "edition": "Cambridge University Press, 3rd ed., 1921",
+   "transcription": {
+    "source": "Project Gutenberg eBook #38769",
+    "url": "https://www.gutenberg.org/ebooks/38769",
+    "released": "February 5, 2012",
+    "licence_terms": "This eBook is for the use of anyone anywhere in the United States and most other parts of the world at no cost and with almost no restrictions whatsoever. You may copy it, give it away or re-use it under the terms of the Project Gutenberg License included with this eBook or online at www.gutenberg.org. If you are not located in the United States, you"
+   },
+   "file": "books/hardy-course-of-pure-mathematics-1921.json"
+  },
+  {
+   "id": "macfarlane-vector-analysis-quaternions-1906",
+   "title": "Vector Analysis and Quaternions",
+   "authors": [
+    "Alexander Macfarlane"
+   ],
+   "year": 1906,
+   "edition": "John Wiley & Sons, New York (Chapman & Hall, London), 1906; Mathematical Monographs No. 8, ed. Merriman and Woodward (first printed as a chapter of their Higher Mathematics)",
+   "transcription": {
+    "source": "Project Gutenberg eBook #13609",
+    "url": "https://www.gutenberg.org/ebooks/13609",
+    "released": "October 5, 2004",
+    "licence_terms": "This eBook is for the use of anyone anywhere in the United States and most other parts of the world at no cost and with almost no restrictions whatsoever. You may copy it, give it away or re-use it under the terms of the Project Gutenberg License included with this eBook or online at www.gutenberg.org. If you are not located in the United States, you"
+   },
+   "file": "books/macfarlane-vector-analysis-quaternions-1906.json"
+  },
+  {
+   "id": "maxwell-elementary-treatise-electricity-1888",
+   "title": "An Elementary Treatise on Electricity",
+   "authors": [
+    "James Clerk Maxwell"
+   ],
+   "year": 1888,
+   "edition": "Clarendon Press, 2nd ed., 1888, edited by William Garnett",
+   "transcription": {
+    "source": "Project Gutenberg eBook #69914",
+    "url": "https://www.gutenberg.org/ebooks/69914",
+    "released": "January 31, 2023",
+    "licence_terms": null
+   },
+   "file": "books/maxwell-elementary-treatise-electricity-1888.json"
+  },
+  {
+   "id": "planck-treatise-on-thermodynamics-1903",
+   "title": "Treatise on Thermodynamics",
+   "authors": [
+    "Max Planck"
+   ],
+   "year": 1903,
+   "edition": "Longmans, Green, and Co., 1903, translated by Alexander Ogg (edition to be confirmed from the copy)",
+   "transcription": {
+    "source": "Project Gutenberg eBook #50880",
+    "url": "https://www.gutenberg.org/ebooks/50880",
+    "released": "January 9, 2016",
+    "licence_terms": "This eBook is for the use of anyone anywhere in the United States and most other parts of the world at no cost and with almost no restrictions whatsoever.  You may copy it, give it away or re-use it under the terms of the Project Gutenberg License included with this eBook or online at www.gutenberg.org.  If you are not located in the United States, you'll have"
+   },
+   "file": "books/planck-treatise-on-thermodynamics-1903.json"
+  },
+  {
+   "id": "slaught-lennes-solid-geometry-1919",
+   "title": "Solid Geometry with Problems and Applications",
+   "authors": [
+    "H. E. Slaught",
+    "N. J. Lennes"
+   ],
+   "year": 1919,
+   "edition": "Allyn and Bacon, revised ed., 1919 (edition to be confirmed from the copy)",
+   "transcription": {
+    "source": "Project Gutenberg eBook #29807",
+    "url": "https://www.gutenberg.org/ebooks/29807",
+    "released": "August 26, 2009",
+    "licence_terms": "This eBook is for the use of anyone anywhere at no cost and with almost no restrictions whatsoever.  You may copy it, give it away or re-use it under the terms of the Project Gutenberg License included with this eBook or online at www.gutenberg.org"
+   },
+   "file": "books/slaught-lennes-solid-geometry-1919.json"
+  },
+  {
+   "id": "thompson-calculus-made-easy-1914",
+   "title": "Calculus Made Easy",
+   "authors": [
+    "Silvanus Phillips Thompson"
+   ],
+   "year": 1914,
+   "edition": "Macmillan, 2nd ed., 1914",
+   "transcription": {
+    "source": "Project Gutenberg eBook #33283",
+    "url": "https://www.gutenberg.org/ebooks/33283",
+    "released": "October 9, 2012",
+    "licence_terms": "This eBook is for the use of anyone anywhere in the United States and most other parts of the world at no cost and with almost no restrictions whatsoever. You may copy it, give it away or re-use it under the terms of the Project Gutenberg License included with this eBook or online at www.gutenberg.org. If you are not located in the United States, you"
+   },
+   "file": "books/thompson-calculus-made-easy-1914.json"
+  },
+  {
+   "id": "todhunter-spherical-trigonometry-1886",
+   "title": "Spherical Trigonometry, for the Use of Colleges and Schools",
+   "authors": [
+    "Isaac Todhunter"
+   ],
+   "year": 1886,
+   "edition": "Macmillan and Co., London, 5th ed., 1886",
+   "transcription": {
+    "source": "Project Gutenberg eBook #19770",
+    "url": "https://www.gutenberg.org/ebooks/19770",
+    "released": "August 19, 2020",
+    "licence_terms": "This eBook is for the use of anyone anywhere in the United States and most other parts of the world at no cost and with almost no restrictions whatsoever.  You may copy it, give it away or re-use it under the terms of the Project Gutenberg License included with this eBook or online at www.gutenberg.org.  If you are not located in the United States, you'll"
+   },
+   "file": "books/todhunter-spherical-trigonometry-1886.json"
+  },
+  {
+   "id": "wentworth-first-steps-in-algebra-1894",
+   "title": "The First Steps in Algebra",
+   "authors": [
+    "George Albert Wentworth"
+   ],
+   "year": 1894,
+   "edition": "Ginn & Company, 1894",
+   "transcription": {
+    "source": "Project Gutenberg eBook #36670",
+    "url": "https://www.gutenberg.org/ebooks/36670",
+    "released": "July 9, 2011",
+    "licence_terms": "This eBook is for the use of anyone anywhere at no cost and with almost no restrictions whatsoever.  You may copy it, give it away or re-use it under the terms of the Project Gutenberg License included with this eBook or online at www.gutenberg.net Title: The First Steps in Algebra Author: G. A. (George Albert) Wentworth Release Date: July 9, 2011 [EBook #36670] Most recently updated: June 11, 2021 Language: English Character set encoding: UTF-8 *** START OF THIS PROJECT GUTENBERG EBOOK THE FIRST STEPS IN ALGEBRA *** %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%"
+   },
+   "file": "books/wentworth-first-steps-in-algebra-1894.json"
+  },
+  {
+   "id": "wentworth-plane-geometry-1899",
+   "title": "Plane Geometry",
+   "authors": [
+    "George Albert Wentworth"
+   ],
+   "year": 1899,
+   "edition": "Ginn & Company, revised ed., copyright 1899 (first entered 1888)",
+   "transcription": {
+    "source": "Project Gutenberg eBook #33063",
+    "url": "https://www.gutenberg.org/ebooks/33063",
+    "released": "July 3, 2010",
+    "licence_terms": "This eBook is for the use of anyone anywhere at no cost and with almost no restrictions whatsoever.  You may copy it, give it away or re-use it under the terms of the Project Gutenberg License included with this eBook or online at www.gutenberg.org"
+   },
+   "file": "books/wentworth-plane-geometry-1899.json"
+  },
+  {
+   "id": "whitehead-introduction-to-mathematics-1911",
+   "title": "An Introduction to Mathematics",
+   "authors": [
+    "Alfred North Whitehead"
+   ],
+   "year": 1911,
+   "edition": "Williams and Norgate (Home University Library), \"New and Revised Edition\", no year printed (first published 1911; edition to be confirmed from the copy)",
+   "transcription": {
+    "source": "Project Gutenberg eBook #41568",
+    "url": "https://www.gutenberg.org/ebooks/41568",
+    "released": "December 6, 2012",
+    "licence_terms": "This eBook is for the use of anyone anywhere at no cost and with almost no restrictions whatsoever.  You may copy it, give it away or re-use it under the terms of the Project Gutenberg License included with this eBook or online at www.gutenberg.org"
+   },
+   "file": "books/whitehead-introduction-to-mathematics-1911.json"
+  }
+ ],
+ "relations": [
+  {
+   "books": [
+    "ball-mathematical-recreations-1905",
+    "blackburn-elements-plane-trigonometry-1863"
+   ],
+   "shared_concepts": [
+    "concept/cosecant",
+    "concept/logarithm",
+    "concept/periodic-function",
+    "concept/regular-polygon",
+    "concept/sine",
+    "concept/tangent",
+    "concept/tangent-function",
+    "person/archimedes",
+    "person/euclid",
+    "person/isaac-newton",
+    "quantity/angle",
+    "quantity/area",
+    "quantity/circumference"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 12
+  },
+  {
+   "books": [
+    "ball-mathematical-recreations-1905",
+    "boyden-first-book-in-algebra-1895"
+   ],
+   "shared_concepts": [
+    "concept/algebra",
+    "concept/arithmetic",
+    "concept/cube",
+    "concept/equation",
+    "concept/factor",
+    "concept/homogeneous-polynomial",
+    "concept/prime-factor",
+    "concept/quadratic-equation",
+    "concept/remainder",
+    "method/writing-by-inspection",
+    "theorem/difference-of-two-squares"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 6
+  },
+  {
+   "books": [
+    "ball-mathematical-recreations-1905",
+    "de-morgan-elementary-illustrations-calculus-1899"
+   ],
+   "shared_concepts": [
+    "concept/abscissa",
+    "concept/approximation",
+    "concept/area",
+    "concept/arithmetical-progression",
+    "concept/calculus",
+    "concept/circle",
+    "concept/diagonal",
+    "concept/equation",
+    "concept/fluxional-notation",
+    "concept/geometrical-progression",
+    "concept/impulse",
+    "concept/incommensurable-magnitudes",
+    "concept/logarithm",
+    "concept/mathematical-notation",
+    "concept/mathematics",
+    "concept/mechanics",
+    "concept/parabola",
+    "concept/regular-polygon",
+    "concept/similarity",
+    "concept/sine",
+    "concept/sum",
+    "concept/tangent",
+    "concept/tangent-function",
+    "concept/uniform-motion",
+    "concept/weight",
+    "method/differentiation",
+    "person/archimedes",
+    "person/isaac-newton",
+    "person/leonhard-euler",
+    "quantity/angle",
+    "quantity/circumference",
+    "quantity/density",
+    "quantity/force",
+    "quantity/time",
+    "quantity/velocity"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 28
+  },
+  {
+   "books": [
+    "ball-mathematical-recreations-1905",
+    "dickson-theory-of-equations-1922"
+   ],
+   "shared_concepts": [
+    "concept/abscissa",
+    "concept/circle",
+    "concept/conic-section",
+    "concept/cubic-equation",
+    "concept/factor",
+    "concept/imaginary-root",
+    "concept/maximum",
+    "concept/permutation",
+    "concept/quadratic-equation",
+    "concept/remainder",
+    "concept/tangent",
+    "method/differentiation",
+    "person/augustin-louis-cauchy",
+    "person/carl-friedrich-gauss",
+    "person/girolamo-cardano",
+    "person/isaac-newton",
+    "person/james-joseph-sylvester",
+    "person/leonhard-euler",
+    "person/ren-descartes"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 6
+  },
+  {
+   "books": [
+    "ball-mathematical-recreations-1905",
+    "hardy-course-of-pure-mathematics-1921"
+   ],
+   "shared_concepts": [
+    "concept/abscissa",
+    "concept/approximation",
+    "concept/area",
+    "concept/centre-of-gravity",
+    "concept/circle",
+    "concept/conic-section",
+    "concept/continuity",
+    "concept/contour-line",
+    "concept/cosecant",
+    "concept/duplication-of-the-cube",
+    "concept/equation",
+    "concept/equiangular-spiral",
+    "concept/factor",
+    "concept/geometrical-progression",
+    "concept/hyperbola",
+    "concept/imaginary-root",
+    "concept/infinite-set",
+    "concept/integer-part",
+    "concept/logarithm",
+    "concept/mathematical-notation",
+    "concept/maximum",
+    "concept/parabola",
+    "concept/periodic-function",
+    "concept/pi",
+    "concept/prime-factor",
+    "concept/prime-number",
+    "concept/probability",
+    "concept/quadratic-equation",
+    "concept/rational-number",
+    "concept/sine",
+    "concept/sphere",
+    "concept/squaring-the-circle",
+    "concept/sum",
+    "concept/tangent",
+    "concept/tangent-function",
+    "concept/transcendental-number",
+    "concept/triad",
+    "concept/trigonometry",
+    "method/differentiation",
+    "person/augustin-louis-cauchy",
+    "person/carl-friedrich-gauss",
+    "person/diocles",
+    "person/euclid",
+    "person/jean-le-rond-d-alembert",
+    "person/joseph-louis-lagrange",
+    "person/peter-gustav-lejeune-dirichlet",
+    "quantity/area",
+    "quantity/velocity"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 35
+  },
+  {
+   "books": [
+    "ball-mathematical-recreations-1905",
+    "macfarlane-vector-analysis-quaternions-1906"
+   ],
+   "shared_concepts": [
+    "concept/algebra",
+    "concept/area",
+    "concept/arithmetic",
+    "concept/mathematical-notation",
+    "concept/sine",
+    "concept/spherical-trigonometry",
+    "concept/sum",
+    "concept/work",
+    "person/arthur-cayley",
+    "person/william-rowan-hamilton",
+    "quantity/angle",
+    "quantity/force",
+    "quantity/mass",
+    "quantity/velocity",
+    "quantity/volume"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 10
+  },
+  {
+   "books": [
+    "ball-mathematical-recreations-1905",
+    "maxwell-elementary-treatise-electricity-1888"
+   ],
+   "shared_concepts": [
+    "concept/binary-scale",
+    "concept/electric-current",
+    "concept/energy",
+    "concept/geometrical-progression",
+    "concept/kinetic-theory-of-heat",
+    "concept/physical-analogy",
+    "concept/pressure",
+    "concept/spectrum",
+    "concept/sphere",
+    "concept/temperature",
+    "concept/unit-cell",
+    "concept/work",
+    "person/gustav-robert-kirchhoff",
+    "person/hermann-von-helmholtz",
+    "person/michael-faraday",
+    "person/peter-guthrie-tait",
+    "person/william-thomson",
+    "quantity/electric-charge",
+    "quantity/force"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 8
+  },
+  {
+   "books": [
+    "ball-mathematical-recreations-1905",
+    "planck-treatise-on-thermodynamics-1903"
+   ],
+   "shared_concepts": [
+    "concept/atom",
+    "concept/centre-of-gravity",
+    "concept/chemical-element",
+    "concept/energy",
+    "concept/friction",
+    "concept/isolated-system",
+    "concept/kinetic-theory-of-heat",
+    "concept/maximum",
+    "concept/molecule",
+    "concept/perpetual-motion",
+    "concept/phase",
+    "concept/pressure",
+    "concept/stability-of-equilibrium",
+    "concept/tangent",
+    "concept/temperature",
+    "concept/work",
+    "person/gustav-robert-kirchhoff",
+    "person/hermann-von-helmholtz",
+    "person/james-clerk-maxwell",
+    "person/leonhard-euler",
+    "person/william-thomson",
+    "quantity/density",
+    "quantity/mass",
+    "quantity/number-of-molecules",
+    "quantity/pressure",
+    "quantity/volume"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 17
+  },
+  {
+   "books": [
+    "ball-mathematical-recreations-1905",
+    "slaught-lennes-solid-geometry-1919"
+   ],
+   "shared_concepts": [
+    "concept/circle",
+    "concept/corresponding-linear-dimensions",
+    "concept/cross-section",
+    "concept/cube",
+    "concept/edge",
+    "concept/face",
+    "concept/great-circle",
+    "concept/incommensurable-magnitudes",
+    "concept/rational-number",
+    "concept/sine",
+    "concept/sphere",
+    "concept/tangent-function",
+    "person/adrien-marie-legendre",
+    "quantity/angle",
+    "quantity/area",
+    "quantity/circumference",
+    "quantity/volume",
+    "theorem/parallel-postulate"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 12
+  },
+  {
+   "books": [
+    "ball-mathematical-recreations-1905",
+    "thompson-calculus-made-easy-1914"
+   ],
+   "shared_concepts": [
+    "concept/abscissa",
+    "concept/annulus",
+    "concept/approximation",
+    "concept/area",
+    "concept/calculus",
+    "concept/cosecant",
+    "concept/cusp",
+    "concept/factor",
+    "concept/fluxional-notation",
+    "concept/imaginary-root",
+    "concept/logarithm",
+    "concept/mathematical-physics",
+    "concept/mathematics",
+    "concept/maximum",
+    "concept/periodic-function",
+    "concept/pi",
+    "concept/quadratic-equation",
+    "concept/sine",
+    "concept/sum",
+    "concept/tangent",
+    "concept/tangent-function",
+    "concept/work",
+    "method/differentiation",
+    "method/trial-and-error",
+    "person/isaac-newton",
+    "person/jonathan-swift",
+    "quantity/angle",
+    "quantity/force",
+    "quantity/mass",
+    "quantity/pressure",
+    "quantity/time",
+    "quantity/velocity",
+    "unit/hour",
+    "unit/minute",
+    "unit/second"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 32
+  },
+  {
+   "books": [
+    "ball-mathematical-recreations-1905",
+    "todhunter-spherical-trigonometry-1886"
+   ],
+   "shared_concepts": [
+    "concept/approximation",
+    "concept/area",
+    "concept/circle",
+    "concept/diagonal",
+    "concept/edge",
+    "concept/face",
+    "concept/great-circle",
+    "concept/logarithm",
+    "concept/sine",
+    "concept/sphere",
+    "concept/spherical-trigonometry",
+    "concept/tangent-function",
+    "concept/temperature",
+    "person/adrien-marie-legendre",
+    "person/augustin-louis-cauchy",
+    "person/euclid",
+    "person/leonhard-euler",
+    "quantity/force",
+    "quantity/volume"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 7
+  },
+  {
+   "books": [
+    "ball-mathematical-recreations-1905",
+    "wentworth-first-steps-in-algebra-1894"
+   ],
+   "shared_concepts": [
+    "concept/algebra",
+    "concept/arithmetical-progression",
+    "concept/common-difference",
+    "concept/cube",
+    "concept/digit",
+    "concept/equation",
+    "concept/factor",
+    "concept/geometrical-progression",
+    "concept/imaginary-root",
+    "concept/quadratic-equation",
+    "concept/remainder",
+    "method/writing-by-inspection",
+    "quantity/time",
+    "theorem/difference-of-two-squares"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 5
+  },
+  {
+   "books": [
+    "ball-mathematical-recreations-1905",
+    "wentworth-plane-geometry-1899"
+   ],
+   "shared_concepts": [
+    "concept/approximation",
+    "concept/area",
+    "concept/circle",
+    "concept/construction",
+    "concept/diagonal",
+    "concept/dimension",
+    "concept/geometry",
+    "concept/hypothesis",
+    "concept/incommensurable-magnitudes",
+    "concept/maximum",
+    "concept/means-of-a-proportion",
+    "concept/pi",
+    "concept/problem",
+    "concept/regular-polygon",
+    "concept/similarity",
+    "concept/tangent",
+    "quantity/angle",
+    "quantity/area",
+    "quantity/circumference"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 10
+  },
+  {
+   "books": [
+    "ball-mathematical-recreations-1905",
+    "whitehead-introduction-to-mathematics-1911"
+   ],
+   "shared_concepts": [
+    "concept/abscissa",
+    "concept/algebra",
+    "concept/approximation",
+    "concept/arithmetic",
+    "concept/arithmetical-progression",
+    "concept/calculus",
+    "concept/circle",
+    "concept/conic-section",
+    "concept/cubic-equation",
+    "concept/decimal-fraction",
+    "concept/digit",
+    "concept/equation",
+    "concept/fluxional-notation",
+    "concept/geometrical-progression",
+    "concept/geometry",
+    "concept/hyperbola",
+    "concept/imaginary-root",
+    "concept/incommensurable-magnitudes",
+    "concept/inertia",
+    "concept/mathematical-notation",
+    "concept/mathematical-physics",
+    "concept/mathematics",
+    "concept/mechanics",
+    "concept/parabola",
+    "concept/periodic-function",
+    "concept/permutation",
+    "concept/pi",
+    "concept/pressure",
+    "concept/quadratic-equation",
+    "concept/rational-number",
+    "concept/similarity",
+    "concept/sine",
+    "concept/squaring-the-circle",
+    "concept/tangent",
+    "concept/trigonometry",
+    "law/first-law-of-motion",
+    "law/law-of-gravity",
+    "law/parallelogram-law-of-vector-addition",
+    "person/apollonius-of-perga",
+    "person/benjamin-franklin",
+    "person/george-stokes",
+    "person/isaac-newton",
+    "person/menaechmus",
+    "person/pappus-of-alexandria",
+    "person/pierre-de-fermat",
+    "person/ren-descartes",
+    "quantity/angle",
+    "quantity/area",
+    "quantity/circumference",
+    "quantity/force",
+    "quantity/mass",
+    "quantity/time",
+    "quantity/velocity",
+    "quantity/volume"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 20
+  },
+  {
+   "books": [
+    "blackburn-elements-plane-trigonometry-1863",
+    "boyden-first-book-in-algebra-1895"
+   ],
+   "shared_concepts": [],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 1
+  },
+  {
+   "books": [
+    "blackburn-elements-plane-trigonometry-1863",
+    "de-morgan-elementary-illustrations-calculus-1899"
+   ],
+   "shared_concepts": [
+    "concept/common-logarithm",
+    "concept/constant",
+    "concept/cosine",
+    "concept/function",
+    "concept/limit",
+    "concept/logarithm",
+    "concept/negative-direction",
+    "concept/origin",
+    "concept/positive-direction",
+    "concept/ratio",
+    "concept/regular-polygon",
+    "concept/sine",
+    "concept/tangent",
+    "concept/tangent-function",
+    "concept/variable",
+    "person/archimedes",
+    "person/isaac-newton",
+    "quantity/angle",
+    "quantity/arc-of-a-circle",
+    "quantity/circumference",
+    "quantity/distance",
+    "quantity/radius",
+    "unit/degree-of-angle",
+    "unit/minute-of-arc"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 42
+  },
+  {
+   "books": [
+    "blackburn-elements-plane-trigonometry-1863",
+    "dickson-theory-of-equations-1922"
+   ],
+   "shared_concepts": [
+    "concept/origin",
+    "concept/tangent",
+    "method/interpolating-in-logarithmic-tables",
+    "person/isaac-newton",
+    "unit/radian"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 6
+  },
+  {
+   "books": [
+    "blackburn-elements-plane-trigonometry-1863",
+    "hardy-course-of-pure-mathematics-1921"
+   ],
+   "shared_concepts": [
+    "concept/arithmetical-mean",
+    "concept/base-of-a-logarithm-system",
+    "concept/circular-function",
+    "concept/circular-measure",
+    "concept/common-logarithm",
+    "concept/constant",
+    "concept/cosecant",
+    "concept/cosine",
+    "concept/cotangent",
+    "concept/function",
+    "concept/geometrical-mean",
+    "concept/limit",
+    "concept/logarithm",
+    "concept/origin",
+    "concept/periodic-function",
+    "concept/positive-direction",
+    "concept/secant",
+    "concept/sine",
+    "concept/tangent",
+    "concept/tangent-function",
+    "concept/triangle",
+    "concept/variable",
+    "person/euclid",
+    "person/john-napier",
+    "person/ptolemy",
+    "quantity/area",
+    "quantity/length-of-a-curve",
+    "quantity/pi",
+    "theorem/trigonometric-identity"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 45
+  },
+  {
+   "books": [
+    "blackburn-elements-plane-trigonometry-1863",
+    "macfarlane-vector-analysis-quaternions-1906"
+   ],
+   "shared_concepts": [
+    "concept/cosine",
+    "concept/projection",
+    "concept/sine",
+    "quantity/angle",
+    "unit/radian"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 5
+  },
+  {
+   "books": [
+    "blackburn-elements-plane-trigonometry-1863",
+    "planck-treatise-on-thermodynamics-1903"
+   ],
+   "shared_concepts": [
+    "concept/projection",
+    "concept/ratio",
+    "concept/tangent"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 2
+  },
+  {
+   "books": [
+    "blackburn-elements-plane-trigonometry-1863",
+    "slaught-lennes-solid-geometry-1919"
+   ],
+   "shared_concepts": [
+    "concept/constant",
+    "concept/cosine",
+    "concept/function",
+    "concept/limit",
+    "concept/projection",
+    "concept/projection-of-a-line",
+    "concept/sine",
+    "concept/tangent-function",
+    "concept/variable",
+    "method/interpolating-in-logarithmic-tables",
+    "quantity/angle",
+    "quantity/area",
+    "quantity/circumference",
+    "quantity/pi",
+    "quantity/radius",
+    "quantity/right-angle",
+    "theorem/limits-of-equal-variables-are-equal"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 27
+  },
+  {
+   "books": [
+    "blackburn-elements-plane-trigonometry-1863",
+    "thompson-calculus-made-easy-1914"
+   ],
+   "shared_concepts": [
+    "concept/arithmetical-mean",
+    "concept/circular-function",
+    "concept/circular-sector",
+    "concept/common-logarithm",
+    "concept/constant",
+    "concept/cosecant",
+    "concept/cosine",
+    "concept/cotangent",
+    "concept/function",
+    "concept/limit",
+    "concept/logarithm",
+    "concept/periodic-function",
+    "concept/ratio",
+    "concept/secant",
+    "concept/sine",
+    "concept/tangent",
+    "concept/tangent-function",
+    "concept/variable",
+    "person/isaac-newton",
+    "person/john-napier",
+    "quantity/angle",
+    "quantity/distance",
+    "theorem/trigonometric-identity",
+    "unit/degree-of-angle",
+    "unit/radian"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 33
+  },
+  {
+   "books": [
+    "blackburn-elements-plane-trigonometry-1863",
+    "todhunter-spherical-trigonometry-1886"
+   ],
+   "shared_concepts": [
+    "concept/ambiguous-case",
+    "concept/base-line",
+    "concept/circular-measure",
+    "concept/cosine",
+    "concept/cotangent",
+    "concept/excircle",
+    "concept/geodesy",
+    "concept/horizontal-angle",
+    "concept/inclination-of-two-lines",
+    "concept/inscribed-circle",
+    "concept/logarithm",
+    "concept/sine",
+    "concept/station",
+    "concept/supplementary-angles",
+    "concept/tangent-function",
+    "concept/triangle",
+    "method/solving-a-right-angled-triangle",
+    "method/solving-a-triangle",
+    "method/solving-a-triangle-from-its-three-sides",
+    "method/solving-a-triangle-from-two-sides-and-the-included-angle",
+    "person/euclid",
+    "person/john-napier",
+    "quantity/radius",
+    "quantity/semi-perimeter",
+    "theorem/law-of-sines",
+    "unit/degree-of-angle",
+    "unit/radian"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 17
+  },
+  {
+   "books": [
+    "blackburn-elements-plane-trigonometry-1863",
+    "wentworth-first-steps-in-algebra-1894"
+   ],
+   "shared_concepts": [
+    "concept/arithmetical-mean",
+    "concept/geometrical-mean",
+    "concept/variable"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 4
+  },
+  {
+   "books": [
+    "blackburn-elements-plane-trigonometry-1863",
+    "wentworth-plane-geometry-1899"
+   ],
+   "shared_concepts": [
+    "concept/ambiguous-case",
+    "concept/angle-bisector",
+    "concept/broken-line",
+    "concept/circular-sector",
+    "concept/constant",
+    "concept/geometrical-mean",
+    "concept/inscribed-circle",
+    "concept/limit",
+    "concept/ratio",
+    "concept/regular-polygon",
+    "concept/secant",
+    "concept/tangent",
+    "concept/triangle",
+    "concept/variable",
+    "quantity/angle",
+    "quantity/area",
+    "quantity/circumference",
+    "quantity/distance",
+    "quantity/radius",
+    "theorem/heron-s-formula",
+    "unit/degree-of-angle"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 18
+  },
+  {
+   "books": [
+    "blackburn-elements-plane-trigonometry-1863",
+    "whitehead-introduction-to-mathematics-1911"
+   ],
+   "shared_concepts": [
+    "concept/constant",
+    "concept/cosine",
+    "concept/function",
+    "concept/limit",
+    "concept/origin",
+    "concept/periodic-function",
+    "concept/ratio",
+    "concept/sine",
+    "concept/tangent",
+    "concept/triangle",
+    "concept/variable",
+    "person/isaac-newton",
+    "person/ptolemy",
+    "quantity/angle",
+    "quantity/area",
+    "quantity/circumference",
+    "quantity/distance",
+    "quantity/radius"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 29
+  },
+  {
+   "books": [
+    "boyden-first-book-in-algebra-1895",
+    "de-morgan-elementary-illustrations-calculus-1899"
+   ],
+   "shared_concepts": [
+    "concept/algebraic-expression",
+    "concept/arrangement",
+    "concept/coefficient",
+    "concept/degree",
+    "concept/difference",
+    "concept/equality",
+    "concept/equation",
+    "concept/exponent",
+    "concept/negative-number",
+    "concept/power",
+    "concept/product",
+    "concept/root",
+    "method/solving-an-equation",
+    "method/substitution",
+    "theorem/binomial-theorem"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 18
+  },
+  {
+   "books": [
+    "boyden-first-book-in-algebra-1895",
+    "dickson-theory-of-equations-1922"
+   ],
+   "shared_concepts": [
+    "concept/coefficient",
+    "concept/degree",
+    "concept/factor",
+    "concept/highest-common-factor",
+    "concept/linear-equation",
+    "concept/polynomial",
+    "concept/quadratic-equation",
+    "concept/remainder",
+    "concept/root",
+    "concept/simultaneous-equations",
+    "concept/unknown",
+    "method/elimination",
+    "theorem/binomial-theorem"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 13
+  },
+  {
+   "books": [
+    "boyden-first-book-in-algebra-1895",
+    "hardy-course-of-pure-mathematics-1921"
+   ],
+   "shared_concepts": [
+    "concept/divisibility",
+    "concept/equation",
+    "concept/factor",
+    "concept/highest-common-factor",
+    "concept/linear-equation",
+    "concept/lowest-terms",
+    "concept/polynomial",
+    "concept/power",
+    "concept/prime-factor",
+    "concept/product",
+    "concept/quadratic-equation",
+    "concept/root",
+    "concept/term",
+    "method/addition",
+    "method/division",
+    "method/multiplication",
+    "method/substitution",
+    "method/subtraction",
+    "theorem/binomial-theorem"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 22
+  },
+  {
+   "books": [
+    "boyden-first-book-in-algebra-1895",
+    "macfarlane-vector-analysis-quaternions-1906"
+   ],
+   "shared_concepts": [
+    "concept/algebra",
+    "concept/arithmetic",
+    "concept/exponent",
+    "concept/multiplier",
+    "concept/product",
+    "concept/quotient",
+    "concept/square",
+    "concept/trinomial",
+    "method/multiplication",
+    "theorem/binomial-theorem"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 5
+  },
+  {
+   "books": [
+    "boyden-first-book-in-algebra-1895",
+    "planck-treatise-on-thermodynamics-1903"
+   ],
+   "shared_concepts": [
+    "method/elimination",
+    "method/subtraction"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 0
+  },
+  {
+   "books": [
+    "boyden-first-book-in-algebra-1895",
+    "slaught-lennes-solid-geometry-1919"
+   ],
+   "shared_concepts": [
+    "concept/cube"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 1
+  },
+  {
+   "books": [
+    "boyden-first-book-in-algebra-1895",
+    "thompson-calculus-made-easy-1914"
+   ],
+   "shared_concepts": [
+    "concept/algebraic-fraction",
+    "concept/exponent",
+    "concept/factor",
+    "concept/negative-number",
+    "concept/polynomial",
+    "concept/power",
+    "concept/product",
+    "concept/quadratic-equation",
+    "concept/quotient",
+    "concept/root",
+    "concept/simultaneous-equations",
+    "concept/square",
+    "concept/unknown",
+    "method/addition",
+    "method/division",
+    "method/substitution",
+    "method/subtraction",
+    "theorem/binomial-theorem"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 18
+  },
+  {
+   "books": [
+    "boyden-first-book-in-algebra-1895",
+    "wentworth-first-steps-in-algebra-1894"
+   ],
+   "shared_concepts": [
+    "concept/affected-quadratic-equation",
+    "concept/algebra",
+    "concept/algebraic-expression",
+    "concept/algebraic-fraction",
+    "concept/algebraic-number",
+    "concept/algebraic-sum",
+    "concept/arrangement",
+    "concept/binomial",
+    "concept/coefficient",
+    "concept/common-factor",
+    "concept/common-multiple",
+    "concept/complete-divisor",
+    "concept/complex-fraction",
+    "concept/cube",
+    "concept/degree",
+    "concept/dividend",
+    "concept/divisibility",
+    "concept/divisor",
+    "concept/equality",
+    "concept/equation",
+    "concept/exponent",
+    "concept/factor",
+    "concept/fractional-equation",
+    "concept/highest-common-factor",
+    "concept/like-terms",
+    "concept/linear-equation",
+    "concept/lowest-common-denominator",
+    "concept/lowest-common-multiple",
+    "concept/lowest-terms",
+    "concept/member",
+    "concept/minuend",
+    "concept/monomial",
+    "concept/negative-number",
+    "concept/number-line",
+    "concept/numerical-value",
+    "concept/parenthesis",
+    "concept/perfect-square",
+    "concept/polynomial",
+    "concept/positive-number",
+    "concept/power",
+    "concept/product",
+    "concept/pure-quadratic-equation",
+    "concept/quadratic-equation",
+    "concept/quotient",
+    "concept/radical-sign",
+    "concept/remainder",
+    "concept/root",
+    "concept/simultaneous-equations",
+    "concept/square",
+    "concept/subtrahend",
+    "concept/term",
+    "concept/trial-divisor",
+    "concept/trinomial",
+    "concept/unknown",
+    "method/adding-fractions",
+    "method/addition",
+    "method/clearing-an-equation-of-fractions",
+    "method/collecting-like-terms",
+    "method/dividing-a-polynomial-by-a-monomial",
+    "method/dividing-a-polynomial-by-a-polynomial",
+    "method/dividing-by-a-fraction",
+    "method/division",
+    "method/elimination",
+    "method/extracting-the-cube-root",
+    "method/extracting-the-root-of-a-fraction",
+    "method/extracting-the-square-root",
+    "method/factoring",
+    "method/factoring-a-perfect-square-trinomial",
+    "method/factoring-a-trinomial-of-the-form-x-2-ax-b",
+    "method/factoring-by-grouping",
+    "method/factoring-by-taking-out-a-common-factor",
+    "method/finding-the-highest-common-factor",
+    "method/finding-the-lowest-common-multiple",
+    "method/multiplication",
+    "method/multiplying-a-compound-expression",
+    "method/multiplying-fractions",
+    "method/multiplying-two-binomials",
+    "method/reducing-a-fraction-to-an-integral-or-mixed-expression",
+    "method/reducing-a-fraction-to-lowest-terms",
+    "method/reducing-a-mixed-expression-to-a-fraction",
+    "method/reducing-fractions-to-lowest-common-denominator",
+    "method/simplifying-a-complex-fraction",
+    "method/solving-an-equation",
+    "method/stating-a-problem-as-an-equation",
+    "method/substitution",
+    "method/subtraction",
+    "method/transposing-the-terms",
+    "method/writing-by-inspection",
+    "theorem/cube-of-a-sum",
+    "theorem/difference-of-two-cubes",
+    "theorem/difference-of-two-squares",
+    "theorem/fundamental-principle-of-fractions",
+    "theorem/index-law-in-division",
+    "theorem/index-law-in-multiplication",
+    "theorem/law-of-signs-in-division",
+    "theorem/law-of-signs-in-multiplication",
+    "theorem/removing-parentheses-preceded-by-minus",
+    "theorem/removing-parentheses-preceded-by-plus",
+    "theorem/square-of-a-sum",
+    "theorem/sum-of-two-cubes",
+    "theorem/transposition-rule"
+   ],
+   "shared_problem_forms": 24,
+   "prerequisite_edges": 76
+  },
+  {
+   "books": [
+    "boyden-first-book-in-algebra-1895",
+    "wentworth-plane-geometry-1899"
+   ],
+   "shared_concepts": [
+    "concept/equality",
+    "concept/square",
+    "concept/term",
+    "method/extracting-the-square-root"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 7
+  },
+  {
+   "books": [
+    "boyden-first-book-in-algebra-1895",
+    "whitehead-introduction-to-mathematics-1911"
+   ],
+   "shared_concepts": [
+    "concept/algebra",
+    "concept/arithmetic",
+    "concept/equality",
+    "concept/equation",
+    "concept/linear-equation",
+    "concept/negative-number",
+    "concept/number-line",
+    "concept/parenthesis",
+    "concept/perfect-square",
+    "concept/positive-number",
+    "concept/quadratic-equation",
+    "concept/root",
+    "concept/unknown",
+    "method/addition",
+    "method/multiplication"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 15
+  },
+  {
+   "books": [
+    "de-morgan-elementary-illustrations-calculus-1899",
+    "dickson-theory-of-equations-1922"
+   ],
+   "shared_concepts": [
+    "concept/abscissa",
+    "concept/circle",
+    "concept/coefficient",
+    "concept/curve",
+    "concept/degree",
+    "concept/derivative",
+    "concept/graph-of-a-function",
+    "concept/higher-order-derivative",
+    "concept/infinity",
+    "concept/interval",
+    "concept/ordinate",
+    "concept/origin",
+    "concept/root",
+    "concept/root-of-an-equation",
+    "concept/sign",
+    "concept/slope-of-a-curve",
+    "concept/tangent",
+    "method/differentiation",
+    "method/newton-s-method",
+    "person/isaac-newton",
+    "person/leonhard-euler",
+    "theorem/binomial-theorem",
+    "theorem/taylor-s-theorem"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 42
+  },
+  {
+   "books": [
+    "de-morgan-elementary-illustrations-calculus-1899",
+    "hardy-course-of-pure-mathematics-1921"
+   ],
+   "shared_concepts": [
+    "concept/abscissa",
+    "concept/approximation",
+    "concept/area",
+    "concept/binomial-coefficient",
+    "concept/cartesian-coordinates",
+    "concept/chord",
+    "concept/circle",
+    "concept/common-logarithm",
+    "concept/constant",
+    "concept/convergent-series",
+    "concept/cosine",
+    "concept/curve",
+    "concept/dependent",
+    "concept/derivative",
+    "concept/differential",
+    "concept/divergent-series",
+    "concept/equation",
+    "concept/euler-s-number",
+    "concept/explicit-function",
+    "concept/exponential-function",
+    "concept/focus",
+    "concept/function",
+    "concept/function-notation",
+    "concept/function-of-several-variables",
+    "concept/general-power",
+    "concept/geometrical-progression",
+    "concept/graph-of-a-function",
+    "concept/higher-order-derivative",
+    "concept/hypotenuse",
+    "concept/implicit-function",
+    "concept/increment",
+    "concept/indeterminate-form",
+    "concept/infinite-sequence",
+    "concept/infinity",
+    "concept/integral",
+    "concept/interval",
+    "concept/inverse-function",
+    "concept/limit",
+    "concept/limits-of-integration",
+    "concept/line",
+    "concept/logarithm",
+    "concept/mathematical-notation",
+    "concept/order-of-smallness",
+    "concept/ordinate",
+    "concept/origin",
+    "concept/parabola",
+    "concept/parallelogram",
+    "concept/partial-derivative",
+    "concept/perimeter",
+    "concept/point",
+    "concept/positive-direction",
+    "concept/power",
+    "concept/power-series",
+    "concept/product",
+    "concept/reciprocal",
+    "concept/rectangle",
+    "concept/right-angle",
+    "concept/right-triangle",
+    "concept/root",
+    "concept/root-of-an-equation",
+    "concept/sine",
+    "concept/square-root-of-2",
+    "concept/sum",
+    "concept/surface",
+    "concept/tangent",
+    "concept/tangent-function",
+    "concept/tends-to-infinity",
+    "concept/variable",
+    "method/differentiation",
+    "method/implicit-differentiation",
+    "method/integration",
+    "method/newton-s-method",
+    "method/substitution",
+    "quantity/velocity",
+    "theorem/binomial-theorem",
+    "theorem/chain-rule",
+    "theorem/fundamental-theorem-of-calculus",
+    "theorem/necessary-condition-for-convergence",
+    "theorem/power-rule",
+    "theorem/product-rule",
+    "theorem/quotient-rule",
+    "theorem/taylor-s-theorem",
+    "theorem/total-differential"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 144
+  },
+  {
+   "books": [
+    "de-morgan-elementary-illustrations-calculus-1899",
+    "macfarlane-vector-analysis-quaternions-1906"
+   ],
+   "shared_concepts": [
+    "concept/area",
+    "concept/cartesian-coordinates",
+    "concept/cosine",
+    "concept/exponent",
+    "concept/infinitesimal",
+    "concept/mathematical-notation",
+    "concept/polygon",
+    "concept/product",
+    "concept/reciprocal",
+    "concept/sine",
+    "concept/sum",
+    "quantity/angle",
+    "quantity/force",
+    "quantity/length",
+    "quantity/velocity",
+    "theorem/binomial-theorem"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 21
+  },
+  {
+   "books": [
+    "de-morgan-elementary-illustrations-calculus-1899",
+    "maxwell-elementary-treatise-electricity-1888"
+   ],
+   "shared_concepts": [
+    "concept/geometrical-progression",
+    "quantity/force"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 2
+  },
+  {
+   "books": [
+    "de-morgan-elementary-illustrations-calculus-1899",
+    "planck-treatise-on-thermodynamics-1903"
+   ],
+   "shared_concepts": [
+    "concept/cartesian-coordinates",
+    "concept/differential",
+    "concept/infinitesimal",
+    "concept/partial-derivative",
+    "concept/ratio",
+    "concept/singular-value",
+    "concept/tangent",
+    "person/leonhard-euler",
+    "quantity/density",
+    "theorem/taylor-s-theorem"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 18
+  },
+  {
+   "books": [
+    "de-morgan-elementary-illustrations-calculus-1899",
+    "slaught-lennes-solid-geometry-1919"
+   ],
+   "shared_concepts": [
+    "concept/circle",
+    "concept/constant",
+    "concept/cosine",
+    "concept/function",
+    "concept/incommensurable-magnitudes",
+    "concept/infinite-sequence",
+    "concept/limit",
+    "concept/line",
+    "concept/perimeter",
+    "concept/perpendicular",
+    "concept/point",
+    "concept/right-triangle",
+    "concept/sine",
+    "concept/tangent-function",
+    "concept/three-dimensional-figure",
+    "concept/variable",
+    "quantity/angle",
+    "quantity/circumference",
+    "quantity/radius"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 48
+  },
+  {
+   "books": [
+    "de-morgan-elementary-illustrations-calculus-1899",
+    "thompson-calculus-made-easy-1914"
+   ],
+   "shared_concepts": [
+    "concept/abscissa",
+    "concept/approximation",
+    "concept/area",
+    "concept/calculus",
+    "concept/common-logarithm",
+    "concept/constant",
+    "concept/convergent-series",
+    "concept/cosine",
+    "concept/derivative",
+    "concept/differential",
+    "concept/euler-s-number",
+    "concept/explicit-function",
+    "concept/exponent",
+    "concept/exponential-function",
+    "concept/fluxional-notation",
+    "concept/function",
+    "concept/function-notation",
+    "concept/function-of-several-variables",
+    "concept/geometric-series",
+    "concept/higher-order-derivative",
+    "concept/implicit-function",
+    "concept/increment",
+    "concept/independent-variable",
+    "concept/infinitesimal",
+    "concept/integral",
+    "concept/intersection-of-two-curves",
+    "concept/inverse-function",
+    "concept/limit",
+    "concept/limits-of-integration",
+    "concept/line",
+    "concept/logarithm",
+    "concept/mathematics",
+    "concept/natural-logarithm",
+    "concept/negative-number",
+    "concept/operation",
+    "concept/order-of-smallness",
+    "concept/ordinate",
+    "concept/partial-derivative",
+    "concept/partial-differential",
+    "concept/power",
+    "concept/product",
+    "concept/rate-of-change",
+    "concept/ratio",
+    "concept/reciprocal",
+    "concept/rectangle",
+    "concept/relation-between-variables",
+    "concept/root",
+    "concept/sine",
+    "concept/slope-of-a-curve",
+    "concept/sum",
+    "concept/tangent",
+    "concept/tangent-function",
+    "concept/total-differential",
+    "concept/variable",
+    "method/differentiating-from-first-principles",
+    "method/differentiation",
+    "method/integration",
+    "method/neglecting-higher-order-small-quantities",
+    "method/substitution",
+    "person/gottfried-wilhelm-leibniz",
+    "person/isaac-newton",
+    "quantity/acceleration",
+    "quantity/angle",
+    "quantity/angular-velocity",
+    "quantity/distance",
+    "quantity/force",
+    "quantity/time",
+    "quantity/velocity",
+    "theorem/binomial-theorem",
+    "theorem/power-rule",
+    "theorem/product-rule",
+    "theorem/pythagorean-theorem",
+    "theorem/quotient-rule",
+    "unit/degree-of-angle"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 135
+  },
+  {
+   "books": [
+    "de-morgan-elementary-illustrations-calculus-1899",
+    "todhunter-spherical-trigonometry-1886"
+   ],
+   "shared_concepts": [
+    "concept/approximation",
+    "concept/area",
+    "concept/chord",
+    "concept/circle",
+    "concept/cosine",
+    "concept/diagonal",
+    "concept/hypotenuse",
+    "concept/logarithm",
+    "concept/perpendicular",
+    "concept/polygon",
+    "concept/sine",
+    "concept/tangent-function",
+    "method/neglecting-higher-order-small-quantities",
+    "method/verification",
+    "person/leonhard-euler",
+    "quantity/force",
+    "quantity/radius",
+    "unit/degree-of-angle"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 16
+  },
+  {
+   "books": [
+    "de-morgan-elementary-illustrations-calculus-1899",
+    "wentworth-first-steps-in-algebra-1894"
+   ],
+   "shared_concepts": [
+    "concept/algebraic-expression",
+    "concept/arithmetical-progression",
+    "concept/arrangement",
+    "concept/coefficient",
+    "concept/degree",
+    "concept/equality",
+    "concept/equation",
+    "concept/exponent",
+    "concept/geometrical-progression",
+    "concept/negative-number",
+    "concept/number",
+    "concept/power",
+    "concept/product",
+    "concept/reciprocal",
+    "concept/root",
+    "concept/sign",
+    "concept/variable",
+    "method/solving-an-equation",
+    "method/substitution",
+    "method/verification",
+    "quantity/time",
+    "unit/unit"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 24
+  },
+  {
+   "books": [
+    "de-morgan-elementary-illustrations-calculus-1899",
+    "wentworth-plane-geometry-1899"
+   ],
+   "shared_concepts": [
+    "concept/approximation",
+    "concept/arc-of-a-circle",
+    "concept/area",
+    "concept/chord",
+    "concept/circle",
+    "concept/commensurable-magnitudes",
+    "concept/constant",
+    "concept/curvilinear-figure",
+    "concept/diagonal",
+    "concept/equality",
+    "concept/hypotenuse",
+    "concept/incommensurable-magnitudes",
+    "concept/limit",
+    "concept/line",
+    "concept/parallelogram",
+    "concept/perimeter",
+    "concept/perpendicular",
+    "concept/point",
+    "concept/polygon",
+    "concept/proportion",
+    "concept/ratio",
+    "concept/rectangle",
+    "concept/rectilinear-figure",
+    "concept/regular-polygon",
+    "concept/right-angle",
+    "concept/right-triangle",
+    "concept/similarity",
+    "concept/surface",
+    "concept/tangent",
+    "concept/three-dimensional-figure",
+    "concept/variable",
+    "method/composition-of-proportions",
+    "quantity/angle",
+    "quantity/circumference",
+    "quantity/distance",
+    "quantity/radius",
+    "theorem/pythagorean-theorem",
+    "unit/degree-of-angle",
+    "unit/unit"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 43
+  },
+  {
+   "books": [
+    "de-morgan-elementary-illustrations-calculus-1899",
+    "whitehead-introduction-to-mathematics-1911"
+   ],
+   "shared_concepts": [
+    "concept/abscissa",
+    "concept/approximation",
+    "concept/arc-of-a-circle",
+    "concept/arithmetical-progression",
+    "concept/calculus",
+    "concept/cartesian-coordinates",
+    "concept/circle",
+    "concept/constant",
+    "concept/continuous-quantity",
+    "concept/convergent-series",
+    "concept/cosine",
+    "concept/curve",
+    "concept/derivative",
+    "concept/divergent-series",
+    "concept/dynamics",
+    "concept/equality",
+    "concept/equation",
+    "concept/exponential-function",
+    "concept/fluxional-notation",
+    "concept/focus",
+    "concept/function",
+    "concept/function-notation",
+    "concept/geometrical-progression",
+    "concept/graph-of-a-function",
+    "concept/incommensurable-magnitudes",
+    "concept/infinite-sequence",
+    "concept/infinitesimal",
+    "concept/infinity",
+    "concept/integral",
+    "concept/interval",
+    "concept/limit",
+    "concept/line",
+    "concept/mathematical-notation",
+    "concept/mathematics",
+    "concept/mechanics",
+    "concept/negative-number",
+    "concept/number",
+    "concept/operation",
+    "concept/ordinate",
+    "concept/origin",
+    "concept/parabola",
+    "concept/rate-of-change",
+    "concept/ratio",
+    "concept/rectangle",
+    "concept/relation-between-variables",
+    "concept/root",
+    "concept/similarity",
+    "concept/sine",
+    "concept/slope-of-a-curve",
+    "concept/specific-gravity",
+    "concept/standard-of-approximation",
+    "concept/tangent",
+    "concept/variable",
+    "concept/vertex-of-a-conic-section",
+    "instrument/transit-instrument",
+    "person/gottfried-wilhelm-leibniz",
+    "person/isaac-newton",
+    "quantity/acceleration",
+    "quantity/angle",
+    "quantity/angular-velocity",
+    "quantity/circumference",
+    "quantity/distance",
+    "quantity/force",
+    "quantity/length",
+    "quantity/radius",
+    "quantity/time",
+    "quantity/velocity",
+    "unit/unit"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 81
+  },
+  {
+   "books": [
+    "dickson-theory-of-equations-1922",
+    "hardy-course-of-pure-mathematics-1921"
+   ],
+   "shared_concepts": [
+    "concept/abscissa",
+    "concept/absolute-value",
+    "concept/circle",
+    "concept/complex-number",
+    "concept/conic-section",
+    "concept/conjugate-complex-numbers",
+    "concept/continuous-function",
+    "concept/cube-root-of-unity",
+    "concept/curve",
+    "concept/derivative",
+    "concept/determinant",
+    "concept/discriminant",
+    "concept/factor",
+    "concept/factorial",
+    "concept/function-of-two-variables",
+    "concept/graph-of-a-function",
+    "concept/higher-order-derivative",
+    "concept/highest-common-factor",
+    "concept/imaginary-root",
+    "concept/infinity",
+    "concept/interval",
+    "concept/linear-equation",
+    "concept/maximum",
+    "concept/minimum",
+    "concept/multiple-root",
+    "concept/ordinate",
+    "concept/origin",
+    "concept/polynomial",
+    "concept/quadratic-equation",
+    "concept/rational-function",
+    "concept/real-root",
+    "concept/root",
+    "concept/root-of-an-equation",
+    "concept/tangent",
+    "method/differentiation",
+    "method/graphical-solution-of-an-equation",
+    "method/mathematical-induction",
+    "method/newton-s-method",
+    "method/solving-an-equation-graphically",
+    "person/augustin-louis-cauchy",
+    "person/carl-friedrich-gauss",
+    "quantity/modulus-of-a-complex-number",
+    "theorem/binomial-theorem",
+    "theorem/factor-theorem",
+    "theorem/fundamental-theorem-of-algebra",
+    "theorem/intermediate-value-theorem",
+    "theorem/relations-between-roots-and-coefficients",
+    "theorem/remainder-theorem",
+    "theorem/rolle-s-theorem",
+    "theorem/taylor-s-theorem"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 83
+  },
+  {
+   "books": [
+    "dickson-theory-of-equations-1922",
+    "macfarlane-vector-analysis-quaternions-1906"
+   ],
+   "shared_concepts": [
+    "concept/complex-number",
+    "concept/determinant",
+    "theorem/binomial-theorem",
+    "unit/radian"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 8
+  },
+  {
+   "books": [
+    "dickson-theory-of-equations-1922",
+    "planck-treatise-on-thermodynamics-1903"
+   ],
+   "shared_concepts": [
+    "concept/maximum",
+    "concept/point-of-tangency",
+    "concept/tangent",
+    "method/elimination",
+    "person/leonhard-euler",
+    "theorem/taylor-s-theorem"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 10
+  },
+  {
+   "books": [
+    "dickson-theory-of-equations-1922",
+    "slaught-lennes-solid-geometry-1919"
+   ],
+   "shared_concepts": [
+    "concept/circle",
+    "concept/right-circular-cylinder",
+    "method/interpolating-in-logarithmic-tables"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 6
+  },
+  {
+   "books": [
+    "dickson-theory-of-equations-1922",
+    "thompson-calculus-made-easy-1914"
+   ],
+   "shared_concepts": [
+    "concept/abscissa",
+    "concept/derivative",
+    "concept/factor",
+    "concept/higher-order-derivative",
+    "concept/imaginary-root",
+    "concept/maximum",
+    "concept/minimum",
+    "concept/ordinate",
+    "concept/point-of-tangency",
+    "concept/polynomial",
+    "concept/quadratic-equation",
+    "concept/root",
+    "concept/simultaneous-equations",
+    "concept/slope-of-a-curve",
+    "concept/tangent",
+    "concept/unknown",
+    "method/differentiation",
+    "method/plotting-a-curve",
+    "person/isaac-newton",
+    "theorem/binomial-theorem",
+    "theorem/power-rule-for-differentiation",
+    "theorem/sum-rule-for-differentiation",
+    "unit/radian"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 49
+  },
+  {
+   "books": [
+    "dickson-theory-of-equations-1922",
+    "todhunter-spherical-trigonometry-1886"
+   ],
+   "shared_concepts": [
+    "concept/circle",
+    "person/augustin-louis-cauchy",
+    "person/leonhard-euler",
+    "unit/radian"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 1
+  },
+  {
+   "books": [
+    "dickson-theory-of-equations-1922",
+    "wentworth-first-steps-in-algebra-1894"
+   ],
+   "shared_concepts": [
+    "concept/absolute-value",
+    "concept/coefficient",
+    "concept/degree",
+    "concept/factor",
+    "concept/highest-common-factor",
+    "concept/imaginary-root",
+    "concept/linear-equation",
+    "concept/polynomial",
+    "concept/quadratic-equation",
+    "concept/real-root",
+    "concept/remainder",
+    "concept/root",
+    "concept/sign",
+    "concept/simultaneous-equations",
+    "concept/unknown",
+    "method/elimination"
+   ],
+   "shared_problem_forms": 1,
+   "prerequisite_edges": 14
+  },
+  {
+   "books": [
+    "dickson-theory-of-equations-1922",
+    "wentworth-plane-geometry-1899"
+   ],
+   "shared_concepts": [
+    "concept/circle",
+    "concept/maximum",
+    "concept/minimum",
+    "concept/point-of-tangency",
+    "concept/proof",
+    "concept/tangent"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 8
+  },
+  {
+   "books": [
+    "dickson-theory-of-equations-1922",
+    "whitehead-introduction-to-mathematics-1911"
+   ],
+   "shared_concepts": [
+    "concept/abscissa",
+    "concept/circle",
+    "concept/complex-number",
+    "concept/conic-section",
+    "concept/continuous-function",
+    "concept/cubic-equation",
+    "concept/curve",
+    "concept/derivative",
+    "concept/factorial",
+    "concept/graph-of-a-function",
+    "concept/imaginary-root",
+    "concept/infinity",
+    "concept/interval",
+    "concept/linear-equation",
+    "concept/ordinate",
+    "concept/origin",
+    "concept/permutation",
+    "concept/quadratic-equation",
+    "concept/root",
+    "concept/slope-of-a-curve",
+    "concept/tangent",
+    "concept/unknown",
+    "person/isaac-newton",
+    "person/ren-descartes"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 27
+  },
+  {
+   "books": [
+    "hardy-course-of-pure-mathematics-1921",
+    "macfarlane-vector-analysis-quaternions-1906"
+   ],
+   "shared_concepts": [
+    "concept/area",
+    "concept/cartesian-coordinates",
+    "concept/complex-number",
+    "concept/cosine",
+    "concept/curvature",
+    "concept/determinant",
+    "concept/exponential-theorem",
+    "concept/mathematical-notation",
+    "concept/normal",
+    "concept/plane",
+    "concept/product",
+    "concept/reciprocal",
+    "concept/rotation",
+    "concept/sine",
+    "concept/sum",
+    "law/distributive-law",
+    "method/multiplication",
+    "quantity/radius-of-curvature",
+    "quantity/velocity",
+    "theorem/binomial-theorem"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 22
+  },
+  {
+   "books": [
+    "hardy-course-of-pure-mathematics-1921",
+    "maxwell-elementary-treatise-electricity-1888"
+   ],
+   "shared_concepts": [
+    "concept/corresponding-point",
+    "concept/geometrical-progression",
+    "concept/sphere"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 3
+  },
+  {
+   "books": [
+    "hardy-course-of-pure-mathematics-1921",
+    "planck-treatise-on-thermodynamics-1903"
+   ],
+   "shared_concepts": [
+    "concept/cartesian-coordinates",
+    "concept/centre-of-gravity",
+    "concept/corresponding-point",
+    "concept/differential",
+    "concept/discontinuous-function",
+    "concept/exact-differential",
+    "concept/homogeneous-function",
+    "concept/limiting-case",
+    "concept/maximum",
+    "concept/partial-derivative",
+    "concept/point-of-inflexion",
+    "concept/ruled-surface",
+    "concept/solution",
+    "concept/tangent",
+    "concept/van-der-waals-equation",
+    "law/boyle-s-law",
+    "method/subtraction",
+    "theorem/taylor-s-series",
+    "theorem/taylor-s-theorem"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 20
+  },
+  {
+   "books": [
+    "hardy-course-of-pure-mathematics-1921",
+    "slaught-lennes-solid-geometry-1919"
+   ],
+   "shared_concepts": [
+    "concept/circle",
+    "concept/collinear-points",
+    "concept/cone",
+    "concept/constant",
+    "concept/cosine",
+    "concept/cylinder",
+    "concept/cylindrical-surface",
+    "concept/ellipse",
+    "concept/function",
+    "concept/infinite-sequence",
+    "concept/irrational-number",
+    "concept/least-upper-bound",
+    "concept/limit",
+    "concept/line",
+    "concept/locus",
+    "concept/perimeter",
+    "concept/plane",
+    "concept/point",
+    "concept/rational-number",
+    "concept/right-circular-cone",
+    "concept/right-triangle",
+    "concept/sine",
+    "concept/sphere",
+    "concept/tangent-function",
+    "concept/variable",
+    "quantity/area",
+    "quantity/pi",
+    "theorem/area-of-an-ellipse"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 51
+  },
+  {
+   "books": [
+    "hardy-course-of-pure-mathematics-1921",
+    "thompson-calculus-made-easy-1914"
+   ],
+   "shared_concepts": [
+    "concept/abscissa",
+    "concept/approximation",
+    "concept/area",
+    "concept/arithmetical-mean",
+    "concept/circular-function",
+    "concept/common-logarithm",
+    "concept/constant",
+    "concept/convergent-series",
+    "concept/cosecant",
+    "concept/cosine",
+    "concept/cotangent",
+    "concept/curvature",
+    "concept/definite-integral",
+    "concept/denominator",
+    "concept/derivative",
+    "concept/differential",
+    "concept/differential-equation",
+    "concept/euler-s-number",
+    "concept/exact-differential",
+    "concept/explicit-function",
+    "concept/exponential-function",
+    "concept/factor",
+    "concept/function",
+    "concept/function-notation",
+    "concept/function-of-several-variables",
+    "concept/higher-order-derivative",
+    "concept/hyperbolic-function",
+    "concept/imaginary-root",
+    "concept/implicit-function",
+    "concept/increment",
+    "concept/integral",
+    "concept/inverse-circular-function",
+    "concept/inverse-function",
+    "concept/limit",
+    "concept/limiting-case",
+    "concept/limits-of-integration",
+    "concept/line",
+    "concept/logarithm",
+    "concept/maximum",
+    "concept/minimum",
+    "concept/order-of-smallness",
+    "concept/ordinate",
+    "concept/partial-derivative",
+    "concept/periodic-function",
+    "concept/pi",
+    "concept/polar-coordinates",
+    "concept/polynomial",
+    "concept/power",
+    "concept/product",
+    "concept/proper-algebraic-fraction",
+    "concept/quadratic-equation",
+    "concept/reciprocal",
+    "concept/rectangle",
+    "concept/root",
+    "concept/secant",
+    "concept/sine",
+    "concept/solution",
+    "concept/standard-forms-of-integration",
+    "concept/sum",
+    "concept/tangent",
+    "concept/tangent-function",
+    "concept/variable",
+    "method/addition",
+    "method/differentiation",
+    "method/division",
+    "method/formulae-of-reduction",
+    "method/integration",
+    "method/integration-by-parts",
+    "method/partial-fractions",
+    "method/second-derivative-test",
+    "method/substitution",
+    "method/subtraction",
+    "person/john-napier",
+    "quantity/velocity",
+    "theorem/binomial-theorem",
+    "theorem/equation-of-the-tangent",
+    "theorem/exponential-series",
+    "theorem/power-rule",
+    "theorem/power-rule-for-derivatives",
+    "theorem/product-rule",
+    "theorem/quotient-rule",
+    "theorem/trigonometric-identity"
+   ],
+   "shared_problem_forms": 1,
+   "prerequisite_edges": 149
+  },
+  {
+   "books": [
+    "hardy-course-of-pure-mathematics-1921",
+    "todhunter-spherical-trigonometry-1886"
+   ],
+   "shared_concepts": [
+    "concept/approximation",
+    "concept/area",
+    "concept/chord",
+    "concept/circle",
+    "concept/circular-measure",
+    "concept/circumscribed-circle",
+    "concept/cosine",
+    "concept/cotangent",
+    "concept/equilateral-triangle",
+    "concept/hypotenuse",
+    "concept/locus",
+    "concept/logarithm",
+    "concept/rotation",
+    "concept/sine",
+    "concept/sphere",
+    "concept/tangent-function",
+    "concept/triangle",
+    "person/augustin-louis-cauchy",
+    "person/euclid",
+    "person/john-napier"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 21
+  },
+  {
+   "books": [
+    "hardy-course-of-pure-mathematics-1921",
+    "wentworth-first-steps-in-algebra-1894"
+   ],
+   "shared_concepts": [
+    "concept/absolute-value",
+    "concept/arithmetical-mean",
+    "concept/denominator",
+    "concept/divisibility",
+    "concept/equation",
+    "concept/factor",
+    "concept/geometrical-mean",
+    "concept/geometrical-progression",
+    "concept/highest-common-factor",
+    "concept/imaginary-root",
+    "concept/integer",
+    "concept/linear-equation",
+    "concept/lowest-terms",
+    "concept/polynomial",
+    "concept/power",
+    "concept/product",
+    "concept/quadratic-equation",
+    "concept/real-root",
+    "concept/reciprocal",
+    "concept/relatively-prime",
+    "concept/root",
+    "concept/surd",
+    "concept/term",
+    "concept/variable",
+    "method/addition",
+    "method/division",
+    "method/multiplication",
+    "method/substitution",
+    "method/subtraction"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 25
+  },
+  {
+   "books": [
+    "hardy-course-of-pure-mathematics-1921",
+    "wentworth-plane-geometry-1899"
+   ],
+   "shared_concepts": [
+    "concept/approximation",
+    "concept/area",
+    "concept/chord",
+    "concept/circle",
+    "concept/circumscribed-circle",
+    "concept/constant",
+    "concept/converse-of-a-theorem",
+    "concept/corollary",
+    "concept/equilateral-triangle",
+    "concept/geometrical-mean",
+    "concept/hypotenuse",
+    "concept/limit",
+    "concept/line",
+    "concept/locus",
+    "concept/maximum",
+    "concept/minimum",
+    "concept/parallelogram",
+    "concept/perimeter",
+    "concept/pi",
+    "concept/plane",
+    "concept/point",
+    "concept/rectangle",
+    "concept/right-angle",
+    "concept/right-triangle",
+    "concept/secant",
+    "concept/similar-triangles",
+    "concept/surface",
+    "concept/tangent",
+    "concept/term",
+    "concept/triangle",
+    "concept/variable",
+    "method/indirect-method",
+    "quantity/area",
+    "theorem/area-of-a-triangle"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 43
+  },
+  {
+   "books": [
+    "hardy-course-of-pure-mathematics-1921",
+    "whitehead-introduction-to-mathematics-1911"
+   ],
+   "shared_concepts": [
+    "concept/abscissa",
+    "concept/absolute-convergence",
+    "concept/approximation",
+    "concept/argument-of-a-function",
+    "concept/cartesian-coordinates",
+    "concept/circle",
+    "concept/complex-number",
+    "concept/cone",
+    "concept/conic-section",
+    "concept/constant",
+    "concept/continuous-function",
+    "concept/convergent-series",
+    "concept/coordinate-geometry",
+    "concept/cosine",
+    "concept/cross-ratio",
+    "concept/curve",
+    "concept/derivative",
+    "concept/differential-equation",
+    "concept/discontinuous-function",
+    "concept/divergent-series",
+    "concept/ellipse",
+    "concept/equation",
+    "concept/exponential-function",
+    "concept/factorial",
+    "concept/field-of-a-variable",
+    "concept/focus",
+    "concept/function",
+    "concept/function-notation",
+    "concept/geometrical-progression",
+    "concept/graph-of-a-function",
+    "concept/hyperbola",
+    "concept/imaginary-root",
+    "concept/infinite-sequence",
+    "concept/infinity",
+    "concept/integer",
+    "concept/integral",
+    "concept/interval",
+    "concept/limit",
+    "concept/line",
+    "concept/linear-equation",
+    "concept/locus",
+    "concept/mathematical-notation",
+    "concept/neighbourhood",
+    "concept/ordinate",
+    "concept/origin",
+    "concept/parabola",
+    "concept/parameter",
+    "concept/periodic-function",
+    "concept/pi",
+    "concept/quadratic-equation",
+    "concept/rational-number",
+    "concept/real-number",
+    "concept/rectangle",
+    "concept/recurring-decimal",
+    "concept/root",
+    "concept/sine",
+    "concept/squaring-the-circle",
+    "concept/sum-to-infinity",
+    "concept/tangent",
+    "concept/triangle",
+    "concept/trigonometry",
+    "concept/value-of-a-function",
+    "concept/variable",
+    "law/associative-law",
+    "law/boyle-s-law",
+    "law/commutative-law",
+    "law/distributive-law",
+    "method/addition",
+    "method/multiplication",
+    "person/ptolemy",
+    "quantity/area",
+    "quantity/eccentricity",
+    "quantity/velocity",
+    "theorem/exponential-series"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 93
+  },
+  {
+   "books": [
+    "macfarlane-vector-analysis-quaternions-1906",
+    "maxwell-elementary-treatise-electricity-1888"
+   ],
+   "shared_concepts": [
+    "concept/conductor",
+    "concept/work",
+    "quantity/electromotive-force",
+    "quantity/force",
+    "quantity/resistance"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 7
+  },
+  {
+   "books": [
+    "macfarlane-vector-analysis-quaternions-1906",
+    "planck-treatise-on-thermodynamics-1903"
+   ],
+   "shared_concepts": [
+    "concept/cartesian-coordinates",
+    "concept/independent-constituent",
+    "concept/infinitesimal",
+    "concept/linear-function",
+    "concept/projection",
+    "concept/work",
+    "quantity/kinetic-energy",
+    "quantity/mass",
+    "quantity/volume"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 4
+  },
+  {
+   "books": [
+    "macfarlane-vector-analysis-quaternions-1906",
+    "slaught-lennes-solid-geometry-1919"
+   ],
+   "shared_concepts": [
+    "concept/cosine",
+    "concept/parallelepiped",
+    "concept/plane",
+    "concept/projection",
+    "concept/quadrant",
+    "concept/sine",
+    "concept/spherical-triangle",
+    "concept/tetrahedron",
+    "quantity/angle",
+    "quantity/volume",
+    "theorem/volume-of-a-parallelepiped"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 8
+  },
+  {
+   "books": [
+    "macfarlane-vector-analysis-quaternions-1906",
+    "thompson-calculus-made-easy-1914"
+   ],
+   "shared_concepts": [
+    "concept/alternating-current",
+    "concept/area",
+    "concept/cosine",
+    "concept/curvature",
+    "concept/exponent",
+    "concept/infinitesimal",
+    "concept/product",
+    "concept/quotient",
+    "concept/reciprocal",
+    "concept/sine",
+    "concept/square",
+    "concept/sum",
+    "concept/work",
+    "quantity/angle",
+    "quantity/electromotive-force",
+    "quantity/force",
+    "quantity/frequency",
+    "quantity/mass",
+    "quantity/resistance",
+    "quantity/self-induction",
+    "quantity/velocity",
+    "theorem/binomial-theorem",
+    "unit/radian"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 22
+  },
+  {
+   "books": [
+    "macfarlane-vector-analysis-quaternions-1906",
+    "todhunter-spherical-trigonometry-1886"
+   ],
+   "shared_concepts": [
+    "concept/area",
+    "concept/cosine",
+    "concept/parallelepiped",
+    "concept/polygon",
+    "concept/quadrant",
+    "concept/rotation",
+    "concept/sine",
+    "concept/spherical-triangle",
+    "concept/spherical-trigonometry",
+    "concept/tetrahedron",
+    "quantity/force",
+    "quantity/volume",
+    "theorem/volume-of-a-parallelepiped",
+    "unit/radian"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 6
+  },
+  {
+   "books": [
+    "macfarlane-vector-analysis-quaternions-1906",
+    "wentworth-first-steps-in-algebra-1894"
+   ],
+   "shared_concepts": [
+    "concept/algebra",
+    "concept/exponent",
+    "concept/partial-product",
+    "concept/product",
+    "concept/quotient",
+    "concept/reciprocal",
+    "concept/square",
+    "concept/trinomial",
+    "method/multiplication"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 7
+  },
+  {
+   "books": [
+    "macfarlane-vector-analysis-quaternions-1906",
+    "wentworth-plane-geometry-1899"
+   ],
+   "shared_concepts": [
+    "concept/area",
+    "concept/fourth-proportional",
+    "concept/plane",
+    "concept/polygon",
+    "concept/quadrant",
+    "concept/square",
+    "quantity/angle"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 7
+  },
+  {
+   "books": [
+    "macfarlane-vector-analysis-quaternions-1906",
+    "whitehead-introduction-to-mathematics-1911"
+   ],
+   "shared_concepts": [
+    "concept/algebra",
+    "concept/arithmetic",
+    "concept/cartesian-coordinates",
+    "concept/complex-number",
+    "concept/cosine",
+    "concept/infinitesimal",
+    "concept/mathematical-notation",
+    "concept/quadrant",
+    "concept/sine",
+    "concept/vector",
+    "law/distributive-law",
+    "method/multiplication",
+    "quantity/angle",
+    "quantity/force",
+    "quantity/length",
+    "quantity/mass",
+    "quantity/velocity",
+    "quantity/volume"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 16
+  },
+  {
+   "books": [
+    "maxwell-elementary-treatise-electricity-1888",
+    "planck-treatise-on-thermodynamics-1903"
+   ],
+   "shared_concepts": [
+    "concept/chemical-reaction",
+    "concept/conduction",
+    "concept/conduction-of-heat",
+    "concept/corresponding-point",
+    "concept/diffusion",
+    "concept/electrolyte",
+    "concept/energy",
+    "concept/heat",
+    "concept/ion",
+    "concept/kinetic-theory-of-heat",
+    "concept/mercury",
+    "concept/pressure",
+    "concept/reversible-process",
+    "concept/temperature",
+    "concept/work",
+    "experiment/joule-s-experiments",
+    "law/conservation-of-energy",
+    "law/second-law-of-thermodynamics",
+    "person/gustav-robert-kirchhoff",
+    "person/hermann-von-helmholtz",
+    "person/james-prescott-joule",
+    "person/rudolf-clausius",
+    "person/william-thomson",
+    "quantity/absolute-temperature",
+    "quantity/conductivity",
+    "quantity/entropy",
+    "quantity/internal-energy",
+    "quantity/mechanical-equivalent-of-heat",
+    "quantity/temperature"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 17
+  },
+  {
+   "books": [
+    "maxwell-elementary-treatise-electricity-1888",
+    "slaught-lennes-solid-geometry-1919"
+   ],
+   "shared_concepts": [
+    "concept/sphere"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 0
+  },
+  {
+   "books": [
+    "maxwell-elementary-treatise-electricity-1888",
+    "thompson-calculus-made-easy-1914"
+   ],
+   "shared_concepts": [
+    "concept/work",
+    "method/summation",
+    "quantity/electromotive-force",
+    "quantity/force",
+    "quantity/resistance"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 8
+  },
+  {
+   "books": [
+    "maxwell-elementary-treatise-electricity-1888",
+    "todhunter-spherical-trigonometry-1886"
+   ],
+   "shared_concepts": [
+    "concept/sphere",
+    "concept/temperature",
+    "quantity/force"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 1
+  },
+  {
+   "books": [
+    "maxwell-elementary-treatise-electricity-1888",
+    "wentworth-first-steps-in-algebra-1894"
+   ],
+   "shared_concepts": [
+    "concept/geometrical-progression"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 0
+  },
+  {
+   "books": [
+    "maxwell-elementary-treatise-electricity-1888",
+    "whitehead-introduction-to-mathematics-1911"
+   ],
+   "shared_concepts": [
+    "concept/electromagnetism",
+    "concept/geometrical-progression",
+    "concept/pressure",
+    "quantity/force"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 3
+  },
+  {
+   "books": [
+    "planck-treatise-on-thermodynamics-1903",
+    "slaught-lennes-solid-geometry-1919"
+   ],
+   "shared_concepts": [
+    "concept/projection",
+    "quantity/volume"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 2
+  },
+  {
+   "books": [
+    "planck-treatise-on-thermodynamics-1903",
+    "thompson-calculus-made-easy-1914"
+   ],
+   "shared_concepts": [
+    "concept/adiabatic-process",
+    "concept/constant-of-integration",
+    "concept/differential",
+    "concept/exact-differential",
+    "concept/infinitesimal",
+    "concept/limiting-case",
+    "concept/maximum",
+    "concept/partial-derivative",
+    "concept/point-of-tangency",
+    "concept/ratio",
+    "concept/solution",
+    "concept/tangent",
+    "concept/work",
+    "method/subtraction",
+    "quantity/mass",
+    "quantity/pressure"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 17
+  },
+  {
+   "books": [
+    "planck-treatise-on-thermodynamics-1903",
+    "todhunter-spherical-trigonometry-1886"
+   ],
+   "shared_concepts": [
+    "concept/mechanical-equilibrium",
+    "concept/plane-triangle",
+    "concept/temperature",
+    "person/leonhard-euler",
+    "quantity/volume"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 2
+  },
+  {
+   "books": [
+    "planck-treatise-on-thermodynamics-1903",
+    "wentworth-first-steps-in-algebra-1894"
+   ],
+   "shared_concepts": [
+    "method/elimination",
+    "method/subtraction"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 1
+  },
+  {
+   "books": [
+    "planck-treatise-on-thermodynamics-1903",
+    "wentworth-plane-geometry-1899"
+   ],
+   "shared_concepts": [
+    "concept/maximum",
+    "concept/point-of-tangency",
+    "concept/ratio",
+    "concept/tangent"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 4
+  },
+  {
+   "books": [
+    "planck-treatise-on-thermodynamics-1903",
+    "whitehead-introduction-to-mathematics-1911"
+   ],
+   "shared_concepts": [
+    "concept/cartesian-coordinates",
+    "concept/discontinuous-function",
+    "concept/infinitesimal",
+    "concept/pressure",
+    "concept/ratio",
+    "concept/tangent",
+    "law/boyle-s-law",
+    "quantity/mass",
+    "quantity/volume"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 11
+  },
+  {
+   "books": [
+    "slaught-lennes-solid-geometry-1919",
+    "thompson-calculus-made-easy-1914"
+   ],
+   "shared_concepts": [
+    "concept/constant",
+    "concept/cosine",
+    "concept/frustum-of-a-pyramid",
+    "concept/function",
+    "concept/limit",
+    "concept/line",
+    "concept/sine",
+    "concept/tangent-function",
+    "concept/variable",
+    "quantity/angle",
+    "theorem/area-of-a-circle",
+    "theorem/volume-of-a-cylinder",
+    "theorem/volume-of-a-sphere"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 39
+  },
+  {
+   "books": [
+    "slaught-lennes-solid-geometry-1919",
+    "todhunter-spherical-trigonometry-1886"
+   ],
+   "shared_concepts": [
+    "concept/axis-of-a-circle-on-a-sphere",
+    "concept/circle",
+    "concept/cosine",
+    "concept/diameter",
+    "concept/dodecahedron",
+    "concept/edge",
+    "concept/face",
+    "concept/great-circle",
+    "concept/hexahedron",
+    "concept/icosahedron",
+    "concept/isosceles-spherical-triangle",
+    "concept/locus",
+    "concept/lune",
+    "concept/octahedron",
+    "concept/parallelepiped",
+    "concept/perpendicular",
+    "concept/plane-angle",
+    "concept/polar-triangle",
+    "concept/pole-of-a-circle",
+    "concept/polyhedral-angle",
+    "concept/polyhedron",
+    "concept/polyhedron-inscribed-in-a-sphere",
+    "concept/quadrant",
+    "concept/regular-polyhedron",
+    "concept/right-spherical-triangle",
+    "concept/sine",
+    "concept/small-circle",
+    "concept/sphere",
+    "concept/sphere-inscribed-in-a-polyhedron",
+    "concept/spherical-angle",
+    "concept/spherical-distance",
+    "concept/spherical-polygon",
+    "concept/spherical-triangle",
+    "concept/surface-of-a-polyhedron",
+    "concept/tangent-function",
+    "concept/tetrahedron",
+    "concept/vertex",
+    "person/adrien-marie-legendre",
+    "quantity/radius",
+    "quantity/spherical-excess",
+    "quantity/volume",
+    "theorem/angles-opposite-equal-sides-of-a-spherical-triangle-are-equal",
+    "theorem/area-of-a-sphere",
+    "theorem/area-of-a-spherical-polygon",
+    "theorem/area-of-a-spherical-triangle",
+    "theorem/plane-section-of-a-sphere-is-a-circle",
+    "theorem/points-of-a-circle-on-a-sphere-are-equidistant-from-its-pole",
+    "theorem/polar-triangle-relation-is-symmetric",
+    "theorem/spherical-angle-measured-by-arc-of-great-circle",
+    "theorem/sum-of-angles-of-a-spherical-triangle-lies-between-two-and-six-right-angles",
+    "theorem/sum-of-two-sides-of-a-spherical-triangle-exceeds-the-third",
+    "theorem/volume-of-a-parallelepiped"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 34
+  },
+  {
+   "books": [
+    "slaught-lennes-solid-geometry-1919",
+    "wentworth-first-steps-in-algebra-1894"
+   ],
+   "shared_concepts": [
+    "concept/cube",
+    "concept/variable"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 3
+  },
+  {
+   "books": [
+    "slaught-lennes-solid-geometry-1919",
+    "wentworth-plane-geometry-1899"
+   ],
+   "shared_concepts": [
+    "concept/circle",
+    "concept/constant",
+    "concept/curved-surface",
+    "concept/diameter",
+    "concept/equivalent-solids",
+    "concept/foot-of-a-line",
+    "concept/incommensurable-magnitudes",
+    "concept/limit",
+    "concept/line",
+    "concept/locus",
+    "concept/parallel-lines",
+    "concept/perimeter",
+    "concept/perpendicular",
+    "concept/plane",
+    "concept/plane-angle",
+    "concept/point",
+    "concept/quadrant",
+    "concept/right-triangle",
+    "concept/similar-solids",
+    "concept/solid-geometry",
+    "concept/three-dimensional-figure",
+    "concept/two-dimensional-figure",
+    "concept/variable",
+    "quantity/angle",
+    "quantity/area",
+    "quantity/circumference",
+    "quantity/perimeter",
+    "quantity/radius",
+    "theorem/area-of-a-circle",
+    "theorem/area-of-a-rectangle"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 24
+  },
+  {
+   "books": [
+    "slaught-lennes-solid-geometry-1919",
+    "whitehead-introduction-to-mathematics-1911"
+   ],
+   "shared_concepts": [
+    "concept/circle",
+    "concept/circular-cylinder",
+    "concept/cone",
+    "concept/constant",
+    "concept/cosine",
+    "concept/ellipse",
+    "concept/function",
+    "concept/incommensurable-magnitudes",
+    "concept/infinite-sequence",
+    "concept/limit",
+    "concept/line",
+    "concept/locus",
+    "concept/parallel-lines",
+    "concept/quadrant",
+    "concept/rational-number",
+    "concept/sine",
+    "concept/solid-geometry",
+    "concept/variable",
+    "quantity/angle",
+    "quantity/area",
+    "quantity/circumference",
+    "quantity/radius",
+    "quantity/volume"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 34
+  },
+  {
+   "books": [
+    "thompson-calculus-made-easy-1914",
+    "todhunter-spherical-trigonometry-1886"
+   ],
+   "shared_concepts": [
+    "concept/approximation",
+    "concept/area",
+    "concept/cosine",
+    "concept/cotangent",
+    "concept/logarithm",
+    "concept/sine",
+    "concept/tangent-function",
+    "method/neglecting-higher-order-small-quantities",
+    "person/john-napier",
+    "quantity/force",
+    "unit/degree-of-angle",
+    "unit/radian"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 18
+  },
+  {
+   "books": [
+    "thompson-calculus-made-easy-1914",
+    "wentworth-first-steps-in-algebra-1894"
+   ],
+   "shared_concepts": [
+    "concept/algebraic-fraction",
+    "concept/arithmetical-mean",
+    "concept/constant-term",
+    "concept/denominator",
+    "concept/exponent",
+    "concept/factor",
+    "concept/imaginary-root",
+    "concept/negative-number",
+    "concept/numerator",
+    "concept/polynomial",
+    "concept/power",
+    "concept/product",
+    "concept/quadratic-equation",
+    "concept/quotient",
+    "concept/reciprocal",
+    "concept/root",
+    "concept/simultaneous-equations",
+    "concept/square",
+    "concept/unknown",
+    "concept/variable",
+    "method/addition",
+    "method/arranging-in-columns",
+    "method/division",
+    "method/substitution",
+    "method/subtraction",
+    "quantity/interest",
+    "quantity/time"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 24
+  },
+  {
+   "books": [
+    "thompson-calculus-made-easy-1914",
+    "wentworth-plane-geometry-1899"
+   ],
+   "shared_concepts": [
+    "concept/approximation",
+    "concept/area",
+    "concept/circular-sector",
+    "concept/constant",
+    "concept/limit",
+    "concept/line",
+    "concept/maximum",
+    "concept/minimum",
+    "concept/pi",
+    "concept/point-of-tangency",
+    "concept/ratio",
+    "concept/rectangle",
+    "concept/secant",
+    "concept/square",
+    "concept/tangent",
+    "concept/variable",
+    "quantity/angle",
+    "quantity/distance",
+    "theorem/area-of-a-circle",
+    "theorem/pythagorean-theorem",
+    "unit/degree-of-angle"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 32
+  },
+  {
+   "books": [
+    "thompson-calculus-made-easy-1914",
+    "whitehead-introduction-to-mathematics-1911"
+   ],
+   "shared_concepts": [
+    "concept/abscissa",
+    "concept/approximation",
+    "concept/calculus",
+    "concept/constant",
+    "concept/convergent-series",
+    "concept/cosine",
+    "concept/derivative",
+    "concept/differential-equation",
+    "concept/exponential-function",
+    "concept/fluxional-notation",
+    "concept/function",
+    "concept/function-notation",
+    "concept/imaginary-root",
+    "concept/infinitesimal",
+    "concept/integral",
+    "concept/limit",
+    "concept/line",
+    "concept/mathematical-physics",
+    "concept/mathematics",
+    "concept/negative-number",
+    "concept/operation",
+    "concept/ordinate",
+    "concept/periodic-function",
+    "concept/pi",
+    "concept/quadratic-equation",
+    "concept/rate-of-change",
+    "concept/ratio",
+    "concept/rectangle",
+    "concept/relation-between-variables",
+    "concept/root",
+    "concept/sine",
+    "concept/slope-of-a-curve",
+    "concept/tangent",
+    "concept/unknown",
+    "concept/variable",
+    "method/addition",
+    "person/gottfried-wilhelm-leibniz",
+    "person/isaac-newton",
+    "quantity/acceleration",
+    "quantity/angle",
+    "quantity/angular-velocity",
+    "quantity/distance",
+    "quantity/force",
+    "quantity/mass",
+    "quantity/time",
+    "quantity/velocity",
+    "theorem/exponential-series"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 69
+  },
+  {
+   "books": [
+    "todhunter-spherical-trigonometry-1886",
+    "wentworth-first-steps-in-algebra-1894"
+   ],
+   "shared_concepts": [
+    "method/verification"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 0
+  },
+  {
+   "books": [
+    "todhunter-spherical-trigonometry-1886",
+    "wentworth-plane-geometry-1899"
+   ],
+   "shared_concepts": [
+    "concept/ambiguous-case",
+    "concept/approximation",
+    "concept/area",
+    "concept/chord",
+    "concept/circle",
+    "concept/circumscribed-circle",
+    "concept/diagonal",
+    "concept/diameter",
+    "concept/equilateral-triangle",
+    "concept/escribed-circle",
+    "concept/hypotenuse",
+    "concept/inscribed-circle",
+    "concept/locus",
+    "concept/perpendicular",
+    "concept/plane-angle",
+    "concept/polygon",
+    "concept/quadrant",
+    "concept/re-entrant-angle",
+    "concept/side",
+    "concept/symmetry",
+    "concept/triangle",
+    "quantity/radius",
+    "theorem/sum-of-the-angles-of-a-triangle",
+    "unit/degree-of-angle"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 9
+  },
+  {
+   "books": [
+    "todhunter-spherical-trigonometry-1886",
+    "whitehead-introduction-to-mathematics-1911"
+   ],
+   "shared_concepts": [
+    "concept/approximation",
+    "concept/circle",
+    "concept/cosine",
+    "concept/locus",
+    "concept/plane-trigonometry",
+    "concept/quadrant",
+    "concept/sine",
+    "concept/triangle",
+    "method/triangulation",
+    "quantity/force",
+    "quantity/radius",
+    "quantity/volume",
+    "theorem/sum-of-the-angles-of-a-triangle"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 10
+  },
+  {
+   "books": [
+    "wentworth-first-steps-in-algebra-1894",
+    "wentworth-plane-geometry-1899"
+   ],
+   "shared_concepts": [
+    "concept/equality",
+    "concept/geometrical-mean",
+    "concept/square",
+    "concept/term",
+    "concept/variable",
+    "method/extracting-the-square-root",
+    "unit/unit"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 10
+  },
+  {
+   "books": [
+    "wentworth-first-steps-in-algebra-1894",
+    "whitehead-introduction-to-mathematics-1911"
+   ],
+   "shared_concepts": [
+    "concept/algebra",
+    "concept/arithmetical-progression",
+    "concept/digit",
+    "concept/equality",
+    "concept/equation",
+    "concept/geometrical-progression",
+    "concept/imaginary-root",
+    "concept/implied-multiplication",
+    "concept/inequality",
+    "concept/integer",
+    "concept/linear-equation",
+    "concept/negative-number",
+    "concept/number",
+    "concept/number-line",
+    "concept/parenthesis",
+    "concept/perfect-square",
+    "concept/positive-number",
+    "concept/quadratic-equation",
+    "concept/root",
+    "concept/unknown",
+    "concept/variable",
+    "method/addition",
+    "method/multiplication",
+    "method/order-of-operations",
+    "quantity/quantity",
+    "quantity/time",
+    "unit/unit"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 18
+  },
+  {
+   "books": [
+    "wentworth-plane-geometry-1899",
+    "whitehead-introduction-to-mathematics-1911"
+   ],
+   "shared_concepts": [
+    "concept/approximation",
+    "concept/arc-of-a-circle",
+    "concept/axiom",
+    "concept/circle",
+    "concept/congruent-figures",
+    "concept/constant",
+    "concept/equality",
+    "concept/geometry",
+    "concept/incommensurable-magnitudes",
+    "concept/limit",
+    "concept/line",
+    "concept/locus",
+    "concept/parallel-lines",
+    "concept/pi",
+    "concept/quadrant",
+    "concept/quantities-of-the-same-kind",
+    "concept/ratio",
+    "concept/rectangle",
+    "concept/similarity",
+    "concept/solid-geometry",
+    "concept/tangent",
+    "concept/triangle",
+    "concept/variable",
+    "quantity/angle",
+    "quantity/area",
+    "quantity/circumference",
+    "quantity/distance",
+    "quantity/radius",
+    "theorem/sum-of-the-angles-of-a-triangle",
+    "theorem/sum-of-two-sides-of-a-triangle-exceeds-the-third",
+    "unit/unit"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 34
+  }
+ ]
+}
