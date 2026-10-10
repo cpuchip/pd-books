@@ -52,7 +52,26 @@ def site_erratum(book, e):
     out = {**e, "id": f"{book}/{e['id']}", "status": status}
     if prose and prose.lower() != status.replace("_", " "):
         out["evidence"] = f"Status: {prose}." + (f" {e['evidence']}" if e.get("evidence") else "")
+    out["found_by_public"] = found_by_public(kind, status, e)
     return out
+
+
+def found_by_public(kind, status, e):
+    """One sentence for a reader: how the erratum was found and what settled it, with no tool or seat names."""
+    scan = "scan" in f"{e.get('evidence', '')} {e.get('found_by', '')} {e.get('status', '')}".lower()
+    if status == "transcriber_marked":
+        return "Marked by Project Gutenberg's proofreaders in the transcription."
+    if status == "note":
+        return "A note on the text."
+    if status == "dismissed":
+        return "Reported, then dismissed after checking."
+    if status in ("candidate", "probable"):
+        return "Found by checking every answer by computation; not yet confirmed against the printed page."
+    if kind == "transcription":
+        return "Found by checking every answer by computation; a scan of the printed page shows the book is right and the transcription differs."
+    if scan:
+        return "Found by checking every answer by computation, and confirmed against a scan of the printed page."
+    return "Found by checking every answer by computation, and confirmed by the computation shown."
 
 
 def strings(x, path=""):
