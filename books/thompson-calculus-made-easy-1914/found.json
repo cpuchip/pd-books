@@ -8,8 +8,8 @@
     "printed": "\\dfrac{R^2 (a + 2bt)}{R_0}",
     "corrected": "-\\dfrac{R^2 (a + 2bt)}{R_0}",
     "class": "content (sign)",
-    "evidence": "Under the book's own relation R = R_0/(1 + at + bt^2), the printed alternative equals +R_0(a + 2bt)/(1 + at + bt^2)^2, the main answer with its sign lost. Numeric check at seeded rational points, 50 digits (the computer-algebra checker, verdict PASS-ALT-ERRATUM on record III.12 part 3); confirmed by hand algebra.",
-    "found_by": "our pilot pipeline; confirmed by a second reader",
+    "evidence": "Under the book's own relation R = R_0/(1 + at + bt^2), the printed alternative equals +R_0(a + 2bt)/(1 + at + bt^2)^2, the main answer with its sign lost. Numeric check at seeded rational points, 50 digits (claudiverse judge.py, verdict PASS-ALT-ERRATUM on record III.12 part 3); confirmed by hand algebra (abacus).",
+    "found_by": "claudiverse pilot (qwenniverse-fermion); confirmed by abacus",
     "date": "2026-10-09"
   },
   {
@@ -27,25 +27,25 @@
   {
     "id": "C002",
     "kind": "candidate",
-    "status": "found by the pilot's judge; awaiting a second check",
+    "status": "found by the pilot's judge; awaiting abacus",
     "location": "Answers to Exercises VII, item (1)",
     "printed": "\\dfrac{dw}{dx} = \\dfrac{3x^2 (3 + 3x^3)}{27 (\\frac{1}{2} x^3 + \\frac{1}{4} x^6)^3}",
     "corrected": "\\dfrac{dw}{dx} = -\\dfrac{3x^2 (3 + 3x^3)}{27 (\\frac{1}{2} x^3 + \\frac{1}{4} x^6)^3}",
     "class": "content (sign)",
     "evidence": "w = 1/v^2 with v = 3(u + u^2), u = x^3/2, so dw/dx = -2 v^-3 dv/dx: negative where the printed answer is positive. The judge's values at a seeded point are exactly opposite (-1023.988... against +1023.988...). The extractor flagged it in its notes before the judge ran.",
-    "found_by": "our pilot pipeline (Sonnet 5.5 extractor, the computer-algebra checker)",
+    "found_by": "claudiverse pilot (Sonnet 5.5 extractor, judge.py)",
     "date": "2026-10-09"
   },
   {
     "id": "C003",
     "kind": "candidate",
-    "status": "found by the pilot's judge; awaiting a second check",
+    "status": "found by the pilot's judge; awaiting abacus",
     "location": "Exercises XII, item (5), and its answer",
     "printed": "problem: w = p n^v, find dw/dv; answer: n p v^{n-1}",
     "corrected": "either the answer p n^v log_e n, or the problem w = p v^n",
     "class": "content (problem and answer do not match)",
     "evidence": "n p v^(n-1) is the derivative of p v^n, not of p n^v (whose derivative is p n^v ln n). The judge's values disagree at seeded points (3.8659... against 6.9563...). Which of the two lines is misprinted cannot be told from the text alone.",
-    "found_by": "our pilot pipeline (Sonnet 5.5 extractor, the computer-algebra checker)",
+    "found_by": "claudiverse pilot (Sonnet 5.5 extractor, judge.py)",
     "date": "2026-10-09"
   }
 ]

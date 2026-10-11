@@ -8,8 +8,8 @@
   "printed": "4x^3 y - 12a x^2 - 8 x y^3",
   "corrected": "4x^3 y - 12x^2 y^2 - 8 x y^3",
   "class": "transcription (a term mis-set in the 2004 transcription; the book is right)",
-  "evidence": "The book's answer 4xy(x^2-3xy-2y^2) expands to 4x^3y - 12x^2y^2 - 8xy^3, not to the transcription's problem (the computer-algebra checker, factor: FLAG-MISMATCH at seeded points). The Internet Archive scan firstbookinalgeb00boydrich (Silver, Burdett 1894, University of California Libraries), leaf n80, printed page 77, reads \"15. 4x^3y - 12x^2y^2 - 8xy^3.\", read from the page image (evidence/scan-1894-p77-exercise-31.jpg). The scan is the 1894 printing; the transcription's title page says 1895, same publisher.",
-  "found_by": "our reading pipeline (Haiku 5.5 extractor flagged it in its notes; the checker agreed); settled against the scan; a second reader concurred",
+  "evidence": "The book's answer 4xy(x^2-3xy-2y^2) expands to 4x^3y - 12x^2y^2 - 8xy^3, not to the transcription's problem (claudiverse judge.py, factor: FLAG-MISMATCH at seeded points). The Internet Archive scan firstbookinalgeb00boydrich (Silver, Burdett 1894, University of California Libraries), leaf n80, printed page 77, reads \"15. 4x^3y - 12x^2y^2 - 8xy^3.\", read from the page image (evidence/scan-1894-p77-exercise-31.jpg). The scan is the 1894 printing; the transcription's title page says 1895, same publisher.",
+  "found_by": "claudiverse shelf (Haiku 5.5 extractor flagged it in its notes; judge.py agreed); settled against the scan by qwenniverse-fermion; abacus concurred",
   "source_line": "13309-t.tex line 3277",
   "date": "2026-10-10"
  },
@@ -23,7 +23,7 @@
   "corrected": "$5x^2$, $3ab$, $-2ab$, $-4x^2$, $5ab$, $-2x^2$",
   "class": "transcription (the 2004 transcription departs from the 1894 page; the book is right)",
   "evidence": "The Internet Archive scan firstbookinalgeb00boydrich (Silver, Burdett and Company, 1894), printed page 44 (leaf n47), reads \"7. 5x^2, 3ab, -2ab, -4x^2, 5ab, -2x^2\", read from the page image on 2026-10-10. The transcription has -4a^2 and -2a^2 for the page's -4x^2 and -2x^2; the page's x^2 terms sum to -x^2. The page's printed answer, printed page 157 (leaf n160), is \"6ab - x^2\"; the page's problem gives it and the transcription's problem does not (sympy check in boyden_found.py).",
-  "found_by": "our reading pipeline (Haiku 5.5 extractor, the computer-algebra checker, Opus 5.5 adjudicator; the scan list); settled against the scan",
+  "found_by": "claudiverse shelf (Haiku 5.5 extractor, judge.py, Opus 5.5 adjudicator; abacus's scan list); settled against the scan by qwenniverse-fermion's scan check",
   "source_line": "13309-t.tex line 1580",
   "date": "2026-10-10"
  },
@@ -37,7 +37,7 @@
   "corrected": "$3a^m - a^{m-1} - 1$, $3a^{m-1} + 1 - 2a^m$, $a^m - 2a^{m-1} + 1$",
   "class": "transcription (the 2004 transcription departs from the 1894 page; the book is right)",
   "evidence": "The Internet Archive scan firstbookinalgeb00boydrich (Silver, Burdett and Company, 1894), printed page 45 (leaf n48), reads \"20. 3a^m - a^(m-1) - 1, 3a^(m-1) + 1 - 2a^m, a^m - 2a^(m-1) + 1\", read from the page image on 2026-10-10. The transcription dropped \"a^m - 2\" from the third addend; the printed answer is right. The page's printed answer, printed page 157 (leaf n160), is \"2a^m + 1\"; the page's problem gives it and the transcription's problem does not (sympy check in boyden_found.py).",
-  "found_by": "our reading pipeline (Haiku 5.5 extractor, the computer-algebra checker, Opus 5.5 adjudicator; the scan list); settled against the scan",
+  "found_by": "claudiverse shelf (Haiku 5.5 extractor, judge.py, Opus 5.5 adjudicator; abacus's scan list); settled against the scan by qwenniverse-fermion's scan check",
   "source_line": "13309-t.tex line 1616",
   "date": "2026-10-10"
  },
@@ -51,7 +51,7 @@
   "corrected": "a^2b + b^3 + bc^2",
   "class": "transcription (the 2004 transcription departs from the 1894 page; the book is right)",
   "evidence": "The Internet Archive scan firstbookinalgeb00boydrich (Silver, Burdett and Company, 1894), printed page 45 (leaf n48), reads item 25 as \"second addend: a^2b + b^3 + bc^2 - ab^2 - b^2c - abc (others as transcribed)\", read from the page image on 2026-10-10. The transcription has -bc^2 in the second addend where the page prints +bc^2. The page's printed answer, printed page 157 (leaf n160), is \"a^3 + b^3 + c^3 - 3abc\"; the page's problem gives it and the transcription's problem does not (sympy check in boyden_found.py).",
-  "found_by": "our reading pipeline (Haiku 5.5 extractor, the computer-algebra checker, Opus 5.5 adjudicator; the scan list); settled against the scan",
+  "found_by": "claudiverse shelf (Haiku 5.5 extractor, judge.py, Opus 5.5 adjudicator; abacus's scan list); settled against the scan by qwenniverse-fermion's scan check",
   "source_line": "13309-t.tex line 1631",
   "date": "2026-10-10"
  },
@@ -65,7 +65,7 @@
   "corrected": "9 a^2x",
   "class": "transcription (the 2004 transcription departs from the 1894 page; the book is right)",
   "evidence": "The Internet Archive scan firstbookinalgeb00boydrich (Silver, Burdett and Company, 1894), printed page 157 (leaf n160), prints answer 8 of Exercise 16 as \"9a^2x\", read from the page image on 2026-10-10; the problem, printed page 48 (leaf n51), reads \"From the difference between 5a^2x and -3a^2x take the sum of 2a^2x and -3a^2x\". The transcription dropped the exponent 2 from the answer. The page's problem gives the page's answer, not the transcription's (sympy check in boyden_found.py).",
-  "found_by": "our reading pipeline (Haiku 5.5 extractor, the computer-algebra checker, Opus 5.5 adjudicator; the scan list); settled against the scan",
+  "found_by": "claudiverse shelf (Haiku 5.5 extractor, judge.py, Opus 5.5 adjudicator; abacus's scan list); settled against the scan by qwenniverse-fermion's scan check",
   "source_line": "13309-t.tex line 7411 (the occurrence in Exercise 16 of the answers; 3 in the file)",
   "date": "2026-10-10"
  },
@@ -79,7 +79,7 @@
   "corrected": "from $11x^{4} - 2x^{3} + 3x^{2} -",
   "class": "transcription (the 2004 transcription departs from the 1894 page; the book is right)",
   "evidence": "The Internet Archive scan firstbookinalgeb00boydrich (Silver, Burdett and Company, 1894), printed page 48 (leaf n51), reads \"11. Subtract 3x^4 - x^2 + 7x - 14 from 11x^4 - 2x^3 + 3x^2 - 8x\", read from the page image on 2026-10-10. The transcription dropped \"+3x^2\" from the second polynomial; the printed answer is right. The page's printed answer, printed page 157 (leaf n160), is \"8x^4 - 2x^3 + 4x^2 - 15x + 14\"; the page's problem gives it and the transcription's problem does not (sympy check in boyden_found.py).",
-  "found_by": "our reading pipeline (Haiku 5.5 extractor, the computer-algebra checker, Opus 5.5 adjudicator; the scan list); settled against the scan",
+  "found_by": "claudiverse shelf (Haiku 5.5 extractor, judge.py, Opus 5.5 adjudicator; abacus's scan list); settled against the scan by qwenniverse-fermion's scan check",
   "source_line": "13309-t.tex line 1743",
   "date": "2026-10-10"
  },
@@ -93,7 +93,7 @@
   "corrected": "5a^2b - 6ab^2 - 7a^2b^2",
   "class": "transcription (the 2004 transcription departs from the 1894 page; the book is right)",
   "evidence": "The Internet Archive scan firstbookinalgeb00boydrich (Silver, Burdett and Company, 1894), printed page 49 (leaf n52), reads item 26 as \"...and 5a^2b - 6ab^2 - 7a^2b^2... (rest as transcribed)\", read from the page image on 2026-10-10. The transcription has 6ab^3 where the page prints 6ab^2. The page's printed answer, printed page 157 (leaf n160), is \"-11a^2b + 4ab^2 - 12a^2b^2 - b^3\"; the page's problem gives it and the transcription's problem does not (sympy check in boyden_found.py).",
-  "found_by": "our reading pipeline (Haiku 5.5 extractor, the computer-algebra checker, Opus 5.5 adjudicator; the scan list); settled against the scan",
+  "found_by": "claudiverse shelf (Haiku 5.5 extractor, judge.py, Opus 5.5 adjudicator; abacus's scan list); settled against the scan by qwenniverse-fermion's scan check",
   "source_line": "13309-t.tex line 1789",
   "date": "2026-10-10"
  },
@@ -107,7 +107,7 @@
   "corrected": "a - (3b - 2c + a) - (2b - a - c) - (b - c + a)",
   "class": "transcription (the 2004 transcription departs from the 1894 page; the book is right)",
   "evidence": "The Internet Archive scan firstbookinalgeb00boydrich (Silver, Burdett and Company, 1894), printed page 51 (leaf n54), reads \"7. a - (3b - 2c + a) - (2b - a - c) - (b - c + a)\", read from the page image on 2026-10-10. The transcription has (6 - c + a) for the page's (b - c + a). The page's printed answer, printed page 158 (leaf n161), is \"-6b + 4c\"; the page's problem gives it and the transcription's problem does not (sympy check in boyden_found.py).",
-  "found_by": "our reading pipeline (Haiku 5.5 extractor, the computer-algebra checker, Opus 5.5 adjudicator; the scan list); settled against the scan",
+  "found_by": "claudiverse shelf (Haiku 5.5 extractor, judge.py, Opus 5.5 adjudicator; abacus's scan list); settled against the scan by qwenniverse-fermion's scan check",
   "source_line": "13309-t.tex line 1888",
   "date": "2026-10-10"
  },
@@ -121,7 +121,7 @@
   "corrected": "-\\frac{2}{9}a^2cx^5y^4",
   "class": "transcription (the 2004 transcription departs from the 1894 page; the book is right)",
   "evidence": "The Internet Archive scan firstbookinalgeb00boydrich (Silver, Burdett and Company, 1894), printed page 158 (leaf n161), prints answer 9 of Exercise 18 as \"-2/9 a^2cx^5y^4\", read from the page image on 2026-10-10; the problem, printed page 54 (leaf n57), reads \"1/2 xy, -2/3 cx^2, -2/5 a^2y, and -5/3 x^2y^2\". The transcription has x^6 in the answer where the page prints x^5. The page's problem gives the page's answer, not the transcription's (sympy check in boyden_found.py).",
-  "found_by": "our reading pipeline (Haiku 5.5 extractor, the computer-algebra checker, Opus 5.5 adjudicator; the scan list); settled against the scan",
+  "found_by": "claudiverse shelf (Haiku 5.5 extractor, judge.py, Opus 5.5 adjudicator; abacus's scan list); settled against the scan by qwenniverse-fermion's scan check",
   "source_line": "13309-t.tex line 7504",
   "date": "2026-10-10"
  },
@@ -135,7 +135,7 @@
   "corrected": "Multiply $b^4 - 2b^2 + 1$ by $b^4 + 2b^2 + 1$",
   "class": "transcription (the 2004 transcription departs from the 1894 page; the book is right)",
   "evidence": "The Internet Archive scan firstbookinalgeb00boydrich (Silver, Burdett and Company, 1894), printed page 61 (leaf n64), reads \"2. Multiply b^4 - 2b^2 + 1 by b^4 + 2b^2 + 1\", read from the page image on 2026-10-10. Both factors are garbled in the transcription; the page's (b^4 - 1)^2 gives the printed answer. The page's printed answer, printed page 160 (leaf n163), is \"b^8 - 2b^4 + 1\"; the page's problem gives it and the transcription's problem does not (sympy check in boyden_found.py).",
-  "found_by": "our reading pipeline (Haiku 5.5 extractor, the computer-algebra checker, Opus 5.5 adjudicator; the scan list); settled against the scan",
+  "found_by": "claudiverse shelf (Haiku 5.5 extractor, judge.py, Opus 5.5 adjudicator; abacus's scan list); settled against the scan by qwenniverse-fermion's scan check",
   "source_line": "13309-t.tex line 2449",
   "date": "2026-10-10"
  },
@@ -149,7 +149,7 @@
   "corrected": "$27a^3 b^2 c$ by $9ab^2 c$",
   "class": "transcription (the 2004 transcription departs from the 1894 page; the book is right)",
   "evidence": "The Internet Archive scan firstbookinalgeb00boydrich (Silver, Burdett and Company, 1894), printed page 63 (leaf n66), reads \"3. 27a^3b^2c by 9ab^2c\", read from the page image on 2026-10-10. The transcription has b^3 in the dividend where the page prints b^2. The page's printed answer, printed page 160 (leaf n163), is \"3a^2\"; the page's problem gives it and the transcription's problem does not (sympy check in boyden_found.py).",
-  "found_by": "our reading pipeline (Haiku 5.5 extractor, the computer-algebra checker, Opus 5.5 adjudicator; the scan list); settled against the scan",
+  "found_by": "claudiverse shelf (Haiku 5.5 extractor, judge.py, Opus 5.5 adjudicator; abacus's scan list); settled against the scan by qwenniverse-fermion's scan check",
   "source_line": "13309-t.tex line 2547",
   "date": "2026-10-10"
  },
@@ -163,7 +163,7 @@
   "corrected": "$60a^4 bc^{11}$ by $-12a^2 bc^7$",
   "class": "transcription (the 2004 transcription departs from the 1894 page; the book is right)",
   "evidence": "The Internet Archive scan firstbookinalgeb00boydrich (Silver, Burdett and Company, 1894), printed page 63 (leaf n66), reads \"12. 60a^4bc^11 by -12a^2bc^7\", read from the page image on 2026-10-10. The transcription's divisor is -4ab^2c^7; the page prints -12a^2bc^7. The page's printed answer, printed page 160 (leaf n163), is \"-5a^2c^4\"; the page's problem gives it and the transcription's problem does not (sympy check in boyden_found.py).",
-  "found_by": "our reading pipeline (Haiku 5.5 extractor, the computer-algebra checker, Opus 5.5 adjudicator; the scan list); settled against the scan",
+  "found_by": "claudiverse shelf (Haiku 5.5 extractor, judge.py, Opus 5.5 adjudicator; abacus's scan list); settled against the scan by qwenniverse-fermion's scan check",
   "source_line": "13309-t.tex line 2565",
   "date": "2026-10-10"
  },
@@ -177,7 +177,7 @@
   "corrected": "\\div 2x^{3}y^{2}z^{4}",
   "class": "transcription (the 2004 transcription departs from the 1894 page; the book is right)",
   "evidence": "The Internet Archive scan firstbookinalgeb00boydrich (Silver, Burdett and Company, 1894), printed page 64 (leaf n67), reads \"19. Simplify (-x^2y^3z^2) x (-x^4y^5z^4) ÷ 2x^3y^2z^4\", read from the page image on 2026-10-10. The transcription has y^3 in the divisor where the page prints y^2 (and y^3 in the answer where the page prints y^6: G014). The page's printed answer, printed page 160 (leaf n163), is \"1/2 x^3y^6z^2\"; the page's problem gives it and the transcription's problem does not (sympy check in boyden_found.py).",
-  "found_by": "our reading pipeline (Haiku 5.5 extractor, the computer-algebra checker, Opus 5.5 adjudicator; the scan list); settled against the scan",
+  "found_by": "claudiverse shelf (Haiku 5.5 extractor, judge.py, Opus 5.5 adjudicator; abacus's scan list); settled against the scan by qwenniverse-fermion's scan check",
   "source_line": "13309-t.tex line 2579",
   "date": "2026-10-10"
  },
@@ -191,7 +191,7 @@
   "corrected": "\\frac{1}{2} x^3 y^6 z^2",
   "class": "transcription (the 2004 transcription departs from the 1894 page; the book is right)",
   "evidence": "The Internet Archive scan firstbookinalgeb00boydrich (Silver, Burdett and Company, 1894), printed page 160 (leaf n163), prints answer 19 of Exercise 24 as \"1/2 x^3y^6z^2\", read from the page image on 2026-10-10; the problem, printed page 64 (leaf n67), reads \"Simplify (-x^2y^3z^2) x (-x^4y^5z^4) ÷ 2x^3y^2z^4\". The transcription has y^3 in the answer where the page prints y^6 (and y^3 in the divisor where the page prints y^2: G013). The page's problem gives the page's answer, not the transcription's (sympy check in boyden_found.py).",
-  "found_by": "our reading pipeline (Haiku 5.5 extractor, the computer-algebra checker, Opus 5.5 adjudicator; the scan list); settled against the scan",
+  "found_by": "claudiverse shelf (Haiku 5.5 extractor, judge.py, Opus 5.5 adjudicator; abacus's scan list); settled against the scan by qwenniverse-fermion's scan check",
   "source_line": "13309-t.tex line 7763",
   "date": "2026-10-10"
  },
@@ -205,7 +205,7 @@
   "corrected": "-4y^3 z^6 + 3x^2 y^3 z^4 - xy",
   "class": "transcription (the 2004 transcription departs from the 1894 page; the book is right)",
   "evidence": "The Internet Archive scan firstbookinalgeb00boydrich (Silver, Burdett and Company, 1894), printed page 160 (leaf n163), prints answer 7 of Exercise 25 as \"-4y^3z^6 + 3x^2y^3z^4 - xy\", read from the page image on 2026-10-10; the problem, printed page 64 (leaf n67), reads \"32x^3y^4z^6 - 24x^5y^4z^4 + 8x^4y^2 by -8x^3y\". The transcription has z^3 in the answer's first term where the page prints z^6. The page's problem gives the page's answer, not the transcription's (sympy check in boyden_found.py).",
-  "found_by": "our reading pipeline (Haiku 5.5 extractor, the computer-algebra checker, Opus 5.5 adjudicator; the scan list); settled against the scan",
+  "found_by": "claudiverse shelf (Haiku 5.5 extractor, judge.py, Opus 5.5 adjudicator; abacus's scan list); settled against the scan by qwenniverse-fermion's scan check",
   "source_line": "13309-t.tex line 7791",
   "date": "2026-10-10"
  },
@@ -219,7 +219,7 @@
   "corrected": "27x^6 + 9x^4y + 3x^2y^2 + y^3",
   "class": "transcription (low confidence: a damaged character on the 1894 page, most likely a 6; the 2004 transcription reads 5)",
   "evidence": "LOW CONFIDENCE. In the rich scan the first exponent of the answer is a broken, poorly inked character, open on the left; it lacks the flat top stroke of the other 5s on the page, and its shape matches the exponent in 26.18, which must be a 6. Two other 1894 copies split: afirstbookinalg00boydgoog (p.161) shows a closed 6, firstbookinalge00boydgoog shows the same broken 5-like shape. Most likely a damaged 6 that the transcriber read as 5; the page reading used here (27x^6) is that interpretation, not a clean reading. The Internet Archive scan firstbookinalgeb00boydrich (Silver, Burdett and Company, 1894), printed page 161 (leaf n164), prints answer 10 of Exercise 26 as \"27x^[damaged] + 9x^4y + 3x^2y^2 + y^3\", read from the page image on 2026-10-10; the problem, printed page 67 (leaf n70), reads \"81x^8 - y^4 by 3x^2 - y\". The transcription has 27x^5; the mathematics needs 27x^6. The page's problem gives the page's answer, not the transcription's (sympy check in boyden_found.py).",
-  "found_by": "our reading pipeline (Haiku 5.5 extractor, the computer-algebra checker, Opus 5.5 adjudicator; the scan list); settled against the scan",
+  "found_by": "claudiverse shelf (Haiku 5.5 extractor, judge.py, Opus 5.5 adjudicator; abacus's scan list); settled against the scan by qwenniverse-fermion's scan check",
   "source_line": "13309-t.tex line 7833",
   "date": "2026-10-10"
  },
@@ -233,7 +233,7 @@
   "corrected": "$a^5+a^4b-13a^3b^2+15a^2b^3-4b^5$ by $a^2-3ab+2b^2$",
   "class": "transcription (the 2004 transcription departs from the 1894 page; the book is right)",
   "evidence": "The Internet Archive scan firstbookinalgeb00boydrich (Silver, Burdett and Company, 1894), printed page 67 (leaf n70), reads \"12. a^5 + a^4b - 13a^3b^2 + 15a^2b^3 - 4b^5 by a^2 - 3ab + 2b^2\", read from the page image on 2026-10-10. Two figures differ in the transcription's dividend (-14a^3b^2 for the page's -13a^3b^2, -4b^3 for -4b^5); multiplying out the page's answer and divisor gives the page's dividend exactly. The page's printed answer, printed page 161 (leaf n164), is \"a^3 + 4a^2b - 3ab^2 - 2b^3\"; the page's problem gives it and the transcription's problem does not (sympy check in boyden_found.py).",
-  "found_by": "our reading pipeline (Haiku 5.5 extractor, the computer-algebra checker, Opus 5.5 adjudicator; the scan list); settled against the scan",
+  "found_by": "claudiverse shelf (Haiku 5.5 extractor, judge.py, Opus 5.5 adjudicator; abacus's scan list); settled against the scan by qwenniverse-fermion's scan check",
   "source_line": "13309-t.tex line 2761",
   "date": "2026-10-10"
  },
@@ -247,7 +247,7 @@
   "corrected": "$x^4 + 4y^4$ by $x^2 - 2xy + 2y^2$",
   "class": "transcription (the 2004 transcription departs from the 1894 page; the book is right)",
   "evidence": "The Internet Archive scan firstbookinalgeb00boydrich (Silver, Burdett and Company, 1894), printed page 68 (leaf n71), reads \"19. x^4 + 4y^4 by x^2 - 2xy + 2y^2\", read from the page image on 2026-10-10. The transcription's divisor has y^2 where the page prints 2y^2. The page's printed answer, printed page 161 (leaf n164), is \"x^2 + 2xy + 2y^2\"; the page's problem gives it and the transcription's problem does not (sympy check in boyden_found.py).",
-  "found_by": "our reading pipeline (Haiku 5.5 extractor, the computer-algebra checker, Opus 5.5 adjudicator; the scan list); settled against the scan",
+  "found_by": "claudiverse shelf (Haiku 5.5 extractor, judge.py, Opus 5.5 adjudicator; abacus's scan list); settled against the scan by qwenniverse-fermion's scan check",
   "source_line": "13309-t.tex line 2776",
   "date": "2026-10-10"
  },
@@ -261,7 +261,7 @@
   "corrected": "\\sqrt[5]{-\\frac{32}{243} a^{10} b^{15}}",
   "class": "transcription (the 2004 transcription departs from the 1894 page; the book is right)",
   "evidence": "The Internet Archive scan firstbookinalgeb00boydrich (Silver, Burdett and Company, 1894), printed page 70 (leaf n73), reads \"17. sqrt(1/9 a^4b^6) - cbrt(1/8 a^6b^9) - 5th-root(-32/243 a^10b^15) + cbrt(a^6b^9)\", read from the page image on 2026-10-10. The transcription dropped the minus inside the fifth root; 1/3 - 1/2 + 2/3 + 1 = 3/2. The page's printed answer, printed page 161 (leaf n164), is \"3/2 a^2b^3\"; the page's problem gives it and the transcription's problem does not (sympy check in boyden_found.py).",
-  "found_by": "our reading pipeline (Haiku 5.5 extractor, the computer-algebra checker, Opus 5.5 adjudicator; the scan list); settled against the scan",
+  "found_by": "claudiverse shelf (Haiku 5.5 extractor, judge.py, Opus 5.5 adjudicator; abacus's scan list); settled against the scan by qwenniverse-fermion's scan check",
   "source_line": "13309-t.tex line 2915",
   "date": "2026-10-10"
  },
@@ -275,7 +275,7 @@
   "corrected": "(xy^2z^2 + cdm^2)(xy^2z^2 - cdm^2)",
   "class": "transcription (the 2004 transcription departs from the 1894 page; the book is right)",
   "evidence": "The Internet Archive scan firstbookinalgeb00boydrich (Silver, Burdett and Company, 1894), printed page 163 (leaf n166), prints answer 6 of Exercise 33 as \"(xy^2z^2 + cdm^2)(xy^2z^2 - cdm^2)\", read from the page image on 2026-10-10; the problem, printed page 79 (leaf n82), reads \"x^2y^4z^4 - c^2d^2m^4\". The transcription has x^2y^2z^2 in the second factor. The page's problem gives the page's answer, not the transcription's (sympy check in boyden_found.py).",
-  "found_by": "our reading pipeline (Haiku 5.5 extractor, the computer-algebra checker, Opus 5.5 adjudicator; the scan list); settled against the scan",
+  "found_by": "claudiverse shelf (Haiku 5.5 extractor, judge.py, Opus 5.5 adjudicator; abacus's scan list); settled against the scan by qwenniverse-fermion's scan check",
   "source_line": "13309-t.tex line 8099",
   "date": "2026-10-10"
  },
@@ -289,7 +289,7 @@
   "corrected": "(9xy^2 + 5bd)(9xy^2 - 5bd)",
   "class": "transcription (the 2004 transcription departs from the 1894 page; the book is right)",
   "evidence": "The Internet Archive scan firstbookinalgeb00boydrich (Silver, Burdett and Company, 1894), printed page 163 (leaf n166), prints answer 11 of Exercise 33 as \"(9xy^2 + 5bd)(9xy^2 - 5bd)\", read from the page image on 2026-10-10; the problem, printed page 79 (leaf n82), reads \"81x^2y^4 - 25b^2d^2\". The transcription has a minus in both factors. The page's problem gives the page's answer, not the transcription's (sympy check in boyden_found.py).",
-  "found_by": "our reading pipeline (Haiku 5.5 extractor, the computer-algebra checker, Opus 5.5 adjudicator; the scan list); settled against the scan",
+  "found_by": "claudiverse shelf (Haiku 5.5 extractor, judge.py, Opus 5.5 adjudicator; abacus's scan list); settled against the scan by qwenniverse-fermion's scan check",
   "source_line": "13309-t.tex line 8109",
   "date": "2026-10-10"
  },
@@ -303,7 +303,7 @@
   "corrected": "a^8b^8 - 1",
   "class": "transcription (the 2004 transcription departs from the 1894 page; the book is right)",
   "evidence": "The Internet Archive scan firstbookinalgeb00boydrich (Silver, Burdett and Company, 1894), printed page 80 (leaf n83), reads \"16. a^8b^8 - 1\", read from the page image on 2026-10-10. The transcription has a^4b^8 - l (the letter l) for the page's a^8b^8 - 1. The page's printed answer, printed page 163 (leaf n166), is \"(a^4b^4+1)(a^2b^2+1)(ab+1)(ab-1)\"; the page's problem gives it and the transcription's problem does not (sympy check in boyden_found.py).",
-  "found_by": "our reading pipeline (Haiku 5.5 extractor, the computer-algebra checker, Opus 5.5 adjudicator; the scan list); settled against the scan",
+  "found_by": "claudiverse shelf (Haiku 5.5 extractor, judge.py, Opus 5.5 adjudicator; abacus's scan list); settled against the scan by qwenniverse-fermion's scan check",
   "source_line": "13309-t.tex line 3440",
   "date": "2026-10-10"
  },
@@ -317,7 +317,7 @@
   "corrected": "a^3 - ax^2",
   "class": "transcription (the 2004 transcription departs from the 1894 page; the book is right)",
   "evidence": "The Internet Archive scan firstbookinalgeb00boydrich (Silver, Burdett and Company, 1894), printed page 80 (leaf n83), reads \"19. a^3 - ax^2\", read from the page image on 2026-10-10. The transcription has a^4 for the page's a^3. The page's printed answer, printed page 163 (leaf n166), is \"a(a + x)(a - x)\"; the page's problem gives it and the transcription's problem does not (sympy check in boyden_found.py).",
-  "found_by": "our reading pipeline (Haiku 5.5 extractor, the computer-algebra checker, Opus 5.5 adjudicator; the scan list); settled against the scan",
+  "found_by": "claudiverse shelf (Haiku 5.5 extractor, judge.py, Opus 5.5 adjudicator; abacus's scan list); settled against the scan by qwenniverse-fermion's scan check",
   "source_line": "13309-t.tex line 3446",
   "date": "2026-10-10"
  },
@@ -331,7 +331,7 @@
   "corrected": "5a(x + y)(1 + a)(1 - a)",
   "class": "transcription (the 2004 transcription departs from the 1894 page; the book is right)",
   "evidence": "The Internet Archive scan firstbookinalgeb00boydrich (Silver, Burdett and Company, 1894), printed page 163 (leaf n166), prints answer 22 of Exercise 33 as \"5a(x + y)(1 + a)(1 - a)\", read from the page image on 2026-10-10; the problem, printed page 80 (leaf n83), reads \"5ax - 5a^3x + 5ay - 5a^3y\". The transcription has (a + y) for the page's (x + y). The page's problem gives the page's answer, not the transcription's (sympy check in boyden_found.py).",
-  "found_by": "our reading pipeline (Haiku 5.5 extractor, the computer-algebra checker, Opus 5.5 adjudicator; the scan list); settled against the scan",
+  "found_by": "claudiverse shelf (Haiku 5.5 extractor, judge.py, Opus 5.5 adjudicator; abacus's scan list); settled against the scan by qwenniverse-fermion's scan check",
   "source_line": "13309-t.tex line 8131",
   "date": "2026-10-10"
  },
@@ -345,7 +345,7 @@
   "corrected": "(a - x - 1)(a + x)",
   "class": "transcription (the 2004 transcription departs from the 1894 page; the book is right)",
   "evidence": "The Internet Archive scan firstbookinalgeb00boydrich (Silver, Burdett and Company, 1894), printed page 163 (leaf n166), prints answer 24 of Exercise 33 as \"(a - x - 1)(a + x)\", read from the page image on 2026-10-10; the problem, printed page 80 (leaf n83), reads \"a^2 - x^2 - a - x\". The transcription has (a - x + 1) for the page's (a - x - 1). The page's problem gives the page's answer, not the transcription's (sympy check in boyden_found.py).",
-  "found_by": "our reading pipeline (Haiku 5.5 extractor, the computer-algebra checker, Opus 5.5 adjudicator; the scan list); settled against the scan",
+  "found_by": "claudiverse shelf (Haiku 5.5 extractor, judge.py, Opus 5.5 adjudicator; abacus's scan list); settled against the scan by qwenniverse-fermion's scan check",
   "source_line": "13309-t.tex line 8135",
   "date": "2026-10-10"
  },
@@ -359,7 +359,7 @@
   "corrected": "x^3 + y^3",
   "class": "transcription (the 2004 transcription departs from the 1894 page; the book is right)",
   "evidence": "The Internet Archive scan firstbookinalgeb00boydrich (Silver, Burdett and Company, 1894), printed page 81 (leaf n84), reads \"1. x^3 + y^3\", read from the page image on 2026-10-10. The transcription has x^5 + y^5 for the page's x^3 + y^3. The page's printed answer, printed page 163 (leaf n166), is \"(x + y)(x^2 - xy + y^2)\"; the page's problem gives it and the transcription's problem does not (sympy check in boyden_found.py).",
-  "found_by": "our reading pipeline (Haiku 5.5 extractor, the computer-algebra checker, Opus 5.5 adjudicator; the scan list); settled against the scan",
+  "found_by": "claudiverse shelf (Haiku 5.5 extractor, judge.py, Opus 5.5 adjudicator; abacus's scan list); settled against the scan by qwenniverse-fermion's scan check",
   "source_line": "13309-t.tex line 3492",
   "date": "2026-10-10"
  },
@@ -373,7 +373,7 @@
   "corrected": "8a^3b^3c^6 + m^6",
   "class": "transcription (the 2004 transcription departs from the 1894 page; the book is right)",
   "evidence": "The Internet Archive scan firstbookinalgeb00boydrich (Silver, Burdett and Company, 1894), printed page 81 (leaf n84), reads \"5. 8a^3b^3c^6 + m^6\", read from the page image on 2026-10-10. The transcription has 8a^5 for the page's 8a^3. The page's printed answer, printed page 163 (leaf n166), is \"(2abc^2 + m^2)(4a^2b^2c^4 - 2abc^2m^2 + m^4)\"; the page's problem gives it and the transcription's problem does not (sympy check in boyden_found.py).",
-  "found_by": "our reading pipeline (Haiku 5.5 extractor, the computer-algebra checker, Opus 5.5 adjudicator; the scan list); settled against the scan",
+  "found_by": "claudiverse shelf (Haiku 5.5 extractor, judge.py, Opus 5.5 adjudicator; abacus's scan list); settled against the scan by qwenniverse-fermion's scan check",
   "source_line": "13309-t.tex line 3500",
   "date": "2026-10-10"
  },
@@ -387,7 +387,7 @@
   "corrected": "x^6y^9 + 216a^3",
   "class": "transcription (the 2004 transcription mis-set the problem; the book's problem is right, its answer is not: F004)",
   "evidence": "The Internet Archive scan firstbookinalgeb00boydrich (Silver, Burdett and Company, 1894), printed page 81 (leaf n84), reads \"6. x^6y^9 + 216a^3\", read from the page image on 2026-10-10. The transcription has x^6y^3 for the page's x^6y^9. The page's printed answer, printed page 163 (leaf n166), is \"(x^2y^3 + 6a)(x^4y^3 - 6ax^2y^3 + 36a^2)\"; it is itself misprinted (F004), and the page's problem gives the corrected answer while the transcription's problem does not (sympy check in boyden_found.py).",
-  "found_by": "our reading pipeline (Haiku 5.5 extractor, the computer-algebra checker, Opus 5.5 adjudicator; the scan list); settled against the scan",
+  "found_by": "claudiverse shelf (Haiku 5.5 extractor, judge.py, Opus 5.5 adjudicator; abacus's scan list); settled against the scan by qwenniverse-fermion's scan check",
   "source_line": "13309-t.tex line 3502",
   "date": "2026-10-10"
  },
@@ -401,7 +401,7 @@
   "corrected": "1 + b^3c^9",
   "class": "transcription (the 2004 transcription mis-set the problem; the book's problem is right, its answer is not: F005)",
   "evidence": "The Internet Archive scan firstbookinalgeb00boydrich (Silver, Burdett and Company, 1894), printed page 81 (leaf n84), reads \"12. 1 + b^3c^9\", read from the page image on 2026-10-10. The transcription has c^3 for the page's c^9. The page's printed answer, printed page 163 (leaf n166), is \"(1 + bc^3)(1 - bc^3 + b^2c^5)\"; it is itself misprinted (F005), and the page's problem gives the corrected answer while the transcription's problem does not (sympy check in boyden_found.py).",
-  "found_by": "our reading pipeline (Haiku 5.5 extractor, the computer-algebra checker, Opus 5.5 adjudicator; the scan list); settled against the scan",
+  "found_by": "claudiverse shelf (Haiku 5.5 extractor, judge.py, Opus 5.5 adjudicator; abacus's scan list); settled against the scan by qwenniverse-fermion's scan check",
   "source_line": "13309-t.tex line 3514",
   "date": "2026-10-10"
  },
@@ -415,7 +415,7 @@
   "corrected": "\\frac{1}{8}a^6b^3+ c^9",
   "class": "transcription (the 2004 transcription mis-set the problem; the book's problem is right, its answer is not: F006)",
   "evidence": "The Internet Archive scan firstbookinalgeb00boydrich (Silver, Burdett and Company, 1894), printed page 81 (leaf n84), reads \"13. 1/8 a^6b^3 + c^9\", read from the page image on 2026-10-10. The transcription has c^0 for the page's c^9. The page's printed answer, printed page 163 (leaf n166), is \"(1/2 a^2b + c^3)(1/4 a^4b^2 - 1/2 a^2bc^3 + c^5)\"; it is itself misprinted (F006), and the page's problem gives the corrected answer while the transcription's problem does not (sympy check in boyden_found.py).",
-  "found_by": "our reading pipeline (Haiku 5.5 extractor, the computer-algebra checker, Opus 5.5 adjudicator; the scan list); settled against the scan",
+  "found_by": "claudiverse shelf (Haiku 5.5 extractor, judge.py, Opus 5.5 adjudicator; abacus's scan list); settled against the scan by qwenniverse-fermion's scan check",
   "source_line": "13309-t.tex line 3516",
   "date": "2026-10-10"
  },
@@ -429,7 +429,7 @@
   "corrected": "(\\frac{1}{3}x + 1)(\\frac{1}{9}x^2 - \\frac{1}{3}x + 1)",
   "class": "transcription (the 2004 transcription departs from the 1894 page; the book is right)",
   "evidence": "The Internet Archive scan firstbookinalgeb00boydrich (Silver, Burdett and Company, 1894), printed page 163 (leaf n166), prints answer 14 of Exercise 34 as \"(1/3 x + 1)(1/9 x^2 - 1/3 x + 1)\", read from the page image on 2026-10-10; the problem, printed page 81 (leaf n84), reads \"1/27 x^3 + 1\". The transcription has 1/4, 1/2, 1/4 for the page's 1/3, 1/9, 1/3. The page's problem gives the page's answer, not the transcription's (sympy check in boyden_found.py).",
-  "found_by": "our reading pipeline (Haiku 5.5 extractor, the computer-algebra checker, Opus 5.5 adjudicator; the scan list); settled against the scan",
+  "found_by": "claudiverse shelf (Haiku 5.5 extractor, judge.py, Opus 5.5 adjudicator; abacus's scan list); settled against the scan by qwenniverse-fermion's scan check",
   "source_line": "13309-t.tex line 8162",
   "date": "2026-10-10"
  },
@@ -443,7 +443,7 @@
   "corrected": "(1 + x - y)\\{1 - (x - y) + (x - y)^2\\}",
   "class": "transcription (the 2004 transcription departs from the 1894 page; the book is right)",
   "evidence": "The Internet Archive scan firstbookinalgeb00boydrich (Silver, Burdett and Company, 1894), printed page 164 (leaf n167), prints answer 16 of Exercise 34 as \"(1 + x - y){1 - (x - y) + (x - y)^2}\", read from the page image on 2026-10-10; the problem, printed page 81 (leaf n84), reads \"1 + (x - y)^3\". The transcription has (1 - x - y) for the page's (1 + x - y). The page's problem gives the page's answer, not the transcription's (sympy check in boyden_found.py).",
-  "found_by": "our reading pipeline (Haiku 5.5 extractor, the computer-algebra checker, Opus 5.5 adjudicator; the scan list); settled against the scan",
+  "found_by": "claudiverse shelf (Haiku 5.5 extractor, judge.py, Opus 5.5 adjudicator; abacus's scan list); settled against the scan by qwenniverse-fermion's scan check",
   "source_line": "13309-t.tex line 8166",
   "date": "2026-10-10"
  },
@@ -457,7 +457,7 @@
   "corrected": "4a^3m^4x^4",
   "class": "transcription (the 2004 transcription departs from the 1894 page, which is itself wrong here: F008)",
   "evidence": "The Internet Archive scan firstbookinalgeb00boydrich (Silver, Burdett and Company, 1894), printed page 164 (leaf n167), prints answer 8 of Exercise 35 as \"27(bc^2y - 2a^3m^2x^2)(b^2c^4y^2 + 2a^3bc^2m^2x^2y + 4a^3m^4x^4)\", read from the page image on 2026-10-10; the problem, printed page 82 (leaf n85), reads \"27b^3c^6y^3 - 216a^9m^6x^6\". The transcription has 4a^2 in the last term where the page prints 4a^3 (faint, but shaped like a 3, and not a 2). The page is itself wrong here: the problem needs a^6, not the page's a^3 (F008); this entry records only where the transcription departs from the page. The printed exponent is faint, a 3 or a 5; the claim is only that the page does not print the required 6 (the sympy check rejects both readings).",
-  "found_by": "our reading pipeline (Haiku 5.5 extractor, the computer-algebra checker, Opus 5.5 adjudicator; the scan list); settled against the scan",
+  "found_by": "claudiverse shelf (Haiku 5.5 extractor, judge.py, Opus 5.5 adjudicator; abacus's scan list); settled against the scan by qwenniverse-fermion's scan check",
   "source_line": "13309-t.tex line 8206",
   "date": "2026-10-10"
  },
@@ -471,7 +471,7 @@
   "corrected": "\\left(4xy^2-3a^3\\right)^2",
   "class": "transcription (the 2004 transcription departs from the 1894 page; the book is right)",
   "evidence": "The Internet Archive scan firstbookinalgeb00boydrich (Silver, Burdett and Company, 1894), printed page 165 (leaf n168), prints answer 17 of Exercise 36 as \"(4xy^2 - 3a^3)^2\", read from the page image on 2026-10-10; the problem, printed page 84 (leaf n87), reads \"16x^2y^4 - 24a^3xy^2 + 9a^6\". The transcription has 3a^8 for the page's 3a^3. The page's problem gives the page's answer, not the transcription's (sympy check in boyden_found.py).",
-  "found_by": "our reading pipeline (Haiku 5.5 extractor, the computer-algebra checker, Opus 5.5 adjudicator; the scan list); settled against the scan",
+  "found_by": "claudiverse shelf (Haiku 5.5 extractor, judge.py, Opus 5.5 adjudicator; abacus's scan list); settled against the scan by qwenniverse-fermion's scan check",
   "source_line": "13309-t.tex line 8277",
   "date": "2026-10-10"
  },
@@ -485,7 +485,7 @@
   "corrected": "\\frac{1}{9}x^4 - \\frac{2}{3}x^2y^2 + y^4",
   "class": "transcription (the 2004 transcription departs from the 1894 page; the book is right)",
   "evidence": "The Internet Archive scan firstbookinalgeb00boydrich (Silver, Burdett and Company, 1894), printed page 84 (leaf n87), reads \"20. 1/9 x^4 - 2/3 x^2y^2 + y^4\", read from the page image on 2026-10-10. The transcription has 4y^4 for the page's y^4. The page's printed answer, printed page 165 (leaf n168), is \"(1/3 x^2 - y^2)^2\"; the page's problem gives it and the transcription's problem does not (sympy check in boyden_found.py).",
-  "found_by": "our reading pipeline (Haiku 5.5 extractor, the computer-algebra checker, Opus 5.5 adjudicator; the scan list); settled against the scan",
+  "found_by": "claudiverse shelf (Haiku 5.5 extractor, judge.py, Opus 5.5 adjudicator; abacus's scan list); settled against the scan by qwenniverse-fermion's scan check",
   "source_line": "13309-t.tex line 3713",
   "date": "2026-10-10"
  },
@@ -499,7 +499,7 @@
   "corrected": "x^6y^3 - 12x^4y^2z^3a^4 + 48x^2yz^6a^8 - 64z^9a^{12}",
   "class": "transcription (the 2004 transcription departs from the 1894 page; the book is right)",
   "evidence": "The Internet Archive scan firstbookinalgeb00boydrich (Silver, Burdett and Company, 1894), printed page 166 (leaf n169), prints answer 5 of Exercise 38 as \"x^6y^3 - 12x^4y^2z^3a^4 + 48x^2yz^6a^8 - 64z^9a^12\", read from the page image on 2026-10-10; the problem, printed page 87 (leaf n90), reads \"Expand (x^2y - 4z^3a^4)^3\". The transcription has z^8 in the third term for the page's z^6. The page's problem gives the page's answer, not the transcription's (sympy check in boyden_found.py).",
-  "found_by": "our reading pipeline (Haiku 5.5 extractor, the computer-algebra checker, Opus 5.5 adjudicator; the scan list); settled against the scan",
+  "found_by": "claudiverse shelf (Haiku 5.5 extractor, judge.py, Opus 5.5 adjudicator; abacus's scan list); settled against the scan by qwenniverse-fermion's scan check",
   "source_line": "13309-t.tex line 8360",
   "date": "2026-10-10"
  },
@@ -513,7 +513,7 @@
   "corrected": "\\frac{x^2-7x+12}{x^2+x-20}",
   "class": "transcription (the 2004 transcription departs from the 1894 page; the book is right)",
   "evidence": "The Internet Archive scan firstbookinalgeb00boydrich (Silver, Burdett and Company, 1894), printed page 94 (leaf n97), reads \"3. (x^2 - 7x + 12)/(x^2 + x - 20)\", read from the page image on 2026-10-10. The transcription has x^3 in the denominator for the page's x^2. The page's printed answer, printed page 167 (leaf n170), is \"(x - 3)/(x + 5)\"; the page's problem gives it and the transcription's problem does not (sympy check in boyden_found.py).",
-  "found_by": "our reading pipeline (Haiku 5.5 extractor, the computer-algebra checker, Opus 5.5 adjudicator; the scan list); settled against the scan",
+  "found_by": "claudiverse shelf (Haiku 5.5 extractor, judge.py, Opus 5.5 adjudicator; abacus's scan list); settled against the scan by qwenniverse-fermion's scan check",
   "source_line": "13309-t.tex line 4366",
   "date": "2026-10-10"
  },
@@ -527,7 +527,7 @@
   "corrected": "\\frac{x^2 - y^2 + 3}{x - y}",
   "class": "transcription (the 2004 transcription departs from the 1894 page; the book is right)",
   "evidence": "The Internet Archive scan firstbookinalgeb00boydrich (Silver, Burdett and Company, 1894), printed page 97 (leaf n100), reads \"3. (x^2 - y^2 + 3)/(x - y)\", read from the page image on 2026-10-10. The transcription has x^2 + y^2 for the page's x^2 - y^2. The page's printed answer, printed page 167 (leaf n170), is \"x + y + 3/(x - y)\"; the page's problem gives it and the transcription's problem does not (sympy check in boyden_found.py).",
-  "found_by": "our reading pipeline (Haiku 5.5 extractor, the computer-algebra checker, Opus 5.5 adjudicator; the scan list); settled against the scan",
+  "found_by": "claudiverse shelf (Haiku 5.5 extractor, judge.py, Opus 5.5 adjudicator; abacus's scan list); settled against the scan by qwenniverse-fermion's scan check",
   "source_line": "13309-t.tex line 4454",
   "date": "2026-10-10"
  },
@@ -541,7 +541,7 @@
   "corrected": "\\frac{a^3 + b^3 - 2}{a + b}",
   "class": "transcription (the 2004 transcription departs from the 1894 page; the book is right)",
   "evidence": "The Internet Archive scan firstbookinalgeb00boydrich (Silver, Burdett and Company, 1894), printed page 97 (leaf n100), reads \"4. (a^3 + b^3 - 2)/(a + b)\", read from the page image on 2026-10-10. The transcription has (a^3 + b^3 + 3)/(x - y), the numerator's 3 and the denominator apparently carried over from the item above. The page's printed answer, printed page 167 (leaf n170), is \"a^2 - ab + b^2 - 2/(a + b)\"; the page's problem gives it and the transcription's problem does not (sympy check in boyden_found.py).",
-  "found_by": "our reading pipeline (Haiku 5.5 extractor, the computer-algebra checker, Opus 5.5 adjudicator; the scan list); settled against the scan",
+  "found_by": "claudiverse shelf (Haiku 5.5 extractor, judge.py, Opus 5.5 adjudicator; abacus's scan list); settled against the scan by qwenniverse-fermion's scan check",
   "source_line": "13309-t.tex line 4456",
   "date": "2026-10-10"
  },
@@ -555,7 +555,7 @@
   "corrected": "\\frac{3x + 2}{x^2 - x + 2} - 1",
   "class": "transcription (the 2004 transcription departs from the 1894 page; the book is right)",
   "evidence": "The Internet Archive scan firstbookinalgeb00boydrich (Silver, Burdett and Company, 1894), printed page 98 (leaf n101), reads \"25. (3x + 2)/(x^2 - x + 2) - 1\", read from the page image on 2026-10-10. The transcription has x^2 + x + 2 in the denominator for the page's x^2 - x + 2. The page's printed answer, printed page 167 (leaf n170), is \"(4x - x^2)/(x^2 - x + 2)\"; the page's problem gives it and the transcription's problem does not (sympy check in boyden_found.py).",
-  "found_by": "our reading pipeline (Haiku 5.5 extractor, the computer-algebra checker, Opus 5.5 adjudicator; the scan list); settled against the scan",
+  "found_by": "claudiverse shelf (Haiku 5.5 extractor, judge.py, Opus 5.5 adjudicator; abacus's scan list); settled against the scan by qwenniverse-fermion's scan check",
   "source_line": "13309-t.tex line 4502",
   "date": "2026-10-10"
  },
@@ -569,7 +569,7 @@
   "corrected": "\\frac{2x}{3}-\\frac{3x}{4}+\\frac{4x}{5}",
   "class": "transcription (the 2004 transcription departs from the 1894 page; the book is right)",
   "evidence": "The Internet Archive scan firstbookinalgeb00boydrich (Silver, Burdett and Company, 1894), printed page 100 (leaf n103), reads \"3. 2x/3 - 3x/4 + 4x/5\", read from the page image on 2026-10-10. The transcription has - 4x/5 for the page's + 4x/5. The page's printed answer, printed page 168 (leaf n171), is \"43x/60\"; the page's problem gives it and the transcription's problem does not (sympy check in boyden_found.py).",
-  "found_by": "our reading pipeline (Haiku 5.5 extractor, the computer-algebra checker, Opus 5.5 adjudicator; the scan list); settled against the scan",
+  "found_by": "claudiverse shelf (Haiku 5.5 extractor, judge.py, Opus 5.5 adjudicator; abacus's scan list); settled against the scan by qwenniverse-fermion's scan check",
   "source_line": "13309-t.tex line 4612",
   "date": "2026-10-10"
  },
@@ -583,7 +583,7 @@
   "corrected": "\\frac{2a}{b}+\\frac{3x}{2m}",
   "class": "transcription (the 2004 transcription departs from the 1894 page; the book is right)",
   "evidence": "The Internet Archive scan firstbookinalgeb00boydrich (Silver, Burdett and Company, 1894), printed page 100 (leaf n103), reads \"4. 2a/b + 3x/2m\", read from the page image on 2026-10-10. The transcription has 4a/b for the page's 2a/b. The page's printed answer, printed page 168 (leaf n171), is \"(4am + 3bx)/(2bm)\"; the page's problem gives it and the transcription's problem does not (sympy check in boyden_found.py).",
-  "found_by": "our reading pipeline (Haiku 5.5 extractor, the computer-algebra checker, Opus 5.5 adjudicator; the scan list); settled against the scan",
+  "found_by": "claudiverse shelf (Haiku 5.5 extractor, judge.py, Opus 5.5 adjudicator; abacus's scan list); settled against the scan by qwenniverse-fermion's scan check",
   "source_line": "13309-t.tex line 4614",
   "date": "2026-10-10"
  },
@@ -597,7 +597,7 @@
   "corrected": "1} + \\frac{3x^3 + 3x^2 - x - 1}",
   "class": "transcription (the 2004 transcription departs from the 1894 page; the book is right)",
   "evidence": "The Internet Archive scan firstbookinalgeb00boydrich (Silver, Burdett and Company, 1894), printed page 101 (leaf n104), reads \"19. (3x^3-3x^2+x-1)/(3x^3-3x^2-x+1) + (3x^3+3x^2-x-1)/(3x^3+3x^2+x+1)\", read from the page image on 2026-10-10. The transcription has a minus between the fractions; the page prints +. The page's printed answer, printed page 168 (leaf n171), is \"2(9x^4 + 1)/(9x^4 - 1)\"; the page's problem gives it and the transcription's problem does not (sympy check in boyden_found.py).",
-  "found_by": "our reading pipeline (Haiku 5.5 extractor, the computer-algebra checker, Opus 5.5 adjudicator; the scan list); settled against the scan",
+  "found_by": "claudiverse shelf (Haiku 5.5 extractor, judge.py, Opus 5.5 adjudicator; abacus's scan list); settled against the scan by qwenniverse-fermion's scan check",
   "source_line": "13309-t.tex line 4650",
   "date": "2026-10-10"
  },
@@ -611,7 +611,7 @@
   "corrected": "\\frac{20a-4}{4a^2-1}+\\frac{3}{1-2a}-\\frac{6}{1+2a}",
   "class": "transcription (the 2004 transcription departs from the 1894 page; the book is right)",
   "evidence": "The Internet Archive scan firstbookinalgeb00boydrich (Silver, Burdett and Company, 1894), printed page 105 (leaf n108), reads \"4. (20a - 4)/(4a^2 - 1) + 3/(1 - 2a) - 6/(1 + 2a)\", read from the page image on 2026-10-10. The transcription has 6/(1 - 2a) for the page's 6/(1 + 2a). The page's printed answer, printed page 168 (leaf n171), is \"1/(2a + 1)\"; the page's problem gives it and the transcription's problem does not (sympy check in boyden_found.py).",
-  "found_by": "our reading pipeline (Haiku 5.5 extractor, the computer-algebra checker, Opus 5.5 adjudicator; the scan list); settled against the scan",
+  "found_by": "claudiverse shelf (Haiku 5.5 extractor, judge.py, Opus 5.5 adjudicator; abacus's scan list); settled against the scan by qwenniverse-fermion's scan check",
   "source_line": "13309-t.tex line 4810",
   "date": "2026-10-10"
  },
@@ -625,7 +625,7 @@
   "corrected": "\\frac{3y^2}{y^3-x^3}",
   "class": "transcription (the 2004 transcription departs from the 1894 page; the book is right)",
   "evidence": "The Internet Archive scan firstbookinalgeb00boydrich (Silver, Burdett and Company, 1894), printed page 105 (leaf n108), reads \"5. 1/(x - y) + 3y^2/(y^3 - x^3) - (x - y)/(x^2 + xy + y^2)\", read from the page image on 2026-10-10. The transcription has 3y^3 in the second numerator for the page's 3y^2 (one of two slips in this item: G046). The page's printed answer, printed page 168 (leaf n171), is \"3y/(x^2 + xy + y^2)\"; the page's problem gives it and the transcription's problem does not (sympy check in boyden_found.py).",
-  "found_by": "our reading pipeline (Haiku 5.5 extractor, the computer-algebra checker, Opus 5.5 adjudicator; the scan list); settled against the scan",
+  "found_by": "claudiverse shelf (Haiku 5.5 extractor, judge.py, Opus 5.5 adjudicator; abacus's scan list); settled against the scan by qwenniverse-fermion's scan check",
   "source_line": "13309-t.tex line 4812",
   "date": "2026-10-10"
  },
@@ -639,7 +639,7 @@
   "corrected": "-\n\\frac{x-y}{x^2+xy+y^2}",
   "class": "transcription (the 2004 transcription departs from the 1894 page; the book is right)",
   "evidence": "The Internet Archive scan firstbookinalgeb00boydrich (Silver, Burdett and Company, 1894), printed page 105 (leaf n108), reads \"5. 1/(x - y) + 3y^2/(y^3 - x^3) - (x - y)/(x^2 + xy + y^2)\", read from the page image on 2026-10-10. The transcription's third term is garbled, 1/(3(1+a)) for the page's (x - y)/(x^2 + xy + y^2) (one of two slips in this item: G045). The page's printed answer, printed page 168 (leaf n171), is \"3y/(x^2 + xy + y^2)\"; the page's problem gives it and the transcription's problem does not (sympy check in boyden_found.py).",
-  "found_by": "our reading pipeline (Haiku 5.5 extractor, the computer-algebra checker, Opus 5.5 adjudicator; the scan list); settled against the scan",
+  "found_by": "claudiverse shelf (Haiku 5.5 extractor, judge.py, Opus 5.5 adjudicator; abacus's scan list); settled against the scan by qwenniverse-fermion's scan check",
   "source_line": "13309-t.tex line 4812",
   "date": "2026-10-10"
  },
@@ -653,7 +653,7 @@
   "corrected": "\\frac{3a^3mn^2}{2xy^3z^2}",
   "class": "transcription (the 2004 transcription departs from the 1894 page; the book is right)",
   "evidence": "The Internet Archive scan firstbookinalgeb00boydrich (Silver, Burdett and Company, 1894), printed page 110 (leaf n113), reads \"4. 2am^3n^2/(3x^3yz^2) ÷ 3a^3mn^2/(2xy^3z^2)\", read from the page image on 2026-10-10. The transcription has 2x^3yz^2 in the divisor's denominator for the page's 2xy^3z^2. The page's printed answer, printed page 170 (leaf n173), is \"4m^2y^2/(9a^2x^2)\"; the page's problem gives it and the transcription's problem does not (sympy check in boyden_found.py).",
-  "found_by": "our reading pipeline (Haiku 5.5 extractor, the computer-algebra checker, Opus 5.5 adjudicator; the scan list); settled against the scan",
+  "found_by": "claudiverse shelf (Haiku 5.5 extractor, judge.py, Opus 5.5 adjudicator; abacus's scan list); settled against the scan by qwenniverse-fermion's scan check",
   "source_line": "13309-t.tex line 5057",
   "date": "2026-10-10"
  },
@@ -667,7 +667,7 @@
   "corrected": "\\frac{a^6b^9}{64y^3}",
   "class": "transcription (the 2004 transcription departs from the 1894 page; the book is right)",
   "evidence": "The Internet Archive scan firstbookinalgeb00boydrich (Silver, Burdett and Company, 1894), printed page 170 (leaf n173), prints answer 2 of Exercise 50 as \"a^6b^9/(64y^3)\", read from the page image on 2026-10-10; the problem, printed page 112 (leaf n115), reads \"(a^2b^3/4y)^3\". The transcription has a^3 in the answer for the page's a^6. The page's problem gives the page's answer, not the transcription's (sympy check in boyden_found.py).",
-  "found_by": "our reading pipeline (Haiku 5.5 extractor, the computer-algebra checker, Opus 5.5 adjudicator; the scan list); settled against the scan",
+  "found_by": "claudiverse shelf (Haiku 5.5 extractor, judge.py, Opus 5.5 adjudicator; abacus's scan list); settled against the scan by qwenniverse-fermion's scan check",
   "source_line": "13309-t.tex line 8796",
   "date": "2026-10-10"
  },
@@ -681,7 +681,7 @@
   "corrected": "-\\frac{125x^6y^3\\left(a+b^2\\right)^6}",
   "class": "transcription (the 2004 transcription departs from the 1894 page; the book is right)",
   "evidence": "The Internet Archive scan firstbookinalgeb00boydrich (Silver, Burdett and Company, 1894), printed page 170 (leaf n173), prints answer 5 of Exercise 50 as \"-125x^6y^3(a+b^2)^6 / 8a^3b^9(x^2-y)^9\", read from the page image on 2026-10-10; the problem, printed page 112 (leaf n115), reads \"(-5x^2y(a+b^2)^2 / 2ab^3(x^2-y)^3)^3\". The transcription has x^5 in the answer for the page's x^6. The page's problem gives the page's answer, not the transcription's (sympy check in boyden_found.py).",
-  "found_by": "our reading pipeline (Haiku 5.5 extractor, the computer-algebra checker, Opus 5.5 adjudicator; the scan list); settled against the scan",
+  "found_by": "claudiverse shelf (Haiku 5.5 extractor, judge.py, Opus 5.5 adjudicator; abacus's scan list); settled against the scan by qwenniverse-fermion's scan check",
   "source_line": "13309-t.tex line 8802",
   "date": "2026-10-10"
  },
@@ -695,7 +695,7 @@
   "corrected": "\\frac{3am^4(2a+3b)^3}{4x^2y^3(m-n)^2}",
   "class": "transcription (the 2004 transcription departs from the 1894 page; the book is right)",
   "evidence": "The Internet Archive scan firstbookinalgeb00boydrich (Silver, Burdett and Company, 1894), printed page 112 (leaf n115), reads \"6. (-3am^4(2a+3b)^3 / 4x^2y^3(m-n)^2)^3\", read from the page image on 2026-10-10. The transcription has y^2 in the problem for the page's y^3, so the answer's y^9 is correct. The page's printed answer, printed page 170 (leaf n173), is \"-27a^3m^12(2a+3b)^9 / 64x^6y^9(m-n)^6\"; the page's problem gives it and the transcription's problem does not (sympy check in boyden_found.py).",
-  "found_by": "our reading pipeline (Haiku 5.5 extractor, the computer-algebra checker, Opus 5.5 adjudicator; the scan list); settled against the scan",
+  "found_by": "claudiverse shelf (Haiku 5.5 extractor, judge.py, Opus 5.5 adjudicator; abacus's scan list); settled against the scan by qwenniverse-fermion's scan check",
   "source_line": "13309-t.tex line 5172",
   "date": "2026-10-10"
  },
@@ -709,7 +709,7 @@
   "corrected": "\\frac{x^2y}{2mn}",
   "class": "transcription (the 2004 transcription departs from the 1894 page; the book is right)",
   "evidence": "The Internet Archive scan firstbookinalgeb00boydrich (Silver, Burdett and Company, 1894), printed page 113 (leaf n116), reads \"19. 3ab(2x/ab + x^2y/2mn - ax/3mb)\", read from the page image on 2026-10-10. The transcription dropped the y from the problem's second term, not from the answer. The page's printed answer, printed page 170 (leaf n173), is \"6x + 3abx^2y/(2mn) - a^2x/m\"; the page's problem gives it and the transcription's problem does not (sympy check in boyden_found.py).",
-  "found_by": "our reading pipeline (Haiku 5.5 extractor, the computer-algebra checker, Opus 5.5 adjudicator; the scan list); settled against the scan",
+  "found_by": "claudiverse shelf (Haiku 5.5 extractor, judge.py, Opus 5.5 adjudicator; abacus's scan list); settled against the scan by qwenniverse-fermion's scan check",
   "source_line": "13309-t.tex line 5207",
   "date": "2026-10-10"
  },
@@ -723,7 +723,7 @@
   "corrected": "\\frac{9y^2}{25m^2}",
   "class": "transcription (the 2004 transcription departs from the 1894 page; the book is right)",
   "evidence": "The Internet Archive scan firstbookinalgeb00boydrich (Silver, Burdett and Company, 1894), printed page 113 (leaf n116), reads \"22. (x^2/16 + 9y^2/25m^2)(x/4 + 3y/5m)(x/4 - 3y/5m)\", read from the page image on 2026-10-10. The transcription has m^1 for the page's m^2. The page's printed answer, printed page 170 (leaf n173), is \"x^4/256 - 81y^4/(625m^4)\"; the page's problem gives it and the transcription's problem does not (sympy check in boyden_found.py).",
-  "found_by": "our reading pipeline (Haiku 5.5 extractor, the computer-algebra checker, Opus 5.5 adjudicator; the scan list); settled against the scan",
+  "found_by": "claudiverse shelf (Haiku 5.5 extractor, judge.py, Opus 5.5 adjudicator; abacus's scan list); settled against the scan by qwenniverse-fermion's scan check",
   "source_line": "13309-t.tex line 5219",
   "date": "2026-10-10"
  },
@@ -737,7 +737,7 @@
   "corrected": "\\frac{3a^2}{2b}\n\\right)^2$",
   "class": "transcription (the 2004 transcription departs from the 1894 page; the book is right)",
   "evidence": "The Internet Archive scan firstbookinalgeb00boydrich (Silver, Burdett and Company, 1894), printed page 113 (leaf n116), reads \"25. (x/y - 3a^2/2b)^2\", read from the page image on 2026-10-10. The transcription dropped the square from the problem. The page's printed answer, printed page 170 (leaf n173), is \"x^2/y^2 - 3a^2x/(by) + 9a^4/(4b^2)\"; the page's problem gives it and the transcription's problem does not (sympy check in boyden_found.py).",
-  "found_by": "our reading pipeline (Haiku 5.5 extractor, the computer-algebra checker, Opus 5.5 adjudicator; the scan list); settled against the scan",
+  "found_by": "claudiverse shelf (Haiku 5.5 extractor, judge.py, Opus 5.5 adjudicator; abacus's scan list); settled against the scan by qwenniverse-fermion's scan check",
   "source_line": "13309-t.tex line 5230",
   "date": "2026-10-10"
  },
@@ -751,7 +751,7 @@
   "corrected": "23x^3 + 20x^2 +  27x + 6",
   "class": "content (sign): the book's own error; the 1894 page prints it",
   "evidence": "The 1894 page prints it. The Internet Archive scan firstbookinalgeb00boydrich (Silver, Burdett and Company, 1894), printed page 157 (leaf n160), prints answer 22 of Exercise 15 as \"23x^3 - 20x^2 + 27x + 6\", read from the page image on 2026-10-10; the problem, printed page 45 (leaf n48), reads \"22. 15x^3 + 35x^2 + 3x + 7, 7x^3 + 15x - 11x^2 + 9, 9x - 10 + x^3 - 4x^2\". 35 - 11 - 4 = +20, so the sum's x^2 term is +20x^2; the page prints -20x^2. Checked with sympy in boyden_found.py: the page's problem does not give the printed answer and does give the corrected one. The transcription follows the page here.",
-  "found_by": "our reading pipeline (Haiku 5.5 extractor, the computer-algebra checker, Opus 5.5 adjudicator; the scan list); settled against the scan; book misprint verified on the page image",
+  "found_by": "claudiverse shelf (Haiku 5.5 extractor, judge.py, Opus 5.5 adjudicator; abacus's scan list); settled against the scan by qwenniverse-fermion's scan check; book misprint verified on the page image by qwenniverse-fermion",
   "source_line": "13309-t.tex line 7380",
   "date": "2026-10-10"
  },
@@ -765,7 +765,7 @@
   "corrected": "a^6 - b^6",
   "class": "content (sign): the book's own error; the 1894 page prints it",
   "evidence": "The 1894 page prints it. The Internet Archive scan firstbookinalgeb00boydrich (Silver, Burdett and Company, 1894), printed page 158 (leaf n161), prints answer 11 of Exercise 19 as \"a^6 + b^6\", read from the page image on 2026-10-10; the problem, printed page 56 (leaf n59), reads \"11. a^5 - a^4b + a^3b^2 - a^2b^3 + ab^4 - b^5 by a + b\". (a + b)(a^5 - a^4b + a^3b^2 - a^2b^3 + ab^4 - b^5) = a^6 - b^6; the page prints a^6 + b^6. Checked with sympy in boyden_found.py: the page's problem does not give the printed answer and does give the corrected one. The transcription follows the page here. The rich scan has a faint grey smudge over the sign, but the + strokes are clear; two other 1894 copies (Google scans afirstbookinalg00boydgoog p.158 and firstbookinalge00boydgoog) also print a clean +.",
-  "found_by": "our reading pipeline (Haiku 5.5 extractor, the computer-algebra checker, Opus 5.5 adjudicator; the scan list); settled against the scan; book misprint verified on the page image",
+  "found_by": "claudiverse shelf (Haiku 5.5 extractor, judge.py, Opus 5.5 adjudicator; abacus's scan list); settled against the scan by qwenniverse-fermion's scan check; book misprint verified on the page image by qwenniverse-fermion",
   "source_line": "13309-t.tex line 7539 (the occurrence in Exercise 19 of the answers; 2 in the file)",
   "date": "2026-10-10"
  },
@@ -779,7 +779,7 @@
   "corrected": "(a^3bx^2 + m^2c^4y^5)(a^3bx^2 - m^2c^4y^5)",
   "class": "content (exponent): the book's own error; the 1894 page prints it",
   "evidence": "The 1894 page prints it. The Internet Archive scan firstbookinalgeb00boydrich (Silver, Burdett and Company, 1894), printed page 163 (leaf n166), prints answer 5 of Exercise 33 as \"(a^3bx^2 + m^2c^4y^10)(a^3bx^2 - m^2c^4y^10)\", read from the page image on 2026-10-10; the problem, printed page 79 (leaf n82), reads \"5. a^6b^2x^4 - m^4c^8y^10\". a^6b^2x^4 - m^4c^8y^10 = (a^3bx^2)^2 - (m^2c^4y^5)^2, so both factors need y^5; the page prints y^10 in each. Checked with sympy in boyden_found.py: the page's problem does not give the printed answer and does give the corrected one. The transcription follows the page here. A reader of this copy pencilled \"5\" over both 10s.",
-  "found_by": "our reading pipeline (Haiku 5.5 extractor, the computer-algebra checker, Opus 5.5 adjudicator; the scan list); settled against the scan; book misprint verified on the page image",
+  "found_by": "claudiverse shelf (Haiku 5.5 extractor, judge.py, Opus 5.5 adjudicator; abacus's scan list); settled against the scan by qwenniverse-fermion's scan check; book misprint verified on the page image by qwenniverse-fermion",
   "source_line": "13309-t.tex line 8097",
   "date": "2026-10-10"
  },
@@ -793,7 +793,7 @@
   "corrected": "(x^2y^3 + 6a)(x^4y^6 - 6ax^2y^3 + 36a^2)",
   "class": "content (exponent): the book's own error; the 1894 page prints it",
   "evidence": "The 1894 page prints it. The Internet Archive scan firstbookinalgeb00boydrich (Silver, Burdett and Company, 1894), printed page 163 (leaf n166), prints answer 6 of Exercise 34 as \"(x^2y^3 + 6a)(x^4y^3 - 6ax^2y^3 + 36a^2)\", read from the page image on 2026-10-10; the problem, printed page 81 (leaf n84), reads \"6. x^6y^9 + 216a^3\". (x^2y^3 + 6a)(x^4y^6 - 6ax^2y^3 + 36a^2) = x^6y^9 + 216a^3; the page prints y^3 for y^6 in the second factor. Checked with sympy in boyden_found.py: the page's problem does not give the printed answer and does give the corrected one. The 2004 transcription silently has the correct y^6 here (13309-t.tex line 8152), so printed above is what the page prints, written in the transcription's notation, and corrected is the transcription as it stands. The transcription also mis-sets this problem (G028).",
-  "found_by": "our reading pipeline (Haiku 5.5 extractor, the computer-algebra checker, Opus 5.5 adjudicator; the scan list); settled against the scan; book misprint verified on the page image",
+  "found_by": "claudiverse shelf (Haiku 5.5 extractor, judge.py, Opus 5.5 adjudicator; abacus's scan list); settled against the scan by qwenniverse-fermion's scan check; book misprint verified on the page image by qwenniverse-fermion",
   "source_line": "13309-t.tex line 8152",
   "date": "2026-10-10"
  },
@@ -807,7 +807,7 @@
   "corrected": "(1 + bc^3)(1 - bc^3 + b^2c^6)",
   "class": "content (exponent): the book's own error; the 1894 page prints it",
   "evidence": "The 1894 page prints it. The Internet Archive scan firstbookinalgeb00boydrich (Silver, Burdett and Company, 1894), printed page 163 (leaf n166), prints answer 12 of Exercise 34 as \"(1 + bc^3)(1 - bc^3 + b^2c^5)\", read from the page image on 2026-10-10; the problem, printed page 81 (leaf n84), reads \"12. 1 + b^3c^9\". 1 + b^3c^9 = (1 + bc^3)(1 - bc^3 + b^2c^6); the page prints c^5. Checked with sympy in boyden_found.py: the page's problem does not give the printed answer and does give the corrected one. The transcription follows the page here. The transcription also mis-sets this problem (G029). The printed exponent is faint, a 3 or a 5; the claim is only that the page does not print the required 6 (the sympy check rejects both readings).",
-  "found_by": "our reading pipeline (Haiku 5.5 extractor, the computer-algebra checker, Opus 5.5 adjudicator; the scan list); settled against the scan; book misprint verified on the page image",
+  "found_by": "claudiverse shelf (Haiku 5.5 extractor, judge.py, Opus 5.5 adjudicator; abacus's scan list); settled against the scan by qwenniverse-fermion's scan check; book misprint verified on the page image by qwenniverse-fermion",
   "source_line": "13309-t.tex line 8158",
   "date": "2026-10-10"
  },
@@ -821,7 +821,7 @@
   "corrected": "- \\frac{1}{2}a^2bc^3 + c^6)",
   "class": "content (exponent): the book's own error; the 1894 page prints it",
   "evidence": "The 1894 page prints it. The Internet Archive scan firstbookinalgeb00boydrich (Silver, Burdett and Company, 1894), printed page 163 (leaf n166), prints answer 13 of Exercise 34 as \"(1/2 a^2b + c^3)(1/4 a^4b^2 - 1/2 a^2bc^3 + c^5)\", read from the page image on 2026-10-10; the problem, printed page 81 (leaf n84), reads \"13. 1/8 a^6b^3 + c^9\". 1/8 a^6b^3 + c^9 = (1/2 a^2b + c^3)(1/4 a^4b^2 - 1/2 a^2bc^3 + c^6); the page prints c^5. Checked with sympy in boyden_found.py: the page's problem does not give the printed answer and does give the corrected one. The transcription follows the page here. The transcription also mis-sets this problem (G030). The printed exponent is faint, a 3 or a 5; the claim is only that the page does not print the required 6 (the sympy check rejects both readings).",
-  "found_by": "our reading pipeline (Haiku 5.5 extractor, the computer-algebra checker, Opus 5.5 adjudicator; the scan list); settled against the scan; book misprint verified on the page image",
+  "found_by": "claudiverse shelf (Haiku 5.5 extractor, judge.py, Opus 5.5 adjudicator; abacus's scan list); settled against the scan by qwenniverse-fermion's scan check; book misprint verified on the page image by qwenniverse-fermion",
   "source_line": "13309-t.tex line 8160",
   "date": "2026-10-10"
  },
@@ -835,7 +835,7 @@
   "corrected": "(27x^3 + 8y^3)(27x^3 - 8y^3)",
   "class": "content (coefficient): the book's own error; the 1894 page prints it",
   "evidence": "The 1894 page prints it. The Internet Archive scan firstbookinalgeb00boydrich (Silver, Burdett and Company, 1894), printed page 164 (leaf n167), prints answer 21 of Exercise 34 as \"(27x^3 + 4y^3)(27x^3 - 4y^3)\", read from the page image on 2026-10-10; the problem, printed page 81 (leaf n84), reads \"21. 729x^6 - 64y^6\". 729x^6 - 64y^6 = (27x^3)^2 - (8y^3)^2; the page prints 4y^3. Checked with sympy in boyden_found.py: the page's problem does not give the printed answer and does give the corrected one. The transcription follows the page here. The 4 is clear both times.",
-  "found_by": "our reading pipeline (Haiku 5.5 extractor, the computer-algebra checker, Opus 5.5 adjudicator; the scan list); settled against the scan; book misprint verified on the page image",
+  "found_by": "claudiverse shelf (Haiku 5.5 extractor, judge.py, Opus 5.5 adjudicator; abacus's scan list); settled against the scan by qwenniverse-fermion's scan check; book misprint verified on the page image by qwenniverse-fermion",
   "source_line": "13309-t.tex line 8176",
   "date": "2026-10-10"
  },
@@ -849,7 +849,7 @@
   "corrected": "4a^6m^4x^4",
   "class": "content (exponent): the book's own error; the 1894 page prints it",
   "evidence": "The 1894 page prints it. The Internet Archive scan firstbookinalgeb00boydrich (Silver, Burdett and Company, 1894), printed page 164 (leaf n167), prints answer 8 of Exercise 35 as \"27(bc^2y - 2a^3m^2x^2)(b^2c^4y^2 + 2a^3bc^2m^2x^2y + 4a^3m^4x^4)\", read from the page image on 2026-10-10; the problem, printed page 82 (leaf n85), reads \"8. 27b^3c^6y^3 - 216a^9m^6x^6\". 27(bc^2y - 2a^3m^2x^2)(b^2c^4y^2 + 2a^3bc^2m^2x^2y + 4a^6m^4x^4) = 27b^3c^6y^3 - 216a^9m^6x^6; the page prints a^3 in the last term. Checked with sympy in boyden_found.py: the page's problem does not give the printed answer and does give the corrected one. The 2004 transcription has 4a^2m^4x^4 here (13309-t.tex line 8206; G033), so printed above is what the page prints, written in the transcription's notation, not the text of 13309-t.tex. The printed exponent is faint, a 3 or a 5; the claim is only that the page does not print the required 6 (the sympy check rejects both readings).",
-  "found_by": "our reading pipeline (Haiku 5.5 extractor, the computer-algebra checker, Opus 5.5 adjudicator; the scan list); settled against the scan; book misprint verified on the page image",
+  "found_by": "claudiverse shelf (Haiku 5.5 extractor, judge.py, Opus 5.5 adjudicator; abacus's scan list); settled against the scan by qwenniverse-fermion's scan check; book misprint verified on the page image by qwenniverse-fermion",
   "source_line": "13309-t.tex line 8206",
   "date": "2026-10-10"
  },
@@ -863,7 +863,7 @@
   "corrected": "(\\frac{1}{3}xy^2 - b^3)(\\frac{1}{9}x^2y^4 + \\frac{1}{3}xy^2b^3 + b^6)",
   "class": "content (exponent): the book's own error; the 1894 page prints it",
   "evidence": "The 1894 page prints it. The Internet Archive scan firstbookinalgeb00boydrich (Silver, Burdett and Company, 1894), printed page 164 (leaf n167), prints answer 15 of Exercise 35 as \"(1/3 xy^2 - b^3)(1/9 x^3y^4 + 1/3 xy^2b^3 + b^6)\", read from the page image on 2026-10-10; the problem, printed page 82 (leaf n85), reads \"15. 1/27 x^3y^6 - b^9\". (1/3 xy^2)^2 = 1/9 x^2y^4, so the second factor begins 1/9 x^2y^4; the page prints 1/9 x^3y^4. Checked with sympy in boyden_found.py: the page's problem does not give the printed answer and does give the corrected one. The transcription follows the page here.",
-  "found_by": "our reading pipeline (Haiku 5.5 extractor, the computer-algebra checker, Opus 5.5 adjudicator; the scan list); settled against the scan; book misprint verified on the page image",
+  "found_by": "claudiverse shelf (Haiku 5.5 extractor, judge.py, Opus 5.5 adjudicator; abacus's scan list); settled against the scan by qwenniverse-fermion's scan check; book misprint verified on the page image by qwenniverse-fermion",
   "source_line": "13309-t.tex line 8220",
   "date": "2026-10-10"
  },
@@ -877,7 +877,7 @@
   "corrected": "\\frac{3}{4}",
   "class": "content (value): the book's own error; the 1894 page prints it",
   "evidence": "The 1894 page prints it. The Internet Archive scan firstbookinalgeb00boydrich (Silver, Burdett and Company, 1894), printed page 169 (leaf n172), prints answer 2 of Exercise 48 as \"2/3\", read from the page image on 2026-10-10; the problem, printed page 109 (leaf n112), reads \"2. 9a^2b^2/(8nx^3y^2) x 5x^2y^2/(2am^2n) x 24m^2n^2x/(90ab^2)\". (9 x 5 x 24)/(8 x 2 x 90) = 1080/1440 = 3/4, and every letter cancels; the page prints 2/3. Checked with sympy in boyden_found.py: the page's problem does not give the printed answer and does give the corrected one. The transcription follows the page here.",
-  "found_by": "our reading pipeline (Haiku 5.5 extractor, the computer-algebra checker, Opus 5.5 adjudicator; the scan list); settled against the scan; book misprint verified on the page image",
+  "found_by": "claudiverse shelf (Haiku 5.5 extractor, judge.py, Opus 5.5 adjudicator; abacus's scan list); settled against the scan by qwenniverse-fermion's scan check; book misprint verified on the page image by qwenniverse-fermion",
   "source_line": "13309-t.tex line 8762 (the occurrence in Exercise 48 of the answers; 52 in the file)",
   "date": "2026-10-10"
  },
@@ -891,7 +891,7 @@
   "corrected": "\\frac{21a^2b^2y^2}{16mnz^3}",
   "class": "content (exponent): the book's own error; the 1894 page prints it",
   "evidence": "The 1894 page prints it. The Internet Archive scan firstbookinalgeb00boydrich (Silver, Burdett and Company, 1894), printed page 170 (leaf n173), prints answer 2 of Exercise 49 as \"21ab^2y^2/(16mnz^3)\", read from the page image on 2026-10-10; the problem, printed page 110 (leaf n113), reads \"2. 7axy^2/(8m^2n) ÷ 2xz^3/(3ab^2m)\". 7axy^2/(8m^2n) x 3ab^2m/(2xz^3) = 21a^2b^2y^2/(16mnz^3); the page prints 21ab^2y^2. Checked with sympy in boyden_found.py: the page's problem does not give the printed answer and does give the corrected one. The transcription follows the page here.",
-  "found_by": "our reading pipeline (Haiku 5.5 extractor, the computer-algebra checker, Opus 5.5 adjudicator; the scan list); settled against the scan; book misprint verified on the page image",
+  "found_by": "claudiverse shelf (Haiku 5.5 extractor, judge.py, Opus 5.5 adjudicator; abacus's scan list); settled against the scan by qwenniverse-fermion's scan check; book misprint verified on the page image by qwenniverse-fermion",
   "source_line": "13309-t.tex line 8778",
   "date": "2026-10-10"
  },
@@ -905,7 +905,7 @@
   "corrected": "\\left(\\frac{m}{y}+5\\right)\\left(\\frac{m}{y}-3\\right)",
   "class": "content (sign): the book's own error; the 1894 page prints it",
   "evidence": "The 1894 page prints it. The Internet Archive scan firstbookinalgeb00boydrich (Silver, Burdett and Company, 1894), printed page 171 (leaf n174), prints answer 35 of Exercise 50 as \"(m/y - 5)(m/y + 3)\", read from the page image on 2026-10-10; the problem, printed page 114 (leaf n117), reads \"35. m^2/y^2 + 2m/y - 15\". (m/y + 5)(m/y - 3) = m^2/y^2 + 2m/y - 15; the printed (m/y - 5)(m/y + 3) gives -2m/y. Checked with sympy in boyden_found.py: the page's problem does not give the printed answer and does give the corrected one. The transcription follows the page here.",
-  "found_by": "our reading pipeline (Haiku 5.5 extractor, the computer-algebra checker, Opus 5.5 adjudicator; the scan list); settled against the scan; book misprint verified on the page image",
+  "found_by": "claudiverse shelf (Haiku 5.5 extractor, judge.py, Opus 5.5 adjudicator; abacus's scan list); settled against the scan by qwenniverse-fermion's scan check; book misprint verified on the page image by qwenniverse-fermion",
   "source_line": "13309-t.tex line 8867",
   "date": "2026-10-10"
  }
