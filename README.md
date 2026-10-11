@@ -25,11 +25,13 @@ use, with the evidence for each one attached.
 
 ## How errata are found
 
-The problems in each book are read into records (the problem and the printed answer, quoted exactly
-from the source) by a language-model pipeline, and every answer is then checked by computation: exact
-rational arithmetic and 50-digit sampling at seeded points, with a proof where the degree allows it.
-A record whose answer fails the check is read by a person against the source before anything is
-filed here, and an entry says who found it and how it was confirmed.
+The problems in each book are read into records (the problem and the printed answer, quoted exactly from
+the source) by a language-model pipeline, and every answer is then checked by computation: exact
+rational arithmetic and 50-digit sampling at seeded points, with a proof where the degree allows it. A
+record whose answer fails the check is classified by a second model. A transcription slip is confirmed
+on a scan of the printed page, and a misprint by the computation that shows it; until then the entry is
+a candidate. An entry says who found it and how it was confirmed. [How this was
+built](docs/how-this-was-built.md) names the agents who did this work and the rules they kept.
 
 ## Licence
 
