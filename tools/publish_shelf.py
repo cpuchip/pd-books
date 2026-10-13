@@ -11,6 +11,7 @@ candidates, each with its status and evidence) and refuses to write an export th
   - every node and link type is one of the enumerated ones;
   - no control characters in any string (a backslash eaten by a shell shows up as one);
   - no claude.ai session URL anywhere;
+  - every figure a chapter's text_html shows is a file inside the export (images/<book>/...);
   - every erratum's status is one of ERRATA_STATUSES (listed in each book file), and erratum ids are
     unique across the export (each is prefixed with its book's id).
 """
@@ -111,6 +112,10 @@ def check(export):
         missing = sorted({r for r in refs if r and r not in known})
         if missing:
             errs.append(f"{f.name}: {len(missing)} references to unknown ids, e.g. {missing[:3]}")
+        figs = {s for c in d["chapters"] for s in re.findall(r"<(?:img|embed)\b[^>]*\bsrc=\"([^\"]+)\"", c.get("text_html") or "")}
+        bad = sorted(s for s in figs if s.startswith(("/", "http")) or ".." in s or not (export / s).is_file())
+        if bad:
+            errs.append(f"{f.name}: {len(bad)} figures not in the export, e.g. {bad[:3]}")
     return errs
 
 

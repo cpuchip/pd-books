@@ -39,4 +39,6 @@ built](docs/how-this-was-built.md) names the agents who did this work and the ru
   Gutenberg License and trademark text, and redistributing them follows that license.
 - Everything else that is data (errata, evidence, the export) is dedicated to the public domain under
   CC0 1.0 (`LICENSE-CC0`), so anyone can fold the corrections into their own copy with no conditions.
+- `export/images/` holds the books' own figures, taken from each book's Project Gutenberg files (a PDF or
+  EPS figure rendered to PNG). The figures are in the public domain in the USA, as the books are.
 - The tools are under the MIT License (`LICENSE-MIT`).
