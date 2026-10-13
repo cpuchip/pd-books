@@ -13,7 +13,9 @@ candidates, each with its status and evidence) and refuses to write an export th
   - no claude.ai session URL anywhere;
   - every figure a chapter's text_html shows is a file inside the export (images/<book>/...);
   - every erratum's status is one of ERRATA_STATUSES (listed in each book file), and erratum ids are
-    unique across the export (each is prefixed with its book's id).
+    unique across the export (each is prefixed with its book's id);
+  - an erratum's chapter, when it has one, is a chapter of its book;
+  - no book.macros key or value names Project Gutenberg.
 """
 import argparse
 import json
@@ -56,6 +58,49 @@ def site_erratum(book, e):
     return out
 
 
+ROMAN = {"i": 1, "v": 5, "x": 10, "l": 50, "c": 100}
+
+
+def page_number(p):
+    """An arabic page as its number, a roman one (front matter) as a number below every arabic page, else None."""
+    p = str(p or "").strip().lower()
+    if p.isdigit():
+        return int(p)
+    if p and set(p) <= set(ROMAN):
+        v = [ROMAN[c] for c in p]
+        return -1000 + sum(-a if a < b else a for a, b in zip(v, v[1:] + [0]))
+    return None
+
+
+def squash(s):
+    return re.sub(r"\s+|\$|\\[()\[\]]", "", s or "")
+
+
+def place_errata(d):
+    """Each erratum's chapter (books #7833: the text pages show errata beside the text, never in it). The exercise its
+    location names decides; else the chapters whose pages hold its page (all of them when it has none), narrowed
+    to the ones whose text has the printed words. printed_in_text says whether the chapter's text_html holds the
+    printed words, compared without spaces or math delimiters, so the page knows whether a search will find them."""
+    sets = {s["id"]: s.get("chapter") for s in d.get("exercise_sets", [])}
+    chapters = d.get("chapters", [])
+    for e in d.get("errata", []):
+        chapter = None
+        m = re.match(r"Exercise\s+(\S+?),", e.get("location") or "")
+        if m:
+            chapter = sets.get(f"{d['book']['id']}/ex-{m.group(1)}")
+        if chapter is None:
+            page = page_number(e.get("page"))
+            cands = [c for c in chapters if page is not None and c.get("pages") and None not in map(page_number, c["pages"])
+                     and page_number(c["pages"][0]) <= page <= page_number(c["pages"][-1])] or chapters
+            printed = squash(e.get("printed"))
+            if printed:
+                cands = [c for c in cands if printed in squash(c.get("text_latex"))] or (cands if len(cands) <= 2 else [])
+            chapter = cands[0]["id"] if cands else None
+        e["chapter"] = chapter
+        text = next((squash(c.get("text_html")) for c in chapters if c["id"] == chapter), "")
+        e["printed_in_text"] = bool(squash(e.get("printed")) and squash(e.get("printed")) in text)
+
+
 def strings(x, path=""):
     if isinstance(x, str):
         yield path, x
@@ -82,6 +127,10 @@ def check(export):
                 errs.append(f"{f.name}{p}: control character")
             if "claude.ai/code/session" in s:
                 errs.append(f"{f.name}{p}: a session URL")
+    for b in docs[export / "books.json"].get("books", []):
+        for k, v in (b.get("macros") or {}).items():
+            if re.search(r"(?i)gutenberg", k + v) or k.startswith("\\PG"):
+                errs.append(f"books.json: {b.get('id')} macros {k} names Project Gutenberg")
     graph = docs[export / "graph.json"]
     ids = [n["id"] for n in graph["nodes"]]
     if len(ids) != len(set(ids)):
@@ -103,6 +152,11 @@ def check(export):
                 errs.append(f"{f.name}: erratum {x.get('id')} has status {x.get('status')!r}")
             if not str(x.get("id", "")).startswith(d["book"]["id"] + "/"):
                 errs.append(f"{f.name}: erratum id {x.get('id')} is not prefixed with the book id")
+            if x.get("chapter") and x["chapter"] not in {c["id"] for c in d["chapters"]}:
+                errs.append(f"{f.name}: erratum {x.get('id')} names chapter {x['chapter']!r}, not one of the book's")
+        for k, v in (d["book"].get("macros") or {}).items():
+            if re.search(r"(?i)gutenberg", k + v) or k.startswith("\\PG"):
+                errs.append(f"{f.name}: book.macros {k} names Project Gutenberg")
         own = [x["id"] for key in ("chapters", "excerpts", "equations", "exercise_sets", "problems", "errata") for x in d.get(key, [])]
         if len(own) != len(set(own)):
             errs.append(f"{f.name}: duplicate ids")
@@ -134,6 +188,7 @@ def main():
             entries = collect(book_dir)[1] if (book_dir / "book.json").exists() else []
             d["errata_statuses"] = ERRATA_STATUSES
             d["errata"] = [site_erratum(f.stem, e) for e in entries]  # [] for a book with none
+            place_errata(d)
             f.write_text(json.dumps(d, ensure_ascii=False, indent=1) + "\n", encoding="utf-8", newline="\n")
             print(f"{f.stem}: {len(d['problems'])} problems, {len(d['excerpts'])} excerpts, "
                   f"{len(d['equations'])} equations, {len(d.get('errata', []))} errata")
