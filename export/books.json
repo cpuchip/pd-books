@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
  "generated_from": {
-  "claudiverse_commit": "2d29503",
-  "generated_at": "2026-10-13T20:20:01Z"
+  "claudiverse_commit": "b3ae36b",
+  "generated_at": "2026-10-13T20:47:15Z"
  },
  "node_types": [
   "book",
@@ -150,7 +150,6 @@
     "\\RHeads": "\\textsc{\\MakeLowercase{#1}}",
     "\\ToCAnchor": "\\pageref{toc:#1}",
     "\\SubSectHead": "\n  \\subsubsection*{\\centering\\footnotesize\\MakeUppercase{#1}}\n",
-    "\\Signature": "%\n  \\medskip\n  \\quad#1\\hspace{\\parindent} \\\\\n  \\hspace*{\\parindent}#2\n",
     "\\PageSep": "\\Pagelabel{#1}\\ignorespaces",
     "\\etc": "\\text{etc}",
     "\\th": "\\textsuperscript{th}",
@@ -164,7 +163,6 @@
     "\\DotRow": "\\multispan{#1}{\\dotfill}",
     "\\Ibar": "\\mathop{\\vphantom{|}}",
     "\\THeadSize": "\\scriptsize",
-    "\\ColHead": "%\n  \\ifthenelse{\\equal{}{}}{%\n    %\n  }{%\n    %\n  }\n  \\text{\\centering\\THeadSize #1\\medskip}%\n",
     "\\Low": "%\n  \\setlength{\\TmpLen}{-1.5ex}\n  \\smash[b]{\\raisebox{\\TmpLen}{{#1}}}\n"
    }
   },
@@ -371,7 +369,6 @@
     "\\Eq": "%\n  \\hyperref[eqn:#1]{{#1}}%\n",
     "\\PageSep": "\\ignorespaces",
     "\\TPage": "\\resizebox{#1\\textwidth}{!}{#2}",
-    "\\Signature": "%\n  \\medskip\n  \\quad \\large #1\\hspace{\\parindent}\n  \\bigskip\n\n  \\small%\n  \\textsc{#2} \\\\\n  \\hspace*{2.5\\parindent}\\textit{#3} #4\\normalsize\\par\n",
     "\\const": "\\text{const.}",
     "\\ie": "\\emph{i.e.}",
     "\\Tr": "\\textsc{Tr}",
@@ -403,9 +400,7 @@
    "macros": {
     "\\MyLARGE": "\\Large",
     "\\TransNote": "Transcriber's Note",
-    "\\TransNoteText": "%\n    \\TransNoteCommon\n    \\bigskip\n\n    This PDF file is formatted for printing, but may be easily\n    recompiled for screen viewing. Please see the preamble of the\n    \\LaTeX\\ source file for instructions.\n  ",
     "\\Indent": "\\hspace*{1.5em}",
-    "\\BeforeSkip": "\\smallskip",
     "\\Pgref": "\\pageref{page:#1}",
     "\\Sref": "\\hyperref[unit:#1.]{#1}",
     "\\Proof": "\\BeforeSkip\\par\\textbf{Proof}",
@@ -498,8 +493,6 @@
    "file": "books/wentworth-first-steps-in-algebra-1894.json",
    "macros": {
     "\\PrintStretch": "%\n  \\ifthenelse{\\boolean{ForPrinting}}{\\enlargethispage{#1}}{}%\n",
-    "\\Paragraph": "\\medskip\\par\\textbf{#1}",
-    "\\Signature": "%\n  \\medskip%\n  \\quad#1 \\\\\n  \\hspace*{\\parindent}#2%\n",
     "\\Defn": "\\textbf{#1}",
     "\\Dictum": "\\Require\\textbf{#1}",
     "\\Ans": "%\n  \\hfil\\nobreak\\quad\\nobreak\\mbox{#1 \\textit{Ans.}}%\n",
@@ -546,13 +539,9 @@
     "\\rect": "\\operatorname{rect.}",
     "\\hsp": "\\hspace{\\stretch{1}}",
     "\\scanpage": "",
-    "\\proposition": "\\filbreak\\bigskip\\centerline{\\textsc{\\theproposition{} #1}}\\medskip",
-    "\\pp": "\\medskip\\pointno~#1\\filbreak",
-    "\\ex": "\\medskip\\textbf{Ex.~\\exno~}\\ #1\\filbreak",
     "\\defn": "\\textsc{Def.~}#1",
     "\\ax": "\\textbf{Axiom.~}\\textit{#1}",
     "\\thm": "\\textbf{Theorem.~}\\textit{#1}",
-    "\\exheader": "\\bigskip#1",
     "\\pnote": "%\n  \\noindent\\text{\\spaceskip0.5em plus 1em minus 0.25em\\centering\\small\\textit{#1}}%\n",
     "\\obs": "\\textit{#1}",
     "\\lett": "\\boldmath\\textbf{#1}\\unboldmath",
