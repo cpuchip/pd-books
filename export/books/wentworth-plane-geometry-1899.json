@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
  "generated_from": {
-  "claudiverse_commit": "311a34e",
-  "generated_at": "2026-10-13T18:43:35Z"
+  "claudiverse_commit": "b01de19",
+  "generated_at": "2026-10-13T19:14:38Z"
  },
  "node_types": [
   "book",
@@ -69,30 +69,25 @@
    "\\rect": "\\operatorname{rect.}",
    "\\hsp": "\\hspace{\\stretch{1}}",
    "\\scanpage": "",
-   "\\indexbf": "\\textbf{#1}\\label{#1}",
-   "\\indexemph": "\\emph{#1}\\label{#1}",
-   "\\part": "%\n  \\def\\mypartname{#1}%\n  \\clearpage\n  \\thispagestyle{plain}%\n  \\addcontentsline{toc}{part}{#1}%\n  \\def\\firstchap{yes}%\n  {\\centering \\normalfont \\Huge #1\\par}%\n",
-   "\\chapter": "\n  \\ifthenelse{\\equal{\\firstchap}{yes}}{\\vspace*{30\\p@}}{\\clearpage\\thispagestyle{plain}}%\n  \\def\\firstchap{no}%\n  \\global\\@topnum\\z@\n  \\@afterindentfalse\n  \\secdef\\@chapter\\@schapter",
    "\\proposition": "\\filbreak\\bigskip\\centerline{\\textsc{\\theproposition{} #1}}\\medskip",
-   "\\theproposition": "\\stepcounter{proposition}Proposition \\Roman{proposition}.",
-   "\\pointno": "\\stepcounter{point}\\textbf{\\thepoint{}.}",
-   "\\exno": "\\stepcounter{exnum}\\textbf{\\theexnum{}.}",
    "\\pp": "\\medskip\\pointno~#1\\filbreak",
    "\\ex": "\\medskip\\textbf{Ex.~\\exno~}\\ #1\\filbreak",
    "\\defn": "\\textsc{Def.~}#1",
    "\\ax": "\\textbf{Axiom.~}\\textit{#1}",
    "\\thm": "\\textbf{Theorem.~}\\textit{#1}",
    "\\exheader": "\\bigskip#1",
-   "\\pnote": "%\n  \\noindent\\parbox{\\linewidth}{\\spaceskip0.5em plus 1em minus 0.25em\\centering\\small\\textit{#1}}%\n",
+   "\\pnote": "%\n  \\noindent\\text{\\spaceskip0.5em plus 1em minus 0.25em\\centering\\small\\textit{#1}}%\n",
    "\\obs": "\\textit{#1}",
    "\\lett": "\\boldmath\\textbf{#1}\\unboldmath",
    "\\qed": "\\textsc{q.e.d.}",
    "\\qef": "\\textsc{q.e.f.}",
-   "\\step": "%\n  \\setlength{\\TmpLen}{\\parindent}%\n  \\noindent\\parbox{\\textwidth}{\\setlength{\\parindent}{\\TmpLen}\\rlap{}\\hfill#1\\hfill\\llap{#2}}%\n",
-   "\\eq": "%\n  \\setlength{\\TmpLen}{\\parindent}%\n  \\noindent\\parbox{\\textwidth}{\\setlength{\\parindent}{\\TmpLen}\\rlap{}\\hfill~#1~#2~\\hfill\\llap{#3}}%\n",
+   "\\step": "%\n  \\setlength{\\TmpLen}{\\parindent}%\n  \\noindent\\text{\\setlength{\\parindent}{\\TmpLen}\\rlap{}\\quad#1\\quad\\llap{#2}}%\n",
+   "\\eq": "%\n  \\setlength{\\TmpLen}{\\parindent}%\n  \\noindent\\text{\\setlength{\\parindent}{\\TmpLen}\\rlap{}\\quad~#1~#2~\\quad\\llap{#3}}%\n",
    "\\figc": "\\centerline{\\includegraphics{./images/#1.pdf}}%\n  \\ifthenelse{\\equal{#2}{}}{}{\\par\\small\\boldmath\\textbf{#2}\\unboldmath}",
    "\\figcc": "\\centerline{\\includegraphics{./images/#1.pdf}\\qquad\\includegraphics{./images/#2.pdf}}",
-   "\\figccc": "\\centerline{\\includegraphics{./images/#1.pdf}\\qquad%\n  \\includegraphics{./images/#2.pdf}\\qquad%\n  \\includegraphics{./images/#3.pdf}}"
+   "\\figccc": "\\centerline{\\includegraphics{./images/#1.pdf}\\qquad%\n  \\includegraphics{./images/#2.pdf}\\qquad%\n  \\includegraphics{./images/#3.pdf}}",
+   "\\mypartname": "#2",
+   "\\firstchap": "yes"
   }
  },
  "chapters": [
@@ -2549,6 +2544,8 @@
    "latex": "AB = AC+CB",
    "name": null,
    "statement": "The whole line AB equals the parts AC and CB added together when C lies on AB; lines are added by prolonging them.",
+   "flag": null,
+   "flag_status": null,
    "kind": "identity",
    "symbols": [
     {
@@ -2585,6 +2582,8 @@
    "latex": "AC = AB-CB",
    "name": null,
    "statement": "Segment AC equals AB with CB subtracted, obtained by diminishing AB to C.",
+   "flag": null,
+   "flag_status": null,
    "kind": "identity",
    "symbols": [
     {
@@ -2621,6 +2620,8 @@
    "latex": "AC = 2AB",
    "name": null,
    "statement": "A line made of two equal segments AB laid end to end is twice AB (a line multiplied by a number).",
+   "flag": null,
+   "flag_status": null,
    "kind": "formula",
    "symbols": [
     {
@@ -2653,6 +2654,8 @@
    "latex": "AD = 3AB",
    "name": null,
    "statement": "Three equal segments AB laid end to end make the segment AD, equal to three times AB.",
+   "flag": null,
+   "flag_status": null,
    "kind": "formula",
    "symbols": [
     {
@@ -2685,6 +2688,8 @@
    "latex": "AE = 4AB",
    "name": null,
    "statement": "Four equal segments AB laid end to end make the segment AE, equal to four times AB.",
+   "flag": null,
+   "flag_status": null,
    "kind": "formula",
    "symbols": [
     {
@@ -2717,6 +2722,8 @@
    "latex": "\\angle ACB = \\angle DEF",
    "name": null,
    "statement": "Any two straight angles are equal, shown by superposing one on the other so that their vertices and sides coincide.",
+   "flag": null,
+   "flag_status": null,
    "kind": "result",
    "symbols": [
     {
@@ -2750,6 +2757,8 @@
    "latex": "CE = CK",
    "name": null,
    "statement": "If a perpendicular CF is folded over and the two oblique lines cut off equal segments FE and FK from the foot, the two lines CE and CK are equal.",
+   "flag": null,
+   "flag_status": null,
    "kind": "result",
    "symbols": [
     {
@@ -2783,6 +2792,8 @@
    "latex": "\\angle FCE = \\angle FCK",
    "name": null,
    "statement": "The angles that the equal oblique lines CE and CK make with the perpendicular CF are equal.",
+   "flag": null,
+   "flag_status": null,
    "kind": "result",
    "symbols": [
     {
@@ -2815,6 +2826,8 @@
    "latex": "OE > OG",
    "name": null,
    "statement": "Of two lines from a point in a perpendicular, the one cutting off the more remote (greater) segment from the foot is the longer.",
+   "flag": null,
+   "flag_status": null,
    "kind": "result",
    "symbols": [
     {
@@ -2847,6 +2860,8 @@
    "latex": "\\angle BHK + \\angle HKD = \\text{a st.\\ }\\angle",
    "name": null,
    "statement": "Two interior angles on the same side of a transversal cut by parallel lines add to a straight angle, so they are supplementary.",
+   "flag": null,
+   "flag_status": null,
    "kind": "result",
    "symbols": [
     {
@@ -2881,6 +2896,8 @@
    "latex": "\\angle A+\\angle B+\\angle BCA = 2",
    "name": null,
    "statement": "The three angles of a triangle together equal two right angles.",
+   "flag": null,
+   "flag_status": null,
    "kind": "result",
    "symbols": [
     {
@@ -2920,6 +2937,8 @@
    "latex": "AB + BC > AC",
    "name": null,
    "statement": "In a triangle, the sum of two sides is greater than the third side.",
+   "flag": null,
+   "flag_status": null,
    "kind": "result",
    "symbols": [
     {
@@ -2958,6 +2977,8 @@
    "latex": "AC - BC < AB",
    "name": null,
    "statement": "In a triangle, the difference of two sides is less than the third side.",
+   "flag": null,
+   "flag_status": null,
    "kind": "result",
    "symbols": [
     {
@@ -2996,6 +3017,8 @@
    "latex": "AB > AC",
    "name": null,
    "statement": "In triangle ACB, if angle C is greater than angle B, then side AB is greater than side AC (the greater angle lies opposite the greater side).",
+   "flag": null,
+   "flag_status": null,
    "kind": "result",
    "symbols": [
     {
@@ -3030,6 +3053,8 @@
    "latex": "AO = OC",
    "name": null,
    "statement": "The diagonals of a parallelogram bisect each other: the segments of diagonal AC from A and from C to the intersection point O are equal.",
+   "flag": null,
+   "flag_status": null,
    "kind": "result",
    "symbols": [
     {
@@ -3062,6 +3087,8 @@
    "latex": "BO = OE",
    "name": null,
    "statement": "The diagonals of a parallelogram bisect each other: the segments of diagonal BE from B and from E to the intersection point O are equal.",
+   "flag": null,
+   "flag_status": null,
    "kind": "result",
    "symbols": [
     {
@@ -3094,6 +3121,8 @@
    "latex": "BC = AE",
    "name": null,
    "statement": "In a parallelogram, one pair of opposite sides is equal.",
+   "flag": null,
+   "flag_status": null,
    "kind": "result",
    "symbols": [
     {
@@ -3126,6 +3155,8 @@
    "latex": "AB = EC",
    "name": null,
    "statement": "In a parallelogram, the other pair of opposite sides is equal.",
+   "flag": null,
+   "flag_status": null,
    "kind": "result",
    "symbols": [
     {
@@ -3158,6 +3189,8 @@
    "latex": "AB = BC = CD",
    "name": null,
    "statement": "If parallel lines cut off equal parts on one transversal, they cut off equal parts on every transversal: the segments AB, BC, CD on transversal AD are equal.",
+   "flag": null,
+   "flag_status": null,
    "kind": "result",
    "symbols": [
     {
@@ -3196,6 +3229,8 @@
    "latex": "BF=FC = \\frac{1}{2}BC",
    "name": null,
    "statement": "The line through the midpoints of two sides of a triangle, drawn parallel to the third side, bisects the third side, so BF and FC are each half of BC.",
+   "flag": null,
+   "flag_status": null,
    "kind": "result",
    "symbols": [
     {
@@ -3235,6 +3270,8 @@
    "latex": "DE = BF = \\frac{1}{2}BC",
    "name": null,
    "statement": "The segment joining the midpoints of two sides of a triangle equals half the third side.",
+   "flag": null,
+   "flag_status": null,
    "kind": "result",
    "symbols": [
     {
@@ -3274,6 +3311,8 @@
    "latex": "\\frac{1}{2} (AB + DC)",
    "name": null,
    "statement": "The median of a trapezoid (the line joining the midpoints of its legs) is parallel to the bases and equal to half the sum of the bases; the book states the length as one half of AB plus DC.",
+   "flag": null,
+   "flag_status": null,
    "kind": "result",
    "symbols": [
     {
@@ -3307,6 +3346,8 @@
    "latex": "(n-2)2",
    "name": null,
    "statement": "The sum of the interior angles of a polygon of n sides equals (n-2) times two right angles.",
+   "flag": null,
+   "flag_status": null,
    "kind": "result",
    "symbols": [
     {
@@ -3339,6 +3380,8 @@
    "latex": "\\displaystyle \\frac{2(n-2)}{n}",
    "name": null,
    "statement": "Each angle of an equiangular polygon of n sides equals 2(n-2)/n right angles.",
+   "flag": null,
+   "flag_status": null,
    "kind": "formula",
    "symbols": [
     {
@@ -3372,6 +3415,8 @@
    "latex": "\\dfrac{a}{b}",
    "name": null,
    "statement": "The ratio of a to b is written a : b, or as the fraction a/b.",
+   "flag": null,
+   "flag_status": null,
    "kind": "definition",
    "symbols": [
     {
@@ -3403,6 +3448,8 @@
    "latex": "\\frac{3}{10} + \\frac{3}{100} + \\frac{3}{1000} + \\cdots",
    "name": null,
    "statement": "The decimal 0.333... is written as the infinite sum of the fractions 3/10, 3/100, 3/1000, and so on, whose sum approaches 1/3 as a limit.",
+   "flag": null,
+   "flag_status": null,
    "kind": "formula",
    "symbols": [],
    "sympy": null,
@@ -3424,6 +3471,8 @@
    "latex": "\\sqrt{2} = 1.41421356\\cdots",
    "name": null,
    "statement": "The square root of 2 is an incommensurable value whose decimal expansion is given to eight places, so approximate values can be taken from it.",
+   "flag": null,
+   "flag_status": null,
    "kind": "approximation",
    "symbols": [],
    "sympy": null,
@@ -3445,6 +3494,8 @@
    "latex": "\\dfrac{x}{k} = \\dfrac{1}{k} × x",
    "name": null,
    "statement": "Dividing a variable by a finite constant k is the same as multiplying it by 1/k.",
+   "flag": null,
+   "flag_status": null,
    "kind": "identity",
    "symbols": [
     {
@@ -3478,6 +3529,8 @@
    "latex": "kx=0",
    "name": null,
    "statement": "If the limit of the variable x is zero, then the limit of kx, for any finite constant k, is zero.",
+   "flag": null,
+   "flag_status": null,
    "kind": "result",
    "symbols": [
     {
@@ -3511,6 +3564,8 @@
    "latex": "kx = ka",
    "name": null,
    "statement": "The limit of kx equals k times the limit a of x, for any finite constant k.",
+   "flag": null,
+   "flag_status": null,
    "kind": "result",
    "symbols": [
     {
@@ -3549,6 +3604,8 @@
    "latex": "xy = ab",
    "name": null,
    "statement": "The limit of the product xy of two variables is the product ab of their respective limits, provided neither limit is zero.",
+   "flag": null,
+   "flag_status": null,
    "kind": "result",
    "symbols": [
     {
@@ -3591,6 +3648,8 @@
    "latex": "x^n = a^n",
    "name": null,
    "statement": "The limit of the nth power of a variable x is the nth power a^n of its limit a.",
+   "flag": null,
+   "flag_status": null,
    "kind": "result",
    "symbols": [
     {
@@ -3628,6 +3687,8 @@
    "latex": "d+d'+d''+\\cdots < nd",
    "name": null,
    "statement": "The sum of n differences is less than n times the largest difference d, which is the step used to show that the sum of the differences can be made smaller than any assigned quantity.",
+   "flag": null,
+   "flag_status": null,
    "kind": "result",
    "symbols": [
     {
@@ -3670,6 +3731,8 @@
    "latex": "\\dfrac{a}{b} = r",
    "name": null,
    "statement": "If the variables x and y have a constant ratio r and their limits a and b are not zero, then the ratio of the limits a/b equals r.",
+   "flag": null,
+   "flag_status": null,
    "kind": "result",
    "symbols": [
     {
@@ -3707,6 +3770,8 @@
    "latex": "AB = AC",
    "name": null,
    "statement": "The two tangents drawn from an external point A to a circle are equal in length.",
+   "flag": null,
+   "flag_status": null,
    "kind": "result",
    "symbols": [
     {
@@ -3738,6 +3803,8 @@
    "latex": "\\dfrac{\\angle A'C'B'}{\\angle ACB} = \\dfrac{\\arc A'B'}{\\arc AB}",
    "name": null,
    "statement": "In equal or the same circle, the ratio of two central angles equals the ratio of their intercepted arcs.",
+   "flag": null,
+   "flag_status": null,
    "kind": "result",
    "symbols": [
     {
@@ -3784,6 +3851,8 @@
    "latex": "\\angle ECF = 90° + \\frac{1}{2}\\angle ACB",
    "name": null,
    "statement": "The angle ECF in the analysed triangle equals a right angle plus half the given angle ACB.",
+   "flag": null,
+   "flag_status": null,
    "kind": "result",
    "symbols": [
     {
@@ -3817,6 +3886,8 @@
    "latex": "\\angle E+\\angle F+\\frac{1}{2}\\angle ACB = 90°",
    "name": null,
    "statement": "The angles at E and F of triangle ECF, plus half the given angle ACB, sum to a right angle.",
+   "flag": null,
+   "flag_status": null,
    "kind": "result",
    "symbols": [
     {
@@ -3854,6 +3925,8 @@
    "latex": "\\angle E+\\angle F = 90° - \\frac{1}{2}\\angle ACB",
    "name": null,
    "statement": "The sum of the angles at E and F equals a right angle minus half the given angle ACB.",
+   "flag": null,
+   "flag_status": null,
    "kind": "result",
    "symbols": [
     {
@@ -3891,6 +3964,8 @@
    "latex": "EG = FC = \\frac{1}{2}DC",
    "name": null,
    "statement": "In the isosceles trapezoid construction, the segments EG and FC are each half of the base DC, as the proof states.",
+   "flag": null,
+   "flag_status": null,
    "kind": "result",
    "symbols": [
     {
@@ -3930,6 +4005,8 @@
    "latex": "\\angle BAC = \\angle BCA = 45°",
    "name": null,
    "statement": "In the square construction, the angles BAC and BCA each equal 45°, because the triangles ABC and ABE are isosceles and CA is a diagonal of the square.",
+   "flag": null,
+   "flag_status": null,
    "kind": "result",
    "symbols": [
     {
@@ -3964,6 +4041,8 @@
    "latex": "a:b = c:d",
    "name": null,
    "statement": "Four quantities form a proportion when the ratio of the first to the second equals the ratio of the third to the fourth.",
+   "flag": null,
+   "flag_status": null,
    "kind": "definition",
    "symbols": [
     {
@@ -4007,6 +4086,8 @@
    "latex": "a:b = b:c = c:d = d:e",
    "name": null,
    "statement": "Quantities a, b, c, d, e are in continued proportion when each consecutive pair has the same ratio.",
+   "flag": null,
+   "flag_status": null,
    "kind": "definition",
    "symbols": [
     {
@@ -4054,6 +4135,8 @@
    "latex": "a+c+e+g : b+d+f+h = a:b",
    "name": null,
    "statement": "In a series of equal ratios, the sum of the antecedents is to the sum of the consequents as any antecedent is to its consequent.",
+   "flag": null,
+   "flag_status": null,
    "kind": "result",
    "symbols": [
     {
@@ -4118,6 +4201,8 @@
    "latex": "\\dfrac{EB}{AE} = \\dfrac{FC}{AF}",
    "name": null,
    "statement": "In the incommensurable case, by a limiting argument, the ratio EB to AE equals the ratio FC to AF.",
+   "flag": null,
+   "flag_status": null,
    "kind": "result",
    "symbols": [
     {
@@ -4160,6 +4245,8 @@
    "latex": "\\dfrac{AB}{A'B'}",
    "name": null,
    "statement": "placeholder",
+   "flag": null,
+   "flag_status": null,
    "kind": "definition",
    "symbols": [],
    "sympy": null,
@@ -4177,6 +4264,8 @@
    "latex": "AB:A'B' = BC:B'C' = CD:C'D'",
    "name": null,
    "statement": "Similar polygons have their homologous angles equal and their homologous sides proportional, so the ratios of corresponding sides are equal.",
+   "flag": null,
+   "flag_status": null,
    "kind": "definition",
    "symbols": [
     {
@@ -4230,6 +4319,8 @@
    "latex": "AB:A'B' = AC:A'C' = BC:B'C'",
    "name": null,
    "statement": "Two mutually equiangular triangles are similar, so their corresponding sides are proportional.",
+   "flag": null,
+   "flag_status": null,
    "kind": "result",
    "symbols": [
     {
@@ -4283,6 +4374,8 @@
    "latex": "\\dfrac {CO}{C'O'}=\\dfrac {AC}{A'C'}=\\dfrac {AB}{A'B'}=\\dfrac {BC}{B'C'}",
    "name": null,
    "statement": "The homologous altitudes of two similar triangles have the same ratio as any two homologous sides.",
+   "flag": null,
+   "flag_status": null,
    "kind": "result",
    "symbols": [
     {
@@ -4346,6 +4439,8 @@
    "latex": "\\dfrac{AB}{A'B'}= \\dfrac{BC}{B'C'}= \\dfrac{CD}{C'D'}= \\dfrac{DE}{D'E'}",
    "name": null,
    "statement": "Two parallels cut by three or more transversals through one point have proportional corresponding segments.",
+   "flag": null,
+   "flag_status": null,
    "kind": "result",
    "symbols": [
     {
@@ -4408,6 +4503,8 @@
    "latex": "\\overline{AC}^2=AB × AF",
    "name": null,
    "statement": "In a right triangle, the square of a leg equals the hypotenuse times the segment of the hypotenuse adjacent to that leg.",
+   "flag": null,
+   "flag_status": null,
    "kind": "result",
    "symbols": [
     {
@@ -4447,6 +4544,8 @@
    "latex": "\\dfrac{\\overline{AC}^2}{\\overline{BC}^2} = \\dfrac{AB × AF}{AB × BF} = \\dfrac{AF}{BF}",
    "name": null,
    "statement": "The squares of the two legs of a right triangle are proportional to the segments of the hypotenuse adjacent to them.",
+   "flag": null,
+   "flag_status": null,
    "kind": "result",
    "symbols": [
     {
@@ -4496,6 +4595,8 @@
    "latex": "\\dfrac{\\overline{AB}^2}{\\overline{AC}^2} = \\dfrac{AB × AB}{AB × AF} = \\dfrac{AB}{AF}",
    "name": null,
    "statement": "The square of the hypotenuse over the square of a leg equals the hypotenuse over the segment of the hypotenuse adjacent to that leg.",
+   "flag": null,
+   "flag_status": null,
    "kind": "result",
    "symbols": [
     {
@@ -4535,6 +4636,8 @@
    "latex": "AB(AF + BF) = \\overline{AB}^2",
    "name": "pythagorean theorem",
    "statement": "The squares of the two legs of a right triangle sum to the square of the hypotenuse; this is the closing algebraic step of the proof (the sum of squares is written across two braces in the source).",
+   "flag": null,
+   "flag_status": null,
    "kind": "law",
    "symbols": [
     {
@@ -4576,6 +4679,8 @@
    "latex": "\\overline{AC}^2 = \\overline{AB}^2 + \\overline{BC}^2 = 2 \\overline{AB}^2",
    "name": null,
    "statement": "For a square ABCD, the square of the diagonal AC equals twice the square of a side AB.",
+   "flag": null,
+   "flag_status": null,
    "kind": "result",
    "symbols": [
     {
@@ -4614,6 +4719,8 @@
    "latex": "AC = AB \\sqrt{2}",
    "name": null,
    "statement": "The diagonal of a square is the side times the square root of two, so diagonal and side are incommensurable.",
+   "flag": null,
+   "flag_status": null,
    "kind": "result",
    "symbols": [
     {
@@ -4647,6 +4754,8 @@
    "latex": "\\overline{AB}^2 = \\overline{BC}^2 + \\overline{AC}^2 - 2 BC × DC",
    "name": null,
    "statement": "In any triangle, the square of the side opposite an acute angle C equals the sum of the squares of the other two sides minus twice the product of one of them and the projection of the other upon it.",
+   "flag": null,
+   "flag_status": null,
    "kind": "law",
    "symbols": [
     {
@@ -4690,6 +4799,8 @@
    "latex": "\\overline{AB}^2 = \\overline{BC}^2 + \\overline{AC}^2 + 2 BC × DC",
    "name": null,
    "statement": "In an obtuse triangle, the square of the side opposite the obtuse angle C equals the sum of the squares of the other two sides plus twice the product of one of them and the projection of the other upon it.",
+   "flag": null,
+   "flag_status": null,
    "kind": "law",
    "symbols": [
     {
@@ -4733,6 +4844,8 @@
    "latex": "a^2+b^2 = 2m^2+2\\left(\\dfrac{c}{2}\\right)^2",
    "name": null,
    "statement": "In a triangle with sides a, b, c and median m drawn to side c, the sum of the squares of a and b equals twice the square of half of c plus twice the square of the median.",
+   "flag": null,
+   "flag_status": null,
    "kind": "law",
    "symbols": [
     {
@@ -4776,6 +4889,8 @@
    "latex": "\\dfrac{OM}{OQ} = \\dfrac{OP}{ON}",
    "name": null,
    "statement": "When two chords intersect in a circle, the ratio of two corresponding segments equals the reciprocal of the ratio of the other two; the segments are reciprocally proportional.",
+   "flag": null,
+   "flag_status": null,
    "kind": "result",
    "symbols": [
     {
@@ -4820,6 +4935,8 @@
    "latex": "AC : AD = AD : AB",
    "name": null,
    "statement": "A tangent from an external point is the mean proportional between the whole secant and its external segment.",
+   "flag": null,
+   "flag_status": null,
    "kind": "result",
    "symbols": [
     {
@@ -4859,6 +4976,8 @@
    "latex": "AC × AB = \\overline{AD}^2",
    "name": null,
    "statement": "From a fixed point outside a circle, the product of a secant and its external segment equals the square of the tangent, so it is constant for every secant.",
+   "flag": null,
+   "flag_status": null,
    "kind": "result",
    "symbols": [
     {
@@ -4897,6 +5016,8 @@
    "latex": "\\overline{NO}^2 = NM × NP - OM × OP",
    "name": null,
    "statement": "The square of the bisector of an angle of a triangle equals the product of the two sides enclosing the angle minus the product of the segments the bisector makes on the third side.",
+   "flag": null,
+   "flag_status": null,
    "kind": "result",
    "symbols": [
     {
@@ -4945,6 +5066,8 @@
    "latex": "\\dfrac{AH}{AC} = \\dfrac{HK}{CE} = \\dfrac{KB}{EF}",
    "name": null,
    "statement": "If two lines are cut by any number of parallels, the corresponding intercepts are proportional.",
+   "flag": null,
+   "flag_status": null,
    "kind": "result",
    "symbols": [
     {
@@ -4997,6 +5120,8 @@
    "latex": "\\dfrac{AH}{m} = \\dfrac{HK}{n} = \\dfrac{KB}{p}",
    "name": null,
    "statement": "The construction divides AB into parts AH, HK, KB proportional to the given lines m, n, p.",
+   "flag": null,
+   "flag_status": null,
    "kind": "result",
    "symbols": [
     {
@@ -5049,6 +5174,8 @@
    "latex": "AG:AB = AB:AF",
    "name": null,
    "statement": "In dividing a line in extreme and mean ratio, the whole line is the mean proportional between the segments on the chord construction.",
+   "flag": null,
+   "flag_status": null,
    "kind": "result",
    "symbols": [
     {
@@ -5087,6 +5214,8 @@
    "latex": "\\dfrac{\\rect AF}{\\rect AC} = \\dfrac{AE}{AB}",
    "name": null,
    "statement": "Two rectangles on the same altitude are to each other as their bases, so the ratio of the rectangles equals the ratio of the bases AE and AB.",
+   "flag": null,
+   "flag_status": null,
    "kind": "result",
    "symbols": [
     {
@@ -5131,6 +5260,8 @@
    "latex": "\\dfrac{R}{U} = \\dfrac{a × b}{1 × 1}",
    "name": null,
    "statement": "The ratio of a rectangle R to the unit of surface U equals the product of its altitude and base, each measured in linear units.",
+   "flag": null,
+   "flag_status": null,
    "kind": "formula",
    "symbols": [
     {
@@ -5175,6 +5306,8 @@
    "latex": "\\Par AEFD = a × b",
    "name": null,
    "statement": "The area of parallelogram AEFD equals its base b times its altitude a.",
+   "flag": null,
+   "flag_status": null,
    "kind": "result",
    "symbols": [
     {
@@ -5208,6 +5341,8 @@
    "latex": "\\triangle{}ABC=\\frac{1}{2}a × b",
    "name": null,
    "statement": "The area of a triangle is half the product of its base by its altitude.",
+   "flag": null,
+   "flag_status": null,
    "kind": "result",
    "symbols": [
     {
@@ -5243,6 +5378,8 @@
    "latex": "ABCH=\\frac{1}{2}a(b+b')",
    "name": null,
    "statement": "The area of trapezoid ABCH equals half its altitude times the sum of its two bases.",
+   "flag": null,
+   "flag_status": null,
    "kind": "result",
    "symbols": [
     {
@@ -5282,6 +5419,8 @@
    "latex": "\\dfrac{\\triangle ABC} {\\triangle ADE} = \\dfrac{AB × AC} {AD × AE}",
    "name": null,
    "statement": "Two triangles with one equal angle at A are to each other as the products of the two sides enclosing that angle.",
+   "flag": null,
+   "flag_status": null,
    "kind": "result",
    "symbols": [
     {
@@ -5336,6 +5475,8 @@
    "latex": "S:S'=\\overline{AB}^2:\\overline{A'B'^2}",
    "name": null,
    "statement": "The areas of two similar polygons are to each other as the squares of any two homologous sides. (The book's typesetting places the square exponent inside the second overline; the intended relation is the squares of AB and A'B'.)",
+   "flag": null,
+   "flag_status": null,
    "kind": "result",
    "symbols": [
     {
@@ -5381,6 +5522,8 @@
    "latex": "BE \\Bumpeq CH + AF",
    "name": "Pythagorean theorem (area form)",
    "statement": "The square on the hypotenuse of a right triangle is equivalent to the sum of the squares on the two legs.",
+   "flag": null,
+   "flag_status": null,
    "kind": "law",
    "symbols": [
     {
@@ -5425,6 +5568,8 @@
    "latex": "\\overline{NP}^2 = MN × NO = a × b",
    "name": null,
    "statement": "The square constructed on NP equals the product of the segments MN (= a) and NO (= b) of the diameter, so the square is equivalent to the parallelogram of base b and altitude a.",
+   "flag": null,
+   "flag_status": null,
    "kind": "result",
    "symbols": [
     {
@@ -5475,6 +5620,8 @@
    "latex": "\\overline{BD}^2 + \\overline{AC}^2 = \\overline{AB}^2 + \\overline{DC}^2",
    "name": null,
    "statement": "For a right triangle ABC with right angle at C and a line BD cutting AC at D, the sum of the squares on BD and AC equals the sum of the squares on AB and DC.",
+   "flag": null,
+   "flag_status": null,
    "kind": "result",
    "symbols": [
     {
@@ -5520,6 +5667,8 @@
    "latex": "= \\sqrt{s(s - a)(s - b)(s - c)}",
    "name": "Heron's formula",
    "statement": "The area of a triangle with sides a, b, c equals the square root of s(s-a)(s-b)(s-c), where s is half the perimeter.",
+   "flag": null,
+   "flag_status": null,
    "kind": "formula",
    "symbols": [
     {
@@ -5570,6 +5719,8 @@
    "latex": "= \\dfrac{abc}{4R}",
    "name": null,
    "statement": "The area of a triangle equals the product of its three sides divided by four times the radius of its circumscribed circle.",
+   "flag": null,
+   "flag_status": null,
    "kind": "formula",
    "symbols": [
     {
@@ -5619,6 +5770,8 @@
    "latex": "\\dfrac{a}{2} × \\dfrac{a\\sqrt{3}}{2} = \\dfrac{a^2\\sqrt{3}}{4}",
    "name": null,
    "statement": "The area of an equilateral triangle of side a is a squared times the square root of 3, divided by 4.",
+   "flag": null,
+   "flag_status": null,
    "kind": "result",
    "symbols": [
     {
@@ -5658,6 +5811,8 @@
    "latex": "\\dfrac{(n-2) 2 \\text{ rt.\\ } \\angle_s}{n}",
    "name": null,
    "statement": "Each interior angle of a regular polygon of n sides equals the sum of its interior angles, (n-2) two right angles, divided by n.",
+   "flag": null,
+   "flag_status": null,
    "kind": "formula",
    "symbols": [
     {
@@ -5685,6 +5840,8 @@
    "latex": "\\overline{OA}^2 - \\overline{OP}^2 = \\overline{AP}^2",
    "name": "Pythagorean theorem",
    "statement": "In the right triangle OAP, the square on the radius OA minus the square on the apothem OP equals the square on AP, half a side.",
+   "flag": null,
+   "flag_status": null,
    "kind": "result",
    "symbols": [
     {
@@ -5725,6 +5882,8 @@
    "latex": "\\overline{AD}^2 = DH × DC",
    "name": null,
    "statement": "In the right triangle DAH, the square on the side AD equals the product of the hypotenuse DH and its segment DC.",
+   "flag": null,
+   "flag_status": null,
    "kind": "result",
    "symbols": [
     {
@@ -5763,6 +5922,8 @@
    "latex": "AD = \\sqrt{2-\\sqrt{4-a^2}}",
    "name": null,
    "statement": "For a circle of unit radius, the side AD of the polygon with double the sides is found from the side a of the given inscribed polygon.",
+   "flag": null,
+   "flag_status": null,
    "kind": "formula",
    "symbols": [
     {
@@ -5795,6 +5956,8 @@
    "latex": "\\sqrt{R(2R - \\sqrt{4R^2 - a^2})}",
    "name": null,
    "statement": "For a circle of radius R, the side AD of the regular inscribed polygon with double the sides is given in terms of R and the side a of the given polygon.",
+   "flag": null,
+   "flag_status": null,
    "kind": "formula",
    "symbols": [
     {
@@ -5832,6 +5995,8 @@
    "latex": "S = \\frac{1}{2}R × P",
    "name": "area of a regular polygon",
    "statement": "The area of a regular polygon equals half the product of its apothem and its perimeter.",
+   "flag": null,
+   "flag_status": null,
    "kind": "result",
    "symbols": [
     {
@@ -5872,6 +6037,8 @@
    "latex": "S' = \\frac{1}{2} R × P",
    "name": null,
    "statement": "The area of a regular circumscribed polygon equals half the product of the radius of the circle (its apothem) and the polygon's perimeter, for any number of sides.",
+   "flag": null,
+   "flag_status": null,
    "kind": "result",
    "symbols": [
     {
@@ -5911,6 +6078,8 @@
    "latex": "S = \\frac{1}{2}R× C",
    "name": null,
    "statement": "The area of a circle equals half the product of its radius and its circumference.",
+   "flag": null,
+   "flag_status": null,
    "kind": "result",
    "symbols": [
     {
@@ -5950,6 +6119,8 @@
    "latex": "\\odot = \\frac{1}{2} R × C = \\frac{1}{2} R × 2\\pi R = \\pi R^2",
    "name": null,
    "statement": "The area of a circle of radius R is pi times the square of its radius.",
+   "flag": null,
+   "flag_status": null,
    "kind": "result",
    "symbols": [
     {
@@ -5995,6 +6166,8 @@
    "latex": "S:S' = \\pi R^2:\\pi R'^2 = R^2:R'^2",
    "name": null,
    "statement": "The areas of two circles are to each other as the squares of their radii.",
+   "flag": null,
+   "flag_status": null,
    "kind": "result",
    "symbols": [
     {
@@ -6039,6 +6212,8 @@
    "latex": "\\pi = \\dfrac{C}{2R}",
    "name": null,
    "statement": "pi is the constant ratio of the circumference of a circle to its diameter.",
+   "flag": null,
+   "flag_status": null,
    "kind": "definition",
    "symbols": [
     {
@@ -6078,6 +6253,8 @@
    "latex": "C=2\\pi R",
    "name": null,
    "statement": "The circumference of a circle equals 2 pi times its radius.",
+   "flag": null,
+   "flag_status": null,
    "kind": "result",
    "symbols": [
     {
@@ -6116,6 +6293,8 @@
    "latex": "2\\pi R = C",
    "name": null,
    "statement": "Twice pi times the radius of a circle equals its circumference.",
+   "flag": null,
+   "flag_status": null,
    "kind": "result",
    "symbols": [
     {
@@ -6154,6 +6333,8 @@
    "latex": "\\pi = \\frac{1}{2}C",
    "name": null,
    "statement": "When the radius is unity, pi equals half the circumference.",
+   "flag": null,
+   "flag_status": null,
    "kind": "result",
    "symbols": [
     {
@@ -6186,6 +6367,8 @@
    "latex": "C = 6.28317",
    "name": null,
    "statement": "The circumference of the unit circle, found by the inscribed-polygon computation, is approximately 6.28317.",
+   "flag": null,
+   "flag_status": null,
    "kind": "approximation",
    "symbols": [
     {
@@ -6214,6 +6397,8 @@
    "latex": "\\pi = 3.14159",
    "name": null,
    "statement": "From the computed circumference, pi is nearly 3.14159.",
+   "flag": null,
+   "flag_status": null,
    "kind": "approximation",
    "symbols": [
     {
@@ -6240,6 +6425,8 @@
    "latex": "\\pi = 3.1416",
    "name": null,
    "statement": "For general use, pi is taken as 3.1416.",
+   "flag": null,
+   "flag_status": null,
    "kind": "approximation",
    "symbols": [
     {
@@ -6266,6 +6453,8 @@
    "latex": "\\frac{1}{\\pi} = 0.31831",
    "name": null,
    "statement": "For general use, the reciprocal of pi is taken as 0.31831.",
+   "flag": null,
+   "flag_status": null,
    "kind": "approximation",
    "symbols": [
     {
@@ -6293,6 +6482,8 @@
    "latex": "P:P' = OA:O'A' = OM:O'M'",
    "name": null,
    "statement": "The perimeters of two similar regular polygons with the same number of sides are to each other as their circumscribed radii and as their inscribed radii (apothems).",
+   "flag": null,
+   "flag_status": null,
    "kind": "result",
    "symbols": [
     {
@@ -6348,6 +6539,8 @@
    "latex": "AB:A'B' = BC:B'C'",
    "name": null,
    "statement": "Two regular polygons with the same number of sides have their homologous sides proportional.",
+   "flag": null,
+   "flag_status": null,
    "kind": "result",
    "symbols": [
     {
@@ -6391,6 +6584,8 @@
    "latex": "\\triangle ACB > \\triangle ADB",
    "name": null,
    "statement": "Of two isoperimetric triangles with the same base AB, the isosceles triangle (AC equal to CB) has the greater area.",
+   "flag": null,
+   "flag_status": null,
    "kind": "result",
    "symbols": [
     {
@@ -6426,6 +6621,8 @@
    "latex": "ABCDE > A'B'C'D'E'",
    "name": null,
    "statement": "A polygon inscribed in a circle has greater area than an equilateral polygon with the same sides that cannot be inscribed in a circle.",
+   "flag": null,
+   "flag_status": null,
    "kind": "result",
    "symbols": [
     {
@@ -6460,6 +6657,8 @@
    "latex": "AB = BC",
    "name": null,
    "statement": "In the maximum of isoperimetric polygons with a given number of sides, the adjacent sides AB and BC are equal, because the triangle ABC on AC must be isosceles.",
+   "flag": null,
+   "flag_status": null,
    "kind": "result",
    "symbols": [
     {
