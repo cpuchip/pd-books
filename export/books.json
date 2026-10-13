@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
  "generated_from": {
-  "claudiverse_commit": "8f34f5d",
-  "generated_at": "2026-10-13T21:48:46Z"
+  "claudiverse_commit": "9f5101f",
+  "generated_at": "2026-10-13T22:30:44Z"
  },
  "node_types": [
   "book",
@@ -160,10 +160,10 @@
     "\\phi": "\\varphi",
     "\\efrac": "\\frac{#1}{#2}",
     "\\Z": "\\phantom{0}",
-    "\\DotRow": "\\multispan{#1}{\\dotfill}",
+    "\\DotRow": "\\multispan{#1}{\\cdots}",
     "\\Ibar": "\\mathop{\\vphantom{|}}",
     "\\THeadSize": "\\scriptsize",
-    "\\Low": "%\n  \\setlength{\\TmpLen}{-1.5ex}\n  \\smash[b]{\\raisebox{\\TmpLen}{{#1}}}\n"
+    "\\Low": "%\n  {-1.5ex}\n  \\smash[b]{{{#1}}}\n"
    }
   },
   {
@@ -185,17 +185,17 @@
     "\\Titling": "\\scshape",
     "\\TitleSkip": "\\\\[0.1in]",
     "\\Strut": "\\vphantom{\\Big|}",
-    "\\Lcol": "\\multicolumn{1}{|l}{#1}",
-    "\\Rcol": "\\multicolumn{1}{r|}{#1}",
+    "\\Lcol": "#1",
+    "\\Rcol": "#1",
     "\\Neg": "\\phantom{-}",
-    "\\Bare": "\\multicolumn{1}{c}{#1}",
+    "\\Bare": "#1",
     "\\Rightmark": "\\makebox[0pt][r]{{#1}}",
     "\\Dots": "\\dots",
     "\\Tag": "\\tag{{#1}}",
     "\\ChapRef": "\\hyperref[chap:#1]{Chapter~#1}",
     "\\Eq": "$(#1)$",
     "\\ds": "\\displaystyle",
-    "\\xatop": "\\overset{\\mbox{\\tiny $\\mathrm x$}}{#1}",
+    "\\xatop": "\\overset{\\text{\\tiny $\\mathrm x$}}{#1}",
     "\\TB": "\\rule{0.75in}{0.5pt}"
    }
   },
@@ -250,7 +250,7 @@
     "\\MS": "",
     "\\ToCAnchor": "\\pageref{toc:#1}",
     "\\SectPageLine": "%\n  \\text{\\scriptsize SECT.\\quad PAGE}\\\\%\n",
-    "\\ToCApp": "%\n\\noindent\\text{%\n  \\small\\textsc{Appendix}~\\makebox[2em][l]{#1.} #2\\ \\dotfill}\\ToCPage{appendix:#1}%\n",
+    "\\ToCApp": "%\n\\noindent\\text{%\n  \\small\\textsc{Appendix}~\\makebox[2em][l]{#1.} #2\\ \\cdots}\\ToCPage{appendix:#1}%\n",
     "\\ToCPage": "\\makebox[2em][r]{\\small\\pageref{#1}}",
     "\\PgNo": "%\n  \\ifthenelse{\\equal{}{}}{%\n    \\pageref*{pg:#1}%\n  }{%\n    \\pageref{page:#1}%\n  }%\n",
     "\\ChapNo": "A.#2",
@@ -266,7 +266,7 @@
     "\\ib": "\\textit{b}",
     "\\ic": "\\textit{c}",
     "\\id": "\\textit{d}",
-    "\\TEntry": "\\multicolumn{1}{c}{#1}",
+    "\\TEntry": "#1",
     "\\ds": "\\displaystyle",
     "\\leq": "\\leqq",
     "\\geq": "\\geqq",
@@ -286,7 +286,7 @@
     "\\Im": "\\Imag",
     "\\Repeat": "\\overline{#1\\vphantom{|}}",
     "\\Seg": "\\overline{#1\\vphantom{P'}}",
-    "\\DotRow": "\\makebox[#1][c]{\\dotfill}"
+    "\\DotRow": "\\makebox[#1][c]{\\cdots}"
    }
   },
   {
@@ -363,7 +363,7 @@
     "\\Erratum": "#2",
     "\\Loosen": "\\spaceskip 0.375em plus 0.75em minus 0.25em",
     "\\RHead": "\\textsc{\\MakeLowercase{#1}}",
-    "\\ToCBox": "%\n  \\makebox[\\TmpLen][r]{#1}\\hspace*{1em}%\n",
+    "\\ToCBox": "%\n  \\makebox[][r]{#1}\\hspace*{1em}%\n",
     "\\ToCAnchor": "\\pageref{toc:#1}",
     "\\BookHead": "%\n  \\LARGE TREATISE \\\\[8pt]\n  \\normalsize ON \\\\[12pt]\n  \\TPage{0.9}{THERMODYNAMICS}\n",
     "\\Eq": "%\n  \\hyperref[eqn:#1]{{#1}}%\n",
@@ -495,7 +495,7 @@
     "\\PrintStretch": "%\n  \\ifthenelse{\\boolean{ForPrinting}}{\\enlargethispage{#1}}{}%\n",
     "\\Defn": "\\textbf{#1}",
     "\\Dictum": "\\Require\\textbf{#1}",
-    "\\Ans": "%\n  \\hfil\\nobreak\\quad\\nobreak\\mbox{#1 \\textit{Ans.}}%\n",
+    "\\Ans": "%\n  \\hfil\\nobreak\\quad\\nobreak\\text{#1 \\textit{Ans.}}%\n",
     "\\EqText": "\\rlap{\\quad\\text{#1}}",
     "\\First": "\\textsc{#1}",
     "\\DPtypo": "#2",
@@ -508,11 +508,11 @@
     "\\Z": "\\phantom{0}",
     "\\Neg": "\\phantom{-}",
     "\\Vinc": "\\overline{#1\\strut}",
-    "\\NoBar": "\\multicolumn{1}{@{}r}{#1}",
-    "\\TbBar": "\\multicolumn{1}{@{}r|}{#1}",
+    "\\NoBar": "#1",
+    "\\TbBar": "#1",
     "\\threelines": "\\rule[-18pt]{0pt}{36pt}",
     "\\BB": "\\makebox[2pt][r]{\\smash{$\\left.\\threelines\\right\\}$}}",
-    "\\ToCLine": "%\n  \\settowidth{\\TmpLen}{\\textsc{\\footnotesize Chapter99}}%\n  \\ifthenelse{\\equal{#1}{I.}}{%\n    \\noindent\\textsc{\\footnotesize Chapter\\quad Page}\\\\\n  }{}%\n  \\ifthenelse{\\not\\equal{#1}{}}{%\n    \\noindent\\text{\\strut\\raggedright\\hangindent\\TmpLen%\n      \\makebox[\\TmpLen][r]{#1\\quad}\\textsc{#2}\\dotfill\\pageref{chap:#1}%\n    }%\n  }{%\n    \\noindent\\text{\\strut\\raggedright\\hangindent\\TmpLen%\n      \\makebox[\\TmpLen][r]{#1\\quad}\\textsc{#2}\\dotfill\\pageref{answers}%\n    }%\n  }\n",
+    "\\ToCLine": "%\n  %\n  \\ifthenelse{\\equal{#1}{I.}}{%\n    \\noindent\\textsc{\\footnotesize Chapter\\quad Page}\\\\\n  }{}%\n  \\ifthenelse{\\not\\equal{#1}{}}{%\n    \\noindent\\text{\\strut\\raggedright\\hangindent%\n      \\makebox[][r]{#1\\quad}\\textsc{#2}\\cdots\\pageref{chap:#1}%\n    }%\n  }{%\n    \\noindent\\text{\\strut\\raggedright\\hangindent%\n      \\makebox[][r]{#1\\quad}\\textsc{#2}\\cdots\\pageref{answers}%\n    }%\n  }\n",
     "\\Tag": "\\tag*{#1}",
     "\\lintertext": "lint",
     "\\rintertext": "rint"
@@ -547,8 +547,8 @@
     "\\lett": "\\boldmath\\textbf{#1}\\unboldmath",
     "\\qed": "\\textsc{q.e.d.}",
     "\\qef": "\\textsc{q.e.f.}",
-    "\\step": "%\n  \\setlength{\\TmpLen}{\\parindent}%\n  \\noindent\\text{\\setlength{\\parindent}{\\TmpLen}\\rlap{}\\quad#1\\quad\\llap{#2}}%\n",
-    "\\eq": "%\n  \\setlength{\\TmpLen}{\\parindent}%\n  \\noindent\\text{\\setlength{\\parindent}{\\TmpLen}\\rlap{}\\quad~#1~#2~\\quad\\llap{#3}}%\n",
+    "\\step": "%\n  {\\parindent}%\n  \\noindent\\text{\\setlength{\\parindent}{}\\rlap{}\\quad#1\\quad\\llap{#2}}%\n",
+    "\\eq": "%\n  {\\parindent}%\n  \\noindent\\text{\\setlength{\\parindent}{}\\rlap{}\\quad~#1~#2~\\quad\\llap{#3}}%\n",
     "\\figc": "\\centerline{\\includegraphics{./images/#1.pdf}}%\n  \\ifthenelse{\\equal{#2}{}}{}{\\par\\small\\boldmath\\textbf{#2}\\unboldmath}",
     "\\figcc": "\\centerline{\\includegraphics{./images/#1.pdf}\\qquad\\includegraphics{./images/#2.pdf}}",
     "\\figccc": "\\centerline{\\includegraphics{./images/#1.pdf}\\qquad%\n  \\includegraphics{./images/#2.pdf}\\qquad%\n  \\includegraphics{./images/#3.pdf}}",
@@ -576,7 +576,7 @@
     "\\Chg": "#2",
     "\\Add": "\\Chg{}{#1}",
     "\\RHeads": "\\small\\textsc{\\MakeUppercase{#1}}",
-    "\\ToCBox": "%\n  \\makebox[\\TmpLen][r]{#1}\\hspace*{1em}%\n",
+    "\\ToCBox": "%\n  \\makebox[][r]{#1}\\hspace*{1em}%\n",
     "\\ToCAnchor": "\\pageref{toc:#2}",
     "\\ChapHead": "%\n  \\SectTitle{#1}\n  \\SubsectTitle{#2}\n",
     "\\PageSep": "\\ignorespaces",
