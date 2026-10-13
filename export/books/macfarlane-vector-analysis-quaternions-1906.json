@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
  "generated_from": {
-  "claudiverse_commit": "9f5101f",
-  "generated_at": "2026-10-13T22:30:44Z"
+  "claudiverse_commit": "e125acb",
+  "generated_at": "2026-10-13T23:05:40Z"
  },
  "node_types": [
   "book",
@@ -518,7 +518,7 @@
    "title": "Composition of Rotations",
    "text_latex": "\\chapter{Composition of Rotations.}\n\n\\begin{center}\n\\includegraphics[width=25mm]{fig24.png}\n\\end{center}\n\nA version refers to the change of direction of a line, but a\nrotation refers to a rigid body. The composition of rotations is a\ndifferent matter from the composition of versions.\n\\index{Composition!of finite rotations}\n\\index{Rotations, finite}\n\n\\medskip Effect of a Finite Rotation on a Line.---Suppose that a\nrigid body rotates $\\theta$~radians round the axis $\\beta$ passing\nthrough the point $O$, and that $R$ is the radius vector from $O$ to\nsome particle. In the diagram $OB$ represents the axis $\\beta$, and\n$OP$ the vector $R$. Draw $OK$ and $OL$, the rectangular components\nof $R$.\n\\begin{align*}\n\\beta^\\theta R &= (\\cos\\theta + \\sin\\theta \\cdot\n     \\beta^\\frac{\\pi}{2})r\\rho \\\\\n &= r(\\cos\\theta \\sin \\theta \\cdot \\beta^\\frac{\\pi}{2})\n  (\\cos \\beta\\rho \\cdot \\beta +\n  \\sin \\beta\\rho \\cdot \\overline{\\overline{\\beta\\rho}\\beta}) \\\\\n &= r\\{\\cos\\beta\\rho \\cdot \\beta +\n  \\cos\\theta\\sin\\beta\\rho \\cdot \\overline{\\overline{\\beta\\rho}\\beta} +\n  \\sin\\theta\\sin\\beta\\rho \\cdot \\overline{\\beta\\rho}\\}.\n\\end{align*}\nWhen $\\cos \\beta\\rho = 0$, this reduces to\n\\begin{equation*}\n\\beta^\\theta R = \\cos \\theta R + \\sin \\theta \\mathrm{V}(\\beta R).\n\\end{equation*}\nThe general result may be written\n\\begin{equation*}\n\\beta^\\theta R = \\mathrm{S}\\beta R \\cdot \\beta +\n  \\cos \\theta(\\mathrm{V}\\beta R)\\beta + \\sin \\theta \\mathrm{V}\\beta R.\n\\end{equation*}\n\nNote that $(\\mathrm{V}\\beta R)\\beta$ is equal to\n$\\mathrm{V}(\\mathrm{V}\\beta R)\\beta$ because $\\mathrm{S}\\beta\nR\\beta$ is 0, for it involves two coincident directions.\n\n\\smallskip Example.---Let $\\beta = li + mj + nk$, where\n$l^2 + m^2 + n^2 = 1$ and $R = xi + yj + zk$; then $\\mathrm{S}\\beta\nR = lx + my + nz$\n\\begin{gather*}\n\\mathrm{V}(\\beta R)\\beta = \\begin{vmatrix}\n    mz - ny & nx - lz & ly - mx \\\\\n    l       & m       & n       \\\\\n    i       & j       & k\n    \\end{vmatrix}\n\\intertext{and} \\mathrm{V}\\beta R = \\begin{vmatrix}\n  l & m & n \\\\\n  x & y & z \\\\\n  i & j & k\n  \\end{vmatrix}.\n\\intertext{Hence}\n\\begin{split}\n\\beta^\\theta &= (lx + my + nz)(li + mj + nk) \\\\\n&+ \\cos\\theta \\begin{vmatrix}\n   mz - ny & nx - lz & ly - mx \\\\\n   l       & m       & n       \\\\\n   i       & j       & k\n   \\end{vmatrix} \\\\\n&+ \\sin\\theta\\begin{vmatrix}\n   l & m & n  \\\\\n   x & y & z  \\\\\n   i & j & k \\end{vmatrix}.\n\\end{split}\n\\end{gather*}\n\n\\begin{center}\n\\includegraphics[width=40mm]{fig25.png}\n\\end{center}\n\nTo prove that $\\beta^b \\rho$ coincides with the axis of\n$\\beta^\\frac{-b}{2} \\rho^\\frac{\\pi}{2} \\beta^\\frac{b}{2}$. Take the\nmore general versor $\\rho^\\theta$. Let $OP$ represent the axis\n$\\beta$, $AB$ the versor $\\beta^\\frac{-b}{2}$, $BC$ the versor\n$\\rho^\\theta$. Then $(AB)(BC) = AC = DA$, therefore $(AB)(BC)(AE) =\n(DA)(AE) = DE$. Now $DE$ has the same angle as $BC$, but its axis\nhas been rotated round $P$ by the angle $b$. Hence if $\\theta =\n\\frac{\\pi}{2}$, the axis of $\\beta^\\frac{-b}{2}\n\\rho^\\frac{\\pi}{2}\\beta^\\frac{b}{2}$ will coincide with\n$\\beta^b\\rho$.\\footnote{This theorem was discovered by\nCayley.\\index{Cayley} It indicates that quaternion multiplication in\nthe most general sense has its physical meaning in the composition\nof rotations.}\n\nThe exponential expression for $\\beta^\\frac{-b}{2}\n\\rho^\\frac{\\pi}{2} \\beta^\\frac{b}{2}$ is\n$e^{-\\frac{1}{2}b\\beta^\\frac{\\pi}{2} +\n\\frac{1}{2}\\pi\\rho^\\frac{\\pi}{2} + \\frac{1}{2}b\\beta^\\frac{\\pi}{2}}$\nwhich may be expanded according to the exponential theorem, the\nsuccessive powers of the trinomial being formed according to the\nmultinomial theorem, the order of the factors being preserved.\n\n\\medskip Composition of Finite Rotations round Axes which\nIntersect.---Let $\\beta$ and $\\gamma$ denote the two axes in space\nround which the successive rotations take place, and let $\\beta^b$\ndenote the first and $\\gamma^c$ the second. Let $\\beta^b \\times\n\\gamma^c$ denote the single rotation which is equivalent to the two\ngiven rotations applied in succession; the sign $\\times$ is\nintroduced to distinguish from the product of versors. It has been\nshown in the preceding paragraph that\n\\begin{gather*}\n\\beta^b\\rho = \\beta^\\frac{-b}{2}\\rho^\\frac{\\pi}{2}\\beta^\\frac{b}{2}; \\\\\n\\intertext{and as the result is a line, the same principle applies\nto the subsequent rotation. Hence}\n\\begin{split}\n\\gamma^c(\\beta^b\\rho) &=\n  \\gamma^\\frac{-c}{2}(\\beta^\\frac{-b}{2}\\rho^\\frac{\\pi}{2}\n     \\beta^\\frac{\\pi}{2})\\gamma^\\frac{c}{2} \\\\\n&= (\\gamma^\\frac{-c}{2}\\beta^\\frac{-b}{2})\n     \\rho^\\frac{\\pi}{2} (\\beta^\\frac{b}{2}\\gamma^\\frac{c}{2}),\n\\end{split} \\\\\n\\intertext{because the factors in a product of versors can be\nassociated in any manner. Hence, reasoning backwards,}\n\\beta^b \\times \\gamma^c = (\\beta^\\frac{b}{2}\\gamma^\\frac{c}{2})^2. \\\\\n\\intertext{Let $m$ denote the cosine of\n$\\beta^\\frac{b}{2}\\gamma^\\frac{c}{2}$, namely,}\n\\cos\\frac{b}{2}\\,\\cos\\frac{c}{2}-\\sin\\frac{b}{2}\\,\\sin\\frac{c}{2}, \\\\\n\\intertext{ and $n \\cdot \\nu$ their directed sine, namely,}\n\\cos \\frac{b}{2}\\, \\sin \\frac{c}{2} \\cdot \\gamma + \\cos\\frac{c}{2}\\,\n\\sin \\frac{b}{2} \\cdot \\beta - \\sin \\frac{b}{2}\\,\n  \\sin \\frac{c}{2}\\, \\sin \\beta\\gamma \\cdot \\overline{\\beta\\gamma}; \\\\\n\\intertext{then}\n\\beta^b \\times \\gamma^c = m^2 - n^2 + 2mn \\cdot \\nu.\n\\end{gather*}\n\n\\newpage\n\\begin{center}\n\\includegraphics[width=40mm]{fig26.png}\n\\end{center}\n\n\\smallskip Observation.---The expression\n$(\\beta^\\frac{b}{2}\\gamma^\\frac{c}{2})^2$ is not, as might be\nsupposed, identical with $\\beta^b\\gamma^c$. The former reduces to\nthe latter only when $\\beta$ and $\\gamma$ are the same or opposite.\nIn the figure $\\beta^b$ is represented by $PQ$, $\\gamma^c$ by $QR$,\n$\\beta^b\\gamma^c$ by $PR$, $\\beta^\\frac{b}{2}\\gamma^\\frac{c}{2}$ by\n$ST$, and $(\\beta^\\frac{b}{2}\\gamma^\\frac{c}{2})^2$ by $SU$, which\nis twice $ST$. The cosine of $SU$ differs from the cosine of $PR$ by\nthe term $-(\\sin \\frac{b}{2}\\, \\sin \\frac{c}{2}\\, \\sin\n\\beta\\gamma)^2$ It is evident from the figure that their axes are\nalso different.\n\n\\medskip Corollary.---When $b$ and $c$ are infinitesimals,\n$\\cos\\beta^b \\times \\gamma^c = 1$, and $\\Sin \\beta^b \\times \\gamma^c\n= b \\cdot \\beta + c \\cdot \\gamma$, which is the parallelogram rule\nfor the composition of infinitesimal rotations.\n\n\\small \\begin{enumerate}\n\n\\item[Prob.~54.] Let $\\beta = \\overline{30^\\circ/}\\!\n\\underline{/45^\\circ}$, $\\theta = \\frac{\\pi}{3}$, and $R = 2i - 3j +\n4k$; calculate $\\beta^\\theta R$.\n\n\\item[Prob.~55.] Let $\\beta = \\overline{90^\\circ/}\\!\n\\underline{/90^\\circ}$, $\\theta = \\frac{\\pi}{4}$, $R = -i + 2j -\n3k$; calculate $\\beta^\\theta R$.\n\n\\item[Prob.~56.] Prove by multiplying out that $\\beta^\\frac{-b}{2}\n\\rho^\\frac{\\pi}{2} \\beta^\\frac{b}{2} =\n\\{\\beta^b\\rho\\}^\\frac{\\pi}{2}$.\n\n\\item[Prob.~57.] Prove by means of the exponential theorem that\n$\\gamma^{-c}\\beta^b\\gamma^c$ has an angle $b$, and that its axis is\n$\\gamma^{2c}\\beta$.\n\n\\item[Prob.~58.] Prove that the cosine of\n$(\\beta^\\frac{b}{2}\\gamma^\\frac{c}{2})^2$\ndiffers from the cosine of $\\beta^b\\gamma^c$ by \\\\\n$-(\\sin\\frac{b}{2} \\sin\\frac{c}{2} \\sin\\beta \\gamma)^2$.\n\n\\item[Prob.~59.] Compare the axes of\n$(\\beta^\\frac{b}{2}\\gamma^\\frac{c}{2})^2$ and $\\beta^b\\gamma^c$.\n\n\\item[Prob.~60.] Find the value of $\\beta^b\\times\\gamma^c$ when\n$\\beta = \\overline{0^\\circ/}\\!\\underline{/90^\\circ}$ and\n$\\gamma=\\overline{90^\\circ/}\\!\\underline{/90^\\circ}$.\n\n\\item[Prob.~61.] Find the single rotation equivalent to\n$i^\\frac{\\pi}{2} \\times j^\\frac{\\pi}{2} \\times k^\\frac{\\pi}{2}$.\n\n\\item[Prob.~62.] Prove that successive rotations about radii to two\ncorners of a spherical triangle and through angles double of those\nof the triangle are equivalent to a single rotation about the radius\nto the third corner, and through an angle double of the external\nangle of the triangle.\n\\end{enumerate} \\normalsize",
    "text_markdown": "# Composition of Rotations.\n\n<div class=\"center\">\n\n![image](images/macfarlane-vector-analysis-quaternions-1906/fig24.png){width=\"25mm\"}\n\n</div>\n\nA version refers to the change of direction of a line, but a rotation refers to a rigid body. The composition of rotations is a different matter from the composition of versions.\n\nEffect of a Finite Rotation on a Line.---Suppose that a rigid body rotates $\\theta$ radians round the axis $\\beta$ passing through the point $O$, and that $R$ is the radius vector from $O$ to some particle. In the diagram $OB$ represents the axis $\\beta$, and $OP$ the vector $R$. Draw $OK$ and $OL$, the rectangular components of $R$. $$\\begin{align*}\n\\beta^\\theta R &= (\\cos\\theta + \\sin\\theta \\cdot\n     \\beta^\\frac{\\pi}{2})r\\rho \\\\\n &= r(\\cos\\theta \\sin \\theta \\cdot \\beta^\\frac{\\pi}{2})\n  (\\cos \\beta\\rho \\cdot \\beta +\n  \\sin \\beta\\rho \\cdot \\overline{\\overline{\\beta\\rho}\\beta}) \\\\\n &= r\\{\\cos\\beta\\rho \\cdot \\beta +\n  \\cos\\theta\\sin\\beta\\rho \\cdot \\overline{\\overline{\\beta\\rho}\\beta} +\n  \\sin\\theta\\sin\\beta\\rho \\cdot \\overline{\\beta\\rho}\\}.\n\\end{align*}$$ When $\\cos \\beta\\rho = 0$, this reduces to $$\\begin{equation*}\n\\beta^\\theta R = \\cos \\theta R + \\sin \\theta \\mathrm{V}(\\beta R).\n\\end{equation*}$$ The general result may be written $$\\begin{equation*}\n\\beta^\\theta R = \\mathrm{S}\\beta R \\cdot \\beta +\n  \\cos \\theta(\\mathrm{V}\\beta R)\\beta + \\sin \\theta \\mathrm{V}\\beta R.\n\\end{equation*}$$\n\nNote that $(\\mathrm{V}\\beta R)\\beta$ is equal to $\\mathrm{V}(\\mathrm{V}\\beta R)\\beta$ because $\\mathrm{S}\\beta\nR\\beta$ is 0, for it involves two coincident directions.\n\nExample.---Let $\\beta = li + mj + nk$, where $l^2 + m^2 + n^2 = 1$ and $R = xi + yj + zk$; then $\\mathrm{S}\\beta\nR = lx + my + nz$ $$\\begin{gather*}\n\\mathrm{V}(\\beta R)\\beta = \\begin{vmatrix}\n    mz - ny & nx - lz & ly - mx \\\\\n    l       & m       & n       \\\\\n    i       & j       & k\n    \\end{vmatrix}\n\\\\ \\text{and} \\mathrm{V}\\beta R = \\begin{vmatrix}\n  l & m & n \\\\\n  x & y & z \\\\\n  i & j & k\n  \\end{vmatrix}.\n\\\\ \\text{Hence}\n\\begin{split}\n\\beta^\\theta &= (lx + my + nz)(li + mj + nk) \\\\\n&+ \\cos\\theta \\begin{vmatrix}\n   mz - ny & nx - lz & ly - mx \\\\\n   l       & m       & n       \\\\\n   i       & j       & k\n   \\end{vmatrix} \\\\\n&+ \\sin\\theta\\begin{vmatrix}\n   l & m & n  \\\\\n   x & y & z  \\\\\n   i & j & k \\end{vmatrix}.\n\\end{split}\n\\end{gather*}$$\n\n<div class=\"center\">\n\n![image](images/macfarlane-vector-analysis-quaternions-1906/fig25.png){width=\"40mm\"}\n\n</div>\n\nTo prove that $\\beta^b \\rho$ coincides with the axis of $\\beta^\\frac{-b}{2} \\rho^\\frac{\\pi}{2} \\beta^\\frac{b}{2}$. Take the more general versor $\\rho^\\theta$. Let $OP$ represent the axis $\\beta$, $AB$ the versor $\\beta^\\frac{-b}{2}$, $BC$ the versor $\\rho^\\theta$. Then $(AB)(BC) = AC = DA$, therefore $(AB)(BC)(AE) =\n(DA)(AE) = DE$. Now $DE$ has the same angle as $BC$, but its axis has been rotated round $P$ by the angle $b$. Hence if $\\theta =\n\\frac{\\pi}{2}$, the axis of $\\beta^\\frac{-b}{2}\n\\rho^\\frac{\\pi}{2}\\beta^\\frac{b}{2}$ will coincide with $\\beta^b\\rho$.[^14]\n\nThe exponential expression for $\\beta^\\frac{-b}{2}\n\\rho^\\frac{\\pi}{2} \\beta^\\frac{b}{2}$ is $e^{-\\frac{1}{2}b\\beta^\\frac{\\pi}{2} +\n\\frac{1}{2}\\pi\\rho^\\frac{\\pi}{2} + \\frac{1}{2}b\\beta^\\frac{\\pi}{2}}$ which may be expanded according to the exponential theorem, the successive powers of the trinomial being formed according to the multinomial theorem, the order of the factors being preserved.\n\nComposition of Finite Rotations round Axes which Intersect.---Let $\\beta$ and $\\gamma$ denote the two axes in space round which the successive rotations take place, and let $\\beta^b$ denote the first and $\\gamma^c$ the second. Let $\\beta^b \\times\n\\gamma^c$ denote the single rotation which is equivalent to the two given rotations applied in succession; the sign $\\times$ is introduced to distinguish from the product of versors. It has been shown in the preceding paragraph that $$\\begin{gather*}\n\\beta^b\\rho = \\beta^\\frac{-b}{2}\\rho^\\frac{\\pi}{2}\\beta^\\frac{b}{2}; \\\\\n\\\\ \\text{and as the result is a line, the same principle applies\nto the subsequent rotation. Hence}\n\\begin{split}\n\\gamma^c(\\beta^b\\rho) &=\n  \\gamma^\\frac{-c}{2}(\\beta^\\frac{-b}{2}\\rho^\\frac{\\pi}{2}\n     \\beta^\\frac{\\pi}{2})\\gamma^\\frac{c}{2} \\\\\n&= (\\gamma^\\frac{-c}{2}\\beta^\\frac{-b}{2})\n     \\rho^\\frac{\\pi}{2} (\\beta^\\frac{b}{2}\\gamma^\\frac{c}{2}),\n\\end{split} \\\\\n\\\\ \\text{because the factors in a product of versors can be\nassociated in any manner. Hence, reasoning backwards,}\n\\beta^b \\times \\gamma^c = (\\beta^\\frac{b}{2}\\gamma^\\frac{c}{2})^2. \\\\\n\\\\ \\text{Let $m$ denote the cosine of\n$\\beta^\\frac{b}{2}\\gamma^\\frac{c}{2}$, namely,}\n\\cos\\frac{b}{2}\\,\\cos\\frac{c}{2}-\\sin\\frac{b}{2}\\,\\sin\\frac{c}{2}, \\\\\n\\\\ \\text{ and $n \\cdot \\nu$ their directed sine, namely,}\n\\cos \\frac{b}{2}\\, \\sin \\frac{c}{2} \\cdot \\gamma + \\cos\\frac{c}{2}\\,\n\\sin \\frac{b}{2} \\cdot \\beta - \\sin \\frac{b}{2}\\,\n  \\sin \\frac{c}{2}\\, \\sin \\beta\\gamma \\cdot \\overline{\\beta\\gamma}; \\\\\n\\\\ \\text{then}\n\\beta^b \\times \\gamma^c = m^2 - n^2 + 2mn \\cdot \\nu.\n\\end{gather*}$$\n\n<div class=\"center\">\n\n![image](images/macfarlane-vector-analysis-quaternions-1906/fig26.png){width=\"40mm\"}\n\n</div>\n\nObservation.---The expression $(\\beta^\\frac{b}{2}\\gamma^\\frac{c}{2})^2$ is not, as might be supposed, identical with $\\beta^b\\gamma^c$. The former reduces to the latter only when $\\beta$ and $\\gamma$ are the same or opposite. In the figure $\\beta^b$ is represented by $PQ$, $\\gamma^c$ by $QR$, $\\beta^b\\gamma^c$ by $PR$, $\\beta^\\frac{b}{2}\\gamma^\\frac{c}{2}$ by $ST$, and $(\\beta^\\frac{b}{2}\\gamma^\\frac{c}{2})^2$ by $SU$, which is twice $ST$. The cosine of $SU$ differs from the cosine of $PR$ by the term $-(\\sin \\frac{b}{2}\\, \\sin \\frac{c}{2}\\, \\sin\n\\beta\\gamma)^2$ It is evident from the figure that their axes are also different.\n\nCorollary.---When $b$ and $c$ are infinitesimals, $\\cos\\beta^b \\times \\gamma^c = 1$, and $\\Sin \\beta^b \\times \\gamma^c\n= b \\cdot \\beta + c \\cdot \\gamma$, which is the parallelogram rule for the composition of infinitesimal rotations.\n\n1.  Let $\\beta = \\overline{30^\\circ/}\\!\n    \\underline{/45^\\circ}$, $\\theta = \\frac{\\pi}{3}$, and $R = 2i - 3j +\n    4k$; calculate $\\beta^\\theta R$.\n\n2.  Let $\\beta = \\overline{90^\\circ/}\\!\n    \\underline{/90^\\circ}$, $\\theta = \\frac{\\pi}{4}$, $R = -i + 2j -\n    3k$; calculate $\\beta^\\theta R$.\n\n3.  Prove by multiplying out that $\\beta^\\frac{-b}{2}\n    \\rho^\\frac{\\pi}{2} \\beta^\\frac{b}{2} =\n    \\{\\beta^b\\rho\\}^\\frac{\\pi}{2}$.\n\n4.  Prove by means of the exponential theorem that $\\gamma^{-c}\\beta^b\\gamma^c$ has an angle $b$, and that its axis is $\\gamma^{2c}\\beta$.\n\n5.  Prove that the cosine of $(\\beta^\\frac{b}{2}\\gamma^\\frac{c}{2})^2$ differs from the cosine of $\\beta^b\\gamma^c$ by\\\n    $-(\\sin\\frac{b}{2} \\sin\\frac{c}{2} \\sin\\beta \\gamma)^2$.\n\n6.  Compare the axes of $(\\beta^\\frac{b}{2}\\gamma^\\frac{c}{2})^2$ and $\\beta^b\\gamma^c$.\n\n7.  Find the value of $\\beta^b\\times\\gamma^c$ when $\\beta = \\overline{0^\\circ/}\\!\\underline{/90^\\circ}$ and $\\gamma=\\overline{90^\\circ/}\\!\\underline{/90^\\circ}$.\n\n8.  Find the single rotation equivalent to $i^\\frac{\\pi}{2} \\times j^\\frac{\\pi}{2} \\times k^\\frac{\\pi}{2}$.\n\n9.  Prove that successive rotations about radii to two corners of a spherical triangle and through angles double of those of the triangle are equivalent to a single rotation about the radius to the third corner, and through an angle double of the external angle of the triangle.\n\n[^14]: This theorem was discovered by Cayley. It indicates that quaternion multiplication in the most general sense has its physical meaning in the composition of rotations.",
-   "text_html": "<h1 id=\"composition-of-rotations.\">Composition of Rotations.</h1>\n<div class=\"center\">\n<p><img src=\"images/macfarlane-vector-analysis-quaternions-1906/fig24.png\" style=\"width:25mm\" alt=\"image\" /></p>\n</div>\n<p>A version refers to the change of direction of a line, but a rotation refers to a rigid body. The composition of rotations is a different matter from the composition of versions.</p>\n<p>Effect of a Finite Rotation on a Line.—Suppose that a rigid body rotates <span class=\"math inline\">\\(\\theta\\)</span> radians round the axis <span class=\"math inline\">\\(\\beta\\)</span> passing through the point <span class=\"math inline\">\\(O\\)</span>, and that <span class=\"math inline\">\\(R\\)</span> is the radius vector from <span class=\"math inline\">\\(O\\)</span> to some particle. In the diagram <span class=\"math inline\">\\(OB\\)</span> represents the axis <span class=\"math inline\">\\(\\beta\\)</span>, and <span class=\"math inline\">\\(OP\\)</span> the vector <span class=\"math inline\">\\(R\\)</span>. Draw <span class=\"math inline\">\\(OK\\)</span> and <span class=\"math inline\">\\(OL\\)</span>, the rectangular components of <span class=\"math inline\">\\(R\\)</span>. <span class=\"math display\">\\[\\begin{align*}\n\\beta^\\theta R &amp;= (\\cos\\theta + \\sin\\theta \\cdot\n     \\beta^\\frac{\\pi}{2})r\\rho \\\\\n &amp;= r(\\cos\\theta \\sin \\theta \\cdot \\beta^\\frac{\\pi}{2})\n  (\\cos \\beta\\rho \\cdot \\beta +\n  \\sin \\beta\\rho \\cdot \\overline{\\overline{\\beta\\rho}\\beta}) \\\\\n &amp;= r\\{\\cos\\beta\\rho \\cdot \\beta +\n  \\cos\\theta\\sin\\beta\\rho \\cdot \\overline{\\overline{\\beta\\rho}\\beta} +\n  \\sin\\theta\\sin\\beta\\rho \\cdot \\overline{\\beta\\rho}\\}.\n\\end{align*}\\]</span> When <span class=\"math inline\">\\(\\cos \\beta\\rho = 0\\)</span>, this reduces to <span class=\"math display\">\\[\\begin{equation*}\n\\beta^\\theta R = \\cos \\theta R + \\sin \\theta \\mathrm{V}(\\beta R).\n\\end{equation*}\\]</span> The general result may be written <span class=\"math display\">\\[\\begin{equation*}\n\\beta^\\theta R = \\mathrm{S}\\beta R \\cdot \\beta +\n  \\cos \\theta(\\mathrm{V}\\beta R)\\beta + \\sin \\theta \\mathrm{V}\\beta R.\n\\end{equation*}\\]</span></p>\n<p>Note that <span class=\"math inline\">\\((\\mathrm{V}\\beta R)\\beta\\)</span> is equal to <span class=\"math inline\">\\(\\mathrm{V}(\\mathrm{V}\\beta R)\\beta\\)</span> because <span class=\"math inline\">\\(\\mathrm{S}\\beta\nR\\beta\\)</span> is 0, for it involves two coincident directions.</p>\n<p>Example.—Let <span class=\"math inline\">\\(\\beta = li + mj + nk\\)</span>, where <span class=\"math inline\">\\(l^2 + m^2 + n^2 = 1\\)</span> and <span class=\"math inline\">\\(R = xi + yj + zk\\)</span>; then <span class=\"math inline\">\\(\\mathrm{S}\\beta\nR = lx + my + nz\\)</span> <span class=\"math display\">\\[\\begin{gather*}\n\\mathrm{V}(\\beta R)\\beta = \\begin{vmatrix}\n    mz - ny &amp; nx - lz &amp; ly - mx \\\\\n    l       &amp; m       &amp; n       \\\\\n    i       &amp; j       &amp; k\n    \\end{vmatrix}\n\\\\ \\text{and} \\mathrm{V}\\beta R = \\begin{vmatrix}\n  l &amp; m &amp; n \\\\\n  x &amp; y &amp; z \\\\\n  i &amp; j &amp; k\n  \\end{vmatrix}.\n\\\\ \\text{Hence}\n\\begin{split}\n\\beta^\\theta &amp;= (lx + my + nz)(li + mj + nk) \\\\\n&amp;+ \\cos\\theta \\begin{vmatrix}\n   mz - ny &amp; nx - lz &amp; ly - mx \\\\\n   l       &amp; m       &amp; n       \\\\\n   i       &amp; j       &amp; k\n   \\end{vmatrix} \\\\\n&amp;+ \\sin\\theta\\begin{vmatrix}\n   l &amp; m &amp; n  \\\\\n   x &amp; y &amp; z  \\\\\n   i &amp; j &amp; k \\end{vmatrix}.\n\\end{split}\n\\end{gather*}\\]</span></p>\n<div class=\"center\">\n<p><img src=\"images/macfarlane-vector-analysis-quaternions-1906/fig25.png\" style=\"width:40mm\" alt=\"image\" /></p>\n</div>\n<p>To prove that <span class=\"math inline\">\\(\\beta^b \\rho\\)</span> coincides with the axis of <span class=\"math inline\">\\(\\beta^\\frac{-b}{2} \\rho^\\frac{\\pi}{2} \\beta^\\frac{b}{2}\\)</span>. Take the more general versor <span class=\"math inline\">\\(\\rho^\\theta\\)</span>. Let <span class=\"math inline\">\\(OP\\)</span> represent the axis <span class=\"math inline\">\\(\\beta\\)</span>, <span class=\"math inline\">\\(AB\\)</span> the versor <span class=\"math inline\">\\(\\beta^\\frac{-b}{2}\\)</span>, <span class=\"math inline\">\\(BC\\)</span> the versor <span class=\"math inline\">\\(\\rho^\\theta\\)</span>. Then <span class=\"math inline\">\\((AB)(BC) = AC = DA\\)</span>, therefore <span class=\"math inline\">\\((AB)(BC)(AE) =\n(DA)(AE) = DE\\)</span>. Now <span class=\"math inline\">\\(DE\\)</span> has the same angle as <span class=\"math inline\">\\(BC\\)</span>, but its axis has been rotated round <span class=\"math inline\">\\(P\\)</span> by the angle <span class=\"math inline\">\\(b\\)</span>. Hence if <span class=\"math inline\">\\(\\theta =\n\\frac{\\pi}{2}\\)</span>, the axis of <span class=\"math inline\">\\(\\beta^\\frac{-b}{2}\n\\rho^\\frac{\\pi}{2}\\beta^\\frac{b}{2}\\)</span> will coincide with <span class=\"math inline\">\\(\\beta^b\\rho\\)</span>.<a href=\"#fn14\" class=\"footnote-ref\" id=\"fnref14\" role=\"doc-noteref\"><sup>14</sup></a></p>\n<p>The exponential expression for <span class=\"math inline\">\\(\\beta^\\frac{-b}{2}\n\\rho^\\frac{\\pi}{2} \\beta^\\frac{b}{2}\\)</span> is <span class=\"math inline\">\\(e^{-\\frac{1}{2}b\\beta^\\frac{\\pi}{2} +\n\\frac{1}{2}\\pi\\rho^\\frac{\\pi}{2} + \\frac{1}{2}b\\beta^\\frac{\\pi}{2}}\\)</span> which may be expanded according to the exponential theorem, the successive powers of the trinomial being formed according to the multinomial theorem, the order of the factors being preserved.</p>\n<p>Composition of Finite Rotations round Axes which Intersect.—Let <span class=\"math inline\">\\(\\beta\\)</span> and <span class=\"math inline\">\\(\\gamma\\)</span> denote the two axes in space round which the successive rotations take place, and let <span class=\"math inline\">\\(\\beta^b\\)</span> denote the first and <span class=\"math inline\">\\(\\gamma^c\\)</span> the second. Let <span class=\"math inline\">\\(\\beta^b \\times\n\\gamma^c\\)</span> denote the single rotation which is equivalent to the two given rotations applied in succession; the sign <span class=\"math inline\">\\(\\times\\)</span> is introduced to distinguish from the product of versors. It has been shown in the preceding paragraph that <span class=\"math display\">\\[\\begin{gather*}\n\\beta^b\\rho = \\beta^\\frac{-b}{2}\\rho^\\frac{\\pi}{2}\\beta^\\frac{b}{2}; \\\\\n\\\\ \\text{and as the result is a line, the same principle applies\nto the subsequent rotation. Hence}\n\\begin{split}\n\\gamma^c(\\beta^b\\rho) &amp;=\n  \\gamma^\\frac{-c}{2}(\\beta^\\frac{-b}{2}\\rho^\\frac{\\pi}{2}\n     \\beta^\\frac{\\pi}{2})\\gamma^\\frac{c}{2} \\\\\n&amp;= (\\gamma^\\frac{-c}{2}\\beta^\\frac{-b}{2})\n     \\rho^\\frac{\\pi}{2} (\\beta^\\frac{b}{2}\\gamma^\\frac{c}{2}),\n\\end{split} \\\\\n\\\\ \\text{because the factors in a product of versors can be\nassociated in any manner. Hence, reasoning backwards,}\n\\beta^b \\times \\gamma^c = (\\beta^\\frac{b}{2}\\gamma^\\frac{c}{2})^2. \\\\\n\\\\ \\text{Let m denote the cosine of\n\\beta^\\frac{b}{2}\\gamma^\\frac{c}{2}, namely,}\n\\cos\\frac{b}{2}\\,\\cos\\frac{c}{2}-\\sin\\frac{b}{2}\\,\\sin\\frac{c}{2}, \\\\\n\\\\ \\text{ and n \\cdot \\nu their directed sine, namely,}\n\\cos \\frac{b}{2}\\, \\sin \\frac{c}{2} \\cdot \\gamma + \\cos\\frac{c}{2}\\,\n\\sin \\frac{b}{2} \\cdot \\beta - \\sin \\frac{b}{2}\\,\n  \\sin \\frac{c}{2}\\, \\sin \\beta\\gamma \\cdot \\overline{\\beta\\gamma}; \\\\\n\\\\ \\text{then}\n\\beta^b \\times \\gamma^c = m^2 - n^2 + 2mn \\cdot \\nu.\n\\end{gather*}\\]</span></p>\n<div class=\"center\">\n<p><img src=\"images/macfarlane-vector-analysis-quaternions-1906/fig26.png\" style=\"width:40mm\" alt=\"image\" /></p>\n</div>\n<p>Observation.—The expression <span class=\"math inline\">\\((\\beta^\\frac{b}{2}\\gamma^\\frac{c}{2})^2\\)</span> is not, as might be supposed, identical with <span class=\"math inline\">\\(\\beta^b\\gamma^c\\)</span>. The former reduces to the latter only when <span class=\"math inline\">\\(\\beta\\)</span> and <span class=\"math inline\">\\(\\gamma\\)</span> are the same or opposite. In the figure <span class=\"math inline\">\\(\\beta^b\\)</span> is represented by <span class=\"math inline\">\\(PQ\\)</span>, <span class=\"math inline\">\\(\\gamma^c\\)</span> by <span class=\"math inline\">\\(QR\\)</span>, <span class=\"math inline\">\\(\\beta^b\\gamma^c\\)</span> by <span class=\"math inline\">\\(PR\\)</span>, <span class=\"math inline\">\\(\\beta^\\frac{b}{2}\\gamma^\\frac{c}{2}\\)</span> by <span class=\"math inline\">\\(ST\\)</span>, and <span class=\"math inline\">\\((\\beta^\\frac{b}{2}\\gamma^\\frac{c}{2})^2\\)</span> by <span class=\"math inline\">\\(SU\\)</span>, which is twice <span class=\"math inline\">\\(ST\\)</span>. The cosine of <span class=\"math inline\">\\(SU\\)</span> differs from the cosine of <span class=\"math inline\">\\(PR\\)</span> by the term <span class=\"math inline\">\\(-(\\sin \\frac{b}{2}\\, \\sin \\frac{c}{2}\\, \\sin\n\\beta\\gamma)^2\\)</span> It is evident from the figure that their axes are also different.</p>\n<p>Corollary.—When <span class=\"math inline\">\\(b\\)</span> and <span class=\"math inline\">\\(c\\)</span> are infinitesimals, <span class=\"math inline\">\\(\\cos\\beta^b \\times \\gamma^c = 1\\)</span>, and <span class=\"math inline\">\\(\\Sin \\beta^b \\times \\gamma^c\n= b \\cdot \\beta + c \\cdot \\gamma\\)</span>, which is the parallelogram rule for the composition of infinitesimal rotations.</p>\n<ol>\n<li><p>Let <span class=\"math inline\">\\(\\beta = \\overline{30^\\circ/}\\!\n\\underline{/45^\\circ}\\)</span>, <span class=\"math inline\">\\(\\theta = \\frac{\\pi}{3}\\)</span>, and <span class=\"math inline\">\\(R = 2i - 3j +\n4k\\)</span>; calculate <span class=\"math inline\">\\(\\beta^\\theta R\\)</span>.</p></li>\n<li><p>Let <span class=\"math inline\">\\(\\beta = \\overline{90^\\circ/}\\!\n\\underline{/90^\\circ}\\)</span>, <span class=\"math inline\">\\(\\theta = \\frac{\\pi}{4}\\)</span>, <span class=\"math inline\">\\(R = -i + 2j -\n3k\\)</span>; calculate <span class=\"math inline\">\\(\\beta^\\theta R\\)</span>.</p></li>\n<li><p>Prove by multiplying out that <span class=\"math inline\">\\(\\beta^\\frac{-b}{2}\n\\rho^\\frac{\\pi}{2} \\beta^\\frac{b}{2} =\n\\{\\beta^b\\rho\\}^\\frac{\\pi}{2}\\)</span>.</p></li>\n<li><p>Prove by means of the exponential theorem that <span class=\"math inline\">\\(\\gamma^{-c}\\beta^b\\gamma^c\\)</span> has an angle <span class=\"math inline\">\\(b\\)</span>, and that its axis is <span class=\"math inline\">\\(\\gamma^{2c}\\beta\\)</span>.</p></li>\n<li><p>Prove that the cosine of <span class=\"math inline\">\\((\\beta^\\frac{b}{2}\\gamma^\\frac{c}{2})^2\\)</span> differs from the cosine of <span class=\"math inline\">\\(\\beta^b\\gamma^c\\)</span> by<br />\n<span class=\"math inline\">\\(-(\\sin\\frac{b}{2} \\sin\\frac{c}{2} \\sin\\beta \\gamma)^2\\)</span>.</p></li>\n<li><p>Compare the axes of <span class=\"math inline\">\\((\\beta^\\frac{b}{2}\\gamma^\\frac{c}{2})^2\\)</span> and <span class=\"math inline\">\\(\\beta^b\\gamma^c\\)</span>.</p></li>\n<li><p>Find the value of <span class=\"math inline\">\\(\\beta^b\\times\\gamma^c\\)</span> when <span class=\"math inline\">\\(\\beta = \\overline{0^\\circ/}\\!\\underline{/90^\\circ}\\)</span> and <span class=\"math inline\">\\(\\gamma=\\overline{90^\\circ/}\\!\\underline{/90^\\circ}\\)</span>.</p></li>\n<li><p>Find the single rotation equivalent to <span class=\"math inline\">\\(i^\\frac{\\pi}{2} \\times j^\\frac{\\pi}{2} \\times k^\\frac{\\pi}{2}\\)</span>.</p></li>\n<li><p>Prove that successive rotations about radii to two corners of a spherical triangle and through angles double of those of the triangle are equivalent to a single rotation about the radius to the third corner, and through an angle double of the external angle of the triangle.</p></li>\n</ol>\n<section class=\"footnotes footnotes-end-of-document\" role=\"doc-endnotes\">\n<hr />\n<ol>\n<li id=\"fn14\" value=\"14\"><p>This theorem was discovered by Cayley. It indicates that quaternion multiplication in the most general sense has its physical meaning in the composition of rotations.<a href=\"#fnref14\" class=\"footnote-back\" role=\"doc-backlink\">↩︎</a></p></li>\n</ol>\n</section>",
+   "text_html": "<h1 id=\"composition-of-rotations.\">Composition of Rotations.</h1>\n<div class=\"center\">\n<p><img src=\"images/macfarlane-vector-analysis-quaternions-1906/fig24.png\" style=\"width:25mm\" alt=\"image\" /></p>\n</div>\n<p>A version refers to the change of direction of a line, but a rotation refers to a rigid body. The composition of rotations is a different matter from the composition of versions.</p>\n<p>Effect of a Finite Rotation on a Line.—Suppose that a rigid body rotates <span class=\"math inline\">\\(\\theta\\)</span> radians round the axis <span class=\"math inline\">\\(\\beta\\)</span> passing through the point <span class=\"math inline\">\\(O\\)</span>, and that <span class=\"math inline\">\\(R\\)</span> is the radius vector from <span class=\"math inline\">\\(O\\)</span> to some particle. In the diagram <span class=\"math inline\">\\(OB\\)</span> represents the axis <span class=\"math inline\">\\(\\beta\\)</span>, and <span class=\"math inline\">\\(OP\\)</span> the vector <span class=\"math inline\">\\(R\\)</span>. Draw <span class=\"math inline\">\\(OK\\)</span> and <span class=\"math inline\">\\(OL\\)</span>, the rectangular components of <span class=\"math inline\">\\(R\\)</span>. <span class=\"math display\">\\[\\begin{align*}\n\\beta^\\theta R &amp;= (\\cos\\theta + \\sin\\theta \\cdot\n     \\beta^\\frac{\\pi}{2})r\\rho \\\\\n &amp;= r(\\cos\\theta \\sin \\theta \\cdot \\beta^\\frac{\\pi}{2})\n  (\\cos \\beta\\rho \\cdot \\beta +\n  \\sin \\beta\\rho \\cdot \\overline{\\overline{\\beta\\rho}\\beta}) \\\\\n &amp;= r\\{\\cos\\beta\\rho \\cdot \\beta +\n  \\cos\\theta\\sin\\beta\\rho \\cdot \\overline{\\overline{\\beta\\rho}\\beta} +\n  \\sin\\theta\\sin\\beta\\rho \\cdot \\overline{\\beta\\rho}\\}.\n\\end{align*}\\]</span> When <span class=\"math inline\">\\(\\cos \\beta\\rho = 0\\)</span>, this reduces to <span class=\"math display\">\\[\\begin{equation*}\n\\beta^\\theta R = \\cos \\theta R + \\sin \\theta \\mathrm{V}(\\beta R).\n\\end{equation*}\\]</span> The general result may be written <span class=\"math display\">\\[\\begin{equation*}\n\\beta^\\theta R = \\mathrm{S}\\beta R \\cdot \\beta +\n  \\cos \\theta(\\mathrm{V}\\beta R)\\beta + \\sin \\theta \\mathrm{V}\\beta R.\n\\end{equation*}\\]</span></p>\n<p>Note that <span class=\"math inline\">\\((\\mathrm{V}\\beta R)\\beta\\)</span> is equal to <span class=\"math inline\">\\(\\mathrm{V}(\\mathrm{V}\\beta R)\\beta\\)</span> because <span class=\"math inline\">\\(\\mathrm{S}\\beta\nR\\beta\\)</span> is 0, for it involves two coincident directions.</p>\n<p>Example.—Let <span class=\"math inline\">\\(\\beta = li + mj + nk\\)</span>, where <span class=\"math inline\">\\(l^2 + m^2 + n^2 = 1\\)</span> and <span class=\"math inline\">\\(R = xi + yj + zk\\)</span>; then <span class=\"math inline\">\\(\\mathrm{S}\\beta\nR = lx + my + nz\\)</span> <span class=\"math display\">\\[\\begin{gather*}\n\\mathrm{V}(\\beta R)\\beta = \\begin{vmatrix}\n    mz - ny &amp; nx - lz &amp; ly - mx \\\\\n    l       &amp; m       &amp; n       \\\\\n    i       &amp; j       &amp; k\n    \\end{vmatrix}\n\\\\ \\text{and} \\mathrm{V}\\beta R = \\begin{vmatrix}\n  l &amp; m &amp; n \\\\\n  x &amp; y &amp; z \\\\\n  i &amp; j &amp; k\n  \\end{vmatrix}.\n\\\\ \\text{Hence}\n\\begin{split}\n\\beta^\\theta &amp;= (lx + my + nz)(li + mj + nk) \\\\\n&amp;+ \\cos\\theta \\begin{vmatrix}\n   mz - ny &amp; nx - lz &amp; ly - mx \\\\\n   l       &amp; m       &amp; n       \\\\\n   i       &amp; j       &amp; k\n   \\end{vmatrix} \\\\\n&amp;+ \\sin\\theta\\begin{vmatrix}\n   l &amp; m &amp; n  \\\\\n   x &amp; y &amp; z  \\\\\n   i &amp; j &amp; k \\end{vmatrix}.\n\\end{split}\n\\end{gather*}\\]</span></p>\n<div class=\"center\">\n<p><img src=\"images/macfarlane-vector-analysis-quaternions-1906/fig25.png\" style=\"width:40mm\" alt=\"image\" /></p>\n</div>\n<p>To prove that <span class=\"math inline\">\\(\\beta^b \\rho\\)</span> coincides with the axis of <span class=\"math inline\">\\(\\beta^\\frac{-b}{2} \\rho^\\frac{\\pi}{2} \\beta^\\frac{b}{2}\\)</span>. Take the more general versor <span class=\"math inline\">\\(\\rho^\\theta\\)</span>. Let <span class=\"math inline\">\\(OP\\)</span> represent the axis <span class=\"math inline\">\\(\\beta\\)</span>, <span class=\"math inline\">\\(AB\\)</span> the versor <span class=\"math inline\">\\(\\beta^\\frac{-b}{2}\\)</span>, <span class=\"math inline\">\\(BC\\)</span> the versor <span class=\"math inline\">\\(\\rho^\\theta\\)</span>. Then <span class=\"math inline\">\\((AB)(BC) = AC = DA\\)</span>, therefore <span class=\"math inline\">\\((AB)(BC)(AE) =\n(DA)(AE) = DE\\)</span>. Now <span class=\"math inline\">\\(DE\\)</span> has the same angle as <span class=\"math inline\">\\(BC\\)</span>, but its axis has been rotated round <span class=\"math inline\">\\(P\\)</span> by the angle <span class=\"math inline\">\\(b\\)</span>. Hence if <span class=\"math inline\">\\(\\theta =\n\\frac{\\pi}{2}\\)</span>, the axis of <span class=\"math inline\">\\(\\beta^\\frac{-b}{2}\n\\rho^\\frac{\\pi}{2}\\beta^\\frac{b}{2}\\)</span> will coincide with <span class=\"math inline\">\\(\\beta^b\\rho\\)</span>.<a href=\"#fn14\" class=\"footnote-ref\" id=\"fnref14\" role=\"doc-noteref\"><sup>14</sup></a></p>\n<p>The exponential expression for <span class=\"math inline\">\\(\\beta^\\frac{-b}{2}\n\\rho^\\frac{\\pi}{2} \\beta^\\frac{b}{2}\\)</span> is <span class=\"math inline\">\\(e^{-\\frac{1}{2}b\\beta^\\frac{\\pi}{2} +\n\\frac{1}{2}\\pi\\rho^\\frac{\\pi}{2} + \\frac{1}{2}b\\beta^\\frac{\\pi}{2}}\\)</span> which may be expanded according to the exponential theorem, the successive powers of the trinomial being formed according to the multinomial theorem, the order of the factors being preserved.</p>\n<p>Composition of Finite Rotations round Axes which Intersect.—Let <span class=\"math inline\">\\(\\beta\\)</span> and <span class=\"math inline\">\\(\\gamma\\)</span> denote the two axes in space round which the successive rotations take place, and let <span class=\"math inline\">\\(\\beta^b\\)</span> denote the first and <span class=\"math inline\">\\(\\gamma^c\\)</span> the second. Let <span class=\"math inline\">\\(\\beta^b \\times\n\\gamma^c\\)</span> denote the single rotation which is equivalent to the two given rotations applied in succession; the sign <span class=\"math inline\">\\(\\times\\)</span> is introduced to distinguish from the product of versors. It has been shown in the preceding paragraph that <span class=\"math display\">\\[\\begin{gather*}\n\\beta^b\\rho = \\beta^\\frac{-b}{2}\\rho^\\frac{\\pi}{2}\\beta^\\frac{b}{2}; \\\\\n\\\\ \\text{and as the result is a line, the same principle applies\nto the subsequent rotation. Hence}\n\\begin{split}\n\\gamma^c(\\beta^b\\rho) &amp;=\n  \\gamma^\\frac{-c}{2}(\\beta^\\frac{-b}{2}\\rho^\\frac{\\pi}{2}\n     \\beta^\\frac{\\pi}{2})\\gamma^\\frac{c}{2} \\\\\n&amp;= (\\gamma^\\frac{-c}{2}\\beta^\\frac{-b}{2})\n     \\rho^\\frac{\\pi}{2} (\\beta^\\frac{b}{2}\\gamma^\\frac{c}{2}),\n\\end{split} \\\\\n\\\\ \\text{because the factors in a product of versors can be\nassociated in any manner. Hence, reasoning backwards,}\n\\beta^b \\times \\gamma^c = (\\beta^\\frac{b}{2}\\gamma^\\frac{c}{2})^2. \\\\\n\\\\ \\text{Let $m$ denote the cosine of\n$\\beta^\\frac{b}{2}\\gamma^\\frac{c}{2}$, namely,}\n\\cos\\frac{b}{2}\\,\\cos\\frac{c}{2}-\\sin\\frac{b}{2}\\,\\sin\\frac{c}{2}, \\\\\n\\\\ \\text{ and $n \\cdot \\nu$ their directed sine, namely,}\n\\cos \\frac{b}{2}\\, \\sin \\frac{c}{2} \\cdot \\gamma + \\cos\\frac{c}{2}\\,\n\\sin \\frac{b}{2} \\cdot \\beta - \\sin \\frac{b}{2}\\,\n  \\sin \\frac{c}{2}\\, \\sin \\beta\\gamma \\cdot \\overline{\\beta\\gamma}; \\\\\n\\\\ \\text{then}\n\\beta^b \\times \\gamma^c = m^2 - n^2 + 2mn \\cdot \\nu.\n\\end{gather*}\\]</span></p>\n<div class=\"center\">\n<p><img src=\"images/macfarlane-vector-analysis-quaternions-1906/fig26.png\" style=\"width:40mm\" alt=\"image\" /></p>\n</div>\n<p>Observation.—The expression <span class=\"math inline\">\\((\\beta^\\frac{b}{2}\\gamma^\\frac{c}{2})^2\\)</span> is not, as might be supposed, identical with <span class=\"math inline\">\\(\\beta^b\\gamma^c\\)</span>. The former reduces to the latter only when <span class=\"math inline\">\\(\\beta\\)</span> and <span class=\"math inline\">\\(\\gamma\\)</span> are the same or opposite. In the figure <span class=\"math inline\">\\(\\beta^b\\)</span> is represented by <span class=\"math inline\">\\(PQ\\)</span>, <span class=\"math inline\">\\(\\gamma^c\\)</span> by <span class=\"math inline\">\\(QR\\)</span>, <span class=\"math inline\">\\(\\beta^b\\gamma^c\\)</span> by <span class=\"math inline\">\\(PR\\)</span>, <span class=\"math inline\">\\(\\beta^\\frac{b}{2}\\gamma^\\frac{c}{2}\\)</span> by <span class=\"math inline\">\\(ST\\)</span>, and <span class=\"math inline\">\\((\\beta^\\frac{b}{2}\\gamma^\\frac{c}{2})^2\\)</span> by <span class=\"math inline\">\\(SU\\)</span>, which is twice <span class=\"math inline\">\\(ST\\)</span>. The cosine of <span class=\"math inline\">\\(SU\\)</span> differs from the cosine of <span class=\"math inline\">\\(PR\\)</span> by the term <span class=\"math inline\">\\(-(\\sin \\frac{b}{2}\\, \\sin \\frac{c}{2}\\, \\sin\n\\beta\\gamma)^2\\)</span> It is evident from the figure that their axes are also different.</p>\n<p>Corollary.—When <span class=\"math inline\">\\(b\\)</span> and <span class=\"math inline\">\\(c\\)</span> are infinitesimals, <span class=\"math inline\">\\(\\cos\\beta^b \\times \\gamma^c = 1\\)</span>, and <span class=\"math inline\">\\(\\Sin \\beta^b \\times \\gamma^c\n= b \\cdot \\beta + c \\cdot \\gamma\\)</span>, which is the parallelogram rule for the composition of infinitesimal rotations.</p>\n<ol>\n<li><p>Let <span class=\"math inline\">\\(\\beta = \\overline{30^\\circ/}\\!\n\\underline{/45^\\circ}\\)</span>, <span class=\"math inline\">\\(\\theta = \\frac{\\pi}{3}\\)</span>, and <span class=\"math inline\">\\(R = 2i - 3j +\n4k\\)</span>; calculate <span class=\"math inline\">\\(\\beta^\\theta R\\)</span>.</p></li>\n<li><p>Let <span class=\"math inline\">\\(\\beta = \\overline{90^\\circ/}\\!\n\\underline{/90^\\circ}\\)</span>, <span class=\"math inline\">\\(\\theta = \\frac{\\pi}{4}\\)</span>, <span class=\"math inline\">\\(R = -i + 2j -\n3k\\)</span>; calculate <span class=\"math inline\">\\(\\beta^\\theta R\\)</span>.</p></li>\n<li><p>Prove by multiplying out that <span class=\"math inline\">\\(\\beta^\\frac{-b}{2}\n\\rho^\\frac{\\pi}{2} \\beta^\\frac{b}{2} =\n\\{\\beta^b\\rho\\}^\\frac{\\pi}{2}\\)</span>.</p></li>\n<li><p>Prove by means of the exponential theorem that <span class=\"math inline\">\\(\\gamma^{-c}\\beta^b\\gamma^c\\)</span> has an angle <span class=\"math inline\">\\(b\\)</span>, and that its axis is <span class=\"math inline\">\\(\\gamma^{2c}\\beta\\)</span>.</p></li>\n<li><p>Prove that the cosine of <span class=\"math inline\">\\((\\beta^\\frac{b}{2}\\gamma^\\frac{c}{2})^2\\)</span> differs from the cosine of <span class=\"math inline\">\\(\\beta^b\\gamma^c\\)</span> by<br />\n<span class=\"math inline\">\\(-(\\sin\\frac{b}{2} \\sin\\frac{c}{2} \\sin\\beta \\gamma)^2\\)</span>.</p></li>\n<li><p>Compare the axes of <span class=\"math inline\">\\((\\beta^\\frac{b}{2}\\gamma^\\frac{c}{2})^2\\)</span> and <span class=\"math inline\">\\(\\beta^b\\gamma^c\\)</span>.</p></li>\n<li><p>Find the value of <span class=\"math inline\">\\(\\beta^b\\times\\gamma^c\\)</span> when <span class=\"math inline\">\\(\\beta = \\overline{0^\\circ/}\\!\\underline{/90^\\circ}\\)</span> and <span class=\"math inline\">\\(\\gamma=\\overline{90^\\circ/}\\!\\underline{/90^\\circ}\\)</span>.</p></li>\n<li><p>Find the single rotation equivalent to <span class=\"math inline\">\\(i^\\frac{\\pi}{2} \\times j^\\frac{\\pi}{2} \\times k^\\frac{\\pi}{2}\\)</span>.</p></li>\n<li><p>Prove that successive rotations about radii to two corners of a spherical triangle and through angles double of those of the triangle are equivalent to a single rotation about the radius to the third corner, and through an angle double of the external angle of the triangle.</p></li>\n</ol>\n<section class=\"footnotes footnotes-end-of-document\" role=\"doc-endnotes\">\n<hr />\n<ol>\n<li id=\"fn14\" value=\"14\"><p>This theorem was discovered by Cayley. It indicates that quaternion multiplication in the most general sense has its physical meaning in the composition of rotations.<a href=\"#fnref14\" class=\"footnote-back\" role=\"doc-backlink\">↩︎</a></p></li>\n</ol>\n</section>",
    "name": "Macfarlane 1906, Composition of Rotations",
    "pages": null,
    "concepts": [
@@ -6866,7 +6866,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9f5101f",
+    "commit": "e125acb",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -6905,7 +6905,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9f5101f",
+    "commit": "e125acb",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -6948,7 +6948,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9f5101f",
+    "commit": "e125acb",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -6987,7 +6987,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9f5101f",
+    "commit": "e125acb",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7025,7 +7025,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9f5101f",
+    "commit": "e125acb",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7068,7 +7068,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9f5101f",
+    "commit": "e125acb",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7111,7 +7111,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9f5101f",
+    "commit": "e125acb",
     "verdicts": [
      "FLAG-EXTRACTION"
     ]
@@ -7150,7 +7150,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9f5101f",
+    "commit": "e125acb",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7189,7 +7189,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9f5101f",
+    "commit": "e125acb",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7227,7 +7227,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9f5101f",
+    "commit": "e125acb",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7271,7 +7271,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9f5101f",
+    "commit": "e125acb",
     "verdicts": [
      "FLAG-MISSING"
     ]
@@ -7315,7 +7315,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9f5101f",
+    "commit": "e125acb",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7354,7 +7354,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9f5101f",
+    "commit": "e125acb",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7394,7 +7394,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9f5101f",
+    "commit": "e125acb",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7435,7 +7435,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9f5101f",
+    "commit": "e125acb",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7479,7 +7479,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9f5101f",
+    "commit": "e125acb",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7518,7 +7518,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9f5101f",
+    "commit": "e125acb",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7558,7 +7558,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9f5101f",
+    "commit": "e125acb",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7601,7 +7601,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9f5101f",
+    "commit": "e125acb",
     "verdicts": [
      "FLAG-MISSING"
     ]
@@ -7646,7 +7646,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9f5101f",
+    "commit": "e125acb",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7686,7 +7686,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9f5101f",
+    "commit": "e125acb",
     "verdicts": [
      "FLAG-MISSING"
     ]
@@ -7731,7 +7731,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9f5101f",
+    "commit": "e125acb",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7774,7 +7774,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9f5101f",
+    "commit": "e125acb",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7813,7 +7813,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9f5101f",
+    "commit": "e125acb",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7852,7 +7852,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9f5101f",
+    "commit": "e125acb",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7892,7 +7892,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9f5101f",
+    "commit": "e125acb",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7931,7 +7931,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9f5101f",
+    "commit": "e125acb",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7970,7 +7970,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9f5101f",
+    "commit": "e125acb",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8008,7 +8008,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9f5101f",
+    "commit": "e125acb",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8046,7 +8046,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9f5101f",
+    "commit": "e125acb",
     "verdicts": [
      "FLAG-MISSING"
     ]
@@ -8093,7 +8093,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "9f5101f",
+    "commit": "e125acb",
     "verdicts": [
      "PASS"
     ]
@@ -8160,7 +8160,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9f5101f",
+    "commit": "e125acb",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8199,7 +8199,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9f5101f",
+    "commit": "e125acb",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8237,7 +8237,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9f5101f",
+    "commit": "e125acb",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8276,7 +8276,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9f5101f",
+    "commit": "e125acb",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8316,7 +8316,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9f5101f",
+    "commit": "e125acb",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8354,7 +8354,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9f5101f",
+    "commit": "e125acb",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8392,7 +8392,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9f5101f",
+    "commit": "e125acb",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8431,7 +8431,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9f5101f",
+    "commit": "e125acb",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8470,7 +8470,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9f5101f",
+    "commit": "e125acb",
     "verdicts": [
      "FLAG-MISSING"
     ]
@@ -8512,7 +8512,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9f5101f",
+    "commit": "e125acb",
     "verdicts": [
      "FLAG-MISSING"
     ]
@@ -8558,7 +8558,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "9f5101f",
+    "commit": "e125acb",
     "verdicts": [
      "PASS"
     ]
@@ -8638,7 +8638,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9f5101f",
+    "commit": "e125acb",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8677,7 +8677,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9f5101f",
+    "commit": "e125acb",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8716,7 +8716,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9f5101f",
+    "commit": "e125acb",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8755,7 +8755,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9f5101f",
+    "commit": "e125acb",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8793,7 +8793,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9f5101f",
+    "commit": "e125acb",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8829,7 +8829,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9f5101f",
+    "commit": "e125acb",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8867,7 +8867,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9f5101f",
+    "commit": "e125acb",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8906,7 +8906,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9f5101f",
+    "commit": "e125acb",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8946,7 +8946,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9f5101f",
+    "commit": "e125acb",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8986,7 +8986,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9f5101f",
+    "commit": "e125acb",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -9024,7 +9024,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9f5101f",
+    "commit": "e125acb",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -9063,7 +9063,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9f5101f",
+    "commit": "e125acb",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -9101,7 +9101,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9f5101f",
+    "commit": "e125acb",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -9139,7 +9139,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9f5101f",
+    "commit": "e125acb",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -9177,7 +9177,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9f5101f",
+    "commit": "e125acb",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -9216,7 +9216,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9f5101f",
+    "commit": "e125acb",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -9255,7 +9255,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9f5101f",
+    "commit": "e125acb",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -9293,7 +9293,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9f5101f",
+    "commit": "e125acb",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -9331,7 +9331,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9f5101f",
+    "commit": "e125acb",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -9369,7 +9369,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "9f5101f",
+    "commit": "e125acb",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
