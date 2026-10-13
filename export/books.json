@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
  "generated_from": {
-  "claudiverse_commit": "b01de19",
-  "generated_at": "2026-10-13T19:14:38Z"
+  "claudiverse_commit": "2d29503",
+  "generated_at": "2026-10-13T20:20:01Z"
  },
  "node_types": [
   "book",
@@ -164,7 +164,7 @@
     "\\DotRow": "\\multispan{#1}{\\dotfill}",
     "\\Ibar": "\\mathop{\\vphantom{|}}",
     "\\THeadSize": "\\scriptsize",
-    "\\ColHead": "%\n  \\ifthenelse{\\equal{}{}}{%\n    \\settowidth{\\TmpLen}{\\THeadSize #1}%\n  }{%\n    \\settowidth{\\TmpLen}{\\THeadSize }%\n  }\n  \\text{\\centering\\THeadSize #1\\medskip}%\n",
+    "\\ColHead": "%\n  \\ifthenelse{\\equal{}{}}{%\n    %\n  }{%\n    %\n  }\n  \\text{\\centering\\THeadSize #1\\medskip}%\n",
     "\\Low": "%\n  \\setlength{\\TmpLen}{-1.5ex}\n  \\smash[b]{\\raisebox{\\TmpLen}{{#1}}}\n"
    }
   },
@@ -365,7 +365,7 @@
     "\\Erratum": "#2",
     "\\Loosen": "\\spaceskip 0.375em plus 0.75em minus 0.25em",
     "\\RHead": "\\textsc{\\MakeLowercase{#1}}",
-    "\\ToCBox": "\\settowidth{\\TmpLen}{99.}%\n  \\makebox[\\TmpLen][r]{#1}\\hspace*{1em}%\n",
+    "\\ToCBox": "%\n  \\makebox[\\TmpLen][r]{#1}\\hspace*{1em}%\n",
     "\\ToCAnchor": "\\pageref{toc:#1}",
     "\\BookHead": "%\n  \\LARGE TREATISE \\\\[8pt]\n  \\normalsize ON \\\\[12pt]\n  \\TPage{0.9}{THERMODYNAMICS}\n",
     "\\Eq": "%\n  \\hyperref[eqn:#1]{{#1}}%\n",
@@ -587,7 +587,7 @@
     "\\Chg": "#2",
     "\\Add": "\\Chg{}{#1}",
     "\\RHeads": "\\small\\textsc{\\MakeUppercase{#1}}",
-    "\\ToCBox": "\\settowidth{\\TmpLen}{XVII.}%\n  \\makebox[\\TmpLen][r]{#1}\\hspace*{1em}%\n",
+    "\\ToCBox": "%\n  \\makebox[\\TmpLen][r]{#1}\\hspace*{1em}%\n",
     "\\ToCAnchor": "\\pageref{toc:#2}",
     "\\ChapHead": "%\n  \\SectTitle{#1}\n  \\SubsectTitle{#2}\n",
     "\\PageSep": "\\ignorespaces",

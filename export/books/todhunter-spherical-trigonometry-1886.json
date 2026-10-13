@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
  "generated_from": {
-  "claudiverse_commit": "b01de19",
-  "generated_at": "2026-10-13T19:14:38Z"
+  "claudiverse_commit": "2d29503",
+  "generated_at": "2026-10-13T20:20:01Z"
  },
  "node_types": [
   "book",
@@ -966,8 +966,8 @@
    "number": "Arcs drawn to fixed points on the Surface of a Sphere",
    "title": "Arcs drawn to fixed points on the Surface of a Sphere",
    "text_latex": "\\chapter[Arcs drawn to fixed points on the Surface of a Sphere.]{ARCS DRAWN TO FIXED POINTS ON THE SURFACE OF A SPHERE.}\n\\chaptermark{ARCS DRAWN TO FIXED POINTS.}\n\n\\paragraph{164.} In the present Chapter we shall demonstrate various\npropositions relating to the arcs drawn from any point on the\nsurface of a sphere to certain fixed points on the surface.\n\n\\paragraph{165.} $ABC$ is a spherical triangle having all its sides quadrants,\nand therefore all its angles right angles; $T$ is any point\non the surface of the sphere: to shew that\n\\[\n\\cos^2{TA}+\\cos^2{TB}+\\cos^2{TC}=1.\n\\]\n\\begin{figure}[htp]\n\\centering\n\\includegraphics[width=5.0cm]{images/135fc}\n\\end{figure}\n\nBy Art.~37 we have\n\\begin{align*}\n\\cos{TA} &= \\cos{AB}\\cos{TB}+\\sin{AB}\\sin{TB}\\cos{TBA}\\\\\n&= \\sin{TB}\\cos{TBA}.\n\\end{align*}\n\nSimilarly\\hfil\n$\\displaystyle \\cos{TC}=\\sin{TB}\\cos{TBC}=\\sin{TB}\\sin{TBA}$.\n\\hfil\\phantom{\\indent Similarly}\\\\\nSquare and add; thus\n\\[\n\\cos^2{TA}+\\cos^2{TC}=\\sin^2{TB}=1-\\cos^2{TB};\n\\]\ntherefore $\\hfill\n\\cos^2{TA}+\\cos^2{TB}+\\cos^2{TC}=1.\n\\hfill\\phantom{therefore }$\n\n\\paragraph{166.} $ABC$ is a spherical triangle having all its sides quadrants,\nand therefore all its angles right angles; $T$ and $U$ are any\npoints on the surface of the sphere: to shew that\n\\[\n\\cos TU = \\cos TA \\cos UA + \\cos TB \\cos UB + \\cos TC \\cos UC.\n\\]\n\\begin{figure}[htp]\n\\centering\n\\includegraphics[width=5.0cm]{images/136fc}\n\\end{figure}\n\nBy Art.~37 we have\n\\begin{flalign*}\n\\multispan{6}{\\hfill$\n  \\cos TU = \\cos TA \\cos UA + \\sin TA \\sin UA \\cos TAU,$\n\\hfill}\n\\\\\n&\\text{and }&\n  \\cos TAU & = \\cos (BAU - BAT)                        &&\\\\\n&&         & = \\cos BAU \\cos BAT + \\sin BAU \\sin BAT   &&\\\\\n&&         & = \\cos BAU \\cos BAT + \\cos CAU \\cos CAT;  &&\n\\\\\n&\\text{therefore }& \\multispan{2}{$\n  \\cos TU = \\cos TA \\cos UA $\\hfill}\n&\\phantom{therefore}&\n\\\\\n\\multispan{4}{$\\phantom{therefore}\n  {}+ \\sin TA \\sin UA (\\cos BAU \\cos BAT + \\cos CAU \\cos CAT)\n$;\\hfill} &&\n\\end{flalign*}\n\\begin{flalign*}\n&\\text{and }&\n    \\cos TB & = \\sin TA \\cos BAT, &\\phantom{and }&\\\\\n&&  \\cos UB & = \\sin UA \\cos BAU, &&\\\\\n&&  \\cos TC & = \\sin TA \\cos CAT, &&\\\\\n&&  \\cos UC & = \\sin UA \\cos CAU; &&\n\\end{flalign*}\ntherefore\\\\[-3ex]\n\\[\n\\cos TU = \\cos TA \\cos UA + \\cos TB \\cos UB + \\cos TC \\cos UC.\n\\]\n\n\\paragraph{167.} We leave to the student the exercise of shewing that\nthe formul\\ae\\ of the two preceding Articles are perfectly general for\nall positions of $T$ and $U$, outside or inside the triangle $ABC$: the\ndemonstrations will remain essentially the same for all modifications\nof the diagrams. The formul\\ae\\ are of constant application\nin Analytical Geometry of three dimensions, and are demonstrated\nin works on that subject; we have given them here as they may\nbe of service in Spherical Trigonometry, and will in fact now be\nused in obtaining some important results.\n\n\\paragraph{168.} Let there be any number of fixed points on the surface\nof a sphere; denote them by $H_1$, $H_2$, $H_3$,\\ldots. Let $T$ be any point\non the surface of a sphere. We shall now investigate an expression\nfor the sum of the cosines of the arcs which join $T$ with\nthe fixed points.\n\nDenote the sum by $\\Sigma$; so that\n\\[\n  \\Sigma = \\cos TH_1 + \\cos TH_2 + \\cos TH_3 + \\ldots.\n\\]\n\nTake on the surface of the sphere a fixed spherical triangle\n$ABC$, having all its sides quadrants, and therefore all its angles\nright angles.\n\nLet $\\lambda$, $\\mu$, $\\nu$ be the cosines of the arcs which join $T$ with\n$A$, $B$, $C$ respectively; let $l_1$, $m_1$, $n_1$ be the cosines of the arcs which\njoin $H_1$ with $A$, $B$, $C$ respectively; and let a similar notation be\nused with respect to $H_2$, $H_3$,\\ldots.\n\nThen, by Art.\\ 166,\n\\begin{align*}\n\\Sigma & =l_1\\lambda + m_1\\mu + n_1\\nu + l_2\\lambda + m_2\\mu + n_2\\nu + \\ldots\\\\\n           & = P \\lambda + Q \\mu + R \\nu;\n\\end{align*}\nwhere $P$ stands for $l_1 + l_2 + l_3 + \\ldots$, with corresponding meanings\nfor $Q$ and $R$.\n\n\\paragraph{169.} It will be seen that $P$ is the value which $\\Sigma$ takes when\n$T$ coincides with $A$, that $Q$ is the value which $\\Sigma$ takes when $T$\ncoincides with $B$, and that $R$ is the value which $\\Sigma$ takes when $T$\ncoincides with $C$. Hence the result expresses the general value\nof $\\Sigma$ in terms of the cosines of the arcs which join $T$ to the fixed\npoints $A$, $B$, $C$, and the particular values of $\\Sigma$ which correspond\nto these three points.\n\n\\paragraph{170.} We shall now transform the result of Art.~168.\n\\begin{flalign*}\n&\\text{\\indent Let }&&\nG=\\surd{(P^2+Q^2+R^2)};\n&\\phantom{\\indent Let }&\n\\end{flalign*}\nand let $\\alpha$, $\\beta$, $\\gamma$ be three arcs determined by the equations\n\\[\n\\cos \\alpha = \\frac{P}{G},\\ \\cos \\beta \\frac{Q}{G},\\ \\cos\\gamma \\frac{R}{G};\n\\]\nthen\\hfill\n$\\Sigma=G(\\lambda \\cos \\alpha + \\mu \\cos \\beta + \\nu \\cos \\gamma)$.\n\\hfill\\phantom{\\text{then}}\n\nSince $\\cos^2\\alpha +\\cos^2\\beta+\\cos^2\\gamma = 1$, it is obvious that there will be\nsome point on the surface of the sphere, such that $\\alpha$, $\\beta$, $\\gamma$ are the\narcs which join it to $A$, $B$, $C$ respectively; denote this point by\n$U$: then, by Art.~166,\n\\[\n\\cos TU= \\lambda \\cos \\alpha + \\mu \\cos \\beta + \\nu \\cos \\gamma;\n\\]\nand finally\n\\[\n\\Sigma=G \\cos TU.\n\\]\n\nThus, whatever may be the position of $T$, the sum of the cosines\nof the arcs which join $T$ to the fixed points varies as the cosine\nof the single arc which joins $T$ to a certain fixed point $U$.\n\nWe might take $G$ either positive or negative; it will be\nconvenient to suppose it positive.\n\n\\paragraph{171.} A sphere is described about a regular polyhedron;\nfrom any point on the surface of the sphere arcs are drawn to the\nsolid angles of the polyhedron: to shew that the sum of the cosines\nof these arcs is zero.\n\nFrom the preceding Article we see that if $G$ is not zero\nthere is \\textit{one} position of $T$ which gives to $\\Sigma$ its greatest positive\nvalue, namely, when $T$ coincides with $U$. But by the symmetry\nof a regular polyhedron there must always be \\textit{more than one} position\nof $T$ which gives the same value to $\\Sigma$. For instance, if we\ntake a regular tetrahedron, as there are four faces there will at\nleast be \\textit{three other} positions of $T$ symmetrical with any assigned\nposition.\n\nHence $G$ must be zero; and thus the \\textit{sum of the cosines of the\narcs which join $\\mathrm{T}$ to the solid angles of the regular polyhedron is\nzero for all positions of $\\mathrm{T}$.}\n\n\\paragraph{172.} Since $G=0$, it follows that $P$, $Q$, $R$ must each be zero;\nthese indeed are particular cases of the general result of Art.\\ 171.\nSee Art.\\ 169.\n\n\\paragraph{173.} The result obtained in Art.\\ 171 may be shewn to hold\nalso in some other cases. Suppose, for instance, that a rectangular\nparallelepiped is inscribed in a sphere; then the sum of the\ncosines of the arcs drawn from any point on the surface of the\nsphere to the solid angles of the parallelepiped is zero. For here\nit is obvious that there must always be at least \\textit{one other} position\nof $T$ symmetrical with any assigned position. Hence by the\nargument of Art.\\ 171 we must have $G = 0$.\n\n\\paragraph{174.} Let there be any number of fixed points on the surface\nof a sphere; denote them by $H_1$, $H_2$, $H_3,\\dots$ Let $T$ be any point on\nthe surface of the sphere. We shall now investigate a remarkable\nexpression for the sum of the squares of the cosines of the arcs\nwhich join $T$ with the fixed points.\n\nDenote the sum by $\\Sigma$; so that\n\\[\n\\Sigma = \\cos^2 TH_1 + \\cos^2 TH_2 + \\cos^2 TH_3 + \\dots.\n\\]\n\nTake on the surface of the sphere a fixed spherical triangle\n$ABC$, having all its sides quadrants, and therefore all its angles\nright angles.\n\nLet $\\lambda$, $\\mu$, $\\nu$ be the cosines of the arcs which join $T$ with $A$, $B$, $C$\nrespectively; let $l_1$, $m_1$, $n_1$ be the cosines of the angles which join\n$H_1$ with $A$, $B$, $C$ respectively; and let a similar notation be used\nwith respect to $H_2$, $H_3$,\\dots.\n\nThen, by Art.\\ 166,\n\\begin{gather*}\n\\Sigma = (l_1\\lambda + m_1\\mu + n_1\\nu)^2 + (l_2\\lambda + m_2\\mu + n_2\\nu)^2 + \\dots.\\\\\n\\intertext{Expand each square, and rearrange the terms; thus}\n\\Sigma = P\\lambda^2 + Q\\mu^2 + R\\nu^2 + 2p\\mu\\nu + 2q\\nu\\lambda + 2r\\lambda \\mu,\\\\\n\\text{where $P$ stands for $l_1^2 + l_2^2 + l_3^2 + \\dots$,}\\\\\n\\text{and $p$ stands for $m_1n_1 + m_2n_2 + m_3n_3 + \\dots$,}\n\\end{gather*}\nwith corresponding meanings for $Q$ and $q$, and for $R$ and $r$.\n\nWe shall now shew that there is some position of the triangle\n$ABC$ for which $p$, $q$, and $r$ will vanish; so that we shall then\nhave\n\\[\n\\Sigma=P\\lambda^2+Q\\mu^2+R\\nu^2.\n\\]\n\nSince $\\Sigma$ is always a finite positive quantity there must be some\nposition, or some positions, of $T$ for which $\\Sigma$ has the largest value\nwhich it can receive. Suppose that $A$ has this position, or one\nof these positions if there are more than one. When $T$ is at $A$\nwe have $\\mu$ and $\\nu$ each zero, and $\\lambda$ equal to unity, so that $\\Sigma$ is then\nequal to $P$.\n\nHence, whatever be the position of $T$,\n$P$ is never less than $P\\lambda^2+Q\\mu^2+R\\nu^2+2p\\mu\\nu+2q\\nu\\lambda+2r\\lambda\\mu$,\nthat is, by Art.~165,\n\\begin{gather*}\nP(\\lambda^2+\\mu^2+\\nu^2) \\text{ is never less than}\n\\\\\nP\\lambda^2+Q\\mu^2+R\\nu^2+2p\\mu\\nu+2q\\nu\\lambda+2r\\lambda\\mu;\n\\end{gather*}\ntherefore\\\\[-2ex]\n\\[\n(P-Q)\\mu^2+(P-R)\\nu^2\\text{ is never less than }2p\\mu\\nu+2q\\nu\\lambda+2r\\lambda\\mu.\n\\]\n\nNow suppose $\\nu = 0$; then $T$ is situated on the great circle of\nwhich $AB$ is a quadrant, and whatever be the position of $T$ we\nhave\n\\begin{flalign*}\n&& (P-Q)\\mu^2\\text{ not less than } 2r\\lambda\\mu, &&\n\\\\\n&\\text{and therefore }&\n\\multispan{2}{\\hfill$\nP-Q\\text{ not less than } \\dfrac{2r\\lambda}{\\mu}.\n$\\hfill} &\\phantom{and therefore }&\n\\end{flalign*}\n\nBut now $\\dfrac{\\lambda}{\\mu}$ is equal to $\\dfrac{\\cos TA}{\\cos TB}$; this is numerically equal to\n$\\tan TB$, and so may be made numerically as great as we please,\npositive or negative, by giving a suitable position to $T$. Thus\n$P-Q$ must in some cases be less than $\\dfrac{2r\\lambda}{\\mu}$ if $r$ have any value different\nfrom zero.\n\nTherefore $r$ must $= 0$.\n\nIn like manner we can shew that $q$ must $= 0$.\n\nHence with the specified position for $A$ we arrive at the result\nthat whatever may be the position of $T$\n\\[\n\\Sigma = P\\lambda^2+Q\\mu^2+R\\nu^2+2p\\mu\\,\\nu.\n\\]\n\nLet us now suppose that the position of $B$ is so taken that\nwhen $T$ coincides with $B$ the value of $\\Sigma$ is as large as it can be\nfor any point in the great circle of which $A$ is the pole. When $T$\nis at $B$ we have $\\lambda$ and $\\nu$ each zero, and $\\mu$ equal to unity, so that\n$\\Sigma$ is then equal to $Q$. For any point in the great circle of which\n$A$ is the pole $\\lambda$ is zero; and therefore for any such point\n\\begin{gather*}\nQ \\text{ is not less than }Q\\mu^2+R\\nu^2+2p\\mu\\,\\nu,\\\\\n\\intertext{that is, by Art.\\ 165,}\nQ(\\mu^2+\\nu^2) \\text{ is not less than }Q\\mu^2+R\\nu^2+2p\\mu\\,\\nu;\n\\end{gather*}\ntherefore $Q-R$ is not less than $\\dfrac{2p\\mu}{\\nu}$.\n\nHence by the same reasoning as before we must have $p = 0$.\n\nTherefore we see that there must be some position of the\ntriangle $ABC$, such that for every position of $T$\n\\[\n\\Sigma = P\\lambda^2+Q\\mu^2+R\\nu^2.\n\\]\n\n\\paragraph{175.} The remarks of Art.\\ 169 are applicable to the result\njust obtained.\n\n\\paragraph{176.} In the final result of Art.\\ 174 we may shew that $R$ is\nthe least value which $\\Sigma$ can receive. For, by Art.\\ 165,\n\\begin{align*}\n\\Sigma &= P\\lambda^2 + Q\\mu^2 + R(1-\\lambda^2-\\mu^2)\\\\\n       &= R +(P-R)\\lambda^2 + (Q-R)\\mu^2;\n\\end{align*}\nand by supposition neither $P-R$ nor $Q-R$ is negative, so that\n$\\Sigma$ cannot be less than $R$.\n\n\\paragraph{177.} A sphere is described about a regular polyhedron; from\nany point on the surface of the sphere arcs are drawn to the\nsolid angles of the polyhedron: it is required to find the sum of\nthe squares of the cosines of these arcs.\n\nWith the notation of Art.\\ 174 we have\n\\[\n\\Sigma = P\\lambda^2 + Q\\mu^2 + R\\nu^2.\n\\]\n\nWe shall shew that in the present case $P$, $Q$, and $R$ must \\textit{all\nbe equal}. For if they are not, one of them must be greater than\neach of the others, or one of them must be less than each of the\nothers.\n\nIf possible let the former be the case; suppose that $P$ is\ngreater than $Q$, and greater than $R$.\n\\begin{flalign*}\n&\\text{\\indent Now }& \\Sigma &= P(1 - \\mu^2 - \\nu^2) + Q\\mu^2 + R\\nu^2&\\phantom{\\indent Now}\\\\\n&&& = P - (P - Q)\\mu^2 - (P - R)\\nu^2;\n\\end{flalign*}\nthis shews that $\\Sigma$ is \\textit{always less than} $P$ except when $\\mu = 0$ and\n$\\nu = 0$: that is $\\Sigma$ \\textit{is always less than} $P$ except when $T$ is at $A$, or\nat the point of the surface which is diametrically opposite to $A$.\nBut by the symmetry of a regular polyhedron there must always\nbe more than \\textit{two} positions of $T$ which give the same value to $\\Sigma$.\nFor instance if we take a regular tetrahedron, as there are \\textit{four}\nfaces there will be at least \\textit{three other} positions of $T$ symmetrical\nwith any assigned position. Hence $P$ cannot be greater than $Q$\nand greater than $R$.\n\nIn the same way we can shew that one of the three $P$, $Q$,\nand $R$, cannot be less than each of the others.\n\nTherefore $P = Q = R$; and therefore by Art.\\ 165 for \\textit{every\nposition} of $T$ we have $\\Sigma = P$.\n\nSince $P = Q = R$ each of them $= \\frac{1}{3}(P + Q + R)$\n\\begin{align*}\n&= \\frac13 \\{{l_1}^2 + {m_1}^2 + {n_1}^2 + {l_2}^2 + {m_2}^2 + {n_2}^2 + \\dots\\}\\\\[1.5ex]\n&= \\frac{S}{3}, \\text{ by Art.\\ 165},\n\\end{align*}\nwhere $S$ is the number of the solid angles of the regular polyhedron.\n\n\\textit{Thus the sum of the squares of the cosines of the arcs which\njoin any point on the surface of the sphere to the solid angles of\nthe regular polyhedron is one third of the number of the solid\nangles.}\n\n\\paragraph{178.} Since $P=Q=R$ in the preceding Article, it will follow\nthat when the fixed points of Art.\\ 174 are the solid angles of\na regular polyhedron, then for \\textit{any} position of the spherical triangle\n$ABC$ we shall have $p=0$, $q=0$, $r=0$.\n\nFor taking any position for the spherical triangle $ABC$ we\nhave\n\\[\n\\Sigma = P\\lambda^2 + Q\\mu^2 + R\\nu^2 + 2p\\mu\\nu + 2q\\nu\\lambda + 2r\\lambda\\mu;\n\\]\nthen at $A$ we have $\\mu = 0$ and $\\nu = 0$, so that $P$ is then the value\nof $\\Sigma$; similarly $Q$ and $R$ are the values of $\\Sigma$ at $B$ and $C$ respectively.\nBut by Art.\\ 177 we have the same value for $\\Sigma$ whatever\nbe the position of $T$; thus\n\\begin{flalign*}\n&\\phantom{therefore}&&&\\phantom{therefore}&\\\\[-\\baselineskip]\n&&\\multispan{2}{\\hfil$P = P(\\lambda^2 + \\mu^2 + \\nu^2) + 2p\\mu\\nu + 2q\\nu\\lambda + 2r\\lambda\\mu$;\\hfil}&\\\\\n&\\text{therefore}&\\multispan{2}{\\hfil$0 = 2p\\mu\\nu + 2q\\nu\\lambda + 2r\\lambda\\mu$.\\hfil}\n\\end{flalign*}\n\nThis holds then for every position of $T$. Suppose $T$ is at \\textit{any\npoint} of the great circle of which $A$ is the pole; then $\\lambda = 0$: thus\nwe get $p\\mu\\nu = 0$, and therefore $p=0$. Similarly $q=0$, and $r=0$.\n\n\\paragraph{179.} Let there be any number of fixed points on the surface\nof a sphere; denote them by $H_1$, $H_2$, $H_3,\\dots$; from any two points\n$T$ and $U$ on the surface of the sphere arcs are drawn to the fixed\npoints: it is required to find the sum of the products of the corresponding\ncosines, that is\n\\[\n\\cos TH_1 \\cos UH_1 + \\cos TH_2 \\cos UH_2 + \\cos TH_3 \\cos UH_3 + \\dots.\n\\]\n\nLet the notation be the same as in Art.\\ 174; and let $\\lambda'$, $\\mu'$, $\\nu'$\nbe the cosines of the arcs which join $U$ with $A$, $B$, $C$ respectively.\nThen by Art.\\ 166,\n\\begin{gather*}\n\\cos TH_1 \\cos UH_1 = (\\lambda l_1 + \\mu m_1 + \\nu n_1)(\\lambda'l_1 + \\mu'm_1 + \\nu'n_1) =\\\\\n\\lambda\\lambda'{l_1}^2 + \\mu\\mu'{m_1}^2 + \\nu\\nu'{n_1}^2 + (\\lambda\\mu' + \\mu\\lambda')l_1m_1 + (\\mu\\nu' + \\nu\\mu')m_1n_1 + (\\nu\\lambda' + \\lambda\\nu')n_1 l_1.\n\\end{gather*}\n\nSimilar results hold for $\\cos TH_2 \\cos UH_2$, $\\cos TH_3 \\cos UH_3$,\\ldots.\nHence, with the notation of Art.~174, the required sum is\n\\[\n\\lambda\\lambda'P + \\mu\\mu'Q + \\nu\\nu'R + (\\mu\\nu' + \\nu\\mu')p + (\\nu\\lambda' + \\lambda\\nu')q + (\\lambda\\mu' + \\mu\\lambda')r.\n\\]\n\nNow by properly choosing the position of the triangle $ABC$\nwe have $p$, $q$, and $r$ each zero as in Art.~174; and thus the\nrequired sum becomes\n\\[\n\\lambda\\lambda'P + \\mu\\mu'Q + \\nu\\nu'R.\n\\]\n\n\\paragraph{180.} The result obtained in Art.~174 may be considered\nas a particular case of that just given; namely the case in which\nthe points $T$ and $U$ coincide.\n\n\\paragraph{181.} A sphere is described about a regular polyhedron; from\nany two points on the surface of the sphere arcs are drawn to\nthe solid angles of the polyhedron: it is required to find the sum\nof the products of the corresponding cosines.\n\nWith the notation of Art.~179 we see that the sum is\n\\[\n\\lambda\\lambda'P + \\mu\\mu'Q + \\nu\\nu'R.\n\\]\n\nAnd here $P = Q = R = \\dfrac{S}{3}$, by Art.~177.\n\nThus the sum $= \\dfrac{S}{3} (\\lambda\\lambda' + \\mu\\mu' + \\nu\\nu') = \\dfrac{S}{3} \\cos TU$.\n\n\\textit{Thus the sum of the products of the cosines is equal to the\nproduct of the cosine $\\mathrm{TU}$ into a third of the number of the solid\nangles of the regular polyhedron.}\n\n\\paragraph{182.} The result obtained in Art.~177 may be considered as\na particular case of that just given; namely, the case in which\nthe points $T$ and $U$ coincide.\n\n\\paragraph{183.} If $TU$ is a quadrant then $\\cos TU$ is zero, and the\nsum of the products of the cosines in Art.~181 is zero. The\nresults $p = 0$, $q = 0$, $r = 0$, are easily seen to be all special examples\nof this particular case.",
-   "text_markdown": "# ARCS DRAWN TO FIXED POINTS ON THE SURFACE OF A SPHERE.\n\n##### 164.\n\nIn the present Chapter we shall demonstrate various propositions relating to the arcs drawn from any point on the surface of a sphere to certain fixed points on the surface.\n\n##### 165.\n\n$ABC$ is a spherical triangle having all its sides quadrants, and therefore all its angles right angles; $T$ is any point on the surface of the sphere: to shew that $$\\cos^2{TA}+\\cos^2{TB}+\\cos^2{TC}=1.$$\n\n<figure data-latex-placement=\"htp\">\n<img src=\"images/135fc\" style=\"width:5cm\" />\n</figure>\n\nBy Art. 37 we have $$\\begin{align*}\n\\cos{TA} &= \\cos{AB}\\cos{TB}+\\sin{AB}\\sin{TB}\\cos{TBA}\\\\\n&= \\sin{TB}\\cos{TBA}.\n\\end{align*}$$\n\nSimilarly $\\displaystyle \\cos{TC}=\\sin{TB}\\cos{TBC}=\\sin{TB}\\sin{TBA}$.\\\nSquare and add; thus $$\\cos^2{TA}+\\cos^2{TC}=\\sin^2{TB}=1-\\cos^2{TB};$$ therefore $\\quad\n\\cos^2{TA}+\\cos^2{TB}+\\cos^2{TC}=1.\n\\quad\\phantom{therefore }$\n\n##### 166.\n\n$ABC$ is a spherical triangle having all its sides quadrants, and therefore all its angles right angles; $T$ and $U$ are any points on the surface of the sphere: to shew that $$\\cos TU = \\cos TA \\cos UA + \\cos TB \\cos UB + \\cos TC \\cos UC.$$\n\n<figure data-latex-placement=\"htp\">\n<img src=\"images/136fc\" style=\"width:5cm\" />\n</figure>\n\nBy Art. 37 we have $$\\begin{align*}\n{\\quad$\n  \\cos TU = \\cos TA \\cos UA + \\sin TA \\sin UA \\cos TAU,$\n\\quad}\n\\\\\n&\\text{and }&\n  \\cos TAU & = \\cos (BAU - BAT)                        &&\\\\\n&&         & = \\cos BAU \\cos BAT + \\sin BAU \\sin BAT   &&\\\\\n&&         & = \\cos BAU \\cos BAT + \\cos CAU \\cos CAT;  &&\n\\\\\n&\\text{therefore }& {$\n  \\cos TU = \\cos TA \\cos UA $\\quad}\n&\\phantom{therefore}&\n\\\\\n{$\\phantom{therefore}\n  {}+ \\sin TA \\sin UA (\\cos BAU \\cos BAT + \\cos CAU \\cos CAT)\n$;\\quad} &&\n\\end{align*}$$ $$\\begin{align*}\n&\\text{and }&\n    \\cos TB & = \\sin TA \\cos BAT, &\\phantom{and }&\\\\\n&&  \\cos UB & = \\sin UA \\cos BAU, &&\\\\\n&&  \\cos TC & = \\sin TA \\cos CAT, &&\\\\\n&&  \\cos UC & = \\sin UA \\cos CAU; &&\n\\end{align*}$$ therefore\\\n$$\\cos TU = \\cos TA \\cos UA + \\cos TB \\cos UB + \\cos TC \\cos UC.$$\n\n##### 167.\n\nWe leave to the student the exercise of shewing that the formulæ of the two preceding Articles are perfectly general for all positions of $T$ and $U$, outside or inside the triangle $ABC$: the demonstrations will remain essentially the same for all modifications of the diagrams. The formulæ are of constant application in Analytical Geometry of three dimensions, and are demonstrated in works on that subject; we have given them here as they may be of service in Spherical Trigonometry, and will in fact now be used in obtaining some important results.\n\n##### 168.\n\nLet there be any number of fixed points on the surface of a sphere; denote them by $H_1$, $H_2$, $H_3$,.... Let $T$ be any point on the surface of a sphere. We shall now investigate an expression for the sum of the cosines of the arcs which join $T$ with the fixed points.\n\nDenote the sum by $\\Sigma$; so that $$\\Sigma = \\cos TH_1 + \\cos TH_2 + \\cos TH_3 + \\ldots.$$\n\nTake on the surface of the sphere a fixed spherical triangle $ABC$, having all its sides quadrants, and therefore all its angles right angles.\n\nLet $\\lambda$, $\\mu$, $\\nu$ be the cosines of the arcs which join $T$ with $A$, $B$, $C$ respectively; let $l_1$, $m_1$, $n_1$ be the cosines of the arcs which join $H_1$ with $A$, $B$, $C$ respectively; and let a similar notation be used with respect to $H_2$, $H_3$,....\n\nThen, by Art. 166, $$\\begin{align*}\n\\Sigma & =l_1\\lambda + m_1\\mu + n_1\\nu + l_2\\lambda + m_2\\mu + n_2\\nu + \\ldots\\\\\n           & = P \\lambda + Q \\mu + R \\nu;\n\\end{align*}$$ where $P$ stands for $l_1 + l_2 + l_3 + \\ldots$, with corresponding meanings for $Q$ and $R$.\n\n##### 169.\n\nIt will be seen that $P$ is the value which $\\Sigma$ takes when $T$ coincides with $A$, that $Q$ is the value which $\\Sigma$ takes when $T$ coincides with $B$, and that $R$ is the value which $\\Sigma$ takes when $T$ coincides with $C$. Hence the result expresses the general value of $\\Sigma$ in terms of the cosines of the arcs which join $T$ to the fixed points $A$, $B$, $C$, and the particular values of $\\Sigma$ which correspond to these three points.\n\n##### 170.\n\nWe shall now transform the result of Art. 168. $$\\begin{align*}\n&\\text{ Let }&&\nG=\\surd{(P^2+Q^2+R^2)};\n&\\phantom{ Let }&\n\\end{align*}$$ and let $\\alpha$, $\\beta$, $\\gamma$ be three arcs determined by the equations $$\\cos \\alpha = \\frac{P}{G},\\ \\cos \\beta \\frac{Q}{G},\\ \\cos\\gamma \\frac{R}{G};$$ then $\\Sigma=G(\\lambda \\cos \\alpha + \\mu \\cos \\beta + \\nu \\cos \\gamma)$.\n\nSince $\\cos^2\\alpha +\\cos^2\\beta+\\cos^2\\gamma = 1$, it is obvious that there will be some point on the surface of the sphere, such that $\\alpha$, $\\beta$, $\\gamma$ are the arcs which join it to $A$, $B$, $C$ respectively; denote this point by $U$: then, by Art. 166, $$\\cos TU= \\lambda \\cos \\alpha + \\mu \\cos \\beta + \\nu \\cos \\gamma;$$ and finally $$\\Sigma=G \\cos TU.$$\n\nThus, whatever may be the position of $T$, the sum of the cosines of the arcs which join $T$ to the fixed points varies as the cosine of the single arc which joins $T$ to a certain fixed point $U$.\n\nWe might take $G$ either positive or negative; it will be convenient to suppose it positive.\n\n##### 171.\n\nA sphere is described about a regular polyhedron; from any point on the surface of the sphere arcs are drawn to the solid angles of the polyhedron: to shew that the sum of the cosines of these arcs is zero.\n\nFrom the preceding Article we see that if $G$ is not zero there is *one* position of $T$ which gives to $\\Sigma$ its greatest positive value, namely, when $T$ coincides with $U$. But by the symmetry of a regular polyhedron there must always be *more than one* position of $T$ which gives the same value to $\\Sigma$. For instance, if we take a regular tetrahedron, as there are four faces there will at least be *three other* positions of $T$ symmetrical with any assigned position.\n\nHence $G$ must be zero; and thus the *sum of the cosines of the arcs which join $\\mathrm{T}$ to the solid angles of the regular polyhedron is zero for all positions of $\\mathrm{T}$.*\n\n##### 172.\n\nSince $G=0$, it follows that $P$, $Q$, $R$ must each be zero; these indeed are particular cases of the general result of Art. 171. See Art. 169.\n\n##### 173.\n\nThe result obtained in Art. 171 may be shewn to hold also in some other cases. Suppose, for instance, that a rectangular parallelepiped is inscribed in a sphere; then the sum of the cosines of the arcs drawn from any point on the surface of the sphere to the solid angles of the parallelepiped is zero. For here it is obvious that there must always be at least *one other* position of $T$ symmetrical with any assigned position. Hence by the argument of Art. 171 we must have $G = 0$.\n\n##### 174.\n\nLet there be any number of fixed points on the surface of a sphere; denote them by $H_1$, $H_2$, $H_3,\\dots$ Let $T$ be any point on the surface of the sphere. We shall now investigate a remarkable expression for the sum of the squares of the cosines of the arcs which join $T$ with the fixed points.\n\nDenote the sum by $\\Sigma$; so that $$\\Sigma = \\cos^2 TH_1 + \\cos^2 TH_2 + \\cos^2 TH_3 + \\dots.$$\n\nTake on the surface of the sphere a fixed spherical triangle $ABC$, having all its sides quadrants, and therefore all its angles right angles.\n\nLet $\\lambda$, $\\mu$, $\\nu$ be the cosines of the arcs which join $T$ with $A$, $B$, $C$ respectively; let $l_1$, $m_1$, $n_1$ be the cosines of the angles which join $H_1$ with $A$, $B$, $C$ respectively; and let a similar notation be used with respect to $H_2$, $H_3$,....\n\nThen, by Art. 166, $$\\begin{gather*}\n\\Sigma = (l_1\\lambda + m_1\\mu + n_1\\nu)^2 + (l_2\\lambda + m_2\\mu + n_2\\nu)^2 + \\dots.\\\\\n\\\\ \\text{Expand each square, and rearrange the terms; thus}\n\\Sigma = P\\lambda^2 + Q\\mu^2 + R\\nu^2 + 2p\\mu\\nu + 2q\\nu\\lambda + 2r\\lambda \\mu,\\\\\n\\text{where $P$ stands for $l_1^2 + l_2^2 + l_3^2 + \\dots$,}\\\\\n\\text{and $p$ stands for $m_1n_1 + m_2n_2 + m_3n_3 + \\dots$,}\n\\end{gather*}$$ with corresponding meanings for $Q$ and $q$, and for $R$ and $r$.\n\nWe shall now shew that there is some position of the triangle $ABC$ for which $p$, $q$, and $r$ will vanish; so that we shall then have $$\\Sigma=P\\lambda^2+Q\\mu^2+R\\nu^2.$$\n\nSince $\\Sigma$ is always a finite positive quantity there must be some position, or some positions, of $T$ for which $\\Sigma$ has the largest value which it can receive. Suppose that $A$ has this position, or one of these positions if there are more than one. When $T$ is at $A$ we have $\\mu$ and $\\nu$ each zero, and $\\lambda$ equal to unity, so that $\\Sigma$ is then equal to $P$.\n\nHence, whatever be the position of $T$, $P$ is never less than $P\\lambda^2+Q\\mu^2+R\\nu^2+2p\\mu\\nu+2q\\nu\\lambda+2r\\lambda\\mu$, that is, by Art. 165, $$\\begin{gather*}\nP(\\lambda^2+\\mu^2+\\nu^2) \\text{ is never less than}\n\\\\\nP\\lambda^2+Q\\mu^2+R\\nu^2+2p\\mu\\nu+2q\\nu\\lambda+2r\\lambda\\mu;\n\\end{gather*}$$ therefore\\\n$$(P-Q)\\mu^2+(P-R)\\nu^2\\text{ is never less than }2p\\mu\\nu+2q\\nu\\lambda+2r\\lambda\\mu.$$\n\nNow suppose $\\nu = 0$; then $T$ is situated on the great circle of which $AB$ is a quadrant, and whatever be the position of $T$ we have $$\\begin{align*}\n&& (P-Q)\\mu^2\\text{ not less than } 2r\\lambda\\mu, &&\n\\\\\n&\\text{and therefore }&\n{\\quad$\nP-Q\\text{ not less than } \\dfrac{2r\\lambda}{\\mu}.\n$\\quad} &\\phantom{and therefore }&\n\\end{align*}$$\n\nBut now $\\dfrac{\\lambda}{\\mu}$ is equal to $\\dfrac{\\cos TA}{\\cos TB}$; this is numerically equal to $\\tan TB$, and so may be made numerically as great as we please, positive or negative, by giving a suitable position to $T$. Thus $P-Q$ must in some cases be less than $\\dfrac{2r\\lambda}{\\mu}$ if $r$ have any value different from zero.\n\nTherefore $r$ must $= 0$.\n\nIn like manner we can shew that $q$ must $= 0$.\n\nHence with the specified position for $A$ we arrive at the result that whatever may be the position of $T$ $$\\Sigma = P\\lambda^2+Q\\mu^2+R\\nu^2+2p\\mu\\,\\nu.$$\n\nLet us now suppose that the position of $B$ is so taken that when $T$ coincides with $B$ the value of $\\Sigma$ is as large as it can be for any point in the great circle of which $A$ is the pole. When $T$ is at $B$ we have $\\lambda$ and $\\nu$ each zero, and $\\mu$ equal to unity, so that $\\Sigma$ is then equal to $Q$. For any point in the great circle of which $A$ is the pole $\\lambda$ is zero; and therefore for any such point $$\\begin{gather*}\nQ \\text{ is not less than }Q\\mu^2+R\\nu^2+2p\\mu\\,\\nu,\\\\\n\\\\ \\text{that is, by Art.\\ 165,}\nQ(\\mu^2+\\nu^2) \\text{ is not less than }Q\\mu^2+R\\nu^2+2p\\mu\\,\\nu;\n\\end{gather*}$$ therefore $Q-R$ is not less than $\\dfrac{2p\\mu}{\\nu}$.\n\nHence by the same reasoning as before we must have $p = 0$.\n\nTherefore we see that there must be some position of the triangle $ABC$, such that for every position of $T$ $$\\Sigma = P\\lambda^2+Q\\mu^2+R\\nu^2.$$\n\n##### 175.\n\nThe remarks of Art. 169 are applicable to the result just obtained.\n\n##### 176.\n\nIn the final result of Art. 174 we may shew that $R$ is the least value which $\\Sigma$ can receive. For, by Art. 165, $$\\begin{align*}\n\\Sigma &= P\\lambda^2 + Q\\mu^2 + R(1-\\lambda^2-\\mu^2)\\\\\n       &= R +(P-R)\\lambda^2 + (Q-R)\\mu^2;\n\\end{align*}$$ and by supposition neither $P-R$ nor $Q-R$ is negative, so that $\\Sigma$ cannot be less than $R$.\n\n##### 177.\n\nA sphere is described about a regular polyhedron; from any point on the surface of the sphere arcs are drawn to the solid angles of the polyhedron: it is required to find the sum of the squares of the cosines of these arcs.\n\nWith the notation of Art. 174 we have $$\\Sigma = P\\lambda^2 + Q\\mu^2 + R\\nu^2.$$\n\nWe shall shew that in the present case $P$, $Q$, and $R$ must *all be equal*. For if they are not, one of them must be greater than each of the others, or one of them must be less than each of the others.\n\nIf possible let the former be the case; suppose that $P$ is greater than $Q$, and greater than $R$. $$\\begin{align*}\n&\\text{ Now }& \\Sigma &= P(1 - \\mu^2 - \\nu^2) + Q\\mu^2 + R\\nu^2&\\phantom{ Now}\\\\\n&&& = P - (P - Q)\\mu^2 - (P - R)\\nu^2;\n\\end{align*}$$ this shews that $\\Sigma$ is *always less than* $P$ except when $\\mu = 0$ and $\\nu = 0$: that is $\\Sigma$ *is always less than* $P$ except when $T$ is at $A$, or at the point of the surface which is diametrically opposite to $A$. But by the symmetry of a regular polyhedron there must always be more than *two* positions of $T$ which give the same value to $\\Sigma$. For instance if we take a regular tetrahedron, as there are *four* faces there will be at least *three other* positions of $T$ symmetrical with any assigned position. Hence $P$ cannot be greater than $Q$ and greater than $R$.\n\nIn the same way we can shew that one of the three $P$, $Q$, and $R$, cannot be less than each of the others.\n\nTherefore $P = Q = R$; and therefore by Art. 165 for *every position* of $T$ we have $\\Sigma = P$.\n\nSince $P = Q = R$ each of them $= \\frac{1}{3}(P + Q + R)$ $$\\begin{align*}\n&= \\frac13 \\{{l_1}^2 + {m_1}^2 + {n_1}^2 + {l_2}^2 + {m_2}^2 + {n_2}^2 + \\dots\\}\\\\[1.5ex]\n&= \\frac{S}{3}, \\text{ by Art.\\ 165},\n\\end{align*}$$ where $S$ is the number of the solid angles of the regular polyhedron.\n\n*Thus the sum of the squares of the cosines of the arcs which join any point on the surface of the sphere to the solid angles of the regular polyhedron is one third of the number of the solid angles.*\n\n##### 178.\n\nSince $P=Q=R$ in the preceding Article, it will follow that when the fixed points of Art. 174 are the solid angles of a regular polyhedron, then for *any* position of the spherical triangle $ABC$ we shall have $p=0$, $q=0$, $r=0$.\n\nFor taking any position for the spherical triangle $ABC$ we have $$\\Sigma = P\\lambda^2 + Q\\mu^2 + R\\nu^2 + 2p\\mu\\nu + 2q\\nu\\lambda + 2r\\lambda\\mu;$$ then at $A$ we have $\\mu = 0$ and $\\nu = 0$, so that $P$ is then the value of $\\Sigma$; similarly $Q$ and $R$ are the values of $\\Sigma$ at $B$ and $C$ respectively. But by Art. 177 we have the same value for $\\Sigma$ whatever be the position of $T$; thus $$\\begin{align*}\n&\\phantom{therefore}&&&\\phantom{therefore}&\\\\[-\\baselineskip]\n&&{\\hfil$P = P(\\lambda^2 + \\mu^2 + \\nu^2) + 2p\\mu\\nu + 2q\\nu\\lambda + 2r\\lambda\\mu$;\\hfil}&\\\\\n&\\text{therefore}&{\\hfil$0 = 2p\\mu\\nu + 2q\\nu\\lambda + 2r\\lambda\\mu$.\\hfil}\n\\end{align*}$$\n\nThis holds then for every position of $T$. Suppose $T$ is at *any point* of the great circle of which $A$ is the pole; then $\\lambda = 0$: thus we get $p\\mu\\nu = 0$, and therefore $p=0$. Similarly $q=0$, and $r=0$.\n\n##### 179.\n\nLet there be any number of fixed points on the surface of a sphere; denote them by $H_1$, $H_2$, $H_3,\\dots$; from any two points $T$ and $U$ on the surface of the sphere arcs are drawn to the fixed points: it is required to find the sum of the products of the corresponding cosines, that is $$\\cos TH_1 \\cos UH_1 + \\cos TH_2 \\cos UH_2 + \\cos TH_3 \\cos UH_3 + \\dots.$$\n\nLet the notation be the same as in Art. 174; and let $\\lambda'$, $\\mu'$, $\\nu'$ be the cosines of the arcs which join $U$ with $A$, $B$, $C$ respectively. Then by Art. 166, $$\\begin{gather*}\n\\cos TH_1 \\cos UH_1 = (\\lambda l_1 + \\mu m_1 + \\nu n_1)(\\lambda'l_1 + \\mu'm_1 + \\nu'n_1) =\\\\\n\\lambda\\lambda'{l_1}^2 + \\mu\\mu'{m_1}^2 + \\nu\\nu'{n_1}^2 + (\\lambda\\mu' + \\mu\\lambda')l_1m_1 + (\\mu\\nu' + \\nu\\mu')m_1n_1 + (\\nu\\lambda' + \\lambda\\nu')n_1 l_1.\n\\end{gather*}$$\n\nSimilar results hold for $\\cos TH_2 \\cos UH_2$, $\\cos TH_3 \\cos UH_3$,.... Hence, with the notation of Art. 174, the required sum is $$\\lambda\\lambda'P + \\mu\\mu'Q + \\nu\\nu'R + (\\mu\\nu' + \\nu\\mu')p + (\\nu\\lambda' + \\lambda\\nu')q + (\\lambda\\mu' + \\mu\\lambda')r.$$\n\nNow by properly choosing the position of the triangle $ABC$ we have $p$, $q$, and $r$ each zero as in Art. 174; and thus the required sum becomes $$\\lambda\\lambda'P + \\mu\\mu'Q + \\nu\\nu'R.$$\n\n##### 180.\n\nThe result obtained in Art. 174 may be considered as a particular case of that just given; namely the case in which the points $T$ and $U$ coincide.\n\n##### 181.\n\nA sphere is described about a regular polyhedron; from any two points on the surface of the sphere arcs are drawn to the solid angles of the polyhedron: it is required to find the sum of the products of the corresponding cosines.\n\nWith the notation of Art. 179 we see that the sum is $$\\lambda\\lambda'P + \\mu\\mu'Q + \\nu\\nu'R.$$\n\nAnd here $P = Q = R = \\dfrac{S}{3}$, by Art. 177.\n\nThus the sum $= \\dfrac{S}{3} (\\lambda\\lambda' + \\mu\\mu' + \\nu\\nu') = \\dfrac{S}{3} \\cos TU$.\n\n*Thus the sum of the products of the cosines is equal to the product of the cosine $\\mathrm{TU}$ into a third of the number of the solid angles of the regular polyhedron.*\n\n##### 182.\n\nThe result obtained in Art. 177 may be considered as a particular case of that just given; namely, the case in which the points $T$ and $U$ coincide.\n\n##### 183.\n\nIf $TU$ is a quadrant then $\\cos TU$ is zero, and the sum of the products of the cosines in Art. 181 is zero. The results $p = 0$, $q = 0$, $r = 0$, are easily seen to be all special examples of this particular case.",
-   "text_html": "<h1 id=\"arcs-drawn-to-fixed-points-on-the-surface-of-a-sphere.\">ARCS DRAWN TO FIXED POINTS ON THE SURFACE OF A SPHERE.</h1>\n<h5 id=\"section\">164.</h5>\n<p>In the present Chapter we shall demonstrate various propositions relating to the arcs drawn from any point on the surface of a sphere to certain fixed points on the surface.</p>\n<h5 id=\"section-1\">165.</h5>\n<p><span class=\"math inline\">\\(ABC\\)</span> is a spherical triangle having all its sides quadrants, and therefore all its angles right angles; <span class=\"math inline\">\\(T\\)</span> is any point on the surface of the sphere: to shew that <span class=\"math display\">\\[\\cos^2{TA}+\\cos^2{TB}+\\cos^2{TC}=1.\\]</span></p>\n<figure data-latex-placement=\"htp\">\n<img src=\"images/todhunter-spherical-trigonometry-1886/images/135fc.png\" style=\"width:5cm\" />\n</figure>\n<p>By Art. 37 we have <span class=\"math display\">\\[\\begin{align*}\n\\cos{TA} &amp;= \\cos{AB}\\cos{TB}+\\sin{AB}\\sin{TB}\\cos{TBA}\\\\\n&amp;= \\sin{TB}\\cos{TBA}.\n\\end{align*}\\]</span></p>\n<p>Similarly <span class=\"math inline\">\\(\\displaystyle \\cos{TC}=\\sin{TB}\\cos{TBC}=\\sin{TB}\\sin{TBA}\\)</span>.<br />\nSquare and add; thus <span class=\"math display\">\\[\\cos^2{TA}+\\cos^2{TC}=\\sin^2{TB}=1-\\cos^2{TB};\\]</span> therefore <span class=\"math inline\">\\(\\quad\n\\cos^2{TA}+\\cos^2{TB}+\\cos^2{TC}=1.\n\\quad\\phantom{therefore }\\)</span></p>\n<h5 id=\"section-2\">166.</h5>\n<p><span class=\"math inline\">\\(ABC\\)</span> is a spherical triangle having all its sides quadrants, and therefore all its angles right angles; <span class=\"math inline\">\\(T\\)</span> and <span class=\"math inline\">\\(U\\)</span> are any points on the surface of the sphere: to shew that <span class=\"math display\">\\[\\cos TU = \\cos TA \\cos UA + \\cos TB \\cos UB + \\cos TC \\cos UC.\\]</span></p>\n<figure data-latex-placement=\"htp\">\n<img src=\"images/todhunter-spherical-trigonometry-1886/images/136fc.png\" style=\"width:5cm\" />\n</figure>\n<p>By Art. 37 we have <span class=\"math display\">\\[\\begin{align*}\n{\\quad$\n  \\cos TU = \\cos TA \\cos UA + \\sin TA \\sin UA \\cos TAU,$\n\\quad}\n\\\\\n&amp;\\text{and }&amp;\n  \\cos TAU &amp; = \\cos (BAU - BAT)                        &amp;&amp;\\\\\n&amp;&amp;         &amp; = \\cos BAU \\cos BAT + \\sin BAU \\sin BAT   &amp;&amp;\\\\\n&amp;&amp;         &amp; = \\cos BAU \\cos BAT + \\cos CAU \\cos CAT;  &amp;&amp;\n\\\\\n&amp;\\text{therefore }&amp; {$\n  \\cos TU = \\cos TA \\cos UA $\\quad}\n&amp;\\phantom{therefore}&amp;\n\\\\\n{$\\phantom{therefore}\n  {}+ \\sin TA \\sin UA (\\cos BAU \\cos BAT + \\cos CAU \\cos CAT)\n$;\\quad} &amp;&amp;\n\\end{align*}\\]</span> <span class=\"math display\">\\[\\begin{align*}\n&amp;\\text{and }&amp;\n    \\cos TB &amp; = \\sin TA \\cos BAT, &amp;\\phantom{and }&amp;\\\\\n&amp;&amp;  \\cos UB &amp; = \\sin UA \\cos BAU, &amp;&amp;\\\\\n&amp;&amp;  \\cos TC &amp; = \\sin TA \\cos CAT, &amp;&amp;\\\\\n&amp;&amp;  \\cos UC &amp; = \\sin UA \\cos CAU; &amp;&amp;\n\\end{align*}\\]</span> therefore<br />\n<span class=\"math display\">\\[\\cos TU = \\cos TA \\cos UA + \\cos TB \\cos UB + \\cos TC \\cos UC.\\]</span></p>\n<h5 id=\"section-3\">167.</h5>\n<p>We leave to the student the exercise of shewing that the formulæ of the two preceding Articles are perfectly general for all positions of <span class=\"math inline\">\\(T\\)</span> and <span class=\"math inline\">\\(U\\)</span>, outside or inside the triangle <span class=\"math inline\">\\(ABC\\)</span>: the demonstrations will remain essentially the same for all modifications of the diagrams. The formulæ are of constant application in Analytical Geometry of three dimensions, and are demonstrated in works on that subject; we have given them here as they may be of service in Spherical Trigonometry, and will in fact now be used in obtaining some important results.</p>\n<h5 id=\"section-4\">168.</h5>\n<p>Let there be any number of fixed points on the surface of a sphere; denote them by <span class=\"math inline\">\\(H_1\\)</span>, <span class=\"math inline\">\\(H_2\\)</span>, <span class=\"math inline\">\\(H_3\\)</span>,…. Let <span class=\"math inline\">\\(T\\)</span> be any point on the surface of a sphere. We shall now investigate an expression for the sum of the cosines of the arcs which join <span class=\"math inline\">\\(T\\)</span> with the fixed points.</p>\n<p>Denote the sum by <span class=\"math inline\">\\(\\Sigma\\)</span>; so that <span class=\"math display\">\\[\\Sigma = \\cos TH_1 + \\cos TH_2 + \\cos TH_3 + \\ldots.\\]</span></p>\n<p>Take on the surface of the sphere a fixed spherical triangle <span class=\"math inline\">\\(ABC\\)</span>, having all its sides quadrants, and therefore all its angles right angles.</p>\n<p>Let <span class=\"math inline\">\\(\\lambda\\)</span>, <span class=\"math inline\">\\(\\mu\\)</span>, <span class=\"math inline\">\\(\\nu\\)</span> be the cosines of the arcs which join <span class=\"math inline\">\\(T\\)</span> with <span class=\"math inline\">\\(A\\)</span>, <span class=\"math inline\">\\(B\\)</span>, <span class=\"math inline\">\\(C\\)</span> respectively; let <span class=\"math inline\">\\(l_1\\)</span>, <span class=\"math inline\">\\(m_1\\)</span>, <span class=\"math inline\">\\(n_1\\)</span> be the cosines of the arcs which join <span class=\"math inline\">\\(H_1\\)</span> with <span class=\"math inline\">\\(A\\)</span>, <span class=\"math inline\">\\(B\\)</span>, <span class=\"math inline\">\\(C\\)</span> respectively; and let a similar notation be used with respect to <span class=\"math inline\">\\(H_2\\)</span>, <span class=\"math inline\">\\(H_3\\)</span>,….</p>\n<p>Then, by Art. 166, <span class=\"math display\">\\[\\begin{align*}\n\\Sigma &amp; =l_1\\lambda + m_1\\mu + n_1\\nu + l_2\\lambda + m_2\\mu + n_2\\nu + \\ldots\\\\\n           &amp; = P \\lambda + Q \\mu + R \\nu;\n\\end{align*}\\]</span> where <span class=\"math inline\">\\(P\\)</span> stands for <span class=\"math inline\">\\(l_1 + l_2 + l_3 + \\ldots\\)</span>, with corresponding meanings for <span class=\"math inline\">\\(Q\\)</span> and <span class=\"math inline\">\\(R\\)</span>.</p>\n<h5 id=\"section-5\">169.</h5>\n<p>It will be seen that <span class=\"math inline\">\\(P\\)</span> is the value which <span class=\"math inline\">\\(\\Sigma\\)</span> takes when <span class=\"math inline\">\\(T\\)</span> coincides with <span class=\"math inline\">\\(A\\)</span>, that <span class=\"math inline\">\\(Q\\)</span> is the value which <span class=\"math inline\">\\(\\Sigma\\)</span> takes when <span class=\"math inline\">\\(T\\)</span> coincides with <span class=\"math inline\">\\(B\\)</span>, and that <span class=\"math inline\">\\(R\\)</span> is the value which <span class=\"math inline\">\\(\\Sigma\\)</span> takes when <span class=\"math inline\">\\(T\\)</span> coincides with <span class=\"math inline\">\\(C\\)</span>. Hence the result expresses the general value of <span class=\"math inline\">\\(\\Sigma\\)</span> in terms of the cosines of the arcs which join <span class=\"math inline\">\\(T\\)</span> to the fixed points <span class=\"math inline\">\\(A\\)</span>, <span class=\"math inline\">\\(B\\)</span>, <span class=\"math inline\">\\(C\\)</span>, and the particular values of <span class=\"math inline\">\\(\\Sigma\\)</span> which correspond to these three points.</p>\n<h5 id=\"section-6\">170.</h5>\n<p>We shall now transform the result of Art. 168. <span class=\"math display\">\\[\\begin{align*}\n&amp;\\text{ Let }&amp;&amp;\nG=\\surd{(P^2+Q^2+R^2)};\n&amp;\\phantom{ Let }&amp;\n\\end{align*}\\]</span> and let <span class=\"math inline\">\\(\\alpha\\)</span>, <span class=\"math inline\">\\(\\beta\\)</span>, <span class=\"math inline\">\\(\\gamma\\)</span> be three arcs determined by the equations <span class=\"math display\">\\[\\cos \\alpha = \\frac{P}{G},\\ \\cos \\beta \\frac{Q}{G},\\ \\cos\\gamma \\frac{R}{G};\\]</span> then <span class=\"math inline\">\\(\\Sigma=G(\\lambda \\cos \\alpha + \\mu \\cos \\beta + \\nu \\cos \\gamma)\\)</span>.</p>\n<p>Since <span class=\"math inline\">\\(\\cos^2\\alpha +\\cos^2\\beta+\\cos^2\\gamma = 1\\)</span>, it is obvious that there will be some point on the surface of the sphere, such that <span class=\"math inline\">\\(\\alpha\\)</span>, <span class=\"math inline\">\\(\\beta\\)</span>, <span class=\"math inline\">\\(\\gamma\\)</span> are the arcs which join it to <span class=\"math inline\">\\(A\\)</span>, <span class=\"math inline\">\\(B\\)</span>, <span class=\"math inline\">\\(C\\)</span> respectively; denote this point by <span class=\"math inline\">\\(U\\)</span>: then, by Art. 166, <span class=\"math display\">\\[\\cos TU= \\lambda \\cos \\alpha + \\mu \\cos \\beta + \\nu \\cos \\gamma;\\]</span> and finally <span class=\"math display\">\\[\\Sigma=G \\cos TU.\\]</span></p>\n<p>Thus, whatever may be the position of <span class=\"math inline\">\\(T\\)</span>, the sum of the cosines of the arcs which join <span class=\"math inline\">\\(T\\)</span> to the fixed points varies as the cosine of the single arc which joins <span class=\"math inline\">\\(T\\)</span> to a certain fixed point <span class=\"math inline\">\\(U\\)</span>.</p>\n<p>We might take <span class=\"math inline\">\\(G\\)</span> either positive or negative; it will be convenient to suppose it positive.</p>\n<h5 id=\"section-7\">171.</h5>\n<p>A sphere is described about a regular polyhedron; from any point on the surface of the sphere arcs are drawn to the solid angles of the polyhedron: to shew that the sum of the cosines of these arcs is zero.</p>\n<p>From the preceding Article we see that if <span class=\"math inline\">\\(G\\)</span> is not zero there is <em>one</em> position of <span class=\"math inline\">\\(T\\)</span> which gives to <span class=\"math inline\">\\(\\Sigma\\)</span> its greatest positive value, namely, when <span class=\"math inline\">\\(T\\)</span> coincides with <span class=\"math inline\">\\(U\\)</span>. But by the symmetry of a regular polyhedron there must always be <em>more than one</em> position of <span class=\"math inline\">\\(T\\)</span> which gives the same value to <span class=\"math inline\">\\(\\Sigma\\)</span>. For instance, if we take a regular tetrahedron, as there are four faces there will at least be <em>three other</em> positions of <span class=\"math inline\">\\(T\\)</span> symmetrical with any assigned position.</p>\n<p>Hence <span class=\"math inline\">\\(G\\)</span> must be zero; and thus the <em>sum of the cosines of the arcs which join <span class=\"math inline\">\\(\\mathrm{T}\\)</span> to the solid angles of the regular polyhedron is zero for all positions of <span class=\"math inline\">\\(\\mathrm{T}\\)</span>.</em></p>\n<h5 id=\"section-8\">172.</h5>\n<p>Since <span class=\"math inline\">\\(G=0\\)</span>, it follows that <span class=\"math inline\">\\(P\\)</span>, <span class=\"math inline\">\\(Q\\)</span>, <span class=\"math inline\">\\(R\\)</span> must each be zero; these indeed are particular cases of the general result of Art. 171. See Art. 169.</p>\n<h5 id=\"section-9\">173.</h5>\n<p>The result obtained in Art. 171 may be shewn to hold also in some other cases. Suppose, for instance, that a rectangular parallelepiped is inscribed in a sphere; then the sum of the cosines of the arcs drawn from any point on the surface of the sphere to the solid angles of the parallelepiped is zero. For here it is obvious that there must always be at least <em>one other</em> position of <span class=\"math inline\">\\(T\\)</span> symmetrical with any assigned position. Hence by the argument of Art. 171 we must have <span class=\"math inline\">\\(G = 0\\)</span>.</p>\n<h5 id=\"section-10\">174.</h5>\n<p>Let there be any number of fixed points on the surface of a sphere; denote them by <span class=\"math inline\">\\(H_1\\)</span>, <span class=\"math inline\">\\(H_2\\)</span>, <span class=\"math inline\">\\(H_3,\\dots\\)</span> Let <span class=\"math inline\">\\(T\\)</span> be any point on the surface of the sphere. We shall now investigate a remarkable expression for the sum of the squares of the cosines of the arcs which join <span class=\"math inline\">\\(T\\)</span> with the fixed points.</p>\n<p>Denote the sum by <span class=\"math inline\">\\(\\Sigma\\)</span>; so that <span class=\"math display\">\\[\\Sigma = \\cos^2 TH_1 + \\cos^2 TH_2 + \\cos^2 TH_3 + \\dots.\\]</span></p>\n<p>Take on the surface of the sphere a fixed spherical triangle <span class=\"math inline\">\\(ABC\\)</span>, having all its sides quadrants, and therefore all its angles right angles.</p>\n<p>Let <span class=\"math inline\">\\(\\lambda\\)</span>, <span class=\"math inline\">\\(\\mu\\)</span>, <span class=\"math inline\">\\(\\nu\\)</span> be the cosines of the arcs which join <span class=\"math inline\">\\(T\\)</span> with <span class=\"math inline\">\\(A\\)</span>, <span class=\"math inline\">\\(B\\)</span>, <span class=\"math inline\">\\(C\\)</span> respectively; let <span class=\"math inline\">\\(l_1\\)</span>, <span class=\"math inline\">\\(m_1\\)</span>, <span class=\"math inline\">\\(n_1\\)</span> be the cosines of the angles which join <span class=\"math inline\">\\(H_1\\)</span> with <span class=\"math inline\">\\(A\\)</span>, <span class=\"math inline\">\\(B\\)</span>, <span class=\"math inline\">\\(C\\)</span> respectively; and let a similar notation be used with respect to <span class=\"math inline\">\\(H_2\\)</span>, <span class=\"math inline\">\\(H_3\\)</span>,….</p>\n<p>Then, by Art. 166, <span class=\"math display\">\\[\\begin{gather*}\n\\Sigma = (l_1\\lambda + m_1\\mu + n_1\\nu)^2 + (l_2\\lambda + m_2\\mu + n_2\\nu)^2 + \\dots.\\\\\n\\\\ \\text{Expand each square, and rearrange the terms; thus}\n\\Sigma = P\\lambda^2 + Q\\mu^2 + R\\nu^2 + 2p\\mu\\nu + 2q\\nu\\lambda + 2r\\lambda \\mu,\\\\\n\\text{where $P$ stands for $l_1^2 + l_2^2 + l_3^2 + \\dots$,}\\\\\n\\text{and $p$ stands for $m_1n_1 + m_2n_2 + m_3n_3 + \\dots$,}\n\\end{gather*}\\]</span> with corresponding meanings for <span class=\"math inline\">\\(Q\\)</span> and <span class=\"math inline\">\\(q\\)</span>, and for <span class=\"math inline\">\\(R\\)</span> and <span class=\"math inline\">\\(r\\)</span>.</p>\n<p>We shall now shew that there is some position of the triangle <span class=\"math inline\">\\(ABC\\)</span> for which <span class=\"math inline\">\\(p\\)</span>, <span class=\"math inline\">\\(q\\)</span>, and <span class=\"math inline\">\\(r\\)</span> will vanish; so that we shall then have <span class=\"math display\">\\[\\Sigma=P\\lambda^2+Q\\mu^2+R\\nu^2.\\]</span></p>\n<p>Since <span class=\"math inline\">\\(\\Sigma\\)</span> is always a finite positive quantity there must be some position, or some positions, of <span class=\"math inline\">\\(T\\)</span> for which <span class=\"math inline\">\\(\\Sigma\\)</span> has the largest value which it can receive. Suppose that <span class=\"math inline\">\\(A\\)</span> has this position, or one of these positions if there are more than one. When <span class=\"math inline\">\\(T\\)</span> is at <span class=\"math inline\">\\(A\\)</span> we have <span class=\"math inline\">\\(\\mu\\)</span> and <span class=\"math inline\">\\(\\nu\\)</span> each zero, and <span class=\"math inline\">\\(\\lambda\\)</span> equal to unity, so that <span class=\"math inline\">\\(\\Sigma\\)</span> is then equal to <span class=\"math inline\">\\(P\\)</span>.</p>\n<p>Hence, whatever be the position of <span class=\"math inline\">\\(T\\)</span>, <span class=\"math inline\">\\(P\\)</span> is never less than <span class=\"math inline\">\\(P\\lambda^2+Q\\mu^2+R\\nu^2+2p\\mu\\nu+2q\\nu\\lambda+2r\\lambda\\mu\\)</span>, that is, by Art. 165, <span class=\"math display\">\\[\\begin{gather*}\nP(\\lambda^2+\\mu^2+\\nu^2) \\text{ is never less than}\n\\\\\nP\\lambda^2+Q\\mu^2+R\\nu^2+2p\\mu\\nu+2q\\nu\\lambda+2r\\lambda\\mu;\n\\end{gather*}\\]</span> therefore<br />\n<span class=\"math display\">\\[(P-Q)\\mu^2+(P-R)\\nu^2\\text{ is never less than }2p\\mu\\nu+2q\\nu\\lambda+2r\\lambda\\mu.\\]</span></p>\n<p>Now suppose <span class=\"math inline\">\\(\\nu = 0\\)</span>; then <span class=\"math inline\">\\(T\\)</span> is situated on the great circle of which <span class=\"math inline\">\\(AB\\)</span> is a quadrant, and whatever be the position of <span class=\"math inline\">\\(T\\)</span> we have <span class=\"math display\">\\[\\begin{align*}\n&amp;&amp; (P-Q)\\mu^2\\text{ not less than } 2r\\lambda\\mu, &amp;&amp;\n\\\\\n&amp;\\text{and therefore }&amp;\n{\\quad$\nP-Q\\text{ not less than } \\dfrac{2r\\lambda}{\\mu}.\n$\\quad} &amp;\\phantom{and therefore }&amp;\n\\end{align*}\\]</span></p>\n<p>But now <span class=\"math inline\">\\(\\dfrac{\\lambda}{\\mu}\\)</span> is equal to <span class=\"math inline\">\\(\\dfrac{\\cos TA}{\\cos TB}\\)</span>; this is numerically equal to <span class=\"math inline\">\\(\\tan TB\\)</span>, and so may be made numerically as great as we please, positive or negative, by giving a suitable position to <span class=\"math inline\">\\(T\\)</span>. Thus <span class=\"math inline\">\\(P-Q\\)</span> must in some cases be less than <span class=\"math inline\">\\(\\dfrac{2r\\lambda}{\\mu}\\)</span> if <span class=\"math inline\">\\(r\\)</span> have any value different from zero.</p>\n<p>Therefore <span class=\"math inline\">\\(r\\)</span> must <span class=\"math inline\">\\(= 0\\)</span>.</p>\n<p>In like manner we can shew that <span class=\"math inline\">\\(q\\)</span> must <span class=\"math inline\">\\(= 0\\)</span>.</p>\n<p>Hence with the specified position for <span class=\"math inline\">\\(A\\)</span> we arrive at the result that whatever may be the position of <span class=\"math inline\">\\(T\\)</span> <span class=\"math display\">\\[\\Sigma = P\\lambda^2+Q\\mu^2+R\\nu^2+2p\\mu\\,\\nu.\\]</span></p>\n<p>Let us now suppose that the position of <span class=\"math inline\">\\(B\\)</span> is so taken that when <span class=\"math inline\">\\(T\\)</span> coincides with <span class=\"math inline\">\\(B\\)</span> the value of <span class=\"math inline\">\\(\\Sigma\\)</span> is as large as it can be for any point in the great circle of which <span class=\"math inline\">\\(A\\)</span> is the pole. When <span class=\"math inline\">\\(T\\)</span> is at <span class=\"math inline\">\\(B\\)</span> we have <span class=\"math inline\">\\(\\lambda\\)</span> and <span class=\"math inline\">\\(\\nu\\)</span> each zero, and <span class=\"math inline\">\\(\\mu\\)</span> equal to unity, so that <span class=\"math inline\">\\(\\Sigma\\)</span> is then equal to <span class=\"math inline\">\\(Q\\)</span>. For any point in the great circle of which <span class=\"math inline\">\\(A\\)</span> is the pole <span class=\"math inline\">\\(\\lambda\\)</span> is zero; and therefore for any such point <span class=\"math display\">\\[\\begin{gather*}\nQ \\text{ is not less than }Q\\mu^2+R\\nu^2+2p\\mu\\,\\nu,\\\\\n\\\\ \\text{that is, by Art.\\ 165,}\nQ(\\mu^2+\\nu^2) \\text{ is not less than }Q\\mu^2+R\\nu^2+2p\\mu\\,\\nu;\n\\end{gather*}\\]</span> therefore <span class=\"math inline\">\\(Q-R\\)</span> is not less than <span class=\"math inline\">\\(\\dfrac{2p\\mu}{\\nu}\\)</span>.</p>\n<p>Hence by the same reasoning as before we must have <span class=\"math inline\">\\(p = 0\\)</span>.</p>\n<p>Therefore we see that there must be some position of the triangle <span class=\"math inline\">\\(ABC\\)</span>, such that for every position of <span class=\"math inline\">\\(T\\)</span> <span class=\"math display\">\\[\\Sigma = P\\lambda^2+Q\\mu^2+R\\nu^2.\\]</span></p>\n<h5 id=\"section-11\">175.</h5>\n<p>The remarks of Art. 169 are applicable to the result just obtained.</p>\n<h5 id=\"section-12\">176.</h5>\n<p>In the final result of Art. 174 we may shew that <span class=\"math inline\">\\(R\\)</span> is the least value which <span class=\"math inline\">\\(\\Sigma\\)</span> can receive. For, by Art. 165, <span class=\"math display\">\\[\\begin{align*}\n\\Sigma &amp;= P\\lambda^2 + Q\\mu^2 + R(1-\\lambda^2-\\mu^2)\\\\\n       &amp;= R +(P-R)\\lambda^2 + (Q-R)\\mu^2;\n\\end{align*}\\]</span> and by supposition neither <span class=\"math inline\">\\(P-R\\)</span> nor <span class=\"math inline\">\\(Q-R\\)</span> is negative, so that <span class=\"math inline\">\\(\\Sigma\\)</span> cannot be less than <span class=\"math inline\">\\(R\\)</span>.</p>\n<h5 id=\"section-13\">177.</h5>\n<p>A sphere is described about a regular polyhedron; from any point on the surface of the sphere arcs are drawn to the solid angles of the polyhedron: it is required to find the sum of the squares of the cosines of these arcs.</p>\n<p>With the notation of Art. 174 we have <span class=\"math display\">\\[\\Sigma = P\\lambda^2 + Q\\mu^2 + R\\nu^2.\\]</span></p>\n<p>We shall shew that in the present case <span class=\"math inline\">\\(P\\)</span>, <span class=\"math inline\">\\(Q\\)</span>, and <span class=\"math inline\">\\(R\\)</span> must <em>all be equal</em>. For if they are not, one of them must be greater than each of the others, or one of them must be less than each of the others.</p>\n<p>If possible let the former be the case; suppose that <span class=\"math inline\">\\(P\\)</span> is greater than <span class=\"math inline\">\\(Q\\)</span>, and greater than <span class=\"math inline\">\\(R\\)</span>. <span class=\"math display\">\\[\\begin{align*}\n&amp;\\text{ Now }&amp; \\Sigma &amp;= P(1 - \\mu^2 - \\nu^2) + Q\\mu^2 + R\\nu^2&amp;\\phantom{ Now}\\\\\n&amp;&amp;&amp; = P - (P - Q)\\mu^2 - (P - R)\\nu^2;\n\\end{align*}\\]</span> this shews that <span class=\"math inline\">\\(\\Sigma\\)</span> is <em>always less than</em> <span class=\"math inline\">\\(P\\)</span> except when <span class=\"math inline\">\\(\\mu = 0\\)</span> and <span class=\"math inline\">\\(\\nu = 0\\)</span>: that is <span class=\"math inline\">\\(\\Sigma\\)</span> <em>is always less than</em> <span class=\"math inline\">\\(P\\)</span> except when <span class=\"math inline\">\\(T\\)</span> is at <span class=\"math inline\">\\(A\\)</span>, or at the point of the surface which is diametrically opposite to <span class=\"math inline\">\\(A\\)</span>. But by the symmetry of a regular polyhedron there must always be more than <em>two</em> positions of <span class=\"math inline\">\\(T\\)</span> which give the same value to <span class=\"math inline\">\\(\\Sigma\\)</span>. For instance if we take a regular tetrahedron, as there are <em>four</em> faces there will be at least <em>three other</em> positions of <span class=\"math inline\">\\(T\\)</span> symmetrical with any assigned position. Hence <span class=\"math inline\">\\(P\\)</span> cannot be greater than <span class=\"math inline\">\\(Q\\)</span> and greater than <span class=\"math inline\">\\(R\\)</span>.</p>\n<p>In the same way we can shew that one of the three <span class=\"math inline\">\\(P\\)</span>, <span class=\"math inline\">\\(Q\\)</span>, and <span class=\"math inline\">\\(R\\)</span>, cannot be less than each of the others.</p>\n<p>Therefore <span class=\"math inline\">\\(P = Q = R\\)</span>; and therefore by Art. 165 for <em>every position</em> of <span class=\"math inline\">\\(T\\)</span> we have <span class=\"math inline\">\\(\\Sigma = P\\)</span>.</p>\n<p>Since <span class=\"math inline\">\\(P = Q = R\\)</span> each of them <span class=\"math inline\">\\(= \\frac{1}{3}(P + Q + R)\\)</span> <span class=\"math display\">\\[\\begin{align*}\n&amp;= \\frac13 \\{{l_1}^2 + {m_1}^2 + {n_1}^2 + {l_2}^2 + {m_2}^2 + {n_2}^2 + \\dots\\}\\\\[1.5ex]\n&amp;= \\frac{S}{3}, \\text{ by Art.\\ 165},\n\\end{align*}\\]</span> where <span class=\"math inline\">\\(S\\)</span> is the number of the solid angles of the regular polyhedron.</p>\n<p><em>Thus the sum of the squares of the cosines of the arcs which join any point on the surface of the sphere to the solid angles of the regular polyhedron is one third of the number of the solid angles.</em></p>\n<h5 id=\"section-14\">178.</h5>\n<p>Since <span class=\"math inline\">\\(P=Q=R\\)</span> in the preceding Article, it will follow that when the fixed points of Art. 174 are the solid angles of a regular polyhedron, then for <em>any</em> position of the spherical triangle <span class=\"math inline\">\\(ABC\\)</span> we shall have <span class=\"math inline\">\\(p=0\\)</span>, <span class=\"math inline\">\\(q=0\\)</span>, <span class=\"math inline\">\\(r=0\\)</span>.</p>\n<p>For taking any position for the spherical triangle <span class=\"math inline\">\\(ABC\\)</span> we have <span class=\"math display\">\\[\\Sigma = P\\lambda^2 + Q\\mu^2 + R\\nu^2 + 2p\\mu\\nu + 2q\\nu\\lambda + 2r\\lambda\\mu;\\]</span> then at <span class=\"math inline\">\\(A\\)</span> we have <span class=\"math inline\">\\(\\mu = 0\\)</span> and <span class=\"math inline\">\\(\\nu = 0\\)</span>, so that <span class=\"math inline\">\\(P\\)</span> is then the value of <span class=\"math inline\">\\(\\Sigma\\)</span>; similarly <span class=\"math inline\">\\(Q\\)</span> and <span class=\"math inline\">\\(R\\)</span> are the values of <span class=\"math inline\">\\(\\Sigma\\)</span> at <span class=\"math inline\">\\(B\\)</span> and <span class=\"math inline\">\\(C\\)</span> respectively. But by Art. 177 we have the same value for <span class=\"math inline\">\\(\\Sigma\\)</span> whatever be the position of <span class=\"math inline\">\\(T\\)</span>; thus <span class=\"math display\">\\[\\begin{align*}\n&amp;\\phantom{therefore}&amp;&amp;&amp;\\phantom{therefore}&amp;\\\\[-\\baselineskip]\n&amp;&amp;{\\hfil$P = P(\\lambda^2 + \\mu^2 + \\nu^2) + 2p\\mu\\nu + 2q\\nu\\lambda + 2r\\lambda\\mu$;\\hfil}&amp;\\\\\n&amp;\\text{therefore}&amp;{\\hfil$0 = 2p\\mu\\nu + 2q\\nu\\lambda + 2r\\lambda\\mu$.\\hfil}\n\\end{align*}\\]</span></p>\n<p>This holds then for every position of <span class=\"math inline\">\\(T\\)</span>. Suppose <span class=\"math inline\">\\(T\\)</span> is at <em>any point</em> of the great circle of which <span class=\"math inline\">\\(A\\)</span> is the pole; then <span class=\"math inline\">\\(\\lambda = 0\\)</span>: thus we get <span class=\"math inline\">\\(p\\mu\\nu = 0\\)</span>, and therefore <span class=\"math inline\">\\(p=0\\)</span>. Similarly <span class=\"math inline\">\\(q=0\\)</span>, and <span class=\"math inline\">\\(r=0\\)</span>.</p>\n<h5 id=\"section-15\">179.</h5>\n<p>Let there be any number of fixed points on the surface of a sphere; denote them by <span class=\"math inline\">\\(H_1\\)</span>, <span class=\"math inline\">\\(H_2\\)</span>, <span class=\"math inline\">\\(H_3,\\dots\\)</span>; from any two points <span class=\"math inline\">\\(T\\)</span> and <span class=\"math inline\">\\(U\\)</span> on the surface of the sphere arcs are drawn to the fixed points: it is required to find the sum of the products of the corresponding cosines, that is <span class=\"math display\">\\[\\cos TH_1 \\cos UH_1 + \\cos TH_2 \\cos UH_2 + \\cos TH_3 \\cos UH_3 + \\dots.\\]</span></p>\n<p>Let the notation be the same as in Art. 174; and let <span class=\"math inline\">\\(\\lambda&#39;\\)</span>, <span class=\"math inline\">\\(\\mu&#39;\\)</span>, <span class=\"math inline\">\\(\\nu&#39;\\)</span> be the cosines of the arcs which join <span class=\"math inline\">\\(U\\)</span> with <span class=\"math inline\">\\(A\\)</span>, <span class=\"math inline\">\\(B\\)</span>, <span class=\"math inline\">\\(C\\)</span> respectively. Then by Art. 166, <span class=\"math display\">\\[\\begin{gather*}\n\\cos TH_1 \\cos UH_1 = (\\lambda l_1 + \\mu m_1 + \\nu n_1)(\\lambda&#39;l_1 + \\mu&#39;m_1 + \\nu&#39;n_1) =\\\\\n\\lambda\\lambda&#39;{l_1}^2 + \\mu\\mu&#39;{m_1}^2 + \\nu\\nu&#39;{n_1}^2 + (\\lambda\\mu&#39; + \\mu\\lambda&#39;)l_1m_1 + (\\mu\\nu&#39; + \\nu\\mu&#39;)m_1n_1 + (\\nu\\lambda&#39; + \\lambda\\nu&#39;)n_1 l_1.\n\\end{gather*}\\]</span></p>\n<p>Similar results hold for <span class=\"math inline\">\\(\\cos TH_2 \\cos UH_2\\)</span>, <span class=\"math inline\">\\(\\cos TH_3 \\cos UH_3\\)</span>,…. Hence, with the notation of Art. 174, the required sum is <span class=\"math display\">\\[\\lambda\\lambda&#39;P + \\mu\\mu&#39;Q + \\nu\\nu&#39;R + (\\mu\\nu&#39; + \\nu\\mu&#39;)p + (\\nu\\lambda&#39; + \\lambda\\nu&#39;)q + (\\lambda\\mu&#39; + \\mu\\lambda&#39;)r.\\]</span></p>\n<p>Now by properly choosing the position of the triangle <span class=\"math inline\">\\(ABC\\)</span> we have <span class=\"math inline\">\\(p\\)</span>, <span class=\"math inline\">\\(q\\)</span>, and <span class=\"math inline\">\\(r\\)</span> each zero as in Art. 174; and thus the required sum becomes <span class=\"math display\">\\[\\lambda\\lambda&#39;P + \\mu\\mu&#39;Q + \\nu\\nu&#39;R.\\]</span></p>\n<h5 id=\"section-16\">180.</h5>\n<p>The result obtained in Art. 174 may be considered as a particular case of that just given; namely the case in which the points <span class=\"math inline\">\\(T\\)</span> and <span class=\"math inline\">\\(U\\)</span> coincide.</p>\n<h5 id=\"section-17\">181.</h5>\n<p>A sphere is described about a regular polyhedron; from any two points on the surface of the sphere arcs are drawn to the solid angles of the polyhedron: it is required to find the sum of the products of the corresponding cosines.</p>\n<p>With the notation of Art. 179 we see that the sum is <span class=\"math display\">\\[\\lambda\\lambda&#39;P + \\mu\\mu&#39;Q + \\nu\\nu&#39;R.\\]</span></p>\n<p>And here <span class=\"math inline\">\\(P = Q = R = \\dfrac{S}{3}\\)</span>, by Art. 177.</p>\n<p>Thus the sum <span class=\"math inline\">\\(= \\dfrac{S}{3} (\\lambda\\lambda&#39; + \\mu\\mu&#39; + \\nu\\nu&#39;) = \\dfrac{S}{3} \\cos TU\\)</span>.</p>\n<p><em>Thus the sum of the products of the cosines is equal to the product of the cosine <span class=\"math inline\">\\(\\mathrm{TU}\\)</span> into a third of the number of the solid angles of the regular polyhedron.</em></p>\n<h5 id=\"section-18\">182.</h5>\n<p>The result obtained in Art. 177 may be considered as a particular case of that just given; namely, the case in which the points <span class=\"math inline\">\\(T\\)</span> and <span class=\"math inline\">\\(U\\)</span> coincide.</p>\n<h5 id=\"section-19\">183.</h5>\n<p>If <span class=\"math inline\">\\(TU\\)</span> is a quadrant then <span class=\"math inline\">\\(\\cos TU\\)</span> is zero, and the sum of the products of the cosines in Art. 181 is zero. The results <span class=\"math inline\">\\(p = 0\\)</span>, <span class=\"math inline\">\\(q = 0\\)</span>, <span class=\"math inline\">\\(r = 0\\)</span>, are easily seen to be all special examples of this particular case.</p>",
+   "text_markdown": "# ARCS DRAWN TO FIXED POINTS ON THE SURFACE OF A SPHERE.\n\n##### 164.\n\nIn the present Chapter we shall demonstrate various propositions relating to the arcs drawn from any point on the surface of a sphere to certain fixed points on the surface.\n\n##### 165.\n\n$ABC$ is a spherical triangle having all its sides quadrants, and therefore all its angles right angles; $T$ is any point on the surface of the sphere: to shew that $$\\cos^2{TA}+\\cos^2{TB}+\\cos^2{TC}=1.$$\n\n<figure data-latex-placement=\"htp\">\n<img src=\"images/135fc\" style=\"width:5cm\" />\n</figure>\n\nBy Art. 37 we have $$\\begin{align*}\n\\cos{TA} &= \\cos{AB}\\cos{TB}+\\sin{AB}\\sin{TB}\\cos{TBA}\\\\\n&= \\sin{TB}\\cos{TBA}.\n\\end{align*}$$\n\nSimilarly $\\displaystyle \\cos{TC}=\\sin{TB}\\cos{TBC}=\\sin{TB}\\sin{TBA}$.\\\nSquare and add; thus $$\\cos^2{TA}+\\cos^2{TC}=\\sin^2{TB}=1-\\cos^2{TB};$$ therefore $\\quad\n\\cos^2{TA}+\\cos^2{TB}+\\cos^2{TC}=1.\n\\quad\\phantom{therefore }$\n\n##### 166.\n\n$ABC$ is a spherical triangle having all its sides quadrants, and therefore all its angles right angles; $T$ and $U$ are any points on the surface of the sphere: to shew that $$\\cos TU = \\cos TA \\cos UA + \\cos TB \\cos UB + \\cos TC \\cos UC.$$\n\n<figure data-latex-placement=\"htp\">\n<img src=\"images/136fc\" style=\"width:5cm\" />\n</figure>\n\nBy Art. 37 we have $$\\begin{align*}\n{\\quad$\n  \\cos TU = \\cos TA \\cos UA + \\sin TA \\sin UA \\cos TAU,$\n\\quad}\n\\\\\n&\\text{and }&\n  \\cos TAU & = \\cos (BAU - BAT)                        &&\\\\\n&&         & = \\cos BAU \\cos BAT + \\sin BAU \\sin BAT   &&\\\\\n&&         & = \\cos BAU \\cos BAT + \\cos CAU \\cos CAT;  &&\n\\\\\n&\\text{therefore }& {$\n  \\cos TU = \\cos TA \\cos UA $\\quad}\n&\\phantom{therefore}&\n\\\\\n{$\\phantom{therefore}\n  {}+ \\sin TA \\sin UA (\\cos BAU \\cos BAT + \\cos CAU \\cos CAT)\n$;\\quad} &&\n\\end{align*}$$ $$\\begin{align*}\n&\\text{and }&\n    \\cos TB & = \\sin TA \\cos BAT, &\\phantom{and }&\\\\\n&&  \\cos UB & = \\sin UA \\cos BAU, &&\\\\\n&&  \\cos TC & = \\sin TA \\cos CAT, &&\\\\\n&&  \\cos UC & = \\sin UA \\cos CAU; &&\n\\end{align*}$$ therefore\\\n$$\\cos TU = \\cos TA \\cos UA + \\cos TB \\cos UB + \\cos TC \\cos UC.$$\n\n##### 167.\n\nWe leave to the student the exercise of shewing that the formulæ of the two preceding Articles are perfectly general for all positions of $T$ and $U$, outside or inside the triangle $ABC$: the demonstrations will remain essentially the same for all modifications of the diagrams. The formulæ are of constant application in Analytical Geometry of three dimensions, and are demonstrated in works on that subject; we have given them here as they may be of service in Spherical Trigonometry, and will in fact now be used in obtaining some important results.\n\n##### 168.\n\nLet there be any number of fixed points on the surface of a sphere; denote them by $H_1$, $H_2$, $H_3$,.... Let $T$ be any point on the surface of a sphere. We shall now investigate an expression for the sum of the cosines of the arcs which join $T$ with the fixed points.\n\nDenote the sum by $\\Sigma$; so that $$\\Sigma = \\cos TH_1 + \\cos TH_2 + \\cos TH_3 + \\ldots.$$\n\nTake on the surface of the sphere a fixed spherical triangle $ABC$, having all its sides quadrants, and therefore all its angles right angles.\n\nLet $\\lambda$, $\\mu$, $\\nu$ be the cosines of the arcs which join $T$ with $A$, $B$, $C$ respectively; let $l_1$, $m_1$, $n_1$ be the cosines of the arcs which join $H_1$ with $A$, $B$, $C$ respectively; and let a similar notation be used with respect to $H_2$, $H_3$,....\n\nThen, by Art. 166, $$\\begin{align*}\n\\Sigma & =l_1\\lambda + m_1\\mu + n_1\\nu + l_2\\lambda + m_2\\mu + n_2\\nu + \\ldots\\\\\n           & = P \\lambda + Q \\mu + R \\nu;\n\\end{align*}$$ where $P$ stands for $l_1 + l_2 + l_3 + \\ldots$, with corresponding meanings for $Q$ and $R$.\n\n##### 169.\n\nIt will be seen that $P$ is the value which $\\Sigma$ takes when $T$ coincides with $A$, that $Q$ is the value which $\\Sigma$ takes when $T$ coincides with $B$, and that $R$ is the value which $\\Sigma$ takes when $T$ coincides with $C$. Hence the result expresses the general value of $\\Sigma$ in terms of the cosines of the arcs which join $T$ to the fixed points $A$, $B$, $C$, and the particular values of $\\Sigma$ which correspond to these three points.\n\n##### 170.\n\nWe shall now transform the result of Art. 168. $$\\begin{align*}\n&\\text{ Let }&&\nG=\\surd{(P^2+Q^2+R^2)};\n&\\phantom{ Let }&\n\\end{align*}$$ and let $\\alpha$, $\\beta$, $\\gamma$ be three arcs determined by the equations $$\\cos \\alpha = \\frac{P}{G},\\ \\cos \\beta \\frac{Q}{G},\\ \\cos\\gamma \\frac{R}{G};$$ then $\\Sigma=G(\\lambda \\cos \\alpha + \\mu \\cos \\beta + \\nu \\cos \\gamma)$.\n\nSince $\\cos^2\\alpha +\\cos^2\\beta+\\cos^2\\gamma = 1$, it is obvious that there will be some point on the surface of the sphere, such that $\\alpha$, $\\beta$, $\\gamma$ are the arcs which join it to $A$, $B$, $C$ respectively; denote this point by $U$: then, by Art. 166, $$\\cos TU= \\lambda \\cos \\alpha + \\mu \\cos \\beta + \\nu \\cos \\gamma;$$ and finally $$\\Sigma=G \\cos TU.$$\n\nThus, whatever may be the position of $T$, the sum of the cosines of the arcs which join $T$ to the fixed points varies as the cosine of the single arc which joins $T$ to a certain fixed point $U$.\n\nWe might take $G$ either positive or negative; it will be convenient to suppose it positive.\n\n##### 171.\n\nA sphere is described about a regular polyhedron; from any point on the surface of the sphere arcs are drawn to the solid angles of the polyhedron: to shew that the sum of the cosines of these arcs is zero.\n\nFrom the preceding Article we see that if $G$ is not zero there is *one* position of $T$ which gives to $\\Sigma$ its greatest positive value, namely, when $T$ coincides with $U$. But by the symmetry of a regular polyhedron there must always be *more than one* position of $T$ which gives the same value to $\\Sigma$. For instance, if we take a regular tetrahedron, as there are four faces there will at least be *three other* positions of $T$ symmetrical with any assigned position.\n\nHence $G$ must be zero; and thus the *sum of the cosines of the arcs which join $\\mathrm{T}$ to the solid angles of the regular polyhedron is zero for all positions of $\\mathrm{T}$.*\n\n##### 172.\n\nSince $G=0$, it follows that $P$, $Q$, $R$ must each be zero; these indeed are particular cases of the general result of Art. 171. See Art. 169.\n\n##### 173.\n\nThe result obtained in Art. 171 may be shewn to hold also in some other cases. Suppose, for instance, that a rectangular parallelepiped is inscribed in a sphere; then the sum of the cosines of the arcs drawn from any point on the surface of the sphere to the solid angles of the parallelepiped is zero. For here it is obvious that there must always be at least *one other* position of $T$ symmetrical with any assigned position. Hence by the argument of Art. 171 we must have $G = 0$.\n\n##### 174.\n\nLet there be any number of fixed points on the surface of a sphere; denote them by $H_1$, $H_2$, $H_3,\\dots$ Let $T$ be any point on the surface of the sphere. We shall now investigate a remarkable expression for the sum of the squares of the cosines of the arcs which join $T$ with the fixed points.\n\nDenote the sum by $\\Sigma$; so that $$\\Sigma = \\cos^2 TH_1 + \\cos^2 TH_2 + \\cos^2 TH_3 + \\dots.$$\n\nTake on the surface of the sphere a fixed spherical triangle $ABC$, having all its sides quadrants, and therefore all its angles right angles.\n\nLet $\\lambda$, $\\mu$, $\\nu$ be the cosines of the arcs which join $T$ with $A$, $B$, $C$ respectively; let $l_1$, $m_1$, $n_1$ be the cosines of the angles which join $H_1$ with $A$, $B$, $C$ respectively; and let a similar notation be used with respect to $H_2$, $H_3$,....\n\nThen, by Art. 166, $$\\begin{gather*}\n\\Sigma = (l_1\\lambda + m_1\\mu + n_1\\nu)^2 + (l_2\\lambda + m_2\\mu + n_2\\nu)^2 + \\dots.\\\\\n\\\\ \\text{Expand each square, and rearrange the terms; thus}\n\\Sigma = P\\lambda^2 + Q\\mu^2 + R\\nu^2 + 2p\\mu\\nu + 2q\\nu\\lambda + 2r\\lambda \\mu,\\\\\n\\text{where $P$ stands for $l_1^2 + l_2^2 + l_3^2 + \\dots$,}\\\\\n\\text{and $p$ stands for $m_1n_1 + m_2n_2 + m_3n_3 + \\dots$,}\n\\end{gather*}$$ with corresponding meanings for $Q$ and $q$, and for $R$ and $r$.\n\nWe shall now shew that there is some position of the triangle $ABC$ for which $p$, $q$, and $r$ will vanish; so that we shall then have $$\\Sigma=P\\lambda^2+Q\\mu^2+R\\nu^2.$$\n\nSince $\\Sigma$ is always a finite positive quantity there must be some position, or some positions, of $T$ for which $\\Sigma$ has the largest value which it can receive. Suppose that $A$ has this position, or one of these positions if there are more than one. When $T$ is at $A$ we have $\\mu$ and $\\nu$ each zero, and $\\lambda$ equal to unity, so that $\\Sigma$ is then equal to $P$.\n\nHence, whatever be the position of $T$, $P$ is never less than $P\\lambda^2+Q\\mu^2+R\\nu^2+2p\\mu\\nu+2q\\nu\\lambda+2r\\lambda\\mu$, that is, by Art. 165, $$\\begin{gather*}\nP(\\lambda^2+\\mu^2+\\nu^2) \\text{ is never less than}\n\\\\\nP\\lambda^2+Q\\mu^2+R\\nu^2+2p\\mu\\nu+2q\\nu\\lambda+2r\\lambda\\mu;\n\\end{gather*}$$ therefore\\\n$$(P-Q)\\mu^2+(P-R)\\nu^2\\text{ is never less than }2p\\mu\\nu+2q\\nu\\lambda+2r\\lambda\\mu.$$\n\nNow suppose $\\nu = 0$; then $T$ is situated on the great circle of which $AB$ is a quadrant, and whatever be the position of $T$ we have $$\\begin{align*}\n&& (P-Q)\\mu^2\\text{ not less than } 2r\\lambda\\mu, &&\n\\\\\n&\\text{and therefore }&\n{\\quad$\nP-Q\\text{ not less than } \\dfrac{2r\\lambda}{\\mu}.\n$\\quad} &\\phantom{and therefore }&\n\\end{align*}$$\n\nBut now $\\dfrac{\\lambda}{\\mu}$ is equal to $\\dfrac{\\cos TA}{\\cos TB}$; this is numerically equal to $\\tan TB$, and so may be made numerically as great as we please, positive or negative, by giving a suitable position to $T$. Thus $P-Q$ must in some cases be less than $\\dfrac{2r\\lambda}{\\mu}$ if $r$ have any value different from zero.\n\nTherefore $r$ must $= 0$.\n\nIn like manner we can shew that $q$ must $= 0$.\n\nHence with the specified position for $A$ we arrive at the result that whatever may be the position of $T$ $$\\Sigma = P\\lambda^2+Q\\mu^2+R\\nu^2+2p\\mu\\,\\nu.$$\n\nLet us now suppose that the position of $B$ is so taken that when $T$ coincides with $B$ the value of $\\Sigma$ is as large as it can be for any point in the great circle of which $A$ is the pole. When $T$ is at $B$ we have $\\lambda$ and $\\nu$ each zero, and $\\mu$ equal to unity, so that $\\Sigma$ is then equal to $Q$. For any point in the great circle of which $A$ is the pole $\\lambda$ is zero; and therefore for any such point $$\\begin{gather*}\nQ \\text{ is not less than }Q\\mu^2+R\\nu^2+2p\\mu\\,\\nu,\\\\\n\\\\ \\text{that is, by Art.\\ 165,}\nQ(\\mu^2+\\nu^2) \\text{ is not less than }Q\\mu^2+R\\nu^2+2p\\mu\\,\\nu;\n\\end{gather*}$$ therefore $Q-R$ is not less than $\\dfrac{2p\\mu}{\\nu}$.\n\nHence by the same reasoning as before we must have $p = 0$.\n\nTherefore we see that there must be some position of the triangle $ABC$, such that for every position of $T$ $$\\Sigma = P\\lambda^2+Q\\mu^2+R\\nu^2.$$\n\n##### 175.\n\nThe remarks of Art. 169 are applicable to the result just obtained.\n\n##### 176.\n\nIn the final result of Art. 174 we may shew that $R$ is the least value which $\\Sigma$ can receive. For, by Art. 165, $$\\begin{align*}\n\\Sigma &= P\\lambda^2 + Q\\mu^2 + R(1-\\lambda^2-\\mu^2)\\\\\n       &= R +(P-R)\\lambda^2 + (Q-R)\\mu^2;\n\\end{align*}$$ and by supposition neither $P-R$ nor $Q-R$ is negative, so that $\\Sigma$ cannot be less than $R$.\n\n##### 177.\n\nA sphere is described about a regular polyhedron; from any point on the surface of the sphere arcs are drawn to the solid angles of the polyhedron: it is required to find the sum of the squares of the cosines of these arcs.\n\nWith the notation of Art. 174 we have $$\\Sigma = P\\lambda^2 + Q\\mu^2 + R\\nu^2.$$\n\nWe shall shew that in the present case $P$, $Q$, and $R$ must *all be equal*. For if they are not, one of them must be greater than each of the others, or one of them must be less than each of the others.\n\nIf possible let the former be the case; suppose that $P$ is greater than $Q$, and greater than $R$. $$\\begin{align*}\n&\\text{ Now }& \\Sigma &= P(1 - \\mu^2 - \\nu^2) + Q\\mu^2 + R\\nu^2&\\phantom{ Now}\\\\\n&&& = P - (P - Q)\\mu^2 - (P - R)\\nu^2;\n\\end{align*}$$ this shews that $\\Sigma$ is *always less than* $P$ except when $\\mu = 0$ and $\\nu = 0$: that is $\\Sigma$ *is always less than* $P$ except when $T$ is at $A$, or at the point of the surface which is diametrically opposite to $A$. But by the symmetry of a regular polyhedron there must always be more than *two* positions of $T$ which give the same value to $\\Sigma$. For instance if we take a regular tetrahedron, as there are *four* faces there will be at least *three other* positions of $T$ symmetrical with any assigned position. Hence $P$ cannot be greater than $Q$ and greater than $R$.\n\nIn the same way we can shew that one of the three $P$, $Q$, and $R$, cannot be less than each of the others.\n\nTherefore $P = Q = R$; and therefore by Art. 165 for *every position* of $T$ we have $\\Sigma = P$.\n\nSince $P = Q = R$ each of them $= \\frac{1}{3}(P + Q + R)$ $$\\begin{align*}\n&= \\frac13 \\{{l_1}^2 + {m_1}^2 + {n_1}^2 + {l_2}^2 + {m_2}^2 + {n_2}^2 + \\dots\\}\\\\[1.5ex]\n&= \\frac{S}{3}, \\text{ by Art.\\ 165},\n\\end{align*}$$ where $S$ is the number of the solid angles of the regular polyhedron.\n\n*Thus the sum of the squares of the cosines of the arcs which join any point on the surface of the sphere to the solid angles of the regular polyhedron is one third of the number of the solid angles.*\n\n##### 178.\n\nSince $P=Q=R$ in the preceding Article, it will follow that when the fixed points of Art. 174 are the solid angles of a regular polyhedron, then for *any* position of the spherical triangle $ABC$ we shall have $p=0$, $q=0$, $r=0$.\n\nFor taking any position for the spherical triangle $ABC$ we have $$\\Sigma = P\\lambda^2 + Q\\mu^2 + R\\nu^2 + 2p\\mu\\nu + 2q\\nu\\lambda + 2r\\lambda\\mu;$$ then at $A$ we have $\\mu = 0$ and $\\nu = 0$, so that $P$ is then the value of $\\Sigma$; similarly $Q$ and $R$ are the values of $\\Sigma$ at $B$ and $C$ respectively. But by Art. 177 we have the same value for $\\Sigma$ whatever be the position of $T$; thus $$\\begin{align*}\n&\\phantom{therefore}&&&\\phantom{therefore}&\\\\[-]\n&&{\\hfil$P = P(\\lambda^2 + \\mu^2 + \\nu^2) + 2p\\mu\\nu + 2q\\nu\\lambda + 2r\\lambda\\mu$;\\hfil}&\\\\\n&\\text{therefore}&{\\hfil$0 = 2p\\mu\\nu + 2q\\nu\\lambda + 2r\\lambda\\mu$.\\hfil}\n\\end{align*}$$\n\nThis holds then for every position of $T$. Suppose $T$ is at *any point* of the great circle of which $A$ is the pole; then $\\lambda = 0$: thus we get $p\\mu\\nu = 0$, and therefore $p=0$. Similarly $q=0$, and $r=0$.\n\n##### 179.\n\nLet there be any number of fixed points on the surface of a sphere; denote them by $H_1$, $H_2$, $H_3,\\dots$; from any two points $T$ and $U$ on the surface of the sphere arcs are drawn to the fixed points: it is required to find the sum of the products of the corresponding cosines, that is $$\\cos TH_1 \\cos UH_1 + \\cos TH_2 \\cos UH_2 + \\cos TH_3 \\cos UH_3 + \\dots.$$\n\nLet the notation be the same as in Art. 174; and let $\\lambda'$, $\\mu'$, $\\nu'$ be the cosines of the arcs which join $U$ with $A$, $B$, $C$ respectively. Then by Art. 166, $$\\begin{gather*}\n\\cos TH_1 \\cos UH_1 = (\\lambda l_1 + \\mu m_1 + \\nu n_1)(\\lambda'l_1 + \\mu'm_1 + \\nu'n_1) =\\\\\n\\lambda\\lambda'{l_1}^2 + \\mu\\mu'{m_1}^2 + \\nu\\nu'{n_1}^2 + (\\lambda\\mu' + \\mu\\lambda')l_1m_1 + (\\mu\\nu' + \\nu\\mu')m_1n_1 + (\\nu\\lambda' + \\lambda\\nu')n_1 l_1.\n\\end{gather*}$$\n\nSimilar results hold for $\\cos TH_2 \\cos UH_2$, $\\cos TH_3 \\cos UH_3$,.... Hence, with the notation of Art. 174, the required sum is $$\\lambda\\lambda'P + \\mu\\mu'Q + \\nu\\nu'R + (\\mu\\nu' + \\nu\\mu')p + (\\nu\\lambda' + \\lambda\\nu')q + (\\lambda\\mu' + \\mu\\lambda')r.$$\n\nNow by properly choosing the position of the triangle $ABC$ we have $p$, $q$, and $r$ each zero as in Art. 174; and thus the required sum becomes $$\\lambda\\lambda'P + \\mu\\mu'Q + \\nu\\nu'R.$$\n\n##### 180.\n\nThe result obtained in Art. 174 may be considered as a particular case of that just given; namely the case in which the points $T$ and $U$ coincide.\n\n##### 181.\n\nA sphere is described about a regular polyhedron; from any two points on the surface of the sphere arcs are drawn to the solid angles of the polyhedron: it is required to find the sum of the products of the corresponding cosines.\n\nWith the notation of Art. 179 we see that the sum is $$\\lambda\\lambda'P + \\mu\\mu'Q + \\nu\\nu'R.$$\n\nAnd here $P = Q = R = \\dfrac{S}{3}$, by Art. 177.\n\nThus the sum $= \\dfrac{S}{3} (\\lambda\\lambda' + \\mu\\mu' + \\nu\\nu') = \\dfrac{S}{3} \\cos TU$.\n\n*Thus the sum of the products of the cosines is equal to the product of the cosine $\\mathrm{TU}$ into a third of the number of the solid angles of the regular polyhedron.*\n\n##### 182.\n\nThe result obtained in Art. 177 may be considered as a particular case of that just given; namely, the case in which the points $T$ and $U$ coincide.\n\n##### 183.\n\nIf $TU$ is a quadrant then $\\cos TU$ is zero, and the sum of the products of the cosines in Art. 181 is zero. The results $p = 0$, $q = 0$, $r = 0$, are easily seen to be all special examples of this particular case.",
+   "text_html": "<h1 id=\"arcs-drawn-to-fixed-points-on-the-surface-of-a-sphere.\">ARCS DRAWN TO FIXED POINTS ON THE SURFACE OF A SPHERE.</h1>\n<h5 id=\"section\">164.</h5>\n<p>In the present Chapter we shall demonstrate various propositions relating to the arcs drawn from any point on the surface of a sphere to certain fixed points on the surface.</p>\n<h5 id=\"section-1\">165.</h5>\n<p><span class=\"math inline\">\\(ABC\\)</span> is a spherical triangle having all its sides quadrants, and therefore all its angles right angles; <span class=\"math inline\">\\(T\\)</span> is any point on the surface of the sphere: to shew that <span class=\"math display\">\\[\\cos^2{TA}+\\cos^2{TB}+\\cos^2{TC}=1.\\]</span></p>\n<figure data-latex-placement=\"htp\">\n<img src=\"images/todhunter-spherical-trigonometry-1886/images/135fc.png\" style=\"width:5cm\" />\n</figure>\n<p>By Art. 37 we have <span class=\"math display\">\\[\\begin{align*}\n\\cos{TA} &amp;= \\cos{AB}\\cos{TB}+\\sin{AB}\\sin{TB}\\cos{TBA}\\\\\n&amp;= \\sin{TB}\\cos{TBA}.\n\\end{align*}\\]</span></p>\n<p>Similarly <span class=\"math inline\">\\(\\displaystyle \\cos{TC}=\\sin{TB}\\cos{TBC}=\\sin{TB}\\sin{TBA}\\)</span>.<br />\nSquare and add; thus <span class=\"math display\">\\[\\cos^2{TA}+\\cos^2{TC}=\\sin^2{TB}=1-\\cos^2{TB};\\]</span> therefore <span class=\"math inline\">\\(\\quad\n\\cos^2{TA}+\\cos^2{TB}+\\cos^2{TC}=1.\n\\quad\\phantom{therefore }\\)</span></p>\n<h5 id=\"section-2\">166.</h5>\n<p><span class=\"math inline\">\\(ABC\\)</span> is a spherical triangle having all its sides quadrants, and therefore all its angles right angles; <span class=\"math inline\">\\(T\\)</span> and <span class=\"math inline\">\\(U\\)</span> are any points on the surface of the sphere: to shew that <span class=\"math display\">\\[\\cos TU = \\cos TA \\cos UA + \\cos TB \\cos UB + \\cos TC \\cos UC.\\]</span></p>\n<figure data-latex-placement=\"htp\">\n<img src=\"images/todhunter-spherical-trigonometry-1886/images/136fc.png\" style=\"width:5cm\" />\n</figure>\n<p>By Art. 37 we have <span class=\"math display\">\\[\\begin{align*}\n{\\quad$\n  \\cos TU = \\cos TA \\cos UA + \\sin TA \\sin UA \\cos TAU,$\n\\quad}\n\\\\\n&amp;\\text{and }&amp;\n  \\cos TAU &amp; = \\cos (BAU - BAT)                        &amp;&amp;\\\\\n&amp;&amp;         &amp; = \\cos BAU \\cos BAT + \\sin BAU \\sin BAT   &amp;&amp;\\\\\n&amp;&amp;         &amp; = \\cos BAU \\cos BAT + \\cos CAU \\cos CAT;  &amp;&amp;\n\\\\\n&amp;\\text{therefore }&amp; {$\n  \\cos TU = \\cos TA \\cos UA $\\quad}\n&amp;\\phantom{therefore}&amp;\n\\\\\n{$\\phantom{therefore}\n  {}+ \\sin TA \\sin UA (\\cos BAU \\cos BAT + \\cos CAU \\cos CAT)\n$;\\quad} &amp;&amp;\n\\end{align*}\\]</span> <span class=\"math display\">\\[\\begin{align*}\n&amp;\\text{and }&amp;\n    \\cos TB &amp; = \\sin TA \\cos BAT, &amp;\\phantom{and }&amp;\\\\\n&amp;&amp;  \\cos UB &amp; = \\sin UA \\cos BAU, &amp;&amp;\\\\\n&amp;&amp;  \\cos TC &amp; = \\sin TA \\cos CAT, &amp;&amp;\\\\\n&amp;&amp;  \\cos UC &amp; = \\sin UA \\cos CAU; &amp;&amp;\n\\end{align*}\\]</span> therefore<br />\n<span class=\"math display\">\\[\\cos TU = \\cos TA \\cos UA + \\cos TB \\cos UB + \\cos TC \\cos UC.\\]</span></p>\n<h5 id=\"section-3\">167.</h5>\n<p>We leave to the student the exercise of shewing that the formulæ of the two preceding Articles are perfectly general for all positions of <span class=\"math inline\">\\(T\\)</span> and <span class=\"math inline\">\\(U\\)</span>, outside or inside the triangle <span class=\"math inline\">\\(ABC\\)</span>: the demonstrations will remain essentially the same for all modifications of the diagrams. The formulæ are of constant application in Analytical Geometry of three dimensions, and are demonstrated in works on that subject; we have given them here as they may be of service in Spherical Trigonometry, and will in fact now be used in obtaining some important results.</p>\n<h5 id=\"section-4\">168.</h5>\n<p>Let there be any number of fixed points on the surface of a sphere; denote them by <span class=\"math inline\">\\(H_1\\)</span>, <span class=\"math inline\">\\(H_2\\)</span>, <span class=\"math inline\">\\(H_3\\)</span>,…. Let <span class=\"math inline\">\\(T\\)</span> be any point on the surface of a sphere. We shall now investigate an expression for the sum of the cosines of the arcs which join <span class=\"math inline\">\\(T\\)</span> with the fixed points.</p>\n<p>Denote the sum by <span class=\"math inline\">\\(\\Sigma\\)</span>; so that <span class=\"math display\">\\[\\Sigma = \\cos TH_1 + \\cos TH_2 + \\cos TH_3 + \\ldots.\\]</span></p>\n<p>Take on the surface of the sphere a fixed spherical triangle <span class=\"math inline\">\\(ABC\\)</span>, having all its sides quadrants, and therefore all its angles right angles.</p>\n<p>Let <span class=\"math inline\">\\(\\lambda\\)</span>, <span class=\"math inline\">\\(\\mu\\)</span>, <span class=\"math inline\">\\(\\nu\\)</span> be the cosines of the arcs which join <span class=\"math inline\">\\(T\\)</span> with <span class=\"math inline\">\\(A\\)</span>, <span class=\"math inline\">\\(B\\)</span>, <span class=\"math inline\">\\(C\\)</span> respectively; let <span class=\"math inline\">\\(l_1\\)</span>, <span class=\"math inline\">\\(m_1\\)</span>, <span class=\"math inline\">\\(n_1\\)</span> be the cosines of the arcs which join <span class=\"math inline\">\\(H_1\\)</span> with <span class=\"math inline\">\\(A\\)</span>, <span class=\"math inline\">\\(B\\)</span>, <span class=\"math inline\">\\(C\\)</span> respectively; and let a similar notation be used with respect to <span class=\"math inline\">\\(H_2\\)</span>, <span class=\"math inline\">\\(H_3\\)</span>,….</p>\n<p>Then, by Art. 166, <span class=\"math display\">\\[\\begin{align*}\n\\Sigma &amp; =l_1\\lambda + m_1\\mu + n_1\\nu + l_2\\lambda + m_2\\mu + n_2\\nu + \\ldots\\\\\n           &amp; = P \\lambda + Q \\mu + R \\nu;\n\\end{align*}\\]</span> where <span class=\"math inline\">\\(P\\)</span> stands for <span class=\"math inline\">\\(l_1 + l_2 + l_3 + \\ldots\\)</span>, with corresponding meanings for <span class=\"math inline\">\\(Q\\)</span> and <span class=\"math inline\">\\(R\\)</span>.</p>\n<h5 id=\"section-5\">169.</h5>\n<p>It will be seen that <span class=\"math inline\">\\(P\\)</span> is the value which <span class=\"math inline\">\\(\\Sigma\\)</span> takes when <span class=\"math inline\">\\(T\\)</span> coincides with <span class=\"math inline\">\\(A\\)</span>, that <span class=\"math inline\">\\(Q\\)</span> is the value which <span class=\"math inline\">\\(\\Sigma\\)</span> takes when <span class=\"math inline\">\\(T\\)</span> coincides with <span class=\"math inline\">\\(B\\)</span>, and that <span class=\"math inline\">\\(R\\)</span> is the value which <span class=\"math inline\">\\(\\Sigma\\)</span> takes when <span class=\"math inline\">\\(T\\)</span> coincides with <span class=\"math inline\">\\(C\\)</span>. Hence the result expresses the general value of <span class=\"math inline\">\\(\\Sigma\\)</span> in terms of the cosines of the arcs which join <span class=\"math inline\">\\(T\\)</span> to the fixed points <span class=\"math inline\">\\(A\\)</span>, <span class=\"math inline\">\\(B\\)</span>, <span class=\"math inline\">\\(C\\)</span>, and the particular values of <span class=\"math inline\">\\(\\Sigma\\)</span> which correspond to these three points.</p>\n<h5 id=\"section-6\">170.</h5>\n<p>We shall now transform the result of Art. 168. <span class=\"math display\">\\[\\begin{align*}\n&amp;\\text{ Let }&amp;&amp;\nG=\\surd{(P^2+Q^2+R^2)};\n&amp;\\phantom{ Let }&amp;\n\\end{align*}\\]</span> and let <span class=\"math inline\">\\(\\alpha\\)</span>, <span class=\"math inline\">\\(\\beta\\)</span>, <span class=\"math inline\">\\(\\gamma\\)</span> be three arcs determined by the equations <span class=\"math display\">\\[\\cos \\alpha = \\frac{P}{G},\\ \\cos \\beta \\frac{Q}{G},\\ \\cos\\gamma \\frac{R}{G};\\]</span> then <span class=\"math inline\">\\(\\Sigma=G(\\lambda \\cos \\alpha + \\mu \\cos \\beta + \\nu \\cos \\gamma)\\)</span>.</p>\n<p>Since <span class=\"math inline\">\\(\\cos^2\\alpha +\\cos^2\\beta+\\cos^2\\gamma = 1\\)</span>, it is obvious that there will be some point on the surface of the sphere, such that <span class=\"math inline\">\\(\\alpha\\)</span>, <span class=\"math inline\">\\(\\beta\\)</span>, <span class=\"math inline\">\\(\\gamma\\)</span> are the arcs which join it to <span class=\"math inline\">\\(A\\)</span>, <span class=\"math inline\">\\(B\\)</span>, <span class=\"math inline\">\\(C\\)</span> respectively; denote this point by <span class=\"math inline\">\\(U\\)</span>: then, by Art. 166, <span class=\"math display\">\\[\\cos TU= \\lambda \\cos \\alpha + \\mu \\cos \\beta + \\nu \\cos \\gamma;\\]</span> and finally <span class=\"math display\">\\[\\Sigma=G \\cos TU.\\]</span></p>\n<p>Thus, whatever may be the position of <span class=\"math inline\">\\(T\\)</span>, the sum of the cosines of the arcs which join <span class=\"math inline\">\\(T\\)</span> to the fixed points varies as the cosine of the single arc which joins <span class=\"math inline\">\\(T\\)</span> to a certain fixed point <span class=\"math inline\">\\(U\\)</span>.</p>\n<p>We might take <span class=\"math inline\">\\(G\\)</span> either positive or negative; it will be convenient to suppose it positive.</p>\n<h5 id=\"section-7\">171.</h5>\n<p>A sphere is described about a regular polyhedron; from any point on the surface of the sphere arcs are drawn to the solid angles of the polyhedron: to shew that the sum of the cosines of these arcs is zero.</p>\n<p>From the preceding Article we see that if <span class=\"math inline\">\\(G\\)</span> is not zero there is <em>one</em> position of <span class=\"math inline\">\\(T\\)</span> which gives to <span class=\"math inline\">\\(\\Sigma\\)</span> its greatest positive value, namely, when <span class=\"math inline\">\\(T\\)</span> coincides with <span class=\"math inline\">\\(U\\)</span>. But by the symmetry of a regular polyhedron there must always be <em>more than one</em> position of <span class=\"math inline\">\\(T\\)</span> which gives the same value to <span class=\"math inline\">\\(\\Sigma\\)</span>. For instance, if we take a regular tetrahedron, as there are four faces there will at least be <em>three other</em> positions of <span class=\"math inline\">\\(T\\)</span> symmetrical with any assigned position.</p>\n<p>Hence <span class=\"math inline\">\\(G\\)</span> must be zero; and thus the <em>sum of the cosines of the arcs which join <span class=\"math inline\">\\(\\mathrm{T}\\)</span> to the solid angles of the regular polyhedron is zero for all positions of <span class=\"math inline\">\\(\\mathrm{T}\\)</span>.</em></p>\n<h5 id=\"section-8\">172.</h5>\n<p>Since <span class=\"math inline\">\\(G=0\\)</span>, it follows that <span class=\"math inline\">\\(P\\)</span>, <span class=\"math inline\">\\(Q\\)</span>, <span class=\"math inline\">\\(R\\)</span> must each be zero; these indeed are particular cases of the general result of Art. 171. See Art. 169.</p>\n<h5 id=\"section-9\">173.</h5>\n<p>The result obtained in Art. 171 may be shewn to hold also in some other cases. Suppose, for instance, that a rectangular parallelepiped is inscribed in a sphere; then the sum of the cosines of the arcs drawn from any point on the surface of the sphere to the solid angles of the parallelepiped is zero. For here it is obvious that there must always be at least <em>one other</em> position of <span class=\"math inline\">\\(T\\)</span> symmetrical with any assigned position. Hence by the argument of Art. 171 we must have <span class=\"math inline\">\\(G = 0\\)</span>.</p>\n<h5 id=\"section-10\">174.</h5>\n<p>Let there be any number of fixed points on the surface of a sphere; denote them by <span class=\"math inline\">\\(H_1\\)</span>, <span class=\"math inline\">\\(H_2\\)</span>, <span class=\"math inline\">\\(H_3,\\dots\\)</span> Let <span class=\"math inline\">\\(T\\)</span> be any point on the surface of the sphere. We shall now investigate a remarkable expression for the sum of the squares of the cosines of the arcs which join <span class=\"math inline\">\\(T\\)</span> with the fixed points.</p>\n<p>Denote the sum by <span class=\"math inline\">\\(\\Sigma\\)</span>; so that <span class=\"math display\">\\[\\Sigma = \\cos^2 TH_1 + \\cos^2 TH_2 + \\cos^2 TH_3 + \\dots.\\]</span></p>\n<p>Take on the surface of the sphere a fixed spherical triangle <span class=\"math inline\">\\(ABC\\)</span>, having all its sides quadrants, and therefore all its angles right angles.</p>\n<p>Let <span class=\"math inline\">\\(\\lambda\\)</span>, <span class=\"math inline\">\\(\\mu\\)</span>, <span class=\"math inline\">\\(\\nu\\)</span> be the cosines of the arcs which join <span class=\"math inline\">\\(T\\)</span> with <span class=\"math inline\">\\(A\\)</span>, <span class=\"math inline\">\\(B\\)</span>, <span class=\"math inline\">\\(C\\)</span> respectively; let <span class=\"math inline\">\\(l_1\\)</span>, <span class=\"math inline\">\\(m_1\\)</span>, <span class=\"math inline\">\\(n_1\\)</span> be the cosines of the angles which join <span class=\"math inline\">\\(H_1\\)</span> with <span class=\"math inline\">\\(A\\)</span>, <span class=\"math inline\">\\(B\\)</span>, <span class=\"math inline\">\\(C\\)</span> respectively; and let a similar notation be used with respect to <span class=\"math inline\">\\(H_2\\)</span>, <span class=\"math inline\">\\(H_3\\)</span>,….</p>\n<p>Then, by Art. 166, <span class=\"math display\">\\[\\begin{gather*}\n\\Sigma = (l_1\\lambda + m_1\\mu + n_1\\nu)^2 + (l_2\\lambda + m_2\\mu + n_2\\nu)^2 + \\dots.\\\\\n\\\\ \\text{Expand each square, and rearrange the terms; thus}\n\\Sigma = P\\lambda^2 + Q\\mu^2 + R\\nu^2 + 2p\\mu\\nu + 2q\\nu\\lambda + 2r\\lambda \\mu,\\\\\n\\text{where $P$ stands for $l_1^2 + l_2^2 + l_3^2 + \\dots$,}\\\\\n\\text{and $p$ stands for $m_1n_1 + m_2n_2 + m_3n_3 + \\dots$,}\n\\end{gather*}\\]</span> with corresponding meanings for <span class=\"math inline\">\\(Q\\)</span> and <span class=\"math inline\">\\(q\\)</span>, and for <span class=\"math inline\">\\(R\\)</span> and <span class=\"math inline\">\\(r\\)</span>.</p>\n<p>We shall now shew that there is some position of the triangle <span class=\"math inline\">\\(ABC\\)</span> for which <span class=\"math inline\">\\(p\\)</span>, <span class=\"math inline\">\\(q\\)</span>, and <span class=\"math inline\">\\(r\\)</span> will vanish; so that we shall then have <span class=\"math display\">\\[\\Sigma=P\\lambda^2+Q\\mu^2+R\\nu^2.\\]</span></p>\n<p>Since <span class=\"math inline\">\\(\\Sigma\\)</span> is always a finite positive quantity there must be some position, or some positions, of <span class=\"math inline\">\\(T\\)</span> for which <span class=\"math inline\">\\(\\Sigma\\)</span> has the largest value which it can receive. Suppose that <span class=\"math inline\">\\(A\\)</span> has this position, or one of these positions if there are more than one. When <span class=\"math inline\">\\(T\\)</span> is at <span class=\"math inline\">\\(A\\)</span> we have <span class=\"math inline\">\\(\\mu\\)</span> and <span class=\"math inline\">\\(\\nu\\)</span> each zero, and <span class=\"math inline\">\\(\\lambda\\)</span> equal to unity, so that <span class=\"math inline\">\\(\\Sigma\\)</span> is then equal to <span class=\"math inline\">\\(P\\)</span>.</p>\n<p>Hence, whatever be the position of <span class=\"math inline\">\\(T\\)</span>, <span class=\"math inline\">\\(P\\)</span> is never less than <span class=\"math inline\">\\(P\\lambda^2+Q\\mu^2+R\\nu^2+2p\\mu\\nu+2q\\nu\\lambda+2r\\lambda\\mu\\)</span>, that is, by Art. 165, <span class=\"math display\">\\[\\begin{gather*}\nP(\\lambda^2+\\mu^2+\\nu^2) \\text{ is never less than}\n\\\\\nP\\lambda^2+Q\\mu^2+R\\nu^2+2p\\mu\\nu+2q\\nu\\lambda+2r\\lambda\\mu;\n\\end{gather*}\\]</span> therefore<br />\n<span class=\"math display\">\\[(P-Q)\\mu^2+(P-R)\\nu^2\\text{ is never less than }2p\\mu\\nu+2q\\nu\\lambda+2r\\lambda\\mu.\\]</span></p>\n<p>Now suppose <span class=\"math inline\">\\(\\nu = 0\\)</span>; then <span class=\"math inline\">\\(T\\)</span> is situated on the great circle of which <span class=\"math inline\">\\(AB\\)</span> is a quadrant, and whatever be the position of <span class=\"math inline\">\\(T\\)</span> we have <span class=\"math display\">\\[\\begin{align*}\n&amp;&amp; (P-Q)\\mu^2\\text{ not less than } 2r\\lambda\\mu, &amp;&amp;\n\\\\\n&amp;\\text{and therefore }&amp;\n{\\quad$\nP-Q\\text{ not less than } \\dfrac{2r\\lambda}{\\mu}.\n$\\quad} &amp;\\phantom{and therefore }&amp;\n\\end{align*}\\]</span></p>\n<p>But now <span class=\"math inline\">\\(\\dfrac{\\lambda}{\\mu}\\)</span> is equal to <span class=\"math inline\">\\(\\dfrac{\\cos TA}{\\cos TB}\\)</span>; this is numerically equal to <span class=\"math inline\">\\(\\tan TB\\)</span>, and so may be made numerically as great as we please, positive or negative, by giving a suitable position to <span class=\"math inline\">\\(T\\)</span>. Thus <span class=\"math inline\">\\(P-Q\\)</span> must in some cases be less than <span class=\"math inline\">\\(\\dfrac{2r\\lambda}{\\mu}\\)</span> if <span class=\"math inline\">\\(r\\)</span> have any value different from zero.</p>\n<p>Therefore <span class=\"math inline\">\\(r\\)</span> must <span class=\"math inline\">\\(= 0\\)</span>.</p>\n<p>In like manner we can shew that <span class=\"math inline\">\\(q\\)</span> must <span class=\"math inline\">\\(= 0\\)</span>.</p>\n<p>Hence with the specified position for <span class=\"math inline\">\\(A\\)</span> we arrive at the result that whatever may be the position of <span class=\"math inline\">\\(T\\)</span> <span class=\"math display\">\\[\\Sigma = P\\lambda^2+Q\\mu^2+R\\nu^2+2p\\mu\\,\\nu.\\]</span></p>\n<p>Let us now suppose that the position of <span class=\"math inline\">\\(B\\)</span> is so taken that when <span class=\"math inline\">\\(T\\)</span> coincides with <span class=\"math inline\">\\(B\\)</span> the value of <span class=\"math inline\">\\(\\Sigma\\)</span> is as large as it can be for any point in the great circle of which <span class=\"math inline\">\\(A\\)</span> is the pole. When <span class=\"math inline\">\\(T\\)</span> is at <span class=\"math inline\">\\(B\\)</span> we have <span class=\"math inline\">\\(\\lambda\\)</span> and <span class=\"math inline\">\\(\\nu\\)</span> each zero, and <span class=\"math inline\">\\(\\mu\\)</span> equal to unity, so that <span class=\"math inline\">\\(\\Sigma\\)</span> is then equal to <span class=\"math inline\">\\(Q\\)</span>. For any point in the great circle of which <span class=\"math inline\">\\(A\\)</span> is the pole <span class=\"math inline\">\\(\\lambda\\)</span> is zero; and therefore for any such point <span class=\"math display\">\\[\\begin{gather*}\nQ \\text{ is not less than }Q\\mu^2+R\\nu^2+2p\\mu\\,\\nu,\\\\\n\\\\ \\text{that is, by Art.\\ 165,}\nQ(\\mu^2+\\nu^2) \\text{ is not less than }Q\\mu^2+R\\nu^2+2p\\mu\\,\\nu;\n\\end{gather*}\\]</span> therefore <span class=\"math inline\">\\(Q-R\\)</span> is not less than <span class=\"math inline\">\\(\\dfrac{2p\\mu}{\\nu}\\)</span>.</p>\n<p>Hence by the same reasoning as before we must have <span class=\"math inline\">\\(p = 0\\)</span>.</p>\n<p>Therefore we see that there must be some position of the triangle <span class=\"math inline\">\\(ABC\\)</span>, such that for every position of <span class=\"math inline\">\\(T\\)</span> <span class=\"math display\">\\[\\Sigma = P\\lambda^2+Q\\mu^2+R\\nu^2.\\]</span></p>\n<h5 id=\"section-11\">175.</h5>\n<p>The remarks of Art. 169 are applicable to the result just obtained.</p>\n<h5 id=\"section-12\">176.</h5>\n<p>In the final result of Art. 174 we may shew that <span class=\"math inline\">\\(R\\)</span> is the least value which <span class=\"math inline\">\\(\\Sigma\\)</span> can receive. For, by Art. 165, <span class=\"math display\">\\[\\begin{align*}\n\\Sigma &amp;= P\\lambda^2 + Q\\mu^2 + R(1-\\lambda^2-\\mu^2)\\\\\n       &amp;= R +(P-R)\\lambda^2 + (Q-R)\\mu^2;\n\\end{align*}\\]</span> and by supposition neither <span class=\"math inline\">\\(P-R\\)</span> nor <span class=\"math inline\">\\(Q-R\\)</span> is negative, so that <span class=\"math inline\">\\(\\Sigma\\)</span> cannot be less than <span class=\"math inline\">\\(R\\)</span>.</p>\n<h5 id=\"section-13\">177.</h5>\n<p>A sphere is described about a regular polyhedron; from any point on the surface of the sphere arcs are drawn to the solid angles of the polyhedron: it is required to find the sum of the squares of the cosines of these arcs.</p>\n<p>With the notation of Art. 174 we have <span class=\"math display\">\\[\\Sigma = P\\lambda^2 + Q\\mu^2 + R\\nu^2.\\]</span></p>\n<p>We shall shew that in the present case <span class=\"math inline\">\\(P\\)</span>, <span class=\"math inline\">\\(Q\\)</span>, and <span class=\"math inline\">\\(R\\)</span> must <em>all be equal</em>. For if they are not, one of them must be greater than each of the others, or one of them must be less than each of the others.</p>\n<p>If possible let the former be the case; suppose that <span class=\"math inline\">\\(P\\)</span> is greater than <span class=\"math inline\">\\(Q\\)</span>, and greater than <span class=\"math inline\">\\(R\\)</span>. <span class=\"math display\">\\[\\begin{align*}\n&amp;\\text{ Now }&amp; \\Sigma &amp;= P(1 - \\mu^2 - \\nu^2) + Q\\mu^2 + R\\nu^2&amp;\\phantom{ Now}\\\\\n&amp;&amp;&amp; = P - (P - Q)\\mu^2 - (P - R)\\nu^2;\n\\end{align*}\\]</span> this shews that <span class=\"math inline\">\\(\\Sigma\\)</span> is <em>always less than</em> <span class=\"math inline\">\\(P\\)</span> except when <span class=\"math inline\">\\(\\mu = 0\\)</span> and <span class=\"math inline\">\\(\\nu = 0\\)</span>: that is <span class=\"math inline\">\\(\\Sigma\\)</span> <em>is always less than</em> <span class=\"math inline\">\\(P\\)</span> except when <span class=\"math inline\">\\(T\\)</span> is at <span class=\"math inline\">\\(A\\)</span>, or at the point of the surface which is diametrically opposite to <span class=\"math inline\">\\(A\\)</span>. But by the symmetry of a regular polyhedron there must always be more than <em>two</em> positions of <span class=\"math inline\">\\(T\\)</span> which give the same value to <span class=\"math inline\">\\(\\Sigma\\)</span>. For instance if we take a regular tetrahedron, as there are <em>four</em> faces there will be at least <em>three other</em> positions of <span class=\"math inline\">\\(T\\)</span> symmetrical with any assigned position. Hence <span class=\"math inline\">\\(P\\)</span> cannot be greater than <span class=\"math inline\">\\(Q\\)</span> and greater than <span class=\"math inline\">\\(R\\)</span>.</p>\n<p>In the same way we can shew that one of the three <span class=\"math inline\">\\(P\\)</span>, <span class=\"math inline\">\\(Q\\)</span>, and <span class=\"math inline\">\\(R\\)</span>, cannot be less than each of the others.</p>\n<p>Therefore <span class=\"math inline\">\\(P = Q = R\\)</span>; and therefore by Art. 165 for <em>every position</em> of <span class=\"math inline\">\\(T\\)</span> we have <span class=\"math inline\">\\(\\Sigma = P\\)</span>.</p>\n<p>Since <span class=\"math inline\">\\(P = Q = R\\)</span> each of them <span class=\"math inline\">\\(= \\frac{1}{3}(P + Q + R)\\)</span> <span class=\"math display\">\\[\\begin{align*}\n&amp;= \\frac13 \\{{l_1}^2 + {m_1}^2 + {n_1}^2 + {l_2}^2 + {m_2}^2 + {n_2}^2 + \\dots\\}\\\\[1.5ex]\n&amp;= \\frac{S}{3}, \\text{ by Art.\\ 165},\n\\end{align*}\\]</span> where <span class=\"math inline\">\\(S\\)</span> is the number of the solid angles of the regular polyhedron.</p>\n<p><em>Thus the sum of the squares of the cosines of the arcs which join any point on the surface of the sphere to the solid angles of the regular polyhedron is one third of the number of the solid angles.</em></p>\n<h5 id=\"section-14\">178.</h5>\n<p>Since <span class=\"math inline\">\\(P=Q=R\\)</span> in the preceding Article, it will follow that when the fixed points of Art. 174 are the solid angles of a regular polyhedron, then for <em>any</em> position of the spherical triangle <span class=\"math inline\">\\(ABC\\)</span> we shall have <span class=\"math inline\">\\(p=0\\)</span>, <span class=\"math inline\">\\(q=0\\)</span>, <span class=\"math inline\">\\(r=0\\)</span>.</p>\n<p>For taking any position for the spherical triangle <span class=\"math inline\">\\(ABC\\)</span> we have <span class=\"math display\">\\[\\Sigma = P\\lambda^2 + Q\\mu^2 + R\\nu^2 + 2p\\mu\\nu + 2q\\nu\\lambda + 2r\\lambda\\mu;\\]</span> then at <span class=\"math inline\">\\(A\\)</span> we have <span class=\"math inline\">\\(\\mu = 0\\)</span> and <span class=\"math inline\">\\(\\nu = 0\\)</span>, so that <span class=\"math inline\">\\(P\\)</span> is then the value of <span class=\"math inline\">\\(\\Sigma\\)</span>; similarly <span class=\"math inline\">\\(Q\\)</span> and <span class=\"math inline\">\\(R\\)</span> are the values of <span class=\"math inline\">\\(\\Sigma\\)</span> at <span class=\"math inline\">\\(B\\)</span> and <span class=\"math inline\">\\(C\\)</span> respectively. But by Art. 177 we have the same value for <span class=\"math inline\">\\(\\Sigma\\)</span> whatever be the position of <span class=\"math inline\">\\(T\\)</span>; thus <span class=\"math display\">\\[\\begin{align*}\n&amp;\\phantom{therefore}&amp;&amp;&amp;\\phantom{therefore}&amp;\\\\[-]\n&amp;&amp;{\\hfil$P = P(\\lambda^2 + \\mu^2 + \\nu^2) + 2p\\mu\\nu + 2q\\nu\\lambda + 2r\\lambda\\mu$;\\hfil}&amp;\\\\\n&amp;\\text{therefore}&amp;{\\hfil$0 = 2p\\mu\\nu + 2q\\nu\\lambda + 2r\\lambda\\mu$.\\hfil}\n\\end{align*}\\]</span></p>\n<p>This holds then for every position of <span class=\"math inline\">\\(T\\)</span>. Suppose <span class=\"math inline\">\\(T\\)</span> is at <em>any point</em> of the great circle of which <span class=\"math inline\">\\(A\\)</span> is the pole; then <span class=\"math inline\">\\(\\lambda = 0\\)</span>: thus we get <span class=\"math inline\">\\(p\\mu\\nu = 0\\)</span>, and therefore <span class=\"math inline\">\\(p=0\\)</span>. Similarly <span class=\"math inline\">\\(q=0\\)</span>, and <span class=\"math inline\">\\(r=0\\)</span>.</p>\n<h5 id=\"section-15\">179.</h5>\n<p>Let there be any number of fixed points on the surface of a sphere; denote them by <span class=\"math inline\">\\(H_1\\)</span>, <span class=\"math inline\">\\(H_2\\)</span>, <span class=\"math inline\">\\(H_3,\\dots\\)</span>; from any two points <span class=\"math inline\">\\(T\\)</span> and <span class=\"math inline\">\\(U\\)</span> on the surface of the sphere arcs are drawn to the fixed points: it is required to find the sum of the products of the corresponding cosines, that is <span class=\"math display\">\\[\\cos TH_1 \\cos UH_1 + \\cos TH_2 \\cos UH_2 + \\cos TH_3 \\cos UH_3 + \\dots.\\]</span></p>\n<p>Let the notation be the same as in Art. 174; and let <span class=\"math inline\">\\(\\lambda&#39;\\)</span>, <span class=\"math inline\">\\(\\mu&#39;\\)</span>, <span class=\"math inline\">\\(\\nu&#39;\\)</span> be the cosines of the arcs which join <span class=\"math inline\">\\(U\\)</span> with <span class=\"math inline\">\\(A\\)</span>, <span class=\"math inline\">\\(B\\)</span>, <span class=\"math inline\">\\(C\\)</span> respectively. Then by Art. 166, <span class=\"math display\">\\[\\begin{gather*}\n\\cos TH_1 \\cos UH_1 = (\\lambda l_1 + \\mu m_1 + \\nu n_1)(\\lambda&#39;l_1 + \\mu&#39;m_1 + \\nu&#39;n_1) =\\\\\n\\lambda\\lambda&#39;{l_1}^2 + \\mu\\mu&#39;{m_1}^2 + \\nu\\nu&#39;{n_1}^2 + (\\lambda\\mu&#39; + \\mu\\lambda&#39;)l_1m_1 + (\\mu\\nu&#39; + \\nu\\mu&#39;)m_1n_1 + (\\nu\\lambda&#39; + \\lambda\\nu&#39;)n_1 l_1.\n\\end{gather*}\\]</span></p>\n<p>Similar results hold for <span class=\"math inline\">\\(\\cos TH_2 \\cos UH_2\\)</span>, <span class=\"math inline\">\\(\\cos TH_3 \\cos UH_3\\)</span>,…. Hence, with the notation of Art. 174, the required sum is <span class=\"math display\">\\[\\lambda\\lambda&#39;P + \\mu\\mu&#39;Q + \\nu\\nu&#39;R + (\\mu\\nu&#39; + \\nu\\mu&#39;)p + (\\nu\\lambda&#39; + \\lambda\\nu&#39;)q + (\\lambda\\mu&#39; + \\mu\\lambda&#39;)r.\\]</span></p>\n<p>Now by properly choosing the position of the triangle <span class=\"math inline\">\\(ABC\\)</span> we have <span class=\"math inline\">\\(p\\)</span>, <span class=\"math inline\">\\(q\\)</span>, and <span class=\"math inline\">\\(r\\)</span> each zero as in Art. 174; and thus the required sum becomes <span class=\"math display\">\\[\\lambda\\lambda&#39;P + \\mu\\mu&#39;Q + \\nu\\nu&#39;R.\\]</span></p>\n<h5 id=\"section-16\">180.</h5>\n<p>The result obtained in Art. 174 may be considered as a particular case of that just given; namely the case in which the points <span class=\"math inline\">\\(T\\)</span> and <span class=\"math inline\">\\(U\\)</span> coincide.</p>\n<h5 id=\"section-17\">181.</h5>\n<p>A sphere is described about a regular polyhedron; from any two points on the surface of the sphere arcs are drawn to the solid angles of the polyhedron: it is required to find the sum of the products of the corresponding cosines.</p>\n<p>With the notation of Art. 179 we see that the sum is <span class=\"math display\">\\[\\lambda\\lambda&#39;P + \\mu\\mu&#39;Q + \\nu\\nu&#39;R.\\]</span></p>\n<p>And here <span class=\"math inline\">\\(P = Q = R = \\dfrac{S}{3}\\)</span>, by Art. 177.</p>\n<p>Thus the sum <span class=\"math inline\">\\(= \\dfrac{S}{3} (\\lambda\\lambda&#39; + \\mu\\mu&#39; + \\nu\\nu&#39;) = \\dfrac{S}{3} \\cos TU\\)</span>.</p>\n<p><em>Thus the sum of the products of the cosines is equal to the product of the cosine <span class=\"math inline\">\\(\\mathrm{TU}\\)</span> into a third of the number of the solid angles of the regular polyhedron.</em></p>\n<h5 id=\"section-18\">182.</h5>\n<p>The result obtained in Art. 177 may be considered as a particular case of that just given; namely, the case in which the points <span class=\"math inline\">\\(T\\)</span> and <span class=\"math inline\">\\(U\\)</span> coincide.</p>\n<h5 id=\"section-19\">183.</h5>\n<p>If <span class=\"math inline\">\\(TU\\)</span> is a quadrant then <span class=\"math inline\">\\(\\cos TU\\)</span> is zero, and the sum of the products of the cosines in Art. 181 is zero. The results <span class=\"math inline\">\\(p = 0\\)</span>, <span class=\"math inline\">\\(q = 0\\)</span>, <span class=\"math inline\">\\(r = 0\\)</span>, are easily seen to be all special examples of this particular case.</p>",
    "name": "Todhunter 1886, Arcs drawn to fixed points on the Surface of a Sphere",
    "pages": [
     "135",
@@ -19534,7 +19534,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -19572,7 +19572,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -19610,7 +19610,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -19649,7 +19649,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -19687,7 +19687,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -19725,7 +19725,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -19763,7 +19763,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -19802,7 +19802,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -19840,7 +19840,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -19879,7 +19879,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -19918,7 +19918,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -19956,7 +19956,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -19992,7 +19992,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20030,7 +20030,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20068,7 +20068,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20106,7 +20106,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20144,7 +20144,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20182,7 +20182,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20220,7 +20220,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20258,7 +20258,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20297,7 +20297,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20335,7 +20335,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20373,7 +20373,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20411,7 +20411,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20449,7 +20449,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20487,7 +20487,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20525,7 +20525,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20563,7 +20563,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20601,7 +20601,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20639,7 +20639,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20677,7 +20677,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20715,7 +20715,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20755,7 +20755,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20793,7 +20793,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20831,7 +20831,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20869,7 +20869,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20907,7 +20907,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20945,7 +20945,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20983,7 +20983,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21021,7 +21021,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21059,7 +21059,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21097,7 +21097,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21135,7 +21135,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21173,7 +21173,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21211,7 +21211,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21249,7 +21249,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21287,7 +21287,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21325,7 +21325,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21363,7 +21363,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21401,7 +21401,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21439,7 +21439,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21478,7 +21478,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21517,7 +21517,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21555,7 +21555,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21593,7 +21593,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21631,7 +21631,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21669,7 +21669,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21708,7 +21708,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21747,7 +21747,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21786,7 +21786,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21825,7 +21825,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21864,7 +21864,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21902,7 +21902,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21940,7 +21940,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21978,7 +21978,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22016,7 +22016,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22054,7 +22054,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22092,7 +22092,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22130,7 +22130,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22168,7 +22168,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22206,7 +22206,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22244,7 +22244,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22284,7 +22284,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22322,7 +22322,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22361,7 +22361,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22400,7 +22400,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22438,7 +22438,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22477,7 +22477,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22515,7 +22515,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22551,7 +22551,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22590,7 +22590,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22629,7 +22629,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22667,7 +22667,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22705,7 +22705,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22743,7 +22743,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22779,7 +22779,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22815,7 +22815,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22853,7 +22853,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22892,7 +22892,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22931,7 +22931,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22970,7 +22970,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23009,7 +23009,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23048,7 +23048,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23087,7 +23087,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23126,7 +23126,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23162,7 +23162,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23198,7 +23198,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23234,7 +23234,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23272,7 +23272,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23311,7 +23311,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23350,7 +23350,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23390,7 +23390,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23429,7 +23429,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23467,7 +23467,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23505,7 +23505,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23543,7 +23543,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23583,7 +23583,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23621,7 +23621,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23660,7 +23660,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23698,7 +23698,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23736,7 +23736,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23775,7 +23775,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23814,7 +23814,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23852,7 +23852,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23891,7 +23891,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23930,7 +23930,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23968,7 +23968,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24006,7 +24006,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24044,7 +24044,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24082,7 +24082,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24120,7 +24120,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24159,7 +24159,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24197,7 +24197,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24236,7 +24236,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24275,7 +24275,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24314,7 +24314,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24353,7 +24353,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24392,7 +24392,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24431,7 +24431,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24470,7 +24470,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24509,7 +24509,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24547,7 +24547,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24586,7 +24586,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24624,7 +24624,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24663,7 +24663,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24702,7 +24702,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24740,7 +24740,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24778,7 +24778,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24817,7 +24817,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24856,7 +24856,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24895,7 +24895,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24938,7 +24938,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "FLAG-EXTRACTION"
     ]
@@ -24981,7 +24981,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "FLAG-EXTRACTION"
     ]
@@ -25024,7 +25024,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "FLAG-EXTRACTION"
     ]
@@ -25067,7 +25067,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "FLAG-EXTRACTION"
     ]
@@ -25110,7 +25110,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "FLAG-EXTRACTION"
     ]
@@ -25153,7 +25153,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "FLAG-EXTRACTION"
     ]
@@ -25196,7 +25196,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "FLAG-EXTRACTION"
     ]
@@ -25239,7 +25239,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "b01de19",
+    "commit": "2d29503",
     "verdicts": [
      "FLAG-EXTRACTION"
     ]

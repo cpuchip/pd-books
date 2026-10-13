@@ -83,18 +83,29 @@ def place_errata(d):
     printed words, compared without spaces or math delimiters, so the page knows whether a search will find them."""
     sets = {s["id"]: s.get("chapter") for s in d.get("exercise_sets", [])}
     chapters = d.get("chapters", [])
+    ranged = [c for c in chapters if c.get("pages") and None not in map(page_number, c["pages"])]
+    texts = {c["id"]: squash(c.get("text_latex")) for c in chapters}
     for e in d.get("errata", []):
-        chapter = None
-        m = re.match(r"Exercise\s+(\S+?),", e.get("location") or "")
-        if m:
-            chapter = sets.get(f"{d['book']['id']}/ex-{m.group(1)}")
-        if chapter is None:
-            page = page_number(e.get("page"))
-            cands = [c for c in chapters if page is not None and c.get("pages") and None not in map(page_number, c["pages"])
-                     and page_number(c["pages"][0]) <= page <= page_number(c["pages"][-1])] or chapters
-            printed = squash(e.get("printed"))
+        chapter, location = None, str(e.get("location") or "")
+        page = page_number(e.get("page"))
+        printed = squash(e.get("printed"))
+        m = re.match(r"Exercises?\s+(\S+?),", location)
+        named = [f"{d['book']['id']}/ex-{n}" for n in ((m.group(1), m.group(1).lower()) if m else ())]
+        if location.startswith("Answers"):  # the answers at the back are no chapter's text
+            chapter = None
+        elif any(sets.get(n) for n in named):  # Thompson's "Exercises XII" is set ex-xii
+            chapter = next(sets[n] for n in named if sets.get(n))
+        elif e.get("context"):  # a transcriber's mark: the words before it, then the printed text (which can be empty)
+            key = squash(e["context"])[-(20 if printed else 30):] + printed
+            hits = [c["id"] for c in chapters if key in texts[c["id"]]]
+            chapter = hits[0] if len(hits) == 1 else None
+        else:
+            if page is not None and ranged:
+                cands = [c for c in ranged if page_number(c["pages"][0]) <= page <= page_number(c["pages"][-1])]
+            else:
+                cands = chapters
             if printed:
-                cands = [c for c in cands if printed in squash(c.get("text_latex"))] or (cands if len(cands) <= 2 else [])
+                cands = [c for c in cands if printed in texts[c["id"]]] or (cands if len(cands) <= 2 else [])
             chapter = cands[0]["id"] if cands else None
         e["chapter"] = chapter
         text = next((squash(c.get("text_html")) for c in chapters if c["id"] == chapter), "")
@@ -187,6 +198,8 @@ def main():
             d = json.loads(f.read_text(encoding="utf-8"))
             entries = collect(book_dir)[1] if (book_dir / "book.json").exists() else []
             d["errata_statuses"] = ERRATA_STATUSES
+            # a \DPtypo in the preamble is the macro's definition (Wentworth's T001: printed "", corrected "#1")
+            entries = [e for e in entries if not (e.get("kind") == "transcriber-marked" and "#" in str(e.get("corrected")))]
             d["errata"] = [site_erratum(f.stem, e) for e in entries]  # [] for a book with none
             place_errata(d)
             f.write_text(json.dumps(d, ensure_ascii=False, indent=1) + "\n", encoding="utf-8", newline="\n")
