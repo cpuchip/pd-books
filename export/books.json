@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
  "generated_from": {
-  "claudiverse_commit": "a35faf7",
-  "generated_at": "2026-10-13T07:50:51Z"
+  "claudiverse_commit": "c2cef1e",
+  "generated_at": "2026-10-13T17:39:31Z"
  },
  "node_types": [
   "book",
@@ -1829,10 +1829,10 @@
     "concept/equation",
     "concept/exponent",
     "concept/negative-number",
+    "concept/number",
     "concept/power",
     "concept/product",
     "concept/root",
-    "concept/sign",
     "concept/variable",
     "method/solving-an-equation",
     "method/substitution",
@@ -1856,7 +1856,6 @@
     "concept/quadratic-equation",
     "concept/remainder",
     "concept/root",
-    "concept/sign",
     "concept/simultaneous-equations",
     "concept/unknown",
     "method/elimination",
@@ -2010,6 +2009,7 @@
     "concept/minuend",
     "concept/monomial",
     "concept/negative-number",
+    "concept/number",
     "concept/number-line",
     "concept/numerical-value",
     "concept/parenthesis",
@@ -2024,7 +2024,6 @@
     "concept/radical-sign",
     "concept/remainder",
     "concept/root",
-    "concept/sign",
     "concept/simultaneous-equations",
     "concept/square",
     "concept/subtrahend",
@@ -2112,6 +2111,7 @@
     "concept/equation",
     "concept/linear-equation",
     "concept/negative-number",
+    "concept/number",
     "concept/number-line",
     "concept/parenthesis",
     "concept/perfect-square",

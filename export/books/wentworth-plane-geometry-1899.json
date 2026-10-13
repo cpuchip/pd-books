@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
  "generated_from": {
-  "claudiverse_commit": "a35faf7",
-  "generated_at": "2026-10-13T07:50:51Z"
+  "claudiverse_commit": "c2cef1e",
+  "generated_at": "2026-10-13T17:39:31Z"
  },
  "node_types": [
   "book",
