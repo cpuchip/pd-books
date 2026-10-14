@@ -1,0 +1,58 @@
+[
+ {
+  "id": "G001",
+  "kind": "transcription",
+  "status": "confirmed against a scan",
+  "page": "92",
+  "location": "Finite differences, the table of y_1 to y_5, row y_4",
+  "printed": "y_{4} = y + 4\\Delta y + 6\\Delta^{2} y + 4\\Delta^{3} y + \\Delta^{5} y",
+  "corrected": "y_{4} = y + 4\\Delta y + 6\\Delta^{2} y + 4\\Delta^{3} y + \\Delta^{4} y",
+  "class": "transcription (an exponent mis-set in the transcription; the book is right)",
+  "evidence": "The Internet Archive scan cu31924060184417 (Open Court, Chicago, 1899, Cornell University Library), leaf n105, printed page 92, reads \"y4 = y + 4Δy + 6Δ²y + 4Δ³y + Δ⁴y\", read from the page image on 2026-10-14 (evidence/scan-1899-p92-differences.jpg). The row is the expansion of (1 + Δ)⁴, so its last term is Δ⁴y.",
+  "found_by": "a reader of the books site flagged the row (books seat, #7964); settled against the scan by qwenniverse-fermion",
+  "source_line": "39041-t.tex line 4462",
+  "date": "2026-10-14"
+ },
+ {
+  "id": "G002",
+  "kind": "transcription",
+  "status": "confirmed against a scan",
+  "page": "92",
+  "location": "Finite differences, the table of y_1 to y_5, row y_5",
+  "printed": "y_{5} = y + 5\\Delta y + 10\\Delta^{2} y + 10\\Delta^{3} y + 5\\Delta^{5} y + \\Delta^{6} y",
+  "corrected": "y_{5} = y + 5\\Delta y + 10\\Delta^{2} y + 10\\Delta^{3} y + 5\\Delta^{4} y + \\Delta^{5} y",
+  "class": "transcription (two exponents mis-set in the transcription; the book is right)",
+  "evidence": "The Internet Archive scan cu31924060184417 (Open Court, Chicago, 1899, Cornell University Library), leaf n105, printed page 92, reads \"y5 = y + 5Δy + 10Δ²y + 10Δ³y + 5Δ⁴y + Δ⁵y, etc.\", read from the page image on 2026-10-14 (evidence/scan-1899-p92-differences.jpg). The row is the expansion of (1 + Δ)⁵; the transcription raises its last two exponents by one.",
+  "found_by": "qwenniverse-fermion, reading the row below the one the books site's reader flagged (#7964); settled against the scan",
+  "source_line": "39041-t.tex lines 4463-4464",
+  "date": "2026-10-14"
+ },
+ {
+  "id": "G003",
+  "kind": "transcription",
+  "status": "confirmed against a scan",
+  "page": "93",
+  "location": "x becomes x + h by n equal steps",
+  "printed": "x + \\dfrac{nh}{h}",
+  "corrected": "x + \\dfrac{nh}{n}",
+  "class": "transcription (a denominator mis-set in the transcription; the book is right)",
+  "evidence": "The Internet Archive scan cu31924060184417 (Open Court, Chicago, 1899, Cornell University Library), leaf n106, printed page 93, reads \"x, x + h/n, x + 2h/n, etc. ..... x + nh/n or x + h\", read from the page image on 2026-10-14 (evidence/scan-1899-p93-steps.jpg). The steps are kh/n, and nh/n = h is the \"or x + h\" that follows.",
+  "found_by": "a reader of the books site flagged it (books seat, #7964); settled against the scan by qwenniverse-fermion",
+  "source_line": "39041-t.tex line 4478",
+  "date": "2026-10-14"
+ },
+ {
+  "id": "F001",
+  "kind": "found-by-us",
+  "status": "confirmed against a scan",
+  "page": "92",
+  "location": "so φ''x is the limit of d²y/dx², φ'''x is that of ...",
+  "printed": "\\dfrac{d^{3} y}{dy^{3}}",
+  "corrected": "\\dfrac{d^{3} y}{dx^{3}}",
+  "class": "content: the book's own error; the 1899 page prints it, and the transcription corrects it without a mark",
+  "evidence": "The Internet Archive scan cu31924060184417 (Open Court, Chicago, 1899, Cornell University Library), leaf n105, printed page 92, prints \"φ'''x is that of d³y/dy³\", read from the page image on 2026-10-14 (evidence/scan-1899-p92-third-ratio.jpg). The sentence runs dy/dx, d²y/dx², so the third ratio is d³y/dx³; the transcription prints d³y/dx³ with no \\DPtypo mark.",
+  "found_by": "qwenniverse-fermion, on the page image read for G001",
+  "source_line": "39041-t.tex line 4426",
+  "date": "2026-10-14"
+ }
+]
