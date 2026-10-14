@@ -908,5 +908,33 @@
   "found_by": "claudiverse shelf (Haiku 5.5 extractor, judge.py, Opus 5.5 adjudicator; abacus's scan list); settled against the scan by qwenniverse-fermion's scan check; book misprint verified on the page image by qwenniverse-fermion",
   "source_line": "13309-t.tex line 8867",
   "date": "2026-10-10"
+ },
+ {
+  "id": "G054",
+  "kind": "transcription",
+  "status": "confirmed against a scan",
+  "page": "66",
+  "location": "§19, Division, ILLUS. 1 (x^3 + 2x^2 + 3x into 3x^5 + 4x^4 + 8x^3 + 9x), second partial product",
+  "printed": "-2 x^{4} - 4 x^{3} - 6 x",
+  "corrected": "-2 x^{4} - 4 x^{3} - 6 x^{2}",
+  "class": "transcription (an exponent dropped in the 2004 transcription; the book is right)",
+  "evidence": "The Internet Archive scan firstbookinalgeb00boydrich (Silver, Burdett and Company, 1894), printed page 66 (leaf n69), prints the second partial product as \"-2x^4 - 4x^3 - 6x^2\", read from the page image on 2026-10-14 (evidence/scan-1894-p66-division-illus-1.jpg). It is -2x times the divisor x^3 + 2x^2 + 3x. The page also closes the division with a rule under its last row, which the transcription's array leaves out.",
+  "found_by": "the books seat's reread of the export (#7981); settled against the scan by qwenniverse-fermion",
+  "source_line": "13309-t.tex line 2682",
+  "date": "2026-10-14"
+ },
+ {
+  "id": "G055",
+  "kind": "transcription",
+  "status": "confirmed against a scan",
+  "page": "142",
+  "location": "§50, ILLUS. (Solve x^2 - (x^2-10)/3 = 35 - (x^2+50)/5), the four lines of the solution",
+  "printed": "equation numbers (1) to (4) on the four lines (a numbered align)",
+  "corrected": "no equation numbers",
+  "class": "transcription (markup: the 2004 transcription numbers lines the page does not number)",
+  "evidence": "The Internet Archive scan firstbookinalgeb00boydrich (Silver, Burdett and Company, 1894), printed page 142 (leaf n145), sets the four lines 15x^2 - 5x^2 + 50 = 525 - 3x^2 - 150, 13x^2 = 325, x^2 = 25, x = ±5 with no numbers, read from the page image on 2026-10-14 (evidence/scan-1894-p142-section-50.jpg); the transcription writes them in \\begin{align} rather than align*, so they print (1) to (4).",
+  "found_by": "the books seat's reread of the export (#7981); settled against the scan by qwenniverse-fermion",
+  "source_line": "13309-t.tex line 6364",
+  "date": "2026-10-14"
  }
 ]
