@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
  "generated_from": {
-  "claudiverse_commit": "e125acb",
-  "generated_at": "2026-10-13T23:05:40Z"
+  "claudiverse_commit": "2ecb0cb",
+  "generated_at": "2026-10-14T00:01:10Z"
  },
  "node_types": [
   "book",
@@ -163,7 +163,7 @@
     "\\DotRow": "\\multispan{#1}{\\cdots}",
     "\\Ibar": "\\mathop{\\vphantom{|}}",
     "\\THeadSize": "\\scriptsize",
-    "\\Low": "%\n  {-1.5ex}\n  \\smash[b]{{{#1}}}\n"
+    "\\Low": "%\n  \n  \\smash{{{#1}}}\n"
    }
   },
   {
@@ -547,8 +547,8 @@
     "\\lett": "\\boldmath\\textbf{#1}\\unboldmath",
     "\\qed": "\\text{q.e.d.}",
     "\\qef": "\\text{q.e.f.}",
-    "\\step": "%\n  {\\parindent}%\n  \\noindent\\text{\\setlength{\\parindent}{}\\rlap{}\\quad#1\\quad\\llap{#2}}%\n",
-    "\\eq": "%\n  {\\parindent}%\n  \\noindent\\text{\\setlength{\\parindent}{}\\rlap{}\\quad~#1~#2~\\quad\\llap{#3}}%\n",
+    "\\step": "%\n  %\n  \\noindent\\text{\\rlap{}\\quad#1\\quad\\llap{#2}}%\n",
+    "\\eq": "%\n  %\n  \\noindent\\text{\\rlap{}\\quad~#1~#2~\\quad\\llap{#3}}%\n",
     "\\figc": "\\centerline{\\includegraphics{./images/#1.pdf}}%\n  \\ifthenelse{\\equal{#2}{}}{}{\\par\\small\\boldmath\\textbf{#2}\\unboldmath}",
     "\\figcc": "\\centerline{\\includegraphics{./images/#1.pdf}\\qquad\\includegraphics{./images/#2.pdf}}",
     "\\figccc": "\\centerline{\\includegraphics{./images/#1.pdf}\\qquad%\n  \\includegraphics{./images/#2.pdf}\\qquad%\n  \\includegraphics{./images/#3.pdf}}",
