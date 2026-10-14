@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
  "generated_from": {
-  "claudiverse_commit": "2ecb0cb",
-  "generated_at": "2026-10-14T00:01:10Z"
+  "claudiverse_commit": "8fd4487",
+  "generated_at": "2026-10-14T01:22:56Z"
  },
  "node_types": [
   "book",
@@ -782,7 +782,7 @@
    "number": "On the connexion of Formul\\ae\\ in Plane and Spherical Trigonometry",
    "title": "On the connexion of Formulæ in Plane and Spherical Trigonometry",
    "text_latex": "\\chapter[On the connexion of Formul\\ae\\ in Plane and Spherical Trigonometry.]{ON THE CONNEXION OF FORMUL\\AE\\ IN PLANE AND SPHERICAL TRIGONOMETRY.}\n\\chaptermark{CONNEXION OF FORMUL\\AE\\ IN TRIGONOMETRY.}\n\n\\paragraph{131.} The student must have perceived that many of the\nresults obtained in \\textit{Spherical} Trigonometry resemble others with\nwhich he is familiar in \\textit{Plane} Trigonometry. We shall now pay\nsome attention to this resemblance. We shall first shew how we\nmay deduce formul\\ae\\ in Plane Trigonometry from formul\\ae\\ in\nSpherical Trigonometry; and we shall then investigate some\ntheorems in Spherical Trigonometry which are interesting principally\non account of their connexion with known results in Plane\nGeometry and Trigonometry.\n\n\\paragraph{132.} \\textit{From any formula in Spherical Trigonometry involving\nthe elements of a triangle, one of them being a side, it is required\nto deduce the corresponding formula in Plane Trigonometry.}\n\nLet $\\alpha$, $\\beta$, $\\gamma$ be the lengths of the sides of the triangle, $r$ the\nradius of the sphere, so that $\\dfrac{\\alpha}{r}$, $\\dfrac{\\beta}{r}$,\n$\\dfrac{\\gamma}{r}$ are the circular measures\nof the sides of the triangle; expand the functions of\n$\\dfrac{\\alpha}{r}$, $\\dfrac{\\beta}{r}$, $\\dfrac{\\gamma}{r}$\nwhich occur in any proposed formula in powers of\n$\\dfrac{\\alpha}{r}$, $\\dfrac{\\beta}{r}$, $\\dfrac{\\gamma}{r}$\nrespectively; then if we suppose $r$ to become indefinitely great,\nthe limiting form of the proposed formula will be a relation in\nPlane Trigonometry.\n\nFor example, in Art.~106, from the formula\n\\[\n\\cos A = \\frac{\\cos a - \\cos b \\cos c }{\\sin b \\sin c}\n\\]\nwe deduce\n\\[\n\\cos A = \\frac{\\beta^2 + \\gamma^2 - \\alpha^2}{2 \\beta \\gamma}\n  + \\frac{\\alpha^4 + \\beta^4 + \\gamma^4 - 2 \\alpha^2 \\beta^2 - 2 \\beta^2 \\gamma^2 - 2 \\gamma^2 \\alpha^2}{24 \\beta \\gamma r^2} + \\ldots;\n\\]\nnow suppose $r$ to become infinite; then ultimately\n\\[\n\\cos A = \\frac{\\beta^2 + \\gamma^2 - \\alpha^2}{2 \\beta \\gamma}\\,;\n\\]\nand this is the expression for the cosine of the angle of a plane\ntriangle in terms of the sides.\n\nAgain, in Art.~110, from the formula\n\\begin{flalign*}\n&&& \\frac{\\sin A}{\\sin B} = \\frac{\\sin a}{\\sin b} &&\n\\\\[1ex]\n&\\text{we deduce }&&\n\\frac{\\sin A}{\\sin B} = \\frac{\\alpha}{\\beta} + \\frac{\\alpha (\\beta^2 - \\alpha^2)}{6 \\beta r^2} + \\ldots;\n\\\\\n\\intertext{now suppose $r$ to become infinite; then ultimately}\n&&& \\frac{\\sin A}{\\sin B} = \\frac{\\alpha}{\\beta},\n\\end{flalign*}\nthat is, in a plane triangle the sides are as the sines of the opposite\nangles.\n\n\\paragraph{133.} \\textit{To find the equation to a small circle of the sphere.}\n\nThe student can easily draw the required diagram.\n\nLet $O$ be the pole of a small circle, $S$ a fixed point on the\nsphere, $SX$ a fixed great circle of the sphere. Let $OS = \\alpha$,\n$OSX = \\beta$; then the position of $O$ is determined by means of these\nangular co-ordinates $\\alpha$ and $\\beta$. Let $P$ be any point on the circumference\nof the small circle, $PS = \\theta$, $PSX = \\phi$, so that $\\theta$ and $\\phi$ are\nthe angular co-ordinates of $P$. Let $OP = r$. Then from the\ntriangle $OSP$\n\\[\n\\cos r = \\cos \\alpha \\cos \\theta + \\sin \\alpha \\sin \\theta \\cos (\\phi - \\beta); \\tag{1}\n\\]\nthis gives a relation between the angular co-ordinates of any point\non the circumference of the circle.\n\nIf the circle be a great circle then $r = \\dfrac{\\pi}{2}$; thus the equation\nbecomes\n\\[\n0 = \\cos \\alpha \\cos \\theta + \\sin \\alpha \\sin \\theta \\cos (\\phi - \\beta). \\tag{2}\n\\]\n\nIt will be observed that the angular co-ordinates here used are\nanalogous to the \\textit{latitude} and \\textit{longitude} which serve to determine\nthe positions of places on the Earth's surface; $\\theta$ is the \\textit{complement\nof the latitude} and $\\phi$ is the \\textit{longitude}.\n\n\\paragraph{134.} Equation (1) of the preceding Article may be written\nthus:\n\\begin{multline*}\n\\cos r \\left(\\cos^2 \\frac{\\theta}{2} + \\sin^2 \\frac{\\theta}{2}\\right)\n\\\\\n= \\cos \\alpha \\left(\\cos^2 \\frac{\\theta}{2}\n                  - \\sin^2 \\frac{\\theta}{2}\\right)\n+ 2 \\sin \\alpha \\sin \\frac{\\theta}{2} \\cos \\frac{\\theta}{2}\n  \\cos (\\phi - \\beta).\n\\end{multline*}\n\nDivide by $\\cos^2 \\dfrac{\\theta}{2}$ and rearrange; hence\n\\[\n  \\tan^2 \\frac{\\theta}{2} (\\cos r + \\cos \\alpha)\n- 2 \\tan \\frac{\\theta}{2} \\sin \\alpha \\cos (\\phi - \\beta)\n+ \\cos r - \\cos \\alpha = 0.\n\\]\n\nLet $\\tan \\dfrac{\\theta_1}{2}$ and $\\tan \\dfrac{\\theta_2}{2}$ denote the values of $\\tan \\dfrac{\\theta}{2}$ found from\nthis quadratic equation; then by \\textit{Algebra}, Chapter \\textsc{xxii.}\n\\[\n  \\tan \\frac{\\theta_1}{2} \\tan \\frac{\\theta_2}{2}\n= \\frac{\\cos r - \\cos \\alpha}{\\cos r + \\cos \\alpha}\n= \\tan \\frac{\\alpha + r}{2} \\tan \\frac{\\alpha - r}{2}.\n\\]\n\nThus the value of the product $\\tan \\dfrac{\\theta_{1}}{2} \\tan \\dfrac{\\theta_{2}}{2}$ is \\textit{independent} of $\\phi$;\nthis result corresponds to the well-known property of a circle in\nPlane Geometry which is demonstrated in Euclid \\textsc{iii.}\\ 36 \\textit{Corollary}.\n\n\\paragraph{135.} Let three arcs $OA$, $OB$, $OC$ meet at a point. From any\npoint $P$ in $OB$ draw $PM$ perpendicular to $OA$, and $PN$ perpendicular\nto $OC$. The student can easily draw the required diagram.\n\nThen, by Art.\\ 65,\n\\[\n\\sin PM = \\sin OP \\sin AOB,\\quad \\sin PN = \\sin OP \\sin COB;\n\\]\ntherefore\n$\\hfill\\displaystyle\n\\frac{\\sin PM}{\\sin PN} = \\frac{\\sin AOB}{\\sin COB}.\n\\hfill\\phantom{therefore}$\\\\\n\nThus the ratio of $\\sin PM$ to $\\sin PN$ is independent of the position\nof $P$ on the arc $OB$.\n\n\\paragraph{136.} Conversely suppose that from any other point $p$ arcs $pm$\nand $pn$ are drawn perpendicular to $OA$ and $OC$ respectively; then if\n\\[\n\\frac{\\sin pm}{\\sin pn} = \\frac{\\sin PM}{\\sin PN},\n\\]\nit will follow that $p$ is on the same great circle as $O$ and $P$.\n\n\\paragraph{137.} From two points $P_1$ and $P_2$ arcs are drawn perpendicular\nto a fixed arc; and from a point $P$ on the same great circle\nas $P_1$ and $P_2$ a perpendicular is drawn to the same fixed arc. Let\n$PP_1 = \\theta_1$ and $PP_2 = \\theta_2$; and let the perpendiculars drawn from $P$,\n$P_1$, and $P_2$ be denoted by $x$, $x_1$ and $x_2$. Then will\n\\[\n\\sin x\n= \\frac{\\sin \\theta_2}{\\sin(\\theta_1 + \\theta_2)} \\sin x_1\n+ \\frac{\\sin \\theta_1}{\\sin(\\theta_1 + \\theta_2)} \\sin x_2.\n\\]\n\nLet the arc $P_1 P_2$, produced if necessary, cut the fixed arc at a\npoint $O$; let $\\alpha$ denote the angle between the arcs. We will suppose\nthat $P_1$ is between $O$ and $P_2$, and that $P$ is between $P_1$ and $P_2$.\n\nThen, by Art.~65,\n\\begin{align*}\n\\sin x_1 = \\sin \\alpha \\sin OP_1 &= \\sin \\alpha \\sin (OP - \\theta_1) \\\\\n    &= \\sin \\alpha (\\sin OP \\cos \\theta_1 - \\cos OP \\sin \\theta_1);\\\\\n\\sin x_2 = \\sin \\alpha \\sin OP_2 &= \\sin \\alpha \\sin (OP + \\theta_2) \\\\\n    &= \\sin \\alpha (\\sin OP \\cos \\theta_2 + \\cos OP \\sin \\theta_2).\n\\end{align*}\nMultiply the former by $\\sin\\theta_2$, and the latter by $\\sin\\theta_1$, and add;\nthus\n\\begin{align*}\n\\sin \\theta_2 \\sin x_1 + \\sin \\theta_1 \\sin x_2 &= \\sin (\\theta_1 + \\theta_2) \\sin \\alpha \\sin OP\\\\\n     &= \\sin (\\theta_1 + \\theta_2) \\sin x.\n\\end{align*}\n\nThe student should convince himself by examination that the\nresult holds for all relative positions of $P$, $P_1$ and $P_2$, when due\nregard is paid to algebraical signs.\n\n\\paragraph{138.} The principal use of Art.\\ 137 is to determine whether\nthree given points are on the same great circle; an illustration\nwill be given in Art.\\ 146.\n\n\\paragraph{139.} \\textit{The arcs drawn from the angles of a spherical triangle\nperpendicular to the opposite sides respectively meet at a point.}\n\\begin{figure}[htp]\n\\centering\n\\includegraphics[width=5.0cm]{images/110fc}\n\\end{figure}\n\nLet $CF$ be perpendicular to $AB$. From $F$ suppose arcs drawn\nperpendicular to $CB$ and $CA$ respectively; denote the former by\n$\\xi$ and the latter by $\\eta$. Then, by Art.\\ 135,\n\\[\n\\frac{\\sin\\xi}{\\sin\\eta} = \\frac{\\sin FCB}{\\sin FCA}.\n\\]\n\nBut, by Art.\\ 65,\n\\[\n  \\cos B = \\cos CF \\sin FCB, \\quad \\cos A = \\cos CF \\sin FCA;\n\\]\ntherefore $\\hfill\\displaystyle\n  \\frac{\\sin\\xi}{\\sin\\eta}\n= \\frac{\\cos B}{\\cos A}\n= \\frac{\\cos B \\cos C}{\\cos A \\cos C}. \\hfill\\phantom{therefore}$\\\\[2ex]\nAnd if from \\textit{any} point in $CF$ arcs are drawn perpendicular to\n$CB$ and $CA$ respectively, the ratio of the sine of the former perpendicular\nto the sine of the latter perpendicular is equal to $\\dfrac{\\sin\\xi}{\\sin\\eta}$\nby Art.\\ 135.\n\nIn like manner suppose $AD$ perpendicular to $BC$; then if from\nany point in $AD$ arcs are drawn perpendicular to $AC$ and $AB$\nrespectively, the ratio of the sine of the former perpendicular to\nthe sine of the latter perpendicular is equal to $\\dfrac{\\cos A \\cos C}{\\cos A \\cos B}$.\\\\[1ex]\n\nLet $CF$ and $AD$ meet at $P$, and from $P$ let perpendiculars be\ndrawn on the sides $a$, $b$, $c$ of the triangle; and denote these perpendiculars\nby $x$, $y$, $z$ respectively: then we have shewn that\n\\begin{flalign*}\n&&\\frac{\\sin x}{\\sin y} &= \\frac{\\cos B \\cos C}{\\cos A \\cos C},\\\\[1ex]\n&\\text{and that}& \\frac{\\sin y}{\\sin z} &= \\frac{\\cos A \\cos C}{\\cos A \\cos B};&\\phantom{and that}\\\\\n\\intertext{hence it follows that}\n&&\\frac{\\sin x}{\\sin z} &= \\frac{\\cos B \\cos C}{\\cos B \\cos A},\n\\end{flalign*}\nand this shews that the point $P$ is on the arc drawn from $B$ perpendicular\nto $AC$.\n\nThus the three perpendiculars meet at a point, and this point\nis determined by the relations\n\\[\n\\frac{\\sin x}{\\cos B \\cos C} = \\frac{\\sin y}{\\cos C \\cos A} = \\frac{\\sin z}{\\cos A \\cos B}.\n\\]\n\n\\paragraph{140.} In the same manner it may be shewn that the arcs\ndrawn from the angles of a spherical triangle to the middle points\nof the opposite sides meet at a point; and if from this point arcs\n$x$, $y$, $z$ are drawn perpendicular to the sides $a$, $b$, $c$ respectively,\n\\[\n\\frac{\\sin x}{\\sin B \\sin C} = \\frac{\\sin y}{\\sin C \\sin A} = \\frac{\\sin z}{\\sin A \\sin B}.\n\\]\n\n\\paragraph{141.} It is known in Plane Geometry that a certain circle\ntouches the inscribed and escribed circles of any triangle; this\ncircle is called the \\textit{Nine points circle}: see \\textit{Appendix to Euclid},\npages 317, 318, and \\textit{Plane Trigonometry}, Chapter \\textsc{xxiv}.\n\nWe shall now shew that a small circle can always be determined\non the sphere to touch the inscribed and escribed circles of\nany spherical triangle.\n\n\\paragraph{142.} Let $\\alpha$ denote the distance from $A$ of the pole of the\nsmall circle inscribed within a spherical triangle $ABC$. Suppose\nthat a small circle of angular radius $\\rho$ touches this inscribed circle\ninternally; let $\\beta$ be the distance from $A$ of the pole of this touching\ncircle; let $\\gamma$ be the angle between arcs drawn from $A$ to the\npole of the inscribed circle and the pole of the touching circle\nrespectively. Then we must have\n\\[\n\\cos(\\rho-r) = \\cos\\alpha\\cos\\beta + \\sin\\alpha\\sin\\beta\\cos\\gamma. \\tag{1}\n\\]\nSuppose that this touching circle also touches externally the\nescribed circle of angular radius $r_1$; then if $\\alpha_1$ denote the distance\nfrom $A$ of the pole of this escribed circle, we must have\n\\[\n\\cos(\\rho+r_1) = \\cos\\alpha_1\\cos\\beta + \\sin\\alpha_1\\sin\\beta\\cos\\gamma. \\tag{2}\n\\]\n\nSimilarly, if $\\alpha_2$ and $\\alpha_3$ denote the distances from $A$ of the poles\nof the other escribed circles, in order that the touching circle may\ntouch these escribed circles externally, we must also have\n\\begin{gather*}\n\\cos(\\rho+r_2) = \\cos\\alpha_2\\cos\\beta + \\sin\\alpha_2\\sin\\beta \\cos\\left(\\frac{\\pi}{2}-\\gamma\\right), \\tag{3}\\\\[1.5ex]\n\\cos(\\rho+r_3) = \\cos\\alpha_3\\cos\\beta + \\sin\\alpha_3\\sin\\beta \\cos\\left(\\frac{\\pi}{2}+\\gamma\\right). \\tag{4}\n\\end{gather*}\n\nWe shall shew that real values of $\\rho$, $\\beta$, and $\\gamma$ can be found to\nsatisfy these four equations.\n\nEliminate $\\cos \\gamma$ from (1) and (2); thus\n\\begin{multline*}\n\\cos\\rho(\\cos r\\sin\\alpha_1-\\cos r_1\\sin\\alpha) +\n\\sin\\rho(\\sin r\\sin\\alpha_1+\\sin r_1\\sin\\alpha) \\\\\n= \\cos\\beta (\\cos\\alpha \\sin\\alpha_1 - \\cos\\alpha_1 \\sin\\alpha). \\tag{5}\n\\end{multline*}\n\nSuppose that the inscribed circle touches $AB$ at the distance $m$\nfrom $A$, and that the escribed circle of angular radius $r_1$ touches\n$AB$ at the distance $m_1$ from $A$. Then, by Art.~65,\n\\[\n  \\cot \\alpha = \\cot m \\cos \\frac{A}{2}, \\quad\n  \\cos \\alpha = \\cos r\\cos m, \\quad\n  \\sin r = \\sin \\alpha \\sin\\frac{A}{2};\n\\]\ntherefore $\\hfill\\displaystyle\n  \\frac{\\cos r}{\\sin \\alpha}\n= \\frac{\\cot \\alpha}{\\cos m} =\n\\frac{1}{\\sin m}\\cos\\frac{A}{2}.\n\\hfill\\phantom{therefore }$\\\\\n\nSimilarly we may connect $\\alpha_1$ and $r_1$ with $m_1$. Thus we\nobtain from (5)\n\\begin{multline*}\n\\cos\\rho \\cos\\frac{A}{2}\n\\left(\\frac{1}{\\sin m}-\\frac{1}{\\sin m_1}\\right) +\n2\\sin\\rho\\sin\\frac{A}{2}\n\\\\\n= \\cos\\beta\\cos\\frac{A}{2}\n\\left(\\cot m-\\cot m_1\\right);\n\\end{multline*}\ntherefore \\ $\n   \\cos\\rho(\\sin m_1-\\sin m)\n+ 2\\sin\\rho\\sin m\\sin m_1\\tan\\dfrac{A}{2} \\hfill$ \\\\\n\\rightline{$ = \\cos\\beta\\sin(m_1-m)$.}\n\nBut by Arts.~89 and 90 we have $m = s-a$, and $m_1 = s$; therefore\nby the aid of Art.~45 we obtain\n\\[\n\\tag{6}\n2\\cos\\rho \\sin\\frac{a}{2}\\cos\\frac{b+c}{2} +\n2n\\sin\\rho=\\cos\\beta\\sin a ,\n\\]\nwhere $n$ has the meaning assigned in Art.~46.\n\nIn like manner if we eliminate $\\sin \\gamma$ between (3) and (4),\nputting $m_2$ for $s-c$, and $m_3$ for $s-b$, we obtain\n\\begin{multline*}\n  \\cos\\rho(\\sin m_2+\\sin m_3)\n-2\\sin\\rho\\sin m_2\\sin m_3\\cot\\frac{A}{2}\n\\\\\n=\\cos\\beta\\sin(m_2+m_3),\n\\end{multline*}\n\\begin{flalign*}\n\\tag{7}\n\\text{therefore}\\quad&\n2\\cos\\rho\\sin\\frac{a}{2}\\cos\\frac{b-c}{2}-2n\\sin\\rho=\\cos\\beta\\sin a. &&\n\\end{flalign*}\n\nFrom (6) and (7) we get\n\\[\n\\tag{8}\n\\tan\\rho=\n\\frac{\\sin\\dfrac{a}{2}\\sin\\dfrac{b}{2}\\sin\\dfrac{c}{2}}{n} =\n\\frac{1}{2}\\tan R,\\ \\text{by Art.~92}\n\\]\nand $\\hfill\n\\cos\\beta=\n\\dfrac{\\cos\\dfrac{b}{2}\\cos\\dfrac{c}{2}\\cos\\rho}{\\cos\\dfrac{a}{2}}. \\hfill\\phantom{and } (9)$\\\\[2ex]\n\nWe may suppose that $\\cos\\dfrac{a}{2}$ is not less than $\\cos\\dfrac{b}{2}$ or $\\cos\\dfrac{c}{2}$, so\nthat we are sure of a possible value of $\\cos\\beta$ from (9).\n\nIt remains to shew that when $\\rho$ and $\\beta$ are thus determined, all\nthe four fundamental equations are satisfied.\n\nIt will be observed that, $\\rho$ and $\\beta$ being considered known,\n$\\cos\\gamma$ can be found from (1) or (2), and $\\sin\\gamma$ can be found from\n(3) or (4): we must therefore shew that (1) and (2) give the\n\\textit{same} value for $\\cos\\gamma$, and that (3) and (4) give the \\textit{same} value\nfor $\\sin\\gamma$; and we must also shew that these values satisfy the\ncondition $\\cos^2\\gamma+\\sin^2\\gamma=1$.\n\nFrom (1) we have\n\\[\n\\frac{\\cos\\rho\\sin r}{\\sin\\alpha}\\left(\\cot r+\\tan\\rho-\\cos m\\cot r\\frac{\\cos\\beta}{\\cos\\rho}\\right)=\\sin\\beta\\cos\\gamma,\n\\]\nthat is,\n\\begin{gather*}\n\\frac{\\cos\\rho\\sin\\dfrac{A}{2}}{n}\n \\left\\{\\sin s+\\sin\\tfrac12a\\sin\\tfrac12b\\sin\\tfrac12c\n  - \\frac{\\cos(s-a)\\sin s\\cos\\dfrac{b}{2}\\cos\\dfrac{c}{2}}{\\cos\\dfrac{a}{2}}\\right\\}\\\\\n=\\sin\\beta\\cos\\gamma;\\\\\n\\intertext{this reduces to}\n\\frac{\\cos\\rho\\sin\\dfrac{A}{2}}{n}\n \\left\\{\\cos\\frac{a}{2}\\sin\\frac{b+c}{2}\n  - \\frac{\\sin(b+c)\\cos\\dfrac{b}{2}\\cos\\dfrac{c}{2}}{2\\cos\\dfrac{a}{2}} \\right\\}\n  =\\sin\\beta\\cos\\gamma:\n\\end{gather*}\nand it will be found that (2) reduces to the same; so that (1) and\n(2) give the same value for $\\cos\\gamma$.\n\nIn like manner it will be found that (3) and (4) agree in\nreducing to\n\\[\n\\frac{\\cos\\rho\\cos\\dfrac{A}{2}}{n}\n \\left\\{\\cos\\dfrac{a}{2}\\sin\\frac{c-b}{2}\n  - \\frac{\\sin(c-b)\\cos\\dfrac{b}{2}\\cos\\dfrac{c}{2}}{2\\cos\\dfrac{a}{2}} \\right\\}\n  =\\sin\\beta\\cos\\gamma.\n\\]\n\nIt only remains to shew that the condition $\\cos^2\\gamma+\\sin^2\\gamma=1$ is\nsatisfied.\n\\[\n\\text{Put $k$ for $\\frac{\\cos\\beta}{\\cos\\rho}$, that is for $\\frac{\\cos\\dfrac b2 \\cos\\dfrac c2}{\\cos\\dfrac a2}$;}\n\\]\nput $X$ for $\\cot r\\{1-k\\cos(s-a)\\}$, and $Y$ for $\\cot r_1\\{1-k\\cos s\\}$.\n\nThen (1) and (2) may be written respectively thus:\n\\begin{align*}\n(X\\cos\\rho+\\sin\\rho)\\sin\\frac A2 &=\\sin\\beta\\cos\\gamma,\\tag{10}\\\\\n(Y\\cos\\rho-\\sin\\rho)\\sin\\frac A2 &=\\sin\\beta\\cos\\gamma.\\tag{11}\n\\end{align*}\nFrom (10) and (11) by addition\n\\begin{flalign*}\n&&\\multispan{2}{\\hfil$(X+Y)\\sin\\dfrac A2\\cos\\rho = 2\\sin\\beta\\cos\\gamma$;\\hfil}&&\\\\\n&\\text{therefore}&\n  4\\sin^2\\beta\\cos^2\\gamma&=(X^2+Y^2+2XY)\\sin^2\\frac A2\\cos^2\\rho.\n&\\phantom{therefore}\\tag{12}\n\\end{flalign*}\n\nBut from (10) and (11) by subtraction\n\\begin{flalign*}\n&&\\multispan{2}{\\hfil$(X-Y)\\cos\\rho=-2\\sin\\rho$;\\hfil}&&\\\\\n&\\text{therefore}&\n  (X^2+Y^2)\\cos^2\\rho&=4\\sin^2\\rho+2XY\\cos^2\\rho.&\\phantom{therefore}\n\\end{flalign*}\n\nSubstitute in (12) and we obtain\n\\[\n\\sin^2\\beta\\cos^2\\gamma=(\\sin^2\\rho+XY\\cos^2\\rho)\\sin^2\\frac A2.\\tag{13}\n\\]\n\nAgain, put\n\\[\n\\text{$X_1$ for $\\cot r_2\\{1-k\\cos(s-c)\\}$, and $Y_1$ for $\\cot r_3\\{1-k\\cos(s-b)\\}$.}\n\\]\n\nThen (3) and (4) may be written respectively thus:\n\\begin{align*}\n(X_1\\cos\\rho-\\sin\\rho)\\cos\\frac A2 &= \\sin\\beta\\sin\\gamma,\\tag{14}\\\\\n(Y_1\\cos\\rho-\\sin\\rho)\\cos\\frac A2 &= -\\sin\\beta\\sin\\gamma.\\tag{15}\n\\end{align*}\n\nFrom (14) and (15) by subtraction\n\\[\n(X_1-Y_1)\\cos\\frac A2\\cos\\rho = 2\\sin\\beta\\sin\\gamma,\n\\]\nand from (14) and (15) by addition,\n\\[\n  (X_1+Y_1)\\cos\\rho = 2\\sin\\rho,\n\\]\nwhence\n\\[\n  \\sin^2 \\beta \\sin^2 \\gamma = (\\sin^2 \\rho - X_1 Y_1 \\cos^2\\rho) \\cos^2 \\frac{A}{2}. \\tag{16}\n\\]\n\nHence from (13) and (16) it follows that we have to establish\nthe relation\n\\[\n  \\sin^2 \\beta = \\sin^2\\rho + \\left( XY\\sin^2\\frac{A}{2} - X_1 Y_1 \\cos^2 \\frac{A}{2} \\right) \\cos^2\\rho.\n\\]\n\nBut $\\sin^2\\beta = 1-\\cos^2\\beta = \\sin^2\\rho + \\cos^2 \\rho - k^2\\cos^2\\rho$,\nso that the relation\nreduces to\n\\[\n  1-k^2 = XY\\sin^2\\frac{A}{2} - X_1 Y_1 \\cos^2 \\frac{A}{2}.\n\\]\n\nNow\n\\begin{align*}\nXY\\sin^2\\frac{A}{2}\n&= \\frac{\\cot r \\cot r_1 \\{1-k\\cos s\\} \\{1-k\\cos(s-a)\\} \\sin(s-b)\\sin(s-c)}{\\sin b \\sin c} \\\\[1.5ex]\n&= \\frac{\\{1-k\\cos s\\} \\{1-k\\cos(s-a) \\} }{\\sin b \\sin c }.\n\\end{align*}\n\nSimilarly \\ $\nX_1 Y_1 \\cos^2 \\dfrac{A}{2} = \\dfrac{\\{1-k\\cos(s-b) \\} \\{1-k\\cos(s-c) \\} }{\\sin b \\sin c}$.\\\\[2ex]\n\nSubtract the latter from the former; then we obtain\n\\begin{gather*}\n\\frac{k}{\\sin b \\sin c} \\{\\cos(s-b) + \\cos(s-c) -\\cos s -\\cos(s-a) \\} \\\\[1.5ex]\n{}+ \\frac{k^2}{\\sin b \\sin c} \\{\\cos s \\cos(s-a) - \\cos(s-b)\\cos(s-c) \\},\n\\end{gather*}\nthat is $\\hfill\n  \\dfrac{2k\\cos\\dfrac{a}{2} }{\\sin b\\sin c}\n  \\left\\{\\cos\\dfrac{b-c}{2} -\\cos\\dfrac{b+c}{2} \\right\\}\n\\hfill\\phantom{that is}$\\\\[1ex]\n\\[\n{}+\\frac{k^2}{\\sin b \\sin c}\n   \\left\\{\\cos\\frac{b+c+a}{2} \\cos\\frac{b+c-a}{2}\n         - \\cos\\frac{a+c-b}{2} \\cos\\frac{a+b-c}{2} \\right\\}\n\\]\nthat is\\hfill\n$\\displaystyle \\dfrac{4\\sin\\dfrac{b}{2} \\sin\\dfrac{c}{2}\n          \\cos\\dfrac{b}{2} \\cos\\dfrac{c}{2} }\n       {\\sin b \\sin c}\n+ \\dfrac{k^2}{\\sin b\\sin c}\n  \\left\\{\\sin^2\\dfrac{c-b}{2}\n        - \\sin^2\\dfrac{c+b}{2} \\right\\},$\\hfill\\phantom{\\text{that is}}\\\\[1ex]\nthat is $1-k^2$; which was to be shewn.\n\n\\paragraph{143.} Thus the existence of a circle which touches the inscribed\nand escribed circles of any spherical triangle has been\nestablished.\n\nThe distance of the pole of this touching circle from the\nangles $B$ and $C$ of the triangle will of course be determined by\nformul\\ae\\ corresponding to (9); and thus it follows that\n\\[\n\\frac{\\cos\\dfrac{a}{2} \\cos\\dfrac{c}{2} \\cos\\rho }{\\cos\\dfrac{b}{2} } \\text{ and }\n\\frac{\\cos\\dfrac{a}{2} \\cos\\dfrac{b}{2} \\cos\\rho }{\\cos\\dfrac{c}{2} },\n\\]\nmust both be less than unity.\n\n\\paragraph{144.} Since the circle which has been determined touches\nthe inscribed circle internally and touches the escribed circles\nexternally, it is obvious that it must meet all the sides of the\nspherical triangle. We will now determine the position of the\npoints of meeting.\n\nSuppose the touching circle intersects the side $AB$ at points\ndistant $\\lambda$ and $\\mu$ respectively from $A$.\n\nThen by Art.~134 we have\n\\[\n\\tan\\frac{\\lambda}{2} \\tan\\frac{\\mu}{2} = \\frac{\\cos\\rho - \\cos\\beta}{\\cos\\rho + \\cos\\beta}\n= \\frac{\\cos\\dfrac{a}{2} - \\cos\\dfrac{b}{2} \\cos\\dfrac{c}{2} }{\\cos\\dfrac{a}{2} + \\cos\\dfrac{b}{2} \\cos\\dfrac{c}{2} }. \\tag{1}\n\\]\n\nIn the same way we must have by symmetry\n\\[\n\\tan\\frac{c - \\lambda}{2} \\tan\\frac{c - \\mu}{2}\n= \\frac{\\cos\\dfrac{b}{2} - \\cos\\dfrac{a}{2} \\cos\\dfrac{c}{2} }{\\cos\\dfrac{b}{2} + \\cos\\dfrac{a}{2} \\cos\\dfrac{c}{2}}. \\tag{2}\n\\]\n\nFrom (2), when we substitute the value of $\\tan\\dfrac{\\lambda}{2} \\tan\\dfrac{\\mu}{2}$ given\nby (1), we obtain\n\\begin{gather*}\n\\tan\\frac{\\lambda}{2} + \\tan\\frac{\\mu}{2} =\n\\frac{\\cos^2 \\dfrac{a}{2} - \\cos^2 \\dfrac{b}{2} \\cos^2 \\dfrac{c}{2} + \\cos^2 \\dfrac{b}{2} \\sin^2 \\dfrac{c}{2} }{\\cos \\dfrac{b}{2} \\sin \\dfrac{c}{2} \\left(\\cos \\dfrac{a}{2} + \\cos \\dfrac{b}{2} \\cos \\dfrac{c}{2}\\right) }\\\\\n= \\frac{\\cos \\dfrac{a}{2} - \\cos \\dfrac{b}{2} \\cos \\dfrac{c}{2} }\n       {\\cos \\dfrac{b}{2}   \\sin \\dfrac{c}{2} }\n+ \\frac{\\cos \\dfrac{b}{2}   \\sin \\dfrac{c}{2} }\n       {\\cos \\dfrac{a}{2} + \\cos \\dfrac{b}{2} \\cos \\dfrac{c}{2} }. \\tag{3}\n\\end{gather*}\n\nFrom (1) and (3) we see that we may put\n\\begin{align*}\n  \\tan\\frac{\\lambda}{2}\n&= \\frac{\\cos \\dfrac{a}{2} - \\cos \\dfrac{b}{2} \\cos \\dfrac{c}{2} }\n        {\\cos \\dfrac{b}{2}   \\sin \\dfrac{c}{2} }. \\tag{4}\n\\\\[2ex]\n  \\tan\\frac{\\mu}{2}\n&= \\frac{\\cos \\dfrac{b}{2}   \\sin \\dfrac{c}{2} }\n        {\\cos \\dfrac{a}{2} + \\cos \\dfrac{b}{2} \\cos \\dfrac{c}{2} }. \\tag{5}\n\\end{align*}\n\nSimilar formul\\ae\\ of course hold for the points of intersection of\nthe touching circle with the other sides.\n\n\\paragraph{145.} Let $z$ denote the perpendicular from the pole of the\ntouching circle on $AB$; then\n\\begin{align*}\n\\sin z &= \\sin \\beta \\sin \\left(\\frac{A}{2} + \\gamma\\right) \\\\[1.5ex]\n  &= \\sin \\beta \\left(\\sin \\frac{A}{2} \\cos \\gamma + \\cos \\frac{A}{2} \\sin \\gamma\\right).\n\\end{align*}\n\nBut from (2) and (3) of Art.~142 we have\n\\[\n\\sin \\beta \\cos \\gamma = \\frac{\\cos \\rho \\sin \\dfrac{A}{2} }{n}\n  \\left(Z - \\sin \\frac{a}{2} \\sin \\frac{b}{2} \\sin \\frac{c}{2} \\right),\n\\]\nwhere\\hfill\n$\\displaystyle Z = \\sin (s - a) - \\cos s \\sin (s - a) \\cos \\frac{b}{2} \\cos \\frac{c}{2} \\sec \\frac{a}{2},$\\hfill\\phantom{\\text{where}}\n\\begin{flalign*}\n&\\text{and }&&\n\\sin \\beta \\sin \\gamma = \\frac{\\cos \\rho \\cos \\dfrac{A}{2} }{n}\n  \\left(Z_1 - \\sin \\frac{a}{2} \\sin \\frac{b}{2} \\sin \\frac{c}{2}\\right),\\\\[2ex]\n&\\text{where}&&\nZ_1 = \\sin (s - b) - \\cos (s - c) \\sin (s - b) \\cos \\frac{b}{2} \\cos \\frac{c}{2} \\sec \\frac{a}{2}.\n&\\phantom{where}&\n\\end{flalign*}\nTherefore\n\\[\n\\sin z = \\frac{\\cos \\rho}{n} \\left\\{Z \\sin^2 \\frac{A}{2} +\nZ_1 \\cos^2 \\frac{A}{2} -\n\\sin \\frac{a}{2} \\sin \\frac{b}{2} \\sin \\frac{c}{2}\\right\\}.\n\\]\n\nNow $Z \\sin^2 \\dfrac{A}{2}$\n\\[\n= \\frac{\\sin (s - a) \\sin (s - b) \\sin (s - c)}{\\sin b \\sin c}\n\\left\\{1 - \\cos s \\cos \\frac{b}{2} \\cos \\frac{c}{2} \\sec \\frac{a}{2}\\right\\},\n\\]\nand $Z_1 \\cos^2 \\dfrac{A}{2}$\n\\[\n= \\frac{\\sin s \\sin (s - a) \\sin (s - b)}{\\sin b \\sin c}\n  \\left\\{1 - \\cos (s - c) \\cos \\frac{b}{2} \\cos \\frac{c}{2}\n  \\sec \\frac{a}{2}\\right\\}.\n\\]\n\nTherefore $\\hfill\\displaystyle\nZ \\sin^2 \\frac{A}{2} + Z_1 \\cos^2 \\frac{A}{2}\n\\hfill\\phantom{\\indent Therefore}$\\\\[1ex]\nis equal to the product of\n\\[\n\\frac{\\sin (s - a) \\sin (s - b)}{\\sin b \\sin c}\n\\]\ninto\n\\begin{align*}\n\\multispan{2}{\\hfill$\\displaystyle\n  \\sin (s - c) + \\sin s - \\cos \\frac{b}{2} \\cos \\frac{c}{2} \\sec \\frac{a}{2}\n  \\left\\{\\sin (s - c) \\cos s + \\cos (s - c) \\sin s\n\\vphantom{\\frac b2} \\right\\} $\\hfill}\\\\[2ex]\n& = \\frac{\\sin (s - a) \\sin (s - b)}{\\sin b \\sin c}\n  \\left\\{2 \\sin \\frac{a + b}{2} \\cos \\frac{c}{2} -\n  \\cos \\frac{b}{2} \\cos \\frac{c}{2} \\sec \\frac{a}{2} \\sin (2s - c)\\right\\} \\\\[2ex]\n& = \\frac{\\sin (s - a) \\sin (s - b)}{2 \\sin b \\sin \\dfrac{c}{2}}\n  \\left\\{2 \\sin \\frac{a + b}{2} -\n  \\sin (a + b) \\cos \\frac{b}{2} \\sec \\frac{a}{2}\\right\\} \\\\[2ex]\n& = \\frac{\\sin (s - a) \\sin (s - b) \\sin \\dfrac{a + b}{2}}\n  {\\sin b \\sin \\dfrac{c}{2}}\n  \\left\\{1 - \\frac{\\cos \\dfrac{a + b}{2} \\cos \\dfrac{b}{2}}{\\cos \\dfrac{a}{2}}\n  \\right\\} \\\\[2ex]\n& = \\frac{\\sin (s - a) \\sin (s - b) \\sin^2 \\dfrac{a + b}{2} \\sin \\dfrac{b}{2}}\n  {\\sin b \\sin \\dfrac{c}{2} \\cos \\dfrac{a}{2}} =\n  \\frac{\\sin (s - a) \\sin (s - b) \\sin^2 \\dfrac{a + b}{2}}\n  {2 \\cos \\dfrac{a}{2} \\cos \\dfrac{b}{2} \\sin \\dfrac{c}{2}}.\n\\end{align*}\n\nTherefore\n\\begin{gather*}\n\\sin z = \\frac{\\cos\\rho}{n} \\sin\\frac{a}{2} \\sin\\frac{b}{2} \\sin\\frac{c}{2} \\left\\{\\frac{2 \\sin^2\\dfrac{a + b}{2}\\sin(s - a)\\sin(s - b)}{\\sin^2\\dfrac{c}{2}\\sin a\\sin b}- 1\\right\\}\\\\[2ex]\n= \\frac{\\cos\\rho}{n} \\sin\\frac{a}{2} \\sin\\frac{b}{2} \\sin\\frac{c}{2} \\left\\{2 \\cos^2\\frac{A - B}{2} - 1\\right\\}\\text{; by (2) of Art.\\ 54.}\n\\end{gather*}\n\nThus $\\hfill\\displaystyle\n  \\sin z = \\frac{\\cos\\rho}{n} \\sin\\frac{a}{2} \\sin\\frac{b}{2} \\sin\\frac{c}{2} \\cos(A - B) \\hfill\\phantom{\\indent Thus}$\n\\[\n  = \\sin\\rho \\cos(A - B).\n\\]\n\nSimilar expressions hold for the perpendiculars from the pole\nof the touching circle on the other sides of the spherical triangle.\n\n\\paragraph{146.} Let $P$ denote the point determined in Art.\\ 139; $G$ the\npoint determined in Art.\\ 140, and $N$ the pole of the touching\ncircle. We shall now shew that $P$, $G$, and $N$ are on a great\ncircle.\n\nLet $x$, $y$, $z$ denote the perpendiculars from $N$ on the sides\n$a$, $b$, $c$ respectively of the spherical triangle; let $x_1$, $y_1$, $z_1$ denote\nthe perpendiculars from $P$; and $x_2$, $y_2$, $z_2$ the perpendiculars from\n$G$. Then by Arts.\\ 145,\n139, and 140 we have\n\\begin{align*}\n\\frac{\\sin x}{\\cos(B - C)} &= \\frac{\\sin y}{\\cos(C - A)} = \\frac{\\sin z}{\\cos(A - B)},\\\\[1.5ex]\n\\frac{\\sin x_1}{\\cos B \\cos C} &= \\frac{\\sin y_1}{\\cos C \\cos A} = \\frac{\\sin z_1}{\\cos A \\cos B},\\\\[1.5ex]\n\\frac{\\sin x_2}{\\sin B \\sin C} &= \\frac{\\sin y_2}{\\sin C \\sin A} = \\frac{\\sin z_2}{\\sin A \\sin B}.\n\\end{align*}\n\nHence it follows that\n\\begin{align*}\n\\sin x &= t_1 \\sin x_1 + t_2 \\sin x_2,\\\\\n\\sin y &= t_1 \\sin y_1 + t_2 \\sin y_2,\\\\\n\\sin z &= t_1 \\sin z_1 + t_2 \\sin z_2,\n\\end{align*}\nwhere $t_1$ and $t_2$ are certain quantities the values of which are not\nrequired for our purpose.\n\nTherefore by Art.\\ 137 a certain point \\textit{in the same great circle}\nas $P$ and $G$ is at the perpendicular distances $x$, $y$, $z$ from the sides\n$a$, $b$, $c$ respectively of the spherical triangle: and hence this point\nmust be the point $N$.\n\n\\paragraph{147.} The resemblance of the results which have been obtained\nto those which are known respecting the Nine points circle in\nPlane Geometry will be easily seen.\n\nThe result $\\tan\\rho = \\dfrac12 \\tan R$ corresponds to the fact that the\nradius of the Nine points circle is half the radius of the circumscribing\ncircle of the triangle.\n\nFrom equation (4) of Art.\\ 144 by supposing the radius of the\nsphere to become infinite we obtain $\\lambda = \\dfrac{b^2 + c^2 - a^2}{2c}$: this corresponds\nto the fact that the Nine points circle passes through the feet of\nthe perpendiculars from the angles of a triangle on the opposite\nsides.\n\nFrom equation (5) of Art.\\ 144 by supposing the radius of the\nsphere to become infinite we obtain $\\mu = \\dfrac{c}{2}$: this corresponds to the\nfact that the Nine points circle passes through the middle points\nof the sides of a triangle.\n\nFrom Art.\\ 145 by supposing the radius of the sphere to become\ninfinite we obtain $z = \\dfrac12 R \\cos(A - B)$: this is a known\nproperty of the Nine points circle.\n\nIn Plane Geometry the points which correspond to the $P$, $G$,\nand $N$ of Art.\\ 146 are on a straight line.\n\n\\paragraph{148.} The results which have been demonstrated with respect\nto the circle which touches the inscribed and escribed circles of a\nspherical triangle are mainly due to Dr Hart and Dr Salmon.\nSee the \\textit{Quarterly Journal of Mathematics}, Vol.~\\textsc{vi}. page~67.\n\n\\section*{\\centering\\normalsize EXAMPLES.}\n\n1. From the formula $\\sin\\dfrac{a}{2}=\\Surd{\\left\\{\\dfrac{-\\cos S\\cos(S-A)}{\\sin B\\sin C}\\right\\}}$ deduce the expression for the area of a plane triangle, namely\n$\\dfrac{a^2\\sin B\\sin C}{2\\sin A}$, when the radius of the sphere is indefinitely increased.\n\\medskip\n\n2. Two triangles $ABC$, $abc$, spherical or plane, equal in all\nrespects, differ slightly in position: shew that\n\\[\n\\cos ABb\\cos BCc\\cos CAa+\\cos ACc\\cos CBb\\cos BAa=0.\n\\]\n\n3. Deduce formul\\ae\\ in Plane Trigonometry from Napier's\nAnalogies.\n\\medskip\n\n4. Deduce formul\\ae\\ in Plane Trigonometry from Delambre's\nAnalogies.\n\\medskip\n\n5. From the formula\n$\\cos\\dfrac{c}{2}\\cos\\dfrac{A+B}{2}\n=\\sin\\dfrac{C}{2}\\cos\\dfrac{a+b}{2}$ deduce\nthe area of a plane triangle in terms of the sides and one of the\nangles.\n\\medskip\n\n6. What result is obtained from Example 7 to Chapter VI.,\nby supposing the radius of the sphere infinite?\n\\medskip\n\n7. From the angle $C$ of a spherical triangle a perpendicular is\ndrawn to the arc which joins the middle points of the sides $a$ and\n$b$: shew that this perpendicular makes an angle $S-B$ with the\nside $a$, and an angle $S-A$ with the side $b$.\n\\medskip\n\n8. From each angle of a spherical triangle a perpendicular is\ndrawn to the arc which joins the middle points of the adjacent\nsides. Shew that these perpendiculars meet at a point; and that\nif $x$, $y$, $z$ are the perpendiculars from this point on the sides $a$, $b$, $c$\nrespectively,\n\\[\n  \\frac{\\sin x}{\\sin(S-B)\\sin(S-C)}\n= \\frac{\\sin y}{\\sin(S-C)\\sin(S-A)}\n= \\frac{\\sin z}{\\sin(S-A)\\sin(S-B)}.\n\\]\n\n9. Through each angle of a spherical triangle an arc is drawn\nso as to make the same angle with one side which the perpendicular\non the base makes with the other side. Shew that these\narcs meet at a point; and that if $x$, $y$, $z$ are the perpendiculars\nfrom this point on the sides $a$, $b$, $c$ respectively,\n\\[\n\\frac{\\sin x}{\\cos A}=\\frac{\\sin y}{\\cos B}=\\frac{\\sin z}{\\cos C}.\n\\]\n\n10. Shew that the points determined in Examples 8 and 9,\nand the point $N$ of Art.\\ 146 are on a great circle.\n\nState the corresponding theorem in Plane Geometry.\n\\medskip\n\n11. If one angle of a spherical triangle remains constant while\nthe adjacent sides are increased, shew that the area and the sum\nof the angles are increased.\n\\medskip\n\n12. If the arcs bisecting two angles of a spherical triangle and\nterminated at the opposite sides are equal, the bisected angles will\nbe equal provided their sum be less than $180^\\circ$.\n\n[Let $BOD$ and $COE$ denote these two arcs which are given\nequal. If the angles $B$ and $C$ are not equal suppose $B$ the greater.\nThen $CD$ is greater than $BE$ by Art.\\ 58. And as the angle $OBC$\nis greater than the angle $OCB$, therefore $OC$ is greater than $OB$;\ntherefore $OD$ is greater than $OE$. Hence the angle $ODC$ is\ngreater than the angle $OEB$, by Example 11. Then construct\na spherical triangle $BCF$ on the other side of $BC$, equal to $CBE$.\nSince the angle $ODC$ is greater than the angle $OEB$, the angle\n$FDC$ is greater than the angle $DFC$; therefore $CD$ is less than\n$CF$, so that $CD$ is less than $BE$. See the corresponding problem\nin Plane Geometry in the \\textit{Appendix to Euclid}, page 317.]",
-   "text_markdown": "# ON THE CONNEXION OF FORMULÆ IN PLANE AND SPHERICAL TRIGONOMETRY.\n\n##### 131.\n\nThe student must have perceived that many of the results obtained in *Spherical* Trigonometry resemble others with which he is familiar in *Plane* Trigonometry. We shall now pay some attention to this resemblance. We shall first shew how we may deduce formulæ in Plane Trigonometry from formulæ in Spherical Trigonometry; and we shall then investigate some theorems in Spherical Trigonometry which are interesting principally on account of their connexion with known results in Plane Geometry and Trigonometry.\n\n##### 132.\n\n*From any formula in Spherical Trigonometry involving the elements of a triangle, one of them being a side, it is required to deduce the corresponding formula in Plane Trigonometry.*\n\nLet $\\alpha$, $\\beta$, $\\gamma$ be the lengths of the sides of the triangle, $r$ the radius of the sphere, so that $\\dfrac{\\alpha}{r}$, $\\dfrac{\\beta}{r}$, $\\dfrac{\\gamma}{r}$ are the circular measures of the sides of the triangle; expand the functions of $\\dfrac{\\alpha}{r}$, $\\dfrac{\\beta}{r}$, $\\dfrac{\\gamma}{r}$ which occur in any proposed formula in powers of $\\dfrac{\\alpha}{r}$, $\\dfrac{\\beta}{r}$, $\\dfrac{\\gamma}{r}$ respectively; then if we suppose $r$ to become indefinitely great, the limiting form of the proposed formula will be a relation in Plane Trigonometry.\n\nFor example, in Art. 106, from the formula $$\\cos A = \\frac{\\cos a - \\cos b \\cos c }{\\sin b \\sin c}$$ we deduce $$\\cos A = \\frac{\\beta^2 + \\gamma^2 - \\alpha^2}{2 \\beta \\gamma}\n  + \\frac{\\alpha^4 + \\beta^4 + \\gamma^4 - 2 \\alpha^2 \\beta^2 - 2 \\beta^2 \\gamma^2 - 2 \\gamma^2 \\alpha^2}{24 \\beta \\gamma r^2} + \\ldots;$$ now suppose $r$ to become infinite; then ultimately $$\\cos A = \\frac{\\beta^2 + \\gamma^2 - \\alpha^2}{2 \\beta \\gamma}\\,;$$ and this is the expression for the cosine of the angle of a plane triangle in terms of the sides.\n\nAgain, in Art. 110, from the formula $$\\begin{align*}\n&&& \\frac{\\sin A}{\\sin B} = \\frac{\\sin a}{\\sin b} &&\n\\\\[1ex]\n&\\text{we deduce }&&\n\\frac{\\sin A}{\\sin B} = \\frac{\\alpha}{\\beta} + \\frac{\\alpha (\\beta^2 - \\alpha^2)}{6 \\beta r^2} + \\ldots;\n\\end{align*}$$ now suppose $r$ to become infinite; then ultimately $$\\begin{align*}\n&&& \\frac{\\sin A}{\\sin B} = \\frac{\\alpha}{\\beta},\n\\end{align*}$$ that is, in a plane triangle the sides are as the sines of the opposite angles.\n\n##### 133.\n\n*To find the equation to a small circle of the sphere.*\n\nThe student can easily draw the required diagram.\n\nLet $O$ be the pole of a small circle, $S$ a fixed point on the sphere, $SX$ a fixed great circle of the sphere. Let $OS = \\alpha$, $OSX = \\beta$; then the position of $O$ is determined by means of these angular co-ordinates $\\alpha$ and $\\beta$. Let $P$ be any point on the circumference of the small circle, $PS = \\theta$, $PSX = \\phi$, so that $\\theta$ and $\\phi$ are the angular co-ordinates of $P$. Let $OP = r$. Then from the triangle $OSP$ $$\\cos r = \\cos \\alpha \\cos \\theta + \\sin \\alpha \\sin \\theta \\cos (\\phi - \\beta); \\tag{1}$$ this gives a relation between the angular co-ordinates of any point on the circumference of the circle.\n\nIf the circle be a great circle then $r = \\dfrac{\\pi}{2}$; thus the equation becomes $$0 = \\cos \\alpha \\cos \\theta + \\sin \\alpha \\sin \\theta \\cos (\\phi - \\beta). \\tag{2}$$\n\nIt will be observed that the angular co-ordinates here used are analogous to the *latitude* and *longitude* which serve to determine the positions of places on the Earth's surface; $\\theta$ is the *complement of the latitude* and $\\phi$ is the *longitude*.\n\n##### 134.\n\nEquation (1) of the preceding Article may be written thus: $$\\begin{gather*}\n\\cos r \\left(\\cos^2 \\frac{\\theta}{2} + \\sin^2 \\frac{\\theta}{2}\\right)\n\\\\\n= \\cos \\alpha \\left(\\cos^2 \\frac{\\theta}{2}\n                  - \\sin^2 \\frac{\\theta}{2}\\right)\n+ 2 \\sin \\alpha \\sin \\frac{\\theta}{2} \\cos \\frac{\\theta}{2}\n  \\cos (\\phi - \\beta).\n\\end{gather*}$$\n\nDivide by $\\cos^2 \\dfrac{\\theta}{2}$ and rearrange; hence $$\\tan^2 \\frac{\\theta}{2} (\\cos r + \\cos \\alpha)\n- 2 \\tan \\frac{\\theta}{2} \\sin \\alpha \\cos (\\phi - \\beta)\n+ \\cos r - \\cos \\alpha = 0.$$\n\nLet $\\tan \\dfrac{\\theta_1}{2}$ and $\\tan \\dfrac{\\theta_2}{2}$ denote the values of $\\tan \\dfrac{\\theta}{2}$ found from this quadratic equation; then by *Algebra*, Chapter <span class=\"smallcaps\">xxii.</span> $$\\tan \\frac{\\theta_1}{2} \\tan \\frac{\\theta_2}{2}\n= \\frac{\\cos r - \\cos \\alpha}{\\cos r + \\cos \\alpha}\n= \\tan \\frac{\\alpha + r}{2} \\tan \\frac{\\alpha - r}{2}.$$\n\nThus the value of the product $\\tan \\dfrac{\\theta_{1}}{2} \\tan \\dfrac{\\theta_{2}}{2}$ is *independent* of $\\phi$; this result corresponds to the well-known property of a circle in Plane Geometry which is demonstrated in Euclid <span class=\"smallcaps\">iii.</span> 36 *Corollary*.\n\n##### 135.\n\nLet three arcs $OA$, $OB$, $OC$ meet at a point. From any point $P$ in $OB$ draw $PM$ perpendicular to $OA$, and $PN$ perpendicular to $OC$. The student can easily draw the required diagram.\n\nThen, by Art. 65, $$\\sin PM = \\sin OP \\sin AOB,\\quad \\sin PN = \\sin OP \\sin COB;$$ therefore $\\quad\\displaystyle\n\\frac{\\sin PM}{\\sin PN} = \\frac{\\sin AOB}{\\sin COB}.\n\\quad\\phantom{therefore}$\\\nThus the ratio of $\\sin PM$ to $\\sin PN$ is independent of the position of $P$ on the arc $OB$.\n\n##### 136.\n\nConversely suppose that from any other point $p$ arcs $pm$ and $pn$ are drawn perpendicular to $OA$ and $OC$ respectively; then if $$\\frac{\\sin pm}{\\sin pn} = \\frac{\\sin PM}{\\sin PN},$$ it will follow that $p$ is on the same great circle as $O$ and $P$.\n\n##### 137.\n\nFrom two points $P_1$ and $P_2$ arcs are drawn perpendicular to a fixed arc; and from a point $P$ on the same great circle as $P_1$ and $P_2$ a perpendicular is drawn to the same fixed arc. Let $PP_1 = \\theta_1$ and $PP_2 = \\theta_2$; and let the perpendiculars drawn from $P$, $P_1$, and $P_2$ be denoted by $x$, $x_1$ and $x_2$. Then will $$\\sin x\n= \\frac{\\sin \\theta_2}{\\sin(\\theta_1 + \\theta_2)} \\sin x_1\n+ \\frac{\\sin \\theta_1}{\\sin(\\theta_1 + \\theta_2)} \\sin x_2.$$\n\nLet the arc $P_1 P_2$, produced if necessary, cut the fixed arc at a point $O$; let $\\alpha$ denote the angle between the arcs. We will suppose that $P_1$ is between $O$ and $P_2$, and that $P$ is between $P_1$ and $P_2$.\n\nThen, by Art. 65, $$\\begin{align*}\n\\sin x_1 = \\sin \\alpha \\sin OP_1 &= \\sin \\alpha \\sin (OP - \\theta_1) \\\\\n    &= \\sin \\alpha (\\sin OP \\cos \\theta_1 - \\cos OP \\sin \\theta_1);\\\\\n\\sin x_2 = \\sin \\alpha \\sin OP_2 &= \\sin \\alpha \\sin (OP + \\theta_2) \\\\\n    &= \\sin \\alpha (\\sin OP \\cos \\theta_2 + \\cos OP \\sin \\theta_2).\n\\end{align*}$$ Multiply the former by $\\sin\\theta_2$, and the latter by $\\sin\\theta_1$, and add; thus $$\\begin{align*}\n\\sin \\theta_2 \\sin x_1 + \\sin \\theta_1 \\sin x_2 &= \\sin (\\theta_1 + \\theta_2) \\sin \\alpha \\sin OP\\\\\n     &= \\sin (\\theta_1 + \\theta_2) \\sin x.\n\\end{align*}$$\n\nThe student should convince himself by examination that the result holds for all relative positions of $P$, $P_1$ and $P_2$, when due regard is paid to algebraical signs.\n\n##### 138.\n\nThe principal use of Art. 137 is to determine whether three given points are on the same great circle; an illustration will be given in Art. 146.\n\n##### 139.\n\n*The arcs drawn from the angles of a spherical triangle perpendicular to the opposite sides respectively meet at a point.*\n\n<figure data-latex-placement=\"htp\">\n<img src=\"images/110fc\" style=\"width:5cm\" />\n</figure>\n\nLet $CF$ be perpendicular to $AB$. From $F$ suppose arcs drawn perpendicular to $CB$ and $CA$ respectively; denote the former by $\\xi$ and the latter by $\\eta$. Then, by Art. 135, $$\\frac{\\sin\\xi}{\\sin\\eta} = \\frac{\\sin FCB}{\\sin FCA}.$$\n\nBut, by Art. 65, $$\\cos B = \\cos CF \\sin FCB, \\quad \\cos A = \\cos CF \\sin FCA;$$ therefore $\\quad\\displaystyle\n  \\frac{\\sin\\xi}{\\sin\\eta}\n= \\frac{\\cos B}{\\cos A}\n= \\frac{\\cos B \\cos C}{\\cos A \\cos C}. \\quad\\phantom{therefore}$\\\nAnd if from *any* point in $CF$ arcs are drawn perpendicular to $CB$ and $CA$ respectively, the ratio of the sine of the former perpendicular to the sine of the latter perpendicular is equal to $\\dfrac{\\sin\\xi}{\\sin\\eta}$ by Art. 135.\n\nIn like manner suppose $AD$ perpendicular to $BC$; then if from any point in $AD$ arcs are drawn perpendicular to $AC$ and $AB$ respectively, the ratio of the sine of the former perpendicular to the sine of the latter perpendicular is equal to $\\dfrac{\\cos A \\cos C}{\\cos A \\cos B}$.\\\nLet $CF$ and $AD$ meet at $P$, and from $P$ let perpendiculars be drawn on the sides $a$, $b$, $c$ of the triangle; and denote these perpendiculars by $x$, $y$, $z$ respectively: then we have shewn that $$\\begin{align*}\n&&\\frac{\\sin x}{\\sin y} &= \\frac{\\cos B \\cos C}{\\cos A \\cos C},\\\\[1ex]\n&\\text{and that}& \\frac{\\sin y}{\\sin z} &= \\frac{\\cos A \\cos C}{\\cos A \\cos B};&\\phantom{and that}\n\\end{align*}$$ hence it follows that $$\\begin{align*}\n&&\\frac{\\sin x}{\\sin z} &= \\frac{\\cos B \\cos C}{\\cos B \\cos A},\n\\end{align*}$$ and this shews that the point $P$ is on the arc drawn from $B$ perpendicular to $AC$.\n\nThus the three perpendiculars meet at a point, and this point is determined by the relations $$\\frac{\\sin x}{\\cos B \\cos C} = \\frac{\\sin y}{\\cos C \\cos A} = \\frac{\\sin z}{\\cos A \\cos B}.$$\n\n##### 140.\n\nIn the same manner it may be shewn that the arcs drawn from the angles of a spherical triangle to the middle points of the opposite sides meet at a point; and if from this point arcs $x$, $y$, $z$ are drawn perpendicular to the sides $a$, $b$, $c$ respectively, $$\\frac{\\sin x}{\\sin B \\sin C} = \\frac{\\sin y}{\\sin C \\sin A} = \\frac{\\sin z}{\\sin A \\sin B}.$$\n\n##### 141.\n\nIt is known in Plane Geometry that a certain circle touches the inscribed and escribed circles of any triangle; this circle is called the *Nine points circle*: see *Appendix to Euclid*, pages 317, 318, and *Plane Trigonometry*, Chapter <span class=\"smallcaps\">xxiv</span>.\n\nWe shall now shew that a small circle can always be determined on the sphere to touch the inscribed and escribed circles of any spherical triangle.\n\n##### 142.\n\nLet $\\alpha$ denote the distance from $A$ of the pole of the small circle inscribed within a spherical triangle $ABC$. Suppose that a small circle of angular radius $\\rho$ touches this inscribed circle internally; let $\\beta$ be the distance from $A$ of the pole of this touching circle; let $\\gamma$ be the angle between arcs drawn from $A$ to the pole of the inscribed circle and the pole of the touching circle respectively. Then we must have $$\\cos(\\rho-r) = \\cos\\alpha\\cos\\beta + \\sin\\alpha\\sin\\beta\\cos\\gamma. \\tag{1}$$ Suppose that this touching circle also touches externally the escribed circle of angular radius $r_1$; then if $\\alpha_1$ denote the distance from $A$ of the pole of this escribed circle, we must have $$\\cos(\\rho+r_1) = \\cos\\alpha_1\\cos\\beta + \\sin\\alpha_1\\sin\\beta\\cos\\gamma. \\tag{2}$$\n\nSimilarly, if $\\alpha_2$ and $\\alpha_3$ denote the distances from $A$ of the poles of the other escribed circles, in order that the touching circle may touch these escribed circles externally, we must also have $$\\begin{gather*}\n\\cos(\\rho+r_2) = \\cos\\alpha_2\\cos\\beta + \\sin\\alpha_2\\sin\\beta \\cos\\left(\\frac{\\pi}{2}-\\gamma\\right), \\tag{3}\\\\[1.5ex]\n\\cos(\\rho+r_3) = \\cos\\alpha_3\\cos\\beta + \\sin\\alpha_3\\sin\\beta \\cos\\left(\\frac{\\pi}{2}+\\gamma\\right). \\tag{4}\n\\end{gather*}$$\n\nWe shall shew that real values of $\\rho$, $\\beta$, and $\\gamma$ can be found to satisfy these four equations.\n\nEliminate $\\cos \\gamma$ from (1) and (2); thus $$\\begin{gather*}\n\\cos\\rho(\\cos r\\sin\\alpha_1-\\cos r_1\\sin\\alpha) +\n\\sin\\rho(\\sin r\\sin\\alpha_1+\\sin r_1\\sin\\alpha) \\\\\n= \\cos\\beta (\\cos\\alpha \\sin\\alpha_1 - \\cos\\alpha_1 \\sin\\alpha). \\tag{5}\n\\end{gather*}$$\n\nSuppose that the inscribed circle touches $AB$ at the distance $m$ from $A$, and that the escribed circle of angular radius $r_1$ touches $AB$ at the distance $m_1$ from $A$. Then, by Art. 65, $$\\cot \\alpha = \\cot m \\cos \\frac{A}{2}, \\quad\n  \\cos \\alpha = \\cos r\\cos m, \\quad\n  \\sin r = \\sin \\alpha \\sin\\frac{A}{2};$$ therefore $\\quad\\displaystyle\n  \\frac{\\cos r}{\\sin \\alpha}\n= \\frac{\\cot \\alpha}{\\cos m} =\n\\frac{1}{\\sin m}\\cos\\frac{A}{2}.\n\\quad\\phantom{therefore }$\\\nSimilarly we may connect $\\alpha_1$ and $r_1$ with $m_1$. Thus we obtain from (5) $$\\begin{gather*}\n\\cos\\rho \\cos\\frac{A}{2}\n\\left(\\frac{1}{\\sin m}-\\frac{1}{\\sin m_1}\\right) +\n2\\sin\\rho\\sin\\frac{A}{2}\n\\\\\n= \\cos\\beta\\cos\\frac{A}{2}\n\\left(\\cot m-\\cot m_1\\right);\n\\end{gather*}$$ therefore  $\\cos\\rho(\\sin m_1-\\sin m)\n+ 2\\sin\\rho\\sin m\\sin m_1\\tan\\dfrac{A}{2} \\quad$\\\n\nBut by Arts. 89 and 90 we have $m = s-a$, and $m_1 = s$; therefore by the aid of Art. 45 we obtain $$\\tag{6}\n2\\cos\\rho \\sin\\frac{a}{2}\\cos\\frac{b+c}{2} +\n2n\\sin\\rho=\\cos\\beta\\sin a ,$$ where $n$ has the meaning assigned in Art. 46.\n\nIn like manner if we eliminate $\\sin \\gamma$ between (3) and (4), putting $m_2$ for $s-c$, and $m_3$ for $s-b$, we obtain $$\\begin{gather*}\n  \\cos\\rho(\\sin m_2+\\sin m_3)\n-2\\sin\\rho\\sin m_2\\sin m_3\\cot\\frac{A}{2}\n\\\\\n=\\cos\\beta\\sin(m_2+m_3),\n\\end{gather*}$$ $$\\begin{align*}\n\\tag{7}\n\\text{therefore}\\quad&\n2\\cos\\rho\\sin\\frac{a}{2}\\cos\\frac{b-c}{2}-2n\\sin\\rho=\\cos\\beta\\sin a. &&\n\\end{align*}$$\n\nFrom (6) and (7) we get $$\\tag{8}\n\\tan\\rho=\n\\frac{\\sin\\dfrac{a}{2}\\sin\\dfrac{b}{2}\\sin\\dfrac{c}{2}}{n} =\n\\frac{1}{2}\\tan R,\\ \\text{by Art.~92}$$ and $\\quad\n\\cos\\beta=\n\\dfrac{\\cos\\dfrac{b}{2}\\cos\\dfrac{c}{2}\\cos\\rho}{\\cos\\dfrac{a}{2}}. \\quad\\phantom{and } (9)$\\\nWe may suppose that $\\cos\\dfrac{a}{2}$ is not less than $\\cos\\dfrac{b}{2}$ or $\\cos\\dfrac{c}{2}$, so that we are sure of a possible value of $\\cos\\beta$ from (9).\n\nIt remains to shew that when $\\rho$ and $\\beta$ are thus determined, all the four fundamental equations are satisfied.\n\nIt will be observed that, $\\rho$ and $\\beta$ being considered known, $\\cos\\gamma$ can be found from (1) or (2), and $\\sin\\gamma$ can be found from (3) or (4): we must therefore shew that (1) and (2) give the *same* value for $\\cos\\gamma$, and that (3) and (4) give the *same* value for $\\sin\\gamma$; and we must also shew that these values satisfy the condition $\\cos^2\\gamma+\\sin^2\\gamma=1$.\n\nFrom (1) we have $$\\frac{\\cos\\rho\\sin r}{\\sin\\alpha}\\left(\\cot r+\\tan\\rho-\\cos m\\cot r\\frac{\\cos\\beta}{\\cos\\rho}\\right)=\\sin\\beta\\cos\\gamma,$$ that is, $$\\begin{gather*}\n\\frac{\\cos\\rho\\sin\\dfrac{A}{2}}{n}\n \\left\\{\\sin s+\\sin\\tfrac12a\\sin\\tfrac12b\\sin\\tfrac12c\n  - \\frac{\\cos(s-a)\\sin s\\cos\\dfrac{b}{2}\\cos\\dfrac{c}{2}}{\\cos\\dfrac{a}{2}}\\right\\}\\\\\n=\\sin\\beta\\cos\\gamma;\n\\end{gather*}$$ this reduces to $$\\begin{gather*}\n\\frac{\\cos\\rho\\sin\\dfrac{A}{2}}{n}\n \\left\\{\\cos\\frac{a}{2}\\sin\\frac{b+c}{2}\n  - \\frac{\\sin(b+c)\\cos\\dfrac{b}{2}\\cos\\dfrac{c}{2}}{2\\cos\\dfrac{a}{2}} \\right\\}\n  =\\sin\\beta\\cos\\gamma:\n\\end{gather*}$$ and it will be found that (2) reduces to the same; so that (1) and (2) give the same value for $\\cos\\gamma$.\n\nIn like manner it will be found that (3) and (4) agree in reducing to $$\\frac{\\cos\\rho\\cos\\dfrac{A}{2}}{n}\n \\left\\{\\cos\\dfrac{a}{2}\\sin\\frac{c-b}{2}\n  - \\frac{\\sin(c-b)\\cos\\dfrac{b}{2}\\cos\\dfrac{c}{2}}{2\\cos\\dfrac{a}{2}} \\right\\}\n  =\\sin\\beta\\cos\\gamma.$$\n\nIt only remains to shew that the condition $\\cos^2\\gamma+\\sin^2\\gamma=1$ is satisfied. $$\\text{Put $k$ for $\\frac{\\cos\\beta}{\\cos\\rho}$, that is for $\\frac{\\cos\\dfrac b2 \\cos\\dfrac c2}{\\cos\\dfrac a2}$;}$$ put $X$ for $\\cot r\\{1-k\\cos(s-a)\\}$, and $Y$ for $\\cot r_1\\{1-k\\cos s\\}$.\n\nThen (1) and (2) may be written respectively thus: $$\\begin{align*}\n(X\\cos\\rho+\\sin\\rho)\\sin\\frac A2 &=\\sin\\beta\\cos\\gamma,\\tag{10}\\\\\n(Y\\cos\\rho-\\sin\\rho)\\sin\\frac A2 &=\\sin\\beta\\cos\\gamma.\\tag{11}\n\\end{align*}$$ From (10) and (11) by addition $$\\begin{align*}\n&&{\\hfil$(X+Y)\\sin\\dfrac A2\\cos\\rho = 2\\sin\\beta\\cos\\gamma$;\\hfil}&&\\\\\n&\\text{therefore}&\n  4\\sin^2\\beta\\cos^2\\gamma&=(X^2+Y^2+2XY)\\sin^2\\frac A2\\cos^2\\rho.\n&\\phantom{therefore}\\tag{12}\n\\end{align*}$$\n\nBut from (10) and (11) by subtraction $$\\begin{align*}\n&&{\\hfil$(X-Y)\\cos\\rho=-2\\sin\\rho$;\\hfil}&&\\\\\n&\\text{therefore}&\n  (X^2+Y^2)\\cos^2\\rho&=4\\sin^2\\rho+2XY\\cos^2\\rho.&\\phantom{therefore}\n\\end{align*}$$\n\nSubstitute in (12) and we obtain $$\\sin^2\\beta\\cos^2\\gamma=(\\sin^2\\rho+XY\\cos^2\\rho)\\sin^2\\frac A2.\\tag{13}$$\n\nAgain, put $$\\text{$X_1$ for $\\cot r_2\\{1-k\\cos(s-c)\\}$, and $Y_1$ for $\\cot r_3\\{1-k\\cos(s-b)\\}$.}$$\n\nThen (3) and (4) may be written respectively thus: $$\\begin{align*}\n(X_1\\cos\\rho-\\sin\\rho)\\cos\\frac A2 &= \\sin\\beta\\sin\\gamma,\\tag{14}\\\\\n(Y_1\\cos\\rho-\\sin\\rho)\\cos\\frac A2 &= -\\sin\\beta\\sin\\gamma.\\tag{15}\n\\end{align*}$$\n\nFrom (14) and (15) by subtraction $$(X_1-Y_1)\\cos\\frac A2\\cos\\rho = 2\\sin\\beta\\sin\\gamma,$$ and from (14) and (15) by addition, $$(X_1+Y_1)\\cos\\rho = 2\\sin\\rho,$$ whence $$\\sin^2 \\beta \\sin^2 \\gamma = (\\sin^2 \\rho - X_1 Y_1 \\cos^2\\rho) \\cos^2 \\frac{A}{2}. \\tag{16}$$\n\nHence from (13) and (16) it follows that we have to establish the relation $$\\sin^2 \\beta = \\sin^2\\rho + \\left( XY\\sin^2\\frac{A}{2} - X_1 Y_1 \\cos^2 \\frac{A}{2} \\right) \\cos^2\\rho.$$\n\nBut $\\sin^2\\beta = 1-\\cos^2\\beta = \\sin^2\\rho + \\cos^2 \\rho - k^2\\cos^2\\rho$, so that the relation reduces to $$1-k^2 = XY\\sin^2\\frac{A}{2} - X_1 Y_1 \\cos^2 \\frac{A}{2}.$$\n\nNow $$\\begin{align*}\nXY\\sin^2\\frac{A}{2}\n&= \\frac{\\cot r \\cot r_1 \\{1-k\\cos s\\} \\{1-k\\cos(s-a)\\} \\sin(s-b)\\sin(s-c)}{\\sin b \\sin c} \\\\[1.5ex]\n&= \\frac{\\{1-k\\cos s\\} \\{1-k\\cos(s-a) \\} }{\\sin b \\sin c }.\n\\end{align*}$$\n\nSimilarly  $X_1 Y_1 \\cos^2 \\dfrac{A}{2} = \\dfrac{\\{1-k\\cos(s-b) \\} \\{1-k\\cos(s-c) \\} }{\\sin b \\sin c}$.\\\nSubtract the latter from the former; then we obtain $$\\begin{gather*}\n\\frac{k}{\\sin b \\sin c} \\{\\cos(s-b) + \\cos(s-c) -\\cos s -\\cos(s-a) \\} \\\\[1.5ex]\n{}+ \\frac{k^2}{\\sin b \\sin c} \\{\\cos s \\cos(s-a) - \\cos(s-b)\\cos(s-c) \\},\n\\end{gather*}$$ that is $\\quad\n  \\dfrac{2k\\cos\\dfrac{a}{2} }{\\sin b\\sin c}\n  \\left\\{\\cos\\dfrac{b-c}{2} -\\cos\\dfrac{b+c}{2} \\right\\}\n\\quad\\phantom{that is}$\\\n$${}+\\frac{k^2}{\\sin b \\sin c}\n   \\left\\{\\cos\\frac{b+c+a}{2} \\cos\\frac{b+c-a}{2}\n         - \\cos\\frac{a+c-b}{2} \\cos\\frac{a+b-c}{2} \\right\\}$$ that is $\\displaystyle \\dfrac{4\\sin\\dfrac{b}{2} \\sin\\dfrac{c}{2}\n          \\cos\\dfrac{b}{2} \\cos\\dfrac{c}{2} }\n       {\\sin b \\sin c}\n+ \\dfrac{k^2}{\\sin b\\sin c}\n  \\left\\{\\sin^2\\dfrac{c-b}{2}\n        - \\sin^2\\dfrac{c+b}{2} \\right\\},$\\\nthat is $1-k^2$; which was to be shewn.\n\n##### 143.\n\nThus the existence of a circle which touches the inscribed and escribed circles of any spherical triangle has been established.\n\nThe distance of the pole of this touching circle from the angles $B$ and $C$ of the triangle will of course be determined by formulæ corresponding to (9); and thus it follows that $$\\frac{\\cos\\dfrac{a}{2} \\cos\\dfrac{c}{2} \\cos\\rho }{\\cos\\dfrac{b}{2} } \\text{ and }\n\\frac{\\cos\\dfrac{a}{2} \\cos\\dfrac{b}{2} \\cos\\rho }{\\cos\\dfrac{c}{2} },$$ must both be less than unity.\n\n##### 144.\n\nSince the circle which has been determined touches the inscribed circle internally and touches the escribed circles externally, it is obvious that it must meet all the sides of the spherical triangle. We will now determine the position of the points of meeting.\n\nSuppose the touching circle intersects the side $AB$ at points distant $\\lambda$ and $\\mu$ respectively from $A$.\n\nThen by Art. 134 we have $$\\tan\\frac{\\lambda}{2} \\tan\\frac{\\mu}{2} = \\frac{\\cos\\rho - \\cos\\beta}{\\cos\\rho + \\cos\\beta}\n= \\frac{\\cos\\dfrac{a}{2} - \\cos\\dfrac{b}{2} \\cos\\dfrac{c}{2} }{\\cos\\dfrac{a}{2} + \\cos\\dfrac{b}{2} \\cos\\dfrac{c}{2} }. \\tag{1}$$\n\nIn the same way we must have by symmetry $$\\tan\\frac{c - \\lambda}{2} \\tan\\frac{c - \\mu}{2}\n= \\frac{\\cos\\dfrac{b}{2} - \\cos\\dfrac{a}{2} \\cos\\dfrac{c}{2} }{\\cos\\dfrac{b}{2} + \\cos\\dfrac{a}{2} \\cos\\dfrac{c}{2}}. \\tag{2}$$\n\nFrom (2), when we substitute the value of $\\tan\\dfrac{\\lambda}{2} \\tan\\dfrac{\\mu}{2}$ given by (1), we obtain $$\\begin{gather*}\n\\tan\\frac{\\lambda}{2} + \\tan\\frac{\\mu}{2} =\n\\frac{\\cos^2 \\dfrac{a}{2} - \\cos^2 \\dfrac{b}{2} \\cos^2 \\dfrac{c}{2} + \\cos^2 \\dfrac{b}{2} \\sin^2 \\dfrac{c}{2} }{\\cos \\dfrac{b}{2} \\sin \\dfrac{c}{2} \\left(\\cos \\dfrac{a}{2} + \\cos \\dfrac{b}{2} \\cos \\dfrac{c}{2}\\right) }\\\\\n= \\frac{\\cos \\dfrac{a}{2} - \\cos \\dfrac{b}{2} \\cos \\dfrac{c}{2} }\n       {\\cos \\dfrac{b}{2}   \\sin \\dfrac{c}{2} }\n+ \\frac{\\cos \\dfrac{b}{2}   \\sin \\dfrac{c}{2} }\n       {\\cos \\dfrac{a}{2} + \\cos \\dfrac{b}{2} \\cos \\dfrac{c}{2} }. \\tag{3}\n\\end{gather*}$$\n\nFrom (1) and (3) we see that we may put $$\\begin{align*}\n  \\tan\\frac{\\lambda}{2}\n&= \\frac{\\cos \\dfrac{a}{2} - \\cos \\dfrac{b}{2} \\cos \\dfrac{c}{2} }\n        {\\cos \\dfrac{b}{2}   \\sin \\dfrac{c}{2} }. \\tag{4}\n\\\\[2ex]\n  \\tan\\frac{\\mu}{2}\n&= \\frac{\\cos \\dfrac{b}{2}   \\sin \\dfrac{c}{2} }\n        {\\cos \\dfrac{a}{2} + \\cos \\dfrac{b}{2} \\cos \\dfrac{c}{2} }. \\tag{5}\n\\end{align*}$$\n\nSimilar formulæ of course hold for the points of intersection of the touching circle with the other sides.\n\n##### 145.\n\nLet $z$ denote the perpendicular from the pole of the touching circle on $AB$; then $$\\begin{align*}\n\\sin z &= \\sin \\beta \\sin \\left(\\frac{A}{2} + \\gamma\\right) \\\\[1.5ex]\n  &= \\sin \\beta \\left(\\sin \\frac{A}{2} \\cos \\gamma + \\cos \\frac{A}{2} \\sin \\gamma\\right).\n\\end{align*}$$\n\nBut from (2) and (3) of Art. 142 we have $$\\sin \\beta \\cos \\gamma = \\frac{\\cos \\rho \\sin \\dfrac{A}{2} }{n}\n  \\left(Z - \\sin \\frac{a}{2} \\sin \\frac{b}{2} \\sin \\frac{c}{2} \\right),$$ where $\\displaystyle Z = \\sin (s - a) - \\cos s \\sin (s - a) \\cos \\frac{b}{2} \\cos \\frac{c}{2} \\sec \\frac{a}{2},$ $$\\begin{align*}\n&\\text{and }&&\n\\sin \\beta \\sin \\gamma = \\frac{\\cos \\rho \\cos \\dfrac{A}{2} }{n}\n  \\left(Z_1 - \\sin \\frac{a}{2} \\sin \\frac{b}{2} \\sin \\frac{c}{2}\\right),\\\\[2ex]\n&\\text{where}&&\nZ_1 = \\sin (s - b) - \\cos (s - c) \\sin (s - b) \\cos \\frac{b}{2} \\cos \\frac{c}{2} \\sec \\frac{a}{2}.\n&\\phantom{where}&\n\\end{align*}$$ Therefore $$\\sin z = \\frac{\\cos \\rho}{n} \\left\\{Z \\sin^2 \\frac{A}{2} +\nZ_1 \\cos^2 \\frac{A}{2} -\n\\sin \\frac{a}{2} \\sin \\frac{b}{2} \\sin \\frac{c}{2}\\right\\}.$$\n\nNow $Z \\sin^2 \\dfrac{A}{2}$ $$= \\frac{\\sin (s - a) \\sin (s - b) \\sin (s - c)}{\\sin b \\sin c}\n\\left\\{1 - \\cos s \\cos \\frac{b}{2} \\cos \\frac{c}{2} \\sec \\frac{a}{2}\\right\\},$$ and $Z_1 \\cos^2 \\dfrac{A}{2}$ $$= \\frac{\\sin s \\sin (s - a) \\sin (s - b)}{\\sin b \\sin c}\n  \\left\\{1 - \\cos (s - c) \\cos \\frac{b}{2} \\cos \\frac{c}{2}\n  \\sec \\frac{a}{2}\\right\\}.$$\n\nTherefore $\\quad\\displaystyle\nZ \\sin^2 \\frac{A}{2} + Z_1 \\cos^2 \\frac{A}{2}\n\\quad\\phantom{ Therefore}$\\\nis equal to the product of $$\\frac{\\sin (s - a) \\sin (s - b)}{\\sin b \\sin c}$$ into $$\\begin{align*}\n{\\quad$\\displaystyle\n  \\sin (s - c) + \\sin s - \\cos \\frac{b}{2} \\cos \\frac{c}{2} \\sec \\frac{a}{2}\n  \\left\\{\\sin (s - c) \\cos s + \\cos (s - c) \\sin s\n\\vphantom{\\frac b2} \\right\\} $\\quad}\\\\[2ex]\n& = \\frac{\\sin (s - a) \\sin (s - b)}{\\sin b \\sin c}\n  \\left\\{2 \\sin \\frac{a + b}{2} \\cos \\frac{c}{2} -\n  \\cos \\frac{b}{2} \\cos \\frac{c}{2} \\sec \\frac{a}{2} \\sin (2s - c)\\right\\} \\\\[2ex]\n& = \\frac{\\sin (s - a) \\sin (s - b)}{2 \\sin b \\sin \\dfrac{c}{2}}\n  \\left\\{2 \\sin \\frac{a + b}{2} -\n  \\sin (a + b) \\cos \\frac{b}{2} \\sec \\frac{a}{2}\\right\\} \\\\[2ex]\n& = \\frac{\\sin (s - a) \\sin (s - b) \\sin \\dfrac{a + b}{2}}\n  {\\sin b \\sin \\dfrac{c}{2}}\n  \\left\\{1 - \\frac{\\cos \\dfrac{a + b}{2} \\cos \\dfrac{b}{2}}{\\cos \\dfrac{a}{2}}\n  \\right\\} \\\\[2ex]\n& = \\frac{\\sin (s - a) \\sin (s - b) \\sin^2 \\dfrac{a + b}{2} \\sin \\dfrac{b}{2}}\n  {\\sin b \\sin \\dfrac{c}{2} \\cos \\dfrac{a}{2}} =\n  \\frac{\\sin (s - a) \\sin (s - b) \\sin^2 \\dfrac{a + b}{2}}\n  {2 \\cos \\dfrac{a}{2} \\cos \\dfrac{b}{2} \\sin \\dfrac{c}{2}}.\n\\end{align*}$$\n\nTherefore $$\\begin{gather*}\n\\sin z = \\frac{\\cos\\rho}{n} \\sin\\frac{a}{2} \\sin\\frac{b}{2} \\sin\\frac{c}{2} \\left\\{\\frac{2 \\sin^2\\dfrac{a + b}{2}\\sin(s - a)\\sin(s - b)}{\\sin^2\\dfrac{c}{2}\\sin a\\sin b}- 1\\right\\}\\\\[2ex]\n= \\frac{\\cos\\rho}{n} \\sin\\frac{a}{2} \\sin\\frac{b}{2} \\sin\\frac{c}{2} \\left\\{2 \\cos^2\\frac{A - B}{2} - 1\\right\\}\\text{; by (2) of Art.\\ 54.}\n\\end{gather*}$$\n\nThus $\\quad\\displaystyle\n  \\sin z = \\frac{\\cos\\rho}{n} \\sin\\frac{a}{2} \\sin\\frac{b}{2} \\sin\\frac{c}{2} \\cos(A - B) \\quad\\phantom{ Thus}$ $$= \\sin\\rho \\cos(A - B).$$\n\nSimilar expressions hold for the perpendiculars from the pole of the touching circle on the other sides of the spherical triangle.\n\n##### 146.\n\nLet $P$ denote the point determined in Art. 139; $G$ the point determined in Art. 140, and $N$ the pole of the touching circle. We shall now shew that $P$, $G$, and $N$ are on a great circle.\n\nLet $x$, $y$, $z$ denote the perpendiculars from $N$ on the sides $a$, $b$, $c$ respectively of the spherical triangle; let $x_1$, $y_1$, $z_1$ denote the perpendiculars from $P$; and $x_2$, $y_2$, $z_2$ the perpendiculars from $G$. Then by Arts. 145, 139, and 140 we have $$\\begin{align*}\n\\frac{\\sin x}{\\cos(B - C)} &= \\frac{\\sin y}{\\cos(C - A)} = \\frac{\\sin z}{\\cos(A - B)},\\\\[1.5ex]\n\\frac{\\sin x_1}{\\cos B \\cos C} &= \\frac{\\sin y_1}{\\cos C \\cos A} = \\frac{\\sin z_1}{\\cos A \\cos B},\\\\[1.5ex]\n\\frac{\\sin x_2}{\\sin B \\sin C} &= \\frac{\\sin y_2}{\\sin C \\sin A} = \\frac{\\sin z_2}{\\sin A \\sin B}.\n\\end{align*}$$\n\nHence it follows that $$\\begin{align*}\n\\sin x &= t_1 \\sin x_1 + t_2 \\sin x_2,\\\\\n\\sin y &= t_1 \\sin y_1 + t_2 \\sin y_2,\\\\\n\\sin z &= t_1 \\sin z_1 + t_2 \\sin z_2,\n\\end{align*}$$ where $t_1$ and $t_2$ are certain quantities the values of which are not required for our purpose.\n\nTherefore by Art. 137 a certain point *in the same great circle* as $P$ and $G$ is at the perpendicular distances $x$, $y$, $z$ from the sides $a$, $b$, $c$ respectively of the spherical triangle: and hence this point must be the point $N$.\n\n##### 147.\n\nThe resemblance of the results which have been obtained to those which are known respecting the Nine points circle in Plane Geometry will be easily seen.\n\nThe result $\\tan\\rho = \\dfrac12 \\tan R$ corresponds to the fact that the radius of the Nine points circle is half the radius of the circumscribing circle of the triangle.\n\nFrom equation (4) of Art. 144 by supposing the radius of the sphere to become infinite we obtain $\\lambda = \\dfrac{b^2 + c^2 - a^2}{2c}$: this corresponds to the fact that the Nine points circle passes through the feet of the perpendiculars from the angles of a triangle on the opposite sides.\n\nFrom equation (5) of Art. 144 by supposing the radius of the sphere to become infinite we obtain $\\mu = \\dfrac{c}{2}$: this corresponds to the fact that the Nine points circle passes through the middle points of the sides of a triangle.\n\nFrom Art. 145 by supposing the radius of the sphere to become infinite we obtain $z = \\dfrac12 R \\cos(A - B)$: this is a known property of the Nine points circle.\n\nIn Plane Geometry the points which correspond to the $P$, $G$, and $N$ of Art. 146 are on a straight line.\n\n##### 148.\n\nThe results which have been demonstrated with respect to the circle which touches the inscribed and escribed circles of a spherical triangle are mainly due to Dr Hart and Dr Salmon. See the *Quarterly Journal of Mathematics*, Vol. <span class=\"smallcaps\">vi</span>. page 67.\n\n## EXAMPLES.\n\n1\\. From the formula $\\sin\\dfrac{a}{2}=\\Surd{\\left\\{\\dfrac{-\\cos S\\cos(S-A)}{\\sin B\\sin C}\\right\\}}$ deduce the expression for the area of a plane triangle, namely $\\dfrac{a^2\\sin B\\sin C}{2\\sin A}$, when the radius of the sphere is indefinitely increased.\n\n2\\. Two triangles $ABC$, $abc$, spherical or plane, equal in all respects, differ slightly in position: shew that $$\\cos ABb\\cos BCc\\cos CAa+\\cos ACc\\cos CBb\\cos BAa=0.$$\n\n3\\. Deduce formulæ in Plane Trigonometry from Napier's Analogies.\n\n4\\. Deduce formulæ in Plane Trigonometry from Delambre's Analogies.\n\n5\\. From the formula $\\cos\\dfrac{c}{2}\\cos\\dfrac{A+B}{2}\n=\\sin\\dfrac{C}{2}\\cos\\dfrac{a+b}{2}$ deduce the area of a plane triangle in terms of the sides and one of the angles.\n\n6\\. What result is obtained from Example 7 to Chapter VI., by supposing the radius of the sphere infinite?\n\n7\\. From the angle $C$ of a spherical triangle a perpendicular is drawn to the arc which joins the middle points of the sides $a$ and $b$: shew that this perpendicular makes an angle $S-B$ with the side $a$, and an angle $S-A$ with the side $b$.\n\n8\\. From each angle of a spherical triangle a perpendicular is drawn to the arc which joins the middle points of the adjacent sides. Shew that these perpendiculars meet at a point; and that if $x$, $y$, $z$ are the perpendiculars from this point on the sides $a$, $b$, $c$ respectively, $$\\frac{\\sin x}{\\sin(S-B)\\sin(S-C)}\n= \\frac{\\sin y}{\\sin(S-C)\\sin(S-A)}\n= \\frac{\\sin z}{\\sin(S-A)\\sin(S-B)}.$$\n\n9\\. Through each angle of a spherical triangle an arc is drawn so as to make the same angle with one side which the perpendicular on the base makes with the other side. Shew that these arcs meet at a point; and that if $x$, $y$, $z$ are the perpendiculars from this point on the sides $a$, $b$, $c$ respectively, $$\\frac{\\sin x}{\\cos A}=\\frac{\\sin y}{\\cos B}=\\frac{\\sin z}{\\cos C}.$$\n\n10\\. Shew that the points determined in Examples 8 and 9, and the point $N$ of Art. 146 are on a great circle.\n\nState the corresponding theorem in Plane Geometry.\n\n11\\. If one angle of a spherical triangle remains constant while the adjacent sides are increased, shew that the area and the sum of the angles are increased.\n\n12\\. If the arcs bisecting two angles of a spherical triangle and terminated at the opposite sides are equal, the bisected angles will be equal provided their sum be less than $180^\\circ$.\n\n\\[Let BOD and COE denote these two arcs which are given equal. If the angles B and C are not equal suppose B the greater. Then CD is greater than BE by Art. 58. And as the angle OBC is greater than the angle OCB, therefore OC is greater than OB; therefore OD is greater than OE. Hence the angle ODC is greater than the angle OEB, by Example 11. Then construct a spherical triangle BCF on the other side of BC, equal to CBE. Since the angle ODC is greater than the angle OEB, the angle FDC is greater than the angle DFC; therefore CD is less than CF, so that CD is less than BE. See the corresponding problem in Plane Geometry in the *Appendix to Euclid*, page 317.\\]",
+   "text_markdown": "# ON THE CONNEXION OF FORMULÆ IN PLANE AND SPHERICAL TRIGONOMETRY.\n\n##### 131.\n\nThe student must have perceived that many of the results obtained in *Spherical* Trigonometry resemble others with which he is familiar in *Plane* Trigonometry. We shall now pay some attention to this resemblance. We shall first shew how we may deduce formulæ in Plane Trigonometry from formulæ in Spherical Trigonometry; and we shall then investigate some theorems in Spherical Trigonometry which are interesting principally on account of their connexion with known results in Plane Geometry and Trigonometry.\n\n##### 132.\n\n*From any formula in Spherical Trigonometry involving the elements of a triangle, one of them being a side, it is required to deduce the corresponding formula in Plane Trigonometry.*\n\nLet $\\alpha$, $\\beta$, $\\gamma$ be the lengths of the sides of the triangle, $r$ the radius of the sphere, so that $\\dfrac{\\alpha}{r}$, $\\dfrac{\\beta}{r}$, $\\dfrac{\\gamma}{r}$ are the circular measures of the sides of the triangle; expand the functions of $\\dfrac{\\alpha}{r}$, $\\dfrac{\\beta}{r}$, $\\dfrac{\\gamma}{r}$ which occur in any proposed formula in powers of $\\dfrac{\\alpha}{r}$, $\\dfrac{\\beta}{r}$, $\\dfrac{\\gamma}{r}$ respectively; then if we suppose $r$ to become indefinitely great, the limiting form of the proposed formula will be a relation in Plane Trigonometry.\n\nFor example, in Art. 106, from the formula $$\\cos A = \\frac{\\cos a - \\cos b \\cos c }{\\sin b \\sin c}$$ we deduce $$\\cos A = \\frac{\\beta^2 + \\gamma^2 - \\alpha^2}{2 \\beta \\gamma}\n  + \\frac{\\alpha^4 + \\beta^4 + \\gamma^4 - 2 \\alpha^2 \\beta^2 - 2 \\beta^2 \\gamma^2 - 2 \\gamma^2 \\alpha^2}{24 \\beta \\gamma r^2} + \\ldots;$$ now suppose $r$ to become infinite; then ultimately $$\\cos A = \\frac{\\beta^2 + \\gamma^2 - \\alpha^2}{2 \\beta \\gamma}\\,;$$ and this is the expression for the cosine of the angle of a plane triangle in terms of the sides.\n\nAgain, in Art. 110, from the formula $$\\begin{align*}\n&&& \\frac{\\sin A}{\\sin B} = \\frac{\\sin a}{\\sin b} &&\n\\\\[1ex]\n&\\text{we deduce }&&\n\\frac{\\sin A}{\\sin B} = \\frac{\\alpha}{\\beta} + \\frac{\\alpha (\\beta^2 - \\alpha^2)}{6 \\beta r^2} + \\ldots;\n\\end{align*}$$ now suppose $r$ to become infinite; then ultimately $$\\begin{align*}\n&&& \\frac{\\sin A}{\\sin B} = \\frac{\\alpha}{\\beta},\n\\end{align*}$$ that is, in a plane triangle the sides are as the sines of the opposite angles.\n\n##### 133.\n\n*To find the equation to a small circle of the sphere.*\n\nThe student can easily draw the required diagram.\n\nLet $O$ be the pole of a small circle, $S$ a fixed point on the sphere, $SX$ a fixed great circle of the sphere. Let $OS = \\alpha$, $OSX = \\beta$; then the position of $O$ is determined by means of these angular co-ordinates $\\alpha$ and $\\beta$. Let $P$ be any point on the circumference of the small circle, $PS = \\theta$, $PSX = \\phi$, so that $\\theta$ and $\\phi$ are the angular co-ordinates of $P$. Let $OP = r$. Then from the triangle $OSP$ $$\\cos r = \\cos \\alpha \\cos \\theta + \\sin \\alpha \\sin \\theta \\cos (\\phi - \\beta); \\tag{1}$$ this gives a relation between the angular co-ordinates of any point on the circumference of the circle.\n\nIf the circle be a great circle then $r = \\dfrac{\\pi}{2}$; thus the equation becomes $$0 = \\cos \\alpha \\cos \\theta + \\sin \\alpha \\sin \\theta \\cos (\\phi - \\beta). \\tag{2}$$\n\nIt will be observed that the angular co-ordinates here used are analogous to the *latitude* and *longitude* which serve to determine the positions of places on the Earth's surface; $\\theta$ is the *complement of the latitude* and $\\phi$ is the *longitude*.\n\n##### 134.\n\nEquation (1) of the preceding Article may be written thus: $$\\begin{gather*}\n\\cos r \\left(\\cos^2 \\frac{\\theta}{2} + \\sin^2 \\frac{\\theta}{2}\\right)\n\\\\\n= \\cos \\alpha \\left(\\cos^2 \\frac{\\theta}{2}\n                  - \\sin^2 \\frac{\\theta}{2}\\right)\n+ 2 \\sin \\alpha \\sin \\frac{\\theta}{2} \\cos \\frac{\\theta}{2}\n  \\cos (\\phi - \\beta).\n\\end{gather*}$$\n\nDivide by $\\cos^2 \\dfrac{\\theta}{2}$ and rearrange; hence $$\\tan^2 \\frac{\\theta}{2} (\\cos r + \\cos \\alpha)\n- 2 \\tan \\frac{\\theta}{2} \\sin \\alpha \\cos (\\phi - \\beta)\n+ \\cos r - \\cos \\alpha = 0.$$\n\nLet $\\tan \\dfrac{\\theta_1}{2}$ and $\\tan \\dfrac{\\theta_2}{2}$ denote the values of $\\tan \\dfrac{\\theta}{2}$ found from this quadratic equation; then by *Algebra*, Chapter <span class=\"smallcaps\">xxii.</span> $$\\tan \\frac{\\theta_1}{2} \\tan \\frac{\\theta_2}{2}\n= \\frac{\\cos r - \\cos \\alpha}{\\cos r + \\cos \\alpha}\n= \\tan \\frac{\\alpha + r}{2} \\tan \\frac{\\alpha - r}{2}.$$\n\nThus the value of the product $\\tan \\dfrac{\\theta_{1}}{2} \\tan \\dfrac{\\theta_{2}}{2}$ is *independent* of $\\phi$; this result corresponds to the well-known property of a circle in Plane Geometry which is demonstrated in Euclid <span class=\"smallcaps\">iii.</span> 36 *Corollary*.\n\n##### 135.\n\nLet three arcs $OA$, $OB$, $OC$ meet at a point. From any point $P$ in $OB$ draw $PM$ perpendicular to $OA$, and $PN$ perpendicular to $OC$. The student can easily draw the required diagram.\n\nThen, by Art. 65, $$\\sin PM = \\sin OP \\sin AOB,\\quad \\sin PN = \\sin OP \\sin COB;$$ therefore $\\quad\\displaystyle\n\\frac{\\sin PM}{\\sin PN} = \\frac{\\sin AOB}{\\sin COB}.\n\\quad\\phantom{therefore}$\\\nThus the ratio of $\\sin PM$ to $\\sin PN$ is independent of the position of $P$ on the arc $OB$.\n\n##### 136.\n\nConversely suppose that from any other point $p$ arcs $pm$ and $pn$ are drawn perpendicular to $OA$ and $OC$ respectively; then if $$\\frac{\\sin pm}{\\sin pn} = \\frac{\\sin PM}{\\sin PN},$$ it will follow that $p$ is on the same great circle as $O$ and $P$.\n\n##### 137.\n\nFrom two points $P_1$ and $P_2$ arcs are drawn perpendicular to a fixed arc; and from a point $P$ on the same great circle as $P_1$ and $P_2$ a perpendicular is drawn to the same fixed arc. Let $PP_1 = \\theta_1$ and $PP_2 = \\theta_2$; and let the perpendiculars drawn from $P$, $P_1$, and $P_2$ be denoted by $x$, $x_1$ and $x_2$. Then will $$\\sin x\n= \\frac{\\sin \\theta_2}{\\sin(\\theta_1 + \\theta_2)} \\sin x_1\n+ \\frac{\\sin \\theta_1}{\\sin(\\theta_1 + \\theta_2)} \\sin x_2.$$\n\nLet the arc $P_1 P_2$, produced if necessary, cut the fixed arc at a point $O$; let $\\alpha$ denote the angle between the arcs. We will suppose that $P_1$ is between $O$ and $P_2$, and that $P$ is between $P_1$ and $P_2$.\n\nThen, by Art. 65, $$\\begin{align*}\n\\sin x_1 = \\sin \\alpha \\sin OP_1 &= \\sin \\alpha \\sin (OP - \\theta_1) \\\\\n    &= \\sin \\alpha (\\sin OP \\cos \\theta_1 - \\cos OP \\sin \\theta_1);\\\\\n\\sin x_2 = \\sin \\alpha \\sin OP_2 &= \\sin \\alpha \\sin (OP + \\theta_2) \\\\\n    &= \\sin \\alpha (\\sin OP \\cos \\theta_2 + \\cos OP \\sin \\theta_2).\n\\end{align*}$$ Multiply the former by $\\sin\\theta_2$, and the latter by $\\sin\\theta_1$, and add; thus $$\\begin{align*}\n\\sin \\theta_2 \\sin x_1 + \\sin \\theta_1 \\sin x_2 &= \\sin (\\theta_1 + \\theta_2) \\sin \\alpha \\sin OP\\\\\n     &= \\sin (\\theta_1 + \\theta_2) \\sin x.\n\\end{align*}$$\n\nThe student should convince himself by examination that the result holds for all relative positions of $P$, $P_1$ and $P_2$, when due regard is paid to algebraical signs.\n\n##### 138.\n\nThe principal use of Art. 137 is to determine whether three given points are on the same great circle; an illustration will be given in Art. 146.\n\n##### 139.\n\n*The arcs drawn from the angles of a spherical triangle perpendicular to the opposite sides respectively meet at a point.*\n\n<figure data-latex-placement=\"htp\">\n<img src=\"images/110fc\" style=\"width:5cm\" />\n</figure>\n\nLet $CF$ be perpendicular to $AB$. From $F$ suppose arcs drawn perpendicular to $CB$ and $CA$ respectively; denote the former by $\\xi$ and the latter by $\\eta$. Then, by Art. 135, $$\\frac{\\sin\\xi}{\\sin\\eta} = \\frac{\\sin FCB}{\\sin FCA}.$$\n\nBut, by Art. 65, $$\\cos B = \\cos CF \\sin FCB, \\quad \\cos A = \\cos CF \\sin FCA;$$ therefore $\\quad\\displaystyle\n  \\frac{\\sin\\xi}{\\sin\\eta}\n= \\frac{\\cos B}{\\cos A}\n= \\frac{\\cos B \\cos C}{\\cos A \\cos C}. \\quad\\phantom{therefore}$\\\nAnd if from *any* point in $CF$ arcs are drawn perpendicular to $CB$ and $CA$ respectively, the ratio of the sine of the former perpendicular to the sine of the latter perpendicular is equal to $\\dfrac{\\sin\\xi}{\\sin\\eta}$ by Art. 135.\n\nIn like manner suppose $AD$ perpendicular to $BC$; then if from any point in $AD$ arcs are drawn perpendicular to $AC$ and $AB$ respectively, the ratio of the sine of the former perpendicular to the sine of the latter perpendicular is equal to $\\dfrac{\\cos A \\cos C}{\\cos A \\cos B}$.\\\nLet $CF$ and $AD$ meet at $P$, and from $P$ let perpendiculars be drawn on the sides $a$, $b$, $c$ of the triangle; and denote these perpendiculars by $x$, $y$, $z$ respectively: then we have shewn that $$\\begin{align*}\n&&\\frac{\\sin x}{\\sin y} &= \\frac{\\cos B \\cos C}{\\cos A \\cos C},\\\\[1ex]\n&\\text{and that}& \\frac{\\sin y}{\\sin z} &= \\frac{\\cos A \\cos C}{\\cos A \\cos B};&\\phantom{and that}\n\\end{align*}$$ hence it follows that $$\\begin{align*}\n&&\\frac{\\sin x}{\\sin z} &= \\frac{\\cos B \\cos C}{\\cos B \\cos A},\n\\end{align*}$$ and this shews that the point $P$ is on the arc drawn from $B$ perpendicular to $AC$.\n\nThus the three perpendiculars meet at a point, and this point is determined by the relations $$\\frac{\\sin x}{\\cos B \\cos C} = \\frac{\\sin y}{\\cos C \\cos A} = \\frac{\\sin z}{\\cos A \\cos B}.$$\n\n##### 140.\n\nIn the same manner it may be shewn that the arcs drawn from the angles of a spherical triangle to the middle points of the opposite sides meet at a point; and if from this point arcs $x$, $y$, $z$ are drawn perpendicular to the sides $a$, $b$, $c$ respectively, $$\\frac{\\sin x}{\\sin B \\sin C} = \\frac{\\sin y}{\\sin C \\sin A} = \\frac{\\sin z}{\\sin A \\sin B}.$$\n\n##### 141.\n\nIt is known in Plane Geometry that a certain circle touches the inscribed and escribed circles of any triangle; this circle is called the *Nine points circle*: see *Appendix to Euclid*, pages 317, 318, and *Plane Trigonometry*, Chapter <span class=\"smallcaps\">xxiv</span>.\n\nWe shall now shew that a small circle can always be determined on the sphere to touch the inscribed and escribed circles of any spherical triangle.\n\n##### 142.\n\nLet $\\alpha$ denote the distance from $A$ of the pole of the small circle inscribed within a spherical triangle $ABC$. Suppose that a small circle of angular radius $\\rho$ touches this inscribed circle internally; let $\\beta$ be the distance from $A$ of the pole of this touching circle; let $\\gamma$ be the angle between arcs drawn from $A$ to the pole of the inscribed circle and the pole of the touching circle respectively. Then we must have $$\\cos(\\rho-r) = \\cos\\alpha\\cos\\beta + \\sin\\alpha\\sin\\beta\\cos\\gamma. \\tag{1}$$ Suppose that this touching circle also touches externally the escribed circle of angular radius $r_1$; then if $\\alpha_1$ denote the distance from $A$ of the pole of this escribed circle, we must have $$\\cos(\\rho+r_1) = \\cos\\alpha_1\\cos\\beta + \\sin\\alpha_1\\sin\\beta\\cos\\gamma. \\tag{2}$$\n\nSimilarly, if $\\alpha_2$ and $\\alpha_3$ denote the distances from $A$ of the poles of the other escribed circles, in order that the touching circle may touch these escribed circles externally, we must also have $$\\begin{gather*}\n\\cos(\\rho+r_2) = \\cos\\alpha_2\\cos\\beta + \\sin\\alpha_2\\sin\\beta \\cos\\left(\\frac{\\pi}{2}-\\gamma\\right), \\tag{3}\\\\[1.5ex]\n\\cos(\\rho+r_3) = \\cos\\alpha_3\\cos\\beta + \\sin\\alpha_3\\sin\\beta \\cos\\left(\\frac{\\pi}{2}+\\gamma\\right). \\tag{4}\n\\end{gather*}$$\n\nWe shall shew that real values of $\\rho$, $\\beta$, and $\\gamma$ can be found to satisfy these four equations.\n\nEliminate $\\cos \\gamma$ from (1) and (2); thus $$\\begin{gather*}\n\\cos\\rho(\\cos r\\sin\\alpha_1-\\cos r_1\\sin\\alpha) +\n\\sin\\rho(\\sin r\\sin\\alpha_1+\\sin r_1\\sin\\alpha) \\\\\n= \\cos\\beta (\\cos\\alpha \\sin\\alpha_1 - \\cos\\alpha_1 \\sin\\alpha). \\tag{5}\n\\end{gather*}$$\n\nSuppose that the inscribed circle touches $AB$ at the distance $m$ from $A$, and that the escribed circle of angular radius $r_1$ touches $AB$ at the distance $m_1$ from $A$. Then, by Art. 65, $$\\cot \\alpha = \\cot m \\cos \\frac{A}{2}, \\quad\n  \\cos \\alpha = \\cos r\\cos m, \\quad\n  \\sin r = \\sin \\alpha \\sin\\frac{A}{2};$$ therefore $\\quad\\displaystyle\n  \\frac{\\cos r}{\\sin \\alpha}\n= \\frac{\\cot \\alpha}{\\cos m} =\n\\frac{1}{\\sin m}\\cos\\frac{A}{2}.\n\\quad\\phantom{therefore }$\\\nSimilarly we may connect $\\alpha_1$ and $r_1$ with $m_1$. Thus we obtain from (5) $$\\begin{gather*}\n\\cos\\rho \\cos\\frac{A}{2}\n\\left(\\frac{1}{\\sin m}-\\frac{1}{\\sin m_1}\\right) +\n2\\sin\\rho\\sin\\frac{A}{2}\n\\\\\n= \\cos\\beta\\cos\\frac{A}{2}\n\\left(\\cot m-\\cot m_1\\right);\n\\end{gather*}$$ therefore  $\\cos\\rho(\\sin m_1-\\sin m)\n+ 2\\sin\\rho\\sin m\\sin m_1\\tan\\dfrac{A}{2} \\quad$\\\n\nBut by Arts. 89 and 90 we have $m = s-a$, and $m_1 = s$; therefore by the aid of Art. 45 we obtain $$\\tag{6}\n2\\cos\\rho \\sin\\frac{a}{2}\\cos\\frac{b+c}{2} +\n2n\\sin\\rho=\\cos\\beta\\sin a ,$$ where $n$ has the meaning assigned in Art. 46.\n\nIn like manner if we eliminate $\\sin \\gamma$ between (3) and (4), putting $m_2$ for $s-c$, and $m_3$ for $s-b$, we obtain $$\\begin{gather*}\n  \\cos\\rho(\\sin m_2+\\sin m_3)\n-2\\sin\\rho\\sin m_2\\sin m_3\\cot\\frac{A}{2}\n\\\\\n=\\cos\\beta\\sin(m_2+m_3),\n\\end{gather*}$$ $$\\begin{align*}\n\\tag{7}\n\\text{therefore}\\quad&\n2\\cos\\rho\\sin\\frac{a}{2}\\cos\\frac{b-c}{2}-2n\\sin\\rho=\\cos\\beta\\sin a. &&\n\\end{align*}$$\n\nFrom (6) and (7) we get $$\\tag{8}\n\\tan\\rho=\n\\frac{\\sin\\dfrac{a}{2}\\sin\\dfrac{b}{2}\\sin\\dfrac{c}{2}}{n} =\n\\frac{1}{2}\\tan R,\\ \\text{by Art.~92}$$ and $\\quad\n\\cos\\beta=\n\\dfrac{\\cos\\dfrac{b}{2}\\cos\\dfrac{c}{2}\\cos\\rho}{\\cos\\dfrac{a}{2}}. \\quad\\phantom{and } (9)$\\\nWe may suppose that $\\cos\\dfrac{a}{2}$ is not less than $\\cos\\dfrac{b}{2}$ or $\\cos\\dfrac{c}{2}$, so that we are sure of a possible value of $\\cos\\beta$ from (9).\n\nIt remains to shew that when $\\rho$ and $\\beta$ are thus determined, all the four fundamental equations are satisfied.\n\nIt will be observed that, $\\rho$ and $\\beta$ being considered known, $\\cos\\gamma$ can be found from (1) or (2), and $\\sin\\gamma$ can be found from (3) or (4): we must therefore shew that (1) and (2) give the *same* value for $\\cos\\gamma$, and that (3) and (4) give the *same* value for $\\sin\\gamma$; and we must also shew that these values satisfy the condition $\\cos^2\\gamma+\\sin^2\\gamma=1$.\n\nFrom (1) we have $$\\frac{\\cos\\rho\\sin r}{\\sin\\alpha}\\left(\\cot r+\\tan\\rho-\\cos m\\cot r\\frac{\\cos\\beta}{\\cos\\rho}\\right)=\\sin\\beta\\cos\\gamma,$$ that is, $$\\begin{gather*}\n\\frac{\\cos\\rho\\sin\\dfrac{A}{2}}{n}\n \\left\\{\\sin s+\\sin\\tfrac12a\\sin\\tfrac12b\\sin\\tfrac12c\n  - \\frac{\\cos(s-a)\\sin s\\cos\\dfrac{b}{2}\\cos\\dfrac{c}{2}}{\\cos\\dfrac{a}{2}}\\right\\}\\\\\n=\\sin\\beta\\cos\\gamma;\n\\end{gather*}$$ this reduces to $$\\begin{gather*}\n\\frac{\\cos\\rho\\sin\\dfrac{A}{2}}{n}\n \\left\\{\\cos\\frac{a}{2}\\sin\\frac{b+c}{2}\n  - \\frac{\\sin(b+c)\\cos\\dfrac{b}{2}\\cos\\dfrac{c}{2}}{2\\cos\\dfrac{a}{2}} \\right\\}\n  =\\sin\\beta\\cos\\gamma:\n\\end{gather*}$$ and it will be found that (2) reduces to the same; so that (1) and (2) give the same value for $\\cos\\gamma$.\n\nIn like manner it will be found that (3) and (4) agree in reducing to $$\\frac{\\cos\\rho\\cos\\dfrac{A}{2}}{n}\n \\left\\{\\cos\\dfrac{a}{2}\\sin\\frac{c-b}{2}\n  - \\frac{\\sin(c-b)\\cos\\dfrac{b}{2}\\cos\\dfrac{c}{2}}{2\\cos\\dfrac{a}{2}} \\right\\}\n  =\\sin\\beta\\cos\\gamma.$$\n\nIt only remains to shew that the condition $\\cos^2\\gamma+\\sin^2\\gamma=1$ is satisfied. $$\\text{Put $k$ for $\\frac{\\cos\\beta}{\\cos\\rho}$, that is for $\\frac{\\cos\\dfrac b2 \\cos\\dfrac c2}{\\cos\\dfrac a2}$;}$$ put $X$ for $\\cot r\\{1-k\\cos(s-a)\\}$, and $Y$ for $\\cot r_1\\{1-k\\cos s\\}$.\n\nThen (1) and (2) may be written respectively thus: $$\\begin{align*}\n(X\\cos\\rho+\\sin\\rho)\\sin\\frac A2 &=\\sin\\beta\\cos\\gamma,\\tag{10}\\\\\n(Y\\cos\\rho-\\sin\\rho)\\sin\\frac A2 &=\\sin\\beta\\cos\\gamma.\\tag{11}\n\\end{align*}$$ From (10) and (11) by addition $$\\begin{align*}\n&&{\\hfil$(X+Y)\\sin\\dfrac A2\\cos\\rho = 2\\sin\\beta\\cos\\gamma$;\\hfil}&&\\\\\n&\\text{therefore}&\n  4\\sin^2\\beta\\cos^2\\gamma&=(X^2+Y^2+2XY)\\sin^2\\frac A2\\cos^2\\rho.\n&\\phantom{therefore}\\tag{12}\n\\end{align*}$$\n\nBut from (10) and (11) by subtraction $$\\begin{align*}\n&&{\\hfil$(X-Y)\\cos\\rho=-2\\sin\\rho$;\\hfil}&&\\\\\n&\\text{therefore}&\n  (X^2+Y^2)\\cos^2\\rho&=4\\sin^2\\rho+2XY\\cos^2\\rho.&\\phantom{therefore}\n\\end{align*}$$\n\nSubstitute in (12) and we obtain $$\\sin^2\\beta\\cos^2\\gamma=(\\sin^2\\rho+XY\\cos^2\\rho)\\sin^2\\frac A2.\\tag{13}$$\n\nAgain, put $$\\text{$X_1$ for $\\cot r_2\\{1-k\\cos(s-c)\\}$, and $Y_1$ for $\\cot r_3\\{1-k\\cos(s-b)\\}$.}$$\n\nThen (3) and (4) may be written respectively thus: $$\\begin{align*}\n(X_1\\cos\\rho-\\sin\\rho)\\cos\\frac A2 &= \\sin\\beta\\sin\\gamma,\\tag{14}\\\\\n(Y_1\\cos\\rho-\\sin\\rho)\\cos\\frac A2 &= -\\sin\\beta\\sin\\gamma.\\tag{15}\n\\end{align*}$$\n\nFrom (14) and (15) by subtraction $$(X_1-Y_1)\\cos\\frac A2\\cos\\rho = 2\\sin\\beta\\sin\\gamma,$$ and from (14) and (15) by addition, $$(X_1+Y_1)\\cos\\rho = 2\\sin\\rho,$$ whence $$\\sin^2 \\beta \\sin^2 \\gamma = (\\sin^2 \\rho - X_1 Y_1 \\cos^2\\rho) \\cos^2 \\frac{A}{2}. \\tag{16}$$\n\nHence from (13) and (16) it follows that we have to establish the relation $$\\sin^2 \\beta = \\sin^2\\rho + \\left( XY\\sin^2\\frac{A}{2} - X_1 Y_1 \\cos^2 \\frac{A}{2} \\right) \\cos^2\\rho.$$\n\nBut $\\sin^2\\beta = 1-\\cos^2\\beta = \\sin^2\\rho + \\cos^2 \\rho - k^2\\cos^2\\rho$, so that the relation reduces to $$1-k^2 = XY\\sin^2\\frac{A}{2} - X_1 Y_1 \\cos^2 \\frac{A}{2}.$$\n\nNow $$\\begin{align*}\nXY\\sin^2\\frac{A}{2}\n&= \\frac{\\cot r \\cot r_1 \\{1-k\\cos s\\} \\{1-k\\cos(s-a)\\} \\sin(s-b)\\sin(s-c)}{\\sin b \\sin c} \\\\[1.5ex]\n&= \\frac{\\{1-k\\cos s\\} \\{1-k\\cos(s-a) \\} }{\\sin b \\sin c }.\n\\end{align*}$$\n\nSimilarly  $X_1 Y_1 \\cos^2 \\dfrac{A}{2} = \\dfrac{\\{1-k\\cos(s-b) \\} \\{1-k\\cos(s-c) \\} }{\\sin b \\sin c}$.\\\nSubtract the latter from the former; then we obtain $$\\begin{gather*}\n\\frac{k}{\\sin b \\sin c} \\{\\cos(s-b) + \\cos(s-c) -\\cos s -\\cos(s-a) \\} \\\\[1.5ex]\n{}+ \\frac{k^2}{\\sin b \\sin c} \\{\\cos s \\cos(s-a) - \\cos(s-b)\\cos(s-c) \\},\n\\end{gather*}$$ that is $\\quad\n  \\dfrac{2k\\cos\\dfrac{a}{2} }{\\sin b\\sin c}\n  \\left\\{\\cos\\dfrac{b-c}{2} -\\cos\\dfrac{b+c}{2} \\right\\}\n\\quad\\phantom{that is}$\\\n$${}+\\frac{k^2}{\\sin b \\sin c}\n   \\left\\{\\cos\\frac{b+c+a}{2} \\cos\\frac{b+c-a}{2}\n         - \\cos\\frac{a+c-b}{2} \\cos\\frac{a+b-c}{2} \\right\\}$$ that is $\\displaystyle \\dfrac{4\\sin\\dfrac{b}{2} \\sin\\dfrac{c}{2}\n          \\cos\\dfrac{b}{2} \\cos\\dfrac{c}{2} }\n       {\\sin b \\sin c}\n+ \\dfrac{k^2}{\\sin b\\sin c}\n  \\left\\{\\sin^2\\dfrac{c-b}{2}\n        - \\sin^2\\dfrac{c+b}{2} \\right\\},$\\\nthat is $1-k^2$; which was to be shewn.\n\n##### 143.\n\nThus the existence of a circle which touches the inscribed and escribed circles of any spherical triangle has been established.\n\nThe distance of the pole of this touching circle from the angles $B$ and $C$ of the triangle will of course be determined by formulæ corresponding to (9); and thus it follows that $$\\frac{\\cos\\dfrac{a}{2} \\cos\\dfrac{c}{2} \\cos\\rho }{\\cos\\dfrac{b}{2} } \\text{ and }\n\\frac{\\cos\\dfrac{a}{2} \\cos\\dfrac{b}{2} \\cos\\rho }{\\cos\\dfrac{c}{2} },$$ must both be less than unity.\n\n##### 144.\n\nSince the circle which has been determined touches the inscribed circle internally and touches the escribed circles externally, it is obvious that it must meet all the sides of the spherical triangle. We will now determine the position of the points of meeting.\n\nSuppose the touching circle intersects the side $AB$ at points distant $\\lambda$ and $\\mu$ respectively from $A$.\n\nThen by Art. 134 we have $$\\tan\\frac{\\lambda}{2} \\tan\\frac{\\mu}{2} = \\frac{\\cos\\rho - \\cos\\beta}{\\cos\\rho + \\cos\\beta}\n= \\frac{\\cos\\dfrac{a}{2} - \\cos\\dfrac{b}{2} \\cos\\dfrac{c}{2} }{\\cos\\dfrac{a}{2} + \\cos\\dfrac{b}{2} \\cos\\dfrac{c}{2} }. \\tag{1}$$\n\nIn the same way we must have by symmetry $$\\tan\\frac{c - \\lambda}{2} \\tan\\frac{c - \\mu}{2}\n= \\frac{\\cos\\dfrac{b}{2} - \\cos\\dfrac{a}{2} \\cos\\dfrac{c}{2} }{\\cos\\dfrac{b}{2} + \\cos\\dfrac{a}{2} \\cos\\dfrac{c}{2}}. \\tag{2}$$\n\nFrom (2), when we substitute the value of $\\tan\\dfrac{\\lambda}{2} \\tan\\dfrac{\\mu}{2}$ given by (1), we obtain $$\\begin{gather*}\n\\tan\\frac{\\lambda}{2} + \\tan\\frac{\\mu}{2} =\n\\frac{\\cos^2 \\dfrac{a}{2} - \\cos^2 \\dfrac{b}{2} \\cos^2 \\dfrac{c}{2} + \\cos^2 \\dfrac{b}{2} \\sin^2 \\dfrac{c}{2} }{\\cos \\dfrac{b}{2} \\sin \\dfrac{c}{2} \\left(\\cos \\dfrac{a}{2} + \\cos \\dfrac{b}{2} \\cos \\dfrac{c}{2}\\right) }\\\\\n= \\frac{\\cos \\dfrac{a}{2} - \\cos \\dfrac{b}{2} \\cos \\dfrac{c}{2} }\n       {\\cos \\dfrac{b}{2}   \\sin \\dfrac{c}{2} }\n+ \\frac{\\cos \\dfrac{b}{2}   \\sin \\dfrac{c}{2} }\n       {\\cos \\dfrac{a}{2} + \\cos \\dfrac{b}{2} \\cos \\dfrac{c}{2} }. \\tag{3}\n\\end{gather*}$$\n\nFrom (1) and (3) we see that we may put $$\\begin{align*}\n  \\tan\\frac{\\lambda}{2}\n&= \\frac{\\cos \\dfrac{a}{2} - \\cos \\dfrac{b}{2} \\cos \\dfrac{c}{2} }\n        {\\cos \\dfrac{b}{2}   \\sin \\dfrac{c}{2} }. \\tag{4}\n\\\\[2ex]\n  \\tan\\frac{\\mu}{2}\n&= \\frac{\\cos \\dfrac{b}{2}   \\sin \\dfrac{c}{2} }\n        {\\cos \\dfrac{a}{2} + \\cos \\dfrac{b}{2} \\cos \\dfrac{c}{2} }. \\tag{5}\n\\end{align*}$$\n\nSimilar formulæ of course hold for the points of intersection of the touching circle with the other sides.\n\n##### 145.\n\nLet $z$ denote the perpendicular from the pole of the touching circle on $AB$; then $$\\begin{align*}\n\\sin z &= \\sin \\beta \\sin \\left(\\frac{A}{2} + \\gamma\\right) \\\\[1.5ex]\n  &= \\sin \\beta \\left(\\sin \\frac{A}{2} \\cos \\gamma + \\cos \\frac{A}{2} \\sin \\gamma\\right).\n\\end{align*}$$\n\nBut from (2) and (3) of Art. 142 we have $$\\sin \\beta \\cos \\gamma = \\frac{\\cos \\rho \\sin \\dfrac{A}{2} }{n}\n  \\left(Z - \\sin \\frac{a}{2} \\sin \\frac{b}{2} \\sin \\frac{c}{2} \\right),$$ where $\\displaystyle Z = \\sin (s - a) - \\cos s \\sin (s - a) \\cos \\frac{b}{2} \\cos \\frac{c}{2} \\sec \\frac{a}{2},$ $$\\begin{align*}\n&\\text{and }&&\n\\sin \\beta \\sin \\gamma = \\frac{\\cos \\rho \\cos \\dfrac{A}{2} }{n}\n  \\left(Z_1 - \\sin \\frac{a}{2} \\sin \\frac{b}{2} \\sin \\frac{c}{2}\\right),\\\\[2ex]\n&\\text{where}&&\nZ_1 = \\sin (s - b) - \\cos (s - c) \\sin (s - b) \\cos \\frac{b}{2} \\cos \\frac{c}{2} \\sec \\frac{a}{2}.\n&\\phantom{where}&\n\\end{align*}$$ Therefore $$\\sin z = \\frac{\\cos \\rho}{n} \\left\\{Z \\sin^2 \\frac{A}{2} +\nZ_1 \\cos^2 \\frac{A}{2} -\n\\sin \\frac{a}{2} \\sin \\frac{b}{2} \\sin \\frac{c}{2}\\right\\}.$$\n\nNow $Z \\sin^2 \\dfrac{A}{2}$ $$= \\frac{\\sin (s - a) \\sin (s - b) \\sin (s - c)}{\\sin b \\sin c}\n\\left\\{1 - \\cos s \\cos \\frac{b}{2} \\cos \\frac{c}{2} \\sec \\frac{a}{2}\\right\\},$$ and $Z_1 \\cos^2 \\dfrac{A}{2}$ $$= \\frac{\\sin s \\sin (s - a) \\sin (s - b)}{\\sin b \\sin c}\n  \\left\\{1 - \\cos (s - c) \\cos \\frac{b}{2} \\cos \\frac{c}{2}\n  \\sec \\frac{a}{2}\\right\\}.$$\n\nTherefore $\\quad\\displaystyle\nZ \\sin^2 \\frac{A}{2} + Z_1 \\cos^2 \\frac{A}{2}\n\\quad\\phantom{ Therefore}$\\\nis equal to the product of $$\\frac{\\sin (s - a) \\sin (s - b)}{\\sin b \\sin c}$$ into $$\\begin{align*}\n{\\quad$\\displaystyle\n  \\sin (s - c) + \\sin s - \\cos \\frac{b}{2} \\cos \\frac{c}{2} \\sec \\frac{a}{2}\n  \\left\\{\\sin (s - c) \\cos s + \\cos (s - c) \\sin s\n\\vphantom{\\frac b2} \\right\\} $\\quad}\\\\[2ex]\n& = \\frac{\\sin (s - a) \\sin (s - b)}{\\sin b \\sin c}\n  \\left\\{2 \\sin \\frac{a + b}{2} \\cos \\frac{c}{2} -\n  \\cos \\frac{b}{2} \\cos \\frac{c}{2} \\sec \\frac{a}{2} \\sin (2s - c)\\right\\} \\\\[2ex]\n& = \\frac{\\sin (s - a) \\sin (s - b)}{2 \\sin b \\sin \\dfrac{c}{2}}\n  \\left\\{2 \\sin \\frac{a + b}{2} -\n  \\sin (a + b) \\cos \\frac{b}{2} \\sec \\frac{a}{2}\\right\\} \\\\[2ex]\n& = \\frac{\\sin (s - a) \\sin (s - b) \\sin \\dfrac{a + b}{2}}\n  {\\sin b \\sin \\dfrac{c}{2}}\n  \\left\\{1 - \\frac{\\cos \\dfrac{a + b}{2} \\cos \\dfrac{b}{2}}{\\cos \\dfrac{a}{2}}\n  \\right\\} \\\\[2ex]\n& = \\frac{\\sin (s - a) \\sin (s - b) \\sin^2 \\dfrac{a + b}{2} \\sin \\dfrac{b}{2}}\n  {\\sin b \\sin \\dfrac{c}{2} \\cos \\dfrac{a}{2}} =\n  \\frac{\\sin (s - a) \\sin (s - b) \\sin^2 \\dfrac{a + b}{2}}\n  {2 \\cos \\dfrac{a}{2} \\cos \\dfrac{b}{2} \\sin \\dfrac{c}{2}}.\n\\end{align*}$$\n\nTherefore $$\\begin{gather*}\n\\sin z = \\frac{\\cos\\rho}{n} \\sin\\frac{a}{2} \\sin\\frac{b}{2} \\sin\\frac{c}{2} \\left\\{\\frac{2 \\sin^2\\dfrac{a + b}{2}\\sin(s - a)\\sin(s - b)}{\\sin^2\\dfrac{c}{2}\\sin a\\sin b}- 1\\right\\}\\\\[2ex]\n= \\frac{\\cos\\rho}{n} \\sin\\frac{a}{2} \\sin\\frac{b}{2} \\sin\\frac{c}{2} \\left\\{2 \\cos^2\\frac{A - B}{2} - 1\\right\\}\\text{; by (2) of Art.\\ 54.}\n\\end{gather*}$$\n\nThus $\\quad\\displaystyle\n  \\sin z = \\frac{\\cos\\rho}{n} \\sin\\frac{a}{2} \\sin\\frac{b}{2} \\sin\\frac{c}{2} \\cos(A - B) \\quad\\phantom{ Thus}$ $$= \\sin\\rho \\cos(A - B).$$\n\nSimilar expressions hold for the perpendiculars from the pole of the touching circle on the other sides of the spherical triangle.\n\n##### 146.\n\nLet $P$ denote the point determined in Art. 139; $G$ the point determined in Art. 140, and $N$ the pole of the touching circle. We shall now shew that $P$, $G$, and $N$ are on a great circle.\n\nLet $x$, $y$, $z$ denote the perpendiculars from $N$ on the sides $a$, $b$, $c$ respectively of the spherical triangle; let $x_1$, $y_1$, $z_1$ denote the perpendiculars from $P$; and $x_2$, $y_2$, $z_2$ the perpendiculars from $G$. Then by Arts. 145, 139, and 140 we have $$\\begin{align*}\n\\frac{\\sin x}{\\cos(B - C)} &= \\frac{\\sin y}{\\cos(C - A)} = \\frac{\\sin z}{\\cos(A - B)},\\\\[1.5ex]\n\\frac{\\sin x_1}{\\cos B \\cos C} &= \\frac{\\sin y_1}{\\cos C \\cos A} = \\frac{\\sin z_1}{\\cos A \\cos B},\\\\[1.5ex]\n\\frac{\\sin x_2}{\\sin B \\sin C} &= \\frac{\\sin y_2}{\\sin C \\sin A} = \\frac{\\sin z_2}{\\sin A \\sin B}.\n\\end{align*}$$\n\nHence it follows that $$\\begin{align*}\n\\sin x &= t_1 \\sin x_1 + t_2 \\sin x_2,\\\\\n\\sin y &= t_1 \\sin y_1 + t_2 \\sin y_2,\\\\\n\\sin z &= t_1 \\sin z_1 + t_2 \\sin z_2,\n\\end{align*}$$ where $t_1$ and $t_2$ are certain quantities the values of which are not required for our purpose.\n\nTherefore by Art. 137 a certain point *in the same great circle* as $P$ and $G$ is at the perpendicular distances $x$, $y$, $z$ from the sides $a$, $b$, $c$ respectively of the spherical triangle: and hence this point must be the point $N$.\n\n##### 147.\n\nThe resemblance of the results which have been obtained to those which are known respecting the Nine points circle in Plane Geometry will be easily seen.\n\nThe result $\\tan\\rho = \\dfrac12 \\tan R$ corresponds to the fact that the radius of the Nine points circle is half the radius of the circumscribing circle of the triangle.\n\nFrom equation (4) of Art. 144 by supposing the radius of the sphere to become infinite we obtain $\\lambda = \\dfrac{b^2 + c^2 - a^2}{2c}$: this corresponds to the fact that the Nine points circle passes through the feet of the perpendiculars from the angles of a triangle on the opposite sides.\n\nFrom equation (5) of Art. 144 by supposing the radius of the sphere to become infinite we obtain $\\mu = \\dfrac{c}{2}$: this corresponds to the fact that the Nine points circle passes through the middle points of the sides of a triangle.\n\nFrom Art. 145 by supposing the radius of the sphere to become infinite we obtain $z = \\dfrac12 R \\cos(A - B)$: this is a known property of the Nine points circle.\n\nIn Plane Geometry the points which correspond to the $P$, $G$, and $N$ of Art. 146 are on a straight line.\n\n##### 148.\n\nThe results which have been demonstrated with respect to the circle which touches the inscribed and escribed circles of a spherical triangle are mainly due to Dr Hart and Dr Salmon. See the *Quarterly Journal of Mathematics*, Vol. <span class=\"smallcaps\">vi</span>. page 67.\n\n## EXAMPLES.\n\n1\\. From the formula $\\sin\\dfrac{a}{2}=\\Surd{\\left\\{\\dfrac{-\\cos S\\cos(S-A)}{\\sin B\\sin C}\\right\\}}$ deduce the expression for the area of a plane triangle, namely $\\dfrac{a^2\\sin B\\sin C}{2\\sin A}$, when the radius of the sphere is indefinitely increased.\n\n2\\. Two triangles $ABC$, $abc$, spherical or plane, equal in all respects, differ slightly in position: shew that $$\\cos ABb\\cos BCc\\cos CAa+\\cos ACc\\cos CBb\\cos BAa=0.$$\n\n3\\. Deduce formulæ in Plane Trigonometry from Napier's Analogies.\n\n4\\. Deduce formulæ in Plane Trigonometry from Delambre's Analogies.\n\n5\\. From the formula $\\cos\\dfrac{c}{2}\\cos\\dfrac{A+B}{2}\n=\\sin\\dfrac{C}{2}\\cos\\dfrac{a+b}{2}$ deduce the area of a plane triangle in terms of the sides and one of the angles.\n\n6\\. What result is obtained from Example 7 to Chapter VI., by supposing the radius of the sphere infinite?\n\n7\\. From the angle $C$ of a spherical triangle a perpendicular is drawn to the arc which joins the middle points of the sides $a$ and $b$: shew that this perpendicular makes an angle $S-B$ with the side $a$, and an angle $S-A$ with the side $b$.\n\n8\\. From each angle of a spherical triangle a perpendicular is drawn to the arc which joins the middle points of the adjacent sides. Shew that these perpendiculars meet at a point; and that if $x$, $y$, $z$ are the perpendiculars from this point on the sides $a$, $b$, $c$ respectively, $$\\frac{\\sin x}{\\sin(S-B)\\sin(S-C)}\n= \\frac{\\sin y}{\\sin(S-C)\\sin(S-A)}\n= \\frac{\\sin z}{\\sin(S-A)\\sin(S-B)}.$$\n\n9\\. Through each angle of a spherical triangle an arc is drawn so as to make the same angle with one side which the perpendicular on the base makes with the other side. Shew that these arcs meet at a point; and that if $x$, $y$, $z$ are the perpendiculars from this point on the sides $a$, $b$, $c$ respectively, $$\\frac{\\sin x}{\\cos A}=\\frac{\\sin y}{\\cos B}=\\frac{\\sin z}{\\cos C}.$$\n\n10\\. Shew that the points determined in Examples 8 and 9, and the point $N$ of Art. 146 are on a great circle.\n\nState the corresponding theorem in Plane Geometry.\n\n11\\. If one angle of a spherical triangle remains constant while the adjacent sides are increased, shew that the area and the sum of the angles are increased.\n\n12\\. If the arcs bisecting two angles of a spherical triangle and terminated at the opposite sides are equal, the bisected angles will be equal provided their sum be less than $180^\\circ$.\n\n\\[Let BOD and COE denote these two arcs which are given equal. If the angles B and C are not equal suppose B the greater. Then CD is greater than BE \\text{ by } Art. 58. And as the angle OBC is greater than the angle OCB, therefore OC is greater than OB; therefore OD is greater than OE. Hence the angle ODC is greater than the angle OEB, by Example 11. Then construct a spherical triangle BCF on the other side of BC, equal to CBE. Since the angle ODC is greater than the angle OEB, the angle FDC is greater than the angle DFC; therefore CD is less than CF, so that CD is less than BE. See the corresponding problem in Plane Geometry in the *Appendix to Euclid*, page 317.\\]",
    "text_html": "<h1 id=\"on-the-connexion-of-formulæ-in-plane-and-spherical-trigonometry.\">ON THE CONNEXION OF FORMULÆ IN PLANE AND SPHERICAL TRIGONOMETRY.</h1>\n<h5 id=\"section\">131.</h5>\n<p>The student must have perceived that many of the results obtained in <em>Spherical</em> Trigonometry resemble others with which he is familiar in <em>Plane</em> Trigonometry. We shall now pay some attention to this resemblance. We shall first shew how we may deduce formulæ in Plane Trigonometry from formulæ in Spherical Trigonometry; and we shall then investigate some theorems in Spherical Trigonometry which are interesting principally on account of their connexion with known results in Plane Geometry and Trigonometry.</p>\n<h5 id=\"section-1\">132.</h5>\n<p><em>From any formula in Spherical Trigonometry involving the elements of a triangle, one of them being a side, it is required to deduce the corresponding formula in Plane Trigonometry.</em></p>\n<p>Let <span class=\"math inline\">\\(\\alpha\\)</span>, <span class=\"math inline\">\\(\\beta\\)</span>, <span class=\"math inline\">\\(\\gamma\\)</span> be the lengths of the sides of the triangle, <span class=\"math inline\">\\(r\\)</span> the radius of the sphere, so that <span class=\"math inline\">\\(\\dfrac{\\alpha}{r}\\)</span>, <span class=\"math inline\">\\(\\dfrac{\\beta}{r}\\)</span>, <span class=\"math inline\">\\(\\dfrac{\\gamma}{r}\\)</span> are the circular measures of the sides of the triangle; expand the functions of <span class=\"math inline\">\\(\\dfrac{\\alpha}{r}\\)</span>, <span class=\"math inline\">\\(\\dfrac{\\beta}{r}\\)</span>, <span class=\"math inline\">\\(\\dfrac{\\gamma}{r}\\)</span> which occur in any proposed formula in powers of <span class=\"math inline\">\\(\\dfrac{\\alpha}{r}\\)</span>, <span class=\"math inline\">\\(\\dfrac{\\beta}{r}\\)</span>, <span class=\"math inline\">\\(\\dfrac{\\gamma}{r}\\)</span> respectively; then if we suppose <span class=\"math inline\">\\(r\\)</span> to become indefinitely great, the limiting form of the proposed formula will be a relation in Plane Trigonometry.</p>\n<p>For example, in Art. 106, from the formula <span class=\"math display\">\\[\\cos A = \\frac{\\cos a - \\cos b \\cos c }{\\sin b \\sin c}\\]</span> we deduce <span class=\"math display\">\\[\\cos A = \\frac{\\beta^2 + \\gamma^2 - \\alpha^2}{2 \\beta \\gamma}\n  + \\frac{\\alpha^4 + \\beta^4 + \\gamma^4 - 2 \\alpha^2 \\beta^2 - 2 \\beta^2 \\gamma^2 - 2 \\gamma^2 \\alpha^2}{24 \\beta \\gamma r^2} + \\ldots;\\]</span> now suppose <span class=\"math inline\">\\(r\\)</span> to become infinite; then ultimately <span class=\"math display\">\\[\\cos A = \\frac{\\beta^2 + \\gamma^2 - \\alpha^2}{2 \\beta \\gamma}\\,;\\]</span> and this is the expression for the cosine of the angle of a plane triangle in terms of the sides.</p>\n<p>Again, in Art. 110, from the formula <span class=\"math display\">\\[\\begin{align*}\n&amp;&amp;&amp; \\frac{\\sin A}{\\sin B} = \\frac{\\sin a}{\\sin b} &amp;&amp;\n\\\\[1ex]\n&amp;\\text{we deduce }&amp;&amp;\n\\frac{\\sin A}{\\sin B} = \\frac{\\alpha}{\\beta} + \\frac{\\alpha (\\beta^2 - \\alpha^2)}{6 \\beta r^2} + \\ldots;\n\\end{align*}\\]</span> now suppose <span class=\"math inline\">\\(r\\)</span> to become infinite; then ultimately <span class=\"math display\">\\[\\begin{align*}\n&amp;&amp;&amp; \\frac{\\sin A}{\\sin B} = \\frac{\\alpha}{\\beta},\n\\end{align*}\\]</span> that is, in a plane triangle the sides are as the sines of the opposite angles.</p>\n<h5 id=\"section-2\">133.</h5>\n<p><em>To find the equation to a small circle of the sphere.</em></p>\n<p>The student can easily draw the required diagram.</p>\n<p>Let <span class=\"math inline\">\\(O\\)</span> be the pole of a small circle, <span class=\"math inline\">\\(S\\)</span> a fixed point on the sphere, <span class=\"math inline\">\\(SX\\)</span> a fixed great circle of the sphere. Let <span class=\"math inline\">\\(OS = \\alpha\\)</span>, <span class=\"math inline\">\\(OSX = \\beta\\)</span>; then the position of <span class=\"math inline\">\\(O\\)</span> is determined by means of these angular co-ordinates <span class=\"math inline\">\\(\\alpha\\)</span> and <span class=\"math inline\">\\(\\beta\\)</span>. Let <span class=\"math inline\">\\(P\\)</span> be any point on the circumference of the small circle, <span class=\"math inline\">\\(PS = \\theta\\)</span>, <span class=\"math inline\">\\(PSX = \\phi\\)</span>, so that <span class=\"math inline\">\\(\\theta\\)</span> and <span class=\"math inline\">\\(\\phi\\)</span> are the angular co-ordinates of <span class=\"math inline\">\\(P\\)</span>. Let <span class=\"math inline\">\\(OP = r\\)</span>. Then from the triangle <span class=\"math inline\">\\(OSP\\)</span> <span class=\"math display\">\\[\\cos r = \\cos \\alpha \\cos \\theta + \\sin \\alpha \\sin \\theta \\cos (\\phi - \\beta); \\tag{1}\\]</span> this gives a relation between the angular co-ordinates of any point on the circumference of the circle.</p>\n<p>If the circle be a great circle then <span class=\"math inline\">\\(r = \\dfrac{\\pi}{2}\\)</span>; thus the equation becomes <span class=\"math display\">\\[0 = \\cos \\alpha \\cos \\theta + \\sin \\alpha \\sin \\theta \\cos (\\phi - \\beta). \\tag{2}\\]</span></p>\n<p>It will be observed that the angular co-ordinates here used are analogous to the <em>latitude</em> and <em>longitude</em> which serve to determine the positions of places on the Earth’s surface; <span class=\"math inline\">\\(\\theta\\)</span> is the <em>complement of the latitude</em> and <span class=\"math inline\">\\(\\phi\\)</span> is the <em>longitude</em>.</p>\n<h5 id=\"section-3\">134.</h5>\n<p>Equation (1) of the preceding Article may be written thus: <span class=\"math display\">\\[\\begin{gather*}\n\\cos r \\left(\\cos^2 \\frac{\\theta}{2} + \\sin^2 \\frac{\\theta}{2}\\right)\n\\\\\n= \\cos \\alpha \\left(\\cos^2 \\frac{\\theta}{2}\n                  - \\sin^2 \\frac{\\theta}{2}\\right)\n+ 2 \\sin \\alpha \\sin \\frac{\\theta}{2} \\cos \\frac{\\theta}{2}\n  \\cos (\\phi - \\beta).\n\\end{gather*}\\]</span></p>\n<p>Divide by <span class=\"math inline\">\\(\\cos^2 \\dfrac{\\theta}{2}\\)</span> and rearrange; hence <span class=\"math display\">\\[\\tan^2 \\frac{\\theta}{2} (\\cos r + \\cos \\alpha)\n- 2 \\tan \\frac{\\theta}{2} \\sin \\alpha \\cos (\\phi - \\beta)\n+ \\cos r - \\cos \\alpha = 0.\\]</span></p>\n<p>Let <span class=\"math inline\">\\(\\tan \\dfrac{\\theta_1}{2}\\)</span> and <span class=\"math inline\">\\(\\tan \\dfrac{\\theta_2}{2}\\)</span> denote the values of <span class=\"math inline\">\\(\\tan \\dfrac{\\theta}{2}\\)</span> found from this quadratic equation; then by <em>Algebra</em>, Chapter <span class=\"smallcaps\">xxii.</span> <span class=\"math display\">\\[\\tan \\frac{\\theta_1}{2} \\tan \\frac{\\theta_2}{2}\n= \\frac{\\cos r - \\cos \\alpha}{\\cos r + \\cos \\alpha}\n= \\tan \\frac{\\alpha + r}{2} \\tan \\frac{\\alpha - r}{2}.\\]</span></p>\n<p>Thus the value of the product <span class=\"math inline\">\\(\\tan \\dfrac{\\theta_{1}}{2} \\tan \\dfrac{\\theta_{2}}{2}\\)</span> is <em>independent</em> of <span class=\"math inline\">\\(\\phi\\)</span>; this result corresponds to the well-known property of a circle in Plane Geometry which is demonstrated in Euclid <span class=\"smallcaps\">iii.</span> 36 <em>Corollary</em>.</p>\n<h5 id=\"section-4\">135.</h5>\n<p>Let three arcs <span class=\"math inline\">\\(OA\\)</span>, <span class=\"math inline\">\\(OB\\)</span>, <span class=\"math inline\">\\(OC\\)</span> meet at a point. From any point <span class=\"math inline\">\\(P\\)</span> in <span class=\"math inline\">\\(OB\\)</span> draw <span class=\"math inline\">\\(PM\\)</span> perpendicular to <span class=\"math inline\">\\(OA\\)</span>, and <span class=\"math inline\">\\(PN\\)</span> perpendicular to <span class=\"math inline\">\\(OC\\)</span>. The student can easily draw the required diagram.</p>\n<p>Then, by Art. 65, <span class=\"math display\">\\[\\sin PM = \\sin OP \\sin AOB,\\quad \\sin PN = \\sin OP \\sin COB;\\]</span> therefore <span class=\"math inline\">\\(\\quad\\displaystyle\n\\frac{\\sin PM}{\\sin PN} = \\frac{\\sin AOB}{\\sin COB}.\n\\quad\\phantom{therefore}\\)</span><br />\nThus the ratio of <span class=\"math inline\">\\(\\sin PM\\)</span> to <span class=\"math inline\">\\(\\sin PN\\)</span> is independent of the position of <span class=\"math inline\">\\(P\\)</span> on the arc <span class=\"math inline\">\\(OB\\)</span>.</p>\n<h5 id=\"section-5\">136.</h5>\n<p>Conversely suppose that from any other point <span class=\"math inline\">\\(p\\)</span> arcs <span class=\"math inline\">\\(pm\\)</span> and <span class=\"math inline\">\\(pn\\)</span> are drawn perpendicular to <span class=\"math inline\">\\(OA\\)</span> and <span class=\"math inline\">\\(OC\\)</span> respectively; then if <span class=\"math display\">\\[\\frac{\\sin pm}{\\sin pn} = \\frac{\\sin PM}{\\sin PN},\\]</span> it will follow that <span class=\"math inline\">\\(p\\)</span> is on the same great circle as <span class=\"math inline\">\\(O\\)</span> and <span class=\"math inline\">\\(P\\)</span>.</p>\n<h5 id=\"section-6\">137.</h5>\n<p>From two points <span class=\"math inline\">\\(P_1\\)</span> and <span class=\"math inline\">\\(P_2\\)</span> arcs are drawn perpendicular to a fixed arc; and from a point <span class=\"math inline\">\\(P\\)</span> on the same great circle as <span class=\"math inline\">\\(P_1\\)</span> and <span class=\"math inline\">\\(P_2\\)</span> a perpendicular is drawn to the same fixed arc. Let <span class=\"math inline\">\\(PP_1 = \\theta_1\\)</span> and <span class=\"math inline\">\\(PP_2 = \\theta_2\\)</span>; and let the perpendiculars drawn from <span class=\"math inline\">\\(P\\)</span>, <span class=\"math inline\">\\(P_1\\)</span>, and <span class=\"math inline\">\\(P_2\\)</span> be denoted by <span class=\"math inline\">\\(x\\)</span>, <span class=\"math inline\">\\(x_1\\)</span> and <span class=\"math inline\">\\(x_2\\)</span>. Then will <span class=\"math display\">\\[\\sin x\n= \\frac{\\sin \\theta_2}{\\sin(\\theta_1 + \\theta_2)} \\sin x_1\n+ \\frac{\\sin \\theta_1}{\\sin(\\theta_1 + \\theta_2)} \\sin x_2.\\]</span></p>\n<p>Let the arc <span class=\"math inline\">\\(P_1 P_2\\)</span>, produced if necessary, cut the fixed arc at a point <span class=\"math inline\">\\(O\\)</span>; let <span class=\"math inline\">\\(\\alpha\\)</span> denote the angle between the arcs. We will suppose that <span class=\"math inline\">\\(P_1\\)</span> is between <span class=\"math inline\">\\(O\\)</span> and <span class=\"math inline\">\\(P_2\\)</span>, and that <span class=\"math inline\">\\(P\\)</span> is between <span class=\"math inline\">\\(P_1\\)</span> and <span class=\"math inline\">\\(P_2\\)</span>.</p>\n<p>Then, by Art. 65, <span class=\"math display\">\\[\\begin{align*}\n\\sin x_1 = \\sin \\alpha \\sin OP_1 &amp;= \\sin \\alpha \\sin (OP - \\theta_1) \\\\\n    &amp;= \\sin \\alpha (\\sin OP \\cos \\theta_1 - \\cos OP \\sin \\theta_1);\\\\\n\\sin x_2 = \\sin \\alpha \\sin OP_2 &amp;= \\sin \\alpha \\sin (OP + \\theta_2) \\\\\n    &amp;= \\sin \\alpha (\\sin OP \\cos \\theta_2 + \\cos OP \\sin \\theta_2).\n\\end{align*}\\]</span> Multiply the former by <span class=\"math inline\">\\(\\sin\\theta_2\\)</span>, and the latter by <span class=\"math inline\">\\(\\sin\\theta_1\\)</span>, and add; thus <span class=\"math display\">\\[\\begin{align*}\n\\sin \\theta_2 \\sin x_1 + \\sin \\theta_1 \\sin x_2 &amp;= \\sin (\\theta_1 + \\theta_2) \\sin \\alpha \\sin OP\\\\\n     &amp;= \\sin (\\theta_1 + \\theta_2) \\sin x.\n\\end{align*}\\]</span></p>\n<p>The student should convince himself by examination that the result holds for all relative positions of <span class=\"math inline\">\\(P\\)</span>, <span class=\"math inline\">\\(P_1\\)</span> and <span class=\"math inline\">\\(P_2\\)</span>, when due regard is paid to algebraical signs.</p>\n<h5 id=\"section-7\">138.</h5>\n<p>The principal use of Art. 137 is to determine whether three given points are on the same great circle; an illustration will be given in Art. 146.</p>\n<h5 id=\"section-8\">139.</h5>\n<p><em>The arcs drawn from the angles of a spherical triangle perpendicular to the opposite sides respectively meet at a point.</em></p>\n<figure data-latex-placement=\"htp\">\n<img src=\"images/todhunter-spherical-trigonometry-1886/images/110fc.png\" style=\"width:5cm\" />\n</figure>\n<p>Let <span class=\"math inline\">\\(CF\\)</span> be perpendicular to <span class=\"math inline\">\\(AB\\)</span>. From <span class=\"math inline\">\\(F\\)</span> suppose arcs drawn perpendicular to <span class=\"math inline\">\\(CB\\)</span> and <span class=\"math inline\">\\(CA\\)</span> respectively; denote the former by <span class=\"math inline\">\\(\\xi\\)</span> and the latter by <span class=\"math inline\">\\(\\eta\\)</span>. Then, by Art. 135, <span class=\"math display\">\\[\\frac{\\sin\\xi}{\\sin\\eta} = \\frac{\\sin FCB}{\\sin FCA}.\\]</span></p>\n<p>But, by Art. 65, <span class=\"math display\">\\[\\cos B = \\cos CF \\sin FCB, \\quad \\cos A = \\cos CF \\sin FCA;\\]</span> therefore <span class=\"math inline\">\\(\\quad\\displaystyle\n  \\frac{\\sin\\xi}{\\sin\\eta}\n= \\frac{\\cos B}{\\cos A}\n= \\frac{\\cos B \\cos C}{\\cos A \\cos C}. \\quad\\phantom{therefore}\\)</span><br />\nAnd if from <em>any</em> point in <span class=\"math inline\">\\(CF\\)</span> arcs are drawn perpendicular to <span class=\"math inline\">\\(CB\\)</span> and <span class=\"math inline\">\\(CA\\)</span> respectively, the ratio of the sine of the former perpendicular to the sine of the latter perpendicular is equal to <span class=\"math inline\">\\(\\dfrac{\\sin\\xi}{\\sin\\eta}\\)</span> by Art. 135.</p>\n<p>In like manner suppose <span class=\"math inline\">\\(AD\\)</span> perpendicular to <span class=\"math inline\">\\(BC\\)</span>; then if from any point in <span class=\"math inline\">\\(AD\\)</span> arcs are drawn perpendicular to <span class=\"math inline\">\\(AC\\)</span> and <span class=\"math inline\">\\(AB\\)</span> respectively, the ratio of the sine of the former perpendicular to the sine of the latter perpendicular is equal to <span class=\"math inline\">\\(\\dfrac{\\cos A \\cos C}{\\cos A \\cos B}\\)</span>.<br />\nLet <span class=\"math inline\">\\(CF\\)</span> and <span class=\"math inline\">\\(AD\\)</span> meet at <span class=\"math inline\">\\(P\\)</span>, and from <span class=\"math inline\">\\(P\\)</span> let perpendiculars be drawn on the sides <span class=\"math inline\">\\(a\\)</span>, <span class=\"math inline\">\\(b\\)</span>, <span class=\"math inline\">\\(c\\)</span> of the triangle; and denote these perpendiculars by <span class=\"math inline\">\\(x\\)</span>, <span class=\"math inline\">\\(y\\)</span>, <span class=\"math inline\">\\(z\\)</span> respectively: then we have shewn that <span class=\"math display\">\\[\\begin{align*}\n&amp;&amp;\\frac{\\sin x}{\\sin y} &amp;= \\frac{\\cos B \\cos C}{\\cos A \\cos C},\\\\[1ex]\n&amp;\\text{and that}&amp; \\frac{\\sin y}{\\sin z} &amp;= \\frac{\\cos A \\cos C}{\\cos A \\cos B};&amp;\\phantom{and that}\n\\end{align*}\\]</span> hence it follows that <span class=\"math display\">\\[\\begin{align*}\n&amp;&amp;\\frac{\\sin x}{\\sin z} &amp;= \\frac{\\cos B \\cos C}{\\cos B \\cos A},\n\\end{align*}\\]</span> and this shews that the point <span class=\"math inline\">\\(P\\)</span> is on the arc drawn from <span class=\"math inline\">\\(B\\)</span> perpendicular to <span class=\"math inline\">\\(AC\\)</span>.</p>\n<p>Thus the three perpendiculars meet at a point, and this point is determined by the relations <span class=\"math display\">\\[\\frac{\\sin x}{\\cos B \\cos C} = \\frac{\\sin y}{\\cos C \\cos A} = \\frac{\\sin z}{\\cos A \\cos B}.\\]</span></p>\n<h5 id=\"section-9\">140.</h5>\n<p>In the same manner it may be shewn that the arcs drawn from the angles of a spherical triangle to the middle points of the opposite sides meet at a point; and if from this point arcs <span class=\"math inline\">\\(x\\)</span>, <span class=\"math inline\">\\(y\\)</span>, <span class=\"math inline\">\\(z\\)</span> are drawn perpendicular to the sides <span class=\"math inline\">\\(a\\)</span>, <span class=\"math inline\">\\(b\\)</span>, <span class=\"math inline\">\\(c\\)</span> respectively, <span class=\"math display\">\\[\\frac{\\sin x}{\\sin B \\sin C} = \\frac{\\sin y}{\\sin C \\sin A} = \\frac{\\sin z}{\\sin A \\sin B}.\\]</span></p>\n<h5 id=\"section-10\">141.</h5>\n<p>It is known in Plane Geometry that a certain circle touches the inscribed and escribed circles of any triangle; this circle is called the <em>Nine points circle</em>: see <em>Appendix to Euclid</em>, pages 317, 318, and <em>Plane Trigonometry</em>, Chapter <span class=\"smallcaps\">xxiv</span>.</p>\n<p>We shall now shew that a small circle can always be determined on the sphere to touch the inscribed and escribed circles of any spherical triangle.</p>\n<h5 id=\"section-11\">142.</h5>\n<p>Let <span class=\"math inline\">\\(\\alpha\\)</span> denote the distance from <span class=\"math inline\">\\(A\\)</span> of the pole of the small circle inscribed within a spherical triangle <span class=\"math inline\">\\(ABC\\)</span>. Suppose that a small circle of angular radius <span class=\"math inline\">\\(\\rho\\)</span> touches this inscribed circle internally; let <span class=\"math inline\">\\(\\beta\\)</span> be the distance from <span class=\"math inline\">\\(A\\)</span> of the pole of this touching circle; let <span class=\"math inline\">\\(\\gamma\\)</span> be the angle between arcs drawn from <span class=\"math inline\">\\(A\\)</span> to the pole of the inscribed circle and the pole of the touching circle respectively. Then we must have <span class=\"math display\">\\[\\cos(\\rho-r) = \\cos\\alpha\\cos\\beta + \\sin\\alpha\\sin\\beta\\cos\\gamma. \\tag{1}\\]</span> Suppose that this touching circle also touches externally the escribed circle of angular radius <span class=\"math inline\">\\(r_1\\)</span>; then if <span class=\"math inline\">\\(\\alpha_1\\)</span> denote the distance from <span class=\"math inline\">\\(A\\)</span> of the pole of this escribed circle, we must have <span class=\"math display\">\\[\\cos(\\rho+r_1) = \\cos\\alpha_1\\cos\\beta + \\sin\\alpha_1\\sin\\beta\\cos\\gamma. \\tag{2}\\]</span></p>\n<p>Similarly, if <span class=\"math inline\">\\(\\alpha_2\\)</span> and <span class=\"math inline\">\\(\\alpha_3\\)</span> denote the distances from <span class=\"math inline\">\\(A\\)</span> of the poles of the other escribed circles, in order that the touching circle may touch these escribed circles externally, we must also have <span class=\"math display\">\\[\\begin{gather*}\n\\cos(\\rho+r_2) = \\cos\\alpha_2\\cos\\beta + \\sin\\alpha_2\\sin\\beta \\cos\\left(\\frac{\\pi}{2}-\\gamma\\right), \\tag{3}\\\\[1.5ex]\n\\cos(\\rho+r_3) = \\cos\\alpha_3\\cos\\beta + \\sin\\alpha_3\\sin\\beta \\cos\\left(\\frac{\\pi}{2}+\\gamma\\right). \\tag{4}\n\\end{gather*}\\]</span></p>\n<p>We shall shew that real values of <span class=\"math inline\">\\(\\rho\\)</span>, <span class=\"math inline\">\\(\\beta\\)</span>, and <span class=\"math inline\">\\(\\gamma\\)</span> can be found to satisfy these four equations.</p>\n<p>Eliminate <span class=\"math inline\">\\(\\cos \\gamma\\)</span> from (1) and (2); thus <span class=\"math display\">\\[\\begin{gather*}\n\\cos\\rho(\\cos r\\sin\\alpha_1-\\cos r_1\\sin\\alpha) +\n\\sin\\rho(\\sin r\\sin\\alpha_1+\\sin r_1\\sin\\alpha) \\\\\n= \\cos\\beta (\\cos\\alpha \\sin\\alpha_1 - \\cos\\alpha_1 \\sin\\alpha). \\tag{5}\n\\end{gather*}\\]</span></p>\n<p>Suppose that the inscribed circle touches <span class=\"math inline\">\\(AB\\)</span> at the distance <span class=\"math inline\">\\(m\\)</span> from <span class=\"math inline\">\\(A\\)</span>, and that the escribed circle of angular radius <span class=\"math inline\">\\(r_1\\)</span> touches <span class=\"math inline\">\\(AB\\)</span> at the distance <span class=\"math inline\">\\(m_1\\)</span> from <span class=\"math inline\">\\(A\\)</span>. Then, by Art. 65, <span class=\"math display\">\\[\\cot \\alpha = \\cot m \\cos \\frac{A}{2}, \\quad\n  \\cos \\alpha = \\cos r\\cos m, \\quad\n  \\sin r = \\sin \\alpha \\sin\\frac{A}{2};\\]</span> therefore <span class=\"math inline\">\\(\\quad\\displaystyle\n  \\frac{\\cos r}{\\sin \\alpha}\n= \\frac{\\cot \\alpha}{\\cos m} =\n\\frac{1}{\\sin m}\\cos\\frac{A}{2}.\n\\quad\\phantom{therefore }\\)</span><br />\nSimilarly we may connect <span class=\"math inline\">\\(\\alpha_1\\)</span> and <span class=\"math inline\">\\(r_1\\)</span> with <span class=\"math inline\">\\(m_1\\)</span>. Thus we obtain from (5) <span class=\"math display\">\\[\\begin{gather*}\n\\cos\\rho \\cos\\frac{A}{2}\n\\left(\\frac{1}{\\sin m}-\\frac{1}{\\sin m_1}\\right) +\n2\\sin\\rho\\sin\\frac{A}{2}\n\\\\\n= \\cos\\beta\\cos\\frac{A}{2}\n\\left(\\cot m-\\cot m_1\\right);\n\\end{gather*}\\]</span> therefore  <span class=\"math inline\">\\(\\cos\\rho(\\sin m_1-\\sin m)\n+ 2\\sin\\rho\\sin m\\sin m_1\\tan\\dfrac{A}{2} \\quad\\)</span><br />\n</p>\n<p>But by Arts. 89 and 90 we have <span class=\"math inline\">\\(m = s-a\\)</span>, and <span class=\"math inline\">\\(m_1 = s\\)</span>; therefore by the aid of Art. 45 we obtain <span class=\"math display\">\\[\\tag{6}\n2\\cos\\rho \\sin\\frac{a}{2}\\cos\\frac{b+c}{2} +\n2n\\sin\\rho=\\cos\\beta\\sin a ,\\]</span> where <span class=\"math inline\">\\(n\\)</span> has the meaning assigned in Art. 46.</p>\n<p>In like manner if we eliminate <span class=\"math inline\">\\(\\sin \\gamma\\)</span> between (3) and (4), putting <span class=\"math inline\">\\(m_2\\)</span> for <span class=\"math inline\">\\(s-c\\)</span>, and <span class=\"math inline\">\\(m_3\\)</span> for <span class=\"math inline\">\\(s-b\\)</span>, we obtain <span class=\"math display\">\\[\\begin{gather*}\n  \\cos\\rho(\\sin m_2+\\sin m_3)\n-2\\sin\\rho\\sin m_2\\sin m_3\\cot\\frac{A}{2}\n\\\\\n=\\cos\\beta\\sin(m_2+m_3),\n\\end{gather*}\\]</span> <span class=\"math display\">\\[\\begin{align*}\n\\tag{7}\n\\text{therefore}\\quad&amp;\n2\\cos\\rho\\sin\\frac{a}{2}\\cos\\frac{b-c}{2}-2n\\sin\\rho=\\cos\\beta\\sin a. &amp;&amp;\n\\end{align*}\\]</span></p>\n<p>From (6) and (7) we get <span class=\"math display\">\\[\\tag{8}\n\\tan\\rho=\n\\frac{\\sin\\dfrac{a}{2}\\sin\\dfrac{b}{2}\\sin\\dfrac{c}{2}}{n} =\n\\frac{1}{2}\\tan R,\\ \\text{by Art.~92}\\]</span> and <span class=\"math inline\">\\(\\quad\n\\cos\\beta=\n\\dfrac{\\cos\\dfrac{b}{2}\\cos\\dfrac{c}{2}\\cos\\rho}{\\cos\\dfrac{a}{2}}. \\quad\\phantom{and } (9)\\)</span><br />\nWe may suppose that <span class=\"math inline\">\\(\\cos\\dfrac{a}{2}\\)</span> is not less than <span class=\"math inline\">\\(\\cos\\dfrac{b}{2}\\)</span> or <span class=\"math inline\">\\(\\cos\\dfrac{c}{2}\\)</span>, so that we are sure of a possible value of <span class=\"math inline\">\\(\\cos\\beta\\)</span> from (9).</p>\n<p>It remains to shew that when <span class=\"math inline\">\\(\\rho\\)</span> and <span class=\"math inline\">\\(\\beta\\)</span> are thus determined, all the four fundamental equations are satisfied.</p>\n<p>It will be observed that, <span class=\"math inline\">\\(\\rho\\)</span> and <span class=\"math inline\">\\(\\beta\\)</span> being considered known, <span class=\"math inline\">\\(\\cos\\gamma\\)</span> can be found from (1) or (2), and <span class=\"math inline\">\\(\\sin\\gamma\\)</span> can be found from (3) or (4): we must therefore shew that (1) and (2) give the <em>same</em> value for <span class=\"math inline\">\\(\\cos\\gamma\\)</span>, and that (3) and (4) give the <em>same</em> value for <span class=\"math inline\">\\(\\sin\\gamma\\)</span>; and we must also shew that these values satisfy the condition <span class=\"math inline\">\\(\\cos^2\\gamma+\\sin^2\\gamma=1\\)</span>.</p>\n<p>From (1) we have <span class=\"math display\">\\[\\frac{\\cos\\rho\\sin r}{\\sin\\alpha}\\left(\\cot r+\\tan\\rho-\\cos m\\cot r\\frac{\\cos\\beta}{\\cos\\rho}\\right)=\\sin\\beta\\cos\\gamma,\\]</span> that is, <span class=\"math display\">\\[\\begin{gather*}\n\\frac{\\cos\\rho\\sin\\dfrac{A}{2}}{n}\n \\left\\{\\sin s+\\sin\\tfrac12a\\sin\\tfrac12b\\sin\\tfrac12c\n  - \\frac{\\cos(s-a)\\sin s\\cos\\dfrac{b}{2}\\cos\\dfrac{c}{2}}{\\cos\\dfrac{a}{2}}\\right\\}\\\\\n=\\sin\\beta\\cos\\gamma;\n\\end{gather*}\\]</span> this reduces to <span class=\"math display\">\\[\\begin{gather*}\n\\frac{\\cos\\rho\\sin\\dfrac{A}{2}}{n}\n \\left\\{\\cos\\frac{a}{2}\\sin\\frac{b+c}{2}\n  - \\frac{\\sin(b+c)\\cos\\dfrac{b}{2}\\cos\\dfrac{c}{2}}{2\\cos\\dfrac{a}{2}} \\right\\}\n  =\\sin\\beta\\cos\\gamma:\n\\end{gather*}\\]</span> and it will be found that (2) reduces to the same; so that (1) and (2) give the same value for <span class=\"math inline\">\\(\\cos\\gamma\\)</span>.</p>\n<p>In like manner it will be found that (3) and (4) agree in reducing to <span class=\"math display\">\\[\\frac{\\cos\\rho\\cos\\dfrac{A}{2}}{n}\n \\left\\{\\cos\\dfrac{a}{2}\\sin\\frac{c-b}{2}\n  - \\frac{\\sin(c-b)\\cos\\dfrac{b}{2}\\cos\\dfrac{c}{2}}{2\\cos\\dfrac{a}{2}} \\right\\}\n  =\\sin\\beta\\cos\\gamma.\\]</span></p>\n<p>It only remains to shew that the condition <span class=\"math inline\">\\(\\cos^2\\gamma+\\sin^2\\gamma=1\\)</span> is satisfied. <span class=\"math display\">\\[\\text{Put $k$ for $\\frac{\\cos\\beta}{\\cos\\rho}$, that is for $\\frac{\\cos\\dfrac b2 \\cos\\dfrac c2}{\\cos\\dfrac a2}$;}\\]</span> put <span class=\"math inline\">\\(X\\)</span> for <span class=\"math inline\">\\(\\cot r\\{1-k\\cos(s-a)\\}\\)</span>, and <span class=\"math inline\">\\(Y\\)</span> for <span class=\"math inline\">\\(\\cot r_1\\{1-k\\cos s\\}\\)</span>.</p>\n<p>Then (1) and (2) may be written respectively thus: <span class=\"math display\">\\[\\begin{align*}\n(X\\cos\\rho+\\sin\\rho)\\sin\\frac A2 &amp;=\\sin\\beta\\cos\\gamma,\\tag{10}\\\\\n(Y\\cos\\rho-\\sin\\rho)\\sin\\frac A2 &amp;=\\sin\\beta\\cos\\gamma.\\tag{11}\n\\end{align*}\\]</span> From (10) and (11) by addition <span class=\"math display\">\\[\\begin{align*}\n&amp;&amp;{\\hfil(X+Y)\\sin\\dfrac A2\\cos\\rho = 2\\sin\\beta\\cos\\gamma;\\hfil}&amp;&amp;\\\\\n&amp;\\text{therefore}&amp;\n  4\\sin^2\\beta\\cos^2\\gamma&amp;=(X^2+Y^2+2XY)\\sin^2\\frac A2\\cos^2\\rho.\n&amp;\\phantom{therefore}\\tag{12}\n\\end{align*}\\]</span></p>\n<p>But from (10) and (11) by subtraction <span class=\"math display\">\\[\\begin{align*}\n&amp;&amp;{\\hfil(X-Y)\\cos\\rho=-2\\sin\\rho;\\hfil}&amp;&amp;\\\\\n&amp;\\text{therefore}&amp;\n  (X^2+Y^2)\\cos^2\\rho&amp;=4\\sin^2\\rho+2XY\\cos^2\\rho.&amp;\\phantom{therefore}\n\\end{align*}\\]</span></p>\n<p>Substitute in (12) and we obtain <span class=\"math display\">\\[\\sin^2\\beta\\cos^2\\gamma=(\\sin^2\\rho+XY\\cos^2\\rho)\\sin^2\\frac A2.\\tag{13}\\]</span></p>\n<p>Again, put <span class=\"math display\">\\[\\text{$X_1$ for $\\cot r_2\\{1-k\\cos(s-c)\\}$, and $Y_1$ for $\\cot r_3\\{1-k\\cos(s-b)\\}$.}\\]</span></p>\n<p>Then (3) and (4) may be written respectively thus: <span class=\"math display\">\\[\\begin{align*}\n(X_1\\cos\\rho-\\sin\\rho)\\cos\\frac A2 &amp;= \\sin\\beta\\sin\\gamma,\\tag{14}\\\\\n(Y_1\\cos\\rho-\\sin\\rho)\\cos\\frac A2 &amp;= -\\sin\\beta\\sin\\gamma.\\tag{15}\n\\end{align*}\\]</span></p>\n<p>From (14) and (15) by subtraction <span class=\"math display\">\\[(X_1-Y_1)\\cos\\frac A2\\cos\\rho = 2\\sin\\beta\\sin\\gamma,\\]</span> and from (14) and (15) by addition, <span class=\"math display\">\\[(X_1+Y_1)\\cos\\rho = 2\\sin\\rho,\\]</span> whence <span class=\"math display\">\\[\\sin^2 \\beta \\sin^2 \\gamma = (\\sin^2 \\rho - X_1 Y_1 \\cos^2\\rho) \\cos^2 \\frac{A}{2}. \\tag{16}\\]</span></p>\n<p>Hence from (13) and (16) it follows that we have to establish the relation <span class=\"math display\">\\[\\sin^2 \\beta = \\sin^2\\rho + \\left( XY\\sin^2\\frac{A}{2} - X_1 Y_1 \\cos^2 \\frac{A}{2} \\right) \\cos^2\\rho.\\]</span></p>\n<p>But <span class=\"math inline\">\\(\\sin^2\\beta = 1-\\cos^2\\beta = \\sin^2\\rho + \\cos^2 \\rho - k^2\\cos^2\\rho\\)</span>, so that the relation reduces to <span class=\"math display\">\\[1-k^2 = XY\\sin^2\\frac{A}{2} - X_1 Y_1 \\cos^2 \\frac{A}{2}.\\]</span></p>\n<p>Now <span class=\"math display\">\\[\\begin{align*}\nXY\\sin^2\\frac{A}{2}\n&amp;= \\frac{\\cot r \\cot r_1 \\{1-k\\cos s\\} \\{1-k\\cos(s-a)\\} \\sin(s-b)\\sin(s-c)}{\\sin b \\sin c} \\\\[1.5ex]\n&amp;= \\frac{\\{1-k\\cos s\\} \\{1-k\\cos(s-a) \\} }{\\sin b \\sin c }.\n\\end{align*}\\]</span></p>\n<p>Similarly  <span class=\"math inline\">\\(X_1 Y_1 \\cos^2 \\dfrac{A}{2} = \\dfrac{\\{1-k\\cos(s-b) \\} \\{1-k\\cos(s-c) \\} }{\\sin b \\sin c}\\)</span>.<br />\nSubtract the latter from the former; then we obtain <span class=\"math display\">\\[\\begin{gather*}\n\\frac{k}{\\sin b \\sin c} \\{\\cos(s-b) + \\cos(s-c) -\\cos s -\\cos(s-a) \\} \\\\[1.5ex]\n{}+ \\frac{k^2}{\\sin b \\sin c} \\{\\cos s \\cos(s-a) - \\cos(s-b)\\cos(s-c) \\},\n\\end{gather*}\\]</span> that is <span class=\"math inline\">\\(\\quad\n  \\dfrac{2k\\cos\\dfrac{a}{2} }{\\sin b\\sin c}\n  \\left\\{\\cos\\dfrac{b-c}{2} -\\cos\\dfrac{b+c}{2} \\right\\}\n\\quad\\phantom{that is}\\)</span><br />\n<span class=\"math display\">\\[{}+\\frac{k^2}{\\sin b \\sin c}\n   \\left\\{\\cos\\frac{b+c+a}{2} \\cos\\frac{b+c-a}{2}\n         - \\cos\\frac{a+c-b}{2} \\cos\\frac{a+b-c}{2} \\right\\}\\]</span> that is <span class=\"math inline\">\\(\\displaystyle \\dfrac{4\\sin\\dfrac{b}{2} \\sin\\dfrac{c}{2}\n          \\cos\\dfrac{b}{2} \\cos\\dfrac{c}{2} }\n       {\\sin b \\sin c}\n+ \\dfrac{k^2}{\\sin b\\sin c}\n  \\left\\{\\sin^2\\dfrac{c-b}{2}\n        - \\sin^2\\dfrac{c+b}{2} \\right\\},\\)</span><br />\nthat is <span class=\"math inline\">\\(1-k^2\\)</span>; which was to be shewn.</p>\n<h5 id=\"section-12\">143.</h5>\n<p>Thus the existence of a circle which touches the inscribed and escribed circles of any spherical triangle has been established.</p>\n<p>The distance of the pole of this touching circle from the angles <span class=\"math inline\">\\(B\\)</span> and <span class=\"math inline\">\\(C\\)</span> of the triangle will of course be determined by formulæ corresponding to (9); and thus it follows that <span class=\"math display\">\\[\\frac{\\cos\\dfrac{a}{2} \\cos\\dfrac{c}{2} \\cos\\rho }{\\cos\\dfrac{b}{2} } \\text{ and }\n\\frac{\\cos\\dfrac{a}{2} \\cos\\dfrac{b}{2} \\cos\\rho }{\\cos\\dfrac{c}{2} },\\]</span> must both be less than unity.</p>\n<h5 id=\"section-13\">144.</h5>\n<p>Since the circle which has been determined touches the inscribed circle internally and touches the escribed circles externally, it is obvious that it must meet all the sides of the spherical triangle. We will now determine the position of the points of meeting.</p>\n<p>Suppose the touching circle intersects the side <span class=\"math inline\">\\(AB\\)</span> at points distant <span class=\"math inline\">\\(\\lambda\\)</span> and <span class=\"math inline\">\\(\\mu\\)</span> respectively from <span class=\"math inline\">\\(A\\)</span>.</p>\n<p>Then by Art. 134 we have <span class=\"math display\">\\[\\tan\\frac{\\lambda}{2} \\tan\\frac{\\mu}{2} = \\frac{\\cos\\rho - \\cos\\beta}{\\cos\\rho + \\cos\\beta}\n= \\frac{\\cos\\dfrac{a}{2} - \\cos\\dfrac{b}{2} \\cos\\dfrac{c}{2} }{\\cos\\dfrac{a}{2} + \\cos\\dfrac{b}{2} \\cos\\dfrac{c}{2} }. \\tag{1}\\]</span></p>\n<p>In the same way we must have by symmetry <span class=\"math display\">\\[\\tan\\frac{c - \\lambda}{2} \\tan\\frac{c - \\mu}{2}\n= \\frac{\\cos\\dfrac{b}{2} - \\cos\\dfrac{a}{2} \\cos\\dfrac{c}{2} }{\\cos\\dfrac{b}{2} + \\cos\\dfrac{a}{2} \\cos\\dfrac{c}{2}}. \\tag{2}\\]</span></p>\n<p>From (2), when we substitute the value of <span class=\"math inline\">\\(\\tan\\dfrac{\\lambda}{2} \\tan\\dfrac{\\mu}{2}\\)</span> given by (1), we obtain <span class=\"math display\">\\[\\begin{gather*}\n\\tan\\frac{\\lambda}{2} + \\tan\\frac{\\mu}{2} =\n\\frac{\\cos^2 \\dfrac{a}{2} - \\cos^2 \\dfrac{b}{2} \\cos^2 \\dfrac{c}{2} + \\cos^2 \\dfrac{b}{2} \\sin^2 \\dfrac{c}{2} }{\\cos \\dfrac{b}{2} \\sin \\dfrac{c}{2} \\left(\\cos \\dfrac{a}{2} + \\cos \\dfrac{b}{2} \\cos \\dfrac{c}{2}\\right) }\\\\\n= \\frac{\\cos \\dfrac{a}{2} - \\cos \\dfrac{b}{2} \\cos \\dfrac{c}{2} }\n       {\\cos \\dfrac{b}{2}   \\sin \\dfrac{c}{2} }\n+ \\frac{\\cos \\dfrac{b}{2}   \\sin \\dfrac{c}{2} }\n       {\\cos \\dfrac{a}{2} + \\cos \\dfrac{b}{2} \\cos \\dfrac{c}{2} }. \\tag{3}\n\\end{gather*}\\]</span></p>\n<p>From (1) and (3) we see that we may put <span class=\"math display\">\\[\\begin{align*}\n  \\tan\\frac{\\lambda}{2}\n&amp;= \\frac{\\cos \\dfrac{a}{2} - \\cos \\dfrac{b}{2} \\cos \\dfrac{c}{2} }\n        {\\cos \\dfrac{b}{2}   \\sin \\dfrac{c}{2} }. \\tag{4}\n\\\\[2ex]\n  \\tan\\frac{\\mu}{2}\n&amp;= \\frac{\\cos \\dfrac{b}{2}   \\sin \\dfrac{c}{2} }\n        {\\cos \\dfrac{a}{2} + \\cos \\dfrac{b}{2} \\cos \\dfrac{c}{2} }. \\tag{5}\n\\end{align*}\\]</span></p>\n<p>Similar formulæ of course hold for the points of intersection of the touching circle with the other sides.</p>\n<h5 id=\"section-14\">145.</h5>\n<p>Let <span class=\"math inline\">\\(z\\)</span> denote the perpendicular from the pole of the touching circle on <span class=\"math inline\">\\(AB\\)</span>; then <span class=\"math display\">\\[\\begin{align*}\n\\sin z &amp;= \\sin \\beta \\sin \\left(\\frac{A}{2} + \\gamma\\right) \\\\[1.5ex]\n  &amp;= \\sin \\beta \\left(\\sin \\frac{A}{2} \\cos \\gamma + \\cos \\frac{A}{2} \\sin \\gamma\\right).\n\\end{align*}\\]</span></p>\n<p>But from (2) and (3) of Art. 142 we have <span class=\"math display\">\\[\\sin \\beta \\cos \\gamma = \\frac{\\cos \\rho \\sin \\dfrac{A}{2} }{n}\n  \\left(Z - \\sin \\frac{a}{2} \\sin \\frac{b}{2} \\sin \\frac{c}{2} \\right),\\]</span> where <span class=\"math inline\">\\(\\displaystyle Z = \\sin (s - a) - \\cos s \\sin (s - a) \\cos \\frac{b}{2} \\cos \\frac{c}{2} \\sec \\frac{a}{2},\\)</span> <span class=\"math display\">\\[\\begin{align*}\n&amp;\\text{and }&amp;&amp;\n\\sin \\beta \\sin \\gamma = \\frac{\\cos \\rho \\cos \\dfrac{A}{2} }{n}\n  \\left(Z_1 - \\sin \\frac{a}{2} \\sin \\frac{b}{2} \\sin \\frac{c}{2}\\right),\\\\[2ex]\n&amp;\\text{where}&amp;&amp;\nZ_1 = \\sin (s - b) - \\cos (s - c) \\sin (s - b) \\cos \\frac{b}{2} \\cos \\frac{c}{2} \\sec \\frac{a}{2}.\n&amp;\\phantom{where}&amp;\n\\end{align*}\\]</span> Therefore <span class=\"math display\">\\[\\sin z = \\frac{\\cos \\rho}{n} \\left\\{Z \\sin^2 \\frac{A}{2} +\nZ_1 \\cos^2 \\frac{A}{2} -\n\\sin \\frac{a}{2} \\sin \\frac{b}{2} \\sin \\frac{c}{2}\\right\\}.\\]</span></p>\n<p>Now <span class=\"math inline\">\\(Z \\sin^2 \\dfrac{A}{2}\\)</span> <span class=\"math display\">\\[= \\frac{\\sin (s - a) \\sin (s - b) \\sin (s - c)}{\\sin b \\sin c}\n\\left\\{1 - \\cos s \\cos \\frac{b}{2} \\cos \\frac{c}{2} \\sec \\frac{a}{2}\\right\\},\\]</span> and <span class=\"math inline\">\\(Z_1 \\cos^2 \\dfrac{A}{2}\\)</span> <span class=\"math display\">\\[= \\frac{\\sin s \\sin (s - a) \\sin (s - b)}{\\sin b \\sin c}\n  \\left\\{1 - \\cos (s - c) \\cos \\frac{b}{2} \\cos \\frac{c}{2}\n  \\sec \\frac{a}{2}\\right\\}.\\]</span></p>\n<p>Therefore <span class=\"math inline\">\\(\\quad\\displaystyle\nZ \\sin^2 \\frac{A}{2} + Z_1 \\cos^2 \\frac{A}{2}\n\\quad\\phantom{ Therefore}\\)</span><br />\nis equal to the product of <span class=\"math display\">\\[\\frac{\\sin (s - a) \\sin (s - b)}{\\sin b \\sin c}\\]</span> into <span class=\"math display\">\\[\\begin{align*}\n{\\quad\\displaystyle\n  \\sin (s - c) + \\sin s - \\cos \\frac{b}{2} \\cos \\frac{c}{2} \\sec \\frac{a}{2}\n  \\left\\{\\sin (s - c) \\cos s + \\cos (s - c) \\sin s\n\\vphantom{\\frac b2} \\right\\} \\quad}\\\\[2ex]\n&amp; = \\frac{\\sin (s - a) \\sin (s - b)}{\\sin b \\sin c}\n  \\left\\{2 \\sin \\frac{a + b}{2} \\cos \\frac{c}{2} -\n  \\cos \\frac{b}{2} \\cos \\frac{c}{2} \\sec \\frac{a}{2} \\sin (2s - c)\\right\\} \\\\[2ex]\n&amp; = \\frac{\\sin (s - a) \\sin (s - b)}{2 \\sin b \\sin \\dfrac{c}{2}}\n  \\left\\{2 \\sin \\frac{a + b}{2} -\n  \\sin (a + b) \\cos \\frac{b}{2} \\sec \\frac{a}{2}\\right\\} \\\\[2ex]\n&amp; = \\frac{\\sin (s - a) \\sin (s - b) \\sin \\dfrac{a + b}{2}}\n  {\\sin b \\sin \\dfrac{c}{2}}\n  \\left\\{1 - \\frac{\\cos \\dfrac{a + b}{2} \\cos \\dfrac{b}{2}}{\\cos \\dfrac{a}{2}}\n  \\right\\} \\\\[2ex]\n&amp; = \\frac{\\sin (s - a) \\sin (s - b) \\sin^2 \\dfrac{a + b}{2} \\sin \\dfrac{b}{2}}\n  {\\sin b \\sin \\dfrac{c}{2} \\cos \\dfrac{a}{2}} =\n  \\frac{\\sin (s - a) \\sin (s - b) \\sin^2 \\dfrac{a + b}{2}}\n  {2 \\cos \\dfrac{a}{2} \\cos \\dfrac{b}{2} \\sin \\dfrac{c}{2}}.\n\\end{align*}\\]</span></p>\n<p>Therefore <span class=\"math display\">\\[\\begin{gather*}\n\\sin z = \\frac{\\cos\\rho}{n} \\sin\\frac{a}{2} \\sin\\frac{b}{2} \\sin\\frac{c}{2} \\left\\{\\frac{2 \\sin^2\\dfrac{a + b}{2}\\sin(s - a)\\sin(s - b)}{\\sin^2\\dfrac{c}{2}\\sin a\\sin b}- 1\\right\\}\\\\[2ex]\n= \\frac{\\cos\\rho}{n} \\sin\\frac{a}{2} \\sin\\frac{b}{2} \\sin\\frac{c}{2} \\left\\{2 \\cos^2\\frac{A - B}{2} - 1\\right\\}\\text{; by (2) of Art.\\ 54.}\n\\end{gather*}\\]</span></p>\n<p>Thus <span class=\"math inline\">\\(\\quad\\displaystyle\n  \\sin z = \\frac{\\cos\\rho}{n} \\sin\\frac{a}{2} \\sin\\frac{b}{2} \\sin\\frac{c}{2} \\cos(A - B) \\quad\\phantom{ Thus}\\)</span> <span class=\"math display\">\\[= \\sin\\rho \\cos(A - B).\\]</span></p>\n<p>Similar expressions hold for the perpendiculars from the pole of the touching circle on the other sides of the spherical triangle.</p>\n<h5 id=\"section-15\">146.</h5>\n<p>Let <span class=\"math inline\">\\(P\\)</span> denote the point determined in Art. 139; <span class=\"math inline\">\\(G\\)</span> the point determined in Art. 140, and <span class=\"math inline\">\\(N\\)</span> the pole of the touching circle. We shall now shew that <span class=\"math inline\">\\(P\\)</span>, <span class=\"math inline\">\\(G\\)</span>, and <span class=\"math inline\">\\(N\\)</span> are on a great circle.</p>\n<p>Let <span class=\"math inline\">\\(x\\)</span>, <span class=\"math inline\">\\(y\\)</span>, <span class=\"math inline\">\\(z\\)</span> denote the perpendiculars from <span class=\"math inline\">\\(N\\)</span> on the sides <span class=\"math inline\">\\(a\\)</span>, <span class=\"math inline\">\\(b\\)</span>, <span class=\"math inline\">\\(c\\)</span> respectively of the spherical triangle; let <span class=\"math inline\">\\(x_1\\)</span>, <span class=\"math inline\">\\(y_1\\)</span>, <span class=\"math inline\">\\(z_1\\)</span> denote the perpendiculars from <span class=\"math inline\">\\(P\\)</span>; and <span class=\"math inline\">\\(x_2\\)</span>, <span class=\"math inline\">\\(y_2\\)</span>, <span class=\"math inline\">\\(z_2\\)</span> the perpendiculars from <span class=\"math inline\">\\(G\\)</span>. Then by Arts. 145, 139, and 140 we have <span class=\"math display\">\\[\\begin{align*}\n\\frac{\\sin x}{\\cos(B - C)} &amp;= \\frac{\\sin y}{\\cos(C - A)} = \\frac{\\sin z}{\\cos(A - B)},\\\\[1.5ex]\n\\frac{\\sin x_1}{\\cos B \\cos C} &amp;= \\frac{\\sin y_1}{\\cos C \\cos A} = \\frac{\\sin z_1}{\\cos A \\cos B},\\\\[1.5ex]\n\\frac{\\sin x_2}{\\sin B \\sin C} &amp;= \\frac{\\sin y_2}{\\sin C \\sin A} = \\frac{\\sin z_2}{\\sin A \\sin B}.\n\\end{align*}\\]</span></p>\n<p>Hence it follows that <span class=\"math display\">\\[\\begin{align*}\n\\sin x &amp;= t_1 \\sin x_1 + t_2 \\sin x_2,\\\\\n\\sin y &amp;= t_1 \\sin y_1 + t_2 \\sin y_2,\\\\\n\\sin z &amp;= t_1 \\sin z_1 + t_2 \\sin z_2,\n\\end{align*}\\]</span> where <span class=\"math inline\">\\(t_1\\)</span> and <span class=\"math inline\">\\(t_2\\)</span> are certain quantities the values of which are not required for our purpose.</p>\n<p>Therefore by Art. 137 a certain point <em>in the same great circle</em> as <span class=\"math inline\">\\(P\\)</span> and <span class=\"math inline\">\\(G\\)</span> is at the perpendicular distances <span class=\"math inline\">\\(x\\)</span>, <span class=\"math inline\">\\(y\\)</span>, <span class=\"math inline\">\\(z\\)</span> from the sides <span class=\"math inline\">\\(a\\)</span>, <span class=\"math inline\">\\(b\\)</span>, <span class=\"math inline\">\\(c\\)</span> respectively of the spherical triangle: and hence this point must be the point <span class=\"math inline\">\\(N\\)</span>.</p>\n<h5 id=\"section-16\">147.</h5>\n<p>The resemblance of the results which have been obtained to those which are known respecting the Nine points circle in Plane Geometry will be easily seen.</p>\n<p>The result <span class=\"math inline\">\\(\\tan\\rho = \\dfrac12 \\tan R\\)</span> corresponds to the fact that the radius of the Nine points circle is half the radius of the circumscribing circle of the triangle.</p>\n<p>From equation (4) of Art. 144 by supposing the radius of the sphere to become infinite we obtain <span class=\"math inline\">\\(\\lambda = \\dfrac{b^2 + c^2 - a^2}{2c}\\)</span>: this corresponds to the fact that the Nine points circle passes through the feet of the perpendiculars from the angles of a triangle on the opposite sides.</p>\n<p>From equation (5) of Art. 144 by supposing the radius of the sphere to become infinite we obtain <span class=\"math inline\">\\(\\mu = \\dfrac{c}{2}\\)</span>: this corresponds to the fact that the Nine points circle passes through the middle points of the sides of a triangle.</p>\n<p>From Art. 145 by supposing the radius of the sphere to become infinite we obtain <span class=\"math inline\">\\(z = \\dfrac12 R \\cos(A - B)\\)</span>: this is a known property of the Nine points circle.</p>\n<p>In Plane Geometry the points which correspond to the <span class=\"math inline\">\\(P\\)</span>, <span class=\"math inline\">\\(G\\)</span>, and <span class=\"math inline\">\\(N\\)</span> of Art. 146 are on a straight line.</p>\n<h5 id=\"section-17\">148.</h5>\n<p>The results which have been demonstrated with respect to the circle which touches the inscribed and escribed circles of a spherical triangle are mainly due to Dr Hart and Dr Salmon. See the <em>Quarterly Journal of Mathematics</em>, Vol. <span class=\"smallcaps\">vi</span>. page 67.</p>\n<h2 class=\"unnumbered\" id=\"examples.\">EXAMPLES.</h2>\n<p>1. From the formula <span class=\"math inline\">\\(\\sin\\dfrac{a}{2}=\\Surd{\\left\\{\\dfrac{-\\cos S\\cos(S-A)}{\\sin B\\sin C}\\right\\}}\\)</span> deduce the expression for the area of a plane triangle, namely <span class=\"math inline\">\\(\\dfrac{a^2\\sin B\\sin C}{2\\sin A}\\)</span>, when the radius of the sphere is indefinitely increased.</p>\n<p>2. Two triangles <span class=\"math inline\">\\(ABC\\)</span>, <span class=\"math inline\">\\(abc\\)</span>, spherical or plane, equal in all respects, differ slightly in position: shew that <span class=\"math display\">\\[\\cos ABb\\cos BCc\\cos CAa+\\cos ACc\\cos CBb\\cos BAa=0.\\]</span></p>\n<p>3. Deduce formulæ in Plane Trigonometry from Napier’s Analogies.</p>\n<p>4. Deduce formulæ in Plane Trigonometry from Delambre’s Analogies.</p>\n<p>5. From the formula <span class=\"math inline\">\\(\\cos\\dfrac{c}{2}\\cos\\dfrac{A+B}{2}\n=\\sin\\dfrac{C}{2}\\cos\\dfrac{a+b}{2}\\)</span> deduce the area of a plane triangle in terms of the sides and one of the angles.</p>\n<p>6. What result is obtained from Example 7 to Chapter VI., by supposing the radius of the sphere infinite?</p>\n<p>7. From the angle <span class=\"math inline\">\\(C\\)</span> of a spherical triangle a perpendicular is drawn to the arc which joins the middle points of the sides <span class=\"math inline\">\\(a\\)</span> and <span class=\"math inline\">\\(b\\)</span>: shew that this perpendicular makes an angle <span class=\"math inline\">\\(S-B\\)</span> with the side <span class=\"math inline\">\\(a\\)</span>, and an angle <span class=\"math inline\">\\(S-A\\)</span> with the side <span class=\"math inline\">\\(b\\)</span>.</p>\n<p>8. From each angle of a spherical triangle a perpendicular is drawn to the arc which joins the middle points of the adjacent sides. Shew that these perpendiculars meet at a point; and that if <span class=\"math inline\">\\(x\\)</span>, <span class=\"math inline\">\\(y\\)</span>, <span class=\"math inline\">\\(z\\)</span> are the perpendiculars from this point on the sides <span class=\"math inline\">\\(a\\)</span>, <span class=\"math inline\">\\(b\\)</span>, <span class=\"math inline\">\\(c\\)</span> respectively, <span class=\"math display\">\\[\\frac{\\sin x}{\\sin(S-B)\\sin(S-C)}\n= \\frac{\\sin y}{\\sin(S-C)\\sin(S-A)}\n= \\frac{\\sin z}{\\sin(S-A)\\sin(S-B)}.\\]</span></p>\n<p>9. Through each angle of a spherical triangle an arc is drawn so as to make the same angle with one side which the perpendicular on the base makes with the other side. Shew that these arcs meet at a point; and that if <span class=\"math inline\">\\(x\\)</span>, <span class=\"math inline\">\\(y\\)</span>, <span class=\"math inline\">\\(z\\)</span> are the perpendiculars from this point on the sides <span class=\"math inline\">\\(a\\)</span>, <span class=\"math inline\">\\(b\\)</span>, <span class=\"math inline\">\\(c\\)</span> respectively, <span class=\"math display\">\\[\\frac{\\sin x}{\\cos A}=\\frac{\\sin y}{\\cos B}=\\frac{\\sin z}{\\cos C}.\\]</span></p>\n<p>10. Shew that the points determined in Examples 8 and 9, and the point <span class=\"math inline\">\\(N\\)</span> of Art. 146 are on a great circle.</p>\n<p>State the corresponding theorem in Plane Geometry.</p>\n<p>11. If one angle of a spherical triangle remains constant while the adjacent sides are increased, shew that the area and the sum of the angles are increased.</p>\n<p>12. If the arcs bisecting two angles of a spherical triangle and terminated at the opposite sides are equal, the bisected angles will be equal provided their sum be less than <span class=\"math inline\">\\(180^\\circ\\)</span>.</p>\n<p>[Let <span class=\"math inline\">\\(BOD\\)</span> and <span class=\"math inline\">\\(COE\\)</span> denote these two arcs which are given equal. If the angles <span class=\"math inline\">\\(B\\)</span> and <span class=\"math inline\">\\(C\\)</span> are not equal suppose <span class=\"math inline\">\\(B\\)</span> the greater. Then <span class=\"math inline\">\\(CD\\)</span> is greater than <span class=\"math inline\">\\(BE\\)</span> by Art. 58. And as the angle <span class=\"math inline\">\\(OBC\\)</span> is greater than the angle <span class=\"math inline\">\\(OCB\\)</span>, therefore <span class=\"math inline\">\\(OC\\)</span> is greater than <span class=\"math inline\">\\(OB\\)</span>; therefore <span class=\"math inline\">\\(OD\\)</span> is greater than <span class=\"math inline\">\\(OE\\)</span>. Hence the angle <span class=\"math inline\">\\(ODC\\)</span> is greater than the angle <span class=\"math inline\">\\(OEB\\)</span>, by Example 11. Then construct a spherical triangle <span class=\"math inline\">\\(BCF\\)</span> on the other side of <span class=\"math inline\">\\(BC\\)</span>, equal to <span class=\"math inline\">\\(CBE\\)</span>. Since the angle <span class=\"math inline\">\\(ODC\\)</span> is greater than the angle <span class=\"math inline\">\\(OEB\\)</span>, the angle <span class=\"math inline\">\\(FDC\\)</span> is greater than the angle <span class=\"math inline\">\\(DFC\\)</span>; therefore <span class=\"math inline\">\\(CD\\)</span> is less than <span class=\"math inline\">\\(CF\\)</span>, so that <span class=\"math inline\">\\(CD\\)</span> is less than <span class=\"math inline\">\\(BE\\)</span>. See the corresponding problem in Plane Geometry in the <em>Appendix to Euclid</em>, page 317.]</p>",
    "name": "Todhunter 1886, On the connexion of Formul\\ae\\ in Plane and Spherical Trigonometry",
    "pages": [
@@ -19534,7 +19534,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -19572,7 +19572,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -19610,7 +19610,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -19649,7 +19649,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -19687,7 +19687,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -19725,7 +19725,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -19763,7 +19763,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -19802,7 +19802,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -19840,7 +19840,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -19879,7 +19879,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -19918,7 +19918,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -19956,7 +19956,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -19992,7 +19992,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20030,7 +20030,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20068,7 +20068,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20106,7 +20106,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20144,7 +20144,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20182,7 +20182,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20220,7 +20220,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20258,7 +20258,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20297,7 +20297,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20335,7 +20335,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20373,7 +20373,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20411,7 +20411,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20449,7 +20449,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20487,7 +20487,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20525,7 +20525,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20563,7 +20563,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20601,7 +20601,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20639,7 +20639,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20677,7 +20677,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20715,7 +20715,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20755,7 +20755,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20793,7 +20793,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20831,7 +20831,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20869,7 +20869,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20907,7 +20907,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20945,7 +20945,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20983,7 +20983,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21021,7 +21021,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21059,7 +21059,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21097,7 +21097,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21135,7 +21135,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21173,7 +21173,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21211,7 +21211,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21249,7 +21249,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21287,7 +21287,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21325,7 +21325,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21363,7 +21363,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21401,7 +21401,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21439,7 +21439,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21478,7 +21478,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21517,7 +21517,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21555,7 +21555,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21593,7 +21593,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21631,7 +21631,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21669,7 +21669,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21708,7 +21708,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21747,7 +21747,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21786,7 +21786,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21825,7 +21825,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21864,7 +21864,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21902,7 +21902,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21940,7 +21940,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21978,7 +21978,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22016,7 +22016,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22054,7 +22054,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22092,7 +22092,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22130,7 +22130,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22168,7 +22168,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22206,7 +22206,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22244,7 +22244,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22284,7 +22284,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22322,7 +22322,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22361,7 +22361,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22400,7 +22400,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22438,7 +22438,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22477,7 +22477,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22515,7 +22515,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22551,7 +22551,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22590,7 +22590,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22629,7 +22629,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22667,7 +22667,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22705,7 +22705,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22743,7 +22743,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22779,7 +22779,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22815,7 +22815,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22853,7 +22853,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22892,7 +22892,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22931,7 +22931,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22970,7 +22970,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23009,7 +23009,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23048,7 +23048,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23087,7 +23087,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23126,7 +23126,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23162,7 +23162,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23198,7 +23198,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23234,7 +23234,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23272,7 +23272,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23311,7 +23311,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23350,7 +23350,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23390,7 +23390,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23429,7 +23429,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23467,7 +23467,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23505,7 +23505,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23543,7 +23543,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23583,7 +23583,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23621,7 +23621,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23660,7 +23660,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23698,7 +23698,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23736,7 +23736,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23775,7 +23775,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23814,7 +23814,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23852,7 +23852,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23891,7 +23891,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23930,7 +23930,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23968,7 +23968,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24006,7 +24006,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24044,7 +24044,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24082,7 +24082,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24120,7 +24120,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24159,7 +24159,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24197,7 +24197,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24236,7 +24236,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24275,7 +24275,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24314,7 +24314,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24353,7 +24353,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24392,7 +24392,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24431,7 +24431,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24470,7 +24470,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24509,7 +24509,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24547,7 +24547,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24586,7 +24586,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24624,7 +24624,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24663,7 +24663,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24702,7 +24702,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24740,7 +24740,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24778,7 +24778,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24817,7 +24817,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24856,7 +24856,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24895,7 +24895,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24938,7 +24938,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "FLAG-EXTRACTION"
     ]
@@ -24981,7 +24981,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "FLAG-EXTRACTION"
     ]
@@ -25024,7 +25024,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "FLAG-EXTRACTION"
     ]
@@ -25067,7 +25067,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "FLAG-EXTRACTION"
     ]
@@ -25110,7 +25110,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "FLAG-EXTRACTION"
     ]
@@ -25153,7 +25153,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "FLAG-EXTRACTION"
     ]
@@ -25196,7 +25196,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "FLAG-EXTRACTION"
     ]
@@ -25239,7 +25239,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "2ecb0cb",
+    "commit": "8fd4487",
     "verdicts": [
      "FLAG-EXTRACTION"
     ]
