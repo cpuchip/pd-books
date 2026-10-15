@@ -936,5 +936,19 @@
   "found_by": "the books seat's reread of the export (#7981); settled against the scan by qwenniverse-fermion",
   "source_line": "13309-t.tex line 6364",
   "date": "2026-10-14"
+ },
+ {
+  "id": "G056",
+  "kind": "transcription",
+  "status": "confirmed against a scan",
+  "page": "142",
+  "location": "Exercise 56, problem 3",
+  "printed": "4x^2+ll = 136-x^2",
+  "corrected": "4x^2+11 = 136-x^2",
+  "class": "transcription (the number 11 typed as two letters l in the 2004 transcription; the book is right)",
+  "evidence": "The Internet Archive scan firstbookinalgeb00boydrich (Silver, Burdett and Company, 1894), printed page 142 (leaf n145), prints problem 3 of Exercise 56 as \"4x^2 + 11 = 136 - x^2\", read from the page image on 2026-10-14 by the books seat and again by qwenniverse-fermion (evidence/scan-1894-p142-exercise-56.jpg). The book's answer, x = ±5, follows from 11: 5x^2 = 125.",
+  "found_by": "the books seat, checking Project Gutenberg's PDF page 113 for errata reports (#8254); confirmed on the scan by qwenniverse-fermion",
+  "source_line": "13309-t.tex line 6382",
+  "date": "2026-10-14"
  }
 ]
