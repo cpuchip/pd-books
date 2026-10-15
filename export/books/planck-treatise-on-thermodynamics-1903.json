@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
  "generated_from": {
-  "claudiverse_commit": "c0d3f89",
-  "generated_at": "2026-10-15T21:38:54Z"
+  "claudiverse_commit": "98b2784",
+  "generated_at": "2026-10-15T22:14:38Z"
  },
  "node_types": [
   "book",
@@ -2755,7 +2755,7 @@
    "page": "69",
    "location": "Applications to Non-Homogeneous Systems",
    "latex": "The pressure has, however, very little influence on the internal energy; in fact, none at all in the case of perfect gases [equation~\\Eq{(35)}].",
-   "markdown": "The pressure has, however, very little influence on the internal energy; in fact, none at all in the case of perfect gases [equation % [eqn:(35)](35)%].",
+   "markdown": "The pressure has, however, very little influence on the internal energy; in fact, none at all in the case of perfect gases [equation (35)].",
    "why": "It tells the learner when pressure can be ignored in an energy calculation and gives the ideal-gas exception.",
    "use": [
     "lesson"
@@ -3261,7 +3261,7 @@
    "page": "87",
    "location": "Proof",
    "latex": "From the impossibility of perpetual motion of the second kind, it follows, in the first place, that the generation of heat by friction is \\emph{irreversible} (\\cf\\ def.~\\SecRef{112}).",
-   "markdown": "From the impossibility of perpetual motion of the second kind, it follows, in the first place, that the generation of heat by friction is *irreversible* (*cf.* def. 112).",
+   "markdown": "From the impossibility of perpetual motion of the second kind, it follows, in the first place, that the generation of heat by friction is *irreversible* (*cf.* def. § 112).",
    "why": "It gives a familiar everyday case, friction, to show what an irreversible process is.",
    "use": [
     "lesson"
@@ -3317,7 +3317,7 @@
    "page": "89",
    "location": "Proof",
    "latex": "It should, however, be emphasized that equation~\\Eq{(53)} is by no means generally true. It holds only in the particular case where the external work performed by the gas is expressed by~$p\\, dV$.",
-   "markdown": "It should, however, be emphasized that equation % [eqn:(53)](53)% is by no means generally true. It holds only in the particular case where the external work performed by the gas is expressed by $p\\, dV$.",
+   "markdown": "It should, however, be emphasized that equation (53) is by no means generally true. It holds only in the particular case where the external work performed by the gas is expressed by $p\\, dV$.",
    "why": "It warns the learner that Q = theta dPhi is not a general law of heat but holds only under a stated condition.",
    "use": [
     "lesson"
@@ -3433,7 +3433,7 @@
    "page": "105",
    "location": "General Deductions",
    "latex": "\\First{Our} first application of the principle of the entropy which was expressed in its most general form in the preceding chapter, will be to Carnot's cycle, described in detail for perfect gases in~\\SecRef{90}.",
-   "markdown": "Our first application of the principle of the entropy which was expressed in its most general form in the preceding chapter, will be to Carnot’s cycle, described in detail for perfect gases in 90.",
+   "markdown": "Our first application of the principle of the entropy which was expressed in its most general form in the preceding chapter, will be to Carnot’s cycle, described in detail for perfect gases in § 90.",
    "why": "It states the chapter's aim: the entropy principle is first applied to Carnot's cycle, now for any substance.",
    "use": [
     "lesson"
@@ -3451,7 +3451,7 @@
    "page": "106",
    "location": "General Deductions",
    "latex": "Observe, however, that the expressions~\\Eq{(64)} for the change of the entropy of the reservoirs are still correct, provided we assume that any changes of volume of the substances used as reservoirs are reversible.",
-   "markdown": "Observe, however, that the expressions % [eqn:(64)](64)% for the change of the entropy of the reservoirs are still correct, provided we assume that any changes of volume of the substances used as reservoirs are reversible.",
+   "markdown": "Observe, however, that the expressions (64) for the change of the entropy of the reservoirs are still correct, provided we assume that any changes of volume of the substances used as reservoirs are reversible.",
    "why": "It warns that the reservoir entropy formulas remain valid for irreversible cycles only under a stated assumption about the reservoirs.",
    "use": [
     "lesson"
@@ -3491,7 +3491,7 @@
    "page": "107",
    "location": "General Deductions",
    "latex": "This means that the amount of work,~$W'$, to be gained by means of a cyclic process from the transference of the heat,~$Q_{1}'$, from a hotter to a colder reservoir, is always smaller for an irreversible process than for a reversible one. Consequently the equation~\\Eq{(66)} represents the maximum amount of work to be gained from any cyclic process between heat-reservoirs at the temperatures $\\theta_{2}$ and~$\\theta_{1}$.",
-   "markdown": "This means that the amount of work, $W'$, to be gained by means of a cyclic process from the transference of the heat, $Q_{1}'$, from a hotter to a colder reservoir, is always smaller for an irreversible process than for a reversible one. Consequently the equation % [eqn:(66)](66)% represents the maximum amount of work to be gained from any cyclic process between heat-reservoirs at the temperatures $\\theta_{2}$ and $\\theta_{1}$.",
+   "markdown": "This means that the amount of work, $W'$, to be gained by means of a cyclic process from the transference of the heat, $Q_{1}'$, from a hotter to a colder reservoir, is always smaller for an irreversible process than for a reversible one. Consequently the equation (66) represents the maximum amount of work to be gained from any cyclic process between heat-reservoirs at the temperatures $\\theta_{2}$ and $\\theta_{1}$.",
    "why": "It states plainly that reversibility sets the ceiling on the work any engine can get from a given heat flow.",
    "use": [
     "lesson",
@@ -3957,7 +3957,7 @@
    "page": "125",
    "location": "Homogeneous Systems",
    "latex": "If, under constant pressure, $v$~were proportional to~$\\theta$, as in Gay-Lussac's law, then, by equation~\\Eq{(86)}, $\\Delta \\theta = 0$, as is really the case for perfect gases.",
-   "markdown": "If, under constant pressure, $v$ were proportional to $\\theta$, as in Gay-Lussac’s law, then, by equation % [eqn:(86)](86)%, $\\Delta \\theta = 0$, as is really the case for perfect gases.",
+   "markdown": "If, under constant pressure, $v$ were proportional to $\\theta$, as in Gay-Lussac’s law, then, by equation (86), $\\Delta \\theta = 0$, as is really the case for perfect gases.",
    "why": "Explains why a perfect gas shows no temperature change in the Joule-Thomson experiment.",
    "use": [
     "lesson"
@@ -3976,7 +3976,7 @@
    "page": "127",
    "location": "Homogeneous Systems",
    "latex": "In \\SecRef{4} we defined temperature by means of the gas thermometer, but had to confine that definition to the cases in which the readings of the different gas thermometers (hydrogen, air, etc.)\\ agree as nearly as the desired accuracy of the result requires.",
-   "markdown": "In 4 we defined temperature by means of the gas thermometer, but had to confine that definition to the cases in which the readings of the different gas thermometers (hydrogen, air, etc.) agree as nearly as the desired accuracy of the result requires.",
+   "markdown": "In § 4 we defined temperature by means of the gas thermometer, but had to confine that definition to the cases in which the readings of the different gas thermometers (hydrogen, air, etc.) agree as nearly as the desired accuracy of the result requires.",
    "why": "Explains why the gas-thermometer definition of temperature is limited and why an absolute scale is needed.",
    "use": [
     "lesson",
@@ -3995,7 +3995,7 @@
    "page": "126",
    "location": "Homogeneous Systems",
    "latex": "Equations \\Eq{(88)}~and \\Eq{(89)}, like Thomson and Joule's formula, are valid only within certain limits. It is, however, of theoretical interest to see how the different relations necessarily follow from one another.",
-   "markdown": "Equations % [eqn:(88)](88)% and % [eqn:(89)](89)%, like Thomson and Joule’s formula, are valid only within certain limits. It is, however, of theoretical interest to see how the different relations necessarily follow from one another.",
+   "markdown": "Equations (88) and (89), like Thomson and Joule’s formula, are valid only within certain limits. It is, however, of theoretical interest to see how the different relations necessarily follow from one another.",
    "why": "Models honest scientific caution: the derived formulas are approximate, yet worth following for how they connect.",
    "use": [
     "lesson",
@@ -4137,7 +4137,7 @@
    "page": "171",
    "location": "System in Different States of Aggregation",
    "latex": "The total mass~$M$, the volume~$V$, and the energy~$U$ of a system being given, its corresponding state of stable equilibrium is determined by the position of the point $v = \\dfrac{V}{M}$, $u = \\dfrac{U}{M}$, in the plane of \\Fig{4}.",
-   "markdown": "The total mass $M$, the volume $V$, and the energy $U$ of a system being given, its corresponding state of stable equilibrium is determined by the position of the point $v = \\dfrac{V}{M}$, $u = \\dfrac{U}{M}$, in the plane of [fig:4]Fig. 4.",
+   "markdown": "The total mass $M$, the volume $V$, and the energy $U$ of a system being given, its corresponding state of stable equilibrium is determined by the position of the point $v = \\dfrac{V}{M}$, $u = \\dfrac{U}{M}$, in the plane of Fig. 4.",
    "why": "It states in one sentence how a learner moves from the given mass, volume and energy to the equilibrium state, which is the central idea of the section.",
    "use": [
     "lesson",
@@ -4335,7 +4335,7 @@
    "page": "136",
    "location": "System in Different States of Aggregation",
    "latex": "The equations~\\Eq{(99)} might therefore be called the system's \\emph{internal} or \\emph{intrinsic} conditions of equilibrium",
-   "markdown": "The equations % [eqn:(99)](99)% might therefore be called the system’s *internal* or *intrinsic* conditions of equilibrium",
+   "markdown": "The equations (99) might therefore be called the system’s *internal* or *intrinsic* conditions of equilibrium",
    "why": "It separates the conditions set by the substance itself from those set by the given mass, volume and energy.",
    "use": [
     "lesson"
@@ -4408,7 +4408,7 @@
    "page": "140",
    "location": "System in Different States of Aggregation",
    "latex": "We learn, therefore, from equation~\\Eq{(102)} that in every isotherm the pressure, under which two states of aggregation of the substance may be kept in lasting contact, is represented by the ordinate of the straight line parallel to the axis of abscissæ, which intercepts equal areas on both sides of the isotherm.",
-   "markdown": "We learn, therefore, from equation % [eqn:(102)](102)% that in every isotherm the pressure, under which two states of aggregation of the substance may be kept in lasting contact, is represented by the ordinate of the straight line parallel to the axis of abscissæ, which intercepts equal areas on both sides of the isotherm.",
+   "markdown": "We learn, therefore, from equation (102) that in every isotherm the pressure, under which two states of aggregation of the substance may be kept in lasting contact, is represented by the ordinate of the straight line parallel to the axis of abscissæ, which intercepts equal areas on both sides of the isotherm.",
    "why": "Gives a geometric picture for the pressure at which liquid and vapour coexist.",
    "use": [
     "lesson",
@@ -4519,7 +4519,7 @@
    "page": "171",
    "location": "System in Different States of Aggregation",
    "latex": "The masses of these three portions may then be determined by the equations~\\Eq{(121a)}. It will be seen that their ratio is that of the three triangles, which the point~$(v, u)$ makes with the three sides of the fundamental triangle.",
-   "markdown": "The masses of these three portions may then be determined by the equations % [eqn:(121a)](121a)%. It will be seen that their ratio is that of the three triangles, which the point $(v, u)$ makes with the three sides of the fundamental triangle.",
+   "markdown": "The masses of these three portions may then be determined by the equations (121a). It will be seen that their ratio is that of the three triangles, which the point $(v, u)$ makes with the three sides of the fundamental triangle.",
    "why": "Gives a geometric picture of how much solid, liquid and gas coexist at the triple point.",
    "use": [
     "lesson"
@@ -4648,7 +4648,7 @@
    "page": "154",
    "location": "System in Different States of Aggregation",
    "latex": "According to equations~\\Eq{(120)}, the fundamental temperature is characterized by the condition that at it the pressure of the saturated vapour is equal to the pressure of fusion. It necessarily follows, by addition of the last two equations, that this pressure is also equal to the pressure of sublimation.",
-   "markdown": "According to equations % [eqn:(120)](120)%, the fundamental temperature is characterized by the condition that at it the pressure of the saturated vapour is equal to the pressure of fusion. It necessarily follows, by addition of the last two equations, that this pressure is also equal to the pressure of sublimation.",
+   "markdown": "According to equations (120), the fundamental temperature is characterized by the condition that at it the pressure of the saturated vapour is equal to the pressure of fusion. It necessarily follows, by addition of the last two equations, that this pressure is also equal to the pressure of sublimation.",
    "why": "Explains what makes the triple point special: all three transition pressures coincide.",
    "use": [
     "lesson"
@@ -4910,7 +4910,7 @@
    "page": "198",
    "location": "System of any Number of Independent Constituents",
    "latex": "Since $\\Delta$~is \\emph{small} for small values of~$c$ (dilute solutions, \\SecRef{97}), then, according to~\\Eq{(178)}, the ratio of the vapour pressure of a dilute solution of fixed concentration to the vapour pressure of the pure solvent is practically independent of the temperature (Babo's law).",
-   "markdown": "Since $\\Delta$ is *small* for small values of $c$ (dilute solutions, 97), then, according to % [eqn:(178)](178)%, the ratio of the vapour pressure of a dilute solution of fixed concentration to the vapour pressure of the pure solvent is practically independent of the temperature (Babo’s law).",
+   "markdown": "Since $\\Delta$ is *small* for small values of $c$ (dilute solutions, § 97), then, according to (178), the ratio of the vapour pressure of a dilute solution of fixed concentration to the vapour pressure of the pure solvent is practically independent of the temperature (Babo’s law).",
    "why": "It links Babo's law to the heat of dilution, so the learner sees why the law holds for dilute solutions.",
    "use": [
     "history",
@@ -4948,7 +4948,7 @@
    "page": "199",
    "location": "System of any Number of Independent Constituents",
    "latex": "Since $\\varphi$~is always positive (\\SecRef{217}), the vapour pressure must decrease with increasing concentration. This proposition furnishes a means of distinguishing between a solution and an emulsion. In an emulsion the number of particles suspended in the solution has no influence on the vapour pressure.",
-   "markdown": "Since $\\varphi$ is always positive (217), the vapour pressure must decrease with increasing concentration. This proposition furnishes a means of distinguishing between a solution and an emulsion. In an emulsion the number of particles suspended in the solution has no influence on the vapour pressure.",
+   "markdown": "Since $\\varphi$ is always positive (§ 217), the vapour pressure must decrease with increasing concentration. This proposition furnishes a means of distinguishing between a solution and an emulsion. In an emulsion the number of particles suspended in the solution has no influence on the vapour pressure.",
    "why": "It turns an abstract sign result into a practical test separating true solutions from suspensions.",
    "use": [
     "lesson",
@@ -4988,7 +4988,7 @@
    "page": "203",
    "location": "System of any Number of Independent Constituents",
    "latex": "It is true that for no solution can perfectly \\emph{semipermeable} membranes of this character be manufactured. In fact, the further development of this theory (\\SecRef{259}) will exclude them as a matter of principle, for in every case the dissolved substance will also diffuse through the membrane, though possibly at an extremely slow rate.",
-   "markdown": "It is true that for no solution can perfectly *semipermeable* membranes of this character be manufactured. In fact, the further development of this theory (259) will exclude them as a matter of principle, for in every case the dissolved substance will also diffuse through the membrane, though possibly at an extremely slow rate.",
+   "markdown": "It is true that for no solution can perfectly *semipermeable* membranes of this character be manufactured. In fact, the further development of this theory (§ 259) will exclude them as a matter of principle, for in every case the dissolved substance will also diffuse through the membrane, though possibly at an extremely slow rate.",
    "why": "It candidly admits that an idealisation used in the argument cannot be realised exactly.",
    "use": [
     "lesson",
@@ -5095,7 +5095,7 @@
    "page": "180",
    "location": "System of any Number of Independent Constituents",
    "latex": "For water it was shown in~\\SecRef{187}, that at the triple point the temperature is $0.0074°$~C., and the pressure $4.62~\\Unit{mm.}$ of mercury.",
-   "markdown": "For water it was shown in 187, that at the triple point the temperature is $0.0074°$ C., and the pressure $4.62~\\Unit{mm.}$ of mercury.",
+   "markdown": "For water it was shown in § 187, that at the triple point the temperature is $0.0074°$ C., and the pressure $4.62~\\Unit{mm.}$ of mercury.",
    "why": "Gives a concrete measured triple point for the phase rule's simplest non-variant case.",
    "use": [
     "lesson",
@@ -5134,7 +5134,7 @@
    "page": "210",
    "location": "Gaseous System",
    "latex": "Experience shows that a gas on both sides of a membrane permeable to it is in equilibrium when its partial pressures (\\SecRef{18}) are the same on both sides, quite independent of the other gases present.",
-   "markdown": "Experience shows that a gas on both sides of a membrane permeable to it is in equilibrium when its partial pressures (18) are the same on both sides, quite independent of the other gases present.",
+   "markdown": "Experience shows that a gas on both sides of a membrane permeable to it is in equilibrium when its partial pressures (§ 18) are the same on both sides, quite independent of the other gases present.",
    "why": "Gives the equilibrium rule for a gas across a membrane, which the later separation argument depends on.",
    "use": [
     "lesson"
@@ -5243,7 +5243,7 @@
    "page": "222",
    "location": "Gaseous System",
    "latex": "There is always present a finite, though perhaps a very small number of all possible kinds of molecules. Thus, in water vapour at any temperature at least a trace of oxygen and hydrogen must be present (see also \\SecRef{259}).",
-   "markdown": "There is always present a finite, though perhaps a very small number of all possible kinds of molecules. Thus, in water vapour at any temperature at least a trace of oxygen and hydrogen must be present (see also 259).",
+   "markdown": "There is always present a finite, though perhaps a very small number of all possible kinds of molecules. Thus, in water vapour at any temperature at least a trace of oxygen and hydrogen must be present (see also § 259).",
    "why": "A surprising consequence of the equilibrium equation: dissociation is never complete and never entirely absent.",
    "use": [
     "lesson",

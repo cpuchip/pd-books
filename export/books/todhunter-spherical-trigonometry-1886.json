@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
  "generated_from": {
-  "claudiverse_commit": "c0d3f89",
-  "generated_at": "2026-10-15T21:38:54Z"
+  "claudiverse_commit": "98b2784",
+  "generated_at": "2026-10-15T22:14:38Z"
  },
  "node_types": [
   "book",
@@ -288,7 +288,7 @@
    "number": "Solution of Right-angled Triangles",
    "title": "Solution of Right-angled Triangles",
    "text_latex": "\\chapter[Solution of Right-angled Triangles.]{SOLUTION OF RIGHT-ANGLED TRIANGLES.}\n\n\\paragraph{61.} In every spherical triangle there are six elements, namely,\nthe three sides and the three angles, besides the radius of the\nsphere, which is supposed constant. The solution of spherical triangles\nis the process by which, when the values of a sufficient\nnumber of the six elements are given, we calculate the values of\nthe remaining elements. It will appear, as we proceed, that when\nthe values of three of the elements are given, those of the remaining\nthree can generally be found. We begin with the right-angled\ntriangle: here two elements, in addition to the right angle, will be\nsupposed known.\n\n\\paragraph{62.} The formul\\ae\\ requisite for the solution of right-angled\ntriangles may be obtained from the preceding Chapter by supposing\none of the angles a right angle, as $C$ for example. They\nmay also be obtained very easily in an independent manner, as\nwe will now shew.\n\\begin{figure}[htp]\n\\centering\n\\includegraphics[width=5.0cm]{images/043fc}\n\\end{figure}\n\nLet $ABC$ be a spherical triangle having a right angle at $C$;\nlet $O$ be the centre of the sphere. From any point $P$ in $OA$ draw\n$PM$ perpendicular to $OC$, and from $M$ draw $MN$ perpendicular to\n$OB$, and join $PN$. Then $PM$ is perpendicular to $MN$, because the\nplane $AOC$ is perpendicular to the plane $BOC$; hence\n\\[\nPN^2=PM^2+MN^2=OP^2-OM^2+OM^2-ON^2=OP^2-ON^2;\n\\]\ntherefore $PNO$ is a right angle. And\n\\begin{flalign*}\n&&&\\left.\\begin{aligned}\n&\\rule{2em}{0pt}\n\\llap{$ \\dfrac{ON}{OP}$}\n\\rlap{ $= \\dfrac{ON}{OM} \\centerdot\\dfrac{OM}{OP}$, }\n\\rule[1em]{7em}{0pt}\n\\rule{6em}{0pt}\n\\llap{ that is, $\\cos c$}\n\\rlap{ $=\\cos a\\cos b$,}\n\\rule[1em]{6em}{0pt}\n\\end{aligned}\n\\right.\n&(1)&\n\\\\[1ex]\n&&&\\left.\\begin{aligned}\n&\\rule{2em}{0pt}\n\\llap{$ \\dfrac{PM}{OP}$}\n\\rlap{ $= \\dfrac{PM}{PN} \\centerdot\\dfrac{PN}{OP}$, }\n\\rule[1em]{7em}{0pt}\n\\rule{6em}{0pt}\n\\llap{ that is, $\\sin b$}\n\\rlap{ $=\\sin B\\sin c$}\n\\rule[1em]{6em}{0pt}\n\\\\\n&\\rule{15em}{0pt}\n\\llap{ Similarly,\\qquad $\\sin a$}\n\\rlap{ $=\\sin A \\sin c$}\n\\rule[1em]{5em}{0pt}\n\\end{aligned}\n\\right\\},\n&(2)&\n\\\\[1ex]\n&&&\\left.\\begin{aligned}\n&\\rule{2em}{0pt}\n\\llap{$ \\dfrac{MN}{ON}$}\n\\rlap{ $= \\dfrac{MN}{PN} \\centerdot\\dfrac{PN}{ON}$, }\n\\rule[1em]{7em}{0pt}\n\\rule{6em}{0pt}\n\\llap{ that is, $\\tan a$}\n\\rlap{ $=\\cos B\\tan c$}\n\\rule[1em]{6em}{0pt}\n\\\\\n&\\rule{15em}{0pt}\n\\llap{ Similarly,\\qquad $\\tan b$}\n\\rlap{ $= \\cos A \\tan c$}\n\\rule[1em]{5em}{0pt}\n\\end{aligned}\n\\right\\},\n&(3)&\n\\\\[1ex]\n&&&\\left.\\begin{aligned}\n&\\rule{2em}{0pt}\n\\llap{$ \\dfrac{PM}{OM}$}\n\\rlap{ $= \\dfrac{PM}{MN} \\centerdot\\dfrac{MN}{OM}$, }\n\\rule[1em]{7em}{0pt}\n\\rule{6em}{0pt}\n\\llap{ that is, $\\tan b$}\n\\rlap{ $=\\tan B\\sin a$}\n\\rule[1em]{6em}{0pt}\n\\\\\n&\\rule{15em}{0pt}\n\\llap{ Similarly,\\qquad $\\tan a$}\n\\rlap{ $= \\tan A\\sin b$}\n\\rule[1em]{5em}{0pt}\n\\end{aligned}\n\\right\\}.\n&(4)&\n\\end{flalign*}\n\nMultiply together the two formul\\ae\\ (4); thus,\n\\[\n  \\tan A \\tan B =\n\\dfrac{\\tan a \\tan b}{\\sin a \\sin b} =\n\\frac{1}{\\cos a \\cos b} =\n\\frac{1}{\\cos c}\\text{ by (1);}\n\\]\ntherefore \\hfill$ \\cos c = \\cot A \\cot B$.\\hfill(5)\n\\\\\nMultiply crosswise the second formula in (2) and the first\nin (3); thus \\linebreak[4]$\\sin a \\cos B \\tan c = \\tan a \\sin A \\sin c$;\n\\begin{flalign*}\n&\\phantom{therefore}&&&\\phantom{therefore}&\\\\[-\\baselineskip]\n&\\rlap{therefore}&\\multispan{2}{\\hfil$\\displaystyle\n\\cos B = \\dfrac{\\sin A \\cos c}{\\cos a} =\n\\sin A \\cos b$ by (1).\\hfil}\\\\[1ex]\n&\\begin{aligned}\n&\\text{Thus}\\\\\n&\\text{Similarly}\n\\end{aligned}&\\multispan2{\\hfil$\\displaystyle\n\\left.\\begin{aligned}\n\\cos B &= \\sin A \\cos b \\\\\n\\cos A &= \\sin B \\cos a\n\\end{aligned}\\right\\}$.\\hfil}&\\text{(6)}\n\\end{flalign*}\n\nThese six formul\\ae\\ comprise ten equations; and thus we can\nsolve every case of right-angled triangles. For every one of these\nten equations is a distinct combination involving three out of the\nfive quantities $a$, $b$, $c$, $A$, $B$; and out of five quantities only ten\ncombinations of three can be formed. Thus any two of the five\nquantities being given and a third required, some one of the preceding\nten equations will serve to determine that third quantity.\n\n\\paragraph{63.} As we have stated, the above six formul\\ae\\ may be obtained\nfrom those given in the preceding Chapter by supposing $C$ a\nright angle. Thus (1) follows from Art.~39, (2) from Art.~41,\n(3) from the fourth and fifth equations of Art.~44, (4) from the\nfirst and second equations of Art.~44, (5) from the third equation\nof Art.~47, (6) from the first and second equations of Art.~47.\n\nSince the six formul\\ae\\ may be obtained from those given in\nthe preceding Chapter which have been proved to be universally\ntrue, we do not stop to shew that the demonstration of Art.~62\nmay be applied to every case which can occur; the student may\nfor exercise investigate the modifications which will be necessary\nwhen we suppose one or more of the quantities $a$, $b$, $c$, $A$, $B$ equal\nto a right angle or greater than a right angle.\n\n\\paragraph{64.} Certain properties of right-angled triangles are deducible\nfrom the formul\\ae\\ of Art.~62.\n\nFrom (1) it follows that $\\cos c$ has the same sign as the product\n$\\cos a\\cos b$; hence either all the cosines are positive, or else only\none is positive. Therefore \\textit{in a right-angled triangle either all the\nthree sides are less than quadrants, or else one side is less than a\nquadrant and the other two sides are greater than quadrants.}\n\nFrom (4) it follows that $\\tan a$ has the same sign as $\\tan A$.\nTherefore $A$ and $a$ are either both greater than $\\dfrac{\\pi}{2}$, or both less\nthan $\\dfrac{\\pi}{2}$; this is expressed by saying that $A$ and $a$ are of the \\textit{same\naffection}. Similarly $B$ and $b$ are of the same affection.\n\n\\paragraph{65.} The formul\\ae\\ of Art.~62 are comprised in the following\nenunciations, which the student will find it useful to remember;\nthe results are distinguished by the same numbers as have been\nalready applied to them in Art.~62; the side opposite the right\nangle is called the \\textit{hypotenuse:}\n\\begin{center}\n\\begin{tabular}{r@{\\ }l@{}l}\n  Cos hyp &= product of cosines of sides \\dotfill&(1),\\\\[1ex]\n  Cos hyp &= product of cotangents of angles \\dotfill&(5),\\\\[1ex]\n  Sine side &= sine of opposite angle $\\times$ sine hyp \\dotfill&(2),\\\\[1ex]\n  Tan side &= tan hyp $\\times$ cos included angle \\dotfill&(3),\\\\[1ex]\n  Tan side &= tan opposite angle $\\times$ sine of other side \\ldots\\dotfill&(4),\\\\[1ex]\n  Cos angle &= cos opposite side $\\times$ sine of other angle \\dotfill&(6).\n\\end{tabular}\n\\end{center}\n\n\\paragraph{66.} \\textit{Napier's Rules}. The formul\\ae\\ of Art.~62 are comprised\nin two rules, which are called, from their inventor, \\textit{Napier's Rules\nof Circular Parts}. Napier was also the inventor of Logarithms,\nand the Rules of Circular Parts were first published by him in a\nwork entitled \\textit{Mirifici Logarithmorum Canonis Descriptio}\\dots\\dots\nEdinburgh, 1614. These rules we will now explain.\n\nThe right angle is left out of consideration; the two sides\nwhich include the right angle, the complement of the hypotenuse,\nand the complements of the other angles are called the \\textit{circular\n\\begin{figure}[htp]\n\\centering\n\\includegraphics[width=5.0cm]{images/046fc}\n\\end{figure}\nparts} of the triangle. Thus there are \\textit{five} circular parts, namely,\n$a$, $b$, $\\dfrac{\\pi}{2}-A$, $\\dfrac{\\pi}{2}-c$, $\\dfrac{\\pi}{2}-B$; and these are supposed to be ranged\nround a circle in the order in which they naturally occur with\nrespect to the triangle.\n\nAny one of the five parts may be selected and called the\n\\textit{middle part}, then the two parts next to it are called \\textit{adjacent\nparts}, and the remaining two parts are called \\textit{opposite parts}. For\nexample, if $\\dfrac{\\pi}{2}-B$ is selected as the middle part, then the adjacent\nparts are $a$ and $\\dfrac{\\pi}{2}-c$, and the opposite parts are $b$ and $\\dfrac{\\pi}{2}-A$.\n\nThen Napier's Rules are the following:\\\\\nsine of the middle part $=$ product of tangents of adjacent parts, \\\\\nsine of the middle part $=$ product of cosines of opposite parts.\n\n\\paragraph{67.} Napier's Rules may be demonstrated by shewing that\nthey agree with the results already established. The following\ntable shews the required agreement: in the first column are given\nthe \\textit{middle parts}, in the second column the results of Napier's\nRules, and in the third column the same results expressed as in\nArt.~62, with the number for reference used in that Article.\n\n\\[\n\\begin{array}{@{}r@{\\ } r@{\\;}l@{ } r@{\\;}l@{.}r}\n   \\dfrac{\\pi}{2}-c\n&  \\sin\\left(\\dfrac{\\pi}{2}-c\\right)\n&= \\tan\\left(\\dfrac{\\pi}{2}-A\\right)\n   \\tan\\left(\\dfrac{\\pi}{2}-B\\right)\n& \\cos c &= \\cot A \\cot B \\dotfill & (5),\n\\\\[3ex]\n&  \\sin\\left(\\dfrac{\\pi}{2}-c\\right)\n&= \\cos a \\cos b\n&  \\cos c &= \\cos a \\cos b \\dotfill & (1),\n\\\\[3ex]\n   \\dfrac{\\pi}{2}-B\n&         \\sin\\left(\\dfrac{\\pi}{2}-B\\right)\n&= \\tan a \\tan\\left(\\dfrac{\\pi}{2}-c\\right)\n&  \\cos B &= \\tan a \\cot c \\dotfill & (3),\n\\\\[3ex]\n&         \\sin\\left(\\dfrac{\\pi}{2}-B\\right)\n&= \\cos b \\cos\\left(\\dfrac{\\pi}{2}-A\\right)\n& \\cos B &= \\cos b \\sin A \\dotfill & (6),\n\\\\[3ex]\na& \\sin a\n&= \\tan b \\tan \\left(\\dfrac{\\pi}{2}-B\\right)\n&  \\sin a &= \\tan b \\cot B \\ldots\\dotfill & (4),\n\\\\[3ex]\n&  \\sin a\n&= \\cos\\left(\\dfrac{\\pi}{2}-A\\right)\n   \\cos\\left(\\dfrac{\\pi}{2}-c\\right)\n&  \\sin a &= \\sin A \\sin c \\dotfill & (2),\n\\\\[3ex]\nb& \\sin b\n&= \\tan\\left(\\dfrac{\\pi}{2}-A\\right) \\tan a\n&  \\sin b &= \\cot A\\tan a \\dotfill & (4),\n\\\\[3ex]\n&  \\sin b\n&= \\cos\\left(\\dfrac{\\pi}{2}-B\\right)\n   \\cos\\left(\\dfrac{\\pi}{2}-c\\right)\n&  \\sin b &=\\sin B \\sin c \\dotfill & (2),\n\\\\[3ex]\n   \\dfrac{\\pi}{2}-A\n&        \\sin\\left(\\dfrac{\\pi}{2}-A\\right)\n&= \\tan b \\tan\\left(\\dfrac{\\pi}{2}-c\\right)\n& \\cos A &= \\tan b\\cot c \\dotfill & (3),\n\\\\[3ex]\n&        \\sin\\left(\\dfrac{\\pi}{2}-A\\right)\n&= \\cos a \\cos\\left(\\dfrac{\\pi}{2}-B\\right)\n& \\cos A &= \\cos a \\sin B \\dotfill & (6).\n\\end{array}\n\\]\n\nThe last four cases need not have been given, since it is obvious\nthat they are only repetitions of what had previously been given;\nthe seventh and eighth are repetitions of the fifth and sixth, and\nthe ninth and tenth are repetitions of the third and fourth.\n\n\\paragraph{68.} It has been sometimes stated that the method of the\npreceding Article is the only one by which Napier's Rules can be\ndemonstrated; this statement, however, is inaccurate, since besides\nthis method Napier himself indicated another method of proof in\nhis \\textit{Mirifici Logarithmorum Canonis Descriptio}, pp.\\ 32, 35. This\nwe will now briefly explain.\n\\begin{figure}[htp]\n\\centering\n\\includegraphics[width=5.0cm]{images/048fc}\n\\end{figure}\n\nLet $ABC$ be a spherical triangle right-angled at $C$; with $B$\nas pole describe a great circle $DEFG$, and with $A$ as pole describe\na great circle $HFKL$, and produce the sides of the original triangle\n$ABC$ to meet these great circles. Then since $B$ is a pole of $DEFG$\nthe angles at $D$ and $G$ are right angles, and since $A$ is a pole of\n$HFKL$ the angles at $H$ and $L$ are right angles. Hence the five\ntriangles $BAC$, $AED$, $EFH$, $FKG$, $KBL$ are all \\textit{right-angled}; and\nmoreover it will be found on examination that, although the elements\nof these triangles are different, yet \\textit{their circular parts are\nthe same}. We will consider, for example, the triangle $AED$; the\nangle $EAD$ is equal to the angle $BAC$, the side $AD$ is the complement\nof $AB$; as the angles at $C$ and $G$ are right angles $E$ is a\npole of $GC$ (Art.~13), therefore $EA$ is the complement of $AC$; as\n$B$ is a pole of $DE$ the angle $BED$ is a right angle, therefore the\nangle $AED$ is the complement of the angle $BEC$, that is, the\nangle $AED$ is the complement of the side $BC$ (Art.~12); and similarly\nthe side $DE$ is equal to the angle $DBE$, and is therefore the\ncomplement of the angle $ABC$. Hence, if we denote the elements\nof the triangle $ABC$ as usual by $a$, $b$, $c$, $A$, $B$, we have in the\ntriangle $AED$ the hypotenuse equal to $\\dfrac{\\pi}{2} - b$, the angles equal to\n$A$ and $\\dfrac{\\pi}{2} - a$, and the sides respectively opposite these angles equal\nto $\\dfrac{\\pi}{2} - B$ and $\\dfrac{\\pi}{2} - c$. The \\textit{circular parts} of $AED$ are therefore the\nsame as those of $ABC$. Similarly the remaining three of the five\nright-angled triangles may be shewn to have the same circular\nparts as the triangle $ABC$ has.\n\nNow take \\textit{two} of the theorems in Art.~65, for example (1) and\n(3); then the truth of the \\textit{ten} cases comprised in Napier's Rules\nwill be found to follow from applying the two theorems in succession\nto the five triangles formed in the preceding figure. Thus\nthis method of considering Napier's Rules regards each Rule, not\nas the statement of dissimilar properties of one triangle, but as the\nstatement of similar properties of five allied triangles.\n\n\\paragraph{69.} In Napier's work a figure is given of which that in the\npreceding Article is a copy, except that different letters are used;\nNapier briefly intimates that the truth of the Rules can be easily\nseen by means of this figure, as well as by the method of induction\nfrom consideration of all the cases which can occur. The late\nT.~S. Davies, in his edition of Dr Hutton's \\textit{Course of Mathematics},\ndrew attention to Napier's own views and expanded the demonstration\nby a systematic examination of the figure of the preceding\nArticle.\n\nIt is however easy to evade the necessity of examining the\nwhole figure; all that is wanted is to observe the connexion\nbetween the triangle $AED$ and the triangle $BAC$. For let $a_1$, $a_2$,\n$a_3$, $a_4$, $a_5$ represent the elements of the triangle $BAC$ taken in\norder, beginning with the hypotenuse and omitting the right\nangle; then the elements of the triangle $AED$ taken in order,\nbeginning with the hypotenuse and omitting the right angle, are\n$\\dfrac{\\pi}{2} - a_3$, $\\dfrac{\\pi}{2} - a_4$, $\\dfrac{\\pi}{2} - a_5$,\n$\\dfrac{\\pi}{2} - a_1$, and $a_2$. If, therefore, to characterise\nthe former we introduce a new set of quantities $p_1$, $p_2$, $p_3$, $p_4$, $p_5$,\nsuch that $a_1 + p_1 = a_2 + p_2 = a_5 + p_5 = \\dfrac{\\pi}{2}$, and that $p_3 = a_3$ and $p_4 = a_4$,\nthen the original triangle being characterised by $p_1$, $p_2$, $p_3$, $p_4$, $p_5$,\nthe second triangle will be similarly characterised by $p_3$, $p_4$, $p_5$,\n$p_1$, $p_2$. As the second triangle can give rise to a third in like\nmanner, and so on, we see that every right-angled triangle is one\nof a system of five such triangles which are all characterised by\nthe quantities $p_1$, $p_2$, $p_3$, $p_4$, $p_5$, always taken in order, each\nquantity in its turn standing first.\n\nThe late R.~L.\\ Ellis pointed out this connexion between the\nfive triangles, and thus gave the true significance of Napier's\nRules. The memoir containing Mr Ellis's investigations, which\nwas unpublished when the first edition of the present work appeared,\nwill be found in pages 328\\ldots335 of \\textit{The Mathematical and\nother writings of Robert Leslie Ellis}\\dots Cambridge, 1863.\n\nNapier's own method of considering his Rules was neglected\nby writers on the subject until the late T.~S.\\ Davies drew attention\nto it. Hence, as we have already remarked in Art.\\ 68, an\nerroneous statement was made respecting the Rules. For instance,\nWoodhouse says, in his \\textit{Trigonometry}: ``There is no separate\nand independent proof of these rules;\\ldots.'' Airy says, in the\ntreatise on Trigonometry in the \\textit{Encyclop\\ae dia Metropolitana}:\n``These rules are proved to be true only by showing that they comprehend\nall the equations which we have just found.''\n\n\\paragraph{70.} Opinions have differed with respect to the \\textit{utility} of\nNapier's Rules in practice. Thus Woodhouse says, ``In the whole\ncompass of mathematical science there cannot be found, perhaps,\nrules which more completely attain that which is the proper\nobject of rules, namely, facility and brevity of computation.''\n(\\textit{Trigonometry}, chap.\\ \\textsc{x}.) On the other hand may be set the following\nsentence from Airy's Trigonometry (\\textit{Encyclop\\ae dia Metropolitana}):\n``In the opinion of Delambre (and no one was better\nqualified by experience to give an opinion) these theorems are best\nrecollected by the practical calculator in their unconnected form.''\nSee Delambre's \\textit{Astronomie}, vol.~\\textsc{i}.\\ p.~205. Professor De Morgan\nstrongly objects to Napier's Rules, and says (\\textit{Spherical Trigonometry},\nArt.~17): ``There are certain mnemonical formul\\ae\\ called\n\\textit{Napier's Rules of Circular Parts}, which are generally explained.\nWe do not give them, because we are convinced that they only\ncreate confusion instead of assisting the memory.''\n\n\\paragraph{71.} We shall now proceed to apply the formul\\ae\\ of Art.\\ 62\nto the solution of right-angled triangles. We shall assume that\nthe given quantities are subject to the limitations which are stated\nin Arts.\\ 22 and 23, that is, a given side must be less than the\nsemicircumference of a great circle, and a given angle less than\ntwo right angles. There will be six cases to consider.\n\n\\paragraph{72.} \\textit{Having given the hypotenuse $\\mathrm{c}$ and an angle $\\mathrm{A}$.}\n\nHere we have from (3), (5) and (2) of Art.\\ 62,\n\\[\n\\tan b = \\tan c \\cos A,\\quad \\cot B = \\cos c \\tan A,\\quad \\sin a = \\sin c \\sin A.\n\\]\n\nThus $b$ and $B$ are determined immediately without ambiguity;\nand as $a$ must be of the same affection as $A$ (Art.\\ 64), $a$ also is\ndetermined without ambiguity.\n\nIt is obvious from the formul\\ae\\ of solution, that in this case\nthe triangle is always possible.\n\nIf $c$ and $A$ are both right angles, $a$ is a right angle, and $b$ and\n$B$ are indeterminate.\n\n\\paragraph{73.} \\textit{Having given a side $\\mathrm{b}$ and the adjacent angle $\\mathrm{A}$.}\n\nHere we have from (3), (4) and (6) of Art.\\ 62,\n\\[\n\\tan c=\\dfrac{\\tan b}{\\cos A},\\quad \\tan a = \\tan A \\sin b,\\quad \\cos B = \\cos b \\sin A.\n\\]\n\nHere $c$, $a$, $B$ are determined without ambiguity, and the triangle\nis always possible.\n\n\\paragraph{74.} \\textit{Having given the two sides $\\mathrm{a}$ and $\\mathrm{b}$.}\n\nHere we have from (1) and (4) of Art.\\ 62,\n\\[\n\\cos c = \\cos a \\cos b,\\quad \\cot A = \\cot a \\sin b,\\quad \\cot B = \\cot b \\sin a.\n\\]\n\nHere $c$, $A$, $B$ are determined without ambiguity, and the triangle\nis always possible.\n\n\\paragraph{75.} \\textit{Having given the hypotenuse $\\mathrm{c}$ and a side $\\mathrm{a}$.}\n\nHere we have from (1), (3) and (2) of Art.\\ 62,\n\\[\n\\cos b=\\dfrac{\\cos c}{\\cos a},\\quad \\cos B=\\dfrac{\\tan a}{\\tan c},\\quad \\sin A=\\dfrac{\\sin a}{\\sin c}.\n\\]\n\nHere $b$, $B$, $A$ are determined without ambiguity, since $A$ must\nbe of the same affection as $a$. It will be seen from these formul\\ae\\\nthat there are limitations of the data in order to insure a possible\ntriangle; in fact, $c$ must lie between $a$ and $\\pi - a$ in order that the\nvalues found for $\\cos b$, $\\cos B$, and $\\sin A$ may be numerically not\ngreater than unity.\n\nIf $c$ and $a$ are right angles, $A$ is a right angle, and $b$ and $B$ are\nindeterminate.\n\n\\paragraph{76.} \\textit{Having given the two angles $\\mathrm{A}$ and $\\mathrm{B}$.}\n\nHere we have from (5) and (6) of Art.\\ 62,\n\\[\n\\cos c = \\cot A \\cot B, \\qquad\n\\cos a = \\frac{\\cos A}{\\sin B}, \\qquad\n\\cos b = \\frac{\\cos B}{\\sin A}.\n\\]\n\nHere $c$, $a$, $b$ are determined without ambiguity. There are\nlimitations of the data in order to insure a possible triangle. First\nsuppose $A$ less than $\\dfrac{\\pi}{2}$, then $B$ must lie between $\\dfrac{\\pi}{2} - A$ and $\\dfrac{\\pi}{2} + A$;\nnext suppose $A$ greater than $\\dfrac{\\pi}{2}$, then $B$ must lie between\n$\\dfrac{\\pi}{2} - (\\pi - A)$ and\n$\\dfrac{\\pi}{2} + (\\pi - A)$, that is, between\n$A - \\dfrac{\\pi}{2}$ and $\\dfrac{3\\pi}{2} - A$.\n\n\\paragraph{77.} \\textit{Having given a side $\\mathrm a$ and the opposite angle $\\mathrm A$.}\n\nHere we have from (2), (4) and (6) of Art.\\ 62,\n\\[\n\\sin c = \\dfrac{\\sin a}{\\sin A}, \\qquad\n\\sin b = \\tan a\\, \\cot A, \\qquad\n\\sin B = \\dfrac{\\cos A}{\\cos a}.\n\\]\n\nHere there is an ambiguity, as the parts are determined from\ntheir sines. If $\\sin a$ be less than $\\sin A$, there are two values\nadmissible for $c$; corresponding to each of these there will be\n\\textit{in general} only one admissible value of $b$, since we must have\n$\\cos c = \\cos a\\, \\cos b$, and only one admissible value of $B$, since we\nmust have $\\cos c = \\cot A \\cot B$. Thus if one triangle exists with the\ngiven parts, there will be \\textit{in general} two, and only two, triangles\nwith the given parts. We say \\textit{in general} in the preceding sentences,\nbecause if $a = A$ there will be only \\textit{one} triangle, unless $a$\nand $A$ are each right angles, and then $b$ and $B$ become indeterminate.\n\nIt is easy to see from a figure that the ambiguity must occur\nin general.\n\\begin{figure}[htp]\n\\centering\n\\includegraphics[width=5.0cm]{images/053fc}\n\\end{figure}\n\nFor, suppose $BAC$ to be a triangle which satisfies the given\nconditions; produce $AB$ and $AC$ to meet again at $A'$; then the\ntriangle $A'BC$ also satisfies the given conditions, for it has a right\nangle at $C$, $BC$ the given side, and $A' = A$ the given angle.\n\nIf $a = A$, then the formul\\ae\\ of solution shew that $c$, $b$, and $B$\nare right angles; in this case $A$ is the pole of $BC$, and the triangle\n$A'BC$ is symmetrically equal to the triangle $ABC$ (Art.\\ 57).\n\nIf $a$ and $A$ are both right angles, $B$ is the pole of $AC$; $B$ and $b$\nare then equal, but may have any value whatever.\n\nThere are limitations of the data in order to insure a possible\ntriangle. $A$ and $a$ must have the same affection by Art.\\ 64; hence\nthe formul\\ae\\ of solution shew that $a$ must be less than $A$ if both\nare acute, and greater than $A$ if both are obtuse.\n\n\\section*{\\centering\\normalsize EXAMPLES.}\n\nIf $ABC$ be a triangle in which the angle $C$ is a right angle,\nprove the following relations contained in Examples 1 to 5.\n\\medskip\n\n1. $\\operatorname{Sin}^2\\dfrac{c}{2} =\n                      \\sin^2 \\dfrac{a}{2}\\, \\cos^2 \\dfrac{b}{2} +\n                      \\cos^2 \\dfrac{a}{2}\\, \\sin^2 \\dfrac{b}{2}$.\n\\medskip\n\n2. $\\operatorname{Tan}\\tfrac{1}{2}(c + a)\\,\n                      \\tan \\tfrac{1}{2}(c - a) =\n                      \\tan^2 \\dfrac{b}{2}$.\n\\medskip\n\n3. $\\operatorname{Sin}(c - b) = \\tan^2 \\dfrac{A}{2}\\,\\sin(c + b)$.\n\\medskip\n\n4. $\\operatorname{Sin} a\\, \\tan \\tfrac{1}{2}A\n                     - \\sin b\\, \\tan \\tfrac{1}{2}B = \\sin (a - b)$.\n\n\\begin{flalign*}\n\\rlap{\\indent 5.} && \\operatorname{Sin} (c - a)\n&= \\sin b\\, \\cos a\\, \\tan \\tfrac{1}{2}B, &&\\\\\n&& \\operatorname{Sin} (c - a)\n&= \\tan b\\, \\cos c\\, \\tan \\tfrac{1}{2}B. &&\n\\end{flalign*}\n\n6. If $ABC$ be a spherical triangle, right-angled at $C$, and\n$\\cos A = \\cos^2 a$, shew that if $A$ be not a right angle $b + c = \\tfrac{1}{2}\\pi$ or\n$\\dfrac{3}{2}\\pi$, according as $b$ and $c$ are both less or both greater than $\\dfrac{\\pi}{2}$.\n\\medskip\n\n7. If $\\alpha$, $\\beta$ be the arcs drawn from the right angle respectively\nperpendicular to and bisecting the hypotenuse $c$, shew that\n\\[\n\\sin^2 \\dfrac{c}{2}\\,(1 + \\sin^2\\alpha) = \\sin^2\\beta.\n\\]\n\n8. In a triangle, if $C$ be a right angle and $D$ the middle point\nof $AB$, shew that\n\\[\n4\\cos^2\\dfrac{c}{2}\\, \\sin^2 CD = \\sin^2 a + \\sin^2 b.\n\\]\n\n9. In a right-angled triangle, if $\\delta$ be the length of the arc\ndrawn from $C$ perpendicular to the hypotenuse $AB$, shew that\n\\[\n\\cot\\delta = \\surd{(\\cot^2a + \\cot^2b)}.\n\\]\n\n10. $OAA_1$ is a spherical triangle right-angled at $A_1$ and acute-angled\nat $A$; the arc $A_1A_2$ of a great circle is drawn perpendicular\nto $OA$, then $A_2A_3$ is drawn perpendicular to $OA_1$, and so on: shew\nthat $A_nA_{n+1}$ vanishes when $n$ becomes infinite; and find the value\nof $\\cos AA_1 \\cos A_1A_2 \\cos A_2A_3\\ldots\\ldots$ to infinity.\n\\medskip\n\n11. $ABC$ is a right-angled spherical triangle, $A$ not being the\nright angle: shew that if $A = a$, then $c$ and $b$ are quadrants.\n\\medskip\n\n12. If $\\delta$ be the length of the arc drawn from $C$ perpendicular\nto $AB$ in \\textit{any} triangle, shew that\n\\[\n\\cos\\delta = \\operatorname{cosec} c\\, (\\cos^2 a + \\cos^2 b - 2 \\cos a\\, \\cos b\\, \\cos c)^{\\tfrac{1}{2}}.\n\\]\n\n13. $ABC$ is a great circle of a sphere; $AA'$, $BB'$, $CC'$, are arcs\nof great circles drawn at right angles to $ABC$ and reckoned positive\nwhen they lie on the same side of it: shew that the condition\nof $A'$, $B'$, $C'$ lying in a great circle is\n\\[\n\\tan AA'\\, \\sin BC + \\tan BB'\\, \\sin CA + \\tan CC'\\, \\sin AB = 0.\n\\]\n\n14. Perpendiculars are drawn from the angles $A$, $B$, $C$ of any\ntriangle meeting the opposite sides at $D$, $E$, $F$ respectively: shew\nthat\n\\[\n\\tan BD\\, \\tan CE\\, \\tan AF = \\tan DC\\, \\tan EA\\, \\tan FB.\n\\]\n\n15. $Ox$, $Oy$ are two great circles of a sphere at right angles to\neach other, $P$ is any point in $AB$ another great circle. $OC = p$ is\nthe arc perpendicular to $AB$ from $O$, making the angle $COx = a$\nwith $Ox$. $PM$, $PN$ are arcs perpendicular to $Ox$, $Oy$ respectively:\nshew that if $OM = x$ and $ON = y$,\n\\[\n\\cos a\\, \\tan x + \\sin a\\, \\tan y = \\tan p.\n\\]\n\n16. The position of a point on a sphere, with reference to two\ngreat circles at right angles to each other as axes, is determined\nby the portions $\\theta$, $\\phi$ of these circles cut off by great circles through\nthe point, and through two points on the axes, each $\\dfrac{\\pi}{2}$ from their\npoint of intersection: shew that if the three points ($\\theta$, $\\phi$), ($\\theta'$, $\\phi'$),\n($\\theta''$, $\\phi''$) lie on the same great circle\n\\begin{gather*}\n  \\tan \\phi\\, (\\tan \\theta' - \\tan \\theta'')\n+ \\tan \\phi'\\, (\\tan \\theta'' - \\tan \\theta)\\\\\n+ \\tan \\phi''\\, (\\tan \\theta - \\tan \\theta') = 0.\n\\end{gather*}\n\n17. If a point on a sphere be referred to two great circles at\nright angles to each other as axes, by means of the portions of\nthese axes cut off by great circles drawn through the point and\ntwo points on the axes each $90^\\circ$ from their intersection, shew that\nthe equation to a great circle is\n\\[\n\\tan \\theta\\, \\cot \\alpha + \\tan \\phi\\, \\cot \\beta = 1.\n\\]\n\n18. In a spherical triangle, if $A = \\dfrac{\\pi}{5}$, $B = \\dfrac{\\pi}{3}$, and, $C = \\dfrac{\\pi}{2}$, shew that\\, $a + b + c = \\dfrac{\\pi}{2}$.",
-   "text_markdown": "[Solution of Right-angled Triangles.]SOLUTION OF RIGHT-ANGLED TRIANGLES.\n\n61. In every spherical triangle there are six elements, namely, the three sides and the three angles, besides the radius of the sphere, which is supposed constant. The solution of spherical triangles is the process by which, when the values of a sufficient number of the six elements are given, we calculate the values of the remaining elements. It will appear, as we proceed, that when the values of three of the elements are given, those of the remaining three can generally be found. We begin with the right-angled triangle: here two elements, in addition to the right angle, will be supposed known.\n\n62. The formulæ requisite for the solution of right-angled triangles may be obtained from the preceding Chapter by supposing one of the angles a right angle, as $C$ for example. They may also be obtained very easily in an independent manner, as we will now shew.\n\n[htp] [width=5.0cm]images/043fc\n\nLet $ABC$ be a spherical triangle having a right angle at $C$; let $O$ be the centre of the sphere. From any point $P$ in $OA$ draw $PM$ perpendicular to $OC$, and from $M$ draw $MN$ perpendicular to $OB$, and join $PN$. Then $PM$ is perpendicular to $MN$, because the plane $AOC$ is perpendicular to the plane $BOC$; hence $$PN^2=PM^2+MN^2=OP^2-OM^2+OM^2-ON^2=OP^2-ON^2;$$ therefore $PNO$ is a right angle. And $$\\begin{aligned}&&&\\left.\\begin{aligned} &\\rule{2em}{0pt} \\llap{$ \\dfrac{ON}{OP}$} \\rlap{ $= \\dfrac{ON}{OM} \\centerdot\\dfrac{OM}{OP}$, } \\rule[1em]{7em}{0pt} \\rule{6em}{0pt} \\llap{ that is, $\\cos c$} \\rlap{ $=\\cos a\\cos b$,} \\rule[1em]{6em}{0pt} \\end{aligned} \\right. &(1)& \\\\[1ex] &&&\\left.\\begin{aligned} &\\rule{2em}{0pt} \\llap{$ \\dfrac{PM}{OP}$} \\rlap{ $= \\dfrac{PM}{PN} \\centerdot\\dfrac{PN}{OP}$, } \\rule[1em]{7em}{0pt} \\rule{6em}{0pt} \\llap{ that is, $\\sin b$} \\rlap{ $=\\sin B\\sin c$} \\rule[1em]{6em}{0pt} \\\\ &\\rule{15em}{0pt} \\llap{ Similarly,\\qquad $\\sin a$} \\rlap{ $=\\sin A \\sin c$} \\rule[1em]{5em}{0pt} \\end{aligned} \\right\\}, &(2)& \\\\[1ex] &&&\\left.\\begin{aligned} &\\rule{2em}{0pt} \\llap{$ \\dfrac{MN}{ON}$} \\rlap{ $= \\dfrac{MN}{PN} \\centerdot\\dfrac{PN}{ON}$, } \\rule[1em]{7em}{0pt} \\rule{6em}{0pt} \\llap{ that is, $\\tan a$} \\rlap{ $=\\cos B\\tan c$} \\rule[1em]{6em}{0pt} \\\\ &\\rule{15em}{0pt} \\llap{ Similarly,\\qquad $\\tan b$} \\rlap{ $= \\cos A \\tan c$} \\rule[1em]{5em}{0pt} \\end{aligned} \\right\\}, &(3)& \\\\[1ex] &&&\\left.\\begin{aligned} &\\rule{2em}{0pt} \\llap{$ \\dfrac{PM}{OM}$} \\rlap{ $= \\dfrac{PM}{MN} \\centerdot\\dfrac{MN}{OM}$, } \\rule[1em]{7em}{0pt} \\rule{6em}{0pt} \\llap{ that is, $\\tan b$} \\rlap{ $=\\tan B\\sin a$} \\rule[1em]{6em}{0pt} \\\\ &\\rule{15em}{0pt} \\llap{ Similarly,\\qquad $\\tan a$} \\rlap{ $= \\tan A\\sin b$} \\rule[1em]{5em}{0pt} \\end{aligned} \\right\\}. &(4)&\\end{aligned}$$\n\nMultiply together the two formulæ (4); thus, $$\\tan A \\tan B = \\dfrac{\\tan a \\tan b}{\\sin a \\sin b} = \\frac{1}{\\cos a \\cos b} = \\frac{1}{\\cos c}\\text{ by (1);}$$ therefore $ \\cos c = \\cot A \\cot B$.(5) Multiply crosswise the second formula in (2) and the first in (3); thus [4]$\\sin a \\cos B \\tan c = \\tan a \\sin A \\sin c$; $$\\begin{aligned}&\\phantom{therefore}&&&\\phantom{therefore}&\\\\[-\\baselineskip] &\\rlap{therefore}&\\multispan{2}{\\hfil$\\displaystyle \\cos B = \\dfrac{\\sin A \\cos c}{\\cos a} = \\sin A \\cos b$ by (1).\\hfil}\\\\[1ex] &\\begin{aligned} &\\text{Thus}\\\\ &\\text{Similarly} \\end{aligned}&\\multispan2{\\hfil$\\displaystyle \\left.\\begin{aligned} \\cos B &= \\sin A \\cos b \\\\ \\cos A &= \\sin B \\cos a \\end{aligned}\\right\\}$.\\hfil}&\\text{(6)}\\end{aligned}$$\n\nThese six formulæ comprise ten equations; and thus we can solve every case of right-angled triangles. For every one of these ten equations is a distinct combination involving three out of the five quantities $a$, $b$, $c$, $A$, $B$; and out of five quantities only ten combinations of three can be formed. Thus any two of the five quantities being given and a third required, some one of the preceding ten equations will serve to determine that third quantity.\n\n63. As we have stated, the above six formulæ may be obtained from those given in the preceding Chapter by supposing $C$ a right angle. Thus (1) follows from Art. 39, (2) from Art. 41, (3) from the fourth and fifth equations of Art. 44, (4) from the first and second equations of Art. 44, (5) from the third equation of Art. 47, (6) from the first and second equations of Art. 47.\n\nSince the six formulæ may be obtained from those given in the preceding Chapter which have been proved to be universally true, we do not stop to shew that the demonstration of Art. 62 may be applied to every case which can occur; the student may for exercise investigate the modifications which will be necessary when we suppose one or more of the quantities $a$, $b$, $c$, $A$, $B$ equal to a right angle or greater than a right angle.\n\n64. Certain properties of right-angled triangles are deducible from the formulæ of Art. 62.\n\nFrom (1) it follows that $\\cos c$ has the same sign as the product $\\cos a\\cos b$; hence either all the cosines are positive, or else only one is positive. Therefore *in a right-angled triangle either all the three sides are less than quadrants, or else one side is less than a quadrant and the other two sides are greater than quadrants.*\n\nFrom (4) it follows that $\\tan a$ has the same sign as $\\tan A$. Therefore $A$ and $a$ are either both greater than $\\dfrac{\\pi}{2}$, or both less than $\\dfrac{\\pi}{2}$; this is expressed by saying that $A$ and $a$ are of the *same affection*. Similarly $B$ and $b$ are of the same affection.\n\n65. The formulæ of Art. 62 are comprised in the following enunciations, which the student will find it useful to remember; the results are distinguished by the same numbers as have been already applied to them in Art. 62; the side opposite the right angle is called the *hypotenuse:*\n\nCos hyp &= product of cosines of sides &(1), [1ex] Cos hyp &= product of cotangents of angles &(5), [1ex] Sine side &= sine of opposite angle $\\times$ sine hyp &(2), [1ex] Tan side &= tan hyp $\\times$ cos included angle &(3), [1ex] Tan side &= tan opposite angle $\\times$ sine of other side …&(4), [1ex] Cos angle &= cos opposite side $\\times$ sine of other angle &(6).\n\n66. *Napier’s Rules*. The formulæ of Art. 62 are comprised in two rules, which are called, from their inventor, *Napier’s Rules of Circular Parts*. Napier was also the inventor of Logarithms, and the Rules of Circular Parts were first published by him in a work entitled *Mirifici Logarithmorum Canonis Descriptio*……Edinburgh, 1614. These rules we will now explain.\n\nThe right angle is left out of consideration; the two sides which include the right angle, the complement of the hypotenuse, and the complements of the other angles are called the *circular [htp] [width=5.0cm]images/046fc parts* of the triangle. Thus there are *five* circular parts, namely, $a$, $b$, $\\dfrac{\\pi}{2}-A$, $\\dfrac{\\pi}{2}-c$, $\\dfrac{\\pi}{2}-B$; and these are supposed to be ranged round a circle in the order in which they naturally occur with respect to the triangle.\n\nAny one of the five parts may be selected and called the *middle part*, then the two parts next to it are called *adjacent parts*, and the remaining two parts are called *opposite parts*. For example, if $\\dfrac{\\pi}{2}-B$ is selected as the middle part, then the adjacent parts are $a$ and $\\dfrac{\\pi}{2}-c$, and the opposite parts are $b$ and $\\dfrac{\\pi}{2}-A$.\n\nThen Napier’s Rules are the following: sine of the middle part $=$ product of tangents of adjacent parts, sine of the middle part $=$ product of cosines of opposite parts.\n\n67. Napier’s Rules may be demonstrated by shewing that they agree with the results already established. The following table shews the required agreement: in the first column are given the *middle parts*, in the second column the results of Napier’s Rules, and in the third column the same results expressed as in Art. 62, with the number for reference used in that Article.\n\n$$\\begin{array}{@{}r@{\\ } r@{\\;}l@{ } r@{\\;}l@{.}r} \\dfrac{\\pi}{2}-c & \\sin\\left(\\dfrac{\\pi}{2}-c\\right) &= \\tan\\left(\\dfrac{\\pi}{2}-A\\right) \\tan\\left(\\dfrac{\\pi}{2}-B\\right) & \\cos c &= \\cot A \\cot B \\dotfill & (5), \\\\[3ex] & \\sin\\left(\\dfrac{\\pi}{2}-c\\right) &= \\cos a \\cos b & \\cos c &= \\cos a \\cos b \\dotfill & (1), \\\\[3ex] \\dfrac{\\pi}{2}-B & \\sin\\left(\\dfrac{\\pi}{2}-B\\right) &= \\tan a \\tan\\left(\\dfrac{\\pi}{2}-c\\right) & \\cos B &= \\tan a \\cot c \\dotfill & (3), \\\\[3ex] & \\sin\\left(\\dfrac{\\pi}{2}-B\\right) &= \\cos b \\cos\\left(\\dfrac{\\pi}{2}-A\\right) & \\cos B &= \\cos b \\sin A \\dotfill & (6), \\\\[3ex] a& \\sin a &= \\tan b \\tan \\left(\\dfrac{\\pi}{2}-B\\right) & \\sin a &= \\tan b \\cot B \\ldots\\dotfill & (4), \\\\[3ex] & \\sin a &= \\cos\\left(\\dfrac{\\pi}{2}-A\\right) \\cos\\left(\\dfrac{\\pi}{2}-c\\right) & \\sin a &= \\sin A \\sin c \\dotfill & (2), \\\\[3ex] b& \\sin b &= \\tan\\left(\\dfrac{\\pi}{2}-A\\right) \\tan a & \\sin b &= \\cot A\\tan a \\dotfill & (4), \\\\[3ex] & \\sin b &= \\cos\\left(\\dfrac{\\pi}{2}-B\\right) \\cos\\left(\\dfrac{\\pi}{2}-c\\right) & \\sin b &=\\sin B \\sin c \\dotfill & (2), \\\\[3ex] \\dfrac{\\pi}{2}-A & \\sin\\left(\\dfrac{\\pi}{2}-A\\right) &= \\tan b \\tan\\left(\\dfrac{\\pi}{2}-c\\right) & \\cos A &= \\tan b\\cot c \\dotfill & (3), \\\\[3ex] & \\sin\\left(\\dfrac{\\pi}{2}-A\\right) &= \\cos a \\cos\\left(\\dfrac{\\pi}{2}-B\\right) & \\cos A &= \\cos a \\sin B \\dotfill & (6). \\end{array}$$\n\nThe last four cases need not have been given, since it is obvious that they are only repetitions of what had previously been given; the seventh and eighth are repetitions of the fifth and sixth, and the ninth and tenth are repetitions of the third and fourth.\n\n68. It has been sometimes stated that the method of the preceding Article is the only one by which Napier’s Rules can be demonstrated; this statement, however, is inaccurate, since besides this method Napier himself indicated another method of proof in his *Mirifici Logarithmorum Canonis Descriptio*, pp. 32, 35. This we will now briefly explain.\n\n[htp] [width=5.0cm]images/048fc\n\nLet $ABC$ be a spherical triangle right-angled at $C$; with $B$ as pole describe a great circle $DEFG$, and with $A$ as pole describe a great circle $HFKL$, and produce the sides of the original triangle $ABC$ to meet these great circles. Then since $B$ is a pole of $DEFG$ the angles at $D$ and $G$ are right angles, and since $A$ is a pole of $HFKL$ the angles at $H$ and $L$ are right angles. Hence the five triangles $BAC$, $AED$, $EFH$, $FKG$, $KBL$ are all *right-angled*; and moreover it will be found on examination that, although the elements of these triangles are different, yet *their circular parts are the same*. We will consider, for example, the triangle $AED$; the angle $EAD$ is equal to the angle $BAC$, the side $AD$ is the complement of $AB$; as the angles at $C$ and $G$ are right angles $E$ is a pole of $GC$ (Art. 13), therefore $EA$ is the complement of $AC$; as $B$ is a pole of $DE$ the angle $BED$ is a right angle, therefore the angle $AED$ is the complement of the angle $BEC$, that is, the angle $AED$ is the complement of the side $BC$ (Art. 12); and similarly the side $DE$ is equal to the angle $DBE$, and is therefore the complement of the angle $ABC$. Hence, if we denote the elements of the triangle $ABC$ as usual by $a$, $b$, $c$, $A$, $B$, we have in the triangle $AED$ the hypotenuse equal to $\\dfrac{\\pi}{2} - b$, the angles equal to $A$ and $\\dfrac{\\pi}{2} - a$, and the sides respectively opposite these angles equal to $\\dfrac{\\pi}{2} - B$ and $\\dfrac{\\pi}{2} - c$. The *circular parts* of $AED$ are therefore the same as those of $ABC$. Similarly the remaining three of the five right-angled triangles may be shewn to have the same circular parts as the triangle $ABC$ has.\n\nNow take *two* of the theorems in Art. 65, for example (1) and (3); then the truth of the *ten* cases comprised in Napier’s Rules will be found to follow from applying the two theorems in succession to the five triangles formed in the preceding figure. Thus this method of considering Napier’s Rules regards each Rule, not as the statement of dissimilar properties of one triangle, but as the statement of similar properties of five allied triangles.\n\n69. In Napier’s work a figure is given of which that in the preceding Article is a copy, except that different letters are used; Napier briefly intimates that the truth of the Rules can be easily seen by means of this figure, as well as by the method of induction from consideration of all the cases which can occur. The late T. S. Davies, in his edition of Dr Hutton’s *Course of Mathematics*, drew attention to Napier’s own views and expanded the demonstration by a systematic examination of the figure of the preceding Article.\n\nIt is however easy to evade the necessity of examining the whole figure; all that is wanted is to observe the connexion between the triangle $AED$ and the triangle $BAC$. For let $a_1$, $a_2$, $a_3$, $a_4$, $a_5$ represent the elements of the triangle $BAC$ taken in order, beginning with the hypotenuse and omitting the right angle; then the elements of the triangle $AED$ taken in order, beginning with the hypotenuse and omitting the right angle, are $\\dfrac{\\pi}{2} - a_3$, $\\dfrac{\\pi}{2} - a_4$, $\\dfrac{\\pi}{2} - a_5$, $\\dfrac{\\pi}{2} - a_1$, and $a_2$. If, therefore, to characterise the former we introduce a new set of quantities $p_1$, $p_2$, $p_3$, $p_4$, $p_5$, such that $a_1 + p_1 = a_2 + p_2 = a_5 + p_5 = \\dfrac{\\pi}{2}$, and that $p_3 = a_3$ and $p_4 = a_4$, then the original triangle being characterised by $p_1$, $p_2$, $p_3$, $p_4$, $p_5$, the second triangle will be similarly characterised by $p_3$, $p_4$, $p_5$, $p_1$, $p_2$. As the second triangle can give rise to a third in like manner, and so on, we see that every right-angled triangle is one of a system of five such triangles which are all characterised by the quantities $p_1$, $p_2$, $p_3$, $p_4$, $p_5$, always taken in order, each quantity in its turn standing first.\n\nThe late R. L. Ellis pointed out this connexion between the five triangles, and thus gave the true significance of Napier’s Rules. The memoir containing Mr Ellis’s investigations, which was unpublished when the first edition of the present work appeared, will be found in pages 328…335 of *The Mathematical and other writings of Robert Leslie Ellis*…Cambridge, 1863.\n\nNapier’s own method of considering his Rules was neglected by writers on the subject until the late T. S. Davies drew attention to it. Hence, as we have already remarked in Art. 68, an erroneous statement was made respecting the Rules. For instance, Woodhouse says, in his *Trigonometry*: “There is no separate and independent proof of these rules;….” Airy says, in the treatise on Trigonometry in the *Encyclopædia Metropolitana*: “These rules are proved to be true only by showing that they comprehend all the equations which we have just found.”\n\n70. Opinions have differed with respect to the *utility* of Napier’s Rules in practice. Thus Woodhouse says, “In the whole compass of mathematical science there cannot be found, perhaps, rules which more completely attain that which is the proper object of rules, namely, facility and brevity of computation.” (*Trigonometry*, chap. x.) On the other hand may be set the following sentence from Airy’s Trigonometry (*Encyclopædia Metropolitana*): “In the opinion of Delambre (and no one was better qualified by experience to give an opinion) these theorems are best recollected by the practical calculator in their unconnected form.” See Delambre’s *Astronomie*, vol. i. p. 205. Professor De Morgan strongly objects to Napier’s Rules, and says (*Spherical Trigonometry*, Art. 17): “There are certain mnemonical formulæ called *Napier’s Rules of Circular Parts*, which are generally explained. We do not give them, because we are convinced that they only create confusion instead of assisting the memory.”\n\n71. We shall now proceed to apply the formulæ of Art. 62 to the solution of right-angled triangles. We shall assume that the given quantities are subject to the limitations which are stated in Arts. 22 and 23, that is, a given side must be less than the semicircumference of a great circle, and a given angle less than two right angles. There will be six cases to consider.\n\n72. *Having given the hypotenuse $\\mathrm{c}$ and an angle $\\mathrm{A}$.*\n\nHere we have from (3), (5) and (2) of Art. 62, $$\\tan b = \\tan c \\cos A,\\quad \\cot B = \\cos c \\tan A,\\quad \\sin a = \\sin c \\sin A.$$\n\nThus $b$ and $B$ are determined immediately without ambiguity; and as $a$ must be of the same affection as $A$ (Art. 64), $a$ also is determined without ambiguity.\n\nIt is obvious from the formulæ of solution, that in this case the triangle is always possible.\n\nIf $c$ and $A$ are both right angles, $a$ is a right angle, and $b$ and $B$ are indeterminate.\n\n73. *Having given a side $\\mathrm{b}$ and the adjacent angle $\\mathrm{A}$.*\n\nHere we have from (3), (4) and (6) of Art. 62, $$\\tan c=\\dfrac{\\tan b}{\\cos A},\\quad \\tan a = \\tan A \\sin b,\\quad \\cos B = \\cos b \\sin A.$$\n\nHere $c$, $a$, $B$ are determined without ambiguity, and the triangle is always possible.\n\n74. *Having given the two sides $\\mathrm{a}$ and $\\mathrm{b}$.*\n\nHere we have from (1) and (4) of Art. 62, $$\\cos c = \\cos a \\cos b,\\quad \\cot A = \\cot a \\sin b,\\quad \\cot B = \\cot b \\sin a.$$\n\nHere $c$, $A$, $B$ are determined without ambiguity, and the triangle is always possible.\n\n75. *Having given the hypotenuse $\\mathrm{c}$ and a side $\\mathrm{a}$.*\n\nHere we have from (1), (3) and (2) of Art. 62, $$\\cos b=\\dfrac{\\cos c}{\\cos a},\\quad \\cos B=\\dfrac{\\tan a}{\\tan c},\\quad \\sin A=\\dfrac{\\sin a}{\\sin c}.$$\n\nHere $b$, $B$, $A$ are determined without ambiguity, since $A$ must be of the same affection as $a$. It will be seen from these formulæ that there are limitations of the data in order to insure a possible triangle; in fact, $c$ must lie between $a$ and $\\pi - a$ in order that the values found for $\\cos b$, $\\cos B$, and $\\sin A$ may be numerically not greater than unity.\n\nIf $c$ and $a$ are right angles, $A$ is a right angle, and $b$ and $B$ are indeterminate.\n\n76. *Having given the two angles $\\mathrm{A}$ and $\\mathrm{B}$.*\n\nHere we have from (5) and (6) of Art. 62, $$\\cos c = \\cot A \\cot B, \\qquad \\cos a = \\frac{\\cos A}{\\sin B}, \\qquad \\cos b = \\frac{\\cos B}{\\sin A}.$$\n\nHere $c$, $a$, $b$ are determined without ambiguity. There are limitations of the data in order to insure a possible triangle. First suppose $A$ less than $\\dfrac{\\pi}{2}$, then $B$ must lie between $\\dfrac{\\pi}{2} - A$ and $\\dfrac{\\pi}{2} + A$; next suppose $A$ greater than $\\dfrac{\\pi}{2}$, then $B$ must lie between $\\dfrac{\\pi}{2} - (\\pi - A)$ and $\\dfrac{\\pi}{2} + (\\pi - A)$, that is, between $A - \\dfrac{\\pi}{2}$ and $\\dfrac{3\\pi}{2} - A$.\n\n77. *Having given a side $\\mathrm a$ and the opposite angle $\\mathrm A$.*\n\nHere we have from (2), (4) and (6) of Art. 62, $$\\sin c = \\dfrac{\\sin a}{\\sin A}, \\qquad \\sin b = \\tan a\\, \\cot A, \\qquad \\sin B = \\dfrac{\\cos A}{\\cos a}.$$\n\nHere there is an ambiguity, as the parts are determined from their sines. If $\\sin a$ be less than $\\sin A$, there are two values admissible for $c$; corresponding to each of these there will be *in general* only one admissible value of $b$, since we must have $\\cos c = \\cos a\\, \\cos b$, and only one admissible value of $B$, since we must have $\\cos c = \\cot A \\cot B$. Thus if one triangle exists with the given parts, there will be *in general* two, and only two, triangles with the given parts. We say *in general* in the preceding sentences, because if $a = A$ there will be only *one* triangle, unless $a$ and $A$ are each right angles, and then $b$ and $B$ become indeterminate.\n\nIt is easy to see from a figure that the ambiguity must occur in general.\n\n[htp] [width=5.0cm]images/053fc\n\nFor, suppose $BAC$ to be a triangle which satisfies the given conditions; produce $AB$ and $AC$ to meet again at $A'$; then the triangle $A'BC$ also satisfies the given conditions, for it has a right angle at $C$, $BC$ the given side, and $A' = A$ the given angle.\n\nIf $a = A$, then the formulæ of solution shew that $c$, $b$, and $B$ are right angles; in this case $A$ is the pole of $BC$, and the triangle $A'BC$ is symmetrically equal to the triangle $ABC$ (Art. 57).\n\nIf $a$ and $A$ are both right angles, $B$ is the pole of $AC$; $B$ and $b$ are then equal, but may have any value whatever.\n\nThere are limitations of the data in order to insure a possible triangle. $A$ and $a$ must have the same affection by Art. 64; hence the formulæ of solution shew that $a$ must be less than $A$ if both are acute, and greater than $A$ if both are obtuse.\n\nEXAMPLES.\n\nIf $ABC$ be a triangle in which the angle $C$ is a right angle, prove the following relations contained in Examples 1 to 5. 1. $\\operatorname{Sin}^2\\dfrac{c}{2} = \\sin^2 \\dfrac{a}{2}\\, \\cos^2 \\dfrac{b}{2} + \\cos^2 \\dfrac{a}{2}\\, \\sin^2 \\dfrac{b}{2}$. 2. $\\operatorname{Tan}\\tfrac{1}{2}(c + a)\\, \\tan \\tfrac{1}{2}(c - a) = \\tan^2 \\dfrac{b}{2}$. 3. $\\operatorname{Sin}(c - b) = \\tan^2 \\dfrac{A}{2}\\,\\sin(c + b)$. 4. $\\operatorname{Sin} a\\, \\tan \\tfrac{1}{2}A - \\sin b\\, \\tan \\tfrac{1}{2}B = \\sin (a - b)$.\n\n$$\\begin{aligned}\\rlap{\\indent 5.} && \\operatorname{Sin} (c - a) &= \\sin b\\, \\cos a\\, \\tan \\tfrac{1}{2}B, &&\\\\ && \\operatorname{Sin} (c - a) &= \\tan b\\, \\cos c\\, \\tan \\tfrac{1}{2}B. &&\\end{aligned}$$\n\n6. If $ABC$ be a spherical triangle, right-angled at $C$, and $\\cos A = \\cos^2 a$, shew that if $A$ be not a right angle $b + c = \\tfrac{1}{2}\\pi$ or $\\dfrac{3}{2}\\pi$, according as $b$ and $c$ are both less or both greater than $\\dfrac{\\pi}{2}$. 7. If $\\alpha$, $\\beta$ be the arcs drawn from the right angle respectively perpendicular to and bisecting the hypotenuse $c$, shew that $$\\sin^2 \\dfrac{c}{2}\\,(1 + \\sin^2\\alpha) = \\sin^2\\beta.$$\n\n8. In a triangle, if $C$ be a right angle and $D$ the middle point of $AB$, shew that $$4\\cos^2\\dfrac{c}{2}\\, \\sin^2 CD = \\sin^2 a + \\sin^2 b.$$\n\n9. In a right-angled triangle, if $\\delta$ be the length of the arc drawn from $C$ perpendicular to the hypotenuse $AB$, shew that $$\\cot\\delta = \\surd{(\\cot^2a + \\cot^2b)}.$$\n\n10. $OAA_1$ is a spherical triangle right-angled at $A_1$ and acute-angled at $A$; the arc $A_1A_2$ of a great circle is drawn perpendicular to $OA$, then $A_2A_3$ is drawn perpendicular to $OA_1$, and so on: shew that $A_nA_{n+1}$ vanishes when $n$ becomes infinite; and find the value of $\\cos AA_1 \\cos A_1A_2 \\cos A_2A_3\\ldots\\ldots$ to infinity. 11. $ABC$ is a right-angled spherical triangle, $A$ not being the right angle: shew that if $A = a$, then $c$ and $b$ are quadrants. 12. If $\\delta$ be the length of the arc drawn from $C$ perpendicular to $AB$ in *any* triangle, shew that $$\\cos\\delta = \\operatorname{cosec} c\\, (\\cos^2 a + \\cos^2 b - 2 \\cos a\\, \\cos b\\, \\cos c)^{\\tfrac{1}{2}}.$$\n\n13. $ABC$ is a great circle of a sphere; $AA'$, $BB'$, $CC'$, are arcs of great circles drawn at right angles to $ABC$ and reckoned positive when they lie on the same side of it: shew that the condition of $A'$, $B'$, $C'$ lying in a great circle is $$\\tan AA'\\, \\sin BC + \\tan BB'\\, \\sin CA + \\tan CC'\\, \\sin AB = 0.$$\n\n14. Perpendiculars are drawn from the angles $A$, $B$, $C$ of any triangle meeting the opposite sides at $D$, $E$, $F$ respectively: shew that $$\\tan BD\\, \\tan CE\\, \\tan AF = \\tan DC\\, \\tan EA\\, \\tan FB.$$\n\n15. $Ox$, $Oy$ are two great circles of a sphere at right angles to each other, $P$ is any point in $AB$ another great circle. $OC = p$ is the arc perpendicular to $AB$ from $O$, making the angle $COx = a$ with $Ox$. $PM$, $PN$ are arcs perpendicular to $Ox$, $Oy$ respectively: shew that if $OM = x$ and $ON = y$, $$\\cos a\\, \\tan x + \\sin a\\, \\tan y = \\tan p.$$\n\n16. The position of a point on a sphere, with reference to two great circles at right angles to each other as axes, is determined by the portions $\\theta$, $\\phi$ of these circles cut off by great circles through the point, and through two points on the axes, each $\\dfrac{\\pi}{2}$ from their point of intersection: shew that if the three points ($\\theta$, $\\phi$), ($\\theta'$, $\\phi'$), ($\\theta''$, $\\phi''$) lie on the same great circle $$\\begin{gathered}\\tan \\phi\\, (\\tan \\theta' - \\tan \\theta'') + \\tan \\phi'\\, (\\tan \\theta'' - \\tan \\theta)\\\\ + \\tan \\phi''\\, (\\tan \\theta - \\tan \\theta') = 0.\\end{gathered}$$\n\n17. If a point on a sphere be referred to two great circles at right angles to each other as axes, by means of the portions of these axes cut off by great circles drawn through the point and two points on the axes each $90^\\circ$ from their intersection, shew that the equation to a great circle is $$\\tan \\theta\\, \\cot \\alpha + \\tan \\phi\\, \\cot \\beta = 1.$$\n\n18. In a spherical triangle, if $A = \\dfrac{\\pi}{5}$, $B = \\dfrac{\\pi}{3}$, and, $C = \\dfrac{\\pi}{2}$, shew that  $a + b + c = \\dfrac{\\pi}{2}$.",
+   "text_markdown": "[Solution of Right-angled Triangles.]SOLUTION OF RIGHT-ANGLED TRIANGLES.\n\n61. In every spherical triangle there are six elements, namely, the three sides and the three angles, besides the radius of the sphere, which is supposed constant. The solution of spherical triangles is the process by which, when the values of a sufficient number of the six elements are given, we calculate the values of the remaining elements. It will appear, as we proceed, that when the values of three of the elements are given, those of the remaining three can generally be found. We begin with the right-angled triangle: here two elements, in addition to the right angle, will be supposed known.\n\n62. The formulæ requisite for the solution of right-angled triangles may be obtained from the preceding Chapter by supposing one of the angles a right angle, as $C$ for example. They may also be obtained very easily in an independent manner, as we will now shew.\n\n[htp] [width=5.0cm]images/043fc\n\nLet $ABC$ be a spherical triangle having a right angle at $C$; let $O$ be the centre of the sphere. From any point $P$ in $OA$ draw $PM$ perpendicular to $OC$, and from $M$ draw $MN$ perpendicular to $OB$, and join $PN$. Then $PM$ is perpendicular to $MN$, because the plane $AOC$ is perpendicular to the plane $BOC$; hence $$PN^2=PM^2+MN^2=OP^2-OM^2+OM^2-ON^2=OP^2-ON^2;$$ therefore $PNO$ is a right angle. And $$\\begin{aligned}&&&\\left.\\begin{aligned} &\\rule{2em}{0pt} \\llap{$ \\dfrac{ON}{OP}$} \\rlap{ $= \\dfrac{ON}{OM} \\centerdot\\dfrac{OM}{OP}$, } \\rule[1em]{7em}{0pt} \\rule{6em}{0pt} \\llap{ that is, $\\cos c$} \\rlap{ $=\\cos a\\cos b$,} \\rule[1em]{6em}{0pt} \\end{aligned} \\right. &(1)& \\\\[1ex] &&&\\left.\\begin{aligned} &\\rule{2em}{0pt} \\llap{$ \\dfrac{PM}{OP}$} \\rlap{ $= \\dfrac{PM}{PN} \\centerdot\\dfrac{PN}{OP}$, } \\rule[1em]{7em}{0pt} \\rule{6em}{0pt} \\llap{ that is, $\\sin b$} \\rlap{ $=\\sin B\\sin c$} \\rule[1em]{6em}{0pt} \\\\ &\\rule{15em}{0pt} \\llap{ Similarly,\\qquad $\\sin a$} \\rlap{ $=\\sin A \\sin c$} \\rule[1em]{5em}{0pt} \\end{aligned} \\right\\}, &(2)& \\\\[1ex] &&&\\left.\\begin{aligned} &\\rule{2em}{0pt} \\llap{$ \\dfrac{MN}{ON}$} \\rlap{ $= \\dfrac{MN}{PN} \\centerdot\\dfrac{PN}{ON}$, } \\rule[1em]{7em}{0pt} \\rule{6em}{0pt} \\llap{ that is, $\\tan a$} \\rlap{ $=\\cos B\\tan c$} \\rule[1em]{6em}{0pt} \\\\ &\\rule{15em}{0pt} \\llap{ Similarly,\\qquad $\\tan b$} \\rlap{ $= \\cos A \\tan c$} \\rule[1em]{5em}{0pt} \\end{aligned} \\right\\}, &(3)& \\\\[1ex] &&&\\left.\\begin{aligned} &\\rule{2em}{0pt} \\llap{$ \\dfrac{PM}{OM}$} \\rlap{ $= \\dfrac{PM}{MN} \\centerdot\\dfrac{MN}{OM}$, } \\rule[1em]{7em}{0pt} \\rule{6em}{0pt} \\llap{ that is, $\\tan b$} \\rlap{ $=\\tan B\\sin a$} \\rule[1em]{6em}{0pt} \\\\ &\\rule{15em}{0pt} \\llap{ Similarly,\\qquad $\\tan a$} \\rlap{ $= \\tan A\\sin b$} \\rule[1em]{5em}{0pt} \\end{aligned} \\right\\}. &(4)&\\end{aligned}$$\n\nMultiply together the two formulæ (4); thus, $$\\tan A \\tan B = \\dfrac{\\tan a \\tan b}{\\sin a \\sin b} = \\frac{1}{\\cos a \\cos b} = \\frac{1}{\\cos c}\\text{ by (1);}$$ therefore $ \\cos c = \\cot A \\cot B$.(5) Multiply crosswise the second formula in (2) and the first in (3); thus $\\sin a \\cos B \\tan c = \\tan a \\sin A \\sin c$; $$\\begin{aligned}&\\phantom{therefore}&&&\\phantom{therefore}&\\\\[-\\baselineskip] &\\rlap{therefore}&\\multispan{2}{\\hfil$\\displaystyle \\cos B = \\dfrac{\\sin A \\cos c}{\\cos a} = \\sin A \\cos b$ by (1).\\hfil}\\\\[1ex] &\\begin{aligned} &\\text{Thus}\\\\ &\\text{Similarly} \\end{aligned}&\\multispan2{\\hfil$\\displaystyle \\left.\\begin{aligned} \\cos B &= \\sin A \\cos b \\\\ \\cos A &= \\sin B \\cos a \\end{aligned}\\right\\}$.\\hfil}&\\text{(6)}\\end{aligned}$$\n\nThese six formulæ comprise ten equations; and thus we can solve every case of right-angled triangles. For every one of these ten equations is a distinct combination involving three out of the five quantities $a$, $b$, $c$, $A$, $B$; and out of five quantities only ten combinations of three can be formed. Thus any two of the five quantities being given and a third required, some one of the preceding ten equations will serve to determine that third quantity.\n\n63. As we have stated, the above six formulæ may be obtained from those given in the preceding Chapter by supposing $C$ a right angle. Thus (1) follows from Art. 39, (2) from Art. 41, (3) from the fourth and fifth equations of Art. 44, (4) from the first and second equations of Art. 44, (5) from the third equation of Art. 47, (6) from the first and second equations of Art. 47.\n\nSince the six formulæ may be obtained from those given in the preceding Chapter which have been proved to be universally true, we do not stop to shew that the demonstration of Art. 62 may be applied to every case which can occur; the student may for exercise investigate the modifications which will be necessary when we suppose one or more of the quantities $a$, $b$, $c$, $A$, $B$ equal to a right angle or greater than a right angle.\n\n64. Certain properties of right-angled triangles are deducible from the formulæ of Art. 62.\n\nFrom (1) it follows that $\\cos c$ has the same sign as the product $\\cos a\\cos b$; hence either all the cosines are positive, or else only one is positive. Therefore *in a right-angled triangle either all the three sides are less than quadrants, or else one side is less than a quadrant and the other two sides are greater than quadrants.*\n\nFrom (4) it follows that $\\tan a$ has the same sign as $\\tan A$. Therefore $A$ and $a$ are either both greater than $\\dfrac{\\pi}{2}$, or both less than $\\dfrac{\\pi}{2}$; this is expressed by saying that $A$ and $a$ are of the *same affection*. Similarly $B$ and $b$ are of the same affection.\n\n65. The formulæ of Art. 62 are comprised in the following enunciations, which the student will find it useful to remember; the results are distinguished by the same numbers as have been already applied to them in Art. 62; the side opposite the right angle is called the *hypotenuse:*\n\nCos hyp &= product of cosines of sides &(1), [1ex] Cos hyp &= product of cotangents of angles &(5), [1ex] Sine side &= sine of opposite angle $\\times$ sine hyp &(2), [1ex] Tan side &= tan hyp $\\times$ cos included angle &(3), [1ex] Tan side &= tan opposite angle $\\times$ sine of other side …&(4), [1ex] Cos angle &= cos opposite side $\\times$ sine of other angle &(6).\n\n66. *Napier’s Rules*. The formulæ of Art. 62 are comprised in two rules, which are called, from their inventor, *Napier’s Rules of Circular Parts*. Napier was also the inventor of Logarithms, and the Rules of Circular Parts were first published by him in a work entitled *Mirifici Logarithmorum Canonis Descriptio*……Edinburgh, 1614. These rules we will now explain.\n\nThe right angle is left out of consideration; the two sides which include the right angle, the complement of the hypotenuse, and the complements of the other angles are called the *circular [htp] [width=5.0cm]images/046fc parts* of the triangle. Thus there are *five* circular parts, namely, $a$, $b$, $\\dfrac{\\pi}{2}-A$, $\\dfrac{\\pi}{2}-c$, $\\dfrac{\\pi}{2}-B$; and these are supposed to be ranged round a circle in the order in which they naturally occur with respect to the triangle.\n\nAny one of the five parts may be selected and called the *middle part*, then the two parts next to it are called *adjacent parts*, and the remaining two parts are called *opposite parts*. For example, if $\\dfrac{\\pi}{2}-B$ is selected as the middle part, then the adjacent parts are $a$ and $\\dfrac{\\pi}{2}-c$, and the opposite parts are $b$ and $\\dfrac{\\pi}{2}-A$.\n\nThen Napier’s Rules are the following: sine of the middle part $=$ product of tangents of adjacent parts, sine of the middle part $=$ product of cosines of opposite parts.\n\n67. Napier’s Rules may be demonstrated by shewing that they agree with the results already established. The following table shews the required agreement: in the first column are given the *middle parts*, in the second column the results of Napier’s Rules, and in the third column the same results expressed as in Art. 62, with the number for reference used in that Article.\n\n$$\\begin{array}{@{}r@{\\ } r@{\\;}l@{ } r@{\\;}l@{.}r} \\dfrac{\\pi}{2}-c & \\sin\\left(\\dfrac{\\pi}{2}-c\\right) &= \\tan\\left(\\dfrac{\\pi}{2}-A\\right) \\tan\\left(\\dfrac{\\pi}{2}-B\\right) & \\cos c &= \\cot A \\cot B \\dotfill & (5), \\\\[3ex] & \\sin\\left(\\dfrac{\\pi}{2}-c\\right) &= \\cos a \\cos b & \\cos c &= \\cos a \\cos b \\dotfill & (1), \\\\[3ex] \\dfrac{\\pi}{2}-B & \\sin\\left(\\dfrac{\\pi}{2}-B\\right) &= \\tan a \\tan\\left(\\dfrac{\\pi}{2}-c\\right) & \\cos B &= \\tan a \\cot c \\dotfill & (3), \\\\[3ex] & \\sin\\left(\\dfrac{\\pi}{2}-B\\right) &= \\cos b \\cos\\left(\\dfrac{\\pi}{2}-A\\right) & \\cos B &= \\cos b \\sin A \\dotfill & (6), \\\\[3ex] a& \\sin a &= \\tan b \\tan \\left(\\dfrac{\\pi}{2}-B\\right) & \\sin a &= \\tan b \\cot B \\ldots\\dotfill & (4), \\\\[3ex] & \\sin a &= \\cos\\left(\\dfrac{\\pi}{2}-A\\right) \\cos\\left(\\dfrac{\\pi}{2}-c\\right) & \\sin a &= \\sin A \\sin c \\dotfill & (2), \\\\[3ex] b& \\sin b &= \\tan\\left(\\dfrac{\\pi}{2}-A\\right) \\tan a & \\sin b &= \\cot A\\tan a \\dotfill & (4), \\\\[3ex] & \\sin b &= \\cos\\left(\\dfrac{\\pi}{2}-B\\right) \\cos\\left(\\dfrac{\\pi}{2}-c\\right) & \\sin b &=\\sin B \\sin c \\dotfill & (2), \\\\[3ex] \\dfrac{\\pi}{2}-A & \\sin\\left(\\dfrac{\\pi}{2}-A\\right) &= \\tan b \\tan\\left(\\dfrac{\\pi}{2}-c\\right) & \\cos A &= \\tan b\\cot c \\dotfill & (3), \\\\[3ex] & \\sin\\left(\\dfrac{\\pi}{2}-A\\right) &= \\cos a \\cos\\left(\\dfrac{\\pi}{2}-B\\right) & \\cos A &= \\cos a \\sin B \\dotfill & (6). \\end{array}$$\n\nThe last four cases need not have been given, since it is obvious that they are only repetitions of what had previously been given; the seventh and eighth are repetitions of the fifth and sixth, and the ninth and tenth are repetitions of the third and fourth.\n\n68. It has been sometimes stated that the method of the preceding Article is the only one by which Napier’s Rules can be demonstrated; this statement, however, is inaccurate, since besides this method Napier himself indicated another method of proof in his *Mirifici Logarithmorum Canonis Descriptio*, pp. 32, 35. This we will now briefly explain.\n\n[htp] [width=5.0cm]images/048fc\n\nLet $ABC$ be a spherical triangle right-angled at $C$; with $B$ as pole describe a great circle $DEFG$, and with $A$ as pole describe a great circle $HFKL$, and produce the sides of the original triangle $ABC$ to meet these great circles. Then since $B$ is a pole of $DEFG$ the angles at $D$ and $G$ are right angles, and since $A$ is a pole of $HFKL$ the angles at $H$ and $L$ are right angles. Hence the five triangles $BAC$, $AED$, $EFH$, $FKG$, $KBL$ are all *right-angled*; and moreover it will be found on examination that, although the elements of these triangles are different, yet *their circular parts are the same*. We will consider, for example, the triangle $AED$; the angle $EAD$ is equal to the angle $BAC$, the side $AD$ is the complement of $AB$; as the angles at $C$ and $G$ are right angles $E$ is a pole of $GC$ (Art. 13), therefore $EA$ is the complement of $AC$; as $B$ is a pole of $DE$ the angle $BED$ is a right angle, therefore the angle $AED$ is the complement of the angle $BEC$, that is, the angle $AED$ is the complement of the side $BC$ (Art. 12); and similarly the side $DE$ is equal to the angle $DBE$, and is therefore the complement of the angle $ABC$. Hence, if we denote the elements of the triangle $ABC$ as usual by $a$, $b$, $c$, $A$, $B$, we have in the triangle $AED$ the hypotenuse equal to $\\dfrac{\\pi}{2} - b$, the angles equal to $A$ and $\\dfrac{\\pi}{2} - a$, and the sides respectively opposite these angles equal to $\\dfrac{\\pi}{2} - B$ and $\\dfrac{\\pi}{2} - c$. The *circular parts* of $AED$ are therefore the same as those of $ABC$. Similarly the remaining three of the five right-angled triangles may be shewn to have the same circular parts as the triangle $ABC$ has.\n\nNow take *two* of the theorems in Art. 65, for example (1) and (3); then the truth of the *ten* cases comprised in Napier’s Rules will be found to follow from applying the two theorems in succession to the five triangles formed in the preceding figure. Thus this method of considering Napier’s Rules regards each Rule, not as the statement of dissimilar properties of one triangle, but as the statement of similar properties of five allied triangles.\n\n69. In Napier’s work a figure is given of which that in the preceding Article is a copy, except that different letters are used; Napier briefly intimates that the truth of the Rules can be easily seen by means of this figure, as well as by the method of induction from consideration of all the cases which can occur. The late T. S. Davies, in his edition of Dr Hutton’s *Course of Mathematics*, drew attention to Napier’s own views and expanded the demonstration by a systematic examination of the figure of the preceding Article.\n\nIt is however easy to evade the necessity of examining the whole figure; all that is wanted is to observe the connexion between the triangle $AED$ and the triangle $BAC$. For let $a_1$, $a_2$, $a_3$, $a_4$, $a_5$ represent the elements of the triangle $BAC$ taken in order, beginning with the hypotenuse and omitting the right angle; then the elements of the triangle $AED$ taken in order, beginning with the hypotenuse and omitting the right angle, are $\\dfrac{\\pi}{2} - a_3$, $\\dfrac{\\pi}{2} - a_4$, $\\dfrac{\\pi}{2} - a_5$, $\\dfrac{\\pi}{2} - a_1$, and $a_2$. If, therefore, to characterise the former we introduce a new set of quantities $p_1$, $p_2$, $p_3$, $p_4$, $p_5$, such that $a_1 + p_1 = a_2 + p_2 = a_5 + p_5 = \\dfrac{\\pi}{2}$, and that $p_3 = a_3$ and $p_4 = a_4$, then the original triangle being characterised by $p_1$, $p_2$, $p_3$, $p_4$, $p_5$, the second triangle will be similarly characterised by $p_3$, $p_4$, $p_5$, $p_1$, $p_2$. As the second triangle can give rise to a third in like manner, and so on, we see that every right-angled triangle is one of a system of five such triangles which are all characterised by the quantities $p_1$, $p_2$, $p_3$, $p_4$, $p_5$, always taken in order, each quantity in its turn standing first.\n\nThe late R. L. Ellis pointed out this connexion between the five triangles, and thus gave the true significance of Napier’s Rules. The memoir containing Mr Ellis’s investigations, which was unpublished when the first edition of the present work appeared, will be found in pages 328…335 of *The Mathematical and other writings of Robert Leslie Ellis*…Cambridge, 1863.\n\nNapier’s own method of considering his Rules was neglected by writers on the subject until the late T. S. Davies drew attention to it. Hence, as we have already remarked in Art. 68, an erroneous statement was made respecting the Rules. For instance, Woodhouse says, in his *Trigonometry*: “There is no separate and independent proof of these rules;….” Airy says, in the treatise on Trigonometry in the *Encyclopædia Metropolitana*: “These rules are proved to be true only by showing that they comprehend all the equations which we have just found.”\n\n70. Opinions have differed with respect to the *utility* of Napier’s Rules in practice. Thus Woodhouse says, “In the whole compass of mathematical science there cannot be found, perhaps, rules which more completely attain that which is the proper object of rules, namely, facility and brevity of computation.” (*Trigonometry*, chap. x.) On the other hand may be set the following sentence from Airy’s Trigonometry (*Encyclopædia Metropolitana*): “In the opinion of Delambre (and no one was better qualified by experience to give an opinion) these theorems are best recollected by the practical calculator in their unconnected form.” See Delambre’s *Astronomie*, vol. i. p. 205. Professor De Morgan strongly objects to Napier’s Rules, and says (*Spherical Trigonometry*, Art. 17): “There are certain mnemonical formulæ called *Napier’s Rules of Circular Parts*, which are generally explained. We do not give them, because we are convinced that they only create confusion instead of assisting the memory.”\n\n71. We shall now proceed to apply the formulæ of Art. 62 to the solution of right-angled triangles. We shall assume that the given quantities are subject to the limitations which are stated in Arts. 22 and 23, that is, a given side must be less than the semicircumference of a great circle, and a given angle less than two right angles. There will be six cases to consider.\n\n72. *Having given the hypotenuse $\\mathrm{c}$ and an angle $\\mathrm{A}$.*\n\nHere we have from (3), (5) and (2) of Art. 62, $$\\tan b = \\tan c \\cos A,\\quad \\cot B = \\cos c \\tan A,\\quad \\sin a = \\sin c \\sin A.$$\n\nThus $b$ and $B$ are determined immediately without ambiguity; and as $a$ must be of the same affection as $A$ (Art. 64), $a$ also is determined without ambiguity.\n\nIt is obvious from the formulæ of solution, that in this case the triangle is always possible.\n\nIf $c$ and $A$ are both right angles, $a$ is a right angle, and $b$ and $B$ are indeterminate.\n\n73. *Having given a side $\\mathrm{b}$ and the adjacent angle $\\mathrm{A}$.*\n\nHere we have from (3), (4) and (6) of Art. 62, $$\\tan c=\\dfrac{\\tan b}{\\cos A},\\quad \\tan a = \\tan A \\sin b,\\quad \\cos B = \\cos b \\sin A.$$\n\nHere $c$, $a$, $B$ are determined without ambiguity, and the triangle is always possible.\n\n74. *Having given the two sides $\\mathrm{a}$ and $\\mathrm{b}$.*\n\nHere we have from (1) and (4) of Art. 62, $$\\cos c = \\cos a \\cos b,\\quad \\cot A = \\cot a \\sin b,\\quad \\cot B = \\cot b \\sin a.$$\n\nHere $c$, $A$, $B$ are determined without ambiguity, and the triangle is always possible.\n\n75. *Having given the hypotenuse $\\mathrm{c}$ and a side $\\mathrm{a}$.*\n\nHere we have from (1), (3) and (2) of Art. 62, $$\\cos b=\\dfrac{\\cos c}{\\cos a},\\quad \\cos B=\\dfrac{\\tan a}{\\tan c},\\quad \\sin A=\\dfrac{\\sin a}{\\sin c}.$$\n\nHere $b$, $B$, $A$ are determined without ambiguity, since $A$ must be of the same affection as $a$. It will be seen from these formulæ that there are limitations of the data in order to insure a possible triangle; in fact, $c$ must lie between $a$ and $\\pi - a$ in order that the values found for $\\cos b$, $\\cos B$, and $\\sin A$ may be numerically not greater than unity.\n\nIf $c$ and $a$ are right angles, $A$ is a right angle, and $b$ and $B$ are indeterminate.\n\n76. *Having given the two angles $\\mathrm{A}$ and $\\mathrm{B}$.*\n\nHere we have from (5) and (6) of Art. 62, $$\\cos c = \\cot A \\cot B, \\qquad \\cos a = \\frac{\\cos A}{\\sin B}, \\qquad \\cos b = \\frac{\\cos B}{\\sin A}.$$\n\nHere $c$, $a$, $b$ are determined without ambiguity. There are limitations of the data in order to insure a possible triangle. First suppose $A$ less than $\\dfrac{\\pi}{2}$, then $B$ must lie between $\\dfrac{\\pi}{2} - A$ and $\\dfrac{\\pi}{2} + A$; next suppose $A$ greater than $\\dfrac{\\pi}{2}$, then $B$ must lie between $\\dfrac{\\pi}{2} - (\\pi - A)$ and $\\dfrac{\\pi}{2} + (\\pi - A)$, that is, between $A - \\dfrac{\\pi}{2}$ and $\\dfrac{3\\pi}{2} - A$.\n\n77. *Having given a side $\\mathrm a$ and the opposite angle $\\mathrm A$.*\n\nHere we have from (2), (4) and (6) of Art. 62, $$\\sin c = \\dfrac{\\sin a}{\\sin A}, \\qquad \\sin b = \\tan a\\, \\cot A, \\qquad \\sin B = \\dfrac{\\cos A}{\\cos a}.$$\n\nHere there is an ambiguity, as the parts are determined from their sines. If $\\sin a$ be less than $\\sin A$, there are two values admissible for $c$; corresponding to each of these there will be *in general* only one admissible value of $b$, since we must have $\\cos c = \\cos a\\, \\cos b$, and only one admissible value of $B$, since we must have $\\cos c = \\cot A \\cot B$. Thus if one triangle exists with the given parts, there will be *in general* two, and only two, triangles with the given parts. We say *in general* in the preceding sentences, because if $a = A$ there will be only *one* triangle, unless $a$ and $A$ are each right angles, and then $b$ and $B$ become indeterminate.\n\nIt is easy to see from a figure that the ambiguity must occur in general.\n\n[htp] [width=5.0cm]images/053fc\n\nFor, suppose $BAC$ to be a triangle which satisfies the given conditions; produce $AB$ and $AC$ to meet again at $A'$; then the triangle $A'BC$ also satisfies the given conditions, for it has a right angle at $C$, $BC$ the given side, and $A' = A$ the given angle.\n\nIf $a = A$, then the formulæ of solution shew that $c$, $b$, and $B$ are right angles; in this case $A$ is the pole of $BC$, and the triangle $A'BC$ is symmetrically equal to the triangle $ABC$ (Art. 57).\n\nIf $a$ and $A$ are both right angles, $B$ is the pole of $AC$; $B$ and $b$ are then equal, but may have any value whatever.\n\nThere are limitations of the data in order to insure a possible triangle. $A$ and $a$ must have the same affection by Art. 64; hence the formulæ of solution shew that $a$ must be less than $A$ if both are acute, and greater than $A$ if both are obtuse.\n\nEXAMPLES.\n\nIf $ABC$ be a triangle in which the angle $C$ is a right angle, prove the following relations contained in Examples 1 to 5. 1. $\\operatorname{Sin}^2\\dfrac{c}{2} = \\sin^2 \\dfrac{a}{2}\\, \\cos^2 \\dfrac{b}{2} + \\cos^2 \\dfrac{a}{2}\\, \\sin^2 \\dfrac{b}{2}$. 2. $\\operatorname{Tan}\\tfrac{1}{2}(c + a)\\, \\tan \\tfrac{1}{2}(c - a) = \\tan^2 \\dfrac{b}{2}$. 3. $\\operatorname{Sin}(c - b) = \\tan^2 \\dfrac{A}{2}\\,\\sin(c + b)$. 4. $\\operatorname{Sin} a\\, \\tan \\tfrac{1}{2}A - \\sin b\\, \\tan \\tfrac{1}{2}B = \\sin (a - b)$.\n\n$$\\begin{aligned}\\rlap{\\indent 5.} && \\operatorname{Sin} (c - a) &= \\sin b\\, \\cos a\\, \\tan \\tfrac{1}{2}B, &&\\\\ && \\operatorname{Sin} (c - a) &= \\tan b\\, \\cos c\\, \\tan \\tfrac{1}{2}B. &&\\end{aligned}$$\n\n6. If $ABC$ be a spherical triangle, right-angled at $C$, and $\\cos A = \\cos^2 a$, shew that if $A$ be not a right angle $b + c = \\tfrac{1}{2}\\pi$ or $\\dfrac{3}{2}\\pi$, according as $b$ and $c$ are both less or both greater than $\\dfrac{\\pi}{2}$. 7. If $\\alpha$, $\\beta$ be the arcs drawn from the right angle respectively perpendicular to and bisecting the hypotenuse $c$, shew that $$\\sin^2 \\dfrac{c}{2}\\,(1 + \\sin^2\\alpha) = \\sin^2\\beta.$$\n\n8. In a triangle, if $C$ be a right angle and $D$ the middle point of $AB$, shew that $$4\\cos^2\\dfrac{c}{2}\\, \\sin^2 CD = \\sin^2 a + \\sin^2 b.$$\n\n9. In a right-angled triangle, if $\\delta$ be the length of the arc drawn from $C$ perpendicular to the hypotenuse $AB$, shew that $$\\cot\\delta = \\surd{(\\cot^2a + \\cot^2b)}.$$\n\n10. $OAA_1$ is a spherical triangle right-angled at $A_1$ and acute-angled at $A$; the arc $A_1A_2$ of a great circle is drawn perpendicular to $OA$, then $A_2A_3$ is drawn perpendicular to $OA_1$, and so on: shew that $A_nA_{n+1}$ vanishes when $n$ becomes infinite; and find the value of $\\cos AA_1 \\cos A_1A_2 \\cos A_2A_3\\ldots\\ldots$ to infinity. 11. $ABC$ is a right-angled spherical triangle, $A$ not being the right angle: shew that if $A = a$, then $c$ and $b$ are quadrants. 12. If $\\delta$ be the length of the arc drawn from $C$ perpendicular to $AB$ in *any* triangle, shew that $$\\cos\\delta = \\operatorname{cosec} c\\, (\\cos^2 a + \\cos^2 b - 2 \\cos a\\, \\cos b\\, \\cos c)^{\\tfrac{1}{2}}.$$\n\n13. $ABC$ is a great circle of a sphere; $AA'$, $BB'$, $CC'$, are arcs of great circles drawn at right angles to $ABC$ and reckoned positive when they lie on the same side of it: shew that the condition of $A'$, $B'$, $C'$ lying in a great circle is $$\\tan AA'\\, \\sin BC + \\tan BB'\\, \\sin CA + \\tan CC'\\, \\sin AB = 0.$$\n\n14. Perpendiculars are drawn from the angles $A$, $B$, $C$ of any triangle meeting the opposite sides at $D$, $E$, $F$ respectively: shew that $$\\tan BD\\, \\tan CE\\, \\tan AF = \\tan DC\\, \\tan EA\\, \\tan FB.$$\n\n15. $Ox$, $Oy$ are two great circles of a sphere at right angles to each other, $P$ is any point in $AB$ another great circle. $OC = p$ is the arc perpendicular to $AB$ from $O$, making the angle $COx = a$ with $Ox$. $PM$, $PN$ are arcs perpendicular to $Ox$, $Oy$ respectively: shew that if $OM = x$ and $ON = y$, $$\\cos a\\, \\tan x + \\sin a\\, \\tan y = \\tan p.$$\n\n16. The position of a point on a sphere, with reference to two great circles at right angles to each other as axes, is determined by the portions $\\theta$, $\\phi$ of these circles cut off by great circles through the point, and through two points on the axes, each $\\dfrac{\\pi}{2}$ from their point of intersection: shew that if the three points ($\\theta$, $\\phi$), ($\\theta'$, $\\phi'$), ($\\theta''$, $\\phi''$) lie on the same great circle $$\\begin{gathered}\\tan \\phi\\, (\\tan \\theta' - \\tan \\theta'') + \\tan \\phi'\\, (\\tan \\theta'' - \\tan \\theta)\\\\ + \\tan \\phi''\\, (\\tan \\theta - \\tan \\theta') = 0.\\end{gathered}$$\n\n17. If a point on a sphere be referred to two great circles at right angles to each other as axes, by means of the portions of these axes cut off by great circles drawn through the point and two points on the axes each $90^\\circ$ from their intersection, shew that the equation to a great circle is $$\\tan \\theta\\, \\cot \\alpha + \\tan \\phi\\, \\cot \\beta = 1.$$\n\n18. In a spherical triangle, if $A = \\dfrac{\\pi}{5}$, $B = \\dfrac{\\pi}{3}$, and, $C = \\dfrac{\\pi}{2}$, shew that  $a + b + c = \\dfrac{\\pi}{2}$.",
    "text_html": null,
    "name": "Todhunter 1886, Solution of Right-angled Triangles",
    "pages": [
@@ -19534,7 +19534,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -19572,7 +19572,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -19610,7 +19610,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -19649,7 +19649,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -19687,7 +19687,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -19725,7 +19725,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -19763,7 +19763,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -19802,7 +19802,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -19840,7 +19840,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -19879,7 +19879,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -19918,7 +19918,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -19956,7 +19956,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -19992,7 +19992,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20030,7 +20030,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20068,7 +20068,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20106,7 +20106,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20144,7 +20144,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20182,7 +20182,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20220,7 +20220,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20258,7 +20258,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20297,7 +20297,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20335,7 +20335,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20373,7 +20373,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20411,7 +20411,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20449,7 +20449,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20487,7 +20487,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20525,7 +20525,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20563,7 +20563,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20601,7 +20601,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20639,7 +20639,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20677,7 +20677,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20715,7 +20715,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20755,7 +20755,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20793,7 +20793,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20831,7 +20831,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20869,7 +20869,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20907,7 +20907,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20945,7 +20945,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20983,7 +20983,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21021,7 +21021,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21059,7 +21059,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21097,7 +21097,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21135,7 +21135,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21173,7 +21173,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21211,7 +21211,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21249,7 +21249,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21287,7 +21287,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21325,7 +21325,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21363,7 +21363,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21401,7 +21401,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21439,7 +21439,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21478,7 +21478,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21517,7 +21517,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21555,7 +21555,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21593,7 +21593,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21631,7 +21631,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21669,7 +21669,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21708,7 +21708,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21747,7 +21747,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21786,7 +21786,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21825,7 +21825,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21864,7 +21864,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21902,7 +21902,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21940,7 +21940,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21978,7 +21978,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22016,7 +22016,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22054,7 +22054,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22092,7 +22092,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22130,7 +22130,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22168,7 +22168,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22206,7 +22206,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22244,7 +22244,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22284,7 +22284,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22322,7 +22322,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22361,7 +22361,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22400,7 +22400,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22438,7 +22438,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22477,7 +22477,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22515,7 +22515,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22551,7 +22551,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22590,7 +22590,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22629,7 +22629,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22667,7 +22667,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22705,7 +22705,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22743,7 +22743,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22779,7 +22779,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22815,7 +22815,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22853,7 +22853,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22892,7 +22892,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22931,7 +22931,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22970,7 +22970,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23009,7 +23009,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23048,7 +23048,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23087,7 +23087,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23126,7 +23126,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23162,7 +23162,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23198,7 +23198,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23234,7 +23234,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23272,7 +23272,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23311,7 +23311,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23350,7 +23350,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23390,7 +23390,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23429,7 +23429,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23467,7 +23467,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23505,7 +23505,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23543,7 +23543,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23583,7 +23583,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23621,7 +23621,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23660,7 +23660,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23698,7 +23698,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23736,7 +23736,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23775,7 +23775,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23814,7 +23814,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23852,7 +23852,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23891,7 +23891,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23930,7 +23930,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23968,7 +23968,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24006,7 +24006,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24044,7 +24044,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24082,7 +24082,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24120,7 +24120,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24159,7 +24159,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24197,7 +24197,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24236,7 +24236,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24275,7 +24275,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24314,7 +24314,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24353,7 +24353,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24392,7 +24392,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24431,7 +24431,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24470,7 +24470,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24509,7 +24509,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24547,7 +24547,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24586,7 +24586,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24624,7 +24624,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24663,7 +24663,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24702,7 +24702,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24740,7 +24740,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24778,7 +24778,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24817,7 +24817,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24856,7 +24856,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24895,7 +24895,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24938,7 +24938,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-EXTRACTION"
     ]
@@ -24981,7 +24981,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-EXTRACTION"
     ]
@@ -25024,7 +25024,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-EXTRACTION"
     ]
@@ -25067,7 +25067,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-EXTRACTION"
     ]
@@ -25110,7 +25110,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-EXTRACTION"
     ]
@@ -25153,7 +25153,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-EXTRACTION"
     ]
@@ -25196,7 +25196,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-EXTRACTION"
     ]
@@ -25239,7 +25239,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-EXTRACTION"
     ]

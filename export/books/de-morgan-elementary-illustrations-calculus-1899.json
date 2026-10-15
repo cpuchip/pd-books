@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
  "generated_from": {
-  "claudiverse_commit": "c0d3f89",
-  "generated_at": "2026-10-15T21:38:54Z"
+  "claudiverse_commit": "98b2784",
+  "generated_at": "2026-10-15T22:14:38Z"
  },
  "node_types": [
   "book",
@@ -2652,7 +2652,7 @@
    "page": "14",
    "location": "The Notion of Infinitely Small Quantities",
    "latex": "Again, it would be said (\\Fig{1}) that if $AB$~be infinitely small, $MA$~is infinitely less than~$BM$.",
-   "markdown": "Again, it would be said (1) that if $AB$ be infinitely small, $MA$ is infinitely less than $BM$.",
+   "markdown": "Again, it would be said (Fig. 1) that if $AB$ be infinitely small, $MA$ is infinitely less than $BM$.",
    "why": "It shows the circle-and-arc picture in the author's words, letting a learner link infinitely small arcs to chords.",
    "use": [
     "history",
@@ -2784,7 +2784,7 @@
    "page": "14",
    "location": "The Notion of Infinitely Small Quantities",
    "latex": "This should be considered as an abbreviation of the proposition proved (\\PageRef{10}), and of the following: If a polygon be inscribed in a circle, the greater the number of its sides, and the smaller their lengths, the more nearly will the perimeters of the polygon and circle be equal to one another; and further, if any straight line be given, however small, the difference between the perimeters of the polygon and circle may be made less than that line, by sufficient increase of the number of sides and diminution of their lengths.",
-   "markdown": "This should be considered as an abbreviation of the proposition proved (10), and of the following: If a polygon be inscribed in a circle, the greater the number of its sides, and the smaller their lengths, the more nearly will the perimeters of the polygon and circle be equal to one another; and further, if any straight line be given, however small, the difference between the perimeters of the polygon and circle may be made less than that line, by sufficient increase of the number of sides and diminution of their lengths.",
+   "markdown": "This should be considered as an abbreviation of the proposition proved (page 10), and of the following: If a polygon be inscribed in a circle, the greater the number of its sides, and the smaller their lengths, the more nearly will the perimeters of the polygon and circle be equal to one another; and further, if any straight line be given, however small, the difference between the perimeters of the polygon and circle may be made less than that line, by sufficient increase of the number of sides and diminution of their lengths.",
    "why": "Translates the loose claim that a circle is a polygon of infinitely many sides into a precise statement.",
    "use": [
     "lesson"
@@ -2917,7 +2917,7 @@
    "page": "15",
    "location": "On Functions",
    "latex": "Thus in \\Fig{1}, the length of the radius~$OB$ is a constant, the arc~$AB$ is the independent variable, while $BM$,~$MA$, the chord~$AB$,~etc., are dependent.",
-   "markdown": "Thus in 1, the length of the radius $OB$ is a constant, the arc $AB$ is the independent variable, while $BM$, $MA$, the chord $AB$, etc., are dependent.",
+   "markdown": "Thus in Fig. 1, the length of the radius $OB$ is a constant, the arc $AB$ is the independent variable, while $BM$, $MA$, the chord $AB$, etc., are dependent.",
    "why": "Gives a concrete geometric picture of constant, independent and dependent quantities.",
    "use": [
     "lesson",
@@ -3262,7 +3262,7 @@
    "page": "21",
    "location": "Taylor's Theorem. Derived Functions",
    "latex": "The proof of this is equivalent to \\emph{Taylor's Theorem} already alluded to (\\PageRef{15}); and the fact may be verified in the examples already given.",
-   "markdown": "The proof of this is equivalent to *Taylor’s Theorem* already alluded to (15); and the fact may be verified in the examples already given.",
+   "markdown": "The proof of this is equivalent to *Taylor’s Theorem* already alluded to (page 15); and the fact may be verified in the examples already given.",
    "why": "It ties the general pattern of derivatives to Taylor's theorem and tells the learner the examples are a check on it.",
    "use": [
     "history",
@@ -3998,7 +3998,7 @@
    "page": "40",
    "location": "Rational Explanation of the Language of Leibnitz",
    "latex": "Let $PP'$ (\\Fig{4}) be a part of a curve, whose equation is $y = \\phi(x)$, that is, $PM$~may always be found by substituting the numerical value of~$OM$ in a given function of~$x$.",
-   "markdown": "Let $PP'$ (4) be a part of a curve, whose equation is $y = \\phi(x)$, that is, $PM$ may always be found by substituting the numerical value of $OM$ in a given function of $x$.",
+   "markdown": "Let $PP'$ (Fig. 4) be a part of a curve, whose equation is $y = \\phi(x)$, that is, $PM$ may always be found by substituting the numerical value of $OM$ in a given function of $x$.",
    "why": "It shows learners how a curve's equation is read as a function, which sets up the increment and tangent work that follows.",
    "use": [
     "lesson"
@@ -5364,7 +5364,7 @@
    "page": "85",
    "location": "Application of the Theorem for Total Differentials to the Determination of Total Resultant Errors",
    "latex": "The formulæ employed, like the equations in \\PageRef{28}, are not actually true in any case, but approach more near to the truth as the errors are diminished.",
-   "markdown": "The formulæ employed, like the equations in 28, are not actually true in any case, but approach more near to the truth as the errors are diminished.",
+   "markdown": "The formulæ employed, like the equations in page 28, are not actually true in any case, but approach more near to the truth as the errors are diminished.",
    "why": "It is an honest statement that the method is approximate and improves as the errors shrink, a point worth teaching alongside the method.",
    "use": [
     "lesson",
@@ -5606,7 +5606,7 @@
    "page": "88",
    "location": "Differential Coefficients of Differential Coefficients",
    "latex": "We have already had occasion to notice these successive differential coefficients in \\PageRef{22}, where it appears that $\\phi' x$~being the first differential coefficient of~$\\phi x$, $\\phi'' x$~is the coefficient of~$h$ in the development $\\phi'(x + h)$, and is therefore the differential coefficient of~$\\phi' x$, or what we have called the second differential coefficient of~$\\phi x$.",
-   "markdown": "We have already had occasion to notice these successive differential coefficients in 22, where it appears that $\\phi' x$ being the first differential coefficient of $\\phi x$, $\\phi'' x$ is the coefficient of $h$ in the development $\\phi'(x + h)$, and is therefore the differential coefficient of $\\phi' x$, or what we have called the second differential coefficient of $\\phi x$.",
+   "markdown": "We have already had occasion to notice these successive differential coefficients in page 22, where it appears that $\\phi' x$ being the first differential coefficient of $\\phi x$, $\\phi'' x$ is the coefficient of $h$ in the development $\\phi'(x + h)$, and is therefore the differential coefficient of $\\phi' x$, or what we have called the second differential coefficient of $\\phi x$.",
    "why": "It links the second derivative to the coefficient of h in the expansion of phi'(x + h), giving a concrete meaning to the notation.",
    "use": [
     "lesson",
@@ -6680,7 +6680,7 @@
    "page": "121",
    "location": "Connexion of the Integral with the Differential Calculus",
    "latex": "It is evident that this series bears a great resemblance to the development in \\PageRef{21}, deprived of its first term.",
-   "markdown": "It is evident that this series bears a great resemblance to the development in 21, deprived of its first term.",
+   "markdown": "It is evident that this series bears a great resemblance to the development in page 21, deprived of its first term.",
    "why": "It shows that the integral series is the earlier expansion with its first term removed, linking two results a learner should keep together.",
    "use": [
     "lesson"
@@ -7121,7 +7121,7 @@
    "page": "133",
    "location": "Concluding Remarks on the Study of the Calculus",
    "latex": "let him remark that if an approximate solution only were required, it might be obtained by dividing the curvilinear area into a number of four-sided figures, as in \\Fig[Figure]{10}, one side of which only is curvilinear, and embracing so small an arc that it may, without visible error, be considered as rectilinear.",
-   "markdown": "let him remark that if an approximate solution only were required, it might be obtained by dividing the curvilinear area into a number of four-sided figures, as in [Figure]10, one side of which only is curvilinear, and embracing so small an arc that it may, without visible error, be considered as rectilinear.",
+   "markdown": "let him remark that if an approximate solution only were required, it might be obtained by dividing the curvilinear area into a number of four-sided figures, as in Figure 10, one side of which only is curvilinear, and embracing so small an arc that it may, without visible error, be considered as rectilinear.",
    "why": "It gives a concrete picture of approximating a curved area by straight-sided pieces that a learner can draw and check.",
    "use": [
     "lesson"

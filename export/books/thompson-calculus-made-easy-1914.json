@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
  "generated_from": {
-  "claudiverse_commit": "c0d3f89",
-  "generated_at": "2026-10-15T21:38:54Z"
+  "claudiverse_commit": "98b2784",
+  "generated_at": "2026-10-15T22:14:38Z"
  },
  "node_types": [
   "book",
@@ -1563,7 +1563,7 @@
    "number": "Table of Standard Forms",
    "title": "Table of Standard Forms",
    "text_latex": "\\AltChapter{Table of Standard Forms}\n\n\\vfil\n\\begin{center}\n\\Pagelabel{stdforms1}\n\\begin{tabular}{|c|c|c|}\n\\hline\n\\multicolumn{1}{|c}{\\DStrut$\\dfrac{dy}{dx}$}\n  & \\multicolumn{1}{c}{$\\longleftarrow\\quad y\\quad\\longrightarrow$}\n  & $\\ds\\int y\\, dx$ \\\\\n\\hline\n\\ColumnHead{Algebraic.} \\\\\n\\DStrut$1$ & $x$     & $\\frac{1}{2} x^2 + C$ \\\\\n\\DStrut$0$ & $a$     & $ax + C $             \\\\\n\\DStrut$1$ & $x ± a$ & $\\frac{1}{2} x^2 ± ax + C$ \\\\\n\\DStrut$a$ & $ax $   & $\\frac{1}{2} ax^2 + C $\\\\\n\\DStrut$2x$ & $x^2$  & $\\frac{1}{3} x^3 + C $ \\\\\n\\DStrut$nx^{n-1}$ & $x^n$ &$ \\dfrac{1}{n+1} x^{n+1} + C $\\\\\n\\DStrut$-x^{-2} $ & $x^{-1}$ & $\\log_\\epsilon x + C$ \\\\\n\\DStrut$\\dfrac{du}{dx} ± \\dfrac{dv}{dx} ± \\dfrac{dw}{dx}$\n   & $u ± v ± w$     & $\\int u\\, dx ± \\int v\\, dx ± \\int w\\, dx$ \\\\\n\\DStrut$u\\, \\dfrac{dv}{dx} + v\\, \\dfrac{du}{dx}$\n   & $uv$  & No general form known \\\\\n\\DStrut$\\dfrac{v\\, \\dfrac{du}{dx} - u\\, \\dfrac{dv}{dx}}{v^2}$\n   & $\\dfrac{u}{v}$ & No general form known \\\\\n\\DStrut$\\dfrac{du}{dx}$ & $u$ & $ux - \\int x\\, du + C$ \\\\\n\\hline\n\\end{tabular}\n\\vfil\\newpage\n\\null\\vfil\n\\begin{tabular}{|c|c|c|}\n\\hline\n\\multicolumn{1}{|c}{\\DStrut$\\dfrac{dy}{dx}$}\n  & \\multicolumn{1}{c}{$\\longleftarrow\\quad y\\quad\\longrightarrow$}\n  & $\\ds\\int y\\, dx$ \\\\\n\\hline\n\\ColumnHead{Exponential and Logarithmic.} \\\\\n$\\epsilon^x$ & $\\epsilon^x$ & $\\epsilon^x + C$ \\\\\n$x^{-1}$     & $\\log_\\epsilon x$ & $ x(\\log_\\epsilon x - 1) + C$ \\\\\n$0.4343 × x^{-1}$ & $\\log_{10} x$ & $0.4343x (\\log_\\epsilon x - 1) + C$ \\\\\n\\DStrut$a^x \\log_\\epsilon a$ & $a^x$ & $\\dfrac{a^x}{\\log_\\epsilon a} + C$ \\\\\n\\hline\n\\ColumnHead{Trigonometrical.} \\\\\n$\\cos x$  & $\\sin x$ & $-\\cos x + C $ \\\\\n$-\\sin x$ & $\\cos x$ & $\\sin x + C $ \\\\\n$\\sec^2 x$& $\\tan x$ & $-\\log_\\epsilon \\cos x + C $ \\\\\n\\hline\n\\ColumnHead{Circular (Inverse).} \\\\\n$\\dfrac{1}{\\sqrt{(1-x^2)}}$ & $\\arcsin x$ & $x · \\arcsin x + \\sqrt{1 - x^2} + C$ \\\\\n\\DStrut$-\\dfrac{1}{\\sqrt{(1-x^2)}}$ & $\\arccos x$ & $x · \\arccos x - \\sqrt{1 - x^2} + C$ \\\\\n$\\dfrac{1}{1+x^2}$ & $\\arctan x$ & $x · \\arctan x - \\frac{1}{2} \\log_\\epsilon (1 + x^2) + C$ \\\\\n\\hline\n\\ColumnHead{Hyperbolic.} \\\\\n$\\cosh x   $ & $\\sinh x$ & $\\cosh x + C$ \\\\\n$\\sinh x   $ & $\\cosh x$ & $\\sinh x + C$ \\\\\n$\\sech^2 x $ & $\\tanh x$ & $\\log_\\epsilon \\cosh x + C $ \\\\\n\\hline\n\\end{tabular}\n\\vfil\\newpage\n\\small\\Pagelabel{stdforms2}\n\\makebox[0pt][c]{\n\\begin{tabular}{|c|c|c|}\n\\hline\n\\multicolumn{1}{|c}{\\DStrut$\\dfrac{dy}{dx}$}\n  & \\multicolumn{1}{c}{$\\longleftarrow\\quad y\\quad\\longrightarrow$}\n  & $\\ds\\int y\\, dx$ \\\\\n\\hline\n\\ColumnHead{Miscellaneous.} \\\\\n\\DStrut$-\\dfrac{1}{(x + a)^2}$ & $\\dfrac{1}{x + a}$ & $ \\log_\\epsilon (x+a) + C $ \\\\\n$-\\dfrac{x}{(a^2 + x^2)^{\\efrac{3}{2}}}$\n  & $\\dfrac{1}{\\sqrt{a^2 + x^2}}$\n  & $\\log_\\epsilon (x + \\sqrt{a^2 + x^2}) + C $ \\\\\n\\DStrut$\\mp \\dfrac{b}{(a ± bx)^2}$\n  & $\\dfrac{1}{a ± bx}$\n  & $± \\dfrac{1}{b} \\log_\\epsilon (a ± bx) + C $ \\\\\n$-\\dfrac{3a^2x}{(a^2 + x^2)^{\\efrac{5}{2}}}$\n  & $\\dfrac{a^2}{(a^2 + x^2)^{\\efrac{3}{2}}}$\n  & $\\dfrac{x}{\\sqrt{a^2 + x^2}} + C $ \\\\\n\\DStrut$ a · \\cos ax$ & $\\sin ax$ & $-\\dfrac{1}{a} \\cos ax + C $ \\\\\n$-a · \\sin ax$ & $\\cos ax$ & $ \\dfrac{1}{a} \\sin ax + C $ \\\\\n\\DStrut$ a · \\sec^2ax$& $\\tan ax$ & $-\\dfrac{1}{a} \\log_\\epsilon \\cos ax + C $ \\\\\n$ \\sin 2x$ & $\\sin^2 x$ & $\\dfrac{x}{2} - \\dfrac{\\sin 2x}{4} + C $ \\\\\n\\DStrut$-\\sin 2x$ & $\\cos^2 x$ & $\\dfrac{x}{2} + \\dfrac{\\sin 2x}{4} + C $ \\\\\n$n · \\sin^{n-1} x · \\cos x$\n  & $ \\sin^n x$\n  & \\footnotesize$\\DStrut\\ds-\\frac{\\cos x}{n} \\sin^{n-1} x\n     + \\frac{n-1}{n} \\int \\sin^{n-2} x\\, dx + C$ \\\\\n$-\\dfrac{\\cos x}{\\sin^2 x}$\n  & $\\dfrac{1}{\\sin x}$\n  & $\\log_\\epsilon \\tan \\dfrac{x}{2} + C$ \\\\\n\\DStrut$-\\dfrac{\\sin 2x}{\\sin^4 x}$\n  & $\\dfrac{1}{\\sin^2 x}$\n  & $ -\\cotan x + C$ \\\\\n$\\dfrac{\\sin^2 x - \\cos^2 x}{\\sin^2 x · \\cos^2 x}$\n  & $ \\dfrac{1}{\\sin x · \\cos x}$\n  & $ \\log_\\epsilon \\tan x + C $ \\\\\n\\DStrut\\parbox{0.2\\linewidth}{\\raggedright\\scriptsize\n  $n · \\sin mx · \\cos nx + m · \\sin nx · \\cos mx $}\n  & $\\sin mx · \\sin nx$\n  & $\\frac{1}{2} \\cos(m - n)x - \\frac{1}{2} \\cos(m + n)x + C$ \\\\\n$ 2a·\\sin 2ax$ & $\\sin^2 ax$ & $\\dfrac{x}{2} - \\dfrac{\\sin 2ax}{4a} + C $ \\\\\n\\DStrut$-2a·\\sin 2ax$ & $\\cos^2 ax$ & $\\dfrac{x}{2} + \\dfrac{\\sin 2ax}{4a} + C $ \\\\\n\\hline\n\\end{tabular}}\n\\end{center}",
-   "text_markdown": "Table of Standard Forms\n\nstdforms1 1|c[-12pt]0pt32pt$\\dfrac{dy}{dx}$ & 1c$\\longleftarrow\\quad y\\quad\\longrightarrow$ & $\\ds\\int y\\, dx$ % 3|c|**Algebraic.** [-12pt]0pt32pt$1$ & $x$ & $\\frac{1}{2} x^2 + C$ [-12pt]0pt32pt$0$ & $a$ & $ax + C $ [-12pt]0pt32pt$1$ & $x ± a$ & $\\frac{1}{2} x^2 ± ax + C$ [-12pt]0pt32pt$a$ & $ax $ & $\\frac{1}{2} ax^2 + C $ [-12pt]0pt32pt$2x$ & $x^2$ & $\\frac{1}{3} x^3 + C $ [-12pt]0pt32pt$nx^{n-1}$ & $x^n$ &$ \\dfrac{1}{n+1} x^{n+1} + C $ [-12pt]0pt32pt$-x^{-2} $ & $x^{-1}$ & $\\log_\\epsilon x + C$ [-12pt]0pt32pt$\\dfrac{du}{dx} ± \\dfrac{dv}{dx} ± \\dfrac{dw}{dx}$ & $u ± v ± w$ & $\\int u\\, dx ± \\int v\\, dx ± \\int w\\, dx$ [-12pt]0pt32pt$u\\, \\dfrac{dv}{dx} + v\\, \\dfrac{du}{dx}$ & $uv$ & No general form known [-12pt]0pt32pt$\\dfrac{v\\, \\dfrac{du}{dx} - u\\, \\dfrac{dv}{dx}}{v^2}$ & $\\dfrac{u}{v}$ & No general form known [-12pt]0pt32pt$\\dfrac{du}{dx}$ & $u$ & $ux - \\int x\\, du + C$\n\n1|c[-12pt]0pt32pt$\\dfrac{dy}{dx}$ & 1c$\\longleftarrow\\quad y\\quad\\longrightarrow$ & $\\ds\\int y\\, dx$ % 3|c|**Exponential and Logarithmic.** $\\epsilon^x$ & $\\epsilon^x$ & $\\epsilon^x + C$ $x^{-1}$ & $\\log_\\epsilon x$ & $ x(\\log_\\epsilon x - 1) + C$ $0.4343 × x^{-1}$ & $\\log_{10} x$ & $0.4343x (\\log_\\epsilon x - 1) + C$ [-12pt]0pt32pt$a^x \\log_\\epsilon a$ & $a^x$ & $\\dfrac{a^x}{\\log_\\epsilon a} + C$ % 3|c|**Trigonometrical.** $\\cos x$ & $\\sin x$ & $-\\cos x + C $ $-\\sin x$ & $\\cos x$ & $\\sin x + C $ $\\sec^2 x$& $\\tan x$ & $-\\log_\\epsilon \\cos x + C $ % 3|c|**Circular (Inverse).** $\\dfrac{1}{\\sqrt{(1-x^2)}}$ & $\\arcsin x$ & $x · \\arcsin x + \\sqrt{1 - x^2} + C$ [-12pt]0pt32pt$-\\dfrac{1}{\\sqrt{(1-x^2)}}$ & $\\arccos x$ & $x · \\arccos x - \\sqrt{1 - x^2} + C$ $\\dfrac{1}{1+x^2}$ & $\\arctan x$ & $x · \\arctan x - \\frac{1}{2} \\log_\\epsilon (1 + x^2) + C$ % 3|c|**Hyperbolic.** $\\cosh x $ & $\\sinh x$ & $\\cosh x + C$ $\\sinh x $ & $\\cosh x$ & $\\sinh x + C$ $\\sech^2 x $ & $\\tanh x$ & $\\log_\\epsilon \\cosh x + C $\n\nstdforms2 [0pt][c] 1|c[-12pt]0pt32pt$\\dfrac{dy}{dx}$ & 1c$\\longleftarrow\\quad y\\quad\\longrightarrow$ & $\\ds\\int y\\, dx$ % 3|c|**Miscellaneous.** [-12pt]0pt32pt$-\\dfrac{1}{(x + a)^2}$ & $\\dfrac{1}{x + a}$ & $ \\log_\\epsilon (x+a) + C $ $-\\dfrac{x}{(a^2 + x^2)^{\\efrac{3}{2}}}$ & $\\dfrac{1}{\\sqrt{a^2 + x^2}}$ & $\\log_\\epsilon (x + \\sqrt{a^2 + x^2}) + C $ [-12pt]0pt32pt$\\mp \\dfrac{b}{(a ± bx)^2}$ & $\\dfrac{1}{a ± bx}$ & $± \\dfrac{1}{b} \\log_\\epsilon (a ± bx) + C $ $-\\dfrac{3a^2x}{(a^2 + x^2)^{\\efrac{5}{2}}}$ & $\\dfrac{a^2}{(a^2 + x^2)^{\\efrac{3}{2}}}$ & $\\dfrac{x}{\\sqrt{a^2 + x^2}} + C $ [-12pt]0pt32pt$ a · \\cos ax$ & $\\sin ax$ & $-\\dfrac{1}{a} \\cos ax + C $ $-a · \\sin ax$ & $\\cos ax$ & $ \\dfrac{1}{a} \\sin ax + C $ [-12pt]0pt32pt$ a · \\sec^2ax$& $\\tan ax$ & $-\\dfrac{1}{a} \\log_\\epsilon \\cos ax + C $ $ \\sin 2x$ & $\\sin^2 x$ & $\\dfrac{x}{2} - \\dfrac{\\sin 2x}{4} + C $ [-12pt]0pt32pt$-\\sin 2x$ & $\\cos^2 x$ & $\\dfrac{x}{2} + \\dfrac{\\sin 2x}{4} + C $ $n · \\sin^{n-1} x · \\cos x$ & $ \\sin^n x$ & $\\DStrut\\ds-\\frac{\\cos x}{n} \\sin^{n-1} x + \\frac{n-1}{n} \\int \\sin^{n-2} x\\, dx + C$ $-\\dfrac{\\cos x}{\\sin^2 x}$ & $\\dfrac{1}{\\sin x}$ & $\\log_\\epsilon \\tan \\dfrac{x}{2} + C$ [-12pt]0pt32pt$-\\dfrac{\\sin 2x}{\\sin^4 x}$ & $\\dfrac{1}{\\sin^2 x}$ & $ -\\cotan x + C$ $\\dfrac{\\sin^2 x - \\cos^2 x}{\\sin^2 x · \\cos^2 x}$ & $ \\dfrac{1}{\\sin x · \\cos x}$ & $ \\log_\\epsilon \\tan x + C $ [-12pt]0pt32pt0.2 $n · \\sin mx · \\cos nx + m · \\sin nx · \\cos mx $ & $\\sin mx · \\sin nx$ & $\\frac{1}{2} \\cos(m - n)x - \\frac{1}{2} \\cos(m + n)x + C$ $ 2a·\\sin 2ax$ & $\\sin^2 ax$ & $\\dfrac{x}{2} - \\dfrac{\\sin 2ax}{4a} + C $ [-12pt]0pt32pt$-2a·\\sin 2ax$ & $\\cos^2 ax$ & $\\dfrac{x}{2} + \\dfrac{\\sin 2ax}{4a} + C $",
+   "text_markdown": "Table of Standard Forms\n\nstdforms1 1|c[-12pt]0pt32pt$\\dfrac{dy}{dx}$ & 1c$\\longleftarrow\\quad y\\quad\\longrightarrow$ & $\\ds\\int y\\, dx$ 3|c|**Algebraic.** [-12pt]0pt32pt$1$ & $x$ & $\\frac{1}{2} x^2 + C$ [-12pt]0pt32pt$0$ & $a$ & $ax + C $ [-12pt]0pt32pt$1$ & $x ± a$ & $\\frac{1}{2} x^2 ± ax + C$ [-12pt]0pt32pt$a$ & $ax $ & $\\frac{1}{2} ax^2 + C $ [-12pt]0pt32pt$2x$ & $x^2$ & $\\frac{1}{3} x^3 + C $ [-12pt]0pt32pt$nx^{n-1}$ & $x^n$ &$ \\dfrac{1}{n+1} x^{n+1} + C $ [-12pt]0pt32pt$-x^{-2} $ & $x^{-1}$ & $\\log_\\epsilon x + C$ [-12pt]0pt32pt$\\dfrac{du}{dx} ± \\dfrac{dv}{dx} ± \\dfrac{dw}{dx}$ & $u ± v ± w$ & $\\int u\\, dx ± \\int v\\, dx ± \\int w\\, dx$ [-12pt]0pt32pt$u\\, \\dfrac{dv}{dx} + v\\, \\dfrac{du}{dx}$ & $uv$ & No general form known [-12pt]0pt32pt$\\dfrac{v\\, \\dfrac{du}{dx} - u\\, \\dfrac{dv}{dx}}{v^2}$ & $\\dfrac{u}{v}$ & No general form known [-12pt]0pt32pt$\\dfrac{du}{dx}$ & $u$ & $ux - \\int x\\, du + C$\n\n1|c[-12pt]0pt32pt$\\dfrac{dy}{dx}$ & 1c$\\longleftarrow\\quad y\\quad\\longrightarrow$ & $\\ds\\int y\\, dx$ 3|c|**Exponential and Logarithmic.** $\\epsilon^x$ & $\\epsilon^x$ & $\\epsilon^x + C$ $x^{-1}$ & $\\log_\\epsilon x$ & $ x(\\log_\\epsilon x - 1) + C$ $0.4343 × x^{-1}$ & $\\log_{10} x$ & $0.4343x (\\log_\\epsilon x - 1) + C$ [-12pt]0pt32pt$a^x \\log_\\epsilon a$ & $a^x$ & $\\dfrac{a^x}{\\log_\\epsilon a} + C$ 3|c|**Trigonometrical.** $\\cos x$ & $\\sin x$ & $-\\cos x + C $ $-\\sin x$ & $\\cos x$ & $\\sin x + C $ $\\sec^2 x$& $\\tan x$ & $-\\log_\\epsilon \\cos x + C $ 3|c|**Circular (Inverse).** $\\dfrac{1}{\\sqrt{(1-x^2)}}$ & $\\arcsin x$ & $x · \\arcsin x + \\sqrt{1 - x^2} + C$ [-12pt]0pt32pt$-\\dfrac{1}{\\sqrt{(1-x^2)}}$ & $\\arccos x$ & $x · \\arccos x - \\sqrt{1 - x^2} + C$ $\\dfrac{1}{1+x^2}$ & $\\arctan x$ & $x · \\arctan x - \\frac{1}{2} \\log_\\epsilon (1 + x^2) + C$ 3|c|**Hyperbolic.** $\\cosh x $ & $\\sinh x$ & $\\cosh x + C$ $\\sinh x $ & $\\cosh x$ & $\\sinh x + C$ $\\sech^2 x $ & $\\tanh x$ & $\\log_\\epsilon \\cosh x + C $\n\nstdforms2 [0pt][c] 1|c[-12pt]0pt32pt$\\dfrac{dy}{dx}$ & 1c$\\longleftarrow\\quad y\\quad\\longrightarrow$ & $\\ds\\int y\\, dx$ 3|c|**Miscellaneous.** [-12pt]0pt32pt$-\\dfrac{1}{(x + a)^2}$ & $\\dfrac{1}{x + a}$ & $ \\log_\\epsilon (x+a) + C $ $-\\dfrac{x}{(a^2 + x^2)^{\\efrac{3}{2}}}$ & $\\dfrac{1}{\\sqrt{a^2 + x^2}}$ & $\\log_\\epsilon (x + \\sqrt{a^2 + x^2}) + C $ [-12pt]0pt32pt$\\mp \\dfrac{b}{(a ± bx)^2}$ & $\\dfrac{1}{a ± bx}$ & $± \\dfrac{1}{b} \\log_\\epsilon (a ± bx) + C $ $-\\dfrac{3a^2x}{(a^2 + x^2)^{\\efrac{5}{2}}}$ & $\\dfrac{a^2}{(a^2 + x^2)^{\\efrac{3}{2}}}$ & $\\dfrac{x}{\\sqrt{a^2 + x^2}} + C $ [-12pt]0pt32pt$ a · \\cos ax$ & $\\sin ax$ & $-\\dfrac{1}{a} \\cos ax + C $ $-a · \\sin ax$ & $\\cos ax$ & $ \\dfrac{1}{a} \\sin ax + C $ [-12pt]0pt32pt$ a · \\sec^2ax$& $\\tan ax$ & $-\\dfrac{1}{a} \\log_\\epsilon \\cos ax + C $ $ \\sin 2x$ & $\\sin^2 x$ & $\\dfrac{x}{2} - \\dfrac{\\sin 2x}{4} + C $ [-12pt]0pt32pt$-\\sin 2x$ & $\\cos^2 x$ & $\\dfrac{x}{2} + \\dfrac{\\sin 2x}{4} + C $ $n · \\sin^{n-1} x · \\cos x$ & $ \\sin^n x$ & $\\DStrut\\ds-\\frac{\\cos x}{n} \\sin^{n-1} x + \\frac{n-1}{n} \\int \\sin^{n-2} x\\, dx + C$ $-\\dfrac{\\cos x}{\\sin^2 x}$ & $\\dfrac{1}{\\sin x}$ & $\\log_\\epsilon \\tan \\dfrac{x}{2} + C$ [-12pt]0pt32pt$-\\dfrac{\\sin 2x}{\\sin^4 x}$ & $\\dfrac{1}{\\sin^2 x}$ & $ -\\cotan x + C$ $\\dfrac{\\sin^2 x - \\cos^2 x}{\\sin^2 x · \\cos^2 x}$ & $ \\dfrac{1}{\\sin x · \\cos x}$ & $ \\log_\\epsilon \\tan x + C $ [-12pt]0pt32pt0.2 $n · \\sin mx · \\cos nx + m · \\sin nx · \\cos mx $ & $\\sin mx · \\sin nx$ & $\\frac{1}{2} \\cos(m - n)x - \\frac{1}{2} \\cos(m + n)x + C$ $ 2a·\\sin 2ax$ & $\\sin^2 ax$ & $\\dfrac{x}{2} - \\dfrac{\\sin 2ax}{4a} + C $ [-12pt]0pt32pt$-2a·\\sin 2ax$ & $\\cos^2 ax$ & $\\dfrac{x}{2} + \\dfrac{\\sin 2ax}{4a} + C $",
    "text_html": "<h1 class=\"unnumbered\" id=\"table-of-standard-forms.\">TABLE OF STANDARD FORMS.</h1>\n<div class=\"center\">\n<p><span class=\"math display\">\\[\\begin{array}{|c|c|c|}\n\\hline\n\\rule[-12pt]{0pt}{32pt}\\dfrac{dy}{dx}\n  &amp;  \\longleftarrow\\quad y\\quad\\longrightarrow\n  &amp;  \\displaystyle\\int y\\, dx \\\\\n\\hline\n%\n  \\textbf{Algebraic.}\n \\\\\n\\rule[-12pt]{0pt}{32pt}1 &amp;  x     &amp;  \\frac{1}{2} x^2 + C \\\\\n\\rule[-12pt]{0pt}{32pt}0 &amp;  a     &amp;  ax + C              \\\\\n\\rule[-12pt]{0pt}{32pt}1 &amp;  x ± a &amp;  \\frac{1}{2} x^2 ± ax + C \\\\\n\\rule[-12pt]{0pt}{32pt}a &amp;  ax    &amp;  \\frac{1}{2} ax^2 + C \\\\\n\\rule[-12pt]{0pt}{32pt}2x &amp;  x^2  &amp;  \\frac{1}{3} x^3 + C  \\\\\n\\rule[-12pt]{0pt}{32pt}nx^{n-1} &amp;  x^n &amp;  \\dfrac{1}{n+1} x^{n+1} + C \\\\\n\\rule[-12pt]{0pt}{32pt}-x^{-2}  &amp;  x^{-1} &amp;  \\log_\\epsilon x + C \\\\\n\\rule[-12pt]{0pt}{32pt}\\dfrac{du}{dx} ± \\dfrac{dv}{dx} ± \\dfrac{dw}{dx}\n   &amp;  u ± v ± w     &amp;  \\int u\\, dx ± \\int v\\, dx ± \\int w\\, dx \\\\\n\\rule[-12pt]{0pt}{32pt}u\\, \\dfrac{dv}{dx} + v\\, \\dfrac{du}{dx}\n   &amp;  uv  &amp;\\text{ No general form known }\\\\\n\\rule[-12pt]{0pt}{32pt}\\dfrac{v\\, \\dfrac{du}{dx} - u\\, \\dfrac{dv}{dx}}{v^2}\n   &amp;  \\dfrac{u}{v} &amp;\\text{ No general form known }\\\\\n\\rule[-12pt]{0pt}{32pt}\\dfrac{du}{dx} &amp;  u &amp;  ux - \\int x\\, du + C \\\\\n\\hline\n\\end{array}\\]</span> <span class=\"math display\">\\[\\begin{array}{|c|c|c|}\n\\hline\n\\rule[-12pt]{0pt}{32pt}\\dfrac{dy}{dx}\n  &amp;  \\longleftarrow\\quad y\\quad\\longrightarrow\n  &amp;  \\displaystyle\\int y\\, dx \\\\\n\\hline\n%\n  \\textbf{Exponential and Logarithmic.}\n \\\\\n \\epsilon^x &amp;  \\epsilon^x &amp;  \\epsilon^x + C \\\\\n x^{-1}     &amp;  \\log_\\epsilon x &amp;   x(\\log_\\epsilon x - 1) + C \\\\\n 0.4343 × x^{-1} &amp;  \\log_{10} x &amp;  0.4343x (\\log_\\epsilon x - 1) + C \\\\\n\\rule[-12pt]{0pt}{32pt}a^x \\log_\\epsilon a &amp;  a^x &amp;  \\dfrac{a^x}{\\log_\\epsilon a} + C \\\\\n\\hline\n%\n  \\textbf{Trigonometrical.}\n \\\\\n \\cos x  &amp;  \\sin x &amp;  -\\cos x + C  \\\\\n -\\sin x &amp;  \\cos x &amp;  \\sin x + C  \\\\\n \\sec^2 x&amp;  \\tan x &amp;  -\\log_\\epsilon \\cos x + C  \\\\\n\\hline\n%\n  \\textbf{Circular (Inverse).}\n \\\\\n \\dfrac{1}{\\sqrt{(1-x^2)}} &amp;  \\Arcsin x &amp;  x · \\Arcsin x + \\sqrt{1 - x^2} + C \\\\\n\\rule[-12pt]{0pt}{32pt}-\\dfrac{1}{\\sqrt{(1-x^2)}} &amp;  \\Arccos x &amp;  x · \\Arccos x - \\sqrt{1 - x^2} + C \\\\\n \\dfrac{1}{1+x^2} &amp;  \\Arctan x &amp;  x · \\Arctan x - \\frac{1}{2} \\log_\\epsilon (1 + x^2) + C \\\\\n\\hline\n%\n  \\textbf{Hyperbolic.}\n \\\\\n \\cosh x    &amp;  \\sinh x &amp;  \\cosh x + C \\\\\n \\sinh x    &amp;  \\cosh x &amp;  \\sinh x + C \\\\\n \\sech^2 x  &amp;  \\tanh x &amp;  \\log_\\epsilon \\cosh x + C  \\\\\n\\hline\n\\end{array}\\]</span></p>\n<table>\n<thead>\n<tr>\n<th style=\"text-align: center;\"><span class=\"math inline\">\\(\\dfrac{dy}{dx}\\)</span></th>\n<th style=\"text-align: center;\"><span class=\"math inline\">\\(\\longleftarrow\\quad y\\quad\\longrightarrow\\)</span></th>\n<th style=\"text-align: center;\"><span class=\"math inline\">\\(\\displaystyle\\int y\\, dx\\)</span></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td colspan=\"3\" style=\"text-align: center;\"><strong>Miscellaneous.</strong></td>\n</tr>\n<tr>\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(-\\dfrac{1}{(x + a)^2}\\)</span></td>\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(\\dfrac{1}{x + a}\\)</span></td>\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(\\log_\\epsilon (x+a) + C\\)</span></td>\n</tr>\n<tr>\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(-\\dfrac{x}{(a^2 + x^2)^{\\frac{3}{2}}}\\)</span></td>\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(\\dfrac{1}{\\sqrt{a^2 + x^2}}\\)</span></td>\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(\\log_\\epsilon (x + \\sqrt{a^2 + x^2}) + C\\)</span></td>\n</tr>\n<tr>\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(\\mp \\dfrac{b}{(a ± bx)^2}\\)</span></td>\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(\\dfrac{1}{a ± bx}\\)</span></td>\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(± \\dfrac{1}{b} \\log_\\epsilon (a ± bx) + C\\)</span></td>\n</tr>\n<tr>\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(-\\dfrac{3a^2x}{(a^2 + x^2)^{\\frac{5}{2}}}\\)</span></td>\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(\\dfrac{a^2}{(a^2 + x^2)^{\\frac{3}{2}}}\\)</span></td>\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(\\dfrac{x}{\\sqrt{a^2 + x^2}} + C\\)</span></td>\n</tr>\n<tr>\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(a · \\cos ax\\)</span></td>\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(\\sin ax\\)</span></td>\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(-\\dfrac{1}{a} \\cos ax + C\\)</span></td>\n</tr>\n<tr>\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(-a · \\sin ax\\)</span></td>\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(\\cos ax\\)</span></td>\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(\\dfrac{1}{a} \\sin ax + C\\)</span></td>\n</tr>\n<tr>\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(a · \\sec^2ax\\)</span></td>\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(\\tan ax\\)</span></td>\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(-\\dfrac{1}{a} \\log_\\epsilon \\cos ax + C\\)</span></td>\n</tr>\n<tr>\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(\\sin 2x\\)</span></td>\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(\\sin^2 x\\)</span></td>\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(\\dfrac{x}{2} - \\dfrac{\\sin 2x}{4} + C\\)</span></td>\n</tr>\n<tr>\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(-\\sin 2x\\)</span></td>\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(\\cos^2 x\\)</span></td>\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(\\dfrac{x}{2} + \\dfrac{\\sin 2x}{4} + C\\)</span></td>\n</tr>\n<tr>\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(n · \\sin^{n-1} x · \\cos x\\)</span></td>\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(\\sin^n x\\)</span></td>\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(\\rule[-12pt]{0pt}{32pt}\\displaystyle-\\frac{\\cos x}{n} \\sin^{n-1} x\n     + \\frac{n-1}{n} \\int \\sin^{n-2} x\\, dx + C\\)</span></td>\n</tr>\n<tr>\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(-\\dfrac{\\cos x}{\\sin^2 x}\\)</span></td>\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(\\dfrac{1}{\\sin x}\\)</span></td>\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(\\log_\\epsilon \\tan \\dfrac{x}{2} + C\\)</span></td>\n</tr>\n<tr>\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(-\\dfrac{\\sin 2x}{\\sin^4 x}\\)</span></td>\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(\\dfrac{1}{\\sin^2 x}\\)</span></td>\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(-\\cotan x + C\\)</span></td>\n</tr>\n<tr>\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(\\dfrac{\\sin^2 x - \\cos^2 x}{\\sin^2 x · \\cos^2 x}\\)</span></td>\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(\\dfrac{1}{\\sin x · \\cos x}\\)</span></td>\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(\\log_\\epsilon \\tan x + C\\)</span></td>\n</tr>\n<tr>\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(n · \\sin mx · \\cos nx + m · \\sin nx · \\cos mx\\)</span></td>\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(\\sin mx · \\sin nx\\)</span></td>\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(\\frac{1}{2} \\cos(m - n)x - \\frac{1}{2} \\cos(m + n)x + C\\)</span></td>\n</tr>\n<tr>\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(2a·\\sin 2ax\\)</span></td>\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(\\sin^2 ax\\)</span></td>\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(\\dfrac{x}{2} - \\dfrac{\\sin 2ax}{4a} + C\\)</span></td>\n</tr>\n<tr>\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(-2a·\\sin 2ax\\)</span></td>\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(\\cos^2 ax\\)</span></td>\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(\\dfrac{x}{2} + \\dfrac{\\sin 2ax}{4a} + C\\)</span></td>\n</tr>\n</tbody>\n</table>\n</div>",
    "name": "Thompson 1914, Table of Standard Forms",
    "pages": [
@@ -2343,7 +2343,7 @@
    "page": "19",
    "location": "Simplest Cases",
    "latex": "Then $(dx)^2$~will mean a little bit of a little bit of~$x$; that is, as explained above (\\Pageref{smallness}), it is a small quantity of the second order of smallness. It may therefore be discarded as quite inconsiderable in comparison with the other terms.",
-   "markdown": "Then $(dx)^2$ will mean a little bit of a little bit of $x$; that is, as explained above (smallness), it is a small quantity of the second order of smallness. It may therefore be discarded as quite inconsiderable in comparison with the other terms.",
+   "markdown": "Then $(dx)^2$ will mean a little bit of a little bit of $x$; that is, as explained above, it is a small quantity of the second order of smallness. It may therefore be discarded as quite inconsiderable in comparison with the other terms.",
    "why": "Explains in plain words why the (dx)^2 term can be dropped in the working.",
    "use": [
     "lesson"
@@ -3381,7 +3381,7 @@
    "page": "78",
    "location": "Geometrical Meaning of Differentiation",
    "latex": "If a curve is sloping up at~$45°$ at a particular point, as in \\Fig{8}, $dy$ and~$dx$ will be equal, and the value of $\\dfrac{dy}{dx} = 1$.",
-   "markdown": "If a curve is sloping up at $45°$ at a particular point, as in [fig:8]Fig. 8, $dy$ and $dx$ will be equal, and the value of $\\dfrac{dy}{dx} = 1$.",
+   "markdown": "If a curve is sloping up at $45°$ at a particular point, as in Fig. 8, $dy$ and $dx$ will be equal, and the value of $\\dfrac{dy}{dx} = 1$.",
    "why": "Gives a concrete benchmark for reading slope values from a picture.",
    "use": [
     "lesson"
@@ -3399,7 +3399,7 @@
    "page": "79",
    "location": "Geometrical Meaning of Differentiation",
    "latex": "If a curve slopes \\emph{downward}, as in \\Fig{11}, $dy$~will be a step down, and must therefore be reckoned of negative value; hence $\\dfrac{dy}{dx}$~will have negative sign also.",
-   "markdown": "If a curve slopes *downward*, as in [fig:11]Fig. 11, $dy$ will be a step down, and must therefore be reckoned of negative value; hence $\\dfrac{dy}{dx}$ will have negative sign also.",
+   "markdown": "If a curve slopes *downward*, as in Fig. 11, $dy$ will be a step down, and must therefore be reckoned of negative value; hence $\\dfrac{dy}{dx}$ will have negative sign also.",
    "why": "Shows why a descending curve has a negative slope.",
    "use": [
     "lesson"
@@ -3435,7 +3435,7 @@
    "page": "88",
    "location": "Geometrical Meaning of Differentiation",
    "latex": "The slope of the tangent is the slope of the curve at the point where they touch one another (see \\Pageref{slope}); that is, it is the $\\dfrac{dy}{dx}$ of the curve for that point.",
-   "markdown": "The slope of the tangent is the slope of the curve at the point where they touch one another (see slope); that is, it is the $\\dfrac{dy}{dx}$ of the curve for that point.",
+   "markdown": "The slope of the tangent is the slope of the curve at the point where they touch one another (see ); that is, it is the $\\dfrac{dy}{dx}$ of the curve for that point.",
    "why": "Starts the worked method for finding a tangent: use dy/dx at the touching point.",
    "use": [
     "lesson"
@@ -5202,7 +5202,7 @@
    "page": "216",
    "location": "On Finding Areas by Integrating",
    "latex": "Consider an elementary zone or annulus of the surface (\\Fig{59}), of breadth~$dr$, situated at a distance~$r$ from the centre. We may consider the entire surface as consisting of such narrow zones, and the whole area~$A$ will simply be the integral of all such elementary zones from centre to margin, that is, integrated from $r = 0$ to $r = R$.",
-   "markdown": "Consider an elementary zone or annulus of the surface ([fig:59]Fig. 59), of breadth $dr$, situated at a distance $r$ from the centre. We may consider the entire surface as consisting of such narrow zones, and the whole area $A$ will simply be the integral of all such elementary zones from centre to margin, that is, integrated from $r = 0$ to $r = R$.",
+   "markdown": "Consider an elementary zone or annulus of the surface (Fig. 59), of breadth $dr$, situated at a distance $r$ from the centre. We may consider the entire surface as consisting of such narrow zones, and the whole area $A$ will simply be the integral of all such elementary zones from centre to margin, that is, integrated from $r = 0$ to $r = R$.",
    "why": "It shows how to build an integral from a well-chosen thin piece, by re-deriving the familiar area of a circle.",
    "use": [
     "lesson"
@@ -5474,7 +5474,7 @@
    "page": "245",
    "location": "Finding some Solutions",
    "latex": "The only function we know that has this property is the exponential function (see \\Pageref{unchanged}), and we may be certain therefore that the solution of the equation will be of that form.",
-   "markdown": "The only function we know that has this property is the exponential function (see unchanged), and we may be certain therefore that the solution of the equation will be of that form.",
+   "markdown": "The only function we know that has this property is the exponential function (see ), and we may be certain therefore that the solution of the equation will be of that form.",
    "why": "It explains why the exponential is the natural trial solution when a function's second derivative is proportional to itself.",
    "use": [
     "lesson"
@@ -21900,7 +21900,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -21946,7 +21946,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -21993,7 +21993,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -22040,7 +22040,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -22086,7 +22086,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -22132,7 +22132,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -22179,7 +22179,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS-ERRATUM"
     ]
@@ -22227,7 +22227,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -22275,7 +22275,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -22321,7 +22321,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -22368,7 +22368,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -22414,7 +22414,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -22462,7 +22462,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS-INTERPRETED"
     ]
@@ -22510,7 +22510,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS-INTERPRETED"
     ]
@@ -22558,7 +22558,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS-INTERPRETED"
     ]
@@ -22606,7 +22606,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS-INTERPRETED"
     ]
@@ -22654,7 +22654,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS-INTERPRETED"
     ]
@@ -22702,7 +22702,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS-INTERPRETED"
     ]
@@ -22750,7 +22750,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS-INTERPRETED"
     ]
@@ -22797,7 +22797,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -22843,7 +22843,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -22889,7 +22889,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -22935,7 +22935,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -22981,7 +22981,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -23028,7 +23028,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -23096,7 +23096,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS",
      "PASS",
@@ -23151,7 +23151,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -23200,7 +23200,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -23249,7 +23249,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -23296,7 +23296,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -23343,7 +23343,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -23390,7 +23390,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -23436,7 +23436,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -23482,7 +23482,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -23528,7 +23528,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS-ALT-ERRATUM"
     ]
@@ -23597,7 +23597,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS-ERRATUM",
      "PASS",
@@ -23652,7 +23652,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -23698,7 +23698,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -23744,7 +23744,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS-INTERPRETED"
     ]
@@ -23791,7 +23791,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -23837,7 +23837,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -23884,7 +23884,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -23931,7 +23931,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -23979,7 +23979,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -24027,7 +24027,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -24074,7 +24074,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -24121,7 +24121,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -24169,7 +24169,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -24216,7 +24216,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -24263,7 +24263,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -24310,7 +24310,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -24356,7 +24356,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -24402,7 +24402,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -24449,7 +24449,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -24496,7 +24496,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -24542,7 +24542,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -24570,12 +24570,12 @@
    "page": "51",
    "location": "Exercise IV, problem 4",
    "problem_latex": "Find the 2nd and~3rd derived functions in\nthe Exercises~III. (\\Pageref{examples2}), No.~1 to No.~7, and in the\nExamples given (\\Pageref{examples3}), No.~1 to No.~7.",
-   "markdown": "Find the 2nd and 3rd derived functions in the Exercises III. (examples2), No. 1 to No. 7, and in the Examples given (examples3), No. 1 to No. 7.",
+   "markdown": "Find the 2nd and 3rd derived functions in the Exercises III., No. 1 to No. 7, and in the Examples given, No. 1 to No. 7.",
    "answer_latex": [
     "(\\textit{Exercises III.}):\n\\begin{itemize}\n\\item[(1)] (\\textit{a}) $\\dfrac{d^2 y}{dx^2} = \\dfrac{d^3 y}{dx^3} = 1 + x + \\frac{1}{2}x^2 + \\frac{1}{6} x^3 + \\ldots$. \\\\\n  (\\textit{b}) $2a$, $0$.\\hfil\n  (\\textit{c}) $2$, $0$.\\hfil\n  (\\textit{d}) $6x + 6a$, $6$.\n\n\\DPPageSep{268.png}{256}%\n\\item[(2)] $-b$, $0$.\\hfil (3) $2$, $0$.\\hfil\n\n\\item[(4)] $\\begin{gathered}[t]\n    56440x^3 - 196212x^2 - 4488x + 8192. \\\\\n    169320x^2 - 392424x - 4488.\n    \\end{gathered}$\n\n\\item[(5)] $2$, $0$. \\hfil (6) $371.80453x$, $371.80453$. \\hfil\n\n\\item[(7)] $\\dfrac{30}{(3x + 2)^3}$,\\quad $-\\dfrac{270}{(3x + 2)^4}$.\n\\end{itemize}\n\n\\paragraph{\\normalfont(\\textit{Examples}, \\Pageref{examples3}):}\n\\begin{itemize}\n\\item[(1)] $\\dfrac{6a}{b^2} x$,\\quad $\\dfrac{6a}{b^2}$.\\hfil\n(2) $\\dfrac{3a \\sqrt{b}} {2 \\sqrt{x}} - \\dfrac{6b \\sqrt[3]{a}}{x^3}$,\\quad\n$\\dfrac{18b \\sqrt[3]{a}}{x^4} - \\dfrac{3a \\sqrt{b}}{4 \\sqrt{x^3}}$\\DPtypo{}{.}\n\n\\Item{(3)}\n$\\dfrac{2}{\\sqrt[3]{\\theta^8}} - \\dfrac{1.056}{\\sqrt[5]{\\theta^{11}}}$,\\quad\n$\\dfrac{2.3232}{\\sqrt[5]{\\theta^{16}}} - \\dfrac{16}{3 \\sqrt[3]{\\theta^{11}}}$.\n\n\\Item{(4)} $\\begin{gathered}[t]\n  810t^4 - 648t^3 + 479.52t^2 - 139.968t + 26.64. \\\\\n  3240t^3 - 1944t^2 + 959.04t - 139.968.\n  \\end{gathered}$\n\n\\Item{(5)}  $12x + 2$, $12$.\\hfil\n(6) $6x^2 - 9x$,\\quad $12x - 9$.\\hfil\n\n\\Item{(7)}\n$\\begin{aligned}[t]\n&\\dfrac{3}{4} \\left(\\dfrac{1}{\\sqrt{\\theta}} + \\dfrac{1}{\\sqrt{\\theta^5}}\\right)\n+\\dfrac{1}{4} \\left(\\dfrac{15}{\\sqrt{\\theta^7}} - \\dfrac{1}{\\sqrt{\\theta^3}}\\right). \\\\\n&\\dfrac{3}{8} \\left(\\dfrac{1}{\\sqrt{\\theta^5}} - \\dfrac{1}{\\sqrt{\\theta^3}}\\right)\n-\\dfrac{15}{8}\\left(\\dfrac{7}{\\sqrt{\\theta^9}} + \\dfrac{1}{\\sqrt{\\theta^7}}\\right).\n\\end{aligned}$\n\\end{itemize}"
    ],
    "answer_markdown": [
-    "(*Exercises III.*): (1) (*a*) $\\dfrac{d^2 y}{dx^2} = \\dfrac{d^3 y}{dx^3} = 1 + x + \\frac{1}{2}x^2 + \\frac{1}{6} x^3 + \\ldots$. (*b*) $2a$, $0$. (*c*) $2$, $0$. (*d*) $6x + 6a$, $6$. 268.png256 (2) $-b$, $0$.(3) $2$, $0$. (4) $\\begin{gathered}[t] 56440x^3 - 196212x^2 - 4488x + 8192. \\\\ 169320x^2 - 392424x - 4488. \\end{gathered}$ (5) $2$, $0$. (6) $371.80453x$, $371.80453$. (7) $\\dfrac{30}{(3x + 2)^3}$, $-\\dfrac{270}{(3x + 2)^4}$. (*Examples*, examples3): (1) $\\dfrac{6a}{b^2} x$, $\\dfrac{6a}{b^2}$.(2) $\\dfrac{3a \\sqrt{b}} {2 \\sqrt{x}} - \\dfrac{6b \\sqrt[3]{a}}{x^3}$, $\\dfrac{18b \\sqrt[3]{a}}{x^4} - \\dfrac{3a \\sqrt{b}}{4 \\sqrt{x^3}}$ (3) $\\dfrac{2}{\\sqrt[3]{\\theta^8}} - \\dfrac{1.056}{\\sqrt[5]{\\theta^{11}}}$, $\\dfrac{2.3232}{\\sqrt[5]{\\theta^{16}}} - \\dfrac{16}{3 \\sqrt[3]{\\theta^{11}}}$. (4) $\\begin{gathered}[t] 810t^4 - 648t^3 + 479.52t^2 - 139.968t + 26.64. \\\\ 3240t^3 - 1944t^2 + 959.04t - 139.968. \\end{gathered}$ (5) $12x + 2$, $12$.(6) $6x^2 - 9x$, $12x - 9$. (7) $\\begin{aligned}[t] &\\dfrac{3}{4} \\left(\\dfrac{1}{\\sqrt{\\theta}} + \\dfrac{1}{\\sqrt{\\theta^5}}\\right) +\\dfrac{1}{4} \\left(\\dfrac{15}{\\sqrt{\\theta^7}} - \\dfrac{1}{\\sqrt{\\theta^3}}\\right). \\\\ &\\dfrac{3}{8} \\left(\\dfrac{1}{\\sqrt{\\theta^5}} - \\dfrac{1}{\\sqrt{\\theta^3}}\\right) -\\dfrac{15}{8}\\left(\\dfrac{7}{\\sqrt{\\theta^9}} + \\dfrac{1}{\\sqrt{\\theta^7}}\\right). \\end{aligned}$"
+    "(*Exercises III.*): (1) (*a*) $\\dfrac{d^2 y}{dx^2} = \\dfrac{d^3 y}{dx^3} = 1 + x + \\frac{1}{2}x^2 + \\frac{1}{6} x^3 + \\ldots$. (*b*) $2a$, $0$. (*c*) $2$, $0$. (*d*) $6x + 6a$, $6$. 268.png256 (2) $-b$, $0$.(3) $2$, $0$. (4) $\\begin{gathered}[t] 56440x^3 - 196212x^2 - 4488x + 8192. \\\\ 169320x^2 - 392424x - 4488. \\end{gathered}$ (5) $2$, $0$. (6) $371.80453x$, $371.80453$. (7) $\\dfrac{30}{(3x + 2)^3}$, $-\\dfrac{270}{(3x + 2)^4}$. (*Examples*): (1) $\\dfrac{6a}{b^2} x$, $\\dfrac{6a}{b^2}$.(2) $\\dfrac{3a \\sqrt{b}} {2 \\sqrt{x}} - \\dfrac{6b \\sqrt[3]{a}}{x^3}$, $\\dfrac{18b \\sqrt[3]{a}}{x^4} - \\dfrac{3a \\sqrt{b}}{4 \\sqrt{x^3}}$ (3) $\\dfrac{2}{\\sqrt[3]{\\theta^8}} - \\dfrac{1.056}{\\sqrt[5]{\\theta^{11}}}$, $\\dfrac{2.3232}{\\sqrt[5]{\\theta^{16}}} - \\dfrac{16}{3 \\sqrt[3]{\\theta^{11}}}$. (4) $\\begin{gathered}[t] 810t^4 - 648t^3 + 479.52t^2 - 139.968t + 26.64. \\\\ 3240t^3 - 1944t^2 + 959.04t - 139.968. \\end{gathered}$ (5) $12x + 2$, $12$.(6) $6x^2 - 9x$, $12x - 9$. (7) $\\begin{aligned}[t] &\\dfrac{3}{4} \\left(\\dfrac{1}{\\sqrt{\\theta}} + \\dfrac{1}{\\sqrt{\\theta^5}}\\right) +\\dfrac{1}{4} \\left(\\dfrac{15}{\\sqrt{\\theta^7}} - \\dfrac{1}{\\sqrt{\\theta^3}}\\right). \\\\ &\\dfrac{3}{8} \\left(\\dfrac{1}{\\sqrt{\\theta^5}} - \\dfrac{1}{\\sqrt{\\theta^3}}\\right) -\\dfrac{15}{8}\\left(\\dfrac{7}{\\sqrt{\\theta^9}} + \\dfrac{1}{\\sqrt{\\theta^7}}\\right). \\end{aligned}$"
    ],
    "checks": [
     {
@@ -24588,7 +24588,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-EXTRACTION"
     ]
@@ -24630,7 +24630,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS-INTERPRETED"
     ]
@@ -24678,7 +24678,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS-INTERPRETED"
     ]
@@ -24726,7 +24726,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -24781,7 +24781,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS",
      "PASS"
@@ -24842,7 +24842,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS",
      "PASS"
@@ -24896,7 +24896,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -24940,7 +24940,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-EXTRACTION"
     ]
@@ -24970,7 +24970,7 @@
     "$25 \\sqrt{3}$ square inches.\n\n\\ResetCols{1}"
    ],
    "answer_markdown": [
-    "$25 \\sqrt{3}$ square inches. % InMulticols% % 11% InMulticolsfalse% % InMulticolstrue% 1[]% %"
+    "$25 \\sqrt{3}$ square inches."
    ],
    "checks": [
     {
@@ -24983,7 +24983,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-EXTRACTION"
     ]
@@ -25027,7 +25027,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-MISSING"
     ]
@@ -25070,7 +25070,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -25123,7 +25123,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS",
      "PASS"
@@ -25176,7 +25176,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -25225,7 +25225,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -25274,7 +25274,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS-INTERPRETED"
     ]
@@ -25322,7 +25322,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS-INTERPRETED"
     ]
@@ -25370,7 +25370,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS-INTERPRETED"
     ]
@@ -25417,7 +25417,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-MISSING"
     ]
@@ -25460,7 +25460,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS-INTERPRETED"
     ]
@@ -25508,7 +25508,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS-INTERPRETED"
     ]
@@ -25563,7 +25563,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS-INTERPRETED",
      "PASS-LOOSE"
@@ -25616,7 +25616,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-TASK"
     ]
@@ -25662,7 +25662,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-TASK"
     ]
@@ -25707,7 +25707,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-EXTRACTION"
     ]
@@ -25753,7 +25753,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-EXTRACTION"
     ]
@@ -25820,7 +25820,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS",
      "PASS",
@@ -25875,7 +25875,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -25923,7 +25923,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -25976,7 +25976,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS",
      "PASS"
@@ -26033,7 +26033,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS",
      "PASS"
@@ -26090,7 +26090,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS",
      "PASS"
@@ -26147,7 +26147,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS",
      "PASS"
@@ -26204,7 +26204,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS",
      "PASS"
@@ -26263,7 +26263,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS",
      "PASS"
@@ -26315,7 +26315,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-DOMAIN"
     ]
@@ -26363,7 +26363,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-DOMAIN"
     ]
@@ -26418,7 +26418,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS",
      "PASS"
@@ -26477,7 +26477,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS",
      "PASS"
@@ -26530,7 +26530,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -26577,7 +26577,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -26624,7 +26624,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -26671,7 +26671,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -26718,7 +26718,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -26765,7 +26765,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -26813,7 +26813,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -26861,7 +26861,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-TASK"
     ]
@@ -26905,7 +26905,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -26955,7 +26955,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-MISMATCH"
     ]
@@ -27002,7 +27002,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -27049,7 +27049,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -27092,7 +27092,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-MISSING"
     ]
@@ -27136,7 +27136,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-TASK"
     ]
@@ -27180,7 +27180,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-TASK"
     ]
@@ -27223,7 +27223,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-TASK"
     ]
@@ -27274,7 +27274,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS",
      "PASS"
@@ -27320,7 +27320,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-MISSING"
     ]
@@ -27392,7 +27392,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS",
      "PASS",
@@ -27449,7 +27449,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-MISSING"
     ]
@@ -27493,7 +27493,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-MISSING"
     ]
@@ -27544,7 +27544,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS",
      "PASS"
@@ -27594,7 +27594,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-TASK"
     ]
@@ -27638,7 +27638,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-MISSING"
     ]
@@ -27683,7 +27683,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -27732,7 +27732,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-MISSING"
     ]
@@ -27778,7 +27778,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-MISSING"
     ]
@@ -27828,7 +27828,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS-INTERPRETED",
      "PASS"
@@ -27881,7 +27881,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -27931,7 +27931,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-MISSING"
     ]
@@ -27992,7 +27992,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-MISMATCH",
      "FLAG-MISMATCH",
@@ -28037,7 +28037,7 @@
     "Max.\\ and min.\\ for $x = 7.5$, $y = ±5.414$. (See example\nno.~10, \\Pageref{Example10}.)"
    ],
    "answer_markdown": [
-    "Max. and min. for $x = 7.5$, $y = ±5.414$. (See example no. 10, Example10.)"
+    "Max. and min. for $x = 7.5$, $y = ±5.414$. (See example no. 10.)"
    ],
    "checks": [
     {
@@ -28064,7 +28064,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS",
      "PASS",
@@ -28106,7 +28106,7 @@
     "Max.\\ and min.\\ for $x = 7.5$, $y = ±5.414$. (See example\nno.~10, \\Pageref{Example10}.)"
    ],
    "answer_markdown": [
-    "Max. and min. for $x = 7.5$, $y = ±5.414$. (See example no. 10, Example10.)"
+    "Max. and min. for $x = 7.5$, $y = ±5.414$. (See example no. 10.)"
    ],
    "checks": [
     {
@@ -28133,7 +28133,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS",
      "PASS",
@@ -28202,7 +28202,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS",
      "PASS",
@@ -28274,7 +28274,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS",
      "PASS",
@@ -28347,7 +28347,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS",
      "PASS",
@@ -28406,7 +28406,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -28452,7 +28452,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -28498,7 +28498,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -28546,7 +28546,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-MISSING"
     ]
@@ -28590,7 +28590,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-MISSING"
     ]
@@ -28648,7 +28648,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS",
      "PASS",
@@ -28718,7 +28718,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS",
      "PASS",
@@ -28787,7 +28787,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS",
      "PASS",
@@ -28858,7 +28858,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS",
      "PASS",
@@ -28929,7 +28929,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS",
      "PASS",
@@ -29002,7 +29002,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS",
      "PASS",
@@ -29061,7 +29061,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS-INTERPRETED"
     ]
@@ -29110,7 +29110,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -29158,7 +29158,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-TASK"
     ]
@@ -29201,7 +29201,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-TASK"
     ]
@@ -29246,7 +29246,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-TASK"
     ]
@@ -29289,7 +29289,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-TASK"
     ]
@@ -29332,7 +29332,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-TASK"
     ]
@@ -29376,7 +29376,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-TASK"
     ]
@@ -29419,7 +29419,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-TASK"
     ]
@@ -29463,7 +29463,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-TASK"
     ]
@@ -29507,7 +29507,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-TASK"
     ]
@@ -29552,7 +29552,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-TASK"
     ]
@@ -29596,7 +29596,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-TASK"
     ]
@@ -29639,7 +29639,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-TASK"
     ]
@@ -29683,7 +29683,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-TASK"
     ]
@@ -29727,7 +29727,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-TASK"
     ]
@@ -29771,7 +29771,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-TASK"
     ]
@@ -29814,7 +29814,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-TASK"
     ]
@@ -29858,7 +29858,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-TASK"
     ]
@@ -29902,7 +29902,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-TASK"
     ]
@@ -29946,7 +29946,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -29992,7 +29992,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -30040,7 +30040,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -30087,7 +30087,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -30130,7 +30130,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-MISSING"
     ]
@@ -30182,7 +30182,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-MISSING",
      "PASS"
@@ -30234,7 +30234,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -30282,7 +30282,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -30329,7 +30329,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -30376,7 +30376,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -30420,7 +30420,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-MISSING"
     ]
@@ -30471,7 +30471,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-MISMATCH"
     ]
@@ -30518,7 +30518,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -30566,7 +30566,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -30613,7 +30613,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -30659,7 +30659,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -30693,7 +30693,7 @@
     "Let $\\dfrac{t}{T} = x$ ($\\therefore t = 8x$), and use the Table on \\Pageref[page]{littletable}."
    ],
    "answer_markdown": [
-    "Let $\\dfrac{t}{T} = x$ ($\\therefore t = 8x$), and use the Table on [page]littletable."
+    "Let $\\dfrac{t}{T} = x$ ($\\therefore t = 8x$), and use the Table on ."
    ],
    "checks": [
     {
@@ -30706,7 +30706,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-MISSING"
     ]
@@ -30764,7 +30764,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS",
      "PASS-LOOSE",
@@ -30832,7 +30832,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-MISSING",
      "PASS",
@@ -30898,7 +30898,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS",
      "PASS",
@@ -30959,7 +30959,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-MISSING",
      "PASS-LOOSE"
@@ -31008,7 +31008,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -31056,7 +31056,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -31104,7 +31104,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-MISMATCH"
     ]
@@ -31166,7 +31166,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-MISSING",
      "FLAG-MISMATCH",
@@ -31205,7 +31205,7 @@
     "Take $2t = x$; and use the Table on \\Pageref[page]{littletable}."
    ],
    "answer_markdown": [
-    "Take $2t = x$; and use the Table on [page]littletable."
+    "Take $2t = x$; and use the Table on ."
    ],
    "checks": [
     {
@@ -31218,7 +31218,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-EXTRACTION"
     ]
@@ -31258,7 +31258,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-EXTRACTION"
     ]
@@ -31297,7 +31297,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-EXTRACTION"
     ]
@@ -31336,7 +31336,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-EXTRACTION"
     ]
@@ -31380,7 +31380,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -31427,7 +31427,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -31474,7 +31474,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -31528,7 +31528,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS",
      "PASS"
@@ -31586,7 +31586,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-MISSING",
      "PASS"
@@ -31643,7 +31643,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-MISSING",
      "PASS"
@@ -31702,7 +31702,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS",
      "PASS"
@@ -31763,7 +31763,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS-ERRATUM",
      "FLAG-MISMATCH"
@@ -31823,7 +31823,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-MISSING",
      "PASS"
@@ -31879,7 +31879,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-MISSING",
      "FLAG-MISMATCH"
@@ -31928,7 +31928,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -31976,7 +31976,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -32006,7 +32006,7 @@
    "page": "174",
    "location": "Exercise XIV, problem 111",
    "problem_latex": "Differentiate the three equations of Exercises~XIII.\n(\\Pageref{XIII:4}), No.~4, and compare their differential\ncoefficients, as to whether they are equal, or nearly\nequal, for very small values of~$x$, or for very large\nvalues of~$x$, or for values of~$x$ in the neighbourhood\nof $x=30$.",
-   "markdown": "Differentiate the three equations of Exercises XIII. (XIII:4), No. 4, and compare their differential coefficients, as to whether they are equal, or nearly equal, for very small values of $x$, or for very large values of $x$, or for values of $x$ in the neighbourhood of $x=30$.",
+   "markdown": "Differentiate the three equations of Exercises XIII. , No. 4, and compare their differential coefficients, as to whether they are equal, or nearly equal, for very small values of $x$, or for very large values of $x$, or for values of $x$ in the neighbourhood of $x=30$.",
    "answer_latex": [
     "$\\left(i\\right) \\dfrac{dy}{dx} = \\dfrac{ab}{\\left(x + b\\right)^2}$;\\quad\n(ii)~$\\dfrac{a}{b} \\epsilon^{-\\efrac{x}{b}}$;\\quad\n(iii)~$\\dfrac{1}{90}° × \\dfrac{ab}{\\left(b^2 + x^2\\right)}$."
    ],
@@ -32024,7 +32024,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-MISSING"
     ]
@@ -32050,7 +32050,7 @@
    "page": "174",
    "location": "Exercise XIV, problem 112",
    "problem_latex": "Differentiate the three equations of Exercises~XIII.\n(\\Pageref{XIII:4}), No.~4, and compare their differential\ncoefficients, as to whether they are equal, or nearly\nequal, for very small values of~$x$, or for very large\nvalues of~$x$, or for values of~$x$ in the neighbourhood\nof $x=30$.",
-   "markdown": "Differentiate the three equations of Exercises XIII. (XIII:4), No. 4, and compare their differential coefficients, as to whether they are equal, or nearly equal, for very small values of $x$, or for very large values of $x$, or for values of $x$ in the neighbourhood of $x=30$.",
+   "markdown": "Differentiate the three equations of Exercises XIII. , No. 4, and compare their differential coefficients, as to whether they are equal, or nearly equal, for very small values of $x$, or for very large values of $x$, or for values of $x$ in the neighbourhood of $x=30$.",
    "answer_latex": [
     "$\\left(i\\right) \\dfrac{dy}{dx} = \\dfrac{ab}{\\left(x + b\\right)^2}$;\\quad\n(ii)~$\\dfrac{a}{b} \\epsilon^{-\\efrac{x}{b}}$;\\quad\n(iii)~$\\dfrac{1}{90}° × \\dfrac{ab}{\\left(b^2 + x^2\\right)}$."
    ],
@@ -32068,7 +32068,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-MISSING"
     ]
@@ -32094,7 +32094,7 @@
    "page": "174",
    "location": "Exercise XIV, problem 113",
    "problem_latex": "Differentiate the three equations of Exercises~XIII.\n(\\Pageref{XIII:4}), No.~4, and compare their differential\ncoefficients, as to whether they are equal, or nearly\nequal, for very small values of~$x$, or for very large\nvalues of~$x$, or for values of~$x$ in the neighbourhood\nof $x=30$.",
-   "markdown": "Differentiate the three equations of Exercises XIII. (XIII:4), No. 4, and compare their differential coefficients, as to whether they are equal, or nearly equal, for very small values of $x$, or for very large values of $x$, or for values of $x$ in the neighbourhood of $x=30$.",
+   "markdown": "Differentiate the three equations of Exercises XIII. , No. 4, and compare their differential coefficients, as to whether they are equal, or nearly equal, for very small values of $x$, or for very large values of $x$, or for values of $x$ in the neighbourhood of $x=30$.",
    "answer_latex": [
     "$\\left(i\\right) \\dfrac{dy}{dx} = \\dfrac{ab}{\\left(x + b\\right)^2}$;\\quad\n(ii)~$\\dfrac{a}{b} \\epsilon^{-\\efrac{x}{b}}$;\\quad\n(iii)~$\\dfrac{1}{90}° × \\dfrac{ab}{\\left(b^2 + x^2\\right)}$."
    ],
@@ -32112,7 +32112,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-MISSING"
     ]
@@ -32157,7 +32157,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -32204,7 +32204,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -32251,7 +32251,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -32298,7 +32298,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -32345,7 +32345,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -32394,7 +32394,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -32444,7 +32444,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-MISMATCH"
     ]
@@ -32499,7 +32499,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-MISMATCH",
      "FLAG-MISMATCH"
@@ -32560,7 +32560,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-MISMATCH",
      "FLAG-MISMATCH"
@@ -32614,7 +32614,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -32661,7 +32661,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -32709,7 +32709,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -32756,7 +32756,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -32803,7 +32803,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -32850,7 +32850,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -32899,7 +32899,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -32946,7 +32946,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -32997,7 +32997,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-MISMATCH"
     ]
@@ -33045,7 +33045,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS-INTERPRETED"
     ]
@@ -33107,7 +33107,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS-INTERPRETED",
      "PASS",
@@ -33161,7 +33161,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-MISSING"
     ]
@@ -33206,7 +33206,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -33255,7 +33255,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -33302,7 +33302,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -33353,7 +33353,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS-ABS-CONVENTION"
     ]
@@ -33402,7 +33402,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS-ABS-CONVENTION"
     ]
@@ -33450,7 +33450,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -33499,7 +33499,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS-ABS-CONVENTION"
     ]
@@ -33549,7 +33549,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -33597,7 +33597,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -33644,7 +33644,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -33691,7 +33691,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -33738,7 +33738,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -33786,7 +33786,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -33832,7 +33832,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -33879,7 +33879,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -33926,7 +33926,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS-ABS-CONVENTION"
     ]
@@ -33975,7 +33975,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -34025,7 +34025,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -34075,7 +34075,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -34123,7 +34123,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -34171,7 +34171,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS-INTERPRETED"
     ]
@@ -34220,7 +34220,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS-INTERPRETED"
     ]
@@ -34271,7 +34271,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-MISMATCH"
     ]
@@ -34317,7 +34317,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -34363,7 +34363,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -34412,7 +34412,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -34461,7 +34461,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -34510,7 +34510,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS-INTERPRETED"
     ]
@@ -34560,7 +34560,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-MISMATCH"
     ]
@@ -34607,7 +34607,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-TASK"
     ]
@@ -34649,7 +34649,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-TASK"
     ]
@@ -34691,7 +34691,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-TASK"
     ]
@@ -34733,7 +34733,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-TASK"
     ]
@@ -34771,7 +34771,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-MISSING"
     ]
@@ -34815,7 +34815,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-MISMATCH"
     ]
@@ -34865,7 +34865,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-MISMATCH"
     ]
@@ -34929,7 +34929,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS-INTERPRETED",
      "PASS",
@@ -35004,7 +35004,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS-INTERPRETED",
      "FLAG-MISMATCH",
@@ -35063,7 +35063,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-MISMATCH"
     ]
@@ -35114,7 +35114,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-MISMATCH"
     ]
@@ -35165,7 +35165,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -35213,7 +35213,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-MISMATCH"
     ]
@@ -35262,7 +35262,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -35311,7 +35311,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -35357,7 +35357,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -35404,7 +35404,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -35450,7 +35450,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS-INTERPRETED"
     ]
@@ -35497,7 +35497,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -35544,7 +35544,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -35590,7 +35590,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS-INTERPRETED"
     ]
@@ -35636,7 +35636,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -35684,7 +35684,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -35731,7 +35731,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -35779,7 +35779,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -35826,7 +35826,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS-ABS-CONVENTION"
     ]
@@ -35873,7 +35873,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS-ABS-CONVENTION"
     ]
@@ -35920,7 +35920,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -35966,7 +35966,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -36012,7 +36012,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -36058,7 +36058,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -36104,7 +36104,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -36150,7 +36150,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -36196,7 +36196,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -36243,7 +36243,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -36290,7 +36290,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-MISMATCH"
     ]
@@ -36338,7 +36338,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-MISMATCH"
     ]
@@ -36382,7 +36382,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-MISSING"
     ]
@@ -36427,7 +36427,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-MISSING"
     ]
@@ -36473,7 +36473,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-MISSING"
     ]
@@ -36523,7 +36523,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -36571,7 +36571,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -36607,7 +36607,7 @@
     "$\\text{Quadratic mean} = \\dfrac{1}{\\sqrt{2}} \\sqrt{A_1^2 + A_3^2}$; $\\text{arithmetical mean} = 0$.\n\nThe first involves a somewhat difficult integral, and may be\nstated thus: By definition the quadratic mean will be\n\\[\n\\sqrt{\\dfrac{1}{2\\pi} \\int_0^{2\\pi} (A_1 \\sin x + A_3 \\sin 3x)^2\\, dx}. %[** TN: Moved period out of radicand]\n\\]\nNow the integration indicated by\n\\[\n\\int (A_1^2 \\sin^2 x + 2A_1 A_3 \\sin x \\sin 3x + A_3^2 \\sin^2 3x)\\, dx\n\\]\nis more readily obtained if for $\\sin^2 x$ we write\n\\[\n\\dfrac{1 - \\cos 2x}{2}.\n\\]\nFor $2\\sin x \\sin 3x$ we write $\\cos 2x - \\cos 4x$; and, for $\\sin^2 3x$,\n\\[\n\\dfrac{1 - \\cos 6x}{2}.\n\\]\n\nMaking these substitutions, and integrating, we get (see\n\\Pageref{cosax})\n\\[\n\\dfrac{A_1^2}{2} \\left( x - \\dfrac{\\sin 2x}{2} \\right)\n + A_1 A_3 \\left( \\dfrac{\\sin 2x}{2} - \\dfrac{\\sin 4x}{4} \\right)\n + \\dfrac{A_3^2}{2} \\left( x - \\dfrac{\\sin 6x}{6} \\right).\n\\]\n\nAt the lower limit the substitution of $0$ for~$x$ causes all\nthis to vanish, whilst at the upper limit the substitution\nof $2\\pi$ for~$x$ gives $A_1^2 \\pi + A_3^2 \\pi$. And hence the\nanswer follows."
    ],
    "answer_markdown": [
-    "$\\text{Quadratic mean} = \\dfrac{1}{\\sqrt{2}} \\sqrt{A_1^2 + A_3^2}$; $\\text{arithmetical mean} = 0$. The first involves a somewhat difficult integral, and may be stated thus: By definition the quadratic mean will be $$\\sqrt{\\dfrac{1}{2\\pi} \\int_0^{2\\pi} (A_1 \\sin x + A_3 \\sin 3x)^2\\, dx}.$$ Now the integration indicated by $$\\int (A_1^2 \\sin^2 x + 2A_1 A_3 \\sin x \\sin 3x + A_3^2 \\sin^2 3x)\\, dx$$ is more readily obtained if for $\\sin^2 x$ we write $$\\dfrac{1 - \\cos 2x}{2}.$$ For $2\\sin x \\sin 3x$ we write $\\cos 2x - \\cos 4x$; and, for $\\sin^2 3x$, $$\\dfrac{1 - \\cos 6x}{2}.$$ Making these substitutions, and integrating, we get (see cosax) $$\\dfrac{A_1^2}{2} \\left( x - \\dfrac{\\sin 2x}{2} \\right) + A_1 A_3 \\left( \\dfrac{\\sin 2x}{2} - \\dfrac{\\sin 4x}{4} \\right) + \\dfrac{A_3^2}{2} \\left( x - \\dfrac{\\sin 6x}{6} \\right).$$ At the lower limit the substitution of $0$ for $x$ causes all this to vanish, whilst at the upper limit the substitution of $2\\pi$ for $x$ gives $A_1^2 \\pi + A_3^2 \\pi$. And hence the answer follows."
+    "$\\text{Quadratic mean} = \\dfrac{1}{\\sqrt{2}} \\sqrt{A_1^2 + A_3^2}$; $\\text{arithmetical mean} = 0$. The first involves a somewhat difficult integral, and may be stated thus: By definition the quadratic mean will be $$\\sqrt{\\dfrac{1}{2\\pi} \\int_0^{2\\pi} (A_1 \\sin x + A_3 \\sin 3x)^2\\, dx}.$$ Now the integration indicated by $$\\int (A_1^2 \\sin^2 x + 2A_1 A_3 \\sin x \\sin 3x + A_3^2 \\sin^2 3x)\\, dx$$ is more readily obtained if for $\\sin^2 x$ we write $$\\dfrac{1 - \\cos 2x}{2}.$$ For $2\\sin x \\sin 3x$ we write $\\cos 2x - \\cos 4x$; and, for $\\sin^2 3x$, $$\\dfrac{1 - \\cos 6x}{2}.$$ Making these substitutions, and integrating, we get (see ) $$\\dfrac{A_1^2}{2} \\left( x - \\dfrac{\\sin 2x}{2} \\right) + A_1 A_3 \\left( \\dfrac{\\sin 2x}{2} - \\dfrac{\\sin 4x}{4} \\right) + \\dfrac{A_3^2}{2} \\left( x - \\dfrac{\\sin 6x}{6} \\right).$$ At the lower limit the substitution of $0$ for $x$ causes all this to vanish, whilst at the upper limit the substitution of $2\\pi$ for $x$ gives $A_1^2 \\pi + A_3^2 \\pi$. And hence the answer follows."
    ],
    "checks": [
     {
@@ -36620,7 +36620,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-MISMATCH"
     ]
@@ -36669,7 +36669,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -36718,7 +36718,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -36768,7 +36768,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-MISMATCH"
     ]
@@ -36813,7 +36813,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-MISSING"
     ]
@@ -36857,7 +36857,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -36907,7 +36907,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -36955,7 +36955,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -37003,7 +37003,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-MISMATCH"
     ]
@@ -37051,7 +37051,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -37099,7 +37099,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -37150,7 +37150,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -37199,7 +37199,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -37230,7 +37230,7 @@
    "page": "224",
    "location": "Exercise XVIII, problem 5a",
    "problem_latex": "Find the area included between the two branches\nof the curve $y=x^2 ± x^{\\efrac{5}{2}}$ from $x=0$ to $x=1$, also the\narea of the positive portion of the lower branch of\nthe curve (see \\Fig{30}, \\Pageref{fig:30}). %[ ** Page, xref]",
-   "markdown": "Find the area included between the two branches of the curve $y=x^2 ± x^{\\efrac{5}{2}}$ from $x=0$ to $x=1$, also the area of the positive portion of the lower branch of the curve (see [fig:30]Fig. 30, fig:30).",
+   "markdown": "Find the area included between the two branches of the curve $y=x^2 ± x^{\\efrac{5}{2}}$ from $x=0$ to $x=1$, also the area of the positive portion of the lower branch of the curve (see Fig. 30).",
    "answer_latex": [
     "$0.572$, $0.0476$."
    ],
@@ -37248,7 +37248,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS-LOOSE"
     ]
@@ -37279,7 +37279,7 @@
    "page": "224",
    "location": "Exercise XVIII, problem 5b",
    "problem_latex": "Find the area included between the two branches\nof the curve $y=x^2 ± x^{\\efrac{5}{2}}$ from $x=0$ to $x=1$, also the\narea of the positive portion of the lower branch of\nthe curve (see \\Fig{30}, \\Pageref{fig:30}). %[ ** Page, xref]",
-   "markdown": "Find the area included between the two branches of the curve $y=x^2 ± x^{\\efrac{5}{2}}$ from $x=0$ to $x=1$, also the area of the positive portion of the lower branch of the curve (see [fig:30]Fig. 30, fig:30).",
+   "markdown": "Find the area included between the two branches of the curve $y=x^2 ± x^{\\efrac{5}{2}}$ from $x=0$ to $x=1$, also the area of the positive portion of the lower branch of the curve (see Fig. 30).",
    "answer_latex": [
     "$0.572$, $0.0476$."
    ],
@@ -37297,7 +37297,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -37346,7 +37346,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-MISMATCH"
     ]
@@ -37394,7 +37394,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -37442,7 +37442,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-MISMATCH"
     ]
@@ -37491,7 +37491,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "PASS"
     ]
@@ -37540,7 +37540,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "c0d3f89",
+    "commit": "98b2784",
     "verdicts": [
      "FLAG-MISMATCH"
     ]

@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
  "generated_from": {
-  "claudiverse_commit": "c0d3f89",
-  "generated_at": "2026-10-15T21:38:54Z"
+  "claudiverse_commit": "98b2784",
+  "generated_at": "2026-10-15T22:14:38Z"
  },
  "node_types": [
   "book",
@@ -1695,7 +1695,7 @@
    "page": "98",
    "location": "Pyramids and Cones",
    "latex": "In the case of a cone which is not a right circular cone the slant height varies from point to point and the process of computation of §~\\Sref{266} fails.",
-   "markdown": "In the case of a cone which is not a right circular cone the slant height varies from point to point and the process of computation of § [unit:266.]266 fails.",
+   "markdown": "In the case of a cone which is not a right circular cone the slant height varies from point to point and the process of computation of § 266 fails.",
    "why": "It warns that the right-cone lateral area formula does not carry over to oblique cones, a common overreach.",
    "use": [
     "lesson"
@@ -1713,7 +1713,7 @@
    "page": "102",
    "location": "Pyramids and Cones",
    "latex": "The theorem of §~\\Sref{272} holds for any cone whatever, whether right or oblique.",
-   "markdown": "The theorem of § [unit:272.]272 holds for any cone whatever, whether right or oblique.",
+   "markdown": "The theorem of § 272 holds for any cone whatever, whether right or oblique.",
    "why": "It tells a learner that the volume rule is general while the elementary computation of the base area is not.",
    "use": [
     "lesson"
@@ -2491,7 +2491,7 @@
    "page": "207",
    "location": "VARIABLES. LIMITS",
    "latex": "Indeed, this theorem and also that of §~\\Sref{437} are special cases of what is known as \\textbf{Cavalieri's Theorem}.",
-   "markdown": "Indeed, this theorem and also that of § [unit:437.]437 are special cases of what is known as **Cavalieri’s Theorem**.",
+   "markdown": "Indeed, this theorem and also that of § 437 are special cases of what is known as **Cavalieri’s Theorem**.",
    "why": "It shows that several volume results are instances of one principle, which is a memorable point for learners and a good historical note.",
    "use": [
     "history",
@@ -2511,7 +2511,7 @@
    "page": "207",
    "location": "VARIABLES. LIMITS",
    "latex": "Hence, by §~\\Sref{428}, $V = \\tfrac{1}{3}rS$. But by §~\\Sref{443}, $V = \\tfrac{4}{3} \\pi r^3$.",
-   "markdown": "Hence, by § [unit:428.]428, $V = \\tfrac{1}{3}rS$. But by § [unit:443.]443, $V = \\tfrac{4}{3} \\pi r^3$.",
+   "markdown": "Hence, by § 428, $V = \\tfrac{1}{3}rS$. But by § 443, $V = \\tfrac{4}{3} \\pi r^3$.",
    "why": "It shows how the area of a sphere is obtained from its volume by using the volume-surface relation, a clear model of deriving one result from another.",
    "use": [
     "lesson"
