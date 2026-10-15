@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
  "generated_from": {
-  "claudiverse_commit": "e15bfbe",
-  "generated_at": "2026-10-14T01:48:44Z"
+  "claudiverse_commit": "c0d3f89",
+  "generated_at": "2026-10-15T21:38:54Z"
  },
  "node_types": [
   "book",
@@ -1396,7 +1396,7 @@
    "page": "34",
    "location": "Methods of Application",
    "latex": "Faraday was asked: ``What is the use of this discovery?'' He answered: ``What is the use of a child---it grows to be a man.''",
-   "markdown": "Faraday was asked: “What is the use of this discovery?” He answered: “What is the use of a child---it grows to be a man.”",
+   "markdown": "Faraday was asked: “What is the use of this discovery?” He answered: “What is the use of a child—it grows to be a man.”",
    "why": "It is a charming historical exchange that shows how a basic discovery can later become the foundation of practical applications.",
    "use": [
     "history",
@@ -1528,7 +1528,7 @@
    "page": "61",
    "location": "The Symbolism of Mathematics",
    "latex": "Operations of thought are like cavalry charges in a battle---they are strictly limited in number, they require fresh horses, and must only be made at decisive moments.",
-   "markdown": "Operations of thought are like cavalry charges in a battle---they are strictly limited in number, they require fresh horses, and must only be made at decisive moments.",
+   "markdown": "Operations of thought are like cavalry charges in a battle—they are strictly limited in number, they require fresh horses, and must only be made at decisive moments.",
    "why": "A memorable image that explains why routine operations should become automatic so that effort goes to decisive steps.",
    "use": [
     "website"
@@ -2154,7 +2154,7 @@
    "page": "138",
    "location": "Conic Sections",
    "latex": "Novel ideas are more apt to spring from an unusual assortment of knowledge---not necessarily from vast knowledge, but from a thorough conception of the methods and ideas of distinct lines of thought.",
-   "markdown": "Novel ideas are more apt to spring from an unusual assortment of knowledge---not necessarily from vast knowledge, but from a thorough conception of the methods and ideas of distinct lines of thought.",
+   "markdown": "Novel ideas are more apt to spring from an unusual assortment of knowledge—not necessarily from vast knowledge, but from a thorough conception of the methods and ideas of distinct lines of thought.",
    "why": "Shows Kepler, an astronomer who was also a geometer, as an example of cross-disciplinary insight.",
    "use": [
     "website",
@@ -2706,7 +2706,7 @@
    "page": "193",
    "location": "Trigonometry",
    "latex": "We are here in the presence of one of the fundamental processes of mathematical physics---namely, nothing less than its general method of dealing with the great natural fact of Periodicity.",
-   "markdown": "We are here in the presence of one of the fundamental processes of mathematical physics---namely, nothing less than its general method of dealing with the great natural fact of Periodicity.",
+   "markdown": "We are here in the presence of one of the fundamental processes of mathematical physics—namely, nothing less than its general method of dealing with the great natural fact of Periodicity.",
    "why": "It connects the trigonometric functions to the wider physical idea of periodicity in tides, strings and light.",
    "use": [
     "lesson",
@@ -3130,7 +3130,7 @@
    "page": "237",
    "location": "Geometry",
    "latex": "The answer is that the triangles are in all respects equal, if:---",
-   "markdown": "The answer is that the triangles are in all respects equal, if:---",
+   "markdown": "The answer is that the triangles are in all respects equal, if:—",
    "why": "It opens the classic study of which partial correspondences between two triangles force full equality.",
    "use": [
     "lesson"

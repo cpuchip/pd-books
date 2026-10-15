@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
  "generated_from": {
-  "claudiverse_commit": "e15bfbe",
-  "generated_at": "2026-10-14T01:48:44Z"
+  "claudiverse_commit": "c0d3f89",
+  "generated_at": "2026-10-15T21:38:54Z"
  },
  "node_types": [
   "book",
@@ -1843,7 +1843,7 @@
    "page": "23",
    "location": "Molecular Weight",
    "latex": "Such a weight is called an \\emph{equivalent weight}. It is arbitrarily fixed for one element---generally for hydrogen at $1~\\Unit{gr.}$---and then the equivalent weight of any other element (\\eg~oxygen) is that weight which will combine with $1~\\Unit{gr.}$ of hydrogen.",
-   "markdown": "Such a weight is called an *equivalent weight*. It is arbitrarily fixed for one element---generally for hydrogen at $1~\\Unit{gr.}$---and then the equivalent weight of any other element (*e.g.* oxygen) is that weight which will combine with $1~\\Unit{gr.}$ of hydrogen.",
+   "markdown": "Such a weight is called an *equivalent weight*. It is arbitrarily fixed for one element—generally for hydrogen at $1~\\Unit{gr.}$—and then the equivalent weight of any other element (*e.g.* oxygen) is that weight which will combine with $1~\\Unit{gr.}$ of hydrogen.",
    "why": "It gives the learner the operational definition of equivalent weight by reference to hydrogen, which the rest of the chapter builds on.",
    "use": [
     "lesson",
@@ -2509,7 +2509,7 @@
    "page": "50",
    "location": "Applications to Homogeneous Systems",
    "latex": "Wherever external pressure enters---as, for instance, in the calculation of the work of compression---a very small error will then be committed, if the pressure of the gas be substituted for the external pressure.",
-   "markdown": "Wherever external pressure enters---as, for instance, in the calculation of the work of compression---a very small error will then be committed, if the pressure of the gas be substituted for the external pressure.",
+   "markdown": "Wherever external pressure enters—as, for instance, in the calculation of the work of compression—a very small error will then be committed, if the pressure of the gas be substituted for the external pressure.",
    "why": "It explains why the gas's own pressure can stand in for the external pressure in work calculations, which is a common point of confusion.",
    "use": [
     "lesson"
@@ -5172,7 +5172,7 @@
    "page": "214",
    "location": "Gaseous System",
    "latex": "It also appears that the increase of the entropy depends solely on the number of the molecules $n_{1}$,~$n_{2}$, and not on the nature---\\eg\\ the molecular weight, of the diffusing gases. The increase of the entropy does not depend on whether the gases are chemically alike or not.",
-   "markdown": "It also appears that the increase of the entropy depends solely on the number of the molecules $n_{1}$, $n_{2}$, and not on the nature---*e.g.* the molecular weight, of the diffusing gases. The increase of the entropy does not depend on whether the gases are chemically alike or not.",
+   "markdown": "It also appears that the increase of the entropy depends solely on the number of the molecules $n_{1}$, $n_{2}$, and not on the nature—*e.g.* the molecular weight, of the diffusing gases. The increase of the entropy does not depend on whether the gases are chemically alike or not.",
    "why": "Shows that the entropy gain from mixing depends only on how many molecules there are, not on what they are.",
    "use": [
     "lesson"
