@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
  "generated_from": {
-  "claudiverse_commit": "41299da",
-  "generated_at": "2026-10-16T07:48:09Z"
+  "claudiverse_commit": "d499aa1",
+  "generated_at": "2026-10-16T10:26:04Z"
  },
  "node_types": [
   "book",
@@ -878,8 +878,8 @@
    "number": "Polyhedrons",
    "title": "Polyhedrons",
    "text_latex": "\\chapter[Polyhedrons.]{POLYHEDRONS.}\n\n\\paragraph{149.} A polyhedron is a solid bounded by any number of\nplane rectilineal figures which are called its faces. A polyhedron\nis said to be \\textit{regular} when its faces are similar and equal regular\npolygons, and its solid angles equal to one another.\n\n\\paragraph{150.} \\textit{If $\\mathrm{S}$ be the number of solid angles in any polyhedron,\n$\\mathrm{F}$ the number of its faces, $\\mathrm{E}$ the number of its edges, then\n$\\mathrm{S+F=E+2}$.}\n\nTake any point within the polyhedron as centre, and describe\na sphere of radius $r$, and draw straight lines from the centre\nto each of the angular points of the polyhedron; let the points\nat which these straight lines meet the surface of the sphere be\njoined by arcs of great circles, so that the surface of the sphere is\ndivided into as many polygons as the polyhedron has faces.\n\nLet $s$ denote the sum of the angles of any one of these polygons,\n$m$ the number of its sides; then the area of the polygon is\n$r^2\\{s-(m-2)\\pi\\}$ by Art.~99. The sum of the areas of all the\npolygons is the surface of the sphere, that is, $4\\pi r^2$. Hence since\nthe number of the polygons is $F$, we obtain\n\\[\n\\textstyle\n4\\pi = \\sum s - \\pi\\sum m + 2F\\pi.\n\\]\n\nNow $\\sum s$ denotes the sum of all the angles of the polygons, and\nis therefore equal to $2\\pi \\times$ the number of solid angles, that is, to\n$2\\pi S$; and $\\sum m$ is equal to the number of all the sides of all the\npolygons, that is, to $2E$, since every edge gives rise to an arc\nwhich is common to two polygons. Therefore\n\\[\n4\\pi = 2\\pi S-2\\pi E+2F\\pi;\n\\]\ntherefore $\\hfill\nS+F=E+2.\n\\hfill\\phantom{therefore }$\n\n\\paragraph{151.} \\textit{There can be only five regular polyhedrons.}\n\nLet $m$ be the number of sides in each face of a regular polyhedron,\n$n$ the number of plane angles in each solid angle; then\nthe entire number of plane angles is expressed by $mF$, or by $nS$,\nor by $2E$; thus\n\\[\n  mF=nS=2E, \\text{ and } S+F=E+2;\n\\]\nfrom these equations we obtain\n\\[\n  S = \\frac{4 m}{2(m+n)-mn}, \\quad\n  E = \\frac{2mn}{2(m+n)-mn}, \\quad\n  F = \\frac{4 n}{2(m+n)-mn}.\n\\]\n\nThese expressions must be positive integers, we must therefore\nhave $2(m+n)$ greater than $mn$; therefore\n\\[\n  \\frac{1}{m}+\\frac{1}{n} \\text{ must be greater than } \\frac{1}{2};\n\\]\nbut $n$ cannot be less than 3, so that $\\dfrac{1}{n}$ cannot be greater than $\\dfrac{1}{3}$,\nand therefore $\\dfrac{1}{m}$ must be greater than $\\dfrac{1}{6}$; and as $m$ must be an\ninteger and cannot be less than 3, the only admissible values of $m$\nare 3, 4, 5. It will be found on trial that the only values of $m$\nand $n$ which satisfy all the necessary conditions are the following:\neach regular polyhedron derives its name from the number of its\nplane faces.\n\n\\begin{center}\n\\begin{tabular}{|c|c|c|c|c|l|}\n\\hline\n$m$&$n$&$S$&$E$&$F$&\\multicolumn{1}{c|}{Name of regular Polyhedron.}\\\\[1ex]\n\\hline\n3&3&4&6&4&Tetrahedron or regular Pyramid.\\\\[1ex]\n4&3&8&12&6&Hexahedron or Cube.\\\\[1ex]\n3&4&6&12&8&Octahedron.\\\\[1ex]\n5&3&20&30&12&Dodecahedron.\\\\[1ex]\n3&5&12&30&20&Icosahedron.\\\\[1ex]\n\\hline\n\\end{tabular}\n\\end{center}\n\nIt will be seen that the demonstration establishes something\nmore than the enunciation states; for it is not assumed that the\nfaces are equilateral and equiangular and all equal. It is in fact\ndemonstrated that, \\textit{there cannot be more than five solids each of\nwhich has all its faces with the same number of sides, and all its\nsolid angles formed with the same number of plane angles.}\n\n\\paragraph{152.} \\textit{The sum of all the plane angles which form the solid\nangles of any polyhedron is $2(S-2)\\pi$.}\n\nFor if $m$ denote the number of sides in any face of the polyhedron,\nthe sum of the interior angles of that face is $(m-2)\\pi$\nby Euclid I.~32, Cor.~1. Hence the sum of all the interior angles\nof all the faces is $\\sum(m-2)\\pi$, that is $\\sum m\\pi-2F\\pi$, that is\n$2(E-F)\\pi$, that is $2(S-2)\\pi$.\n\n\\paragraph{153.} \\textit{To find the inclination of two adjacent faces of a regular\npolyhedron.}\n\\begin{figure}[htp]\n\\centering\n\\includegraphics[width=5.0cm]{images/126fc}\n\\end{figure}\n\nLet $AB$ be the edge common to the two adjacent faces, $C$ and\n$D$ the centres of the faces; bisect $AB$ at $E$, and join $CE$ and $DE$;\n$CE$ and $DE$ will be perpendicular to $AB$, and the angle $CED$ is\nthe angle of inclination of the two adjacent faces; we shall denote\nit by $I$. In the plane containing $CE$ and $DE$ draw $CO$ and $DO$\nat right angles to $CE$ and $DE$ respectively, and meeting at $O$;\nabout $O$ as centre describe a sphere meeting $OA$, $OC$, $OE$ at $a$, $c$, $e$\nrespectively, so that $cae$ forms a spherical triangle. Since $AB$ is\nperpendicular to $CE$ and $DE$, it is perpendicular to the plane\n$CED$, therefore the plane $AOB$ which contains $AB$ is perpendicular\nto the plane $CED$; hence the angle $cea$ of the spherical triangle is\na right angle. Let $m$ be the number of sides in each face of the\npolyhedron, $n$ the number of the plane angles which form each solid\nangle. Then the angle $ace=ACE=\\dfrac{2\\pi}{2m}=\\dfrac{\\pi}{m}$; and the angle $cae$\nis half one of the $n$ equal angles formed on the sphere round $a$,\nthat is, $cae=\\dfrac{2\\pi}{2n}=\\dfrac{\\pi}{n}$. From the right-angled triangle $cae$\n\\[\n\\cos{cae}=\\cos{cOe}\\sin{ace},\n\\]\n\\begin{flalign*}\n&\\text{that is }&\n  \\cos{\\frac{\\pi}{n}}\n&=\\cos{\\left( \\frac{\\pi}{2} - \\frac{I}{2} \\right)}\n  \\sin{\\frac{\\pi}{m}}; &&\n\\\\[1ex]\n&\\text{therefore }&\n  \\sin{\\frac{I}{2}}\n&=\\frac{\\cos \\dfrac{\\pi}{n}}\n       {\\sin{\\dfrac{\\pi}{m}}}. &\\phantom{therefore }&\n\\end{flalign*}\n\n\\paragraph{154.} \\textit{To find the radii of the inscribed and circumscribed\nspheres of a regular polyhedron.}\n\nLet the edge $AB=a$, let $OC=r$ and $OA=R$, so that $r$ is\nthe radius of the inscribed sphere, and $R$ is the radius of the\ncircumscribed sphere. Then\n\\begin{flalign*}\n&& CE &= AE\\cot{ACE} = \\frac{a}{2}\\cot{\\frac{\\pi}{m}}, \\\\[1.5ex]\n&& r  &= CE\\tan{CEO} = CE\\tan{\\frac{I}{2}}\n       =\\frac{a}{2}\\cot{\\frac{\\pi}{m}}\\tan{\\frac{I}{2}};\n\\\\[1.5ex]\n&\\text{also }&\n   r  &= R\\cos{aOc} = R\\cot{eca}\\cot{eac}\n       = R\\cot{\\frac{\\pi}{m}} \\cot{\\frac{\\pi}{n}};\n\\\\[1.5ex]\n&\\text{therefore }&\n   R  &= r\\tan{\\frac{\\pi}{m}} \\tan{\\frac{\\pi}{n}}\n       = \\frac{a}{2} \\tan{\\frac{I}{2}} \\tan{\\frac{\\pi}{n}}.\n&\\phantom{therefore }&\n\\end{flalign*}\n\n\\paragraph{155.} \\textit{To find the surface and volume of a regular polyhedron.}\n\nThe area of one face of the polyhedron is $\\dfrac{ma^2}{4}\\cot{\\dfrac{\\pi}{m}}$, and\ntherefore the surface of the polyhedron is $\\dfrac{mFa^2}{4}\\cot{\\dfrac{\\pi}{m}}$.\\\\[.5ex]\n\nAlso the volume of the pyramid which has one face of the\npolyhedron for base and $O$ for vertex is $\\dfrac{r}{3}\\centerdot\\dfrac{ma^2}{4}\\cot{\\dfrac{\\pi}{m}}$, and\ntherefore the volume of the polyhedron is $\\dfrac{mFra^2}{12}\\cot{\\dfrac{\\pi}{m}}$.\\\\[.5ex]\n\n\\paragraph{156.} \\textit{To find the volume of a parallelepiped in terms of its\nedges and their inclinations to one another.}\n\\begin{figure}[htp]\n\\centering\n\\includegraphics[width=5.0cm]{images/128fc}\n\\end{figure}\n\nLet the edges be $OA=a$, $OB=b$, $OC=c$; let the inclinations\nbe $BOC=a$, $COA=\\beta$, $AOB=\\gamma$. Draw $CE$ perpendicular to the\nplane $AOB$ meeting it at $E$. Describe a sphere with $O$ as a\ncentre, meeting $OA$, $OB$, $OC$, $OE$ at $a$, $b$, $c$, $e$ respectively.\n\nThe volume of the parallelepiped is equal to the product of its\nbase and altitude $=ab\\sin{\\gamma}\\centerdot CE=abc\\sin{\\gamma}\\sin{cOe}$. The spherical\ntriangle $cae$ is right-angled at $e$; thus\n\\[\n\\sin{cOe}=\\sin{cOa}\\sin{cae}=\\sin{\\beta}\\sin{cab},\n\\]\nand from the spherical triangle $cab$\n\\[\n\\sin{cab}\n= \\frac{\\surd{( 1 - \\cos^2{\\alpha} - \\cos^2{\\beta} - \\cos^2{\\gamma}\n              + 2\\cos{\\alpha}\\cos{\\beta}\\cos{\\gamma} )} }\n       {\\sin{\\beta}\\sin{\\gamma} };\n\\]\ntherefore the volume of the parallelepiped\n\\[\n= abc\\surd{( 1 - \\cos^2{\\alpha} - \\cos^2{\\beta} - \\cos^2{\\gamma}\n           + 2\\cos{\\alpha} \\cos{\\beta} \\cos{\\gamma} )}.\n\\]\n\n\\paragraph{157.} \\textit{To find the diagonal of a parallelepiped in terms of the\nthree edges which it meets and their inclinations to one another.}\n\nLet the edges be $OA=a$, $OB=b$, $OC=c$; let the inclinations\nbe $BOC=\\alpha$, $COA=\\beta$, $AOB=\\gamma$. Let $OD$ be the diagonal required,\nand let $OE$ be the diagonal of the face $OAB$. Then\n\\begin{align*}\nOD^2 &= OE^2+ED^2+2OE\\centerdot ED\\cos{COE}\\\\\n&=a^2+b^2+2ab\\cos{\\gamma}+c^2+2cOE\\cos{COE}.\n\\end{align*}\n\nDescribe a sphere with $O$ as centre meeting $OA$, $OB$, $OC$, $OE$\nat $a$, $b$, $c$, $e$ respectively; then (see Example~14, Chap.~\\textsc{iv.})\n\\begin{figure}[htp]\n\\centering\n\\includegraphics[width=5.0cm]{images/129fc}\n\\end{figure}\n\\begin{align*}\n\\cos{cOe} &= \\frac{\\cos{cOb}\\sin{aOe}+\\cos{cOa}\\sin{bOe}}{\\sin{aOb}}\\\\[1ex]\n&= \\frac{\\cos{\\alpha}\\sin{aOe}+\\cos{\\beta}\\sin{bOe}}{\\sin{\\gamma}};\n\\end{align*}\ntherefore\\\\[-1ex]\n\\[\n  OD^2 = a^2+b^2+c^2+2ab\\cos{\\gamma}\n       + \\frac{2cOE}{\\sin{\\gamma}}\n        (\\cos{\\alpha}\\sin{aOe} + \\cos{\\beta}\\sin{bOe}),\n\\]\n\\begin{flalign*}\n&\\text{and }&\n  OE\\sin{aOe} &= b\\sin{\\gamma}, &\\qquad\n  OE\\sin{bOe} &= a\\sin{\\gamma}; &&\n\\\\\n&\\text{therefore }& \\multispan{4}{\\hfill$\n OD^2 = a^2+b^2+c^2\n       + 2ab\\cos{\\gamma} + 2bc\\cos{\\alpha} + 2ca\\cos{\\beta}$.\n\\hfill} &\\phantom{therefore}&\n\\end{flalign*}\n\n\\paragraph{158.} \\textit{To find the volume of a tetrahedron.}\n\nA tetrahedron is one-sixth of a parallelepiped which has the\nsame altitude and its base double that of the tetrahedron; thus if\nthe edges and their inclinations are given we can take one-sixth\nof the expression for the volume in Art.~156. The volume of a\ntetrahedron may also be expressed in terms of its six edges; for\nin the figure of Art.~156 let $BC=a'$, $CA=b'$, $AB=c'$; then\n\\[\n  \\cos{\\alpha}=\\frac{b^2+c^2-a'^2}{2bc}, \\quad\n  \\cos{\\beta} =\\frac{c^2+a^2-b'^2}{2ca}, \\quad\n  \\cos{\\gamma}=\\frac{a^2+b^2-c'^2}{2ab},\n\\]\nand if these values are substituted for $\\cos{\\alpha}$, $\\cos{\\beta}$, and $\\cos{\\gamma}$ in\nthe expression obtained in Art.~156, the volume of the tetrahedron\nwill be expressed in terms of its six edges.\n\nThe following result will be obtained, in which $V$ denotes the\nvolume of the tetrahedron,\n\\begin{align*}\n144&\\hspace{3pt}V^2 = -a'^2 b'^2 c'^2\\\\\n& + a^2a'^2 (b'^2+c'^2-a'^2)\n    + b^2b'^2 (c'^2+a'^2-b'^2)\n    + c^2c'^2 (a'^2+b'^2-c'^2)\\\\\n& - a'^2 (a^2-b^2) (a^2-c^2)\n    - b'^2 (b^2-c^2) (b^2-a^2)\n    - c'^2 (c^2-a^2) (c^2-b^2).\n\\end{align*}\n\nThus for a \\textit{regular} tetrahedron we have $144\\hspace{3pt}V^2=2a^6$.\n\n\\paragraph{159.} If the vertex of a tetrahedron be supposed to be situated\nat any point in the plane of its base, the volume vanishes;\nhence if we equate to zero the expression on the right-hand side\nof the equation just given, we obtain a relation which must hold\namong the six straight lines which join four points taken arbitrarily\nin a plane.\n\nOr we may adopt Carnot's method, in which this relation is\nestablished independently, and the expression for the volume of a\ntetrahedron is deduced from it; this we shall now shew, and we\nshall add some other investigations which are also given by\nCarnot.\n\nIt will be convenient to alter the notation hitherto used, by\ninterchanging the accented and unaccented letters.\n\n\\paragraph{160.} \\textit{To find the relation holding among the six straight lines\nwhich join four points taken arbitrarily in a plane.}\n\nLet $A$, $B$, $C$, $D$ be the four points. Let $AB=c$, $BC=a$,\n$CA=b$; also let $DA=a'$, $DB=b'$, $DC=c'$.\n\nIf $D$ falls \\textit{within} the triangle $ABC$, the sum of the angles\n$ADB$, $BDC$, $CDA$ is equal to four right angles; so that\n\\[\n\\cos{ADB}=\\cos{(BDC+CDA)}.\n\\]\n\nHence by ordinary transformations we deduce\n\\[\n1=\\cos^2{ADB}+\\cos^2{BDC}+\\cos^2{CDA}-2\\cos{ADB}\\cos{BDC}\\cos{CDA}.\n\\]\n\nIf $D$ falls \\textit{without} the triangle $ABC$, one of the three angles\nat $D$ is equal to the sum of the other two, and the result just\ngiven still holds.\\\\[1ex]\n\nNow $\\cos{ADB}=\\dfrac{a'^2+b'^2-c^2}{2a'b'}$, and the other cosines may be\nexpressed in a similar manner; substitute these values in the\nabove result, and we obtain the required relation, which after\nreduction may be exhibited thus,\n\\begin{align*}\n&  0=-a^2b^2c^2\\\\\n+ &a'^2a^2(b^2+c^2-a^2)\n   + b'^2b^2(c^2+a^2-b^2)\n   + c'^2c^2(a^2+b^2-c^2)\\\\\n- &a^2(a'^2-b'^2)(a'^2-c'^2)\n   - b^2(b'^2-c'^2)(b'^2-a'^2)\n   - c^2(c'^2-a'^2)(c'^2-b'^2).\n\\end{align*}\n\n\\paragraph{161.} \\textit{To express the volume of a tetrahedron in terms of its\nsix edges.}\n\nLet $a$, $b$, $c$ be the lengths of the sides of a triangle $ABC$\nforming one face of the tetrahedron, which we may call its base;\nlet $a'$, $b'$, $c'$ be the lengths of the straight lines which join $A$, $B$, $C$\nrespectively to the vertex of the tetrahedron. Let $p$ be the length\nof the perpendicular from the vertex on the base; then the lengths\nof the straight lines drawn from the foot of the perpendicular to\n$A$, $B$, $C$ respectively are $\\surd{(a'^2-p^2)}$, $\\surd{(b'^2-p^2)}$, $\\surd{(c'^2-p^2)}$. Hence\nthe relation given in Art.~160 will hold if we put $\\surd{(a'^2-p^2)}$ instead\nof $a'$, $\\surd{(b'^2-p^2)}$ instead of $b'$, and $\\surd{(c'^2-p^2)}$ instead of $c'$.\nWe shall thus obtain\n\\begin{align*}\n&p^2(2a^2b^2+2b^2c^2+2c^2a^2 -a^4-b^4-c^4) = -a^2b^2c^2\\\\\n& + a'^2a^2(b^2+c^2-a^2)\n   + b'^2b^2(c^2+a^2-b^2)\n   + c'^2c^2(a^2+b^2-c^2)\\\\\n& - a^2(a'^2-b'^2)(a'^2-c'^2)\n   - b^2(b'^2-c'^2)(b'^2-a'^2)\n   - c^2(c'^2-a'^2)(c'^2-b'^2).\n\\end{align*}\n\nThe coefficient of $p^2$ in this equation is sixteen times the\nsquare of the area of the triangle $ABC$; so that the left-hand\nmember is $144\\,V^2$, where $V$ denotes the volume of the tetrahedron.\nHence the required expression is obtained.\n\n\n\\paragraph{162.} \\textit{To find the relation holding among the six arcs of great\ncircles which join four points taken arbitrarily on the surface of a\nsphere.}\n\nLet $A$, $B$, $C$, $D$ be the four points. Let $AB=\\gamma$, $BC=\\alpha$,\n$CA=\\beta$; let $DA=\\alpha'$, $DB=\\beta'$, $DC=\\gamma'$.\n\nAs in Art.\\ 160 we have\n\\[\n1=\\cos^2{ADB}+\\cos^2{BDC}+\\cos^2{CDA}-2\\cos{ADB}\\cos{BDC}\\cos{CDA}.\n\\]\n\nNow $\\cos{ADB}=\\dfrac{\\cos{\\gamma}-\\cos{\\alpha'}\\cos{\\beta'}} {\\sin{\\alpha'}\\sin{\\beta}'}$, and the other cosines\nmay be expressed in a similar manner; substitute these values in\nthe above result, and we obtain the required relation, which after\nreduction may be exhibited thus,\n\\begin{align*}\n1 &= \\cos^2{\\alpha} +\\cos^2{\\beta} +\\cos^2{\\gamma}\n   + \\cos^2{\\alpha'}+\\cos^2{\\beta'}+\\cos^2{\\gamma'}\n\\\\\n&{} - \\cos^2{\\alpha}\\cos^2{\\alpha'}\n    - \\cos^2{\\beta} \\cos^2{\\beta'}\n    - \\cos^2{\\gamma}\\cos^2{\\gamma'}\n\\\\\n&{} - 2( \\cos{\\alpha}\\cos{\\beta} \\cos{\\gamma}\n    + \\cos{\\alpha}\\cos{\\beta'}\\cos{\\gamma'}\n\\\\\n&{} + \\cos{\\beta} \\cos{\\alpha'}\\cos{\\gamma'}\n    + \\cos{\\gamma}\\cos{\\alpha'}\\cos{\\beta'} )\n\\\\\n&{} + 2( \\cos{\\alpha}\\cos{\\beta}\\cos{\\alpha'}\\cos{\\beta'}\n    + \\cos{\\beta}\\cos{\\gamma}\\cos{\\beta'}\\cos{\\gamma'}\n\\\\\n&{} + \\cos{\\gamma}\\cos{\\alpha}\\cos{\\gamma'}\\cos{\\alpha'} ).\n\\end{align*}\n\n\\paragraph{163.} \\textit{To find the radius of the sphere circumscribing a tetrahedron.}\n\nDenote the edges of the tetrahedron as in Art.~161. Let the\nsphere be supposed to be circumscribed about the tetrahedron,\nand draw on the sphere the six arcs of great circles joining the\nangular points of the tetrahedron. Then the relation given in\nArt.~162 holds among the cosines of these six arcs.\n\nLet $r$ denote the radius of the sphere. Then\n\\[\n  \\cos{\\alpha}=1-2\\sin^2{\\frac{\\alpha}{2}}\n= 1-2\\left( \\frac{a}{2r} \\right)^2 = 1 - \\frac{a^2}{2r^2};\n\\]\nand the other cosines may be expressed in a similar manner.\nSubstitute these values in the result of Art.~162, and we obtain,\nafter reduction, with the aid of Art.~161,\n\\begin{flalign*}\n&\\rlap{$4\\times144\\,V^2r^2=$}& \\\\\n&&& 2a^2b^2a'^2b'^2\n  + 2b^2c^2b'^2c'^2\n  + 2c^2a^2c'^2a'^2 - a^4a'^4 - b^4b'^4 - c^4c'^4. &&\n\\end{flalign*}\nThe right-hand member may also be put into factors, as we see\nby recollecting the mode in which the expression for the area of\na triangle is put into factors. Let $aa'+bb'+cc'=2\\sigma$; then\n\\[\n36\\hspace{3pt}V^2r^2=\\sigma(\\sigma-aa')(\\sigma-bb')(\\sigma-cc').\n\\]\n\n\\section*{\\centering\\normalsize EXAMPLES.}\n\n1. If $I$ denote the inclination of two adjacent faces of a\nregular polyhedron, shew that $\\cos I=\\tfrac{1}{3}$ in the tetrahedron, $=0$\nin the cube, $=-\\tfrac{1}{3}$ in the octahedron, $=-\\tfrac{1}{5}\\surd{5}$ in the dodecahedron,\nand $=-\\tfrac{1}{3}\\surd{5}$ in the icosahedron.\n\\medskip\n\n2. With the notation of Art.\\ 153, shew that the radius of\nthe sphere which touches one face of a regular polyhedron and all\nthe adjacent faces produced is $\\tfrac{1}{2}a\\cot{\\dfrac{\\pi}{m}}\\cot{\\tfrac{1}{2}}I$.\n\\medskip\n\n3. A sphere touches one face of a regular tetrahedron and\nthe other three faces produced: find its radius.\n\\medskip\n\n4. If $a$ and $b$ are the radii of the spheres inscribed in and\ndescribed about a regular tetrahedron, shew that $b=3a$.\n\\medskip\n\n5. If $a$ is the radius of a sphere inscribed in a regular tetrahedron,\nand $R$ the radius of the sphere which touches the edges,\nshew that $R^2=3a^2$.\n\\medskip\n\n6. If $a$ is the radius of a sphere inscribed in a regular tetrahedron,\nand $R'$ the radius of the sphere which touches one face and\nthe others produced, shew that $R'=2a$.\n\\medskip\n\n7. If a cube and an octahedron be described about a given\nsphere, the sphere described about these polyhedrons will be the\nsame; and conversely.\n\\medskip\n\n8. If a dodecahedron and an icosahedron be described about\na given sphere, the sphere described about these polyhedrons will\nbe the same; and conversely.\n\\medskip\n\n9. A regular tetrahedron and a regular octahedron are inscribed\nin the same sphere: compare the radii of the spheres\nwhich can be inscribed in the two solids.\n\\medskip\n\n10. The sum of the squares of the four diagonals of a parallelepiped\nis equal to four times the sum of the squares of the\nedges.\n\\medskip\n\n11. If with all the angular points of any parallelepiped as\ncentres equal spheres be described, the sum of the intercepted\nportions of the parallelepiped will be equal in volume to one of\nthe spheres.\n\\medskip\n\n12. A regular octahedron is inscribed in a cube so that the\ncorners of the octahedron are at the centres of the faces of the\ncube: shew that the volume of the cube is six times that of the\noctahedron.\n\\medskip\n\n13. It is not possible to fill any given space with a number\nof regular polyhedrons of the same kind, except cubes; but this\nmay be done by means of tetrahedrons and octahedrons which\nhave equal faces, by using twice as many of the former as of\nthe latter.\n\\medskip\n\n14. A spherical triangle is formed on the surface of a sphere\nof radius $\\rho$; its angular points are joined, forming thus a pyramid\nwith the straight lines joining them with the centre: shew that\nthe volume of the pyramid is\n\\[\n  \\tfrac{1}{3}\\rho^3\\surd{(\\tan r\\tan{r_1}\\tan{r_2}\\tan{r_3})},\n\\]\nwhere $r$, $r_1$, $r_2$, $r_3$ are the radii of the inscribed and escribed circles\nof the triangle.\n\\medskip\n\n15. The angular points of a regular tetrahedron inscribed\nin a sphere of radius $r$ being taken as poles, four equal small\ncircles of the sphere are described, so that each circle touches\nthe other three. Shew that the area of the surface bounded by\neach circle is $2\\pi r^2\\left( 1 - \\dfrac{1}{\\surd{3}} \\right)$.\n\\medskip\n\n16. If $O$ be any point within a spherical triangle $ABC$, the\nproduct of the sines of any two sides and the sine of the included\nangle\n\\begin{multline*}\n=\\sin{AO}\\sin{BO}\\sin{CO} \\biggl\\{\\cot{AO}\\sin{BOC} \\\\\n+\\cot{BO}\\sin{COA}+\\cot{CO}\\sin{AOB} \\biggr\\}.\n\\end{multline*}",
-   "text_markdown": "# POLYHEDRONS.\n\n##### 149.\n\nA polyhedron is a solid bounded by any number of plane rectilineal figures which are called its faces. A polyhedron is said to be *regular* when its faces are similar and equal regular polygons, and its solid angles equal to one another.\n\n##### 150.\n\n*If $\\mathrm{S}$ be the number of solid angles in any polyhedron, $\\mathrm{F}$ the number of its faces, $\\mathrm{E}$ the number of its edges, then $\\mathrm{S+F=E+2}$.*\n\nTake any point within the polyhedron as centre, and describe a sphere of radius $r$, and draw straight lines from the centre to each of the angular points of the polyhedron; let the points at which these straight lines meet the surface of the sphere be joined by arcs of great circles, so that the surface of the sphere is divided into as many polygons as the polyhedron has faces.\n\nLet $s$ denote the sum of the angles of any one of these polygons, $m$ the number of its sides; then the area of the polygon is $r^2\\{s-(m-2)\\pi\\}$ by Art. 99. The sum of the areas of all the polygons is the surface of the sphere, that is, $4\\pi r^2$. Hence since the number of the polygons is $F$, we obtain $$\\textstyle\n4\\pi = \\sum s - \\pi\\sum m + 2F\\pi.$$\n\nNow $\\sum s$ denotes the sum of all the angles of the polygons, and is therefore equal to $2\\pi \\times$ the number of solid angles, that is, to $2\\pi S$; and $\\sum m$ is equal to the number of all the sides of all the polygons, that is, to $2E$, since every edge gives rise to an arc which is common to two polygons. Therefore $$4\\pi = 2\\pi S-2\\pi E+2F\\pi;$$ therefore $\\quad\nS+F=E+2.\n\\quad\\phantom{therefore }$\n\n##### 151.\n\n*There can be only five regular polyhedrons.*\n\nLet $m$ be the number of sides in each face of a regular polyhedron, $n$ the number of plane angles in each solid angle; then the entire number of plane angles is expressed by $mF$, or by $nS$, or by $2E$; thus $$mF=nS=2E, \\text{ and } S+F=E+2;$$ from these equations we obtain $$S = \\frac{4 m}{2(m+n)-mn}, \\quad\n  E = \\frac{2mn}{2(m+n)-mn}, \\quad\n  F = \\frac{4 n}{2(m+n)-mn}.$$\n\nThese expressions must be positive integers, we must therefore have $2(m+n)$ greater than $mn$; therefore $$\\frac{1}{m}+\\frac{1}{n} \\text{ must be greater than } \\frac{1}{2};$$ but $n$ cannot be less than 3, so that $\\dfrac{1}{n}$ cannot be greater than $\\dfrac{1}{3}$, and therefore $\\dfrac{1}{m}$ must be greater than $\\dfrac{1}{6}$; and as $m$ must be an integer and cannot be less than 3, the only admissible values of $m$ are 3, 4, 5. It will be found on trial that the only values of $m$ and $n$ which satisfy all the necessary conditions are the following: each regular polyhedron derives its name from the number of its plane faces.\n\n<div class=\"center\">\n\n   $m$   $n$   $S$   $E$   $F$  Name of regular Polyhedron.\n  ----- ----- ----- ----- ----- ---------------------------------\n    3     3     4     6     4   Tetrahedron or regular Pyramid.\n    4     3     8    12     6   Hexahedron or Cube.\n    3     4     6    12     8   Octahedron.\n    5     3    20    30    12   Dodecahedron.\n    3     5    12    30    20   Icosahedron.\n\n</div>\n\nIt will be seen that the demonstration establishes something more than the enunciation states; for it is not assumed that the faces are equilateral and equiangular and all equal. It is in fact demonstrated that, *there cannot be more than five solids each of which has all its faces with the same number of sides, and all its solid angles formed with the same number of plane angles.*\n\n##### 152.\n\n*The sum of all the plane angles which form the solid angles of any polyhedron is $2(S-2)\\pi$.*\n\nFor if $m$ denote the number of sides in any face of the polyhedron, the sum of the interior angles of that face is $(m-2)\\pi$ by Euclid I. 32, Cor. 1. Hence the sum of all the interior angles of all the faces is $\\sum(m-2)\\pi$, that is $\\sum m\\pi-2F\\pi$, that is $2(E-F)\\pi$, that is $2(S-2)\\pi$.\n\n##### 153.\n\n*To find the inclination of two adjacent faces of a regular polyhedron.*\n\n<figure data-latex-placement=\"htp\">\n<img src=\"images/126fc\" style=\"width:5cm\" />\n</figure>\n\nLet $AB$ be the edge common to the two adjacent faces, $C$ and $D$ the centres of the faces; bisect $AB$ at $E$, and join $CE$ and $DE$; $CE$ and $DE$ will be perpendicular to $AB$, and the angle $CED$ is the angle of inclination of the two adjacent faces; we shall denote it by $I$. In the plane containing $CE$ and $DE$ draw $CO$ and $DO$ at right angles to $CE$ and $DE$ respectively, and meeting at $O$; about $O$ as centre describe a sphere meeting $OA$, $OC$, $OE$ at $a$, $c$, $e$ respectively, so that $cae$ forms a spherical triangle. Since $AB$ is perpendicular to $CE$ and $DE$, it is perpendicular to the plane $CED$, therefore the plane $AOB$ which contains $AB$ is perpendicular to the plane $CED$; hence the angle $cea$ of the spherical triangle is a right angle. Let $m$ be the number of sides in each face of the polyhedron, $n$ the number of the plane angles which form each solid angle. Then the angle $ace=ACE=\\dfrac{2\\pi}{2m}=\\dfrac{\\pi}{m}$; and the angle $cae$ is half one of the $n$ equal angles formed on the sphere round $a$, that is, $cae=\\dfrac{2\\pi}{2n}=\\dfrac{\\pi}{n}$. From the right-angled triangle $cae$ $$\\cos{cae}=\\cos{cOe}\\sin{ace},$$ $$\\begin{align*}\n&\\text{that is }&\n  \\cos{\\frac{\\pi}{n}}\n&=\\cos{\\left( \\frac{\\pi}{2} - \\frac{I}{2} \\right)}\n  \\sin{\\frac{\\pi}{m}}; &&\n\\\\[1ex]\n&\\text{therefore }&\n  \\sin{\\frac{I}{2}}\n&=\\frac{\\cos \\dfrac{\\pi}{n}}\n       {\\sin{\\dfrac{\\pi}{m}}}. &\\phantom{therefore }&\n\\end{align*}$$\n\n##### 154.\n\n*To find the radii of the inscribed and circumscribed spheres of a regular polyhedron.*\n\nLet the edge $AB=a$, let $OC=r$ and $OA=R$, so that $r$ is the radius of the inscribed sphere, and $R$ is the radius of the circumscribed sphere. Then $$\\begin{align*}\n&& CE &= AE\\cot{ACE} = \\frac{a}{2}\\cot{\\frac{\\pi}{m}}, \\\\[1.5ex]\n&& r  &= CE\\tan{CEO} = CE\\tan{\\frac{I}{2}}\n       =\\frac{a}{2}\\cot{\\frac{\\pi}{m}}\\tan{\\frac{I}{2}};\n\\\\[1.5ex]\n&\\text{also }&\n   r  &= R\\cos{aOc} = R\\cot{eca}\\cot{eac}\n       = R\\cot{\\frac{\\pi}{m}} \\cot{\\frac{\\pi}{n}};\n\\\\[1.5ex]\n&\\text{therefore }&\n   R  &= r\\tan{\\frac{\\pi}{m}} \\tan{\\frac{\\pi}{n}}\n       = \\frac{a}{2} \\tan{\\frac{I}{2}} \\tan{\\frac{\\pi}{n}}.\n&\\phantom{therefore }&\n\\end{align*}$$\n\n##### 155.\n\n*To find the surface and volume of a regular polyhedron.*\n\nThe area of one face of the polyhedron is $\\dfrac{ma^2}{4}\\cot{\\dfrac{\\pi}{m}}$, and therefore the surface of the polyhedron is $\\dfrac{mFa^2}{4}\\cot{\\dfrac{\\pi}{m}}$.\\\nAlso the volume of the pyramid which has one face of the polyhedron for base and $O$ for vertex is $\\dfrac{r}{3}\\centerdot\\dfrac{ma^2}{4}\\cot{\\dfrac{\\pi}{m}}$, and therefore the volume of the polyhedron is $\\dfrac{mFra^2}{12}\\cot{\\dfrac{\\pi}{m}}$.\\\n\n##### 156.\n\n*To find the volume of a parallelepiped in terms of its edges and their inclinations to one another.*\n\n<figure data-latex-placement=\"htp\">\n<img src=\"images/128fc\" style=\"width:5cm\" />\n</figure>\n\nLet the edges be $OA=a$, $OB=b$, $OC=c$; let the inclinations be $BOC=a$, $COA=\\beta$, $AOB=\\gamma$. Draw $CE$ perpendicular to the plane $AOB$ meeting it at $E$. Describe a sphere with $O$ as a centre, meeting $OA$, $OB$, $OC$, $OE$ at $a$, $b$, $c$, $e$ respectively.\n\nThe volume of the parallelepiped is equal to the product of its base and altitude $=ab\\sin{\\gamma}\\centerdot CE=abc\\sin{\\gamma}\\sin{cOe}$. The spherical triangle $cae$ is right-angled at $e$; thus $$\\sin{cOe}=\\sin{cOa}\\sin{cae}=\\sin{\\beta}\\sin{cab},$$ and from the spherical triangle $cab$ $$\\sin{cab}\n= \\frac{\\surd{( 1 - \\cos^2{\\alpha} - \\cos^2{\\beta} - \\cos^2{\\gamma}\n              + 2\\cos{\\alpha}\\cos{\\beta}\\cos{\\gamma} )} }\n       {\\sin{\\beta}\\sin{\\gamma} };$$ therefore the volume of the parallelepiped $$= abc\\surd{( 1 - \\cos^2{\\alpha} - \\cos^2{\\beta} - \\cos^2{\\gamma}\n           + 2\\cos{\\alpha} \\cos{\\beta} \\cos{\\gamma} )}.$$\n\n##### 157.\n\n*To find the diagonal of a parallelepiped in terms of the three edges which it meets and their inclinations to one another.*\n\nLet the edges be $OA=a$, $OB=b$, $OC=c$; let the inclinations be $BOC=\\alpha$, $COA=\\beta$, $AOB=\\gamma$. Let $OD$ be the diagonal required, and let $OE$ be the diagonal of the face $OAB$. Then $$\\begin{align*}\nOD^2 &= OE^2+ED^2+2OE\\centerdot ED\\cos{COE}\\\\\n&=a^2+b^2+2ab\\cos{\\gamma}+c^2+2cOE\\cos{COE}.\n\\end{align*}$$\n\nDescribe a sphere with $O$ as centre meeting $OA$, $OB$, $OC$, $OE$ at $a$, $b$, $c$, $e$ respectively; then (see Example 14, Chap. <span class=\"smallcaps\">iv.</span>)\n\n<figure data-latex-placement=\"htp\">\n<img src=\"images/129fc\" style=\"width:5cm\" />\n</figure>\n\n$$\\begin{align*}\n\\cos{cOe} &= \\frac{\\cos{cOb}\\sin{aOe}+\\cos{cOa}\\sin{bOe}}{\\sin{aOb}}\\\\[1ex]\n&= \\frac{\\cos{\\alpha}\\sin{aOe}+\\cos{\\beta}\\sin{bOe}}{\\sin{\\gamma}};\n\\end{align*}$$ therefore\\\n$$OD^2 = a^2+b^2+c^2+2ab\\cos{\\gamma}\n       + \\frac{2cOE}{\\sin{\\gamma}}\n        (\\cos{\\alpha}\\sin{aOe} + \\cos{\\beta}\\sin{bOe}),$$ $$\\begin{align*}\n&\\text{and }&\n  OE\\sin{aOe} &= b\\sin{\\gamma}, &\\qquad\n  OE\\sin{bOe} &= a\\sin{\\gamma}; &&\n\\\\\n&\\text{therefore }& {\\quad$\n OD^2 = a^2+b^2+c^2\n       + 2ab\\cos{\\gamma} + 2bc\\cos{\\alpha} + 2ca\\cos{\\beta}$.\n\\quad} &\\phantom{therefore}&\n\\end{align*}$$\n\n##### 158.\n\n*To find the volume of a tetrahedron.*\n\nA tetrahedron is one-sixth of a parallelepiped which has the same altitude and its base double that of the tetrahedron; thus if the edges and their inclinations are given we can take one-sixth of the expression for the volume in Art. 156. The volume of a tetrahedron may also be expressed in terms of its six edges; for in the figure of Art. 156 let $BC=a'$, $CA=b'$, $AB=c'$; then $$\\cos{\\alpha}=\\frac{b^2+c^2-a'^2}{2bc}, \\quad\n  \\cos{\\beta} =\\frac{c^2+a^2-b'^2}{2ca}, \\quad\n  \\cos{\\gamma}=\\frac{a^2+b^2-c'^2}{2ab},$$ and if these values are substituted for $\\cos{\\alpha}$, $\\cos{\\beta}$, and $\\cos{\\gamma}$ in the expression obtained in Art. 156, the volume of the tetrahedron will be expressed in terms of its six edges.\n\nThe following result will be obtained, in which $V$ denotes the volume of the tetrahedron, $$\\begin{align*}\n144&\\hspace{3pt}V^2 = -a'^2 b'^2 c'^2\\\\\n& + a^2a'^2 (b'^2+c'^2-a'^2)\n    + b^2b'^2 (c'^2+a'^2-b'^2)\n    + c^2c'^2 (a'^2+b'^2-c'^2)\\\\\n& - a'^2 (a^2-b^2) (a^2-c^2)\n    - b'^2 (b^2-c^2) (b^2-a^2)\n    - c'^2 (c^2-a^2) (c^2-b^2).\n\\end{align*}$$\n\nThus for a *regular* tetrahedron we have $144\\hspace{3pt}V^2=2a^6$.\n\n##### 159.\n\nIf the vertex of a tetrahedron be supposed to be situated at any point in the plane of its base, the volume vanishes; hence if we equate to zero the expression on the right-hand side of the equation just given, we obtain a relation which must hold among the six straight lines which join four points taken arbitrarily in a plane.\n\nOr we may adopt Carnot's method, in which this relation is established independently, and the expression for the volume of a tetrahedron is deduced from it; this we shall now shew, and we shall add some other investigations which are also given by Carnot.\n\nIt will be convenient to alter the notation hitherto used, by interchanging the accented and unaccented letters.\n\n##### 160.\n\n*To find the relation holding among the six straight lines which join four points taken arbitrarily in a plane.*\n\nLet $A$, $B$, $C$, $D$ be the four points. Let $AB=c$, $BC=a$, $CA=b$; also let $DA=a'$, $DB=b'$, $DC=c'$.\n\nIf $D$ falls *within* the triangle $ABC$, the sum of the angles $ADB$, $BDC$, $CDA$ is equal to four right angles; so that $$\\cos{ADB}=\\cos{(BDC+CDA)}.$$\n\nHence by ordinary transformations we deduce $$1=\\cos^2{ADB}+\\cos^2{BDC}+\\cos^2{CDA}-2\\cos{ADB}\\cos{BDC}\\cos{CDA}.$$\n\nIf $D$ falls *without* the triangle $ABC$, one of the three angles at $D$ is equal to the sum of the other two, and the result just given still holds.\\\nNow $\\cos{ADB}=\\dfrac{a'^2+b'^2-c^2}{2a'b'}$, and the other cosines may be expressed in a similar manner; substitute these values in the above result, and we obtain the required relation, which after reduction may be exhibited thus, $$\\begin{align*}\n&  0=-a^2b^2c^2\\\\\n+ &a'^2a^2(b^2+c^2-a^2)\n   + b'^2b^2(c^2+a^2-b^2)\n   + c'^2c^2(a^2+b^2-c^2)\\\\\n- &a^2(a'^2-b'^2)(a'^2-c'^2)\n   - b^2(b'^2-c'^2)(b'^2-a'^2)\n   - c^2(c'^2-a'^2)(c'^2-b'^2).\n\\end{align*}$$\n\n##### 161.\n\n*To express the volume of a tetrahedron in terms of its six edges.*\n\nLet $a$, $b$, $c$ be the lengths of the sides of a triangle $ABC$ forming one face of the tetrahedron, which we may call its base; let $a'$, $b'$, $c'$ be the lengths of the straight lines which join $A$, $B$, $C$ respectively to the vertex of the tetrahedron. Let $p$ be the length of the perpendicular from the vertex on the base; then the lengths of the straight lines drawn from the foot of the perpendicular to $A$, $B$, $C$ respectively are $\\surd{(a'^2-p^2)}$, $\\surd{(b'^2-p^2)}$, $\\surd{(c'^2-p^2)}$. Hence the relation given in Art. 160 will hold if we put $\\surd{(a'^2-p^2)}$ instead of $a'$, $\\surd{(b'^2-p^2)}$ instead of $b'$, and $\\surd{(c'^2-p^2)}$ instead of $c'$. We shall thus obtain $$\\begin{align*}\n&p^2(2a^2b^2+2b^2c^2+2c^2a^2 -a^4-b^4-c^4) = -a^2b^2c^2\\\\\n& + a'^2a^2(b^2+c^2-a^2)\n   + b'^2b^2(c^2+a^2-b^2)\n   + c'^2c^2(a^2+b^2-c^2)\\\\\n& - a^2(a'^2-b'^2)(a'^2-c'^2)\n   - b^2(b'^2-c'^2)(b'^2-a'^2)\n   - c^2(c'^2-a'^2)(c'^2-b'^2).\n\\end{align*}$$\n\nThe coefficient of $p^2$ in this equation is sixteen times the square of the area of the triangle $ABC$; so that the left-hand member is $144\\,V^2$, where $V$ denotes the volume of the tetrahedron. Hence the required expression is obtained.\n\n##### 162.\n\n*To find the relation holding among the six arcs of great circles which join four points taken arbitrarily on the surface of a sphere.*\n\nLet $A$, $B$, $C$, $D$ be the four points. Let $AB=\\gamma$, $BC=\\alpha$, $CA=\\beta$; let $DA=\\alpha'$, $DB=\\beta'$, $DC=\\gamma'$.\n\nAs in Art. 160 we have $$1=\\cos^2{ADB}+\\cos^2{BDC}+\\cos^2{CDA}-2\\cos{ADB}\\cos{BDC}\\cos{CDA}.$$\n\nNow $\\cos{ADB}=\\dfrac{\\cos{\\gamma}-\\cos{\\alpha'}\\cos{\\beta'}} {\\sin{\\alpha'}\\sin{\\beta}'}$, and the other cosines may be expressed in a similar manner; substitute these values in the above result, and we obtain the required relation, which after reduction may be exhibited thus, $$\\begin{align*}\n1 &= \\cos^2{\\alpha} +\\cos^2{\\beta} +\\cos^2{\\gamma}\n   + \\cos^2{\\alpha'}+\\cos^2{\\beta'}+\\cos^2{\\gamma'}\n\\\\\n&{} - \\cos^2{\\alpha}\\cos^2{\\alpha'}\n    - \\cos^2{\\beta} \\cos^2{\\beta'}\n    - \\cos^2{\\gamma}\\cos^2{\\gamma'}\n\\\\\n&{} - 2( \\cos{\\alpha}\\cos{\\beta} \\cos{\\gamma}\n    + \\cos{\\alpha}\\cos{\\beta'}\\cos{\\gamma'}\n\\\\\n&{} + \\cos{\\beta} \\cos{\\alpha'}\\cos{\\gamma'}\n    + \\cos{\\gamma}\\cos{\\alpha'}\\cos{\\beta'} )\n\\\\\n&{} + 2( \\cos{\\alpha}\\cos{\\beta}\\cos{\\alpha'}\\cos{\\beta'}\n    + \\cos{\\beta}\\cos{\\gamma}\\cos{\\beta'}\\cos{\\gamma'}\n\\\\\n&{} + \\cos{\\gamma}\\cos{\\alpha}\\cos{\\gamma'}\\cos{\\alpha'} ).\n\\end{align*}$$\n\n##### 163.\n\n*To find the radius of the sphere circumscribing a tetrahedron.*\n\nDenote the edges of the tetrahedron as in Art. 161. Let the sphere be supposed to be circumscribed about the tetrahedron, and draw on the sphere the six arcs of great circles joining the angular points of the tetrahedron. Then the relation given in Art. 162 holds among the cosines of these six arcs.\n\nLet $r$ denote the radius of the sphere. Then $$\\cos{\\alpha}=1-2\\sin^2{\\frac{\\alpha}{2}}\n= 1-2\\left( \\frac{a}{2r} \\right)^2 = 1 - \\frac{a^2}{2r^2};$$ and the other cosines may be expressed in a similar manner. Substitute these values in the result of Art. 162, and we obtain, after reduction, with the aid of Art. 161, $$\\begin{align*}\n&\\rlap{$4\\times144\\,V^2r^2=$}& \\\\\n&&& 2a^2b^2a'^2b'^2\n  + 2b^2c^2b'^2c'^2\n  + 2c^2a^2c'^2a'^2 - a^4a'^4 - b^4b'^4 - c^4c'^4. &&\n\\end{align*}$$ The right-hand member may also be put into factors, as we see by recollecting the mode in which the expression for the area of a triangle is put into factors. Let $aa'+bb'+cc'=2\\sigma$; then $$36\\hspace{3pt}V^2r^2=\\sigma(\\sigma-aa')(\\sigma-bb')(\\sigma-cc').$$\n\n## EXAMPLES.\n\n1\\. If $I$ denote the inclination of two adjacent faces of a regular polyhedron, shew that $\\cos I=\\tfrac{1}{3}$ in the tetrahedron, $=0$ in the cube, $=-\\tfrac{1}{3}$ in the octahedron, $=-\\tfrac{1}{5}\\surd{5}$ in the dodecahedron, and $=-\\tfrac{1}{3}\\surd{5}$ in the icosahedron.\n\n2\\. With the notation of Art. 153, shew that the radius of the sphere which touches one face of a regular polyhedron and all the adjacent faces produced is $\\tfrac{1}{2}a\\cot{\\dfrac{\\pi}{m}}\\cot{\\tfrac{1}{2}}I$.\n\n3\\. A sphere touches one face of a regular tetrahedron and the other three faces produced: find its radius.\n\n4\\. If $a$ and $b$ are the radii of the spheres inscribed in and described about a regular tetrahedron, shew that $b=3a$.\n\n5\\. If $a$ is the radius of a sphere inscribed in a regular tetrahedron, and $R$ the radius of the sphere which touches the edges, shew that $R^2=3a^2$.\n\n6\\. If $a$ is the radius of a sphere inscribed in a regular tetrahedron, and $R'$ the radius of the sphere which touches one face and the others produced, shew that $R'=2a$.\n\n7\\. If a cube and an octahedron be described about a given sphere, the sphere described about these polyhedrons will be the same; and conversely.\n\n8\\. If a dodecahedron and an icosahedron be described about a given sphere, the sphere described about these polyhedrons will be the same; and conversely.\n\n9\\. A regular tetrahedron and a regular octahedron are inscribed in the same sphere: compare the radii of the spheres which can be inscribed in the two solids.\n\n10\\. The sum of the squares of the four diagonals of a parallelepiped is equal to four times the sum of the squares of the edges.\n\n11\\. If with all the angular points of any parallelepiped as centres equal spheres be described, the sum of the intercepted portions of the parallelepiped will be equal in volume to one of the spheres.\n\n12\\. A regular octahedron is inscribed in a cube so that the corners of the octahedron are at the centres of the faces of the cube: shew that the volume of the cube is six times that of the octahedron.\n\n13\\. It is not possible to fill any given space with a number of regular polyhedrons of the same kind, except cubes; but this may be done by means of tetrahedrons and octahedrons which have equal faces, by using twice as many of the former as of the latter.\n\n14\\. A spherical triangle is formed on the surface of a sphere of radius $\\rho$; its angular points are joined, forming thus a pyramid with the straight lines joining them with the centre: shew that the volume of the pyramid is $$\\tfrac{1}{3}\\rho^3\\surd{(\\tan r\\tan{r_1}\\tan{r_2}\\tan{r_3})},$$ where $r$, $r_1$, $r_2$, $r_3$ are the radii of the inscribed and escribed circles of the triangle.\n\n15\\. The angular points of a regular tetrahedron inscribed in a sphere of radius $r$ being taken as poles, four equal small circles of the sphere are described, so that each circle touches the other three. Shew that the area of the surface bounded by each circle is $2\\pi r^2\\left( 1 - \\dfrac{1}{\\surd{3}} \\right)$.\n\n16\\. If $O$ be any point within a spherical triangle $ABC$, the product of the sines of any two sides and the sine of the included angle $$\\begin{gather*}\n=\\sin{AO}\\sin{BO}\\sin{CO} \\biggl\\{\\cot{AO}\\sin{BOC} \\\\\n+\\cot{BO}\\sin{COA}+\\cot{CO}\\sin{AOB} \\biggr\\}.\n\\end{gather*}$$",
-   "text_html": "<h1 id=\"polyhedrons.\">POLYHEDRONS.</h1>\n<h5 id=\"section\">149.</h5>\n<p>A polyhedron is a solid bounded by any number of plane rectilineal figures which are called its faces. A polyhedron is said to be <em>regular</em> when its faces are similar and equal regular polygons, and its solid angles equal to one another.</p>\n<h5 id=\"section-1\">150.</h5>\n<p><em>If <span class=\"math inline\">\\(\\mathrm{S}\\)</span> be the number of solid angles in any polyhedron, <span class=\"math inline\">\\(\\mathrm{F}\\)</span> the number of its faces, <span class=\"math inline\">\\(\\mathrm{E}\\)</span> the number of its edges, then <span class=\"math inline\">\\(\\mathrm{S+F=E+2}\\)</span>.</em></p>\n<p>Take any point within the polyhedron as centre, and describe a sphere of radius <span class=\"math inline\">\\(r\\)</span>, and draw straight lines from the centre to each of the angular points of the polyhedron; let the points at which these straight lines meet the surface of the sphere be joined by arcs of great circles, so that the surface of the sphere is divided into as many polygons as the polyhedron has faces.</p>\n<p>Let <span class=\"math inline\">\\(s\\)</span> denote the sum of the angles of any one of these polygons, <span class=\"math inline\">\\(m\\)</span> the number of its sides; then the area of the polygon is <span class=\"math inline\">\\(r^2\\{s-(m-2)\\pi\\}\\)</span> by Art. 99. The sum of the areas of all the polygons is the surface of the sphere, that is, <span class=\"math inline\">\\(4\\pi r^2\\)</span>. Hence since the number of the polygons is <span class=\"math inline\">\\(F\\)</span>, we obtain <span class=\"math display\">\\[\\textstyle\n4\\pi = \\sum s - \\pi\\sum m + 2F\\pi.\\]</span></p>\n<p>Now <span class=\"math inline\">\\(\\sum s\\)</span> denotes the sum of all the angles of the polygons, and is therefore equal to <span class=\"math inline\">\\(2\\pi \\times\\)</span> the number of solid angles, that is, to <span class=\"math inline\">\\(2\\pi S\\)</span>; and <span class=\"math inline\">\\(\\sum m\\)</span> is equal to the number of all the sides of all the polygons, that is, to <span class=\"math inline\">\\(2E\\)</span>, since every edge gives rise to an arc which is common to two polygons. Therefore <span class=\"math display\">\\[4\\pi = 2\\pi S-2\\pi E+2F\\pi;\\]</span> therefore <span class=\"math inline\">\\(\\quad\nS+F=E+2.\n\\quad\\phantom{therefore }\\)</span></p>\n<h5 id=\"section-2\">151.</h5>\n<p><em>There can be only five regular polyhedrons.</em></p>\n<p>Let <span class=\"math inline\">\\(m\\)</span> be the number of sides in each face of a regular polyhedron, <span class=\"math inline\">\\(n\\)</span> the number of plane angles in each solid angle; then the entire number of plane angles is expressed by <span class=\"math inline\">\\(mF\\)</span>, or by <span class=\"math inline\">\\(nS\\)</span>, or by <span class=\"math inline\">\\(2E\\)</span>; thus <span class=\"math display\">\\[mF=nS=2E, \\text{ and } S+F=E+2;\\]</span> from these equations we obtain <span class=\"math display\">\\[S = \\frac{4 m}{2(m+n)-mn}, \\quad\n  E = \\frac{2mn}{2(m+n)-mn}, \\quad\n  F = \\frac{4 n}{2(m+n)-mn}.\\]</span></p>\n<p>These expressions must be positive integers, we must therefore have <span class=\"math inline\">\\(2(m+n)\\)</span> greater than <span class=\"math inline\">\\(mn\\)</span>; therefore <span class=\"math display\">\\[\\frac{1}{m}+\\frac{1}{n} \\text{ must be greater than } \\frac{1}{2};\\]</span> but <span class=\"math inline\">\\(n\\)</span> cannot be less than 3, so that <span class=\"math inline\">\\(\\dfrac{1}{n}\\)</span> cannot be greater than <span class=\"math inline\">\\(\\dfrac{1}{3}\\)</span>, and therefore <span class=\"math inline\">\\(\\dfrac{1}{m}\\)</span> must be greater than <span class=\"math inline\">\\(\\dfrac{1}{6}\\)</span>; and as <span class=\"math inline\">\\(m\\)</span> must be an integer and cannot be less than 3, the only admissible values of <span class=\"math inline\">\\(m\\)</span> are 3, 4, 5. It will be found on trial that the only values of <span class=\"math inline\">\\(m\\)</span> and <span class=\"math inline\">\\(n\\)</span> which satisfy all the necessary conditions are the following: each regular polyhedron derives its name from the number of its plane faces.</p>\n<div class=\"center\">\n<table>\n<thead>\n<tr>\n<th style=\"text-align: center;\"><span class=\"math inline\">\\(m\\)</span></th>\n<th style=\"text-align: center;\"><span class=\"math inline\">\\(n\\)</span></th>\n<th style=\"text-align: center;\"><span class=\"math inline\">\\(S\\)</span></th>\n<th style=\"text-align: center;\"><span class=\"math inline\">\\(E\\)</span></th>\n<th style=\"text-align: center;\"><span class=\"math inline\">\\(F\\)</span></th>\n<th style=\"text-align: center;\">Name of regular Polyhedron.</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"text-align: center;\">3</td>\n<td style=\"text-align: center;\">3</td>\n<td style=\"text-align: center;\">4</td>\n<td style=\"text-align: center;\">6</td>\n<td style=\"text-align: center;\">4</td>\n<td style=\"text-align: left;\">Tetrahedron or regular Pyramid.</td>\n</tr>\n<tr>\n<td style=\"text-align: center;\">4</td>\n<td style=\"text-align: center;\">3</td>\n<td style=\"text-align: center;\">8</td>\n<td style=\"text-align: center;\">12</td>\n<td style=\"text-align: center;\">6</td>\n<td style=\"text-align: left;\">Hexahedron or Cube.</td>\n</tr>\n<tr>\n<td style=\"text-align: center;\">3</td>\n<td style=\"text-align: center;\">4</td>\n<td style=\"text-align: center;\">6</td>\n<td style=\"text-align: center;\">12</td>\n<td style=\"text-align: center;\">8</td>\n<td style=\"text-align: left;\">Octahedron.</td>\n</tr>\n<tr>\n<td style=\"text-align: center;\">5</td>\n<td style=\"text-align: center;\">3</td>\n<td style=\"text-align: center;\">20</td>\n<td style=\"text-align: center;\">30</td>\n<td style=\"text-align: center;\">12</td>\n<td style=\"text-align: left;\">Dodecahedron.</td>\n</tr>\n<tr>\n<td style=\"text-align: center;\">3</td>\n<td style=\"text-align: center;\">5</td>\n<td style=\"text-align: center;\">12</td>\n<td style=\"text-align: center;\">30</td>\n<td style=\"text-align: center;\">20</td>\n<td style=\"text-align: left;\">Icosahedron.</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p>It will be seen that the demonstration establishes something more than the enunciation states; for it is not assumed that the faces are equilateral and equiangular and all equal. It is in fact demonstrated that, <em>there cannot be more than five solids each of which has all its faces with the same number of sides, and all its solid angles formed with the same number of plane angles.</em></p>\n<h5 id=\"section-3\">152.</h5>\n<p><em>The sum of all the plane angles which form the solid angles of any polyhedron is <span class=\"math inline\">\\(2(S-2)\\pi\\)</span>.</em></p>\n<p>For if <span class=\"math inline\">\\(m\\)</span> denote the number of sides in any face of the polyhedron, the sum of the interior angles of that face is <span class=\"math inline\">\\((m-2)\\pi\\)</span> by Euclid I. 32, Cor. 1. Hence the sum of all the interior angles of all the faces is <span class=\"math inline\">\\(\\sum(m-2)\\pi\\)</span>, that is <span class=\"math inline\">\\(\\sum m\\pi-2F\\pi\\)</span>, that is <span class=\"math inline\">\\(2(E-F)\\pi\\)</span>, that is <span class=\"math inline\">\\(2(S-2)\\pi\\)</span>.</p>\n<h5 id=\"section-4\">153.</h5>\n<p><em>To find the inclination of two adjacent faces of a regular polyhedron.</em></p>\n<figure data-latex-placement=\"htp\">\n<img src=\"images/todhunter-spherical-trigonometry-1886/images/126fc.png\" style=\"width:5cm\" />\n</figure>\n<p>Let <span class=\"math inline\">\\(AB\\)</span> be the edge common to the two adjacent faces, <span class=\"math inline\">\\(C\\)</span> and <span class=\"math inline\">\\(D\\)</span> the centres of the faces; bisect <span class=\"math inline\">\\(AB\\)</span> at <span class=\"math inline\">\\(E\\)</span>, and join <span class=\"math inline\">\\(CE\\)</span> and <span class=\"math inline\">\\(DE\\)</span>; <span class=\"math inline\">\\(CE\\)</span> and <span class=\"math inline\">\\(DE\\)</span> will be perpendicular to <span class=\"math inline\">\\(AB\\)</span>, and the angle <span class=\"math inline\">\\(CED\\)</span> is the angle of inclination of the two adjacent faces; we shall denote it by <span class=\"math inline\">\\(I\\)</span>. In the plane containing <span class=\"math inline\">\\(CE\\)</span> and <span class=\"math inline\">\\(DE\\)</span> draw <span class=\"math inline\">\\(CO\\)</span> and <span class=\"math inline\">\\(DO\\)</span> at right angles to <span class=\"math inline\">\\(CE\\)</span> and <span class=\"math inline\">\\(DE\\)</span> respectively, and meeting at <span class=\"math inline\">\\(O\\)</span>; about <span class=\"math inline\">\\(O\\)</span> as centre describe a sphere meeting <span class=\"math inline\">\\(OA\\)</span>, <span class=\"math inline\">\\(OC\\)</span>, <span class=\"math inline\">\\(OE\\)</span> at <span class=\"math inline\">\\(a\\)</span>, <span class=\"math inline\">\\(c\\)</span>, <span class=\"math inline\">\\(e\\)</span> respectively, so that <span class=\"math inline\">\\(cae\\)</span> forms a spherical triangle. Since <span class=\"math inline\">\\(AB\\)</span> is perpendicular to <span class=\"math inline\">\\(CE\\)</span> and <span class=\"math inline\">\\(DE\\)</span>, it is perpendicular to the plane <span class=\"math inline\">\\(CED\\)</span>, therefore the plane <span class=\"math inline\">\\(AOB\\)</span> which contains <span class=\"math inline\">\\(AB\\)</span> is perpendicular to the plane <span class=\"math inline\">\\(CED\\)</span>; hence the angle <span class=\"math inline\">\\(cea\\)</span> of the spherical triangle is a right angle. Let <span class=\"math inline\">\\(m\\)</span> be the number of sides in each face of the polyhedron, <span class=\"math inline\">\\(n\\)</span> the number of the plane angles which form each solid angle. Then the angle <span class=\"math inline\">\\(ace=ACE=\\dfrac{2\\pi}{2m}=\\dfrac{\\pi}{m}\\)</span>; and the angle <span class=\"math inline\">\\(cae\\)</span> is half one of the <span class=\"math inline\">\\(n\\)</span> equal angles formed on the sphere round <span class=\"math inline\">\\(a\\)</span>, that is, <span class=\"math inline\">\\(cae=\\dfrac{2\\pi}{2n}=\\dfrac{\\pi}{n}\\)</span>. From the right-angled triangle <span class=\"math inline\">\\(cae\\)</span> <span class=\"math display\">\\[\\cos{cae}=\\cos{cOe}\\sin{ace},\\]</span> <span class=\"math display\">\\[\\begin{align*}\n&amp;\\text{that is }&amp;\n  \\cos{\\frac{\\pi}{n}}\n&amp;=\\cos{\\left( \\frac{\\pi}{2} - \\frac{I}{2} \\right)}\n  \\sin{\\frac{\\pi}{m}}; &amp;&amp;\n\\\\[1ex]\n&amp;\\text{therefore }&amp;\n  \\sin{\\frac{I}{2}}\n&amp;=\\frac{\\cos \\dfrac{\\pi}{n}}\n       {\\sin{\\dfrac{\\pi}{m}}}. &amp;\\phantom{therefore }&amp;\n\\end{align*}\\]</span></p>\n<h5 id=\"section-5\">154.</h5>\n<p><em>To find the radii of the inscribed and circumscribed spheres of a regular polyhedron.</em></p>\n<p>Let the edge <span class=\"math inline\">\\(AB=a\\)</span>, let <span class=\"math inline\">\\(OC=r\\)</span> and <span class=\"math inline\">\\(OA=R\\)</span>, so that <span class=\"math inline\">\\(r\\)</span> is the radius of the inscribed sphere, and <span class=\"math inline\">\\(R\\)</span> is the radius of the circumscribed sphere. Then <span class=\"math display\">\\[\\begin{align*}\n&amp;&amp; CE &amp;= AE\\cot{ACE} = \\frac{a}{2}\\cot{\\frac{\\pi}{m}}, \\\\[1.5ex]\n&amp;&amp; r  &amp;= CE\\tan{CEO} = CE\\tan{\\frac{I}{2}}\n       =\\frac{a}{2}\\cot{\\frac{\\pi}{m}}\\tan{\\frac{I}{2}};\n\\\\[1.5ex]\n&amp;\\text{also }&amp;\n   r  &amp;= R\\cos{aOc} = R\\cot{eca}\\cot{eac}\n       = R\\cot{\\frac{\\pi}{m}} \\cot{\\frac{\\pi}{n}};\n\\\\[1.5ex]\n&amp;\\text{therefore }&amp;\n   R  &amp;= r\\tan{\\frac{\\pi}{m}} \\tan{\\frac{\\pi}{n}}\n       = \\frac{a}{2} \\tan{\\frac{I}{2}} \\tan{\\frac{\\pi}{n}}.\n&amp;\\phantom{therefore }&amp;\n\\end{align*}\\]</span></p>\n<h5 id=\"section-6\">155.</h5>\n<p><em>To find the surface and volume of a regular polyhedron.</em></p>\n<p>The area of one face of the polyhedron is <span class=\"math inline\">\\(\\dfrac{ma^2}{4}\\cot{\\dfrac{\\pi}{m}}\\)</span>, and therefore the surface of the polyhedron is <span class=\"math inline\">\\(\\dfrac{mFa^2}{4}\\cot{\\dfrac{\\pi}{m}}\\)</span>.<br />\nAlso the volume of the pyramid which has one face of the polyhedron for base and <span class=\"math inline\">\\(O\\)</span> for vertex is <span class=\"math inline\">\\(\\dfrac{r}{3}\\centerdot\\dfrac{ma^2}{4}\\cot{\\dfrac{\\pi}{m}}\\)</span>, and therefore the volume of the polyhedron is <span class=\"math inline\">\\(\\dfrac{mFra^2}{12}\\cot{\\dfrac{\\pi}{m}}\\)</span>.<br />\n</p>\n<h5 id=\"section-7\">156.</h5>\n<p><em>To find the volume of a parallelepiped in terms of its edges and their inclinations to one another.</em></p>\n<figure data-latex-placement=\"htp\">\n<img src=\"images/todhunter-spherical-trigonometry-1886/images/128fc.png\" style=\"width:5cm\" />\n</figure>\n<p>Let the edges be <span class=\"math inline\">\\(OA=a\\)</span>, <span class=\"math inline\">\\(OB=b\\)</span>, <span class=\"math inline\">\\(OC=c\\)</span>; let the inclinations be <span class=\"math inline\">\\(BOC=a\\)</span>, <span class=\"math inline\">\\(COA=\\beta\\)</span>, <span class=\"math inline\">\\(AOB=\\gamma\\)</span>. Draw <span class=\"math inline\">\\(CE\\)</span> perpendicular to the plane <span class=\"math inline\">\\(AOB\\)</span> meeting it at <span class=\"math inline\">\\(E\\)</span>. Describe a sphere with <span class=\"math inline\">\\(O\\)</span> as a centre, meeting <span class=\"math inline\">\\(OA\\)</span>, <span class=\"math inline\">\\(OB\\)</span>, <span class=\"math inline\">\\(OC\\)</span>, <span class=\"math inline\">\\(OE\\)</span> at <span class=\"math inline\">\\(a\\)</span>, <span class=\"math inline\">\\(b\\)</span>, <span class=\"math inline\">\\(c\\)</span>, <span class=\"math inline\">\\(e\\)</span> respectively.</p>\n<p>The volume of the parallelepiped is equal to the product of its base and altitude <span class=\"math inline\">\\(=ab\\sin{\\gamma}\\centerdot CE=abc\\sin{\\gamma}\\sin{cOe}\\)</span>. The spherical triangle <span class=\"math inline\">\\(cae\\)</span> is right-angled at <span class=\"math inline\">\\(e\\)</span>; thus <span class=\"math display\">\\[\\sin{cOe}=\\sin{cOa}\\sin{cae}=\\sin{\\beta}\\sin{cab},\\]</span> and from the spherical triangle <span class=\"math inline\">\\(cab\\)</span> <span class=\"math display\">\\[\\sin{cab}\n= \\frac{\\surd{( 1 - \\cos^2{\\alpha} - \\cos^2{\\beta} - \\cos^2{\\gamma}\n              + 2\\cos{\\alpha}\\cos{\\beta}\\cos{\\gamma} )} }\n       {\\sin{\\beta}\\sin{\\gamma} };\\]</span> therefore the volume of the parallelepiped <span class=\"math display\">\\[= abc\\surd{( 1 - \\cos^2{\\alpha} - \\cos^2{\\beta} - \\cos^2{\\gamma}\n           + 2\\cos{\\alpha} \\cos{\\beta} \\cos{\\gamma} )}.\\]</span></p>\n<h5 id=\"section-8\">157.</h5>\n<p><em>To find the diagonal of a parallelepiped in terms of the three edges which it meets and their inclinations to one another.</em></p>\n<p>Let the edges be <span class=\"math inline\">\\(OA=a\\)</span>, <span class=\"math inline\">\\(OB=b\\)</span>, <span class=\"math inline\">\\(OC=c\\)</span>; let the inclinations be <span class=\"math inline\">\\(BOC=\\alpha\\)</span>, <span class=\"math inline\">\\(COA=\\beta\\)</span>, <span class=\"math inline\">\\(AOB=\\gamma\\)</span>. Let <span class=\"math inline\">\\(OD\\)</span> be the diagonal required, and let <span class=\"math inline\">\\(OE\\)</span> be the diagonal of the face <span class=\"math inline\">\\(OAB\\)</span>. Then <span class=\"math display\">\\[\\begin{align*}\nOD^2 &amp;= OE^2+ED^2+2OE\\centerdot ED\\cos{COE}\\\\\n&amp;=a^2+b^2+2ab\\cos{\\gamma}+c^2+2cOE\\cos{COE}.\n\\end{align*}\\]</span></p>\n<p>Describe a sphere with <span class=\"math inline\">\\(O\\)</span> as centre meeting <span class=\"math inline\">\\(OA\\)</span>, <span class=\"math inline\">\\(OB\\)</span>, <span class=\"math inline\">\\(OC\\)</span>, <span class=\"math inline\">\\(OE\\)</span> at <span class=\"math inline\">\\(a\\)</span>, <span class=\"math inline\">\\(b\\)</span>, <span class=\"math inline\">\\(c\\)</span>, <span class=\"math inline\">\\(e\\)</span> respectively; then (see Example 14, Chap. <span class=\"smallcaps\">iv.</span>)</p>\n<figure data-latex-placement=\"htp\">\n<img src=\"images/todhunter-spherical-trigonometry-1886/images/129fc.png\" style=\"width:5cm\" />\n</figure>\n<p><span class=\"math display\">\\[\\begin{align*}\n\\cos{cOe} &amp;= \\frac{\\cos{cOb}\\sin{aOe}+\\cos{cOa}\\sin{bOe}}{\\sin{aOb}}\\\\[1ex]\n&amp;= \\frac{\\cos{\\alpha}\\sin{aOe}+\\cos{\\beta}\\sin{bOe}}{\\sin{\\gamma}};\n\\end{align*}\\]</span> therefore<br />\n<span class=\"math display\">\\[OD^2 = a^2+b^2+c^2+2ab\\cos{\\gamma}\n       + \\frac{2cOE}{\\sin{\\gamma}}\n        (\\cos{\\alpha}\\sin{aOe} + \\cos{\\beta}\\sin{bOe}),\\]</span> <span class=\"math display\">\\[\\begin{align*}\n&amp;\\text{and }&amp;\n  OE\\sin{aOe} &amp;= b\\sin{\\gamma}, &amp;\\qquad\n  OE\\sin{bOe} &amp;= a\\sin{\\gamma}; &amp;&amp;\n\\\\\n&amp;\\text{therefore }&amp; {\\quad\n OD^2 = a^2+b^2+c^2\n       + 2ab\\cos{\\gamma} + 2bc\\cos{\\alpha} + 2ca\\cos{\\beta}.\n\\quad} &amp;\\phantom{therefore}&amp;\n\\end{align*}\\]</span></p>\n<h5 id=\"section-9\">158.</h5>\n<p><em>To find the volume of a tetrahedron.</em></p>\n<p>A tetrahedron is one-sixth of a parallelepiped which has the same altitude and its base double that of the tetrahedron; thus if the edges and their inclinations are given we can take one-sixth of the expression for the volume in Art. 156. The volume of a tetrahedron may also be expressed in terms of its six edges; for in the figure of Art. 156 let <span class=\"math inline\">\\(BC=a&#39;\\)</span>, <span class=\"math inline\">\\(CA=b&#39;\\)</span>, <span class=\"math inline\">\\(AB=c&#39;\\)</span>; then <span class=\"math display\">\\[\\cos{\\alpha}=\\frac{b^2+c^2-a&#39;^2}{2bc}, \\quad\n  \\cos{\\beta} =\\frac{c^2+a^2-b&#39;^2}{2ca}, \\quad\n  \\cos{\\gamma}=\\frac{a^2+b^2-c&#39;^2}{2ab},\\]</span> and if these values are substituted for <span class=\"math inline\">\\(\\cos{\\alpha}\\)</span>, <span class=\"math inline\">\\(\\cos{\\beta}\\)</span>, and <span class=\"math inline\">\\(\\cos{\\gamma}\\)</span> in the expression obtained in Art. 156, the volume of the tetrahedron will be expressed in terms of its six edges.</p>\n<p>The following result will be obtained, in which <span class=\"math inline\">\\(V\\)</span> denotes the volume of the tetrahedron, <span class=\"math display\">\\[\\begin{align*}\n144&amp;\\hspace{3pt}V^2 = -a&#39;^2 b&#39;^2 c&#39;^2\\\\\n&amp; + a^2a&#39;^2 (b&#39;^2+c&#39;^2-a&#39;^2)\n    + b^2b&#39;^2 (c&#39;^2+a&#39;^2-b&#39;^2)\n    + c^2c&#39;^2 (a&#39;^2+b&#39;^2-c&#39;^2)\\\\\n&amp; - a&#39;^2 (a^2-b^2) (a^2-c^2)\n    - b&#39;^2 (b^2-c^2) (b^2-a^2)\n    - c&#39;^2 (c^2-a^2) (c^2-b^2).\n\\end{align*}\\]</span></p>\n<p>Thus for a <em>regular</em> tetrahedron we have <span class=\"math inline\">\\(144\\hspace{3pt}V^2=2a^6\\)</span>.</p>\n<h5 id=\"section-10\">159.</h5>\n<p>If the vertex of a tetrahedron be supposed to be situated at any point in the plane of its base, the volume vanishes; hence if we equate to zero the expression on the right-hand side of the equation just given, we obtain a relation which must hold among the six straight lines which join four points taken arbitrarily in a plane.</p>\n<p>Or we may adopt Carnot’s method, in which this relation is established independently, and the expression for the volume of a tetrahedron is deduced from it; this we shall now shew, and we shall add some other investigations which are also given by Carnot.</p>\n<p>It will be convenient to alter the notation hitherto used, by interchanging the accented and unaccented letters.</p>\n<h5 id=\"section-11\">160.</h5>\n<p><em>To find the relation holding among the six straight lines which join four points taken arbitrarily in a plane.</em></p>\n<p>Let <span class=\"math inline\">\\(A\\)</span>, <span class=\"math inline\">\\(B\\)</span>, <span class=\"math inline\">\\(C\\)</span>, <span class=\"math inline\">\\(D\\)</span> be the four points. Let <span class=\"math inline\">\\(AB=c\\)</span>, <span class=\"math inline\">\\(BC=a\\)</span>, <span class=\"math inline\">\\(CA=b\\)</span>; also let <span class=\"math inline\">\\(DA=a&#39;\\)</span>, <span class=\"math inline\">\\(DB=b&#39;\\)</span>, <span class=\"math inline\">\\(DC=c&#39;\\)</span>.</p>\n<p>If <span class=\"math inline\">\\(D\\)</span> falls <em>within</em> the triangle <span class=\"math inline\">\\(ABC\\)</span>, the sum of the angles <span class=\"math inline\">\\(ADB\\)</span>, <span class=\"math inline\">\\(BDC\\)</span>, <span class=\"math inline\">\\(CDA\\)</span> is equal to four right angles; so that <span class=\"math display\">\\[\\cos{ADB}=\\cos{(BDC+CDA)}.\\]</span></p>\n<p>Hence by ordinary transformations we deduce <span class=\"math display\">\\[1=\\cos^2{ADB}+\\cos^2{BDC}+\\cos^2{CDA}-2\\cos{ADB}\\cos{BDC}\\cos{CDA}.\\]</span></p>\n<p>If <span class=\"math inline\">\\(D\\)</span> falls <em>without</em> the triangle <span class=\"math inline\">\\(ABC\\)</span>, one of the three angles at <span class=\"math inline\">\\(D\\)</span> is equal to the sum of the other two, and the result just given still holds.<br />\nNow <span class=\"math inline\">\\(\\cos{ADB}=\\dfrac{a&#39;^2+b&#39;^2-c^2}{2a&#39;b&#39;}\\)</span>, and the other cosines may be expressed in a similar manner; substitute these values in the above result, and we obtain the required relation, which after reduction may be exhibited thus, <span class=\"math display\">\\[\\begin{align*}\n&amp;  0=-a^2b^2c^2\\\\\n+ &amp;a&#39;^2a^2(b^2+c^2-a^2)\n   + b&#39;^2b^2(c^2+a^2-b^2)\n   + c&#39;^2c^2(a^2+b^2-c^2)\\\\\n- &amp;a^2(a&#39;^2-b&#39;^2)(a&#39;^2-c&#39;^2)\n   - b^2(b&#39;^2-c&#39;^2)(b&#39;^2-a&#39;^2)\n   - c^2(c&#39;^2-a&#39;^2)(c&#39;^2-b&#39;^2).\n\\end{align*}\\]</span></p>\n<h5 id=\"section-12\">161.</h5>\n<p><em>To express the volume of a tetrahedron in terms of its six edges.</em></p>\n<p>Let <span class=\"math inline\">\\(a\\)</span>, <span class=\"math inline\">\\(b\\)</span>, <span class=\"math inline\">\\(c\\)</span> be the lengths of the sides of a triangle <span class=\"math inline\">\\(ABC\\)</span> forming one face of the tetrahedron, which we may call its base; let <span class=\"math inline\">\\(a&#39;\\)</span>, <span class=\"math inline\">\\(b&#39;\\)</span>, <span class=\"math inline\">\\(c&#39;\\)</span> be the lengths of the straight lines which join <span class=\"math inline\">\\(A\\)</span>, <span class=\"math inline\">\\(B\\)</span>, <span class=\"math inline\">\\(C\\)</span> respectively to the vertex of the tetrahedron. Let <span class=\"math inline\">\\(p\\)</span> be the length of the perpendicular from the vertex on the base; then the lengths of the straight lines drawn from the foot of the perpendicular to <span class=\"math inline\">\\(A\\)</span>, <span class=\"math inline\">\\(B\\)</span>, <span class=\"math inline\">\\(C\\)</span> respectively are <span class=\"math inline\">\\(\\surd{(a&#39;^2-p^2)}\\)</span>, <span class=\"math inline\">\\(\\surd{(b&#39;^2-p^2)}\\)</span>, <span class=\"math inline\">\\(\\surd{(c&#39;^2-p^2)}\\)</span>. Hence the relation given in Art. 160 will hold if we put <span class=\"math inline\">\\(\\surd{(a&#39;^2-p^2)}\\)</span> instead of <span class=\"math inline\">\\(a&#39;\\)</span>, <span class=\"math inline\">\\(\\surd{(b&#39;^2-p^2)}\\)</span> instead of <span class=\"math inline\">\\(b&#39;\\)</span>, and <span class=\"math inline\">\\(\\surd{(c&#39;^2-p^2)}\\)</span> instead of <span class=\"math inline\">\\(c&#39;\\)</span>. We shall thus obtain <span class=\"math display\">\\[\\begin{align*}\n&amp;p^2(2a^2b^2+2b^2c^2+2c^2a^2 -a^4-b^4-c^4) = -a^2b^2c^2\\\\\n&amp; + a&#39;^2a^2(b^2+c^2-a^2)\n   + b&#39;^2b^2(c^2+a^2-b^2)\n   + c&#39;^2c^2(a^2+b^2-c^2)\\\\\n&amp; - a^2(a&#39;^2-b&#39;^2)(a&#39;^2-c&#39;^2)\n   - b^2(b&#39;^2-c&#39;^2)(b&#39;^2-a&#39;^2)\n   - c^2(c&#39;^2-a&#39;^2)(c&#39;^2-b&#39;^2).\n\\end{align*}\\]</span></p>\n<p>The coefficient of <span class=\"math inline\">\\(p^2\\)</span> in this equation is sixteen times the square of the area of the triangle <span class=\"math inline\">\\(ABC\\)</span>; so that the left-hand member is <span class=\"math inline\">\\(144\\,V^2\\)</span>, where <span class=\"math inline\">\\(V\\)</span> denotes the volume of the tetrahedron. Hence the required expression is obtained.</p>\n<h5 id=\"section-13\">162.</h5>\n<p><em>To find the relation holding among the six arcs of great circles which join four points taken arbitrarily on the surface of a sphere.</em></p>\n<p>Let <span class=\"math inline\">\\(A\\)</span>, <span class=\"math inline\">\\(B\\)</span>, <span class=\"math inline\">\\(C\\)</span>, <span class=\"math inline\">\\(D\\)</span> be the four points. Let <span class=\"math inline\">\\(AB=\\gamma\\)</span>, <span class=\"math inline\">\\(BC=\\alpha\\)</span>, <span class=\"math inline\">\\(CA=\\beta\\)</span>; let <span class=\"math inline\">\\(DA=\\alpha&#39;\\)</span>, <span class=\"math inline\">\\(DB=\\beta&#39;\\)</span>, <span class=\"math inline\">\\(DC=\\gamma&#39;\\)</span>.</p>\n<p>As in Art. 160 we have <span class=\"math display\">\\[1=\\cos^2{ADB}+\\cos^2{BDC}+\\cos^2{CDA}-2\\cos{ADB}\\cos{BDC}\\cos{CDA}.\\]</span></p>\n<p>Now <span class=\"math inline\">\\(\\cos{ADB}=\\dfrac{\\cos{\\gamma}-\\cos{\\alpha&#39;}\\cos{\\beta&#39;}} {\\sin{\\alpha&#39;}\\sin{\\beta}&#39;}\\)</span>, and the other cosines may be expressed in a similar manner; substitute these values in the above result, and we obtain the required relation, which after reduction may be exhibited thus, <span class=\"math display\">\\[\\begin{align*}\n1 &amp;= \\cos^2{\\alpha} +\\cos^2{\\beta} +\\cos^2{\\gamma}\n   + \\cos^2{\\alpha&#39;}+\\cos^2{\\beta&#39;}+\\cos^2{\\gamma&#39;}\n\\\\\n&amp;{} - \\cos^2{\\alpha}\\cos^2{\\alpha&#39;}\n    - \\cos^2{\\beta} \\cos^2{\\beta&#39;}\n    - \\cos^2{\\gamma}\\cos^2{\\gamma&#39;}\n\\\\\n&amp;{} - 2( \\cos{\\alpha}\\cos{\\beta} \\cos{\\gamma}\n    + \\cos{\\alpha}\\cos{\\beta&#39;}\\cos{\\gamma&#39;}\n\\\\\n&amp;{} + \\cos{\\beta} \\cos{\\alpha&#39;}\\cos{\\gamma&#39;}\n    + \\cos{\\gamma}\\cos{\\alpha&#39;}\\cos{\\beta&#39;} )\n\\\\\n&amp;{} + 2( \\cos{\\alpha}\\cos{\\beta}\\cos{\\alpha&#39;}\\cos{\\beta&#39;}\n    + \\cos{\\beta}\\cos{\\gamma}\\cos{\\beta&#39;}\\cos{\\gamma&#39;}\n\\\\\n&amp;{} + \\cos{\\gamma}\\cos{\\alpha}\\cos{\\gamma&#39;}\\cos{\\alpha&#39;} ).\n\\end{align*}\\]</span></p>\n<h5 id=\"section-14\">163.</h5>\n<p><em>To find the radius of the sphere circumscribing a tetrahedron.</em></p>\n<p>Denote the edges of the tetrahedron as in Art. 161. Let the sphere be supposed to be circumscribed about the tetrahedron, and draw on the sphere the six arcs of great circles joining the angular points of the tetrahedron. Then the relation given in Art. 162 holds among the cosines of these six arcs.</p>\n<p>Let <span class=\"math inline\">\\(r\\)</span> denote the radius of the sphere. Then <span class=\"math display\">\\[\\cos{\\alpha}=1-2\\sin^2{\\frac{\\alpha}{2}}\n= 1-2\\left( \\frac{a}{2r} \\right)^2 = 1 - \\frac{a^2}{2r^2};\\]</span> and the other cosines may be expressed in a similar manner. Substitute these values in the result of Art. 162, and we obtain, after reduction, with the aid of Art. 161, <span class=\"math display\">\\[\\begin{align*}\n&amp;\\rlap{4\\times144\\,V^2r^2=}&amp; \\\\\n&amp;&amp;&amp; 2a^2b^2a&#39;^2b&#39;^2\n  + 2b^2c^2b&#39;^2c&#39;^2\n  + 2c^2a^2c&#39;^2a&#39;^2 - a^4a&#39;^4 - b^4b&#39;^4 - c^4c&#39;^4. &amp;&amp;\n\\end{align*}\\]</span> The right-hand member may also be put into factors, as we see by recollecting the mode in which the expression for the area of a triangle is put into factors. Let <span class=\"math inline\">\\(aa&#39;+bb&#39;+cc&#39;=2\\sigma\\)</span>; then <span class=\"math display\">\\[36\\hspace{3pt}V^2r^2=\\sigma(\\sigma-aa&#39;)(\\sigma-bb&#39;)(\\sigma-cc&#39;).\\]</span></p>\n<h2 class=\"unnumbered\" id=\"examples.\">EXAMPLES.</h2>\n<p>1. If <span class=\"math inline\">\\(I\\)</span> denote the inclination of two adjacent faces of a regular polyhedron, shew that <span class=\"math inline\">\\(\\cos I=\\tfrac{1}{3}\\)</span> in the tetrahedron, <span class=\"math inline\">\\(=0\\)</span> in the cube, <span class=\"math inline\">\\(=-\\tfrac{1}{3}\\)</span> in the octahedron, <span class=\"math inline\">\\(=-\\tfrac{1}{5}\\surd{5}\\)</span> in the dodecahedron, and <span class=\"math inline\">\\(=-\\tfrac{1}{3}\\surd{5}\\)</span> in the icosahedron.</p>\n<p>2. With the notation of Art. 153, shew that the radius of the sphere which touches one face of a regular polyhedron and all the adjacent faces produced is <span class=\"math inline\">\\(\\tfrac{1}{2}a\\cot{\\dfrac{\\pi}{m}}\\cot{\\tfrac{1}{2}}I\\)</span>.</p>\n<p>3. A sphere touches one face of a regular tetrahedron and the other three faces produced: find its radius.</p>\n<p>4. If <span class=\"math inline\">\\(a\\)</span> and <span class=\"math inline\">\\(b\\)</span> are the radii of the spheres inscribed in and described about a regular tetrahedron, shew that <span class=\"math inline\">\\(b=3a\\)</span>.</p>\n<p>5. If <span class=\"math inline\">\\(a\\)</span> is the radius of a sphere inscribed in a regular tetrahedron, and <span class=\"math inline\">\\(R\\)</span> the radius of the sphere which touches the edges, shew that <span class=\"math inline\">\\(R^2=3a^2\\)</span>.</p>\n<p>6. If <span class=\"math inline\">\\(a\\)</span> is the radius of a sphere inscribed in a regular tetrahedron, and <span class=\"math inline\">\\(R&#39;\\)</span> the radius of the sphere which touches one face and the others produced, shew that <span class=\"math inline\">\\(R&#39;=2a\\)</span>.</p>\n<p>7. If a cube and an octahedron be described about a given sphere, the sphere described about these polyhedrons will be the same; and conversely.</p>\n<p>8. If a dodecahedron and an icosahedron be described about a given sphere, the sphere described about these polyhedrons will be the same; and conversely.</p>\n<p>9. A regular tetrahedron and a regular octahedron are inscribed in the same sphere: compare the radii of the spheres which can be inscribed in the two solids.</p>\n<p>10. The sum of the squares of the four diagonals of a parallelepiped is equal to four times the sum of the squares of the edges.</p>\n<p>11. If with all the angular points of any parallelepiped as centres equal spheres be described, the sum of the intercepted portions of the parallelepiped will be equal in volume to one of the spheres.</p>\n<p>12. A regular octahedron is inscribed in a cube so that the corners of the octahedron are at the centres of the faces of the cube: shew that the volume of the cube is six times that of the octahedron.</p>\n<p>13. It is not possible to fill any given space with a number of regular polyhedrons of the same kind, except cubes; but this may be done by means of tetrahedrons and octahedrons which have equal faces, by using twice as many of the former as of the latter.</p>\n<p>14. A spherical triangle is formed on the surface of a sphere of radius <span class=\"math inline\">\\(\\rho\\)</span>; its angular points are joined, forming thus a pyramid with the straight lines joining them with the centre: shew that the volume of the pyramid is <span class=\"math display\">\\[\\tfrac{1}{3}\\rho^3\\surd{(\\tan r\\tan{r_1}\\tan{r_2}\\tan{r_3})},\\]</span> where <span class=\"math inline\">\\(r\\)</span>, <span class=\"math inline\">\\(r_1\\)</span>, <span class=\"math inline\">\\(r_2\\)</span>, <span class=\"math inline\">\\(r_3\\)</span> are the radii of the inscribed and escribed circles of the triangle.</p>\n<p>15. The angular points of a regular tetrahedron inscribed in a sphere of radius <span class=\"math inline\">\\(r\\)</span> being taken as poles, four equal small circles of the sphere are described, so that each circle touches the other three. Shew that the area of the surface bounded by each circle is <span class=\"math inline\">\\(2\\pi r^2\\left( 1 - \\dfrac{1}{\\surd{3}} \\right)\\)</span>.</p>\n<p>16. If <span class=\"math inline\">\\(O\\)</span> be any point within a spherical triangle <span class=\"math inline\">\\(ABC\\)</span>, the product of the sines of any two sides and the sine of the included angle <span class=\"math display\">\\[\\begin{gather*}\n=\\sin{AO}\\sin{BO}\\sin{CO} \\biggl\\{\\cot{AO}\\sin{BOC} \\\\\n+\\cot{BO}\\sin{COA}+\\cot{CO}\\sin{AOB} \\biggr\\}.\n\\end{gather*}\\]</span></p>",
+   "text_markdown": "# POLYHEDRONS.\n\n##### 149.\n\nA polyhedron is a solid bounded by any number of plane rectilineal figures which are called its faces. A polyhedron is said to be *regular* when its faces are similar and equal regular polygons, and its solid angles equal to one another.\n\n##### 150.\n\n*If $\\mathrm{S}$ be the number of solid angles in any polyhedron, $\\mathrm{F}$ the number of its faces, $\\mathrm{E}$ the number of its edges, then $\\mathrm{S+F=E+2}$.*\n\nTake any point within the polyhedron as centre, and describe a sphere of radius $r$, and draw straight lines from the centre to each of the angular points of the polyhedron; let the points at which these straight lines meet the surface of the sphere be joined by arcs of great circles, so that the surface of the sphere is divided into as many polygons as the polyhedron has faces.\n\nLet $s$ denote the sum of the angles of any one of these polygons, $m$ the number of its sides; then the area of the polygon is $r^2\\{s-(m-2)\\pi\\}$ by Art. 99. The sum of the areas of all the polygons is the surface of the sphere, that is, $4\\pi r^2$. Hence since the number of the polygons is $F$, we obtain $$\\textstyle\n4\\pi = \\sum s - \\pi\\sum m + 2F\\pi.$$\n\nNow $\\sum s$ denotes the sum of all the angles of the polygons, and is therefore equal to $2\\pi \\times$ the number of solid angles, that is, to $2\\pi S$; and $\\sum m$ is equal to the number of all the sides of all the polygons, that is, to $2E$, since every edge gives rise to an arc which is common to two polygons. Therefore $$4\\pi = 2\\pi S-2\\pi E+2F\\pi;$$ therefore $\\quad\nS+F=E+2.\n\\quad\\phantom{therefore }$\n\n##### 151.\n\n*There can be only five regular polyhedrons.*\n\nLet $m$ be the number of sides in each face of a regular polyhedron, $n$ the number of plane angles in each solid angle; then the entire number of plane angles is expressed by $mF$, or by $nS$, or by $2E$; thus $$mF=nS=2E, \\text{ and } S+F=E+2;$$ from these equations we obtain $$S = \\frac{4 m}{2(m+n)-mn}, \\quad\n  E = \\frac{2mn}{2(m+n)-mn}, \\quad\n  F = \\frac{4 n}{2(m+n)-mn}.$$\n\nThese expressions must be positive integers, we must therefore have $2(m+n)$ greater than $mn$; therefore $$\\frac{1}{m}+\\frac{1}{n} \\text{ must be greater than } \\frac{1}{2};$$ but $n$ cannot be less than 3, so that $\\dfrac{1}{n}$ cannot be greater than $\\dfrac{1}{3}$, and therefore $\\dfrac{1}{m}$ must be greater than $\\dfrac{1}{6}$; and as $m$ must be an integer and cannot be less than 3, the only admissible values of $m$ are 3, 4, 5. It will be found on trial that the only values of $m$ and $n$ which satisfy all the necessary conditions are the following: each regular polyhedron derives its name from the number of its plane faces.\n\n<div class=\"center\">\n\n   $m$   $n$   $S$   $E$   $F$  Name of regular Polyhedron.\n  ----- ----- ----- ----- ----- ---------------------------------\n    3     3     4     6     4   Tetrahedron or regular Pyramid.\n    4     3     8    12     6   Hexahedron or Cube.\n    3     4     6    12     8   Octahedron.\n    5     3    20    30    12   Dodecahedron.\n    3     5    12    30    20   Icosahedron.\n\n</div>\n\nIt will be seen that the demonstration establishes something more than the enunciation states; for it is not assumed that the faces are equilateral and equiangular and all equal. It is in fact demonstrated that, *there cannot be more than five solids each of which has all its faces with the same number of sides, and all its solid angles formed with the same number of plane angles.*\n\n##### 152.\n\n*The sum of all the plane angles which form the solid angles of any polyhedron is $2(S-2)\\pi$.*\n\nFor if $m$ denote the number of sides in any face of the polyhedron, the sum of the interior angles of that face is $(m-2)\\pi$ by Euclid I. 32, Cor. 1. Hence the sum of all the interior angles of all the faces is $\\sum(m-2)\\pi$, that is $\\sum m\\pi-2F\\pi$, that is $2(E-F)\\pi$, that is $2(S-2)\\pi$.\n\n##### 153.\n\n*To find the inclination of two adjacent faces of a regular polyhedron.*\n\n<figure data-latex-placement=\"htp\">\n<img src=\"images/126fc\" style=\"width:5cm\" />\n</figure>\n\nLet $AB$ be the edge common to the two adjacent faces, $C$ and $D$ the centres of the faces; bisect $AB$ at $E$, and join $CE$ and $DE$; $CE$ and $DE$ will be perpendicular to $AB$, and the angle $CED$ is the angle of inclination of the two adjacent faces; we shall denote it by $I$. In the plane containing $CE$ and $DE$ draw $CO$ and $DO$ at right angles to $CE$ and $DE$ respectively, and meeting at $O$; about $O$ as centre describe a sphere meeting $OA$, $OC$, $OE$ at $a$, $c$, $e$ respectively, so that $cae$ forms a spherical triangle. Since $AB$ is perpendicular to $CE$ and $DE$, it is perpendicular to the plane $CED$, therefore the plane $AOB$ which contains $AB$ is perpendicular to the plane $CED$; hence the angle $cea$ of the spherical triangle is a right angle. Let $m$ be the number of sides in each face of the polyhedron, $n$ the number of the plane angles which form each solid angle. Then the angle $ace=ACE=\\dfrac{2\\pi}{2m}=\\dfrac{\\pi}{m}$; and the angle $cae$ is half one of the $n$ equal angles formed on the sphere round $a$, that is, $cae=\\dfrac{2\\pi}{2n}=\\dfrac{\\pi}{n}$. From the right-angled triangle $cae$ $$\\cos{cae}=\\cos{cOe}\\sin{ace},$$ $$\\begin{align*}\n&\\text{that is }&\n  \\cos{\\frac{\\pi}{n}}\n&=\\cos{\\left( \\frac{\\pi}{2} - \\frac{I}{2} \\right)}\n  \\sin{\\frac{\\pi}{m}}; &&\n\\\\[1ex]\n&\\text{therefore }&\n  \\sin{\\frac{I}{2}}\n&=\\frac{\\cos \\dfrac{\\pi}{n}}\n       {\\sin{\\dfrac{\\pi}{m}}}. &\\phantom{therefore }&\n\\end{align*}$$\n\n##### 154.\n\n*To find the radii of the inscribed and circumscribed spheres of a regular polyhedron.*\n\nLet the edge $AB=a$, let $OC=r$ and $OA=R$, so that $r$ is the radius of the inscribed sphere, and $R$ is the radius of the circumscribed sphere. Then $$\\begin{align*}\n&& CE &= AE\\cot{ACE} = \\frac{a}{2}\\cot{\\frac{\\pi}{m}}, \\\\[1.5ex]\n&& r  &= CE\\tan{CEO} = CE\\tan{\\frac{I}{2}}\n       =\\frac{a}{2}\\cot{\\frac{\\pi}{m}}\\tan{\\frac{I}{2}};\n\\\\[1.5ex]\n&\\text{also }&\n   r  &= R\\cos{aOc} = R\\cot{eca}\\cot{eac}\n       = R\\cot{\\frac{\\pi}{m}} \\cot{\\frac{\\pi}{n}};\n\\\\[1.5ex]\n&\\text{therefore }&\n   R  &= r\\tan{\\frac{\\pi}{m}} \\tan{\\frac{\\pi}{n}}\n       = \\frac{a}{2} \\tan{\\frac{I}{2}} \\tan{\\frac{\\pi}{n}}.\n&\\phantom{therefore }&\n\\end{align*}$$\n\n##### 155.\n\n*To find the surface and volume of a regular polyhedron.*\n\nThe area of one face of the polyhedron is $\\dfrac{ma^2}{4}\\cot{\\dfrac{\\pi}{m}}$, and therefore the surface of the polyhedron is $\\dfrac{mFa^2}{4}\\cot{\\dfrac{\\pi}{m}}$.\\\nAlso the volume of the pyramid which has one face of the polyhedron for base and $O$ for vertex is $\\dfrac{r}{3}\\centerdot\\dfrac{ma^2}{4}\\cot{\\dfrac{\\pi}{m}}$, and therefore the volume of the polyhedron is $\\dfrac{mFra^2}{12}\\cot{\\dfrac{\\pi}{m}}$.\\\n\n##### 156.\n\n*To find the volume of a parallelepiped in terms of its edges and their inclinations to one another.*\n\n<figure data-latex-placement=\"htp\">\n<img src=\"images/128fc\" style=\"width:5cm\" />\n</figure>\n\nLet the edges be $OA=a$, $OB=b$, $OC=c$; let the inclinations be $BOC=a$, $COA=\\beta$, $AOB=\\gamma$. Draw $CE$ perpendicular to the plane $AOB$ meeting it at $E$. Describe a sphere with $O$ as a centre, meeting $OA$, $OB$, $OC$, $OE$ at $a$, $b$, $c$, $e$ respectively.\n\nThe volume of the parallelepiped is equal to the product of its base and altitude $=ab\\sin{\\gamma}\\centerdot CE=abc\\sin{\\gamma}\\sin{cOe}$. The spherical triangle $cae$ is right-angled at $e$; thus $$\\sin{cOe}=\\sin{cOa}\\sin{cae}=\\sin{\\beta}\\sin{cab},$$ and from the spherical triangle $cab$ $$\\sin{cab}\n= \\frac{\\surd{( 1 - \\cos^2{\\alpha} - \\cos^2{\\beta} - \\cos^2{\\gamma}\n              + 2\\cos{\\alpha}\\cos{\\beta}\\cos{\\gamma} )} }\n       {\\sin{\\beta}\\sin{\\gamma} };$$ therefore the volume of the parallelepiped $$= abc\\surd{( 1 - \\cos^2{\\alpha} - \\cos^2{\\beta} - \\cos^2{\\gamma}\n           + 2\\cos{\\alpha} \\cos{\\beta} \\cos{\\gamma} )}.$$\n\n##### 157.\n\n*To find the diagonal of a parallelepiped in terms of the three edges which it meets and their inclinations to one another.*\n\nLet the edges be $OA=a$, $OB=b$, $OC=c$; let the inclinations be $BOC=\\alpha$, $COA=\\beta$, $AOB=\\gamma$. Let $OD$ be the diagonal required, and let $OE$ be the diagonal of the face $OAB$. Then $$\\begin{align*}\nOD^2 &= OE^2+ED^2+2OE\\centerdot ED\\cos{COE}\\\\\n&=a^2+b^2+2ab\\cos{\\gamma}+c^2+2cOE\\cos{COE}.\n\\end{align*}$$\n\nDescribe a sphere with $O$ as centre meeting $OA$, $OB$, $OC$, $OE$ at $a$, $b$, $c$, $e$ respectively; then (see Example 14, Chap. <span class=\"smallcaps\">iv.</span>)\n\n<figure data-latex-placement=\"htp\">\n<img src=\"images/129fc\" style=\"width:5cm\" />\n</figure>\n\n$$\\begin{align*}\n\\cos{cOe} &= \\frac{\\cos{cOb}\\sin{aOe}+\\cos{cOa}\\sin{bOe}}{\\sin{aOb}}\\\\[1ex]\n&= \\frac{\\cos{\\alpha}\\sin{aOe}+\\cos{\\beta}\\sin{bOe}}{\\sin{\\gamma}};\n\\end{align*}$$ therefore\\\n$$OD^2 = a^2+b^2+c^2+2ab\\cos{\\gamma}\n       + \\frac{2cOE}{\\sin{\\gamma}}\n        (\\cos{\\alpha}\\sin{aOe} + \\cos{\\beta}\\sin{bOe}),$$ $$\\begin{align*}\n&\\text{and }&\n  OE\\sin{aOe} &= b\\sin{\\gamma}, &\\qquad\n  OE\\sin{bOe} &= a\\sin{\\gamma}; &&\n\\\\\n&\\text{therefore }& {\\quad$\n OD^2 = a^2+b^2+c^2\n       + 2ab\\cos{\\gamma} + 2bc\\cos{\\alpha} + 2ca\\cos{\\beta}$.\n\\quad} &\\phantom{therefore}&\n\\end{align*}$$\n\n##### 158.\n\n*To find the volume of a tetrahedron.*\n\nA tetrahedron is one-sixth of a parallelepiped which has the same altitude and its base double that of the tetrahedron; thus if the edges and their inclinations are given we can take one-sixth of the expression for the volume in Art. 156. The volume of a tetrahedron may also be expressed in terms of its six edges; for in the figure of Art. 156 let $BC=a'$, $CA=b'$, $AB=c'$; then $$\\cos{\\alpha}=\\frac{b^2+c^2-a'^2}{2bc}, \\quad\n  \\cos{\\beta} =\\frac{c^2+a^2-b'^2}{2ca}, \\quad\n  \\cos{\\gamma}=\\frac{a^2+b^2-c'^2}{2ab},$$ and if these values are substituted for $\\cos{\\alpha}$, $\\cos{\\beta}$, and $\\cos{\\gamma}$ in the expression obtained in Art. 156, the volume of the tetrahedron will be expressed in terms of its six edges.\n\nThe following result will be obtained, in which $V$ denotes the volume of the tetrahedron, $$\\begin{align*}\n144&\\hspace{3pt}V^2 = -a'^2 b'^2 c'^2\\\\\n& + a^2a'^2 (b'^2+c'^2-a'^2)\n    + b^2b'^2 (c'^2+a'^2-b'^2)\n    + c^2c'^2 (a'^2+b'^2-c'^2)\\\\\n& - a'^2 (a^2-b^2) (a^2-c^2)\n    - b'^2 (b^2-c^2) (b^2-a^2)\n    - c'^2 (c^2-a^2) (c^2-b^2).\n\\end{align*}$$\n\nThus for a *regular* tetrahedron we have $144\\hspace{3pt}V^2=2a^6$.\n\n##### 159.\n\nIf the vertex of a tetrahedron be supposed to be situated at any point in the plane of its base, the volume vanishes; hence if we equate to zero the expression on the right-hand side of the equation just given, we obtain a relation which must hold among the six straight lines which join four points taken arbitrarily in a plane.\n\nOr we may adopt Carnot's method, in which this relation is established independently, and the expression for the volume of a tetrahedron is deduced from it; this we shall now shew, and we shall add some other investigations which are also given by Carnot.\n\nIt will be convenient to alter the notation hitherto used, by interchanging the accented and unaccented letters.\n\n##### 160.\n\n*To find the relation holding among the six straight lines which join four points taken arbitrarily in a plane.*\n\nLet $A$, $B$, $C$, $D$ be the four points. Let $AB=c$, $BC=a$, $CA=b$; also let $DA=a'$, $DB=b'$, $DC=c'$.\n\nIf $D$ falls *within* the triangle $ABC$, the sum of the angles $ADB$, $BDC$, $CDA$ is equal to four right angles; so that $$\\cos{ADB}=\\cos{(BDC+CDA)}.$$\n\nHence by ordinary transformations we deduce $$1=\\cos^2{ADB}+\\cos^2{BDC}+\\cos^2{CDA}-2\\cos{ADB}\\cos{BDC}\\cos{CDA}.$$\n\nIf $D$ falls *without* the triangle $ABC$, one of the three angles at $D$ is equal to the sum of the other two, and the result just given still holds.\\\nNow $\\cos{ADB}=\\dfrac{a'^2+b'^2-c^2}{2a'b'}$, and the other cosines may be expressed in a similar manner; substitute these values in the above result, and we obtain the required relation, which after reduction may be exhibited thus, $$\\begin{align*}\n&  0=-a^2b^2c^2\\\\\n+ &a'^2a^2(b^2+c^2-a^2)\n   + b'^2b^2(c^2+a^2-b^2)\n   + c'^2c^2(a^2+b^2-c^2)\\\\\n- &a^2(a'^2-b'^2)(a'^2-c'^2)\n   - b^2(b'^2-c'^2)(b'^2-a'^2)\n   - c^2(c'^2-a'^2)(c'^2-b'^2).\n\\end{align*}$$\n\n##### 161.\n\n*To express the volume of a tetrahedron in terms of its six edges.*\n\nLet $a$, $b$, $c$ be the lengths of the sides of a triangle $ABC$ forming one face of the tetrahedron, which we may call its base; let $a'$, $b'$, $c'$ be the lengths of the straight lines which join $A$, $B$, $C$ respectively to the vertex of the tetrahedron. Let $p$ be the length of the perpendicular from the vertex on the base; then the lengths of the straight lines drawn from the foot of the perpendicular to $A$, $B$, $C$ respectively are $\\surd{(a'^2-p^2)}$, $\\surd{(b'^2-p^2)}$, $\\surd{(c'^2-p^2)}$. Hence the relation given in Art. 160 will hold if we put $\\surd{(a'^2-p^2)}$ instead of $a'$, $\\surd{(b'^2-p^2)}$ instead of $b'$, and $\\surd{(c'^2-p^2)}$ instead of $c'$. We shall thus obtain $$\\begin{align*}\n&p^2(2a^2b^2+2b^2c^2+2c^2a^2 -a^4-b^4-c^4) = -a^2b^2c^2\\\\\n& + a'^2a^2(b^2+c^2-a^2)\n   + b'^2b^2(c^2+a^2-b^2)\n   + c'^2c^2(a^2+b^2-c^2)\\\\\n& - a^2(a'^2-b'^2)(a'^2-c'^2)\n   - b^2(b'^2-c'^2)(b'^2-a'^2)\n   - c^2(c'^2-a'^2)(c'^2-b'^2).\n\\end{align*}$$\n\nThe coefficient of $p^2$ in this equation is sixteen times the square of the area of the triangle $ABC$; so that the left-hand member is $144\\,V^2$, where $V$ denotes the volume of the tetrahedron. Hence the required expression is obtained.\n\n##### 162.\n\n*To find the relation holding among the six arcs of great circles which join four points taken arbitrarily on the surface of a sphere.*\n\nLet $A$, $B$, $C$, $D$ be the four points. Let $AB=\\gamma$, $BC=\\alpha$, $CA=\\beta$; let $DA=\\alpha'$, $DB=\\beta'$, $DC=\\gamma'$.\n\nAs in Art. 160 we have $$1=\\cos^2{ADB}+\\cos^2{BDC}+\\cos^2{CDA}-2\\cos{ADB}\\cos{BDC}\\cos{CDA}.$$\n\nNow $\\cos{ADB}=\\dfrac{\\cos{\\gamma}-\\cos{\\alpha'}\\cos{\\beta'}} {\\sin{\\alpha'}\\sin{\\beta}'}$, and the other cosines may be expressed in a similar manner; substitute these values in the above result, and we obtain the required relation, which after reduction may be exhibited thus, $$\\begin{align*}\n1 &= \\cos^2{\\alpha} +\\cos^2{\\beta} +\\cos^2{\\gamma}\n   + \\cos^2{\\alpha'}+\\cos^2{\\beta'}+\\cos^2{\\gamma'}\n\\\\\n&{} - \\cos^2{\\alpha}\\cos^2{\\alpha'}\n    - \\cos^2{\\beta} \\cos^2{\\beta'}\n    - \\cos^2{\\gamma}\\cos^2{\\gamma'}\n\\\\\n&{} - 2( \\cos{\\alpha}\\cos{\\beta} \\cos{\\gamma}\n    + \\cos{\\alpha}\\cos{\\beta'}\\cos{\\gamma'}\n\\\\\n&{} + \\cos{\\beta} \\cos{\\alpha'}\\cos{\\gamma'}\n    + \\cos{\\gamma}\\cos{\\alpha'}\\cos{\\beta'} )\n\\\\\n&{} + 2( \\cos{\\alpha}\\cos{\\beta}\\cos{\\alpha'}\\cos{\\beta'}\n    + \\cos{\\beta}\\cos{\\gamma}\\cos{\\beta'}\\cos{\\gamma'}\n\\\\\n&{} + \\cos{\\gamma}\\cos{\\alpha}\\cos{\\gamma'}\\cos{\\alpha'} ).\n\\end{align*}$$\n\n##### 163.\n\n*To find the radius of the sphere circumscribing a tetrahedron.*\n\nDenote the edges of the tetrahedron as in Art. 161. Let the sphere be supposed to be circumscribed about the tetrahedron, and draw on the sphere the six arcs of great circles joining the angular points of the tetrahedron. Then the relation given in Art. 162 holds among the cosines of these six arcs.\n\nLet $r$ denote the radius of the sphere. Then $$\\cos{\\alpha}=1-2\\sin^2{\\frac{\\alpha}{2}}\n= 1-2\\left( \\frac{a}{2r} \\right)^2 = 1 - \\frac{a^2}{2r^2};$$ and the other cosines may be expressed in a similar manner. Substitute these values in the result of Art. 162, and we obtain, after reduction, with the aid of Art. 161, $$\\begin{align*}\n&\\mathrlap{$4\\times144\\,V^2r^2=$}& \\\\\n&&& 2a^2b^2a'^2b'^2\n  + 2b^2c^2b'^2c'^2\n  + 2c^2a^2c'^2a'^2 - a^4a'^4 - b^4b'^4 - c^4c'^4. &&\n\\end{align*}$$ The right-hand member may also be put into factors, as we see by recollecting the mode in which the expression for the area of a triangle is put into factors. Let $aa'+bb'+cc'=2\\sigma$; then $$36\\hspace{3pt}V^2r^2=\\sigma(\\sigma-aa')(\\sigma-bb')(\\sigma-cc').$$\n\n## EXAMPLES.\n\n1\\. If $I$ denote the inclination of two adjacent faces of a regular polyhedron, shew that $\\cos I=\\tfrac{1}{3}$ in the tetrahedron, $=0$ in the cube, $=-\\tfrac{1}{3}$ in the octahedron, $=-\\tfrac{1}{5}\\surd{5}$ in the dodecahedron, and $=-\\tfrac{1}{3}\\surd{5}$ in the icosahedron.\n\n2\\. With the notation of Art. 153, shew that the radius of the sphere which touches one face of a regular polyhedron and all the adjacent faces produced is $\\tfrac{1}{2}a\\cot{\\dfrac{\\pi}{m}}\\cot{\\tfrac{1}{2}}I$.\n\n3\\. A sphere touches one face of a regular tetrahedron and the other three faces produced: find its radius.\n\n4\\. If $a$ and $b$ are the radii of the spheres inscribed in and described about a regular tetrahedron, shew that $b=3a$.\n\n5\\. If $a$ is the radius of a sphere inscribed in a regular tetrahedron, and $R$ the radius of the sphere which touches the edges, shew that $R^2=3a^2$.\n\n6\\. If $a$ is the radius of a sphere inscribed in a regular tetrahedron, and $R'$ the radius of the sphere which touches one face and the others produced, shew that $R'=2a$.\n\n7\\. If a cube and an octahedron be described about a given sphere, the sphere described about these polyhedrons will be the same; and conversely.\n\n8\\. If a dodecahedron and an icosahedron be described about a given sphere, the sphere described about these polyhedrons will be the same; and conversely.\n\n9\\. A regular tetrahedron and a regular octahedron are inscribed in the same sphere: compare the radii of the spheres which can be inscribed in the two solids.\n\n10\\. The sum of the squares of the four diagonals of a parallelepiped is equal to four times the sum of the squares of the edges.\n\n11\\. If with all the angular points of any parallelepiped as centres equal spheres be described, the sum of the intercepted portions of the parallelepiped will be equal in volume to one of the spheres.\n\n12\\. A regular octahedron is inscribed in a cube so that the corners of the octahedron are at the centres of the faces of the cube: shew that the volume of the cube is six times that of the octahedron.\n\n13\\. It is not possible to fill any given space with a number of regular polyhedrons of the same kind, except cubes; but this may be done by means of tetrahedrons and octahedrons which have equal faces, by using twice as many of the former as of the latter.\n\n14\\. A spherical triangle is formed on the surface of a sphere of radius $\\rho$; its angular points are joined, forming thus a pyramid with the straight lines joining them with the centre: shew that the volume of the pyramid is $$\\tfrac{1}{3}\\rho^3\\surd{(\\tan r\\tan{r_1}\\tan{r_2}\\tan{r_3})},$$ where $r$, $r_1$, $r_2$, $r_3$ are the radii of the inscribed and escribed circles of the triangle.\n\n15\\. The angular points of a regular tetrahedron inscribed in a sphere of radius $r$ being taken as poles, four equal small circles of the sphere are described, so that each circle touches the other three. Shew that the area of the surface bounded by each circle is $2\\pi r^2\\left( 1 - \\dfrac{1}{\\surd{3}} \\right)$.\n\n16\\. If $O$ be any point within a spherical triangle $ABC$, the product of the sines of any two sides and the sine of the included angle $$\\begin{gather*}\n=\\sin{AO}\\sin{BO}\\sin{CO} \\biggl\\{\\cot{AO}\\sin{BOC} \\\\\n+\\cot{BO}\\sin{COA}+\\cot{CO}\\sin{AOB} \\biggr\\}.\n\\end{gather*}$$",
+   "text_html": "<h1 id=\"polyhedrons.\">POLYHEDRONS.</h1>\n<h5 id=\"section\">149.</h5>\n<p>A polyhedron is a solid bounded by any number of plane rectilineal figures which are called its faces. A polyhedron is said to be <em>regular</em> when its faces are similar and equal regular polygons, and its solid angles equal to one another.</p>\n<h5 id=\"section-1\">150.</h5>\n<p><em>If <span class=\"math inline\">\\(\\mathrm{S}\\)</span> be the number of solid angles in any polyhedron, <span class=\"math inline\">\\(\\mathrm{F}\\)</span> the number of its faces, <span class=\"math inline\">\\(\\mathrm{E}\\)</span> the number of its edges, then <span class=\"math inline\">\\(\\mathrm{S+F=E+2}\\)</span>.</em></p>\n<p>Take any point within the polyhedron as centre, and describe a sphere of radius <span class=\"math inline\">\\(r\\)</span>, and draw straight lines from the centre to each of the angular points of the polyhedron; let the points at which these straight lines meet the surface of the sphere be joined by arcs of great circles, so that the surface of the sphere is divided into as many polygons as the polyhedron has faces.</p>\n<p>Let <span class=\"math inline\">\\(s\\)</span> denote the sum of the angles of any one of these polygons, <span class=\"math inline\">\\(m\\)</span> the number of its sides; then the area of the polygon is <span class=\"math inline\">\\(r^2\\{s-(m-2)\\pi\\}\\)</span> by Art. 99. The sum of the areas of all the polygons is the surface of the sphere, that is, <span class=\"math inline\">\\(4\\pi r^2\\)</span>. Hence since the number of the polygons is <span class=\"math inline\">\\(F\\)</span>, we obtain <span class=\"math display\">\\[\\textstyle\n4\\pi = \\sum s - \\pi\\sum m + 2F\\pi.\\]</span></p>\n<p>Now <span class=\"math inline\">\\(\\sum s\\)</span> denotes the sum of all the angles of the polygons, and is therefore equal to <span class=\"math inline\">\\(2\\pi \\times\\)</span> the number of solid angles, that is, to <span class=\"math inline\">\\(2\\pi S\\)</span>; and <span class=\"math inline\">\\(\\sum m\\)</span> is equal to the number of all the sides of all the polygons, that is, to <span class=\"math inline\">\\(2E\\)</span>, since every edge gives rise to an arc which is common to two polygons. Therefore <span class=\"math display\">\\[4\\pi = 2\\pi S-2\\pi E+2F\\pi;\\]</span> therefore <span class=\"math inline\">\\(\\quad\nS+F=E+2.\n\\quad\\phantom{therefore }\\)</span></p>\n<h5 id=\"section-2\">151.</h5>\n<p><em>There can be only five regular polyhedrons.</em></p>\n<p>Let <span class=\"math inline\">\\(m\\)</span> be the number of sides in each face of a regular polyhedron, <span class=\"math inline\">\\(n\\)</span> the number of plane angles in each solid angle; then the entire number of plane angles is expressed by <span class=\"math inline\">\\(mF\\)</span>, or by <span class=\"math inline\">\\(nS\\)</span>, or by <span class=\"math inline\">\\(2E\\)</span>; thus <span class=\"math display\">\\[mF=nS=2E, \\text{ and } S+F=E+2;\\]</span> from these equations we obtain <span class=\"math display\">\\[S = \\frac{4 m}{2(m+n)-mn}, \\quad\n  E = \\frac{2mn}{2(m+n)-mn}, \\quad\n  F = \\frac{4 n}{2(m+n)-mn}.\\]</span></p>\n<p>These expressions must be positive integers, we must therefore have <span class=\"math inline\">\\(2(m+n)\\)</span> greater than <span class=\"math inline\">\\(mn\\)</span>; therefore <span class=\"math display\">\\[\\frac{1}{m}+\\frac{1}{n} \\text{ must be greater than } \\frac{1}{2};\\]</span> but <span class=\"math inline\">\\(n\\)</span> cannot be less than 3, so that <span class=\"math inline\">\\(\\dfrac{1}{n}\\)</span> cannot be greater than <span class=\"math inline\">\\(\\dfrac{1}{3}\\)</span>, and therefore <span class=\"math inline\">\\(\\dfrac{1}{m}\\)</span> must be greater than <span class=\"math inline\">\\(\\dfrac{1}{6}\\)</span>; and as <span class=\"math inline\">\\(m\\)</span> must be an integer and cannot be less than 3, the only admissible values of <span class=\"math inline\">\\(m\\)</span> are 3, 4, 5. It will be found on trial that the only values of <span class=\"math inline\">\\(m\\)</span> and <span class=\"math inline\">\\(n\\)</span> which satisfy all the necessary conditions are the following: each regular polyhedron derives its name from the number of its plane faces.</p>\n<div class=\"center\">\n<table>\n<thead>\n<tr>\n<th style=\"text-align: center;\"><span class=\"math inline\">\\(m\\)</span></th>\n<th style=\"text-align: center;\"><span class=\"math inline\">\\(n\\)</span></th>\n<th style=\"text-align: center;\"><span class=\"math inline\">\\(S\\)</span></th>\n<th style=\"text-align: center;\"><span class=\"math inline\">\\(E\\)</span></th>\n<th style=\"text-align: center;\"><span class=\"math inline\">\\(F\\)</span></th>\n<th style=\"text-align: center;\">Name of regular Polyhedron.</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"text-align: center;\">3</td>\n<td style=\"text-align: center;\">3</td>\n<td style=\"text-align: center;\">4</td>\n<td style=\"text-align: center;\">6</td>\n<td style=\"text-align: center;\">4</td>\n<td style=\"text-align: left;\">Tetrahedron or regular Pyramid.</td>\n</tr>\n<tr>\n<td style=\"text-align: center;\">4</td>\n<td style=\"text-align: center;\">3</td>\n<td style=\"text-align: center;\">8</td>\n<td style=\"text-align: center;\">12</td>\n<td style=\"text-align: center;\">6</td>\n<td style=\"text-align: left;\">Hexahedron or Cube.</td>\n</tr>\n<tr>\n<td style=\"text-align: center;\">3</td>\n<td style=\"text-align: center;\">4</td>\n<td style=\"text-align: center;\">6</td>\n<td style=\"text-align: center;\">12</td>\n<td style=\"text-align: center;\">8</td>\n<td style=\"text-align: left;\">Octahedron.</td>\n</tr>\n<tr>\n<td style=\"text-align: center;\">5</td>\n<td style=\"text-align: center;\">3</td>\n<td style=\"text-align: center;\">20</td>\n<td style=\"text-align: center;\">30</td>\n<td style=\"text-align: center;\">12</td>\n<td style=\"text-align: left;\">Dodecahedron.</td>\n</tr>\n<tr>\n<td style=\"text-align: center;\">3</td>\n<td style=\"text-align: center;\">5</td>\n<td style=\"text-align: center;\">12</td>\n<td style=\"text-align: center;\">30</td>\n<td style=\"text-align: center;\">20</td>\n<td style=\"text-align: left;\">Icosahedron.</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p>It will be seen that the demonstration establishes something more than the enunciation states; for it is not assumed that the faces are equilateral and equiangular and all equal. It is in fact demonstrated that, <em>there cannot be more than five solids each of which has all its faces with the same number of sides, and all its solid angles formed with the same number of plane angles.</em></p>\n<h5 id=\"section-3\">152.</h5>\n<p><em>The sum of all the plane angles which form the solid angles of any polyhedron is <span class=\"math inline\">\\(2(S-2)\\pi\\)</span>.</em></p>\n<p>For if <span class=\"math inline\">\\(m\\)</span> denote the number of sides in any face of the polyhedron, the sum of the interior angles of that face is <span class=\"math inline\">\\((m-2)\\pi\\)</span> by Euclid I. 32, Cor. 1. Hence the sum of all the interior angles of all the faces is <span class=\"math inline\">\\(\\sum(m-2)\\pi\\)</span>, that is <span class=\"math inline\">\\(\\sum m\\pi-2F\\pi\\)</span>, that is <span class=\"math inline\">\\(2(E-F)\\pi\\)</span>, that is <span class=\"math inline\">\\(2(S-2)\\pi\\)</span>.</p>\n<h5 id=\"section-4\">153.</h5>\n<p><em>To find the inclination of two adjacent faces of a regular polyhedron.</em></p>\n<figure data-latex-placement=\"htp\">\n<img src=\"images/todhunter-spherical-trigonometry-1886/images/126fc.png\" style=\"width:5cm\" />\n</figure>\n<p>Let <span class=\"math inline\">\\(AB\\)</span> be the edge common to the two adjacent faces, <span class=\"math inline\">\\(C\\)</span> and <span class=\"math inline\">\\(D\\)</span> the centres of the faces; bisect <span class=\"math inline\">\\(AB\\)</span> at <span class=\"math inline\">\\(E\\)</span>, and join <span class=\"math inline\">\\(CE\\)</span> and <span class=\"math inline\">\\(DE\\)</span>; <span class=\"math inline\">\\(CE\\)</span> and <span class=\"math inline\">\\(DE\\)</span> will be perpendicular to <span class=\"math inline\">\\(AB\\)</span>, and the angle <span class=\"math inline\">\\(CED\\)</span> is the angle of inclination of the two adjacent faces; we shall denote it by <span class=\"math inline\">\\(I\\)</span>. In the plane containing <span class=\"math inline\">\\(CE\\)</span> and <span class=\"math inline\">\\(DE\\)</span> draw <span class=\"math inline\">\\(CO\\)</span> and <span class=\"math inline\">\\(DO\\)</span> at right angles to <span class=\"math inline\">\\(CE\\)</span> and <span class=\"math inline\">\\(DE\\)</span> respectively, and meeting at <span class=\"math inline\">\\(O\\)</span>; about <span class=\"math inline\">\\(O\\)</span> as centre describe a sphere meeting <span class=\"math inline\">\\(OA\\)</span>, <span class=\"math inline\">\\(OC\\)</span>, <span class=\"math inline\">\\(OE\\)</span> at <span class=\"math inline\">\\(a\\)</span>, <span class=\"math inline\">\\(c\\)</span>, <span class=\"math inline\">\\(e\\)</span> respectively, so that <span class=\"math inline\">\\(cae\\)</span> forms a spherical triangle. Since <span class=\"math inline\">\\(AB\\)</span> is perpendicular to <span class=\"math inline\">\\(CE\\)</span> and <span class=\"math inline\">\\(DE\\)</span>, it is perpendicular to the plane <span class=\"math inline\">\\(CED\\)</span>, therefore the plane <span class=\"math inline\">\\(AOB\\)</span> which contains <span class=\"math inline\">\\(AB\\)</span> is perpendicular to the plane <span class=\"math inline\">\\(CED\\)</span>; hence the angle <span class=\"math inline\">\\(cea\\)</span> of the spherical triangle is a right angle. Let <span class=\"math inline\">\\(m\\)</span> be the number of sides in each face of the polyhedron, <span class=\"math inline\">\\(n\\)</span> the number of the plane angles which form each solid angle. Then the angle <span class=\"math inline\">\\(ace=ACE=\\dfrac{2\\pi}{2m}=\\dfrac{\\pi}{m}\\)</span>; and the angle <span class=\"math inline\">\\(cae\\)</span> is half one of the <span class=\"math inline\">\\(n\\)</span> equal angles formed on the sphere round <span class=\"math inline\">\\(a\\)</span>, that is, <span class=\"math inline\">\\(cae=\\dfrac{2\\pi}{2n}=\\dfrac{\\pi}{n}\\)</span>. From the right-angled triangle <span class=\"math inline\">\\(cae\\)</span> <span class=\"math display\">\\[\\cos{cae}=\\cos{cOe}\\sin{ace},\\]</span> <span class=\"math display\">\\[\\begin{align*}\n&amp;\\text{that is }&amp;\n  \\cos{\\frac{\\pi}{n}}\n&amp;=\\cos{\\left( \\frac{\\pi}{2} - \\frac{I}{2} \\right)}\n  \\sin{\\frac{\\pi}{m}}; &amp;&amp;\n\\\\[1ex]\n&amp;\\text{therefore }&amp;\n  \\sin{\\frac{I}{2}}\n&amp;=\\frac{\\cos \\dfrac{\\pi}{n}}\n       {\\sin{\\dfrac{\\pi}{m}}}. &amp;\\phantom{therefore }&amp;\n\\end{align*}\\]</span></p>\n<h5 id=\"section-5\">154.</h5>\n<p><em>To find the radii of the inscribed and circumscribed spheres of a regular polyhedron.</em></p>\n<p>Let the edge <span class=\"math inline\">\\(AB=a\\)</span>, let <span class=\"math inline\">\\(OC=r\\)</span> and <span class=\"math inline\">\\(OA=R\\)</span>, so that <span class=\"math inline\">\\(r\\)</span> is the radius of the inscribed sphere, and <span class=\"math inline\">\\(R\\)</span> is the radius of the circumscribed sphere. Then <span class=\"math display\">\\[\\begin{align*}\n&amp;&amp; CE &amp;= AE\\cot{ACE} = \\frac{a}{2}\\cot{\\frac{\\pi}{m}}, \\\\[1.5ex]\n&amp;&amp; r  &amp;= CE\\tan{CEO} = CE\\tan{\\frac{I}{2}}\n       =\\frac{a}{2}\\cot{\\frac{\\pi}{m}}\\tan{\\frac{I}{2}};\n\\\\[1.5ex]\n&amp;\\text{also }&amp;\n   r  &amp;= R\\cos{aOc} = R\\cot{eca}\\cot{eac}\n       = R\\cot{\\frac{\\pi}{m}} \\cot{\\frac{\\pi}{n}};\n\\\\[1.5ex]\n&amp;\\text{therefore }&amp;\n   R  &amp;= r\\tan{\\frac{\\pi}{m}} \\tan{\\frac{\\pi}{n}}\n       = \\frac{a}{2} \\tan{\\frac{I}{2}} \\tan{\\frac{\\pi}{n}}.\n&amp;\\phantom{therefore }&amp;\n\\end{align*}\\]</span></p>\n<h5 id=\"section-6\">155.</h5>\n<p><em>To find the surface and volume of a regular polyhedron.</em></p>\n<p>The area of one face of the polyhedron is <span class=\"math inline\">\\(\\dfrac{ma^2}{4}\\cot{\\dfrac{\\pi}{m}}\\)</span>, and therefore the surface of the polyhedron is <span class=\"math inline\">\\(\\dfrac{mFa^2}{4}\\cot{\\dfrac{\\pi}{m}}\\)</span>.<br />\nAlso the volume of the pyramid which has one face of the polyhedron for base and <span class=\"math inline\">\\(O\\)</span> for vertex is <span class=\"math inline\">\\(\\dfrac{r}{3}\\centerdot\\dfrac{ma^2}{4}\\cot{\\dfrac{\\pi}{m}}\\)</span>, and therefore the volume of the polyhedron is <span class=\"math inline\">\\(\\dfrac{mFra^2}{12}\\cot{\\dfrac{\\pi}{m}}\\)</span>.<br />\n</p>\n<h5 id=\"section-7\">156.</h5>\n<p><em>To find the volume of a parallelepiped in terms of its edges and their inclinations to one another.</em></p>\n<figure data-latex-placement=\"htp\">\n<img src=\"images/todhunter-spherical-trigonometry-1886/images/128fc.png\" style=\"width:5cm\" />\n</figure>\n<p>Let the edges be <span class=\"math inline\">\\(OA=a\\)</span>, <span class=\"math inline\">\\(OB=b\\)</span>, <span class=\"math inline\">\\(OC=c\\)</span>; let the inclinations be <span class=\"math inline\">\\(BOC=a\\)</span>, <span class=\"math inline\">\\(COA=\\beta\\)</span>, <span class=\"math inline\">\\(AOB=\\gamma\\)</span>. Draw <span class=\"math inline\">\\(CE\\)</span> perpendicular to the plane <span class=\"math inline\">\\(AOB\\)</span> meeting it at <span class=\"math inline\">\\(E\\)</span>. Describe a sphere with <span class=\"math inline\">\\(O\\)</span> as a centre, meeting <span class=\"math inline\">\\(OA\\)</span>, <span class=\"math inline\">\\(OB\\)</span>, <span class=\"math inline\">\\(OC\\)</span>, <span class=\"math inline\">\\(OE\\)</span> at <span class=\"math inline\">\\(a\\)</span>, <span class=\"math inline\">\\(b\\)</span>, <span class=\"math inline\">\\(c\\)</span>, <span class=\"math inline\">\\(e\\)</span> respectively.</p>\n<p>The volume of the parallelepiped is equal to the product of its base and altitude <span class=\"math inline\">\\(=ab\\sin{\\gamma}\\centerdot CE=abc\\sin{\\gamma}\\sin{cOe}\\)</span>. The spherical triangle <span class=\"math inline\">\\(cae\\)</span> is right-angled at <span class=\"math inline\">\\(e\\)</span>; thus <span class=\"math display\">\\[\\sin{cOe}=\\sin{cOa}\\sin{cae}=\\sin{\\beta}\\sin{cab},\\]</span> and from the spherical triangle <span class=\"math inline\">\\(cab\\)</span> <span class=\"math display\">\\[\\sin{cab}\n= \\frac{\\surd{( 1 - \\cos^2{\\alpha} - \\cos^2{\\beta} - \\cos^2{\\gamma}\n              + 2\\cos{\\alpha}\\cos{\\beta}\\cos{\\gamma} )} }\n       {\\sin{\\beta}\\sin{\\gamma} };\\]</span> therefore the volume of the parallelepiped <span class=\"math display\">\\[= abc\\surd{( 1 - \\cos^2{\\alpha} - \\cos^2{\\beta} - \\cos^2{\\gamma}\n           + 2\\cos{\\alpha} \\cos{\\beta} \\cos{\\gamma} )}.\\]</span></p>\n<h5 id=\"section-8\">157.</h5>\n<p><em>To find the diagonal of a parallelepiped in terms of the three edges which it meets and their inclinations to one another.</em></p>\n<p>Let the edges be <span class=\"math inline\">\\(OA=a\\)</span>, <span class=\"math inline\">\\(OB=b\\)</span>, <span class=\"math inline\">\\(OC=c\\)</span>; let the inclinations be <span class=\"math inline\">\\(BOC=\\alpha\\)</span>, <span class=\"math inline\">\\(COA=\\beta\\)</span>, <span class=\"math inline\">\\(AOB=\\gamma\\)</span>. Let <span class=\"math inline\">\\(OD\\)</span> be the diagonal required, and let <span class=\"math inline\">\\(OE\\)</span> be the diagonal of the face <span class=\"math inline\">\\(OAB\\)</span>. Then <span class=\"math display\">\\[\\begin{align*}\nOD^2 &amp;= OE^2+ED^2+2OE\\centerdot ED\\cos{COE}\\\\\n&amp;=a^2+b^2+2ab\\cos{\\gamma}+c^2+2cOE\\cos{COE}.\n\\end{align*}\\]</span></p>\n<p>Describe a sphere with <span class=\"math inline\">\\(O\\)</span> as centre meeting <span class=\"math inline\">\\(OA\\)</span>, <span class=\"math inline\">\\(OB\\)</span>, <span class=\"math inline\">\\(OC\\)</span>, <span class=\"math inline\">\\(OE\\)</span> at <span class=\"math inline\">\\(a\\)</span>, <span class=\"math inline\">\\(b\\)</span>, <span class=\"math inline\">\\(c\\)</span>, <span class=\"math inline\">\\(e\\)</span> respectively; then (see Example 14, Chap. <span class=\"smallcaps\">iv.</span>)</p>\n<figure data-latex-placement=\"htp\">\n<img src=\"images/todhunter-spherical-trigonometry-1886/images/129fc.png\" style=\"width:5cm\" />\n</figure>\n<p><span class=\"math display\">\\[\\begin{align*}\n\\cos{cOe} &amp;= \\frac{\\cos{cOb}\\sin{aOe}+\\cos{cOa}\\sin{bOe}}{\\sin{aOb}}\\\\[1ex]\n&amp;= \\frac{\\cos{\\alpha}\\sin{aOe}+\\cos{\\beta}\\sin{bOe}}{\\sin{\\gamma}};\n\\end{align*}\\]</span> therefore<br />\n<span class=\"math display\">\\[OD^2 = a^2+b^2+c^2+2ab\\cos{\\gamma}\n       + \\frac{2cOE}{\\sin{\\gamma}}\n        (\\cos{\\alpha}\\sin{aOe} + \\cos{\\beta}\\sin{bOe}),\\]</span> <span class=\"math display\">\\[\\begin{align*}\n&amp;\\text{and }&amp;\n  OE\\sin{aOe} &amp;= b\\sin{\\gamma}, &amp;\\qquad\n  OE\\sin{bOe} &amp;= a\\sin{\\gamma}; &amp;&amp;\n\\\\\n&amp;\\text{therefore }&amp; {\\quad\n OD^2 = a^2+b^2+c^2\n       + 2ab\\cos{\\gamma} + 2bc\\cos{\\alpha} + 2ca\\cos{\\beta}.\n\\quad} &amp;\\phantom{therefore}&amp;\n\\end{align*}\\]</span></p>\n<h5 id=\"section-9\">158.</h5>\n<p><em>To find the volume of a tetrahedron.</em></p>\n<p>A tetrahedron is one-sixth of a parallelepiped which has the same altitude and its base double that of the tetrahedron; thus if the edges and their inclinations are given we can take one-sixth of the expression for the volume in Art. 156. The volume of a tetrahedron may also be expressed in terms of its six edges; for in the figure of Art. 156 let <span class=\"math inline\">\\(BC=a&#39;\\)</span>, <span class=\"math inline\">\\(CA=b&#39;\\)</span>, <span class=\"math inline\">\\(AB=c&#39;\\)</span>; then <span class=\"math display\">\\[\\cos{\\alpha}=\\frac{b^2+c^2-a&#39;^2}{2bc}, \\quad\n  \\cos{\\beta} =\\frac{c^2+a^2-b&#39;^2}{2ca}, \\quad\n  \\cos{\\gamma}=\\frac{a^2+b^2-c&#39;^2}{2ab},\\]</span> and if these values are substituted for <span class=\"math inline\">\\(\\cos{\\alpha}\\)</span>, <span class=\"math inline\">\\(\\cos{\\beta}\\)</span>, and <span class=\"math inline\">\\(\\cos{\\gamma}\\)</span> in the expression obtained in Art. 156, the volume of the tetrahedron will be expressed in terms of its six edges.</p>\n<p>The following result will be obtained, in which <span class=\"math inline\">\\(V\\)</span> denotes the volume of the tetrahedron, <span class=\"math display\">\\[\\begin{align*}\n144&amp;\\hspace{3pt}V^2 = -a&#39;^2 b&#39;^2 c&#39;^2\\\\\n&amp; + a^2a&#39;^2 (b&#39;^2+c&#39;^2-a&#39;^2)\n    + b^2b&#39;^2 (c&#39;^2+a&#39;^2-b&#39;^2)\n    + c^2c&#39;^2 (a&#39;^2+b&#39;^2-c&#39;^2)\\\\\n&amp; - a&#39;^2 (a^2-b^2) (a^2-c^2)\n    - b&#39;^2 (b^2-c^2) (b^2-a^2)\n    - c&#39;^2 (c^2-a^2) (c^2-b^2).\n\\end{align*}\\]</span></p>\n<p>Thus for a <em>regular</em> tetrahedron we have <span class=\"math inline\">\\(144\\hspace{3pt}V^2=2a^6\\)</span>.</p>\n<h5 id=\"section-10\">159.</h5>\n<p>If the vertex of a tetrahedron be supposed to be situated at any point in the plane of its base, the volume vanishes; hence if we equate to zero the expression on the right-hand side of the equation just given, we obtain a relation which must hold among the six straight lines which join four points taken arbitrarily in a plane.</p>\n<p>Or we may adopt Carnot’s method, in which this relation is established independently, and the expression for the volume of a tetrahedron is deduced from it; this we shall now shew, and we shall add some other investigations which are also given by Carnot.</p>\n<p>It will be convenient to alter the notation hitherto used, by interchanging the accented and unaccented letters.</p>\n<h5 id=\"section-11\">160.</h5>\n<p><em>To find the relation holding among the six straight lines which join four points taken arbitrarily in a plane.</em></p>\n<p>Let <span class=\"math inline\">\\(A\\)</span>, <span class=\"math inline\">\\(B\\)</span>, <span class=\"math inline\">\\(C\\)</span>, <span class=\"math inline\">\\(D\\)</span> be the four points. Let <span class=\"math inline\">\\(AB=c\\)</span>, <span class=\"math inline\">\\(BC=a\\)</span>, <span class=\"math inline\">\\(CA=b\\)</span>; also let <span class=\"math inline\">\\(DA=a&#39;\\)</span>, <span class=\"math inline\">\\(DB=b&#39;\\)</span>, <span class=\"math inline\">\\(DC=c&#39;\\)</span>.</p>\n<p>If <span class=\"math inline\">\\(D\\)</span> falls <em>within</em> the triangle <span class=\"math inline\">\\(ABC\\)</span>, the sum of the angles <span class=\"math inline\">\\(ADB\\)</span>, <span class=\"math inline\">\\(BDC\\)</span>, <span class=\"math inline\">\\(CDA\\)</span> is equal to four right angles; so that <span class=\"math display\">\\[\\cos{ADB}=\\cos{(BDC+CDA)}.\\]</span></p>\n<p>Hence by ordinary transformations we deduce <span class=\"math display\">\\[1=\\cos^2{ADB}+\\cos^2{BDC}+\\cos^2{CDA}-2\\cos{ADB}\\cos{BDC}\\cos{CDA}.\\]</span></p>\n<p>If <span class=\"math inline\">\\(D\\)</span> falls <em>without</em> the triangle <span class=\"math inline\">\\(ABC\\)</span>, one of the three angles at <span class=\"math inline\">\\(D\\)</span> is equal to the sum of the other two, and the result just given still holds.<br />\nNow <span class=\"math inline\">\\(\\cos{ADB}=\\dfrac{a&#39;^2+b&#39;^2-c^2}{2a&#39;b&#39;}\\)</span>, and the other cosines may be expressed in a similar manner; substitute these values in the above result, and we obtain the required relation, which after reduction may be exhibited thus, <span class=\"math display\">\\[\\begin{align*}\n&amp;  0=-a^2b^2c^2\\\\\n+ &amp;a&#39;^2a^2(b^2+c^2-a^2)\n   + b&#39;^2b^2(c^2+a^2-b^2)\n   + c&#39;^2c^2(a^2+b^2-c^2)\\\\\n- &amp;a^2(a&#39;^2-b&#39;^2)(a&#39;^2-c&#39;^2)\n   - b^2(b&#39;^2-c&#39;^2)(b&#39;^2-a&#39;^2)\n   - c^2(c&#39;^2-a&#39;^2)(c&#39;^2-b&#39;^2).\n\\end{align*}\\]</span></p>\n<h5 id=\"section-12\">161.</h5>\n<p><em>To express the volume of a tetrahedron in terms of its six edges.</em></p>\n<p>Let <span class=\"math inline\">\\(a\\)</span>, <span class=\"math inline\">\\(b\\)</span>, <span class=\"math inline\">\\(c\\)</span> be the lengths of the sides of a triangle <span class=\"math inline\">\\(ABC\\)</span> forming one face of the tetrahedron, which we may call its base; let <span class=\"math inline\">\\(a&#39;\\)</span>, <span class=\"math inline\">\\(b&#39;\\)</span>, <span class=\"math inline\">\\(c&#39;\\)</span> be the lengths of the straight lines which join <span class=\"math inline\">\\(A\\)</span>, <span class=\"math inline\">\\(B\\)</span>, <span class=\"math inline\">\\(C\\)</span> respectively to the vertex of the tetrahedron. Let <span class=\"math inline\">\\(p\\)</span> be the length of the perpendicular from the vertex on the base; then the lengths of the straight lines drawn from the foot of the perpendicular to <span class=\"math inline\">\\(A\\)</span>, <span class=\"math inline\">\\(B\\)</span>, <span class=\"math inline\">\\(C\\)</span> respectively are <span class=\"math inline\">\\(\\surd{(a&#39;^2-p^2)}\\)</span>, <span class=\"math inline\">\\(\\surd{(b&#39;^2-p^2)}\\)</span>, <span class=\"math inline\">\\(\\surd{(c&#39;^2-p^2)}\\)</span>. Hence the relation given in Art. 160 will hold if we put <span class=\"math inline\">\\(\\surd{(a&#39;^2-p^2)}\\)</span> instead of <span class=\"math inline\">\\(a&#39;\\)</span>, <span class=\"math inline\">\\(\\surd{(b&#39;^2-p^2)}\\)</span> instead of <span class=\"math inline\">\\(b&#39;\\)</span>, and <span class=\"math inline\">\\(\\surd{(c&#39;^2-p^2)}\\)</span> instead of <span class=\"math inline\">\\(c&#39;\\)</span>. We shall thus obtain <span class=\"math display\">\\[\\begin{align*}\n&amp;p^2(2a^2b^2+2b^2c^2+2c^2a^2 -a^4-b^4-c^4) = -a^2b^2c^2\\\\\n&amp; + a&#39;^2a^2(b^2+c^2-a^2)\n   + b&#39;^2b^2(c^2+a^2-b^2)\n   + c&#39;^2c^2(a^2+b^2-c^2)\\\\\n&amp; - a^2(a&#39;^2-b&#39;^2)(a&#39;^2-c&#39;^2)\n   - b^2(b&#39;^2-c&#39;^2)(b&#39;^2-a&#39;^2)\n   - c^2(c&#39;^2-a&#39;^2)(c&#39;^2-b&#39;^2).\n\\end{align*}\\]</span></p>\n<p>The coefficient of <span class=\"math inline\">\\(p^2\\)</span> in this equation is sixteen times the square of the area of the triangle <span class=\"math inline\">\\(ABC\\)</span>; so that the left-hand member is <span class=\"math inline\">\\(144\\,V^2\\)</span>, where <span class=\"math inline\">\\(V\\)</span> denotes the volume of the tetrahedron. Hence the required expression is obtained.</p>\n<h5 id=\"section-13\">162.</h5>\n<p><em>To find the relation holding among the six arcs of great circles which join four points taken arbitrarily on the surface of a sphere.</em></p>\n<p>Let <span class=\"math inline\">\\(A\\)</span>, <span class=\"math inline\">\\(B\\)</span>, <span class=\"math inline\">\\(C\\)</span>, <span class=\"math inline\">\\(D\\)</span> be the four points. Let <span class=\"math inline\">\\(AB=\\gamma\\)</span>, <span class=\"math inline\">\\(BC=\\alpha\\)</span>, <span class=\"math inline\">\\(CA=\\beta\\)</span>; let <span class=\"math inline\">\\(DA=\\alpha&#39;\\)</span>, <span class=\"math inline\">\\(DB=\\beta&#39;\\)</span>, <span class=\"math inline\">\\(DC=\\gamma&#39;\\)</span>.</p>\n<p>As in Art. 160 we have <span class=\"math display\">\\[1=\\cos^2{ADB}+\\cos^2{BDC}+\\cos^2{CDA}-2\\cos{ADB}\\cos{BDC}\\cos{CDA}.\\]</span></p>\n<p>Now <span class=\"math inline\">\\(\\cos{ADB}=\\dfrac{\\cos{\\gamma}-\\cos{\\alpha&#39;}\\cos{\\beta&#39;}} {\\sin{\\alpha&#39;}\\sin{\\beta}&#39;}\\)</span>, and the other cosines may be expressed in a similar manner; substitute these values in the above result, and we obtain the required relation, which after reduction may be exhibited thus, <span class=\"math display\">\\[\\begin{align*}\n1 &amp;= \\cos^2{\\alpha} +\\cos^2{\\beta} +\\cos^2{\\gamma}\n   + \\cos^2{\\alpha&#39;}+\\cos^2{\\beta&#39;}+\\cos^2{\\gamma&#39;}\n\\\\\n&amp;{} - \\cos^2{\\alpha}\\cos^2{\\alpha&#39;}\n    - \\cos^2{\\beta} \\cos^2{\\beta&#39;}\n    - \\cos^2{\\gamma}\\cos^2{\\gamma&#39;}\n\\\\\n&amp;{} - 2( \\cos{\\alpha}\\cos{\\beta} \\cos{\\gamma}\n    + \\cos{\\alpha}\\cos{\\beta&#39;}\\cos{\\gamma&#39;}\n\\\\\n&amp;{} + \\cos{\\beta} \\cos{\\alpha&#39;}\\cos{\\gamma&#39;}\n    + \\cos{\\gamma}\\cos{\\alpha&#39;}\\cos{\\beta&#39;} )\n\\\\\n&amp;{} + 2( \\cos{\\alpha}\\cos{\\beta}\\cos{\\alpha&#39;}\\cos{\\beta&#39;}\n    + \\cos{\\beta}\\cos{\\gamma}\\cos{\\beta&#39;}\\cos{\\gamma&#39;}\n\\\\\n&amp;{} + \\cos{\\gamma}\\cos{\\alpha}\\cos{\\gamma&#39;}\\cos{\\alpha&#39;} ).\n\\end{align*}\\]</span></p>\n<h5 id=\"section-14\">163.</h5>\n<p><em>To find the radius of the sphere circumscribing a tetrahedron.</em></p>\n<p>Denote the edges of the tetrahedron as in Art. 161. Let the sphere be supposed to be circumscribed about the tetrahedron, and draw on the sphere the six arcs of great circles joining the angular points of the tetrahedron. Then the relation given in Art. 162 holds among the cosines of these six arcs.</p>\n<p>Let <span class=\"math inline\">\\(r\\)</span> denote the radius of the sphere. Then <span class=\"math display\">\\[\\cos{\\alpha}=1-2\\sin^2{\\frac{\\alpha}{2}}\n= 1-2\\left( \\frac{a}{2r} \\right)^2 = 1 - \\frac{a^2}{2r^2};\\]</span> and the other cosines may be expressed in a similar manner. Substitute these values in the result of Art. 162, and we obtain, after reduction, with the aid of Art. 161, <span class=\"math display\">\\[\\begin{align*}\n&amp;\\mathrlap{4\\times144\\,V^2r^2=}&amp; \\\\\n&amp;&amp;&amp; 2a^2b^2a&#39;^2b&#39;^2\n  + 2b^2c^2b&#39;^2c&#39;^2\n  + 2c^2a^2c&#39;^2a&#39;^2 - a^4a&#39;^4 - b^4b&#39;^4 - c^4c&#39;^4. &amp;&amp;\n\\end{align*}\\]</span> The right-hand member may also be put into factors, as we see by recollecting the mode in which the expression for the area of a triangle is put into factors. Let <span class=\"math inline\">\\(aa&#39;+bb&#39;+cc&#39;=2\\sigma\\)</span>; then <span class=\"math display\">\\[36\\hspace{3pt}V^2r^2=\\sigma(\\sigma-aa&#39;)(\\sigma-bb&#39;)(\\sigma-cc&#39;).\\]</span></p>\n<h2 class=\"unnumbered\" id=\"examples.\">EXAMPLES.</h2>\n<p>1. If <span class=\"math inline\">\\(I\\)</span> denote the inclination of two adjacent faces of a regular polyhedron, shew that <span class=\"math inline\">\\(\\cos I=\\tfrac{1}{3}\\)</span> in the tetrahedron, <span class=\"math inline\">\\(=0\\)</span> in the cube, <span class=\"math inline\">\\(=-\\tfrac{1}{3}\\)</span> in the octahedron, <span class=\"math inline\">\\(=-\\tfrac{1}{5}\\surd{5}\\)</span> in the dodecahedron, and <span class=\"math inline\">\\(=-\\tfrac{1}{3}\\surd{5}\\)</span> in the icosahedron.</p>\n<p>2. With the notation of Art. 153, shew that the radius of the sphere which touches one face of a regular polyhedron and all the adjacent faces produced is <span class=\"math inline\">\\(\\tfrac{1}{2}a\\cot{\\dfrac{\\pi}{m}}\\cot{\\tfrac{1}{2}}I\\)</span>.</p>\n<p>3. A sphere touches one face of a regular tetrahedron and the other three faces produced: find its radius.</p>\n<p>4. If <span class=\"math inline\">\\(a\\)</span> and <span class=\"math inline\">\\(b\\)</span> are the radii of the spheres inscribed in and described about a regular tetrahedron, shew that <span class=\"math inline\">\\(b=3a\\)</span>.</p>\n<p>5. If <span class=\"math inline\">\\(a\\)</span> is the radius of a sphere inscribed in a regular tetrahedron, and <span class=\"math inline\">\\(R\\)</span> the radius of the sphere which touches the edges, shew that <span class=\"math inline\">\\(R^2=3a^2\\)</span>.</p>\n<p>6. If <span class=\"math inline\">\\(a\\)</span> is the radius of a sphere inscribed in a regular tetrahedron, and <span class=\"math inline\">\\(R&#39;\\)</span> the radius of the sphere which touches one face and the others produced, shew that <span class=\"math inline\">\\(R&#39;=2a\\)</span>.</p>\n<p>7. If a cube and an octahedron be described about a given sphere, the sphere described about these polyhedrons will be the same; and conversely.</p>\n<p>8. If a dodecahedron and an icosahedron be described about a given sphere, the sphere described about these polyhedrons will be the same; and conversely.</p>\n<p>9. A regular tetrahedron and a regular octahedron are inscribed in the same sphere: compare the radii of the spheres which can be inscribed in the two solids.</p>\n<p>10. The sum of the squares of the four diagonals of a parallelepiped is equal to four times the sum of the squares of the edges.</p>\n<p>11. If with all the angular points of any parallelepiped as centres equal spheres be described, the sum of the intercepted portions of the parallelepiped will be equal in volume to one of the spheres.</p>\n<p>12. A regular octahedron is inscribed in a cube so that the corners of the octahedron are at the centres of the faces of the cube: shew that the volume of the cube is six times that of the octahedron.</p>\n<p>13. It is not possible to fill any given space with a number of regular polyhedrons of the same kind, except cubes; but this may be done by means of tetrahedrons and octahedrons which have equal faces, by using twice as many of the former as of the latter.</p>\n<p>14. A spherical triangle is formed on the surface of a sphere of radius <span class=\"math inline\">\\(\\rho\\)</span>; its angular points are joined, forming thus a pyramid with the straight lines joining them with the centre: shew that the volume of the pyramid is <span class=\"math display\">\\[\\tfrac{1}{3}\\rho^3\\surd{(\\tan r\\tan{r_1}\\tan{r_2}\\tan{r_3})},\\]</span> where <span class=\"math inline\">\\(r\\)</span>, <span class=\"math inline\">\\(r_1\\)</span>, <span class=\"math inline\">\\(r_2\\)</span>, <span class=\"math inline\">\\(r_3\\)</span> are the radii of the inscribed and escribed circles of the triangle.</p>\n<p>15. The angular points of a regular tetrahedron inscribed in a sphere of radius <span class=\"math inline\">\\(r\\)</span> being taken as poles, four equal small circles of the sphere are described, so that each circle touches the other three. Shew that the area of the surface bounded by each circle is <span class=\"math inline\">\\(2\\pi r^2\\left( 1 - \\dfrac{1}{\\surd{3}} \\right)\\)</span>.</p>\n<p>16. If <span class=\"math inline\">\\(O\\)</span> be any point within a spherical triangle <span class=\"math inline\">\\(ABC\\)</span>, the product of the sines of any two sides and the sine of the included angle <span class=\"math display\">\\[\\begin{gather*}\n=\\sin{AO}\\sin{BO}\\sin{CO} \\biggl\\{\\cot{AO}\\sin{BOC} \\\\\n+\\cot{BO}\\sin{COA}+\\cot{CO}\\sin{AOB} \\biggr\\}.\n\\end{gather*}\\]</span></p>",
    "name": "Todhunter 1886, Polyhedrons",
    "pages": [
     "124",
@@ -19534,7 +19534,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -19572,7 +19572,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -19610,7 +19610,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -19649,7 +19649,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -19687,7 +19687,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -19725,7 +19725,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -19763,7 +19763,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -19802,7 +19802,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -19840,7 +19840,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -19879,7 +19879,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -19918,7 +19918,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -19956,7 +19956,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -19992,7 +19992,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20030,7 +20030,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20068,7 +20068,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20106,7 +20106,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20144,7 +20144,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20182,7 +20182,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20220,7 +20220,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20258,7 +20258,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20297,7 +20297,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20335,7 +20335,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20373,7 +20373,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20411,7 +20411,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20449,7 +20449,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20487,7 +20487,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20525,7 +20525,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20563,7 +20563,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20601,7 +20601,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20639,7 +20639,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20677,7 +20677,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20715,7 +20715,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20755,7 +20755,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20793,7 +20793,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20831,7 +20831,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20869,7 +20869,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20907,7 +20907,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20945,7 +20945,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -20983,7 +20983,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21021,7 +21021,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21059,7 +21059,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21097,7 +21097,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21135,7 +21135,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21173,7 +21173,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21211,7 +21211,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21249,7 +21249,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21287,7 +21287,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21325,7 +21325,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21363,7 +21363,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21401,7 +21401,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21439,7 +21439,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21478,7 +21478,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21517,7 +21517,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21555,7 +21555,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21593,7 +21593,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21631,7 +21631,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21669,7 +21669,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21708,7 +21708,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21747,7 +21747,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21786,7 +21786,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21825,7 +21825,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21864,7 +21864,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21902,7 +21902,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21940,7 +21940,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -21978,7 +21978,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22016,7 +22016,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22054,7 +22054,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22092,7 +22092,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22130,7 +22130,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22168,7 +22168,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22206,7 +22206,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22244,7 +22244,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22284,7 +22284,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22322,7 +22322,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22361,7 +22361,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22400,7 +22400,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22438,7 +22438,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22477,7 +22477,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22515,7 +22515,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22551,7 +22551,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22590,7 +22590,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22629,7 +22629,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22667,7 +22667,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22705,7 +22705,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22743,7 +22743,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22779,7 +22779,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22815,7 +22815,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22853,7 +22853,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22892,7 +22892,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22931,7 +22931,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -22970,7 +22970,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23009,7 +23009,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23048,7 +23048,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23087,7 +23087,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23126,7 +23126,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23162,7 +23162,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23198,7 +23198,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23234,7 +23234,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23272,7 +23272,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23311,7 +23311,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23350,7 +23350,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23390,7 +23390,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23429,7 +23429,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23467,7 +23467,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23505,7 +23505,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23543,7 +23543,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23583,7 +23583,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23621,7 +23621,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23660,7 +23660,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23698,7 +23698,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23736,7 +23736,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23775,7 +23775,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23814,7 +23814,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23852,7 +23852,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23891,7 +23891,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23930,7 +23930,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -23968,7 +23968,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24006,7 +24006,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24044,7 +24044,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24082,7 +24082,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24120,7 +24120,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24159,7 +24159,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24197,7 +24197,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24236,7 +24236,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24275,7 +24275,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24314,7 +24314,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24353,7 +24353,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24392,7 +24392,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24431,7 +24431,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24470,7 +24470,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24509,7 +24509,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24547,7 +24547,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24586,7 +24586,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24624,7 +24624,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24663,7 +24663,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24702,7 +24702,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24740,7 +24740,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24778,7 +24778,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24817,7 +24817,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24856,7 +24856,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24895,7 +24895,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -24938,7 +24938,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "FLAG-EXTRACTION"
     ]
@@ -24981,7 +24981,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "FLAG-EXTRACTION"
     ]
@@ -25024,7 +25024,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "FLAG-EXTRACTION"
     ]
@@ -25067,7 +25067,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "FLAG-EXTRACTION"
     ]
@@ -25110,7 +25110,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "FLAG-EXTRACTION"
     ]
@@ -25153,7 +25153,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "FLAG-EXTRACTION"
     ]
@@ -25196,7 +25196,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "FLAG-EXTRACTION"
     ]
@@ -25239,7 +25239,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "41299da",
+    "commit": "d499aa1",
     "verdicts": [
      "FLAG-EXTRACTION"
     ]

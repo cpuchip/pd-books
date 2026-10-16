@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
  "generated_from": {
-  "claudiverse_commit": "41299da",
-  "generated_at": "2026-10-16T07:48:09Z"
+  "claudiverse_commit": "d499aa1",
+  "generated_at": "2026-10-16T10:26:04Z"
  },
  "node_types": [
   "book",
@@ -980,7 +980,7 @@
     "\\Defn": "\\textbf{#1}",
     "\\Dictum": "\\Require\\textbf{#1}",
     "\\Ans": "%\n  \\hfil\\nobreak\\quad\\nobreak\\text{#1 \\textit{Ans.}}%\n",
-    "\\EqText": "\\rlap{\\quad\\text{#1}}",
+    "\\EqText": "\\mathrlap{\\quad\\text{#1}}",
     "\\First": "\\text{#1}",
     "\\DPtypo": "#2",
     "\\Add": "\\DPtypo{}{#1}",

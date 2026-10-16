@@ -55,12 +55,12 @@
   "id": "C001",
   "kind": "candidate",
   "status": "candidate: not yet read on a scan",
-  "page": "247",
+  "page": "248",
   "location": "Exercises p247, problem 10",
   "printed": "make u a minimum",
   "corrected": "make u a maximum",
   "class": "content (minimum for maximum), if the page prints it as transcribed",
-  "evidence": "Printed page 247, problem 10 (the electric time constant of a coil): u = mxyz/(ax + by + cz) with the volume nxyz = g fixed. Then u = (mg/n)/(ax + by + cz), and by the AM-GM inequality ax + by + cz is least, so u greatest, at the printed point ax = by = cz = (abcg/n)^(1/3); u has no minimum (it goes to 0 as x grows with y = z = sqrt(g/(nx))). So the printed point is a maximum of u, not the minimum the problem asks for (claudiverse adjudication, 2026-10-10). Not yet read on either printing.",
+  "evidence": "Printed page 248, problem 10 (the set begins on page 247) (the electric time constant of a coil): u = mxyz/(ax + by + cz) with the volume nxyz = g fixed. Then u = (mg/n)/(ax + by + cz), and by the AM-GM inequality ax + by + cz is least, so u greatest, at the printed point ax = by = cz = (abcg/n)^(1/3); u has no minimum (it goes to 0 as x grows with y = z = sqrt(g/(nx))). So the printed point is a maximum of u, not the minimum the problem asks for (claudiverse adjudication, 2026-10-10). Not yet read on either printing.",
   "found_by": "claudiverse shelf (Haiku 5.5 records, Opus 5.5 adjudicator)",
   "date": "2026-10-10"
  }
