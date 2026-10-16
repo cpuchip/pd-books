@@ -1,0 +1,67 @@
+[
+ {
+  "id": "F001",
+  "kind": "found-by-us",
+  "status": "confirmed against both printings",
+  "page": "201",
+  "location": "Exercises p200, problem 23",
+  "printed": ".078 ft. a min.",
+  "corrected": ".075 ft. a min.",
+  "class": "content (a computed answer): the book's own error, in both printings",
+  "evidence": "Printed page 201, problem 23 (the cylindrical boiler), reads \"Ans. .078 ft. a min.\" in the Cornell copy cu31924003686221 (leaf n218, printing code 919.2) and in the later printing bwb_S0-DZK-742 (leaf n224, code 627.1), read from both page images on 2026-10-10. With V = pi r^2 h, dV/dt = 1, dr/dt = .001, V = 60 and r = 2: dh/dt = (1 - 2V(dr/dt)/r)/(pi r^2) = 0.94/(4 pi) = 47/(200 pi) = 0.0748, so .075 (claudiverse granville_found.py; recomputed by the books seat, #8838).",
+  "found_by": "claudiverse shelf (Haiku 5.5 records, judge, Opus 5.5 adjudicator); both printings read by qwenniverse-fermion; recomputed by the books seat",
+  "date": "2026-10-10"
+ },
+ {
+  "id": "F002",
+  "kind": "found-by-us",
+  "status": "confirmed; the later printing corrects it",
+  "page": "310",
+  "location": "Exercises p310, problem 1 (g)",
+  "printed": "arc tan x/a + pi/(4a)",
+  "corrected": "(1/a) arc tan x/a + pi/(4a)",
+  "class": "content (a missing factor 1/a): the earlier printing's error; our transcription follows the Cornell copy",
+  "evidence": "Printed page 310, problem 1 (g): the derivative is 1/(x^2 + a^2) and the function is pi/(2a) at x = a. The Cornell copy cu31924003686221 (leaf n327, printing code 919.2) prints the answer \"arc tan x/a + pi/(4a)\"; the later printing bwb_S0-DZK-742 (leaf n333, code 627.1) prints \"(1/a) arc tan x/a + pi/(4a)\", read from both page images on 2026-10-10 and again by the books seat (#8838). The printed answer's derivative is a/(x^2 + a^2) and its value at x = a is pi(a + 1)/(4a); the later printing's answer meets both conditions (claudiverse granville_found.py).",
+  "found_by": "claudiverse shelf (Haiku 5.5 records, judge, Opus 5.5 adjudicator); both printings read by qwenniverse-fermion and the books seat",
+  "date": "2026-10-10"
+ },
+ {
+  "id": "F003",
+  "kind": "found-by-us",
+  "status": "confirmed against both printings",
+  "page": "349",
+  "location": "Exercises p349, problem 14",
+  "printed": "e^{-x}(2 - 2x - x^2) + C",
+  "corrected": "e^{-x}(-2 - 2x - x^2) + C",
+  "class": "content (a sign): the book's own error, in both printings",
+  "evidence": "Printed page 349, problem 14, reads \"int x^2 e^{-x} dx = e^{-x}(2 - 2x - x^2) + C\" in the Cornell copy cu31924003686221 (leaf n366, printing code 919.2) and in the later printing bwb_S0-DZK-742 (leaf n372, code 627.1), read from both page images on 2026-10-10, with no minus before the 2 in either. The printed answer's derivative is e^{-x}(x^2 - 4); e^{-x}(-2 - 2x - x^2) differentiates to x^2 e^{-x} (claudiverse granville_found.py; recomputed by the books seat, #8838).",
+  "found_by": "claudiverse shelf (Haiku 5.5 records, judge, Opus 5.5 adjudicator); both printings read by qwenniverse-fermion; recomputed by the books seat",
+  "date": "2026-10-10"
+ },
+ {
+  "id": "F004",
+  "kind": "found-by-us",
+  "status": "confirmed; the later printing corrects it",
+  "page": "350",
+  "location": "Exercises p349, problem 20",
+  "printed": "\\int x^4 \\log x\\,dx = \\frac{x^4}{4}(\\log x - \\frac14) + C",
+  "corrected": "\\int x^3 \\log x\\,dx = \\frac{x^4}{4}(\\log x - \\frac14) + C",
+  "class": "content (the problem's exponent): the earlier printing's error; our transcription follows the Cornell copy",
+  "evidence": "Printed page 350, problem 20. The Cornell copy cu31924003686221 (leaf n367, printing code 919.2) prints the integrand as x^4 log x; the later printing bwb_S0-DZK-742 (leaf n373, code 627.1) prints x^3 log x with the same answer, read from both page images on 2026-10-10. The answer is the integral of x^3 log x (its derivative is x^3 log x), so the earlier printing's error is in the problem, not the answer (claudiverse granville_found.py; recomputed by the books seat, #8838).",
+  "found_by": "claudiverse shelf (Haiku 5.5 records, judge, Opus 5.5 adjudicator); both printings read by qwenniverse-fermion",
+  "date": "2026-10-10"
+ },
+ {
+  "id": "C001",
+  "kind": "candidate",
+  "status": "candidate: not yet read on a scan",
+  "page": "247",
+  "location": "Exercises p247, problem 10",
+  "printed": "make u a minimum",
+  "corrected": "make u a maximum",
+  "class": "content (minimum for maximum), if the page prints it as transcribed",
+  "evidence": "Printed page 247, problem 10 (the electric time constant of a coil): u = mxyz/(ax + by + cz) with the volume nxyz = g fixed. Then u = (mg/n)/(ax + by + cz), and by the AM-GM inequality ax + by + cz is least, so u greatest, at the printed point ax = by = cz = (abcg/n)^(1/3); u has no minimum (it goes to 0 as x grows with y = z = sqrt(g/(nx))). So the printed point is a maximum of u, not the minimum the problem asks for (claudiverse adjudication, 2026-10-10). Not yet read on either printing.",
+  "found_by": "claudiverse shelf (Haiku 5.5 records, Opus 5.5 adjudicator)",
+  "date": "2026-10-10"
+ }
+]

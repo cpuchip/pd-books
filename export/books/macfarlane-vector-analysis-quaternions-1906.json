@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
  "generated_from": {
-  "claudiverse_commit": "ad0e42b",
-  "generated_at": "2026-10-16T04:31:02Z"
+  "claudiverse_commit": "50ccfaf",
+  "generated_at": "2026-10-16T05:41:26Z"
  },
  "node_types": [
   "book",
@@ -6866,7 +6866,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "ad0e42b",
+    "commit": "50ccfaf",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -6905,7 +6905,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "ad0e42b",
+    "commit": "50ccfaf",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -6948,7 +6948,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "ad0e42b",
+    "commit": "50ccfaf",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -6987,7 +6987,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "ad0e42b",
+    "commit": "50ccfaf",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7025,7 +7025,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "ad0e42b",
+    "commit": "50ccfaf",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7068,7 +7068,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "ad0e42b",
+    "commit": "50ccfaf",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7111,7 +7111,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "ad0e42b",
+    "commit": "50ccfaf",
     "verdicts": [
      "FLAG-EXTRACTION"
     ]
@@ -7150,7 +7150,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "ad0e42b",
+    "commit": "50ccfaf",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7189,7 +7189,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "ad0e42b",
+    "commit": "50ccfaf",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7227,7 +7227,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "ad0e42b",
+    "commit": "50ccfaf",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7271,7 +7271,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "ad0e42b",
+    "commit": "50ccfaf",
     "verdicts": [
      "FLAG-MISSING"
     ]
@@ -7315,7 +7315,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "ad0e42b",
+    "commit": "50ccfaf",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7354,7 +7354,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "ad0e42b",
+    "commit": "50ccfaf",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7394,7 +7394,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "ad0e42b",
+    "commit": "50ccfaf",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7435,7 +7435,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "ad0e42b",
+    "commit": "50ccfaf",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7479,7 +7479,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "ad0e42b",
+    "commit": "50ccfaf",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7518,7 +7518,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "ad0e42b",
+    "commit": "50ccfaf",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7558,7 +7558,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "ad0e42b",
+    "commit": "50ccfaf",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7601,7 +7601,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "ad0e42b",
+    "commit": "50ccfaf",
     "verdicts": [
      "FLAG-MISSING"
     ]
@@ -7646,7 +7646,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "ad0e42b",
+    "commit": "50ccfaf",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7686,7 +7686,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "ad0e42b",
+    "commit": "50ccfaf",
     "verdicts": [
      "FLAG-MISSING"
     ]
@@ -7731,7 +7731,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "ad0e42b",
+    "commit": "50ccfaf",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7774,7 +7774,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "ad0e42b",
+    "commit": "50ccfaf",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7813,7 +7813,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "ad0e42b",
+    "commit": "50ccfaf",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7852,7 +7852,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "ad0e42b",
+    "commit": "50ccfaf",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7892,7 +7892,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "ad0e42b",
+    "commit": "50ccfaf",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7931,7 +7931,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "ad0e42b",
+    "commit": "50ccfaf",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -7970,7 +7970,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "ad0e42b",
+    "commit": "50ccfaf",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8008,7 +8008,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "ad0e42b",
+    "commit": "50ccfaf",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8046,7 +8046,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "ad0e42b",
+    "commit": "50ccfaf",
     "verdicts": [
      "FLAG-MISSING"
     ]
@@ -8093,7 +8093,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "ad0e42b",
+    "commit": "50ccfaf",
     "verdicts": [
      "PASS"
     ]
@@ -8160,7 +8160,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "ad0e42b",
+    "commit": "50ccfaf",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8199,7 +8199,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "ad0e42b",
+    "commit": "50ccfaf",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8237,7 +8237,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "ad0e42b",
+    "commit": "50ccfaf",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8276,7 +8276,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "ad0e42b",
+    "commit": "50ccfaf",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8316,7 +8316,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "ad0e42b",
+    "commit": "50ccfaf",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8354,7 +8354,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "ad0e42b",
+    "commit": "50ccfaf",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8392,7 +8392,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "ad0e42b",
+    "commit": "50ccfaf",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8431,7 +8431,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "ad0e42b",
+    "commit": "50ccfaf",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8470,7 +8470,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "ad0e42b",
+    "commit": "50ccfaf",
     "verdicts": [
      "FLAG-MISSING"
     ]
@@ -8512,7 +8512,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "ad0e42b",
+    "commit": "50ccfaf",
     "verdicts": [
      "FLAG-MISSING"
     ]
@@ -8558,7 +8558,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "ad0e42b",
+    "commit": "50ccfaf",
     "verdicts": [
      "PASS"
     ]
@@ -8638,7 +8638,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "ad0e42b",
+    "commit": "50ccfaf",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8677,7 +8677,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "ad0e42b",
+    "commit": "50ccfaf",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8716,7 +8716,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "ad0e42b",
+    "commit": "50ccfaf",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8755,7 +8755,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "ad0e42b",
+    "commit": "50ccfaf",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8793,7 +8793,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "ad0e42b",
+    "commit": "50ccfaf",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8829,7 +8829,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "ad0e42b",
+    "commit": "50ccfaf",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8867,7 +8867,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "ad0e42b",
+    "commit": "50ccfaf",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8906,7 +8906,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "ad0e42b",
+    "commit": "50ccfaf",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8946,7 +8946,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "ad0e42b",
+    "commit": "50ccfaf",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -8986,7 +8986,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "ad0e42b",
+    "commit": "50ccfaf",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -9024,7 +9024,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "ad0e42b",
+    "commit": "50ccfaf",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -9063,7 +9063,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "ad0e42b",
+    "commit": "50ccfaf",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -9101,7 +9101,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "ad0e42b",
+    "commit": "50ccfaf",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -9139,7 +9139,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "ad0e42b",
+    "commit": "50ccfaf",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -9177,7 +9177,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "ad0e42b",
+    "commit": "50ccfaf",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -9216,7 +9216,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "ad0e42b",
+    "commit": "50ccfaf",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -9255,7 +9255,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "ad0e42b",
+    "commit": "50ccfaf",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -9293,7 +9293,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "ad0e42b",
+    "commit": "50ccfaf",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -9331,7 +9331,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "ad0e42b",
+    "commit": "50ccfaf",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
@@ -9369,7 +9369,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "ad0e42b",
+    "commit": "50ccfaf",
     "verdicts": [
      "UNJUDGED-OTHER"
     ]
