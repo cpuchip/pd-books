@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
  "generated_from": {
-  "claudiverse_commit": "98b2784",
-  "generated_at": "2026-10-15T22:14:38Z"
+  "claudiverse_commit": "ad0e42b",
+  "generated_at": "2026-10-16T04:31:02Z"
  },
  "node_types": [
   "book",
@@ -21900,7 +21900,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -21946,7 +21946,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -21993,7 +21993,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -22040,7 +22040,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -22086,7 +22086,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -22132,7 +22132,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -22179,7 +22179,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS-ERRATUM"
     ]
@@ -22227,7 +22227,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -22275,7 +22275,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -22321,7 +22321,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -22368,7 +22368,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -22414,7 +22414,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -22462,7 +22462,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS-INTERPRETED"
     ]
@@ -22510,7 +22510,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS-INTERPRETED"
     ]
@@ -22558,7 +22558,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS-INTERPRETED"
     ]
@@ -22606,7 +22606,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS-INTERPRETED"
     ]
@@ -22654,7 +22654,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS-INTERPRETED"
     ]
@@ -22702,7 +22702,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS-INTERPRETED"
     ]
@@ -22750,7 +22750,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS-INTERPRETED"
     ]
@@ -22797,7 +22797,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -22843,7 +22843,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -22889,7 +22889,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -22935,7 +22935,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -22981,7 +22981,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -23028,7 +23028,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -23096,7 +23096,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS",
      "PASS",
@@ -23151,7 +23151,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -23200,7 +23200,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -23249,7 +23249,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -23296,7 +23296,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -23343,7 +23343,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -23390,7 +23390,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -23436,7 +23436,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -23482,7 +23482,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -23528,7 +23528,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS-ALT-ERRATUM"
     ]
@@ -23597,7 +23597,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS-ERRATUM",
      "PASS",
@@ -23652,7 +23652,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -23698,7 +23698,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -23744,7 +23744,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS-INTERPRETED"
     ]
@@ -23791,7 +23791,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -23802,7 +23802,9 @@
    "shape": [
     "differentiate: a*x**N + b*x + c"
    ],
-   "same_problem_in": [],
+   "same_problem_in": [
+    "granville-differential-integral-calculus-1911/ex-p31/31"
+   ],
    "needs": [
     "cas.derive"
    ],
@@ -23837,7 +23839,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -23884,7 +23886,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -23931,7 +23933,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -23979,7 +23981,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -24027,7 +24029,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -24074,7 +24076,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -24121,7 +24123,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -24169,7 +24171,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -24216,7 +24218,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -24263,7 +24265,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -24310,7 +24312,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -24356,7 +24358,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -24402,7 +24404,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -24449,7 +24451,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -24496,7 +24498,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -24542,7 +24544,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -24588,7 +24590,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-EXTRACTION"
     ]
@@ -24630,7 +24632,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS-INTERPRETED"
     ]
@@ -24678,7 +24680,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS-INTERPRETED"
     ]
@@ -24726,7 +24728,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -24781,7 +24783,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS",
      "PASS"
@@ -24842,7 +24844,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS",
      "PASS"
@@ -24896,7 +24898,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -24940,7 +24942,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-EXTRACTION"
     ]
@@ -24983,7 +24985,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-EXTRACTION"
     ]
@@ -25027,7 +25029,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-MISSING"
     ]
@@ -25070,7 +25072,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -25123,7 +25125,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS",
      "PASS"
@@ -25176,7 +25178,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -25225,7 +25227,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -25274,7 +25276,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS-INTERPRETED"
     ]
@@ -25322,7 +25324,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS-INTERPRETED"
     ]
@@ -25370,7 +25372,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS-INTERPRETED"
     ]
@@ -25417,7 +25419,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-MISSING"
     ]
@@ -25460,7 +25462,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS-INTERPRETED"
     ]
@@ -25508,7 +25510,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS-INTERPRETED"
     ]
@@ -25563,7 +25565,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS-INTERPRETED",
      "PASS-LOOSE"
@@ -25616,7 +25618,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-TASK"
     ]
@@ -25662,7 +25664,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-TASK"
     ]
@@ -25707,7 +25709,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-EXTRACTION"
     ]
@@ -25753,7 +25755,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-EXTRACTION"
     ]
@@ -25820,7 +25822,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS",
      "PASS",
@@ -25875,7 +25877,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -25923,7 +25925,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -25976,7 +25978,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS",
      "PASS"
@@ -26033,7 +26035,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS",
      "PASS"
@@ -26090,7 +26092,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS",
      "PASS"
@@ -26147,7 +26149,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS",
      "PASS"
@@ -26204,7 +26206,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS",
      "PASS"
@@ -26263,7 +26265,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS",
      "PASS"
@@ -26315,7 +26317,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-DOMAIN"
     ]
@@ -26363,7 +26365,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-DOMAIN"
     ]
@@ -26418,7 +26420,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS",
      "PASS"
@@ -26477,7 +26479,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS",
      "PASS"
@@ -26530,7 +26532,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -26541,7 +26543,9 @@
    "shape": [
     "differentiate: (x**N + 1)**N"
    ],
-   "same_problem_in": [],
+   "same_problem_in": [
+    "granville-differential-integral-calculus-1911/ex-p140/4"
+   ],
    "needs": [
     "cas.derive",
     "cas.simplify"
@@ -26577,7 +26581,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -26624,7 +26628,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -26671,7 +26675,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -26718,7 +26722,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -26765,7 +26769,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -26813,7 +26817,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -26861,7 +26865,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-TASK"
     ]
@@ -26905,7 +26909,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -26955,7 +26959,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-MISMATCH"
     ]
@@ -27002,7 +27006,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -27049,7 +27053,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -27092,7 +27096,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-MISSING"
     ]
@@ -27136,7 +27140,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-TASK"
     ]
@@ -27180,7 +27184,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-TASK"
     ]
@@ -27223,7 +27227,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-TASK"
     ]
@@ -27274,7 +27278,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS",
      "PASS"
@@ -27320,7 +27324,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-MISSING"
     ]
@@ -27392,7 +27396,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS",
      "PASS",
@@ -27449,7 +27453,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-MISSING"
     ]
@@ -27493,7 +27497,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-MISSING"
     ]
@@ -27544,7 +27548,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS",
      "PASS"
@@ -27594,7 +27598,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-TASK"
     ]
@@ -27638,7 +27642,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-MISSING"
     ]
@@ -27683,7 +27687,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -27732,7 +27736,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-MISSING"
     ]
@@ -27778,7 +27782,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-MISSING"
     ]
@@ -27828,7 +27832,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS-INTERPRETED",
      "PASS"
@@ -27881,7 +27885,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -27931,7 +27935,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-MISSING"
     ]
@@ -27992,7 +27996,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-MISMATCH",
      "FLAG-MISMATCH",
@@ -28064,7 +28068,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS",
      "PASS",
@@ -28133,7 +28137,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS",
      "PASS",
@@ -28202,7 +28206,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS",
      "PASS",
@@ -28274,7 +28278,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS",
      "PASS",
@@ -28347,7 +28351,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS",
      "PASS",
@@ -28406,7 +28410,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -28452,7 +28456,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -28498,7 +28502,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -28546,7 +28550,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-MISSING"
     ]
@@ -28590,7 +28594,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-MISSING"
     ]
@@ -28648,7 +28652,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS",
      "PASS",
@@ -28718,7 +28722,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS",
      "PASS",
@@ -28787,7 +28791,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS",
      "PASS",
@@ -28858,7 +28862,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS",
      "PASS",
@@ -28929,7 +28933,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS",
      "PASS",
@@ -29002,7 +29006,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS",
      "PASS",
@@ -29061,7 +29065,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS-INTERPRETED"
     ]
@@ -29110,7 +29114,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -29158,7 +29162,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-TASK"
     ]
@@ -29201,7 +29205,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-TASK"
     ]
@@ -29246,7 +29250,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-TASK"
     ]
@@ -29289,7 +29293,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-TASK"
     ]
@@ -29332,7 +29336,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-TASK"
     ]
@@ -29376,7 +29380,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-TASK"
     ]
@@ -29419,7 +29423,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-TASK"
     ]
@@ -29463,7 +29467,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-TASK"
     ]
@@ -29507,7 +29511,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-TASK"
     ]
@@ -29552,7 +29556,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-TASK"
     ]
@@ -29596,7 +29600,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-TASK"
     ]
@@ -29639,7 +29643,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-TASK"
     ]
@@ -29683,7 +29687,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-TASK"
     ]
@@ -29727,7 +29731,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-TASK"
     ]
@@ -29771,7 +29775,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-TASK"
     ]
@@ -29814,7 +29818,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-TASK"
     ]
@@ -29858,7 +29862,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-TASK"
     ]
@@ -29902,7 +29906,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-TASK"
     ]
@@ -29946,7 +29950,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -29992,7 +29996,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -30040,7 +30044,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -30087,7 +30091,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -30130,7 +30134,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-MISSING"
     ]
@@ -30182,7 +30186,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-MISSING",
      "PASS"
@@ -30234,7 +30238,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -30282,7 +30286,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -30329,7 +30333,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -30376,7 +30380,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -30420,7 +30424,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-MISSING"
     ]
@@ -30471,7 +30475,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-MISMATCH"
     ]
@@ -30518,7 +30522,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -30566,7 +30570,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -30613,7 +30617,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -30659,7 +30663,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -30706,7 +30710,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-MISSING"
     ]
@@ -30764,7 +30768,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS",
      "PASS-LOOSE",
@@ -30832,7 +30836,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-MISSING",
      "PASS",
@@ -30898,7 +30902,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS",
      "PASS",
@@ -30959,7 +30963,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-MISSING",
      "PASS-LOOSE"
@@ -31008,7 +31012,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -31056,7 +31060,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -31104,7 +31108,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-MISMATCH"
     ]
@@ -31166,7 +31170,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-MISSING",
      "FLAG-MISMATCH",
@@ -31218,7 +31222,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-EXTRACTION"
     ]
@@ -31258,7 +31262,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-EXTRACTION"
     ]
@@ -31297,7 +31301,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-EXTRACTION"
     ]
@@ -31336,7 +31340,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-EXTRACTION"
     ]
@@ -31380,7 +31384,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -31391,7 +31395,9 @@
    "shape": [
     "differentiate: x**x"
    ],
-   "same_problem_in": [],
+   "same_problem_in": [
+    "granville-differential-integral-calculus-1911/ex-p52/31"
+   ],
    "needs": [
     "cas.derive",
     "core.log"
@@ -31427,7 +31433,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -31474,7 +31480,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -31485,7 +31491,9 @@
    "shape": [
     "differentiate: exp(x**x)"
    ],
-   "same_problem_in": [],
+   "same_problem_in": [
+    "granville-differential-integral-calculus-1911/ex-p52/42"
+   ],
    "needs": [
     "cas.derive",
     "core.log"
@@ -31528,7 +31536,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS",
      "PASS"
@@ -31586,7 +31594,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-MISSING",
      "PASS"
@@ -31643,7 +31651,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-MISSING",
      "PASS"
@@ -31702,7 +31710,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS",
      "PASS"
@@ -31763,7 +31771,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS-ERRATUM",
      "FLAG-MISMATCH"
@@ -31823,7 +31831,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-MISSING",
      "PASS"
@@ -31879,7 +31887,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-MISSING",
      "FLAG-MISMATCH"
@@ -31928,7 +31936,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -31976,7 +31984,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -32024,7 +32032,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-MISSING"
     ]
@@ -32068,7 +32076,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-MISSING"
     ]
@@ -32112,7 +32120,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-MISSING"
     ]
@@ -32157,7 +32165,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -32204,7 +32212,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -32251,7 +32259,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -32298,7 +32306,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -32345,7 +32353,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -32394,7 +32402,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -32444,7 +32452,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-MISMATCH"
     ]
@@ -32499,7 +32507,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-MISMATCH",
      "FLAG-MISMATCH"
@@ -32560,7 +32568,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-MISMATCH",
      "FLAG-MISMATCH"
@@ -32614,7 +32622,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -32661,7 +32669,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -32672,7 +32680,9 @@
    "shape": [
     "differentiate: sin(x)**N"
    ],
-   "same_problem_in": [],
+   "same_problem_in": [
+    "granville-differential-integral-calculus-1911/ex-p59/15"
+   ],
    "needs": [
     "cas.derive",
     "cas.trig",
@@ -32709,7 +32719,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -32756,7 +32766,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -32803,7 +32813,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -32850,7 +32860,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -32899,7 +32909,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -32946,7 +32956,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -32997,7 +33007,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-MISMATCH"
     ]
@@ -33008,7 +33018,9 @@
    "shape": [
     "differentiate: log(cos(x))"
    ],
-   "same_problem_in": [],
+   "same_problem_in": [
+    "granville-differential-integral-calculus-1911/ex-p59/20"
+   ],
    "needs": [
     "cas.derive",
     "core.log",
@@ -33045,7 +33057,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS-INTERPRETED"
     ]
@@ -33107,7 +33119,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS-INTERPRETED",
      "PASS",
@@ -33161,7 +33173,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-MISSING"
     ]
@@ -33206,7 +33218,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -33255,7 +33267,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -33302,7 +33314,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -33314,6 +33326,9 @@
     "integrate: (a**N - x**N)**N"
    ],
    "same_problem_in": [
+    "granville-differential-integral-calculus-1911/ex-p305/2",
+    "granville-differential-integral-calculus-1911/ex-p342/9",
+    "granville-differential-integral-calculus-1911/ex-p349/34",
     "hardy-course-of-pure-mathematics-1921/ex-lxiii/6b",
     "hardy-course-of-pure-mathematics-1921/ex-xlix/2b"
    ],
@@ -33353,7 +33368,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS-ABS-CONVENTION"
     ]
@@ -33402,7 +33417,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS-ABS-CONVENTION"
     ]
@@ -33450,7 +33465,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -33499,7 +33514,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS-ABS-CONVENTION"
     ]
@@ -33549,7 +33564,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -33597,7 +33612,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -33644,7 +33659,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -33655,7 +33670,9 @@
    "shape": [
     "integrate: x**a*log(x)"
    ],
-   "same_problem_in": [],
+   "same_problem_in": [
+    "granville-differential-integral-calculus-1911/ex-p349/6"
+   ],
    "needs": [
     "cas.integrate.parts",
     "core.log"
@@ -33691,7 +33708,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -33738,7 +33755,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -33749,7 +33766,9 @@
    "shape": [
     "integrate: cos(log(x))/x"
    ],
-   "same_problem_in": [],
+   "same_problem_in": [
+    "granville-differential-integral-calculus-1911/ex-p292/20"
+   ],
    "needs": [
     "cas.integrate.subst",
     "core.log",
@@ -33786,7 +33805,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -33797,7 +33816,9 @@
    "shape": [
     "integrate: x**N*exp(x)"
    ],
-   "same_problem_in": [],
+   "same_problem_in": [
+    "granville-differential-integral-calculus-1911/ex-p349/12"
+   ],
    "needs": [
     "cas.integrate.parts"
    ],
@@ -33832,7 +33853,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -33879,7 +33900,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -33926,7 +33947,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS-ABS-CONVENTION"
     ]
@@ -33975,7 +33996,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -34025,7 +34046,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -34075,7 +34096,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -34123,7 +34144,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -34171,7 +34192,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS-INTERPRETED"
     ]
@@ -34220,7 +34241,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS-INTERPRETED"
     ]
@@ -34271,7 +34292,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-MISMATCH"
     ]
@@ -34317,7 +34338,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -34363,7 +34384,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -34412,7 +34433,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -34461,7 +34482,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -34510,7 +34531,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS-INTERPRETED"
     ]
@@ -34560,7 +34581,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-MISMATCH"
     ]
@@ -34607,7 +34628,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-TASK"
     ]
@@ -34649,7 +34670,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-TASK"
     ]
@@ -34691,7 +34712,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-TASK"
     ]
@@ -34733,7 +34754,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-TASK"
     ]
@@ -34771,7 +34792,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-MISSING"
     ]
@@ -34815,7 +34836,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-MISMATCH"
     ]
@@ -34865,7 +34886,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-MISMATCH"
     ]
@@ -34929,7 +34950,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS-INTERPRETED",
      "PASS",
@@ -35004,7 +35025,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS-INTERPRETED",
      "FLAG-MISMATCH",
@@ -35063,7 +35084,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-MISMATCH"
     ]
@@ -35114,7 +35135,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-MISMATCH"
     ]
@@ -35165,7 +35186,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -35213,7 +35234,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-MISMATCH"
     ]
@@ -35262,7 +35283,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -35311,7 +35332,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -35357,7 +35378,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -35404,7 +35425,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -35450,7 +35471,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS-INTERPRETED"
     ]
@@ -35497,7 +35518,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -35544,7 +35565,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -35590,7 +35611,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS-INTERPRETED"
     ]
@@ -35636,7 +35657,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -35684,7 +35705,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -35731,7 +35752,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -35779,7 +35800,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -35826,7 +35847,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS-ABS-CONVENTION"
     ]
@@ -35873,7 +35894,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS-ABS-CONVENTION"
     ]
@@ -35920,7 +35941,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -35966,7 +35987,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -36012,7 +36033,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -36058,7 +36079,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -36104,7 +36125,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -36150,7 +36171,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -36196,7 +36217,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -36243,7 +36264,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -36290,7 +36311,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-MISMATCH"
     ]
@@ -36338,7 +36359,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-MISMATCH"
     ]
@@ -36382,7 +36403,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-MISSING"
     ]
@@ -36427,7 +36448,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-MISSING"
     ]
@@ -36473,7 +36494,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-MISSING"
     ]
@@ -36523,7 +36544,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -36571,7 +36592,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -36620,7 +36641,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-MISMATCH"
     ]
@@ -36669,7 +36690,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -36718,7 +36739,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -36768,7 +36789,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-MISMATCH"
     ]
@@ -36813,7 +36834,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-MISSING"
     ]
@@ -36857,7 +36878,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -36907,7 +36928,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -36955,7 +36976,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -37003,7 +37024,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-MISMATCH"
     ]
@@ -37051,7 +37072,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -37099,7 +37120,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -37150,7 +37171,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -37199,7 +37220,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -37248,7 +37269,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS-LOOSE"
     ]
@@ -37297,7 +37318,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -37346,7 +37367,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-MISMATCH"
     ]
@@ -37394,7 +37415,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -37442,7 +37463,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-MISMATCH"
     ]
@@ -37491,7 +37512,7 @@
    ],
    "verdict": "verified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "PASS"
     ]
@@ -37540,7 +37561,7 @@
    ],
    "verdict": "unverified",
    "judge": {
-    "commit": "98b2784",
+    "commit": "ad0e42b",
     "verdicts": [
      "FLAG-MISMATCH"
     ]
