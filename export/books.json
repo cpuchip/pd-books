@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
  "generated_from": {
-  "claudiverse_commit": "d499aa1",
-  "generated_at": "2026-10-16T10:26:04Z"
+  "claudiverse_commit": "7ad83c1",
+  "generated_at": "2026-10-17T05:05:18Z"
  },
  "node_types": [
   "book",
@@ -125,6 +125,38 @@
    },
    "file": "books/boyden-first-book-in-algebra-1895.json",
    "macros": {}
+  },
+  {
+   "id": "byerly-fouriers-series-harmonics-1893",
+   "title": "An Elementary Treatise on Fourier's Series and Spherical, Cylindrical, and Ellipsoidal Harmonics",
+   "authors": [
+    "William Elwood Byerly"
+   ],
+   "year": 1893,
+   "edition": "Ginn and Company, 1893",
+   "transcription": {
+    "source": "Project Gutenberg eBook #29779",
+    "url": "https://www.gutenberg.org/ebooks/29779",
+    "released": "August 19, 2009",
+    "licence_terms": "This eBook is for the use of anyone anywhere at no cost and with almost no restrictions whatsoever.  You may copy it, give it away or re-use it under the terms of the Project Gutenberg License included with this eBook or online at www.gutenberg.org"
+   },
+   "file": "books/byerly-fouriers-series-harmonics-1893.json",
+   "macros": {
+    "\\limit": "\\operatorname*{limit}",
+    "\\ctn": "\\operatorname{ctn}",
+    "\\ctnh": "\\operatorname{ctnh}",
+    "\\csch": "\\operatorname{csch}",
+    "\\sech": "\\operatorname{sech}",
+    "\\sn": "\\operatorname{sn}",
+    "\\cn": "\\operatorname{cn}",
+    "\\dn": "\\operatorname{dn}",
+    "\\gd": "\\operatorname{gd}",
+    "\\tablestrut": "\\vphantom{\\fbox{$\\dfrac{0}{0}$}}",
+    "\\smallrom": "[{\\scriptsize #1}]",
+    "\\smallromr": "({\\scriptsize #1})",
+    "\\strxx": "\\rule{0in}{1.9ex}",
+    "\\spreadout": "\\sspreadout#1 "
+   }
   },
   {
    "id": "de-morgan-elementary-illustrations-calculus-1899",
@@ -961,6 +993,24 @@
    }
   },
   {
+   "id": "tower-physics-1920",
+   "title": "Physics",
+   "authors": [
+    "Willis E. Tower, Charles H. Smith, Charles M. Turton",
+    "Thomas D. Cope"
+   ],
+   "year": 1920,
+   "edition": "P. Blakiston's Son and Co., 1920",
+   "transcription": {
+    "source": "Project Gutenberg eBook #40175",
+    "url": "https://www.gutenberg.org/ebooks/40175",
+    "released": null,
+    "licence_terms": null
+   },
+   "file": "books/tower-physics-1920.json",
+   "macros": {}
+  },
+  {
    "id": "wentworth-first-steps-in-algebra-1894",
    "title": "The First Steps in Algebra",
    "authors": [
@@ -979,7 +1029,7 @@
     "\\PrintStretch": "%\n  \\ifthenelse{\\boolean{ForPrinting}}{\\enlargethispage{#1}}{}%\n",
     "\\Defn": "\\textbf{#1}",
     "\\Dictum": "\\Require\\textbf{#1}",
-    "\\Ans": "%\n  \\hfil\\nobreak\\quad\\nobreak\\text{#1 \\textit{Ans.}}%\n",
+    "\\Ans": "%\n  \\nobreak\\quad\\nobreak\\text{#1 \\textit{Ans.}}%\n",
     "\\EqText": "\\mathrlap{\\quad\\text{#1}}",
     "\\First": "\\text{#1}",
     "\\DPtypo": "#2",
@@ -1114,6 +1164,36 @@
     "concept/remainder",
     "method/writing-by-inspection",
     "theorem/difference-of-two-squares"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 0
+  },
+  {
+   "books": [
+    "ball-mathematical-recreations-1905",
+    "byerly-fouriers-series-harmonics-1893"
+   ],
+   "shared_concepts": [
+    "concept/circle",
+    "concept/geometrical-progression",
+    "concept/homogeneous-polynomial",
+    "concept/hyperbola",
+    "concept/logarithm",
+    "concept/maximum",
+    "concept/node",
+    "concept/periodic-function",
+    "concept/sine",
+    "concept/sphere",
+    "concept/tangent-function",
+    "concept/temperature",
+    "method/differentiation",
+    "person/adrien-marie-legendre",
+    "person/bernhard-riemann",
+    "person/george-stokes",
+    "person/joseph-louis-lagrange",
+    "person/peter-gustav-lejeune-dirichlet",
+    "person/pierre-simon-laplace",
+    "person/william-thomson"
    ],
    "shared_problem_forms": 0,
    "prerequisite_edges": 0
@@ -1503,6 +1583,66 @@
   {
    "books": [
     "ball-mathematical-recreations-1905",
+    "tower-physics-1920"
+   ],
+   "shared_concepts": [
+    "concept/atom",
+    "concept/centrifugal-force",
+    "concept/closed-circuit",
+    "concept/couple",
+    "concept/electric-current",
+    "concept/electron",
+    "concept/energy",
+    "concept/ether",
+    "concept/friction",
+    "concept/hypothesis",
+    "concept/lever",
+    "concept/matter",
+    "concept/molecule",
+    "concept/pendulum",
+    "concept/perpetual-motion",
+    "concept/phase",
+    "concept/pressure",
+    "concept/radioactivity",
+    "concept/stability-of-equilibrium",
+    "concept/temperature",
+    "concept/uniform-motion",
+    "concept/weight",
+    "concept/work",
+    "instrument/clock",
+    "law/first-law-of-motion",
+    "law/inertia",
+    "law/law-of-gravity",
+    "law/second-law-of-motion",
+    "law/third-law-of-motion",
+    "person/archimedes",
+    "person/benjamin-franklin",
+    "person/henri-becquerel",
+    "person/hermann-von-helmholtz",
+    "person/hooke",
+    "person/huygens",
+    "person/isaac-newton",
+    "person/james-clerk-maxwell",
+    "person/michael-faraday",
+    "person/ren-descartes",
+    "person/wilhelm-conrad-r-ntgen",
+    "person/william-thomson",
+    "quantity/density",
+    "quantity/electric-charge",
+    "quantity/force",
+    "quantity/mass",
+    "quantity/pressure",
+    "quantity/time",
+    "quantity/velocity",
+    "quantity/volume",
+    "unit/foot-pound"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 0
+  },
+  {
+   "books": [
+    "ball-mathematical-recreations-1905",
     "wentworth-first-steps-in-algebra-1894"
    ],
    "shared_concepts": [
@@ -1624,6 +1764,25 @@
    ],
    "shared_concepts": [
     "concept/variable"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 0
+  },
+  {
+   "books": [
+    "blackburn-elements-plane-trigonometry-1863",
+    "byerly-fouriers-series-harmonics-1893"
+   ],
+   "shared_concepts": [
+    "concept/broken-line",
+    "concept/cosine",
+    "concept/function",
+    "concept/limit",
+    "concept/logarithm",
+    "concept/origin",
+    "concept/periodic-function",
+    "concept/sine",
+    "concept/tangent-function"
    ],
    "shared_problem_forms": 0,
    "prerequisite_edges": 0
@@ -1886,6 +2045,19 @@
   {
    "books": [
     "blackburn-elements-plane-trigonometry-1863",
+    "tower-physics-1920"
+   ],
+   "shared_concepts": [
+    "person/archimedes",
+    "person/isaac-newton",
+    "quantity/distance"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 0
+  },
+  {
+   "books": [
+    "blackburn-elements-plane-trigonometry-1863",
     "wentworth-first-steps-in-algebra-1894"
    ],
    "shared_concepts": [
@@ -1951,6 +2123,21 @@
     "quantity/circumference",
     "quantity/distance",
     "quantity/radius"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 0
+  },
+  {
+   "books": [
+    "boyden-first-book-in-algebra-1895",
+    "byerly-fouriers-series-harmonics-1893"
+   ],
+   "shared_concepts": [
+    "concept/coefficient",
+    "concept/homogeneous-polynomial",
+    "concept/linear-equation",
+    "method/elimination",
+    "theorem/binomial-theorem"
    ],
    "shared_problem_forms": 0,
    "prerequisite_edges": 0
@@ -2292,6 +2479,389 @@
     "concept/variable",
     "method/addition",
     "method/multiplication"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 0
+  },
+  {
+   "books": [
+    "byerly-fouriers-series-harmonics-1893",
+    "de-morgan-elementary-illustrations-calculus-1899"
+   ],
+   "shared_concepts": [
+    "concept/circle",
+    "concept/coefficient",
+    "concept/convergent-series",
+    "concept/cosine",
+    "concept/derivative",
+    "concept/divergent-series",
+    "concept/exponential-function",
+    "concept/function",
+    "concept/geometrical-progression",
+    "concept/infinity",
+    "concept/integral",
+    "concept/limit",
+    "concept/limits-of-integration",
+    "concept/logarithm",
+    "concept/origin",
+    "concept/power-series",
+    "concept/root-of-an-equation",
+    "concept/sine",
+    "concept/tangent-function",
+    "method/differentiation",
+    "method/integration",
+    "theorem/binomial-theorem",
+    "theorem/taylor-s-theorem"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 0
+  },
+  {
+   "books": [
+    "byerly-fouriers-series-harmonics-1893",
+    "dickson-theory-of-equations-1922"
+   ],
+   "shared_concepts": [
+    "concept/circle",
+    "concept/coefficient",
+    "concept/continuous-function",
+    "concept/derivative",
+    "concept/homogeneous-linear-equations",
+    "concept/infinity",
+    "concept/linear-equation",
+    "concept/maximum",
+    "concept/minimum",
+    "concept/origin",
+    "concept/root-of-an-equation",
+    "method/differentiation",
+    "method/elimination",
+    "theorem/binomial-theorem",
+    "theorem/taylor-s-theorem"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 0
+  },
+  {
+   "books": [
+    "byerly-fouriers-series-harmonics-1893",
+    "granville-differential-integral-calculus-1911"
+   ],
+   "shared_concepts": [
+    "concept/arbitrary-constant-of-integration",
+    "concept/circle",
+    "concept/concentric-circles",
+    "concept/continuous-function",
+    "concept/convergent-series",
+    "concept/cosine",
+    "concept/definite-integral",
+    "concept/derivative",
+    "concept/differential-equation",
+    "concept/discontinuous-function",
+    "concept/divergent-series",
+    "concept/ellipsoid",
+    "concept/exponential-function",
+    "concept/function",
+    "concept/general-solution",
+    "concept/geometrical-progression",
+    "concept/hyperbola",
+    "concept/identity",
+    "concept/infinity",
+    "concept/initial-conditions",
+    "concept/integral",
+    "concept/limit",
+    "concept/limits-of-integration",
+    "concept/linear-differential-equation",
+    "concept/logarithm",
+    "concept/maximum",
+    "concept/minimum",
+    "concept/order-of-integration",
+    "concept/origin",
+    "concept/partial-differential-equation",
+    "concept/partial-sum",
+    "concept/particular-solution",
+    "concept/power-series",
+    "concept/root-of-an-equation",
+    "concept/sine",
+    "concept/sphere",
+    "concept/tangent-function",
+    "method/differentiation",
+    "method/elimination",
+    "method/integration",
+    "method/integration-by-parts",
+    "method/reduction-formula",
+    "method/summation",
+    "person/joseph-fourier",
+    "person/pierre-simon-laplace",
+    "theorem/binomial-theorem",
+    "theorem/taylor-s-theorem"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 0
+  },
+  {
+   "books": [
+    "byerly-fouriers-series-harmonics-1893",
+    "hardy-course-of-pure-mathematics-1921"
+   ],
+   "shared_concepts": [
+    "concept/arbitrary-constant-of-integration",
+    "concept/circle",
+    "concept/continuous-function",
+    "concept/convergent-series",
+    "concept/cosine",
+    "concept/definite-integral",
+    "concept/derivative",
+    "concept/differential-equation",
+    "concept/discontinuous-function",
+    "concept/divergent-series",
+    "concept/even-function",
+    "concept/exponential-function",
+    "concept/function",
+    "concept/geometrical-progression",
+    "concept/hyperbola",
+    "concept/hyperbolic-function",
+    "concept/infinity",
+    "concept/integral",
+    "concept/limit",
+    "concept/limiting-case",
+    "concept/limits-of-integration",
+    "concept/linear-equation",
+    "concept/logarithm",
+    "concept/maximum",
+    "concept/minimum",
+    "concept/modulus-of-a-complex-number",
+    "concept/odd-function",
+    "concept/origin",
+    "concept/periodic-function",
+    "concept/power-series",
+    "concept/root-of-an-equation",
+    "concept/sine",
+    "concept/sphere",
+    "concept/tangent-function",
+    "method/differentiation",
+    "method/integration",
+    "method/integration-by-parts",
+    "method/reduction-formula",
+    "person/joseph-louis-lagrange",
+    "person/peter-gustav-lejeune-dirichlet",
+    "theorem/binomial-theorem",
+    "theorem/taylor-s-theorem"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 0
+  },
+  {
+   "books": [
+    "byerly-fouriers-series-harmonics-1893",
+    "macfarlane-vector-analysis-quaternions-1906"
+   ],
+   "shared_concepts": [
+    "concept/cosine",
+    "concept/sine",
+    "theorem/binomial-theorem"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 0
+  },
+  {
+   "books": [
+    "byerly-fouriers-series-harmonics-1893",
+    "maxwell-elementary-treatise-electricity-1888"
+   ],
+   "shared_concepts": [
+    "concept/battery",
+    "concept/conduction",
+    "concept/conduction-of-heat",
+    "concept/geometrical-progression",
+    "concept/sphere",
+    "concept/temperature",
+    "method/summation",
+    "person/joseph-fourier",
+    "person/william-thomson",
+    "quantity/electric-potential",
+    "quantity/temperature",
+    "theorem/green-s-theorem"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 0
+  },
+  {
+   "books": [
+    "byerly-fouriers-series-harmonics-1893",
+    "planck-treatise-on-thermodynamics-1903"
+   ],
+   "shared_concepts": [
+    "concept/conduction",
+    "concept/conduction-of-heat",
+    "concept/discontinuous-function",
+    "concept/limiting-case",
+    "concept/maximum",
+    "concept/mechanical-equilibrium",
+    "concept/temperature",
+    "method/elimination",
+    "person/william-thomson",
+    "quantity/temperature",
+    "theorem/taylor-s-theorem"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 0
+  },
+  {
+   "books": [
+    "byerly-fouriers-series-harmonics-1893",
+    "slaught-lennes-solid-geometry-1919"
+   ],
+   "shared_concepts": [
+    "concept/circle",
+    "concept/cosine",
+    "concept/function",
+    "concept/limit",
+    "concept/sine",
+    "concept/sphere",
+    "concept/tangent-function",
+    "person/adrien-marie-legendre"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 0
+  },
+  {
+   "books": [
+    "byerly-fouriers-series-harmonics-1893",
+    "thompson-calculus-made-easy-1914"
+   ],
+   "shared_concepts": [
+    "concept/convergent-series",
+    "concept/cosine",
+    "concept/definite-integral",
+    "concept/derivative",
+    "concept/differential-equation",
+    "concept/exponential-function",
+    "concept/function",
+    "concept/hyperbolic-function",
+    "concept/integral",
+    "concept/limit",
+    "concept/limiting-case",
+    "concept/limits-of-integration",
+    "concept/logarithm",
+    "concept/maximum",
+    "concept/minimum",
+    "concept/periodic-function",
+    "concept/sine",
+    "concept/tangent-function",
+    "concept/wave-equation",
+    "method/differentiation",
+    "method/integration",
+    "method/integration-by-parts",
+    "method/summation",
+    "theorem/binomial-theorem"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 0
+  },
+  {
+   "books": [
+    "byerly-fouriers-series-harmonics-1893",
+    "todhunter-spherical-trigonometry-1886"
+   ],
+   "shared_concepts": [
+    "concept/circle",
+    "concept/cosine",
+    "concept/logarithm",
+    "concept/mechanical-equilibrium",
+    "concept/sine",
+    "concept/sphere",
+    "concept/tangent-function",
+    "concept/temperature",
+    "person/adrien-marie-legendre"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 0
+  },
+  {
+   "books": [
+    "byerly-fouriers-series-harmonics-1893",
+    "tower-physics-1920"
+   ],
+   "shared_concepts": [
+    "concept/battery",
+    "concept/conduction",
+    "concept/conduction-of-heat",
+    "concept/electric-potential",
+    "concept/fundamental-note",
+    "concept/mechanical-equilibrium",
+    "concept/node-of-a-vibrating-string",
+    "concept/temperature",
+    "concept/vibrating-string",
+    "concept/wave",
+    "person/william-thomson",
+    "quantity/electric-potential",
+    "quantity/temperature"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 0
+  },
+  {
+   "books": [
+    "byerly-fouriers-series-harmonics-1893",
+    "wentworth-first-steps-in-algebra-1894"
+   ],
+   "shared_concepts": [
+    "concept/coefficient",
+    "concept/geometrical-progression",
+    "concept/identity",
+    "concept/linear-equation",
+    "method/elimination"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 0
+  },
+  {
+   "books": [
+    "byerly-fouriers-series-harmonics-1893",
+    "wentworth-plane-geometry-1899"
+   ],
+   "shared_concepts": [
+    "concept/axis-of-symmetry",
+    "concept/broken-line",
+    "concept/circle",
+    "concept/concentric-circles",
+    "concept/limit",
+    "concept/maximum",
+    "concept/minimum",
+    "concept/superposition"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 0
+  },
+  {
+   "books": [
+    "byerly-fouriers-series-harmonics-1893",
+    "whitehead-introduction-to-mathematics-1911"
+   ],
+   "shared_concepts": [
+    "concept/circle",
+    "concept/continuous-function",
+    "concept/convergent-series",
+    "concept/cosine",
+    "concept/derivative",
+    "concept/differential-equation",
+    "concept/discontinuous-function",
+    "concept/divergent-series",
+    "concept/exponential-function",
+    "concept/function",
+    "concept/geometrical-progression",
+    "concept/hyperbola",
+    "concept/infinity",
+    "concept/integral",
+    "concept/limit",
+    "concept/linear-equation",
+    "concept/origin",
+    "concept/partial-sum",
+    "concept/periodic-function",
+    "concept/sine",
+    "method/harmonic-analysis",
+    "person/george-stokes",
+    "theorem/fourier-s-theorem"
    ],
    "shared_problem_forms": 0,
    "prerequisite_edges": 0
@@ -2729,6 +3299,32 @@
   {
    "books": [
     "de-morgan-elementary-illustrations-calculus-1899",
+    "tower-physics-1920"
+   ],
+   "shared_concepts": [
+    "concept/falling-bodies",
+    "concept/focus",
+    "concept/proportion",
+    "concept/reciprocal",
+    "concept/specific-gravity",
+    "concept/uniform-motion",
+    "concept/uniformly-accelerated-motion",
+    "concept/weight",
+    "person/archimedes",
+    "person/isaac-newton",
+    "quantity/acceleration",
+    "quantity/density",
+    "quantity/distance",
+    "quantity/force",
+    "quantity/time",
+    "quantity/velocity"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 0
+  },
+  {
+   "books": [
+    "de-morgan-elementary-illustrations-calculus-1899",
     "wentworth-first-steps-in-algebra-1894"
    ],
    "shared_concepts": [
@@ -3081,6 +3677,18 @@
     "person/augustin-louis-cauchy",
     "person/leonhard-euler",
     "unit/radian"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 0
+  },
+  {
+   "books": [
+    "dickson-theory-of-equations-1922",
+    "tower-physics-1920"
+   ],
+   "shared_concepts": [
+    "person/isaac-newton",
+    "person/ren-descartes"
    ],
    "shared_problem_forms": 0,
    "prerequisite_edges": 0
@@ -3584,6 +4192,34 @@
   {
    "books": [
     "granville-differential-integral-calculus-1911",
+    "tower-physics-1920"
+   ],
+   "shared_concepts": [
+    "concept/center-of-curvature",
+    "concept/centre-of-mass",
+    "concept/expansion",
+    "concept/falling-bodies",
+    "concept/helix",
+    "concept/oscillation",
+    "concept/uniform-motion",
+    "concept/weight",
+    "law/boyle-s-law",
+    "person/archimedes",
+    "person/isaac-newton",
+    "quantity/acceleration",
+    "quantity/distance",
+    "quantity/pressure",
+    "quantity/time",
+    "quantity/velocity",
+    "quantity/volume",
+    "quantity/work"
+   ],
+   "shared_problem_forms": 2,
+   "prerequisite_edges": 0
+  },
+  {
+   "books": [
+    "granville-differential-integral-calculus-1911",
     "wentworth-first-steps-in-algebra-1894"
    ],
    "shared_concepts": [
@@ -3960,6 +4596,24 @@
   {
    "books": [
     "hardy-course-of-pure-mathematics-1921",
+    "tower-physics-1920"
+   ],
+   "shared_concepts": [
+    "concept/expansion",
+    "concept/focus",
+    "concept/oscillation",
+    "concept/reciprocal",
+    "concept/rotation",
+    "concept/translation",
+    "law/boyle-s-law",
+    "quantity/velocity"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 0
+  },
+  {
+   "books": [
+    "hardy-course-of-pure-mathematics-1921",
     "wentworth-first-steps-in-algebra-1894"
    ],
    "shared_concepts": [
@@ -4239,6 +4893,35 @@
   {
    "books": [
     "macfarlane-vector-analysis-quaternions-1906",
+    "tower-physics-1920"
+   ],
+   "shared_concepts": [
+    "concept/alternating-current",
+    "concept/centre-of-mass",
+    "concept/conductor",
+    "concept/reciprocal",
+    "concept/rotation",
+    "concept/torque",
+    "concept/work",
+    "method/resolution-of-a-vector",
+    "method/vector-addition",
+    "quantity/electromotive-force",
+    "quantity/force",
+    "quantity/frequency",
+    "quantity/kinetic-energy",
+    "quantity/mass",
+    "quantity/resistance",
+    "quantity/resultant-force",
+    "quantity/self-induction",
+    "quantity/velocity",
+    "quantity/volume"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 0
+  },
+  {
+   "books": [
+    "macfarlane-vector-analysis-quaternions-1906",
     "wentworth-first-steps-in-algebra-1894"
    ],
    "shared_concepts": [
@@ -4381,6 +5064,90 @@
   {
    "books": [
     "maxwell-elementary-treatise-electricity-1888",
+    "tower-physics-1920"
+   ],
+   "shared_concepts": [
+    "concept/anode",
+    "concept/battery",
+    "concept/cathode",
+    "concept/chemical-reaction",
+    "concept/conduction",
+    "concept/conduction-of-heat",
+    "concept/conductor",
+    "concept/dielectric",
+    "concept/diffusion",
+    "concept/electric-brush",
+    "concept/electric-circuit",
+    "concept/electric-current",
+    "concept/electric-discharge",
+    "concept/electric-field",
+    "concept/electric-induction",
+    "concept/electric-spark",
+    "concept/electric-wind",
+    "concept/electrical-earth",
+    "concept/electrification",
+    "concept/electrode",
+    "concept/electrolysis",
+    "concept/electrolyte",
+    "concept/energy",
+    "concept/heat",
+    "concept/insulator",
+    "concept/ion",
+    "concept/line-of-electric-force",
+    "concept/mercury",
+    "concept/molecular-agitation",
+    "concept/negative-electrification",
+    "concept/optical-image",
+    "concept/polarization",
+    "concept/positive-electrification",
+    "concept/pressure",
+    "concept/temperature",
+    "concept/tourmaline",
+    "concept/work",
+    "instrument/condenser",
+    "instrument/coulomb-s-proof-plane",
+    "instrument/electrophorus",
+    "instrument/electroscope",
+    "instrument/galvanometer",
+    "instrument/influence-machine",
+    "instrument/leyden-jar",
+    "instrument/resistance-coil",
+    "instrument/voltaic-battery",
+    "instrument/wheatstone-s-bridge",
+    "law/conservation-of-energy",
+    "law/faraday-s-laws-of-electrolysis",
+    "law/ohm-s-law",
+    "method/discharging-a-conductor",
+    "person/alessandro-volta",
+    "person/georg-simon-ohm",
+    "person/hans-christian-oersted",
+    "person/hermann-von-helmholtz",
+    "person/james-prescott-joule",
+    "person/michael-faraday",
+    "person/william-thomson",
+    "quantity/absolute-temperature",
+    "quantity/capacity",
+    "quantity/electric-charge",
+    "quantity/electric-current",
+    "quantity/electric-energy",
+    "quantity/electric-potential",
+    "quantity/electromotive-force",
+    "quantity/force",
+    "quantity/mechanical-equivalent-of-heat",
+    "quantity/resistance",
+    "quantity/surface-charge-density",
+    "quantity/temperature",
+    "theorem/resistance-of-conductors-in-multiple-arc",
+    "theorem/resistance-of-conductors-in-series",
+    "unit/ohm",
+    "unit/volt"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 0
+  },
+  {
+   "books": [
+    "maxwell-elementary-treatise-electricity-1888",
     "wentworth-first-steps-in-algebra-1894"
    ],
    "shared_concepts": [
@@ -4452,6 +5219,68 @@
     "concept/temperature",
     "person/leonhard-euler",
     "quantity/volume"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 0
+  },
+  {
+   "books": [
+    "planck-treatise-on-thermodynamics-1903",
+    "tower-physics-1920"
+   ],
+   "shared_concepts": [
+    "concept/atom",
+    "concept/chemical-reaction",
+    "concept/conduction",
+    "concept/conduction-of-heat",
+    "concept/diffusion",
+    "concept/electrolyte",
+    "concept/energy",
+    "concept/friction",
+    "concept/heat",
+    "concept/heat-engine",
+    "concept/ion",
+    "concept/mechanical-equilibrium",
+    "concept/melting-point",
+    "concept/mercury",
+    "concept/molecule",
+    "concept/perfect-gas",
+    "concept/perpetual-motion",
+    "concept/phase",
+    "concept/physical-change",
+    "concept/pressure",
+    "concept/saturation-point",
+    "concept/solubility",
+    "concept/stability-of-equilibrium",
+    "concept/temperature",
+    "concept/work",
+    "instrument/gas-thermometer",
+    "law/boyle-s-law",
+    "law/conservation-of-energy",
+    "person/benjamin-thompson-count-rumford",
+    "person/hermann-von-helmholtz",
+    "person/humphry-davy",
+    "person/james-clerk-maxwell",
+    "person/james-prescott-joule",
+    "person/watt",
+    "person/william-thomson",
+    "quantity/absolute-temperature",
+    "quantity/coefficient-of-expansion",
+    "quantity/density",
+    "quantity/kinetic-energy",
+    "quantity/latent-heat",
+    "quantity/mass",
+    "quantity/mechanical-equivalent-of-heat",
+    "quantity/potential-energy",
+    "quantity/pressure",
+    "quantity/specific-heat",
+    "quantity/speed-of-sound",
+    "quantity/temperature",
+    "quantity/volume",
+    "quantity/work",
+    "unit/calorie",
+    "unit/dyne",
+    "unit/erg"
    ],
    "shared_problem_forms": 0,
    "prerequisite_edges": 0
@@ -4589,6 +5418,17 @@
   {
    "books": [
     "slaught-lennes-solid-geometry-1919",
+    "tower-physics-1920"
+   ],
+   "shared_concepts": [
+    "quantity/volume"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 0
+  },
+  {
+   "books": [
+    "slaught-lennes-solid-geometry-1919",
     "wentworth-first-steps-in-algebra-1894"
    ],
    "shared_concepts": [
@@ -4689,6 +5529,32 @@
     "quantity/force",
     "unit/degree-of-angle",
     "unit/radian"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 0
+  },
+  {
+   "books": [
+    "thompson-calculus-made-easy-1914",
+    "tower-physics-1920"
+   ],
+   "shared_concepts": [
+    "concept/alternating-current",
+    "concept/reciprocal",
+    "concept/work",
+    "person/isaac-newton",
+    "quantity/acceleration",
+    "quantity/distance",
+    "quantity/electromotive-force",
+    "quantity/force",
+    "quantity/frequency",
+    "quantity/mass",
+    "quantity/momentum",
+    "quantity/pressure",
+    "quantity/resistance",
+    "quantity/self-induction",
+    "quantity/time",
+    "quantity/velocity"
    ],
    "shared_problem_forms": 0,
    "prerequisite_edges": 0
@@ -4821,6 +5687,21 @@
   {
    "books": [
     "todhunter-spherical-trigonometry-1886",
+    "tower-physics-1920"
+   ],
+   "shared_concepts": [
+    "concept/mechanical-equilibrium",
+    "concept/rotation",
+    "concept/temperature",
+    "quantity/force",
+    "quantity/volume"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 0
+  },
+  {
+   "books": [
+    "todhunter-spherical-trigonometry-1886",
     "wentworth-first-steps-in-algebra-1894"
    ],
    "shared_concepts": [
@@ -4882,6 +5763,63 @@
     "quantity/radius",
     "quantity/volume",
     "theorem/sum-of-the-angles-of-a-triangle"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 0
+  },
+  {
+   "books": [
+    "tower-physics-1920",
+    "wentworth-first-steps-in-algebra-1894"
+   ],
+   "shared_concepts": [
+    "concept/reciprocal",
+    "quantity/time"
+   ],
+   "shared_problem_forms": 2,
+   "prerequisite_edges": 0
+  },
+  {
+   "books": [
+    "tower-physics-1920",
+    "wentworth-plane-geometry-1899"
+   ],
+   "shared_concepts": [
+    "concept/hypothesis",
+    "concept/proportion",
+    "quantity/distance"
+   ],
+   "shared_problem_forms": 0,
+   "prerequisite_edges": 0
+  },
+  {
+   "books": [
+    "tower-physics-1920",
+    "whitehead-introduction-to-mathematics-1911"
+   ],
+   "shared_concepts": [
+    "concept/focus",
+    "concept/pressure",
+    "concept/resonance",
+    "concept/specific-gravity",
+    "law/archimedes-principle",
+    "law/boyle-s-law",
+    "law/first-law-of-motion",
+    "law/law-of-gravity",
+    "person/benjamin-franklin",
+    "person/galileo-galilei",
+    "person/heinrich-hertz",
+    "person/isaac-newton",
+    "person/luigi-galvani",
+    "person/ren-descartes",
+    "person/william-gilbert",
+    "quantity/acceleration",
+    "quantity/distance",
+    "quantity/force",
+    "quantity/mass",
+    "quantity/time",
+    "quantity/velocity",
+    "quantity/volume"
    ],
    "shared_problem_forms": 0,
    "prerequisite_edges": 0
